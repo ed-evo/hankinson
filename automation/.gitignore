@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# this middle process file is too big for github
+quiz/pdf_geometry_dump.json

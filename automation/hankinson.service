@@ -1,0 +1,14 @@
+[Unit]
+Description=Hankinson Web Server
+After=network.target
+
+[Service]
+# %h automatically expands to your home directory (e.g., /home/pi)
+ExecStart=%h/.local/bin/hankinson
+# Changes the working directory to your home folder in case it needs to read local files
+WorkingDirectory=%h
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=default.target
