@@ -1,4 +1,4 @@
-module github.com/lysz210/hankinson/server
+module github.com/ed-evo/hankinson/server
 
 go 1.26.4
 
