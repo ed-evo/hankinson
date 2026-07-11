@@ -1,0 +1,4 @@
+# public folder must be ignored because it contains the built webui files
+public/
+public/favicon.ico
+public/index.html
