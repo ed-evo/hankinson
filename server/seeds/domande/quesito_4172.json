@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20293,
+    "testo": "In presenza del segnale raffigurato è consentito marciare alla velocità di 40 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 329
+  },
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20294,
+    "testo": "Il segnale raffigurato indica il limite di velocità al di sotto del quale è vietato circolare",
+    "risposta_corretta": "VERO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 329
+  },
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20295,
+    "testo": "Il segnale raffigurato è un segnale di obbligo",
+    "risposta_corretta": "VERO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 329
+  },
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20296,
+    "testo": "Il segnale raffigurato impone di circolare ad una velocità di almeno 30 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 330
+  },
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20297,
+    "testo": "Il segnale raffigurato obbliga i veicoli a mantenere almeno la velocità indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 330
+  },
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20298,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che non siano in grado di osservare la prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 330
+  },
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20299,
+    "testo": "Il segnale raffigurato consente di marciare alla velocità di 20 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 330
+  },
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20300,
+    "testo": "Il segnale raffigurato indica la fine del limite massimo di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 330
+  },
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20301,
+    "testo": "Il segnale raffigurato vieta di superare la velocità indicata",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 330
+  },
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20302,
+    "testo": "Il segnale raffigurato consente di marciare ad una velocità superiore a 30 km/h, senza alcun limite",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 330
+  },
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20303,
+    "testo": "Il segnale raffigurato prescrive di marciare alla velocità costante di 30 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 330
+  },
+  {
+    "id_blocco": 4172,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20304,
+    "testo": "Il segnale raffigurato è un segnale di indicazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 330
+  }
+]

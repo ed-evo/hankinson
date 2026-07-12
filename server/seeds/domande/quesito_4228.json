@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4228,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20863,
+    "testo": "La segnaletica in figura indica, sia dentro che fuori dei centri abitati, un attraversam ento pedonale",
+    "risposta_corretta": "VERO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 426
+  },
+  {
+    "id_blocco": 4228,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20864,
+    "testo": "La segnaletica in figura indica un attraversamento pedonale che può trova rsi anche nei piccoli centri abitati",
+    "risposta_corretta": "VERO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 426
+  },
+  {
+    "id_blocco": 4228,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20865,
+    "testo": "La segnaletica in figura indica un attraversamento pedonale",
+    "risposta_corretta": "VERO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 426
+  },
+  {
+    "id_blocco": 4228,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20866,
+    "testo": "La segnaletica in figura indica un attraversamento per pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 426
+  },
+  {
+    "id_blocco": 4228,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20867,
+    "testo": "La segnaletica in figura indica un attraversamento in cui i pedoni hanno la precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 426
+  },
+  {
+    "id_blocco": 4228,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20868,
+    "testo": "La segnaletica in figura indica un'isola di traffico",
+    "risposta_corretta": "FALSO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 426
+  },
+  {
+    "id_blocco": 4228,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20869,
+    "testo": "La segnaletica in figura indica un attraversamento per ciclisti",
+    "risposta_corretta": "FALSO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 426
+  },
+  {
+    "id_blocco": 4228,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20870,
+    "testo": "La segnaletica in figura indica un attraversamento ciclabile",
+    "risposta_corretta": "FALSO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 426
+  },
+  {
+    "id_blocco": 4228,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20871,
+    "testo": "La segnaletica in figura indica un passo carrabile",
+    "risposta_corretta": "FALSO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 426
+  }
+]

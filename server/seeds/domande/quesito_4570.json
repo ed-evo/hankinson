@@ -1,0 +1,74 @@
+[
+  {
+    "id_blocco": 4570,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24137,
+    "testo": "Il c onducente di un veicolo con rimorchio deve sistemare la merce tra sport ata in modo che, durante la marcia, non si verifichino spostamenti, rovesciamenti, cadute o sfregamenti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4570,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24138,
+    "testo": "In caso di prolungata inattività del rimorchio è consigliabile, se non è possibile sollevarlo da terra, aumentare la pressione di gonfiaggio degli pneumatici e cambiare periodicamente la loro superficie di appoggio, in modo da evitare la loro ovalizzazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4570,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24139,
+    "testo": "Nel caso in cui il rimorchio rimanga inattivo per lungo tempo è consigliabile, se possibile, mantenere gli pneumatici sollevati da terra, applicando appositi sostegni sotto al telaio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4570,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24140,
+    "testo": "Quando si traina un rimorchio, la pressione di gonfiaggio degli pneumatici del veicolo trainante deve essere la stessa degli pneumatici del rimorchio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 548
+  }
+]

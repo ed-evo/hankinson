@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4256,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21127,
+    "testo": "La luce gialla lampeggiante, del tipo B o C in figura, è affiancata al sema foro ve icolare",
+    "risposta_corretta": "VERO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 150
+  },
+  {
+    "id_blocco": 4256,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21128,
+    "testo": "La luce gialla lampeggiante, del tipo C in figura, indica che svoltando a destra i veicoli devono dare la precedenza alle biciclette",
+    "risposta_corretta": "VERO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 150
+  },
+  {
+    "id_blocco": 4256,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21129,
+    "testo": "La luce gialla lampeggiante, del tipo B in figura, indica che nello svoltare a destra i veicoli debbono dare la precedenza ai pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 150
+  },
+  {
+    "id_blocco": 4256,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21131,
+    "testo": "La luce gialla lampeggiante, del tipo C in figura, indica una corsia riservata a tutti i veicoli a due ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 150
+  },
+  {
+    "id_blocco": 4256,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21132,
+    "testo": "La luce gialla lampeggiante, del tipo B in figura, indica la presenza di un viale pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 150
+  },
+  {
+    "id_blocco": 4256,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21133,
+    "testo": "La luce gialla lampeggiante, del tipo A in figura, è un semaforo per i veicoli in servizio di linea per trasporto di persone",
+    "risposta_corretta": "FALSO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 150
+  },
+  {
+    "id_blocco": 4256,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21134,
+    "testo": "La luce gialla lampeggiante, del tipo C in figura, indica una corsia riservata ai ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 151
+  }
+]

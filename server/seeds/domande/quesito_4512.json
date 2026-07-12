@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4512,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23659,
+    "testo": "In caso di fe rmata, ove non esista marciapiede rialzato, il conducente deve lasc iare uno spazio non inferiore ad un metro per il transito dei pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4512,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23660,
+    "testo": "Fuori dei cent ri abitati, il conducente, in caso di fermata, deve collocare, se possibile, il veicolo fuori della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4512,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23661,
+    "testo": "Fuori dei cent ri abitati, il conducente, in caso di fermata, deve collocare il veicolo fuori della carreggiata, ma non sulle piste ciclabili",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4512,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23662,
+    "testo": "Fuori dei cent ri abitati, s e non è possibile collocare il veicolo fuori della carreggiata, il conducente deve effettuare la fermata il più vicino possibile al margi ne destro della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4512,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23663,
+    "testo": "In caso di fe rmata su strada urbana in cui non esiste il marciapiede rialzato, il conducente deve collocare il veicolo il più vicino possibile al margine destro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4512,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23664,
+    "testo": "Fuori dei cent ri abitati, il conducente, in caso di fermata ha l'obbligo di collocare il veicolo fuori della carreggiata, eventualmente su una pista ciclabile",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 528
+  }
+]

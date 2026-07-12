@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4107,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19545,
+    "testo": "Il segnale raffigurato consente ad un'autovettura di sorpassare un motociclo",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 267
+  },
+  {
+    "id_blocco": 4107,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19546,
+    "testo": "Il segnale raffigurato s i può trovare sia sulle strade urbane che su quelle extraurbane",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 267
+  },
+  {
+    "id_blocco": 4107,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19547,
+    "testo": "Il segnale (A) può essere ripetuto dopo ogni incrocio con pannello integrat ivo (B)",
+    "risposta_corretta": "VERO",
+    "immagine": "3f226c27c67abb8abdee66edcfdc0a20",
+    "pagina_quiz": 267
+  },
+  {
+    "id_blocco": 4107,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19548,
+    "testo": "Il segnale raffigurato vieta di sorpassare autocarri",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 267
+  },
+  {
+    "id_blocco": 4107,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19549,
+    "testo": "Il segnale raffigurato consente di sorpassare i ciclomotori",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 268
+  },
+  {
+    "id_blocco": 4107,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19550,
+    "testo": "Il segnale raffigurato vieta il sorpasso fra autoveicoli, anche se la manovra può compiersi entro la semicarreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 268
+  },
+  {
+    "id_blocco": 4107,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19551,
+    "testo": "Il segnale raffigurato consente ad un motociclo di sorpassare un'autovettura",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 268
+  },
+  {
+    "id_blocco": 4107,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19552,
+    "testo": "Il segnale raffigurato indica che la corsia di destra è riservata ai veicoli lenti",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 268
+  },
+  {
+    "id_blocco": 4107,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19553,
+    "testo": "Il segnale raffigurato consente di sorpassare un'autovettura purché non si oltrepassi la striscia continua",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 268
+  },
+  {
+    "id_blocco": 4107,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19554,
+    "testo": "Il segnale raffigurato vieta ad un motociclo di sorpassare una bicicletta",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 268
+  },
+  {
+    "id_blocco": 4107,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19555,
+    "testo": "Il segnale raffigurato consente il sorpasso tra autovetture se non vi è la striscia bia nca continua",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 268
+  }
+]

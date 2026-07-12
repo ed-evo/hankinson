@@ -1,0 +1,28 @@
+[
+  {
+    "id_blocco": 4675,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25098,
+    "testo": "Nelle curve percorse a forte velocità, lo strisciamento dei pneumatici aumenta la rumorosità del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4675,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25099,
+    "testo": "I rimorchi vuoti, che sobbalzano eccessivamente, possono essere causa di rumore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4312,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21663,
+    "testo": "Il segnale raffigurato indica un attraversamento ciclabile",
+    "risposta_corretta": "VERO",
+    "immagine": "2faf7752ddcc6087bffff0ee81a28eaf",
+    "pagina_quiz": 70
+  },
+  {
+    "id_blocco": 4312,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21664,
+    "testo": "Il segnale raffigurato è posto in corrispondenza delle strisce dell'attraversamento ciclabile",
+    "risposta_corretta": "VERO",
+    "immagine": "2faf7752ddcc6087bffff0ee81a28eaf",
+    "pagina_quiz": 70
+  },
+  {
+    "id_blocco": 4312,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21665,
+    "testo": "Il segnale raffigurato indica che bisogna dare la precedenza ai ciclisti che attraversano sulle strisce",
+    "risposta_corretta": "VERO",
+    "immagine": "2faf7752ddcc6087bffff0ee81a28eaf",
+    "pagina_quiz": 70
+  },
+  {
+    "id_blocco": 4312,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21666,
+    "testo": "Il segnale raffigurato è abbinato alle strisce di attraversamento ciclabile",
+    "risposta_corretta": "VERO",
+    "immagine": "2faf7752ddcc6087bffff0ee81a28eaf",
+    "pagina_quiz": 70
+  },
+  {
+    "id_blocco": 4312,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21667,
+    "testo": "Il segnale raffigurato invita ad usare prudenza perché possiamo trovare ciclisti che att raversano la carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "2faf7752ddcc6087bffff0ee81a28eaf",
+    "pagina_quiz": 70
+  },
+  {
+    "id_blocco": 4312,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21668,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli senza motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "2faf7752ddcc6087bffff0ee81a28eaf",
+    "pagina_quiz": 70
+  },
+  {
+    "id_blocco": 4312,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21669,
+    "testo": "Il segnale raffigurato vieta il transito ai ciclisti",
+    "risposta_corretta": "FALSO",
+    "immagine": "2faf7752ddcc6087bffff0ee81a28eaf",
+    "pagina_quiz": 71
+  },
+  {
+    "id_blocco": 4312,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21670,
+    "testo": "Il segnale raffigurato indica una pista ciclabile",
+    "risposta_corretta": "FALSO",
+    "immagine": "2faf7752ddcc6087bffff0ee81a28eaf",
+    "pagina_quiz": 71
+  },
+  {
+    "id_blocco": 4312,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21671,
+    "testo": "Il segnale raffigurato indica ai ciclisti di svoltare a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "2faf7752ddcc6087bffff0ee81a28eaf",
+    "pagina_quiz": 71
+  },
+  {
+    "id_blocco": 4312,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21672,
+    "testo": "Il segnale raffigurato obbliga i ciclisti a dare la precedenza ai veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "2faf7752ddcc6087bffff0ee81a28eaf",
+    "pagina_quiz": 71
+  }
+]

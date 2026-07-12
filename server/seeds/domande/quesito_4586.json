@@ -1,0 +1,119 @@
+[
+  {
+    "id_blocco": 4586,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24256,
+    "testo": "E' co nsentito l'uso intermittente dei proiettori di profondità (a luce abbagliante), sia di giorno che di notte, per dare avvertimenti utili al fine di evitare incide nti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4586,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24257,
+    "testo": "E' co nsentito l'uso intermittente dei proiettori di profondità (a luce abbagliante), anche all'interno dei centri abitati, per dare avvertimenti utili al fine di evit are incidenti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4586,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24258,
+    "testo": "E' co nsentito l'uso intermittente dei proiettori di profondità (a luce abbagliante) per segnalare al veicolo che precede, sia di giorno che di notte, l'intenzione di sorpassare",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4586,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24259,
+    "testo": "E' co nsentito l'uso intermittente dei proiettori di profondità (a luce abbagliante) per segnalare al veicolo che precede, anche all'interno dei centri abitati, l'intenzione di sorpassare",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 552
+  },
+  {
+    "id_blocco": 4586,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24260,
+    "testo": "E' co nsentito l'uso intermittente dei proiettori di profondità (a luce abbagliante), soltanto sulle strade extraurbane",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 552
+  },
+  {
+    "id_blocco": 4586,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24261,
+    "testo": "E' co nsentito l'uso intermittente dei proiettori di profondità (a luce abbagliante), anche all'interno dei centri urbani, ma unicamente di giorno",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 552
+  },
+  {
+    "id_blocco": 4586,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24262,
+    "testo": "E' co nsentito l'uso intermittente dei proiettori di profondità (a luce abbagliante), solo quando si tras portano feriti o ammalati gravi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 552
+  },
+  {
+    "id_blocco": 4586,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24263,
+    "testo": "E' co nsentito l'uso intermittente dei proiettori di profondità (a luce abbagliante), purché l'illuminazione esterna manchi o sia insufficiente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 552
+  },
+  {
+    "id_blocco": 4586,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24264,
+    "testo": "E' co nsentito l'uso intermittente dei proiettori di profondità (a luce abbagliante), esclusivamente nei casi di pericolo immediato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 552
+  }
+]

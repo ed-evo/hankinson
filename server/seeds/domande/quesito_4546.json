@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4546,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23917,
+    "testo": "Sui motocicli è vietato il trasporto di minori di anni 5",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4546,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23918,
+    "testo": "E' vietato ai conducenti di motocicli trainare e farsi trainare da altri veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4546,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23919,
+    "testo": "Sui motocicli è vietato trasportare oggetti che non siano solidamente assicurati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4546,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23920,
+    "testo": "Sui motocicli è vietato trasportare oggetti che impediscano o limitino la visibilità al conducente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4546,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23921,
+    "testo": "Sui motocicli è possibile trasportare un passeggero solo se quest'ultimo è maggiorenne",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4546,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23922,
+    "testo": "E' co nsentito ai motocicli farsi trainare, ma solo da autovetture",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4546,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23923,
+    "testo": "Sui motocicli è vietato trasportare oggetti che sporgano longitudinalmente rispetto alla sagoma del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 539
+  }
+]

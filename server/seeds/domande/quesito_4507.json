@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4507,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23614,
+    "testo": "Se si parcheggia in una zona regolamentata con parchimetro, occorre esporre l'apposito tagliando, in modo che sia ben visibile",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4507,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23615,
+    "testo": "Per parcheggiare in una zona regolamentata mediante disco orario, bisogna esporre in modo ben visibile l'orario di arrivo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4507,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23616,
+    "testo": "In una zona in cui la sos ta è regolamentata con parchimetro, non occorre utilizzarl o se ci si ferma soltanto per far salire o scendere un passeggero",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4507,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23617,
+    "testo": "Nelle aree di parcheggio a tempo limitato, i veicoli al servizio di persone diversamente abili non sono obbligati a rispettare il limite di tempo stabilito per l a sost a.",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4507,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23618,
+    "testo": "Per parcheggiare in una zona regolamentata mediante disco orario, bisogna indicare sul disco l'orario di fine della sosta, oppure trascriverlo su un foglio di ca rta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4507,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23619,
+    "testo": "In una zona in cui la sos ta è regolamentata mediante disco orario, prima che scada il t empo di validità della sosta è consentito aggiornare l'orario, senza che il veicolo venga s postato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4507,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23620,
+    "testo": "In una zona in cui la sos ta è regolamentata con parchimetro, non occorre utilizzare il parchimetro se si effettua una breve sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4507,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23621,
+    "testo": "Se si parcheggia in una zona regolamentata mediante disco orario, bisogna tra scrivere su un foglio di carta l'ora di arrivo, senza indicare i minuti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 527
+  }
+]

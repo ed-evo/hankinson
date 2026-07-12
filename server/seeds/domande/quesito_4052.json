@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4052,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18869,
+    "testo": "In presenza del segnale raffigurato è importante prevedere eventuali sbandam enti dei veicoli provenienti dal senso opposto",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 385
+  },
+  {
+    "id_blocco": 4052,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18870,
+    "testo": "In presenza del segnale raffigurato è necessario adeguare la velocità in rel azione all e particolari condizioni del fondo stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 385
+  },
+  {
+    "id_blocco": 4052,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18871,
+    "testo": "In presenza del segnale raffigurato è necessario circolare a velocità moderata se si traina un rimorchio",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 385
+  },
+  {
+    "id_blocco": 4052,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18872,
+    "testo": "In presenza del segnale raffigurato è necessario moderare la velocità per evitare eccessive sollecitazioni e danni alle sospensioni",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 385
+  },
+  {
+    "id_blocco": 4052,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18873,
+    "testo": "In presenza del segnale raffigurato è necessario tenere saldamente il volante, per controllare possibili sbandamenti",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 385
+  },
+  {
+    "id_blocco": 4052,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18874,
+    "testo": "In presenza del segnale raffigurato è obbligatorio circolare al centro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 385
+  },
+  {
+    "id_blocco": 4052,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18875,
+    "testo": "In presenza del segnale raffigurato non è necessario rallentare in caso di scarsa visibilità",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 385
+  },
+  {
+    "id_blocco": 4052,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18876,
+    "testo": "In presenza del segnale raffigurato è necessario fare attenzione al restri ngime nto della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 385
+  },
+  {
+    "id_blocco": 4052,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18877,
+    "testo": "In presenza del segnale raffigurato è vietato il sorpasso",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 385
+  },
+  {
+    "id_blocco": 4052,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18878,
+    "testo": "In presenza del segnale raffigurato è necessario rallentare solo se provengono veicoli dal senso opposto",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 386
+  }
+]

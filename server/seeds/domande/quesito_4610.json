@@ -1,0 +1,210 @@
+[
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24500,
+    "testo": "Con la pate nte di categoria A2 si possono condurre i motocicli (con o senza carrozzetta) di potenza fino a 35 kW, rapporto potenza/peso non superiore a 0,2 kW/kg purché non siano derivati da una versione dello stesso modello che svi luppi oltre il doppio della potenza massima",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24501,
+    "testo": "La patente di categoria A2 abilita anche alla guida dei veicoli che si possono condurre con le patenti A1 e AM",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24502,
+    "testo": "La patente di categoria A2 può essere conseguita da chi ha almeno 18 anni di età",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24503,
+    "testo": "La patente di categoria A2 consente al titolare di trasportare un passeggero solo se il posto del passeggero è previsto sulla carta di circolazione del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24504,
+    "testo": "Il titolare di patente di categoria A2 da almeno due anni, può conseguire la patente A che abilita alla guida di tutti i motocicli, anche se ha meno di 24 anni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24505,
+    "testo": "Il titolare di patente di categoria A2 può condurre anche le macchine agri cole che rientrano nei limiti di sagoma e di massa dei motoveicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24506,
+    "testo": "La patente di categoria A2 può essere conseguita da chi ha almeno 20 anni di età",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24507,
+    "testo": "Con la pate nte di categoria A2 si possono condurre i motocicli (con o senza carrozzetta) di potenza fino a 25 kW, rapporto potenza/peso non superiore a 0,2 kW/kg purché non siano derivati da una versione che sviluppa oltre il triplo della potenza massima",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24508,
+    "testo": "Il titolare di patente di categoria A2 da almeno due anni, può conseguire la patente A che abilita alla guida di tutti i motocicli, solo se è già in possesso della patente di categoria AM ed ha più di 24 anni di età",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24509,
+    "testo": "Il titolare di patente di categoria A2 non può condurr e motocicli di cilindra ta superiore a 150 cm3 e di potenza superiore a 25 kW",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24510,
+    "testo": "La patente di categoria A2 può essere conseguita solo se si è già in possesso della patente di categoria A1",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24511,
+    "testo": "La patente di categoria A2 consente di guidare solo i ciclomotori e i quadri cicli l eggeri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4610,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24512,
+    "testo": "La patente di categoria A2 non consente di condurre alcun tipo di triciclo a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  }
+]

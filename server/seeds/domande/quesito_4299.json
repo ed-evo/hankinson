@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4299,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21551,
+    "testo": "Il segnale raffigurato indica l'inizio di un centro abitato",
+    "risposta_corretta": "VERO",
+    "immagine": "8d8b81750ab04039526f6f401c0442b7",
+    "pagina_quiz": 410
+  },
+  {
+    "id_blocco": 4299,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21552,
+    "testo": "Il segnale raffigurato identifica la località raggiunta",
+    "risposta_corretta": "VERO",
+    "immagine": "8d8b81750ab04039526f6f401c0442b7",
+    "pagina_quiz": 410
+  },
+  {
+    "id_blocco": 4299,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21553,
+    "testo": "Il segnale raffigurato è posto all'inizio del centro abitato, su tutte le strade d'ingresso al la località indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "8d8b81750ab04039526f6f401c0442b7",
+    "pagina_quiz": 410
+  },
+  {
+    "id_blocco": 4299,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21554,
+    "testo": "Il segnale raffigurato s e barrato da una striscia rossa indica la fine del centro abitato",
+    "risposta_corretta": "VERO",
+    "immagine": "8d8b81750ab04039526f6f401c0442b7",
+    "pagina_quiz": 410
+  },
+  {
+    "id_blocco": 4299,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21555,
+    "testo": "Il segnale raffigurato indica una località turistica",
+    "risposta_corretta": "FALSO",
+    "immagine": "8d8b81750ab04039526f6f401c0442b7",
+    "pagina_quiz": 410
+  },
+  {
+    "id_blocco": 4299,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21556,
+    "testo": "Il segnale raffigurato è posto per indicare la fine di una provincia",
+    "risposta_corretta": "FALSO",
+    "immagine": "8d8b81750ab04039526f6f401c0442b7",
+    "pagina_quiz": 410
+  },
+  {
+    "id_blocco": 4299,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21557,
+    "testo": "Il segnale raffigurato indica la direzione da seguire per raggiungere Taranto",
+    "risposta_corretta": "FALSO",
+    "immagine": "8d8b81750ab04039526f6f401c0442b7",
+    "pagina_quiz": 411
+  },
+  {
+    "id_blocco": 4299,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21558,
+    "testo": "Il segnale raffigurato identifica un viadotto",
+    "risposta_corretta": "FALSO",
+    "immagine": "8d8b81750ab04039526f6f401c0442b7",
+    "pagina_quiz": 411
+  }
+]

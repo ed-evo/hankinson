@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4461,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23174,
+    "testo": "Nell'incrocio rappresentato nella figura i veicoli passano nel seguente ordine : S, N, C",
+    "risposta_corretta": "VERO",
+    "immagine": "56a61f413809c6c01929e42680d021f0",
+    "pagina_quiz": 445
+  },
+  {
+    "id_blocco": 4461,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23175,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo C transita per ultimo",
+    "risposta_corretta": "VERO",
+    "immagine": "56a61f413809c6c01929e42680d021f0",
+    "pagina_quiz": 445
+  },
+  {
+    "id_blocco": 4461,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23176,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo N transita dopo il veicolo S e prima del veicolo C",
+    "risposta_corretta": "VERO",
+    "immagine": "56a61f413809c6c01929e42680d021f0",
+    "pagina_quiz": 445
+  },
+  {
+    "id_blocco": 4461,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23177,
+    "testo": "Nell'incrocio rappresentato nella figura i veicoli passano nel seguente ordine : C, N, S",
+    "risposta_corretta": "FALSO",
+    "immagine": "56a61f413809c6c01929e42680d021f0",
+    "pagina_quiz": 445
+  },
+  {
+    "id_blocco": 4461,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23178,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo N transita dopo il veicolo C e dopo de l veicolo S",
+    "risposta_corretta": "FALSO",
+    "immagine": "56a61f413809c6c01929e42680d021f0",
+    "pagina_quiz": 445
+  },
+  {
+    "id_blocco": 4461,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23179,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo C transita per primo",
+    "risposta_corretta": "FALSO",
+    "immagine": "56a61f413809c6c01929e42680d021f0",
+    "pagina_quiz": 445
+  }
+]

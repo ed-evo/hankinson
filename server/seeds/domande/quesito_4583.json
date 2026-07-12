@@ -1,0 +1,184 @@
+[
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24223,
+    "testo": "Si devono usare gli indicatori di direzione prima di ogni cambio di corsia, quando si viaggia su strada suddivisa in corsie",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24224,
+    "testo": "Si devono usare gli indicatori di direzione se, marciando su strada a senso unico, ci si sposta sulla corsia di sinistra provenendo da quella di destra",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24225,
+    "testo": "Si devono usare gli indicatori di direzione ogni volta che si deve effettuare una manovra di svolta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24226,
+    "testo": "Si devono usare gli indicatori di direzione se si intende uscire dalla carreggiata per effettuare una fermata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24227,
+    "testo": "Si devono usare gli indicatori di direzione quando, partendo dal margine della carreggiata, ci si vuole immettere nella circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24228,
+    "testo": "Si devono usare gli indicatori di direzione per segnalare l'intenzione di spostarsi nella corsia di decelerazione di uno svincolo autostradale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24229,
+    "testo": "Si devono usare gli indicatori di direzione per segnalare l'intenzione di entrare sulla carreggiata autostradale, provenendo da una corsia di accelerazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24230,
+    "testo": "Non si devono usare gli indicatori di direzione quando si cambia corsia mentre si circola su strada a s enso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24231,
+    "testo": "Non è mai necessario usare gli indicatori di direzione quando si circola su strada a doppio senso ma con carreggiate separate da spartitraffico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24232,
+    "testo": "Non si devono usare gli indicatori di direzione se, per effettuare una fermata fuori della carreggiata, ci si sposta sul margine sinistro",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24233,
+    "testo": "Si devono usare gli indicatori di direzione destri per segnalare che si sta per frenare bruscamente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24234,
+    "testo": "Non si devono usare gli indicatori di direzione se, per entrare in un passo carrabile, occorre svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24235,
+    "testo": "Si devono usare gli indicatori di direzione quando si effettua una svolta a sinistra, ma non quando si svolta a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4583,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24236,
+    "testo": "Si devono usare gli indicatori di direzione sinistri quando si deve percorrere un torna nte verso sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  }
+]

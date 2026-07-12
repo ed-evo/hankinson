@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4345,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21971,
+    "testo": "Il de line atore raffigurato indica di svoltare a destra o a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "2798bde9cff903c926ecfd6da1c46c9e",
+    "pagina_quiz": 30
+  },
+  {
+    "id_blocco": 4345,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21972,
+    "testo": "Il de line atore raffigurato ha le punte delle frecce che segnalano le direzioni possibili",
+    "risposta_corretta": "VERO",
+    "immagine": "2798bde9cff903c926ecfd6da1c46c9e",
+    "pagina_quiz": 30
+  },
+  {
+    "id_blocco": 4345,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21973,
+    "testo": "Il de line atore raffigurato è installato ad un incrocio a forma di \"T\"",
+    "risposta_corretta": "VERO",
+    "immagine": "2798bde9cff903c926ecfd6da1c46c9e",
+    "pagina_quiz": 30
+  },
+  {
+    "id_blocco": 4345,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21974,
+    "testo": "Il de line atore raffigurato è posto in un incrocio dove non è possibile proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "2798bde9cff903c926ecfd6da1c46c9e",
+    "pagina_quiz": 30
+  },
+  {
+    "id_blocco": 4345,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21975,
+    "testo": "Il de line atore raffigurato indica un passaggio a livello",
+    "risposta_corretta": "FALSO",
+    "immagine": "2798bde9cff903c926ecfd6da1c46c9e",
+    "pagina_quiz": 30
+  },
+  {
+    "id_blocco": 4345,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21976,
+    "testo": "Il de line atore raffigurato indica un ponte mobile",
+    "risposta_corretta": "FALSO",
+    "immagine": "2798bde9cff903c926ecfd6da1c46c9e",
+    "pagina_quiz": 30
+  },
+  {
+    "id_blocco": 4345,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21977,
+    "testo": "Il de line atore raffigurato indica una strada chiusa per lavori in corso",
+    "risposta_corretta": "FALSO",
+    "immagine": "2798bde9cff903c926ecfd6da1c46c9e",
+    "pagina_quiz": 31
+  },
+  {
+    "id_blocco": 4345,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21978,
+    "testo": "Il de line atore raffigurato indica un aumento del numero di corsie della strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "2798bde9cff903c926ecfd6da1c46c9e",
+    "pagina_quiz": 31
+  },
+  {
+    "id_blocco": 4345,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21979,
+    "testo": "Il de line atore raffigurato indica una curva a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "2798bde9cff903c926ecfd6da1c46c9e",
+    "pagina_quiz": 31
+  },
+  {
+    "id_blocco": 4345,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21980,
+    "testo": "Il de line atore raffigurato indica l'ingresso di una galleria",
+    "risposta_corretta": "FALSO",
+    "immagine": "2798bde9cff903c926ecfd6da1c46c9e",
+    "pagina_quiz": 31
+  }
+]

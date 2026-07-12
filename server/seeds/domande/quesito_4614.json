@@ -1,0 +1,162 @@
+[
+  {
+    "id_blocco": 4614,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24557,
+    "testo": "La patente di categoria B con codice armonizzato 96, consente di guidare le autovettur e trainanti un rimorchio non leggero (oltre 750 chilogrammi), purché la ma ssa massima autorizzata del complesso non sia superiore a 4.250 chilogrammi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4614,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24558,
+    "testo": "La patente di categoria B con codice armonizzato 96, può essere conseguita anche successivamente al conseguimento della patente di categoria B, superando una prova di guida su specifico veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4614,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24559,
+    "testo": "La patente di categoria B con codice armonizzato 96 può essere conseguita anche contestualmente alla patente di categoria B, sostenendo una prova di guida su specifico veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4614,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24560,
+    "testo": "Il c odice armonizzato 96, apposto sulla patente di categoria B, abilita alla guida di autoveicoli trainanti un rimorchio non leggero (oltre 750 chilogram mi), purché la massa massima autorizzata del complesso non sia superiore a 4.250 chilogrammi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4614,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24561,
+    "testo": "Per guida re un'autovettura che traina un rimorchio non leggero (oltre 750 chilogram mi), con massa massima autorizzata del complesso superiore a 3.500 chilogrammi ma non superiore a 4.250 chilogrammi, è sufficiente aver conseguito la patente di categoria B con codice armonizzato 96",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4614,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24562,
+    "testo": "La patente di categoria B con codice armonizzato 96, abilita alla guida di autosnoda ti con massa massima autorizzata superiore a 4.250 chilogrammi, ma non supe riore a 7.500 chilogrammi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4614,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24563,
+    "testo": "La patente di categoria B con codice armonizzato 96, abilita alla guida di motocicli di potenza fino a 35 kW",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4614,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24564,
+    "testo": "La patente di categoria B con codice armonizzato 96, può essere conseguita solo se si è già in possesso della patente A",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4614,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24565,
+    "testo": "Il c odice armonizzato 96, apposto sulla patente di categoria B, abilita alla guida di autoveicoli trainanti un rimorchio non leggero (oltre 750 chilogram mi), con massa massima autorizzata del complesso superiore a 4.250 chilogrammi ma non superiore a 6.000 chilogrammi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4614,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24566,
+    "testo": "Il c odice armonizzato 96, apposto sulla patente di categoria B, indica che il titolare può condurre un'autovettura che traina un rimorchio solo in Italia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23228,
+    "testo": "Nella situa zione rappresentata in figura il veicolo A deve attendere il tra nsito dei veicoli C ed R",
+    "risposta_corretta": "VERO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 110
+  },
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23229,
+    "testo": "Nella situa zione rappresentata in figura i veicoli transitano nell'ordine: C, R, A, H",
+    "risposta_corretta": "VERO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 110
+  },
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23230,
+    "testo": "Nella situa zione rappresentata in figura il veicolo H deve attendere il tra nsito dei veicoli C, R, A",
+    "risposta_corretta": "VERO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 110
+  },
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23231,
+    "testo": "Nella situa zione rappresentata in figura il veicolo H deve transitare per ultimo",
+    "risposta_corretta": "VERO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 110
+  },
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23232,
+    "testo": "Nella situa zione rappresentata in figura il veicolo R deve attendere il tra nsito del veicolo C",
+    "risposta_corretta": "VERO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 110
+  },
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23233,
+    "testo": "Nella situa zione rappresentata in figura il veicolo C transita per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 110
+  },
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23234,
+    "testo": "Nella situa zione rappresentata in figura i veicoli transitano nell'ordine: C, R, H, A",
+    "risposta_corretta": "FALSO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 110
+  },
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23235,
+    "testo": "Nella situa zione rappresentata in figura il veicolo C deve attendere il tra nsito del veicolo H",
+    "risposta_corretta": "FALSO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 110
+  },
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23236,
+    "testo": "Nella situa zione rappresentata in figura il veicolo A deve attendere il tra nsito del veicolo H",
+    "risposta_corretta": "FALSO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 110
+  },
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23237,
+    "testo": "Nella situa zione rappresentata in figura il veicolo R deve attendere il tra nsito dei veicoli H ed A",
+    "risposta_corretta": "FALSO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 111
+  },
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23238,
+    "testo": "Nella situa zione rappresentata in figura il veicolo C deve attendere il tra nsito dei veicoli R, A, H",
+    "risposta_corretta": "FALSO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 111
+  },
+  {
+    "id_blocco": 4467,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23239,
+    "testo": "Nella situa zione rappresentata in figura il veicolo R deve attendere il tra nsito del veicolo H",
+    "risposta_corretta": "FALSO",
+    "immagine": "4018a8e84a61a7cfa04359f4079bb86f",
+    "pagina_quiz": 111
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id_blocco": 4663,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25014,
+    "testo": "La responsabilità per danni connessi alla circolazione dei veicoli è a carico del conducente e del proprietario del veicolo, se si tratta di responsabilità civile",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4663,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25015,
+    "testo": "La responsabilità per danni connessi alla circolazione dei veicoli è a carico del conducente del veicolo, se si tratta di responsabilità penale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4663,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25016,
+    "testo": "La responsabilità per danni connessi alla circolazione dei veicoli non è a carico del proprietario del veicolo se prova che la circolazione è avvenuta contro la sua volontà",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4663,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25017,
+    "testo": "La responsabilità per danni connessi alla circolazione dei veicoli è a carico del proprietario del veicolo, se si tratta di responsabilità penale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4663,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25018,
+    "testo": "La responsabilità per danni connessi alla circolazione dei veicoli è a carico solo del conducente del veicolo se ci sono stati danni alle cose",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  }
+]

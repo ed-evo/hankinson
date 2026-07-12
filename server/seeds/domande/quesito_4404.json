@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4404,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22627,
+    "testo": "Lo spazio totale di arresto aumenta se aumenta la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4404,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22628,
+    "testo": "Lo spazio totale di arresto aumenta se la strada è innevata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4404,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22629,
+    "testo": "Lo spazio totale di arresto aumenta se la strada è coperta di fango",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4404,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22630,
+    "testo": "Lo spazio totale di arresto aumenta se i pneumatici sono usurati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4404,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22631,
+    "testo": "Lo spazio totale di arresto aumenta se i pneumatici non sono usurati",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4404,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22632,
+    "testo": "Lo spazio totale di arresto aumenta se diminuisce la velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4404,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22633,
+    "testo": "Lo spazio totale di arresto aumenta se l'asfalto è ruvido",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  }
+]

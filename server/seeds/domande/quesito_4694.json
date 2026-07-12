@@ -1,0 +1,30 @@
+[
+  {
+    "id_blocco": 4694,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25215,
+    "testo": "La forza ribaltante in curva aumenta all'aumentare della velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4694,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25216,
+    "testo": "La forza ribaltante in curva diminuisce all'aumentare della velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  }
+]

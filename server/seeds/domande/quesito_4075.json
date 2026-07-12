@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19156,
+    "testo": "In presenza del segnale raffigurato non è consenti to sorpassare i veicoli che ral lent ano per far attraversare i pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 187
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19157,
+    "testo": "In presenza del segnale raffigurato bisogna rallentare per essere pronti ad arrestarsi se ci sono pedoni che attraversano la carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 187
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19158,
+    "testo": "In presenza del segnale raffigurato si deve fare attenzione a non tamponare i veicoli che si arrestano per dare la precedenza ai pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 187
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19159,
+    "testo": "In presenza del segnale raffigurato non si deve effettuare sosta o fermata sopra le st risce pedonali",
+    "risposta_corretta": "VERO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 188
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19160,
+    "testo": "In presenza del segnale raffigurato, qualora non si dia la precedenza ai pedoni che attraversano sulle apposite strisce, si incorre nella sottrazione di punti della patente",
+    "risposta_corretta": "VERO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 188
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19161,
+    "testo": "In presenza del segnale raffigurato è obbligatorio suonare il clacson se vi sono pedoni c he attraversano sulle strisce pedonali",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 188
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19162,
+    "testo": "In presenza del segnale raffigurato si deve rallentare solo se vi sono bambini che attraversano sulle strisce pedonali",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 188
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19163,
+    "testo": "In presenza del segnale raffigurato i pedoni devono dare la precedenza ai veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 188
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19164,
+    "testo": "In presenza del segnale raffigurato non è obbligatorio dare la precedenza ai pedoni che attraversano sulle s trisce pedonali",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 188
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19165,
+    "testo": "In presenza del segnale raffigurato si deve dare la precedenza solo ai pedoni che attraversano da sinis tra",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 188
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19166,
+    "testo": "Il segnale in figura preannuncia un sovrappasso pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 188
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19167,
+    "testo": "Il segnale in figura preannuncia un sottopasso pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 188
+  },
+  {
+    "id_blocco": 4075,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19168,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un attraversamento pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 189
+  }
+]

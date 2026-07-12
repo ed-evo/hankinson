@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4079,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19200,
+    "testo": "In presenza del segnale raffigurato, l'inserimento di una marcia bassa consent e di sfruttare adeguatamente l'azione frenante del motore",
+    "risposta_corretta": "VERO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 193
+  },
+  {
+    "id_blocco": 4079,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19201,
+    "testo": "In presenza del segnale raffigurato si deve moderare la velocità per evitare di tamponare veicoli che procedono più lentamente",
+    "risposta_corretta": "VERO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 193
+  },
+  {
+    "id_blocco": 4079,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19202,
+    "testo": "In presenza del segnale raffigurato bisogna evitare l'uso prolungato dei freni per non surriscaldarli",
+    "risposta_corretta": "VERO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 193
+  },
+  {
+    "id_blocco": 4079,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19203,
+    "testo": "In presenza del segnale raffigurato bisogna evitare un uso eccessivo dei freni e regolare la velocità inserendo una marcia bassa",
+    "risposta_corretta": "VERO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 193
+  },
+  {
+    "id_blocco": 4079,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19204,
+    "testo": "In presenza del segnale raffigurato bisogna usare molta prudenza se la strada è bagnata",
+    "risposta_corretta": "VERO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 193
+  },
+  {
+    "id_blocco": 4079,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19205,
+    "testo": "In presenza del segnale raffigurato si deve rallentare usando continuamente i freni per non danneggiare il cambio di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 193
+  },
+  {
+    "id_blocco": 4079,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19206,
+    "testo": "In presenza del segnale raffigurato bisogna inserire la marcia più alta e adeguare la velocità con i freni",
+    "risposta_corretta": "FALSO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 193
+  },
+  {
+    "id_blocco": 4079,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19207,
+    "testo": "In presenza del segnale raffigurato bisogna marciare con la frizione abbassata",
+    "risposta_corretta": "FALSO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 193
+  },
+  {
+    "id_blocco": 4079,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19208,
+    "testo": "In presenza del segnale raffigurato il conducente deve diminuire la distanza di sicurezza dal veicolo che lo precede",
+    "risposta_corretta": "FALSO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 193
+  }
+]

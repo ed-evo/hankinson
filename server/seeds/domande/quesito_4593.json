@@ -1,0 +1,58 @@
+[
+  {
+    "id_blocco": 4593,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24318,
+    "testo": "Sono previste sanzioni per chi, pur facendo uso della cintura di sicurezza, ne alteri o ostacoli il normale funzionamento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 552
+  },
+  {
+    "id_blocco": 4593,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24319,
+    "testo": "Se non si allaccia la cintura di sicurezza, in caso d'improvvisa frenata si può essere proiettati contro il parabrezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 552
+  },
+  {
+    "id_blocco": 4593,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24320,
+    "testo": "Se il veicolo è dotato di airbag frontali e laterali, si può fare a meno di allacciare la cintura di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 552
+  },
+  {
+    "id_blocco": 4593,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24321,
+    "testo": "Le cint ure di sicurezza vanno agganciate solo se si circola a velocità uguale o superiore a 30 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 552
+  }
+]

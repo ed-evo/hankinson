@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4340,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21921,
+    "testo": "I del ineatori raffigurati sono usati ai lati della carreggiata di strade a senso unico",
+    "risposta_corretta": "VERO",
+    "immagine": "d4afb64225dd08c9fdb3cf55c3940bdf",
+    "pagina_quiz": 414
+  },
+  {
+    "id_blocco": 4340,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21922,
+    "testo": "I del ineatori raffigurati sono dei segnali complementari",
+    "risposta_corretta": "VERO",
+    "immagine": "d4afb64225dd08c9fdb3cf55c3940bdf",
+    "pagina_quiz": 414
+  },
+  {
+    "id_blocco": 4340,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21923,
+    "testo": "I del ineatori raffigurati sono posti ai margini di una strada o di una carreggiata a senso unico",
+    "risposta_corretta": "VERO",
+    "immagine": "d4afb64225dd08c9fdb3cf55c3940bdf",
+    "pagina_quiz": 414
+  },
+  {
+    "id_blocco": 4340,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21924,
+    "testo": "I del ineatori raffigurati servono a visualizzare meglio l'andamento della strada",
+    "risposta_corretta": "VERO",
+    "immagine": "d4afb64225dd08c9fdb3cf55c3940bdf",
+    "pagina_quiz": 415
+  },
+  {
+    "id_blocco": 4340,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21925,
+    "testo": "I del ineatori raffigurati sono posti su strada a doppio senso",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4afb64225dd08c9fdb3cf55c3940bdf",
+    "pagina_quiz": 415
+  },
+  {
+    "id_blocco": 4340,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21926,
+    "testo": "I del ineatori raffigurati si trovano prima di un attraversamento pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4afb64225dd08c9fdb3cf55c3940bdf",
+    "pagina_quiz": 415
+  },
+  {
+    "id_blocco": 4340,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21927,
+    "testo": "I del ineatori raffigurati sono posti al centro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4afb64225dd08c9fdb3cf55c3940bdf",
+    "pagina_quiz": 415
+  },
+  {
+    "id_blocco": 4340,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21928,
+    "testo": "I del ineatori raffigurati dividono la carreggiata in corsie",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4afb64225dd08c9fdb3cf55c3940bdf",
+    "pagina_quiz": 415
+  },
+  {
+    "id_blocco": 4340,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21929,
+    "testo": "I del ineatori raffigurati sono posti per indicare un'area di sosta riservata",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4afb64225dd08c9fdb3cf55c3940bdf",
+    "pagina_quiz": 415
+  },
+  {
+    "id_blocco": 4340,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21930,
+    "testo": "I del ineatori raffigurati sono visibili solo di notte",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4afb64225dd08c9fdb3cf55c3940bdf",
+    "pagina_quiz": 415
+  }
+]

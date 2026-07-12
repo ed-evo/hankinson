@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4420,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22773,
+    "testo": "In caso di traffico intenso il conducente deve regolare la propria velocità uniformandola il più possibile a quella della corrente di traffico che scorre lungo la corsia occupata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 509
+  },
+  {
+    "id_blocco": 4420,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22774,
+    "testo": "In caso di traffico intenso il conducente deve mantenere sempre la distanza di sicurezza dal veicolo che lo precede",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 509
+  },
+  {
+    "id_blocco": 4420,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22775,
+    "testo": "In caso di traffico intenso il conducente deve evitare di suonare il clacson per i nvita re i veicoli che lo precedono ad accelerare l'andatura",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 509
+  },
+  {
+    "id_blocco": 4420,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22776,
+    "testo": "In caso di traffico intenso il conducente deve cambiare ripetutamente corsia di marci a in modo da impegnare sempre quella più libera",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 509
+  },
+  {
+    "id_blocco": 4420,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22777,
+    "testo": "In caso di traffico intenso il conducente deve occupare le corsie riservate alla marcia dei veicoli in servizio pubblico, se libere",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 509
+  },
+  {
+    "id_blocco": 4420,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22778,
+    "testo": "In caso di traffico intenso il conducente deve fare uso del lampeggio simultaneo di tutti gli indicatori di direzione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 509
+  }
+]

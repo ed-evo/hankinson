@@ -1,0 +1,80 @@
+[
+  {
+    "id_blocco": 4669,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25050,
+    "testo": "L'assicurazione per la responsabilità civile auto (R.C.A.) è valida anche per gli incidenti avvenuti nei Paes i dell'Unione Europe a",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 578
+  },
+  {
+    "id_blocco": 4669,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25051,
+    "testo": "L'assicurazione per la responsabilità civile auto (R.C.A.) copre anche la responsabil ità penale in base al premio pagato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 578
+  },
+  {
+    "id_blocco": 4669,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25052,
+    "testo": "L'assicurazione per la responsabilità civile auto (R.C.A.) copre anche le sanzi oni am ministrative pecuniarie, previste dal codice della strada",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 578
+  },
+  {
+    "id_blocco": 4669,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25053,
+    "testo": "L'assicurazione per la responsabilità civile auto (R.C.A.) copre ogni danno causato, anche se superiore al massimale stabilito",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 578
+  },
+  {
+    "id_blocco": 4669,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25054,
+    "testo": "L'assicurazione per la responsabilità civile auto (R.C.A.) copre solo la responsabil ità del conducente, ma non quella del proprietario del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 578
+  },
+  {
+    "id_blocco": 4669,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25055,
+    "testo": "L'assicurazione per la responsabilità civile auto (R.C.A.) copre solo i danni arrecati alle persone, perché per i danni alle cose occorre un altro tipo di contratt o",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 578
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4406,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22644,
+    "testo": "La distanza di sicurezza non dipende dal tipo di alimentazione del motore (benzina, gasolio, GPL)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4406,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22645,
+    "testo": "La distanza di sicurezza dipende dalle condizioni di salute del conducente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4406,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22646,
+    "testo": "La distanza di sicurezza dipende dall'attenzione e concentrazione del conducente durante la guida",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4406,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22647,
+    "testo": "Quando si ma rcia in colonna, conviene aumentare la distanza di sicurezza, per evitare tamponamenti a catena",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4406,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22648,
+    "testo": "La distanza di sicurezza dipende dalla potenza del veicolo che precede",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4406,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22649,
+    "testo": "La distanza di sicurezza dipende dall'efficienza del freno a mano",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4406,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22650,
+    "testo": "La distanza di sicurezza dipende dalla presenza di veicoli che seguono",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4406,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22651,
+    "testo": "La distanza di sicurezza deve essere mantenuta solo dai quadricicli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 504
+  }
+]

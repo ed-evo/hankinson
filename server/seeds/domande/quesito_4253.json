@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4253,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21097,
+    "testo": "Il semaforo in figura vale per i veicoli in servizio di linea per trasporto di persone",
+    "risposta_corretta": "VERO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 158
+  },
+  {
+    "id_blocco": 4253,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21098,
+    "testo": "Il semaforo in figura impone l'arresto ai veicoli in servizio di linea per tra sport o di persone quando è accesa la barra bianca in alto",
+    "risposta_corretta": "VERO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 158
+  },
+  {
+    "id_blocco": 4253,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21099,
+    "testo": "Il semaforo in figura consente ai veicoli di trasporto pubblico di persone di proseguire quando in basso è accesa la barra bianca",
+    "risposta_corretta": "VERO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 158
+  },
+  {
+    "id_blocco": 4253,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21100,
+    "testo": "Il semaforo in figura è valido solo per i veicoli che marciano su rotaie (tram, treni)",
+    "risposta_corretta": "FALSO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 158
+  },
+  {
+    "id_blocco": 4253,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21101,
+    "testo": "Il semaforo in figura regola il transito dei pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 158
+  },
+  {
+    "id_blocco": 4253,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21102,
+    "testo": "Il semaforo in figura indica un passaggio a livello senza barriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 158
+  },
+  {
+    "id_blocco": 4253,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21103,
+    "testo": "Il semaforo in figura regola il transito nei pontili per l'imbarco sulle navi tra ghett o",
+    "risposta_corretta": "FALSO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 159
+  },
+  {
+    "id_blocco": 4253,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21104,
+    "testo": "Il semaforo in figura indica la vicinanza di una stazione ferroviaria",
+    "risposta_corretta": "FALSO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 159
+  },
+  {
+    "id_blocco": 4253,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21105,
+    "testo": "Il semaforo in figura, con il triangolo giallo acceso, preavvisa lavori in corso",
+    "risposta_corretta": "FALSO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 159
+  }
+]

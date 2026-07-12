@@ -1,0 +1,132 @@
+[
+  {
+    "id_blocco": 4624,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24710,
+    "testo": "In caso di pioggia occorre ridurre la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4624,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24711,
+    "testo": "In caso di pioggia occorre tenere in funzione i tergicristalli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4624,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24712,
+    "testo": "In caso di pioggia occorre aumentare la distanza di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4624,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24713,
+    "testo": "In caso di pioggia occorre evitare l'appannamento dei vetri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4624,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24714,
+    "testo": "In caso di pioggia occorre manovrare con prudenza lo sterzo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4624,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24715,
+    "testo": "In caso di pioggia occorre passare velocemente sulle pozzanghere per evitare di rimanere impantanati",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4624,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24716,
+    "testo": "In caso di pioggia occorre coprire il radiatore con l'apposita mascherina",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4624,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24717,
+    "testo": "In caso di pioggia occorre frenare energicamente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4624,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24718,
+    "testo": "In caso di pioggia occorre utilizzare, durante la marcia, la segnalazione luminosa di pericolo (quattro frecce lampeggianti simultaneamente)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4624,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24719,
+    "testo": "In caso di pioggia occorre procedere, di norma, con il pedale della frizione abbassato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  }
+]

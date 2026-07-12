@@ -1,0 +1,322 @@
+[
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24677,
+    "testo": "La patente di guida è confermata se il titolare della stessa è ancora in possesso dei requisiti fisici e psichici prescritti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24678,
+    "testo": "La patente di guida è confermata a seguito di esito favorevole dell'apposito accertamento sanitario eseguito da medico autorizzato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24679,
+    "testo": "La patente di guida è confermata dal Ministero delle infrastrutture e dei tra sport i a seguito di accertamento di idoneità psicofisica svolto da un medico autorizzato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24680,
+    "testo": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di dieci anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24681,
+    "testo": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di cinque anni se rilasciata o confermata a chi ha una età compresa fra i 50 e i 70 anni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24682,
+    "testo": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di tre anni se rilasciata o confermata a chi ha una età compresa fra i 70 e gli 80 anni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24683,
+    "testo": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di due anni se rilasciata o confermata a chi ha superato gli 80 anni di età",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24684,
+    "testo": "La patente di guida di categoria BE, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di dieci anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24685,
+    "testo": "La patente di guida di categoria A, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di dieci anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24686,
+    "testo": "La patente di guida di categoria B SPECIALE (BS), salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, ha validità di cinque anni se rilasciata o confermata a chi non ha superato i 70 anni di età",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24687,
+    "testo": "La patente di guida di categoria B è confermata dal Prefetto a seguito di visita di accertamento dei requisiti morali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24688,
+    "testo": "Con la pate nte di guida scaduta di validità è possibile comunque continuare a guidare per un tempo massimo di tre giorni",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24689,
+    "testo": "La patente di guida è confermata a seguito di esito favorevole della prova tecnica di guida (esame di guida) periodica",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24690,
+    "testo": "Il titolare abilitato a condurre veicoli conducibili con patente della categoria A e della categoria B, per confermarne la validità, deve sostenere due speci fiche visite mediche, ognuna abilitante alla singola categoria",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24691,
+    "testo": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, val e otto anni se rilasciata o confermata a chi ha una età compresa fra i 50 e i 70 anni",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24692,
+    "testo": "La patente di guida di categoria BE, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, val e cinque anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24693,
+    "testo": "La patente di guida di categoria B, non può essere rinnovata a chi ha superato gli 80 anni di età",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24694,
+    "testo": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, val e cinque anni se rilasciata o confermata a chi non ha superato i 50 anni di età",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24695,
+    "testo": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso o salvo allineamento alla data del compleanno del titolare, val e dieci anni in ogni caso di rilascio o di conferma",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4622,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24696,
+    "testo": "La patente di guida di categoria B, salvo diversa limitazione riportata sul documento stesso, non ha scadenza di validità fino al compimento dei 50 anni di età",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 565
+  }
+]

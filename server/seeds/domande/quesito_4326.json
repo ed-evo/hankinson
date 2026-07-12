@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4326,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21793,
+    "testo": "Il segnale raffigurato indica un'officina meccanica per veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "fd528a3d19f2433f95aea3a08e620b90",
+    "pagina_quiz": 411
+  },
+  {
+    "id_blocco": 4326,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21794,
+    "testo": "Il segnale raffigurato indica che nelle vicinanze c'è un'officina meccanica per veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "fd528a3d19f2433f95aea3a08e620b90",
+    "pagina_quiz": 411
+  },
+  {
+    "id_blocco": 4326,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21795,
+    "testo": "Il segnale raffigurato indica officina di riparazione veicoli nelle vicinanze",
+    "risposta_corretta": "VERO",
+    "immagine": "fd528a3d19f2433f95aea3a08e620b90",
+    "pagina_quiz": 411
+  },
+  {
+    "id_blocco": 4326,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21796,
+    "testo": "Il segnale raffigurato indica che a breve distanza è possibile trovare un'officina meccanica per veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "fd528a3d19f2433f95aea3a08e620b90",
+    "pagina_quiz": 411
+  },
+  {
+    "id_blocco": 4326,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21797,
+    "testo": "Il segnale raffigurato indica di fare attenzione agli operai che escono da una fabbrica",
+    "risposta_corretta": "FALSO",
+    "immagine": "fd528a3d19f2433f95aea3a08e620b90",
+    "pagina_quiz": 411
+  },
+  {
+    "id_blocco": 4326,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21798,
+    "testo": "Il segnale raffigurato indica un distributore di carburante",
+    "risposta_corretta": "FALSO",
+    "immagine": "fd528a3d19f2433f95aea3a08e620b90",
+    "pagina_quiz": 411
+  },
+  {
+    "id_blocco": 4326,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21799,
+    "testo": "Il segnale raffigurato indica un'area di sosta nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "fd528a3d19f2433f95aea3a08e620b90",
+    "pagina_quiz": 412
+  },
+  {
+    "id_blocco": 4326,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21800,
+    "testo": "Il segnale raffigurato indica cantonieri al lavoro sulla strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "fd528a3d19f2433f95aea3a08e620b90",
+    "pagina_quiz": 412
+  }
+]

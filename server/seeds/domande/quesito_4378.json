@@ -1,0 +1,119 @@
+[
+  {
+    "id_blocco": 4378,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22357,
+    "testo": "Il limite di velocità sulle autostrade per coloro che hanno conseguito la patente da meno di 3 anni è di 100 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 494
+  },
+  {
+    "id_blocco": 4378,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22358,
+    "testo": "Il limite di velocità sulle strade extraurbane principali per coloro che hanno consegui to la patente da meno di 3 anni è di 90 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 494
+  },
+  {
+    "id_blocco": 4378,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22359,
+    "testo": "Viaggiare ad alta velocità incide sul consumo di carburante e sull'inquinamento ambientale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 494
+  },
+  {
+    "id_blocco": 4378,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22360,
+    "testo": "Brusche variazioni di velocità comportano maggior consumo di carburante",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 494
+  },
+  {
+    "id_blocco": 4378,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22361,
+    "testo": "La velocità in curva incide sulla tenuta di strada del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 494
+  },
+  {
+    "id_blocco": 4378,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22362,
+    "testo": "L'eccessiva velocità in curva può determinare il ribaltamento del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 494
+  },
+  {
+    "id_blocco": 4378,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22363,
+    "testo": "I tratti di strada in curva debbono essere percorsi con il pedale della frizione abbassato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 494
+  },
+  {
+    "id_blocco": 4378,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22364,
+    "testo": "Il limite di velocità sulle autostrade per coloro che hanno conseguito la patente da meno di tre anni è di 110 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 494
+  },
+  {
+    "id_blocco": 4378,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22365,
+    "testo": "Il limite di velocità sulle strade extraurbane principali per coloro che hanno consegui to la patente da meno di 3 anni è di 110 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 494
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4533,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23819,
+    "testo": "Chiunque non abbia potuto evitare la caduta o lo spargimento di materie viscide, infiammabili o comunque pericolose, deve, tra l'altro, presegnalare la zona con il segnale mobile di pericolo anche in mezzo alla carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 534
+  },
+  {
+    "id_blocco": 4533,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23820,
+    "testo": "Su strada extraurbana, chiunque non abbia potuto evitare la caduta o lo spargimento di materie viscide, infiammabili o comunque pericolose deve, tra l'altro, presegnalare la zona con il segnale mobile di pericolo posto anche in mezzo alla carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 534
+  },
+  {
+    "id_blocco": 4533,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23821,
+    "testo": "Chiunque non abbia potuto evitare la caduta o lo spargimento di materie peri colose, deve, tra l'altro, eseguire segnali manuali per impedire il transito dei veicoli dalla parte dove non è stato posto il segnale mobile di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 534
+  },
+  {
+    "id_blocco": 4533,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23822,
+    "testo": "Chiunque non abbia potuto evitare la caduta o lo spargimento di materie viscide, infiammabili o pericolose, deve, tra l'altro, rimuoverle o spargere sul terreno, se possibile, sabbia, terra, segatura o altro materiale idoneo a ripristinare l'aderenza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 534
+  },
+  {
+    "id_blocco": 4533,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23823,
+    "testo": "Chiunque non abbia potuto evitare la caduta o lo spargimento di materie peri colose deve, tra l'altro, eseguire segnali manuali atti a segnalare il peri colo, solo dalla parte dove è stato posto il segnale triangolare mobile di peri colo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 534
+  },
+  {
+    "id_blocco": 4533,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23824,
+    "testo": "Il c onducente di un autoveicolo che non abbia potuto evitare lo spargimento di materie pericolose, può evitare di presegnalare la zona con il segnale mobile di pericolo se esegue segnali sonori per allontanare gli altri ve icol i",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 534
+  },
+  {
+    "id_blocco": 4533,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23825,
+    "testo": "Chiunque non abbia potuto evitare la caduta di materie viscide, deve deviare il traffico in attesa che l'ente proprietario della strada intervenga per ripristinare le condizioni ottimali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 534
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24577,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, a segui to di violazione che comporti le sanzioni accessorie della sospensione della patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24578,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando si a ccerti che il conducente guida con patente la cui validità è scadut a",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24579,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente sia alla guida in stato di ebbrezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24580,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, se il conducente non sistema correttamente il carico mal disposto, dopo invito degli organi di polizia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24581,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, se a seguito di incidente, sono derivate lesioni a persone",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24582,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente, obbligato a sostenere un esame di revisione, non vi si è sottoposto nei termini prescritti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24583,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente trasporta un passeggero in stato di ebbrezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24584,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente circola in Italia con patente rilasciata da uno stato este ro in cui è residente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24585,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, se si cir cola c on pneumatici di dimensioni diverse da quelle riportate sulla carta di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24586,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, tutte le volte che il conducente commette una violazione che comporta una decurtazione di punti dalla patente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24587,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente circola senza avere con sé la carta di circolazione del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4616,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24588,
+    "testo": "La patente di guida viene immediatamente ritirata, durante la circolazione, quando il conducente circola senza avere con sé il certificato di proprietà del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 561
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4327,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21801,
+    "testo": "Il segnale raffigurato indica il confine di Stato con un Paese che fa parte dell'Unione Europea",
+    "risposta_corretta": "VERO",
+    "immagine": "d22543169a5ea90cce3598ab6b8b5741",
+    "pagina_quiz": 392
+  },
+  {
+    "id_blocco": 4327,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21802,
+    "testo": "Il segnale raffigurato s i trova al confine di Stato con un Paese dell'Unione Europea",
+    "risposta_corretta": "VERO",
+    "immagine": "d22543169a5ea90cce3598ab6b8b5741",
+    "pagina_quiz": 392
+  },
+  {
+    "id_blocco": 4327,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21803,
+    "testo": "Il segnale raffigurato indica il confine tra l'Italia ed uno Stato membro dell'Unione Europea",
+    "risposta_corretta": "VERO",
+    "immagine": "d22543169a5ea90cce3598ab6b8b5741",
+    "pagina_quiz": 392
+  },
+  {
+    "id_blocco": 4327,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21804,
+    "testo": "Il segnale raffigurato non obbliga ad arrestarsi al confine di Stato",
+    "risposta_corretta": "VERO",
+    "immagine": "d22543169a5ea90cce3598ab6b8b5741",
+    "pagina_quiz": 392
+  },
+  {
+    "id_blocco": 4327,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21805,
+    "testo": "Il segnale raffigurato preavvisa un posto di blocco degli organi di polizia in vicinanza del confine di Stato",
+    "risposta_corretta": "FALSO",
+    "immagine": "d22543169a5ea90cce3598ab6b8b5741",
+    "pagina_quiz": 393
+  },
+  {
+    "id_blocco": 4327,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21806,
+    "testo": "Il segnale raffigurato è posto dietro al veicolo per indicare la nazione in cui è sta to immatricolato",
+    "risposta_corretta": "FALSO",
+    "immagine": "d22543169a5ea90cce3598ab6b8b5741",
+    "pagina_quiz": 393
+  },
+  {
+    "id_blocco": 4327,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21807,
+    "testo": "Il segnale raffigurato è posto dietro al veicolo per indicare che può circolare solo in uno Stato dell'Europa",
+    "risposta_corretta": "FALSO",
+    "immagine": "d22543169a5ea90cce3598ab6b8b5741",
+    "pagina_quiz": 393
+  },
+  {
+    "id_blocco": 4327,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21808,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi alla frontiera con uno Stato dell'Unione Europea",
+    "risposta_corretta": "FALSO",
+    "immagine": "d22543169a5ea90cce3598ab6b8b5741",
+    "pagina_quiz": 393
+  },
+  {
+    "id_blocco": 4327,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21809,
+    "testo": "Il segnale raffigurato preavvisa l'obbligo di arrestarsi per il controllo doganale entrando in Italia",
+    "risposta_corretta": "FALSO",
+    "immagine": "d22543169a5ea90cce3598ab6b8b5741",
+    "pagina_quiz": 393
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20617,
+    "testo": "Il segnale raffigurato preannuncia che si incrocia a destra una strada di minore importanza",
+    "risposta_corretta": "VERO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 233
+  },
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20618,
+    "testo": "Il segnale raffigurato preannuncia un incrocio con una strada secondaria che si immette da destra",
+    "risposta_corretta": "VERO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 233
+  },
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20619,
+    "testo": "In presenza del segnale raffigurato bisogna usare prudenza perché ci si sta avvicinando ad un incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 233
+  },
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20620,
+    "testo": "Il segnale raffigurato è un segnale di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 233
+  },
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20621,
+    "testo": "Il segnale raffigurato preannuncia l'incrocio con una strada senza diritto di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 233
+  },
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20622,
+    "testo": "Il segnale raffigurato preannuncia un incrocio in cui il conducente ha la precedenza sui veicoli provenienti da destra",
+    "risposta_corretta": "VERO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 233
+  },
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20623,
+    "testo": "Il segnale raffigurato preannuncia, sulla destra, una strada senza uscita",
+    "risposta_corretta": "FALSO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 233
+  },
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20624,
+    "testo": "Il segnale raffigurato vieta la svolta a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 233
+  },
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20625,
+    "testo": "Il segnale raffigurato è posto sulle corsie di accelerazione delle autostrade",
+    "risposta_corretta": "FALSO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 233
+  },
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20626,
+    "testo": "Il segnale raffigurato preannuncia un'immissione stradale con corsia di accelerazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 234
+  },
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20627,
+    "testo": "Il segnale raffigurato preannuncia un incrocio in cui il conducente ha l'obbligo di fermarsi e dare precedenza ai veicoli provenienti da destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 234
+  },
+  {
+    "id_blocco": 4202,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20628,
+    "testo": "Il segnale raffigurato indica una piazzola di sosta a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "b90ff4c558b4de38c3dd24fc8d62a327",
+    "pagina_quiz": 234
+  }
+]

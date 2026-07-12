@@ -1,0 +1,142 @@
+[
+  {
+    "id_blocco": 4012,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18436,
+    "testo": "La str ada può essere suddivisa in carreggiate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4012,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18437,
+    "testo": "La str ada può comprendere le piste ciclabili",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4012,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18438,
+    "testo": "La str ada può essere a senso unico di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4012,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18439,
+    "testo": "La str ada può essere a doppio senso di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4012,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18440,
+    "testo": "La str ada è aperta alla circolazione dei pedoni, degli animali e dei veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4012,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18441,
+    "testo": "La str ada non comprende le banchine",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4012,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18442,
+    "testo": "La str ada è riservata alla circolazione dei soli autoveicoli e motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4012,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18443,
+    "testo": "La str ada è normalmente riservata alla circolazione dei soli veicoli e animali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4012,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18444,
+    "testo": "La str ada non comprende i marciapiedi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4012,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18445,
+    "testo": "La str ada è qualsiasi area asfaltata, limitata lateralmente dagli attraversam enti pedonali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  }
+]

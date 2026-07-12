@@ -1,0 +1,146 @@
+[
+  {
+    "id_blocco": 4542,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23889,
+    "testo": "Sulle autostrade e sulle strade extraurbane principali il conducente che percorre la corsia di accelerazione deve dare la precedenza ai veicoli in circolazione sulle corsie di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 537
+  },
+  {
+    "id_blocco": 4542,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23890,
+    "testo": "Sulle autostrade e sulle strade extraurbane principali, per uscire dalla carreggiata il conducente deve impegnare per tempo la corsia di destra, e quindi immettersi nella corsia di decelerazione dal suo inizio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 537
+  },
+  {
+    "id_blocco": 4542,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23891,
+    "testo": "Sulle autostrade e sulle strade extraurbane principali il conducente deve segnal are tempestivamente il cambiamento di corsia servendosi degli indicator i di direzione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 537
+  },
+  {
+    "id_blocco": 4542,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23892,
+    "testo": "In caso di ingorgo su strade extraurbane principali o autostrade, se la corsia di emergenza manca o non è sufficiente alla circolazione dei veicoli di polizia o di soccorso, il conducente del veicolo che occupa la prima corsia di destra deve disporsi il più vicino possibile alla striscia di sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 537
+  },
+  {
+    "id_blocco": 4542,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23893,
+    "testo": "In caso di ingorgo il conducente può transitare sulla corsia per la sosta di emergenza solo per uscire dall'autostrada, a partire dal cartello di preavviso di uscita posto a 500 metri dallo svincolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 537
+  },
+  {
+    "id_blocco": 4542,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23894,
+    "testo": "Sulle autostrade e sulle strade extraurbane principali, per uscire dalla carreggiata il conducente può immettersi nella corsia di decelerazione anche nel tratto successivo al suo inizio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 537
+  },
+  {
+    "id_blocco": 4542,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23895,
+    "testo": "Sulle autostrade e sulle strade extraurbane principali se il traffico non è intenso il conducente non ha l'obbligo di servirsi degli indicatori di dire zione per segnalare il cambiamento di corsia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 537
+  },
+  {
+    "id_blocco": 4542,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23896,
+    "testo": "Sulle autostrade e sulle strade extraurbane principali è consentita la marcia per file parallele anche in assenza di traffico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 537
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4676,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25100,
+    "testo": "Per diminuire l'inquinamento provocato dai veicoli non bisogna accelerare bruscamente durante le partenze",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4676,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25101,
+    "testo": "Per diminuire l'inquinamento, bisogna evitare di tenere inserita per troppo tempo una marcia bassa, se non è necessaria",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4676,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25102,
+    "testo": "Per diminuire l'inquinamento dell'aria provocato dai veicoli con motore a scoppio, bisogna sostituire la marmitta catalitica quando la stessa è deteriorata o esausta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4676,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25103,
+    "testo": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna controlla re spesso la frizione e il differenziale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4676,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25104,
+    "testo": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna controlla re spesso gli organi di sospensione (ammortizzatori)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4676,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25105,
+    "testo": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna ridurre la pressi one di gonfiaggio dei pneumatici",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4676,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25106,
+    "testo": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna accelerare ripetutamente da fermo, per tenere caldo il motore e migliorarne il rendimento",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4676,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25107,
+    "testo": "Nei veicoli dotati di marmitta catalitica, l'inquinamento dell'aria è minore subito dopo l'accensione del motore, quando la temperatura è ancora bassa",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 580
+  }
+]

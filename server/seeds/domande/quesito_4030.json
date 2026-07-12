@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4030,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18626,
+    "testo": "I motocic li sono veicoli a due ruote",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4030,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18627,
+    "testo": "I motocic li ha nno cilindrata superiore a 50 cm3",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4030,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18628,
+    "testo": "I ci clom otori non rientrano nella categoria dei motocicli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4030,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18629,
+    "testo": "I motocic li possono essere dotati di cambio automatico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4030,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18630,
+    "testo": "I motocic li sono soggetti a revisione dopo quattro anni dalla prima immatricolazi one, successivamente ogni due anni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4030,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18631,
+    "testo": "Tutti i veicoli a motore con tre ruote sono dei motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4030,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18632,
+    "testo": "I motocic li sono veicoli a motore con più di due ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4030,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18633,
+    "testo": "Il motociclo è un qualunque veicolo a due ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4030,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18634,
+    "testo": "Si definiscono motocicli solo i veicoli a due ruote di cilindrata fino a 125 cm3",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4030,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18635,
+    "testo": "I motocic li ha nno motore di cilindrata fino a 50 cm3 e sviluppano una velocità fino a 45 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4030,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18636,
+    "testo": "Ai fini della circolazione i quadricicli leggeri sono assimilati ai motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 458
+  }
+]

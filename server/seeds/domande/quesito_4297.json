@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4297,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21530,
+    "testo": "Il segnale raffigurato viene posto in vicinanza della frontiera italiana, visibile dai conducenti provenienti dallo Stato estero",
+    "risposta_corretta": "VERO",
+    "immagine": "9265cf5f4facbf1169d47366df95fb88",
+    "pagina_quiz": 54
+  },
+  {
+    "id_blocco": 4297,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21531,
+    "testo": "Il segnale raffigurato indica i limiti massimi di velocità generali che valgono in Ita lia",
+    "risposta_corretta": "VERO",
+    "immagine": "9265cf5f4facbf1169d47366df95fb88",
+    "pagina_quiz": 55
+  },
+  {
+    "id_blocco": 4297,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21532,
+    "testo": "Il segnale raffigurato indica nel primo riquadro in alto il limite massimo di velocità nei centri abitati",
+    "risposta_corretta": "VERO",
+    "immagine": "9265cf5f4facbf1169d47366df95fb88",
+    "pagina_quiz": 55
+  },
+  {
+    "id_blocco": 4297,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21533,
+    "testo": "Il segnale raffigurato indica in 90 km/h il limite massimo di velocità su strade extraurbane secondarie",
+    "risposta_corretta": "VERO",
+    "immagine": "9265cf5f4facbf1169d47366df95fb88",
+    "pagina_quiz": 55
+  },
+  {
+    "id_blocco": 4297,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21534,
+    "testo": "Il segnale raffigurato indica in 110 km /h il limite massimo di velocità sulle strade extraurbane principali",
+    "risposta_corretta": "VERO",
+    "immagine": "9265cf5f4facbf1169d47366df95fb88",
+    "pagina_quiz": 55
+  },
+  {
+    "id_blocco": 4297,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21535,
+    "testo": "Il segnale raffigurato indica in 130 km /h il limite massimo di velocità sulle autostrade",
+    "risposta_corretta": "VERO",
+    "immagine": "9265cf5f4facbf1169d47366df95fb88",
+    "pagina_quiz": 55
+  },
+  {
+    "id_blocco": 4297,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21536,
+    "testo": "Il segnale raffigurato indica in 90 km /h il limite massimo di velocità nei centri abitati",
+    "risposta_corretta": "FALSO",
+    "immagine": "9265cf5f4facbf1169d47366df95fb88",
+    "pagina_quiz": 55
+  },
+  {
+    "id_blocco": 4297,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21537,
+    "testo": "Il segnale raffigurato indica il numero di autostrade in Italia che si possono percorrere senza pagarne il pedaggio",
+    "risposta_corretta": "FALSO",
+    "immagine": "9265cf5f4facbf1169d47366df95fb88",
+    "pagina_quiz": 55
+  },
+  {
+    "id_blocco": 4297,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21538,
+    "testo": "Il segnale raffigurato indica in 130 km /h il limite massimo di velocità su strade extraurbane principali",
+    "risposta_corretta": "FALSO",
+    "immagine": "9265cf5f4facbf1169d47366df95fb88",
+    "pagina_quiz": 55
+  },
+  {
+    "id_blocco": 4297,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21539,
+    "testo": "Il segnale raffigurato s i trova all'ingresso di ogni città",
+    "risposta_corretta": "FALSO",
+    "immagine": "9265cf5f4facbf1169d47366df95fb88",
+    "pagina_quiz": 55
+  },
+  {
+    "id_blocco": 4297,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21540,
+    "testo": "Il segnale raffigurato indica i limiti minimi di velocità che valgono in Italia",
+    "risposta_corretta": "FALSO",
+    "immagine": "9265cf5f4facbf1169d47366df95fb88",
+    "pagina_quiz": 56
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4250,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21065,
+    "testo": "La luce verde accesa del semaforo in figura permette ai pedoni l'attra versamento",
+    "risposta_corretta": "VERO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 397
+  },
+  {
+    "id_blocco": 4250,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21066,
+    "testo": "La luce verde accesa del semaforo in figura consente ai pedoni di attraversare la strada",
+    "risposta_corretta": "VERO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 397
+  },
+  {
+    "id_blocco": 4250,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21067,
+    "testo": "La luce verde accesa del semaforo in figura consente ai pedoni di impegnare la carreggiata per attraversarla",
+    "risposta_corretta": "VERO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 397
+  },
+  {
+    "id_blocco": 4250,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21068,
+    "testo": "Il semaforo in figura indica una scala mobile in funzione",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 397
+  },
+  {
+    "id_blocco": 4250,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21069,
+    "testo": "La luce verde accesa del semaforo in figura consente il passaggio solo dei veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 397
+  },
+  {
+    "id_blocco": 4250,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21070,
+    "testo": "La luce verde accesa del semaforo in figura obbliga i pedoni a dare la precedenza ai veicoli che svoltano",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 397
+  },
+  {
+    "id_blocco": 4250,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21071,
+    "testo": "Il semaforo in figura segnala un ascensore pubblico",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 397
+  },
+  {
+    "id_blocco": 4250,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21072,
+    "testo": "Il semaforo in figura segnala la presenza di una scuola elementare, per cui bisogna rallentare",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 397
+  },
+  {
+    "id_blocco": 4250,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21073,
+    "testo": "La luce verde del semaforo in figura è sempre accesa durante l'uscita degli studenti dalla scuola",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 397
+  }
+]

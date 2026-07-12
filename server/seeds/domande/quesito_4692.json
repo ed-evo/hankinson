@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4692,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25202,
+    "testo": "Quando il veicolo percorre una curva è assoggettato ad una forza che tende a spostarl o verso l'esterno",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4692,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25203,
+    "testo": "Quando il veicolo percorre una curva, la velocità eccessiva può provocarne lo sbanda mento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4692,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25204,
+    "testo": "Quando il veicolo percorre una curva, la velocità eccessiva può provocarne il ribaltamento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4692,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25205,
+    "testo": "Quando il veicolo percorre una curva è assoggettato ad una forza che tende a spostarl o verso l'interno",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4692,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25206,
+    "testo": "Quando il veicolo percorre una curva si deve aumentare la velocità per evitare lo slittamento",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4692,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25207,
+    "testo": "Quando il veicolo percorre una curva si deve aumentare la velocità per evitare il ribaltamento",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  }
+]

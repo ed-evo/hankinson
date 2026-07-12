@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19715,
+    "testo": "Il segnale raffigurato indica il divieto di transito agli autobus",
+    "risposta_corretta": "VERO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 286
+  },
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19716,
+    "testo": "In presenza del segnale raffigurato è consentito il transito alle autovetture",
+    "risposta_corretta": "VERO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 286
+  },
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19717,
+    "testo": "In presenza del segnale raffigurato è consentito il transito agli autocarri",
+    "risposta_corretta": "VERO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 286
+  },
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19718,
+    "testo": "In presenza del segnale raffigurato è consentito il transito ai motocicli",
+    "risposta_corretta": "VERO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 286
+  },
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19719,
+    "testo": "In presenza del segnale raffigurato è consentito il transito alle autocaravan",
+    "risposta_corretta": "VERO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 286
+  },
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19720,
+    "testo": "Il segnale raffigurato vieta il transito anche agli autobus di massa a pieno carico inferiore a 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 286
+  },
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19721,
+    "testo": "In presenza del segnale raffigurato è consentito il transito agli autobus turistici",
+    "risposta_corretta": "FALSO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 286
+  },
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19722,
+    "testo": "Il segnale raffigurato s egnala una corsia riservata agli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 286
+  },
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19723,
+    "testo": "Il segnale raffigurato preannuncia un'area di sosta per autobus turistici",
+    "risposta_corretta": "FALSO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 286
+  },
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19724,
+    "testo": "In presenza del segnale raffigurato è consentito il transito agli scuolabus",
+    "risposta_corretta": "FALSO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 287
+  },
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19725,
+    "testo": "Il segnale raffigurato vieta il transito alle autocaravan",
+    "risposta_corretta": "FALSO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 287
+  },
+  {
+    "id_blocco": 4121,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19726,
+    "testo": "Il segnale raffigurato è valido solo nei giorni feriali",
+    "risposta_corretta": "FALSO",
+    "immagine": "6504baec736639e82aff14bceb66791f",
+    "pagina_quiz": 287
+  }
+]

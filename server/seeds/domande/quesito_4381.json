@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4381,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22390,
+    "testo": "La velocità deve essere moderata nei tratti di strada a visuale non libera",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4381,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22391,
+    "testo": "Si deve tenere una velocità che non costituisca pericolo per la sicurezza della circola zione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4381,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22392,
+    "testo": "Si deve tenere una velocità che consenta di intervenire con sicurezza in caso di imprevisti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4381,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22393,
+    "testo": "Si deve tenere una velocità adeguata alle proprie condizioni psicofisiche",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4381,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22394,
+    "testo": "E' obbligo del conducente regolare la velocità in relazione al carico del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4381,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22395,
+    "testo": "Si deve tenere una velocità regolata in funzione del tempo che abbiamo a disposizione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4381,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22396,
+    "testo": "La velocità deve essere moderata fuori dai centri abitati",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 495
+  }
+]

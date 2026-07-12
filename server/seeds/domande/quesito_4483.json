@@ -1,0 +1,46 @@
+[
+  {
+    "id_blocco": 4483,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23364,
+    "testo": "Nell'inter sezione di figura il veicolo D transita prima del veicolo F",
+    "risposta_corretta": "VERO",
+    "immagine": "3b88044c417a19ad75146524c38ad06c",
+    "pagina_quiz": 125
+  },
+  {
+    "id_blocco": 4483,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23365,
+    "testo": "Nell'inter sezione di figura l'ordine di transito dei veicoli è: R, D, F",
+    "risposta_corretta": "VERO",
+    "immagine": "3b88044c417a19ad75146524c38ad06c",
+    "pagina_quiz": 125
+  },
+  {
+    "id_blocco": 4483,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23366,
+    "testo": "Nell'inter sezione di figura il filobus passa per primo perché vincolato alla linea elettrica aerea",
+    "risposta_corretta": "FALSO",
+    "immagine": "3b88044c417a19ad75146524c38ad06c",
+    "pagina_quiz": 125
+  },
+  {
+    "id_blocco": 4483,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23367,
+    "testo": "Nell'inter sezione di figura l'ordine di transito dei veicoli è: F, R, D",
+    "risposta_corretta": "FALSO",
+    "immagine": "3b88044c417a19ad75146524c38ad06c",
+    "pagina_quiz": 125
+  }
+]

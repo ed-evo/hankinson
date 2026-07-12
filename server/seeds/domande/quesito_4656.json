@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4656,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24960,
+    "testo": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nel la patente si trova indicato tale obbligo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4656,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24961,
+    "testo": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nel la patente è stato ins erito il codice armonizzato \"01\"",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4656,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24962,
+    "testo": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto se nel la patente figura, per esteso o sotto forma di codice, tale obbligo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4656,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24963,
+    "testo": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto quando è indicato sulla patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4656,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24964,
+    "testo": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto solo quando la miopia supera 6 diottrie",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4656,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24965,
+    "testo": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto da mezz'ora dopo il tramonto del sole a mezz'ora prima del suo sorgere",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4656,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24966,
+    "testo": "Durante la guida, si devono usare gli occhiali da vista o le lenti a contatto soltanto in caso di scarsa visibilità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4656,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24967,
+    "testo": "Durante la guida, si deve fare uso di occhiali da vista o di lenti a contatto soltanto sulle autostrade e sulle strade extraurbane principali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 575
+  }
+]

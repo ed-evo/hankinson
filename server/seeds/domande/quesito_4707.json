@@ -1,0 +1,114 @@
+[
+  {
+    "id_blocco": 4707,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25339,
+    "testo": "Le sospensioni di un veicolo a motore sono poste tra il telaio e le ruote",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 589
+  },
+  {
+    "id_blocco": 4707,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25340,
+    "testo": "Le sospensioni di un veicolo a motore servono a garantire un buon confort di marci a",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 589
+  },
+  {
+    "id_blocco": 4707,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25341,
+    "testo": "Le sospensioni di un veicolo a motore servono a garantire che le ruote rimangano aderenti al fondo stradale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 589
+  },
+  {
+    "id_blocco": 4707,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25342,
+    "testo": "Le sospensioni di un veicolo a motore servono a smorzare gli urti trasmessi dalle asperità del terreno",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 589
+  },
+  {
+    "id_blocco": 4707,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25343,
+    "testo": "Le sospensioni di un veicolo a motore collaborano a rendere più confortevole e sicura la guida",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 589
+  },
+  {
+    "id_blocco": 4707,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25345,
+    "testo": "Le sospensioni di un veicolo a motore sono in genere poste sulle ruote anteriori, ma non su quelle posteriori",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 589
+  },
+  {
+    "id_blocco": 4707,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25346,
+    "testo": "Le sospensioni di un veicolo a motore servono a irrigidire il veicolo, in modo che il conducente percepisca chiaramente tutti i saltellamenti del veicolo dovuti ad irregolarità della strada",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 589
+  },
+  {
+    "id_blocco": 4707,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25347,
+    "testo": "Le sospensioni di un veicolo a motore non entrano in funzione su strada ret tilinea",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 589
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18850,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada deformata",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 382
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18851,
+    "testo": "Il segnale raffigurato può essere associato con un segnale di limite massimo di velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 382
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18852,
+    "testo": "Il segnale raffigurato indica un tratto di strada deformata lungo 380 metri",
+    "risposta_corretta": "VERO",
+    "immagine": "46aa2805f9f3e38a0b40da1c5aa8ea8d",
+    "pagina_quiz": 383
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18853,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada con pavimentazione irregolare",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 383
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18854,
+    "testo": "Il segnale raffigurato preannuncia una strada in cattivo stato",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 383
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18855,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 383
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18856,
+    "testo": "Il segnale raffigurato s i trova, in genere, 150 metri prima di un tratto di strada con fondo irregolare",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 383
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18857,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada dissestata",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 383
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18858,
+    "testo": "Il segnale raffigurato, s e a fondo giallo, è usato in presenza di cantieri stradali",
+    "risposta_corretta": "VERO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 383
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18859,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 383
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18860,
+    "testo": "Il segnale raffigurato preannuncia una discesa pericolosa",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 383
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18861,
+    "testo": "Il segnale raffigurato preannuncia più curve consecutive",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 384
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18862,
+    "testo": "Il segnale raffigurato preannuncia una serie di dossi",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 384
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18863,
+    "testo": "Il segnale raffigurato preannuncia una forte variazione di pendenza della strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 384
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18864,
+    "testo": "Il segnale raffigurato preannuncia una doppia curva",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 384
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18865,
+    "testo": "Il segnale raffigurato preannuncia un dosso",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 384
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18866,
+    "testo": "Il segnale raffigurato preannuncia una cunetta o un dosso",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 384
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18867,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada a visibilità limitata",
+    "risposta_corretta": "FALSO",
+    "immagine": "4232f21e2893d81ba19d77d4285f18fe",
+    "pagina_quiz": 384
+  },
+  {
+    "id_blocco": 4051,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18868,
+    "testo": "Il segnale raffigurato indica un tratto di strada deformata lungo 320 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "fcaab86759120527e96bca9226f61cc5",
+    "pagina_quiz": 384
+  }
+]

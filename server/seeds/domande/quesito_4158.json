@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20144,
+    "testo": "Il segnale raffigurato è preavviso dell'obbligo di svoltare a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 325
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20145,
+    "testo": "Il segnale raffigurato precede un incrocio in cui non è consentito proseguire diritto o girare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 325
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20146,
+    "testo": "Il segnale raffigurato preannuncia l'obbligo di svoltare a sinistra al prossimo incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 325
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20147,
+    "testo": "Il segnale raffigurato precede un incrocio ove è obbligatorio svoltare a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 326
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20148,
+    "testo": "Il segnale raffigurato è un segnale di preavviso di direzione obbligatoria",
+    "risposta_corretta": "VERO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 326
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20149,
+    "testo": "Il segnale raffigurato preannuncia l'unica direzione consentita",
+    "risposta_corretta": "VERO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 326
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20150,
+    "testo": "Il segnale raffigurato può essere integrato con pannello che indica la distanza dal punto in cui vige l'obbligo",
+    "risposta_corretta": "VERO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 326
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20151,
+    "testo": "Il segnale raffigurato indica che non è consentito svoltare a sinistra al prossimo incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 326
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20152,
+    "testo": "Il segnale raffigurato obbliga ad andare diritto o a svoltare a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 326
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20153,
+    "testo": "Il segnale raffigurato preannuncia di andare diritto ma non di svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 326
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20154,
+    "testo": "Il segnale raffigurato presegnala il senso unico di circolazione nella svolta a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 326
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20155,
+    "testo": "Il segnale raffigurato è un segnale di divieto",
+    "risposta_corretta": "FALSO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 326
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20156,
+    "testo": "Il segnale raffigurato preannuncia una corsia di accelerazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 327
+  },
+  {
+    "id_blocco": 4158,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20157,
+    "testo": "Il segnale raffigurato preannuncia una direzione consigliata",
+    "risposta_corretta": "FALSO",
+    "immagine": "b23552307304d167fe185d4c6fe5181f",
+    "pagina_quiz": 327
+  }
+]

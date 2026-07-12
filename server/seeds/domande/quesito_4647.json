@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4647,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24891,
+    "testo": "Lo stato di shock si manifesta con pelle molto pallida e fredda",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4647,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24892,
+    "testo": "Lo stato di shock si manifesta con presenza di sudore freddo alla fronte",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4647,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24893,
+    "testo": "Lo stato di shock si manifesta con presenza di brividi, pelle molto pallida e sudorazione fredda alla fronte",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4647,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24894,
+    "testo": "Lo stato di shock si manifesta con pelle molto pallida, sudorazione fredda, frequenti battiti del cuore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4647,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24895,
+    "testo": "Lo stato di shock può manifestarsi con improvvisa pronuncia di frasi e parol e senza senso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4647,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24896,
+    "testo": "Lo stato di shock si manifesta sempre con un forte aumento della temperatura corporea",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4647,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24897,
+    "testo": "Lo stato di shock si manifesta con ampie macchie scure sulla pelle",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4647,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24898,
+    "testo": "Lo stato di shock si manifesta con comparsa di colorito rosso della pelle e forti vampate di calore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 573
+  }
+]

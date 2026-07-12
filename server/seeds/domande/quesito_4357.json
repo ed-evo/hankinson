@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22093,
+    "testo": "Il segnale raffigurato indica il punto nel quale termina il divieto di sosta",
+    "risposta_corretta": "VERO",
+    "immagine": "9c63d382551cd03c133efd52af0fcf19",
+    "pagina_quiz": 482
+  },
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22094,
+    "testo": "Il segnale raffigurato indica il punto dove termina il divieto di fermata",
+    "risposta_corretta": "VERO",
+    "immagine": "5df83d6b6dbcb0276f61047f40c26f78",
+    "pagina_quiz": 482
+  },
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22095,
+    "testo": "Il segnale raffigurato indica la fine del cantiere stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "53281ecd5ad419143ba0d24051d559db",
+    "pagina_quiz": 483
+  },
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22096,
+    "testo": "Il segnale raffigurato indica la fine dell'area destinata al parcheggio",
+    "risposta_corretta": "VERO",
+    "immagine": "95160ffe03933827ece06c1f0c7547f2",
+    "pagina_quiz": 483
+  },
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22097,
+    "testo": "Il segnale raffigurato indica la fine della strada deformata",
+    "risposta_corretta": "VERO",
+    "immagine": "f8fb0b9bccaefbad36bb9654b9997d85",
+    "pagina_quiz": 483
+  },
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22098,
+    "testo": "Il segnale raffigurato indica la fine della strada sdrucciolevole",
+    "risposta_corretta": "VERO",
+    "immagine": "e9f546569e09115071eeeed6f2caa764",
+    "pagina_quiz": 483
+  },
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22099,
+    "testo": "Il pa nnell o integrativo raffigurato (A) indica una strada in discesa",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ae0f364d86b42a3b3d77543a680f06d",
+    "pagina_quiz": 483
+  },
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22100,
+    "testo": "Il pa nnell o integrativo raffigurato (B), posto sotto il segnale PARCHEGGIO, indica l'inizio della zona destinata al parcheggio",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ae0f364d86b42a3b3d77543a680f06d",
+    "pagina_quiz": 483
+  },
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22101,
+    "testo": "Il pa nnell o integrativo raffigurato (A), posto sotto un segnale di divieto, indica l'inizio del divieto",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ae0f364d86b42a3b3d77543a680f06d",
+    "pagina_quiz": 483
+  },
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22102,
+    "testo": "Il pa nnell o integrativo raffigurato (A) indica una strada chiusa al traffico",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ae0f364d86b42a3b3d77543a680f06d",
+    "pagina_quiz": 483
+  },
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22103,
+    "testo": "Il segnale raffigurato indica la continuazione del divieto di sorpasso",
+    "risposta_corretta": "FALSO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 483
+  },
+  {
+    "id_blocco": 4357,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22104,
+    "testo": "Il pa nnell o integrativo raffigurato (A) indica l'unica direzione consentita",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ae0f364d86b42a3b3d77543a680f06d",
+    "pagina_quiz": 484
+  }
+]

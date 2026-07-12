@@ -1,0 +1,258 @@
+[
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24589,
+    "testo": "La revisione della patente di guida può essere disposta quando sorgono dubbi che il conducente sia ancora in possesso dei requisiti fisici e psichici prescritti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24590,
+    "testo": "La revisione della patente di guida può essere disposta dall'Ufficio Motorizzazione civile o dal Prefetto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24591,
+    "testo": "La revisione della patente di guida può essere disposta a seguito di incidente stradale che ha procurato lesioni gravi a persone",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24592,
+    "testo": "La revisione della patente di guida può essere disposta qualora sorgano dubbi che il conducente sia ancora in possesso dell'idoneità tecnica alla guida",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24593,
+    "testo": "La revisione della patente di guida può essere disposta con l'obbligo di sottoporsi a visita medica e/o ad esame di idoneità tecnica",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24594,
+    "testo": "La revisione della patente di guida può essere disposta a seguito di guida in stato di ebbrezza o sotto l'effetto di sostanze stupefacenti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24595,
+    "testo": "La revisione della patente di guida è disposta a seguito di azzeramento dei \"punti\" della patente di guida",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24596,
+    "testo": "Il c onducente che non supera l'esame di revisione della patente, subisce la revoca dell a patente stessa",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24597,
+    "testo": "La revisione della patente di guida può essere disposta quando il titolare non è più in possesso dei requisiti morali richiesti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24598,
+    "testo": "La revisione della patente di guida può essere disposta quando il titolare incorre, per due volte in un anno, in una infrazione che comporta la perdita di almeno 5 punti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24599,
+    "testo": "La revisione della patente di guida può essere disposta quando il titolare perde permanentemente (per sempre) i requisiti fisici richiesti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24600,
+    "testo": "La revisione della patente di guida può essere disposta quando il titolare circola con la revisione del veicolo scaduta da oltre un anno",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24601,
+    "testo": "La revisione della patente di guida può essere disposta quando il titolare circola su un'auto storica senza la prescritta documentazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24602,
+    "testo": "La revisione della patente di guida può essere disposta quando il titolare circola su un veicolo che non è di sua proprietà e non ha un'autorizzazione scritta del proprietario",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24603,
+    "testo": "La revisione della patente di guida è disposta quando si accerti che il conducente è alla guida senza aver con sé la patente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 562
+  },
+  {
+    "id_blocco": 4617,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24604,
+    "testo": "Il c onducente che non supera l'esame di revisione della patente, può ripe terlo altre due volte entro un anno, continuando a guidare con uno speci ale permesso rilasciato dalla Motorizzazione Civile",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 562
+  }
+]

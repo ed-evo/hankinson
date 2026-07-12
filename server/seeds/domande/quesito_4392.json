@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4392,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22513,
+    "testo": "In un centro abitato, se si vede un pallone rotolare sulla carreggiata, bisogna diminuire subito la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4392,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22514,
+    "testo": "In un centro abitato, se si vede un pallone rotolare sulla carreggiata, bisogna rallentare per potersi fermare, se necessario",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4392,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22515,
+    "testo": "In un centro abitato, se si vede un pallone rotolare sulla carreggiata, bisogna prevedere anche il possibile attraversamento della strada da parte di un bambino",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4392,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22516,
+    "testo": "In un centro abitato, se si vede un pallone rotolare sulla carreggiata, bisogna rallentare progressivamente, per evitare di essere tamponati dal veicolo che segue",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4392,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22517,
+    "testo": "In un centro abitato, se si vede un pallone rotolare sulla carreggiata, bisogna sterzare bruscamente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4392,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22518,
+    "testo": "In una strada a doppio senso di circolazione, se si vede un pallone rotolare sulla carreggi ata, bisogna scansarlo, anche invadendo la corsia opposta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4392,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22519,
+    "testo": "In un centro abitato, se si vede un pallone rotolare sulla carreggiata, non occorre rallentare, per evitare di essere tamponati dal veicolo che segue",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4392,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22520,
+    "testo": "In un centro abitato, se si vede un pallone rotolare sulla carreggiata, bisogna a zionare immediatamente la segnalazione luminosa di pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 500
+  }
+]

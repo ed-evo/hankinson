@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4403,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22618,
+    "testo": "Lo spazio totale di arresto è pari allo spazio percorso nel tempo di reazione più quello per corso durante la frenata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4403,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22619,
+    "testo": "Lo spazio totale di arresto dipende dalla velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4403,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22620,
+    "testo": "Lo spazio totale di arresto dipende dall'usura dei pneumatici",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4403,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22621,
+    "testo": "Lo spazio totale di arresto dipende dalle condizioni dell'asfalto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4403,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22622,
+    "testo": "Lo spazio totale di arresto è indipendente dall'usura dei pneumatici",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4403,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22623,
+    "testo": "Lo spazio totale di arresto è indipendente dalle condizioni dell'asfalto",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4403,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22624,
+    "testo": "Lo spazio totale di arresto è pari allo spazio percorso nel tempo di reazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4403,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22625,
+    "testo": "Lo spazio totale di arresto è pari allo spazio percorso durante la frenata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4403,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22626,
+    "testo": "Lo spazio totale di arresto non dipende dalla velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  }
+]

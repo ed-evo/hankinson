@@ -1,0 +1,464 @@
+[
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24390,
+    "testo": "Il c asco subisce un process o di invecchiamento dovuto a luce e calore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24391,
+    "testo": "La pulizia del casco deve essere effettuata con detersivi non corrosivi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24392,
+    "testo": "Il c asco non deve essere pulito con solventi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24393,
+    "testo": "Il c asco non deve essere pulito con benzina",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24394,
+    "testo": "L'uso del casco è necessario per ridurre gli effetti di eventuali urti alla testa",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24395,
+    "testo": "Il c asco integrale protegge anche il viso da traumi e lesioni in caso di incidente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24396,
+    "testo": "E' bene che il casco sia dotato di visiera",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24397,
+    "testo": "La visiera del casco protegge il viso e gli occhi da impatti con insetti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24398,
+    "testo": "Il c asco deve essere di taglia corretta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24399,
+    "testo": "Il c asco deve essere sostituito dopo che abbia subito un forte urto, anche se non mostra deformazioni sulla calotta esterna",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24400,
+    "testo": "La robust ezza della calotta esterna del casco potrebbe essere compromessa da solve nti presenti in vernici o colle",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24401,
+    "testo": "Durante la marcia, il casco deve essere sempre correttamente allacciato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24402,
+    "testo": "Indossa re il casco in modo errato o senza averlo correttamente allacciato può compor tare gravi rischi alla salute in caso di caduta o incidente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24403,
+    "testo": "Il c asco deve essere indossato anche per spostamenti brevi e a bassa velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24404,
+    "testo": "Il c asco deve essere indossato anche a bordo dei quadricicli a motore privi di carrozzeria (Quad)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24405,
+    "testo": "La visiera del casco deve essere sostituita se rigata o danneggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24406,
+    "testo": "La visiera del casco deve garantire la perfetta visione con qualunque condizione di luce o illuminazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24407,
+    "testo": "Il sistema di aerazione del casco consente di limitare il pericolo di appannamento della visiera",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24408,
+    "testo": "Il c onducente che non indossa il casco è soggetto alla decurtazione di punti dalla patente di guida",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24409,
+    "testo": "Sul casc o possono essere applicati adesivi di qualunque tipo, purché non coprano la visiera",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24410,
+    "testo": "Il c asco deve essere periodicamente pulito con benzina o acquaragia per sgrassarlo ed eliminare resti di insetti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24412,
+    "testo": "Il c asco deve essere completamente allacciato solo sui percorsi extraurbani",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24413,
+    "testo": "Quando si ci rcola nelle zone a velocità controllata inferiore a 30 km/h, non è obbligatorio l'uso del casco",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24414,
+    "testo": "L'uso del casco è obbligatorio su qualunque quadriciclo a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24415,
+    "testo": "Il c asco conserva invariate le sue caratteristiche protettive per periodi lunghissimi, di oltre venti anni",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24416,
+    "testo": "Il c asco integrale non può essere utilizzato quando si circola nei centri urbani ad alta densità di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24417,
+    "testo": "Il c asco integrale è inutile se si circola a bordo di un ciclomotore a due ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24418,
+    "testo": "L'obbligo dell'uso del casco non riguarda i maggiorenni con più di tre anni di espe rienza di guida",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24419,
+    "testo": "L'uso del casco durante la marcia diventa facoltativo quando la temperatura dell'aria è superiore ai trenta gradi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24420,
+    "testo": "La visiera del casco peggiora notevolmente la visibilità e quindi va usata il meno possibile",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24421,
+    "testo": "La calotta del casco può essere riparata con nastro adesivo di tipo speciale, se presenta una rottura inferiore ai tre centimetri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24422,
+    "testo": "La visiera del casco può essere riparata con nastro adesivo, purché sia di tipo ultra trasparente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  },
+  {
+    "id_blocco": 4601,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24423,
+    "testo": "I caschi da utilizzare alla guida dei ciclomotori non necessitano di omologazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 555
+  }
+]

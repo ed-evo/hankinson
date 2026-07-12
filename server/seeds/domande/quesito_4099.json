@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19442,
+    "testo": "Il segnale raffigurato preannuncia un pericolo che, in caso di forte vento laterale, è maggiore per i veicoli che trainano rimorchi",
+    "risposta_corretta": "VERO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 221
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19443,
+    "testo": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, un peri colo che è maggiore per i veicoli a due ruote",
+    "risposta_corretta": "VERO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 222
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19444,
+    "testo": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, un peri colo che è maggiore per i veicoli che trainano caravan",
+    "risposta_corretta": "VERO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 222
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19445,
+    "testo": "Il segnale raffigurato richiede, in caso di forte vento laterale, di procedere con prudenz a tenendo il volante con una presa più sicura",
+    "risposta_corretta": "VERO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 222
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19446,
+    "testo": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, la necessità per i veicoli telonati di rallentare e all'occorrenza di fermarsi",
+    "risposta_corretta": "VERO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 222
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19447,
+    "testo": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, possibili sbandam enti dei veicoli provenienti dal senso opposto",
+    "risposta_corretta": "VERO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 222
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19448,
+    "testo": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, un peri colo che aumenta all'aumentare della superficie laterale del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 222
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19449,
+    "testo": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, un peri colo m aggiore all'entrata delle gallerie per i veicoli stretti e alti",
+    "risposta_corretta": "FALSO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 222
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19450,
+    "testo": "Il segnale raffigurato preannuncia una zona dove, in caso di forte vento laterale, i veicoli con rimorchio hanno maggiore tenuta di strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 222
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19451,
+    "testo": "Il segnale raffigurato preannuncia una zona dove, in caso di forte vento laterale, i veicoli scarichi o leggeri hanno maggiore tenuta di strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 222
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19452,
+    "testo": "Il segnale raffigurato preannuncia, in caso di forte vento laterale, un peri colo che è minore per i veicoli con carichi voluminosi sopra il tetto",
+    "risposta_corretta": "FALSO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 223
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19453,
+    "testo": "Il segnale raffigurato, in caso di forte vento laterale, consente di sorpassare riduc endo la distanza laterale dal veicolo che si sta superando",
+    "risposta_corretta": "FALSO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 223
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19454,
+    "testo": "Il segnale raffigurato preannuncia l'ingresso in galleria",
+    "risposta_corretta": "FALSO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 223
+  },
+  {
+    "id_blocco": 4099,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19455,
+    "testo": "Il segnale raffigurato preannuncia la possibile presenza di ghiaccio sulla strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "b6cd263ac2e3188386f2814949cbc505",
+    "pagina_quiz": 223
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22035,
+    "testo": "Il pa nnell o integrativo raffigurato limita la validità del segnale sotto cui è posto ai giorni festivi e alla fascia oraria indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "0f24c014d528bea16102a306adcdc3f0",
+    "pagina_quiz": 475
+  },
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22036,
+    "testo": "Il pa nnell o integrativo raffigurato, posto sotto un segnale di prescrizione, precisa che il segnale vale solo nei giorni festivi e nelle fasce orarie indicate",
+    "risposta_corretta": "VERO",
+    "immagine": "0f24c014d528bea16102a306adcdc3f0",
+    "pagina_quiz": 475
+  },
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22037,
+    "testo": "Il segnale raffigurato consente il transito nei giorni festivi e nelle fasce orarie indicate ai soli pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": "114c9931e895cc500d8176d5c9541ebc",
+    "pagina_quiz": 476
+  },
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22038,
+    "testo": "Il segnale raffigurato vieta la sosta nella fascia oraria indicata, dei giorni festivi",
+    "risposta_corretta": "VERO",
+    "immagine": "552b91f80d03ee3b705c437e85d5ff3a",
+    "pagina_quiz": 476
+  },
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22039,
+    "testo": "Il segnale raffigurato consente il transito dalle ore 8.00 alle ore 20.00 dei giorni festivi ai soli ciclisti",
+    "risposta_corretta": "VERO",
+    "immagine": "1db0bf882ccbcc2f233d3146a5f5d003",
+    "pagina_quiz": 476
+  },
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22040,
+    "testo": "Il segnale raffigurato vieta il transito dalle ore 8.00 alle ore 20.00 dei giorni festivi",
+    "risposta_corretta": "VERO",
+    "immagine": "87078b9138df6b52168bc5170c531079",
+    "pagina_quiz": 476
+  },
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22041,
+    "testo": "Il pa nnell o integrativo raffigurato indica l'orario d'ingresso nel cimitero",
+    "risposta_corretta": "FALSO",
+    "immagine": "0f24c014d528bea16102a306adcdc3f0",
+    "pagina_quiz": 476
+  },
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22042,
+    "testo": "Il pa nnell o integrativo raffigurato indica l'orario di apertura delle chiese",
+    "risposta_corretta": "FALSO",
+    "immagine": "0f24c014d528bea16102a306adcdc3f0",
+    "pagina_quiz": 476
+  },
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22043,
+    "testo": "Il pa nnell o integrativo raffigurato indica l'orario di celebrazione delle funzi oni religiose",
+    "risposta_corretta": "FALSO",
+    "immagine": "0f24c014d528bea16102a306adcdc3f0",
+    "pagina_quiz": 476
+  },
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22044,
+    "testo": "Il segnale raffigurato indica che si può parcheggiare tutti i giorni nella fascia oraria indicata",
+    "risposta_corretta": "FALSO",
+    "immagine": "b6c838f39d8ed287856a3d2d23ccd3a0",
+    "pagina_quiz": 476
+  },
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22045,
+    "testo": "Il pa nnell o integrativo raffigurato vale nei giorni lavorativi",
+    "risposta_corretta": "FALSO",
+    "immagine": "0f24c014d528bea16102a306adcdc3f0",
+    "pagina_quiz": 476
+  },
+  {
+    "id_blocco": 4352,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22046,
+    "testo": "Il segnale raffigurato consente il transito dei motocicli la domenica dalle ore 8.00 alle ore 20.00",
+    "risposta_corretta": "FALSO",
+    "immagine": "32da26fa8295978bfb4afbda2f15fb67",
+    "pagina_quiz": 477
+  }
+]

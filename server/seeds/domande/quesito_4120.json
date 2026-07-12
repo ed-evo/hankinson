@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19703,
+    "testo": "Il segnale raffigurato vieta il transito a tutti gli autoveicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 284
+  },
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19704,
+    "testo": "Il segnale raffigurato vieta il transito ai tricicli a motore",
+    "risposta_corretta": "VERO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 284
+  },
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19705,
+    "testo": "In presenza del segnale raffigurato è permesso il transito ai motocicli",
+    "risposta_corretta": "VERO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 284
+  },
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19706,
+    "testo": "In presenza del segnale raffigurato è permesso il transito ai ciclomotori a due ruot e",
+    "risposta_corretta": "VERO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 284
+  },
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19707,
+    "testo": "Il segnale raffigurato vieta il transito ai quadricicli a motore",
+    "risposta_corretta": "VERO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 285
+  },
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19708,
+    "testo": "In presenza del segnale raffigurato è permesso il transito ai veicoli sprovvisti di motore",
+    "risposta_corretta": "VERO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 285
+  },
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19709,
+    "testo": "In presenza del segnale raffigurato è permesso il transito ai quadricicli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 285
+  },
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19710,
+    "testo": "Il segnale raffigurato vieta il transito alle sole autovetture non catalizzate",
+    "risposta_corretta": "FALSO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 285
+  },
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19711,
+    "testo": "In presenza del segnale raffigurato è consentito il transito alle autovetture adibite al servizio di taxi",
+    "risposta_corretta": "FALSO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 285
+  },
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19712,
+    "testo": "In presenza del segnale raffigurato è permesso il transito a tutti i tricicli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 285
+  },
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19713,
+    "testo": "In presenza del segnale raffigurato è consentito il transito agli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 285
+  },
+  {
+    "id_blocco": 4120,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19714,
+    "testo": "In presenza del segnale raffigurato è consentito il transito agli autocarri",
+    "risposta_corretta": "FALSO",
+    "immagine": "754708f3f8526842e7686256fa594eef",
+    "pagina_quiz": 285
+  }
+]

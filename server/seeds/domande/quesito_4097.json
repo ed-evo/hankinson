@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4097,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19420,
+    "testo": "Il segnale raffigurato preannuncia la possibilità di un improvviso abbagliamento dovuto ad aeroplani a bassa quota",
+    "risposta_corretta": "VERO",
+    "immagine": "cf70cb24dd929f5727132a64153fad7a",
+    "pagina_quiz": 219
+  },
+  {
+    "id_blocco": 4097,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19421,
+    "testo": "Il segnale raffigurato preannuncia la possibilità di un improvviso e forte rumore dovuto ad aeroplani a bassa quota",
+    "risposta_corretta": "VERO",
+    "immagine": "cf70cb24dd929f5727132a64153fad7a",
+    "pagina_quiz": 219
+  },
+  {
+    "id_blocco": 4097,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19422,
+    "testo": "Il segnale raffigurato è posto nelle vicinanze di aeroporti",
+    "risposta_corretta": "VERO",
+    "immagine": "cf70cb24dd929f5727132a64153fad7a",
+    "pagina_quiz": 219
+  },
+  {
+    "id_blocco": 4097,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19423,
+    "testo": "Il segnale raffigurato è posto nelle vicinanze di piste per l'atterraggio ed il decollo di aeroplani",
+    "risposta_corretta": "VERO",
+    "immagine": "cf70cb24dd929f5727132a64153fad7a",
+    "pagina_quiz": 219
+  },
+  {
+    "id_blocco": 4097,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19424,
+    "testo": "Il segnale raffigurato è posto in zone dove può avve nire il volo a bassa quota di aeroplani",
+    "risposta_corretta": "VERO",
+    "immagine": "cf70cb24dd929f5727132a64153fad7a",
+    "pagina_quiz": 219
+  },
+  {
+    "id_blocco": 4097,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19425,
+    "testo": "Il segnale raffigurato preannuncia una località di volo a vela",
+    "risposta_corretta": "FALSO",
+    "immagine": "cf70cb24dd929f5727132a64153fad7a",
+    "pagina_quiz": 219
+  },
+  {
+    "id_blocco": 4097,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19426,
+    "testo": "Il segnale raffigurato preannuncia una zona riservata ai veicoli dell'aeronautica militare",
+    "risposta_corretta": "FALSO",
+    "immagine": "cf70cb24dd929f5727132a64153fad7a",
+    "pagina_quiz": 219
+  },
+  {
+    "id_blocco": 4097,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19427,
+    "testo": "Il segnale raffigurato preannuncia un bivio per l'aeroporto",
+    "risposta_corretta": "FALSO",
+    "immagine": "cf70cb24dd929f5727132a64153fad7a",
+    "pagina_quiz": 220
+  },
+  {
+    "id_blocco": 4097,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19428,
+    "testo": "Il segnale raffigurato vieta l'accesso agli aeroporti",
+    "risposta_corretta": "FALSO",
+    "immagine": "cf70cb24dd929f5727132a64153fad7a",
+    "pagina_quiz": 220
+  },
+  {
+    "id_blocco": 4097,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19429,
+    "testo": "Il segnale raffigurato preannuncia una corsia riservata per l'ingresso in aeroporto",
+    "risposta_corretta": "FALSO",
+    "immagine": "cf70cb24dd929f5727132a64153fad7a",
+    "pagina_quiz": 220
+  }
+]

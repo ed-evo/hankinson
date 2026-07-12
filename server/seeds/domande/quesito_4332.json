@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4332,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21846,
+    "testo": "Il segnale raffigurato preavvisa lavori in corso",
+    "risposta_corretta": "VERO",
+    "immagine": "7ac609bcedd29bef7a7c883f0abbcf0c",
+    "pagina_quiz": 230
+  },
+  {
+    "id_blocco": 4332,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21847,
+    "testo": "Il segnale raffigurato preavvisa cantieri di lavoro",
+    "risposta_corretta": "VERO",
+    "immagine": "7ac609bcedd29bef7a7c883f0abbcf0c",
+    "pagina_quiz": 230
+  },
+  {
+    "id_blocco": 4332,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21848,
+    "testo": "Il segnale raffigurato preavvisa eventuali depositi temporanei di materiali o macchinari",
+    "risposta_corretta": "VERO",
+    "immagine": "7ac609bcedd29bef7a7c883f0abbcf0c",
+    "pagina_quiz": 230
+  },
+  {
+    "id_blocco": 4332,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21849,
+    "testo": "Il segnale raffigurato preavvisa la eventuale presenza di uomini che lavorano presso o sulla carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "7ac609bcedd29bef7a7c883f0abbcf0c",
+    "pagina_quiz": 230
+  },
+  {
+    "id_blocco": 4332,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21850,
+    "testo": "Il segnale raffigurato può essere integrato da pannello che indica la lunghezza del cantiere",
+    "risposta_corretta": "VERO",
+    "immagine": "7ac609bcedd29bef7a7c883f0abbcf0c",
+    "pagina_quiz": 230
+  },
+  {
+    "id_blocco": 4332,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21851,
+    "testo": "Il segnale raffigurato impone di dare la precedenza ai veicoli che escono dal cantiere",
+    "risposta_corretta": "FALSO",
+    "immagine": "7ac609bcedd29bef7a7c883f0abbcf0c",
+    "pagina_quiz": 230
+  },
+  {
+    "id_blocco": 4332,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21852,
+    "testo": "Il segnale raffigurato preavvisa l'obbligo di dare la precedenza ai veicoli che provengono in sens o opposto",
+    "risposta_corretta": "FALSO",
+    "immagine": "7ac609bcedd29bef7a7c883f0abbcf0c",
+    "pagina_quiz": 231
+  },
+  {
+    "id_blocco": 4332,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21853,
+    "testo": "Il segnale raffigurato obbliga a invertire il senso di marcia nelle ore di lavoro degli operai",
+    "risposta_corretta": "FALSO",
+    "immagine": "7ac609bcedd29bef7a7c883f0abbcf0c",
+    "pagina_quiz": 231
+  },
+  {
+    "id_blocco": 4332,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21854,
+    "testo": "Il segnale raffigurato obbliga a dare la precedenza agli addetti ai lavori",
+    "risposta_corretta": "FALSO",
+    "immagine": "7ac609bcedd29bef7a7c883f0abbcf0c",
+    "pagina_quiz": 231
+  },
+  {
+    "id_blocco": 4332,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21855,
+    "testo": "Il segnale raffigurato preavvisa un senso unico alternato",
+    "risposta_corretta": "FALSO",
+    "immagine": "7ac609bcedd29bef7a7c883f0abbcf0c",
+    "pagina_quiz": 231
+  }
+]

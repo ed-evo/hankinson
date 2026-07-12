@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4652,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24928,
+    "testo": "Se un ferito della strada si è ustionato e sono ancora presenti delle residue fia mme , bisogna spegnerle , soffocandole, ad esempio, con una coperta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4652,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24929,
+    "testo": "Se un ferito della strada si è ustionato, è consigliabile non togliere i vestiti rimasti attaccati alla pelle bruciata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4652,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24930,
+    "testo": "Per diminuire il dolore delle ustioni si deve, se possibile, fare uso di acqua fredda",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4652,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24931,
+    "testo": "Se un ferito della strada ha riportato delle ustioni al busto, conviene copri rle con materiale pulito, possibilmente sterile",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4652,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24932,
+    "testo": "Se un ferito della strada si è ustionato e sono ancora presenti delle residue fia mme , bisogna aspettare che si spengano da sole, prima di intervenire",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4652,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24933,
+    "testo": "Se un ferito della strada si è ustionato, bisogna sempre togliere le parti dei vestiti che sono rimaste attaccate alla pelle",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4652,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24934,
+    "testo": "Se un ferito della strada si è ustionato, bisogna disinfettare le bruciature con l'alcool",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 574
+  }
+]

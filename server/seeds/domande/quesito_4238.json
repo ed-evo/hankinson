@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4238,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20955,
+    "testo": "La corsia di e mergenza (corsia A) si può utilizzare in caso di guasto del veicolo, per un massimo di tre ore",
+    "risposta_corretta": "VERO",
+    "immagine": "94f7f145ac94aa5b71a2429c963f08da",
+    "pagina_quiz": 444
+  },
+  {
+    "id_blocco": 4238,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20956,
+    "testo": "La corsia di e mergenza (corsia A) non si può occupare per le manovre di sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": "94f7f145ac94aa5b71a2429c963f08da",
+    "pagina_quiz": 444
+  },
+  {
+    "id_blocco": 4238,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20958,
+    "testo": "Nella segnale tica in figura la striscia bianca continua, che delimita la corsia di emergenza, (corsia A), indica una zona di parcheggio a tempo",
+    "risposta_corretta": "FALSO",
+    "immagine": "94f7f145ac94aa5b71a2429c963f08da",
+    "pagina_quiz": 444
+  },
+  {
+    "id_blocco": 4238,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20959,
+    "testo": "Nella segnale tica in figura la striscia bianca continua che delimita la corsia di emergenza, (corsia A), può essere sempre superata in caso di intenso tra ffico",
+    "risposta_corretta": "FALSO",
+    "immagine": "94f7f145ac94aa5b71a2429c963f08da",
+    "pagina_quiz": 444
+  },
+  {
+    "id_blocco": 4238,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20960,
+    "testo": "La corsia di e mergenza (corsia A) è riservata alla svolta a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "94f7f145ac94aa5b71a2429c963f08da",
+    "pagina_quiz": 444
+  },
+  {
+    "id_blocco": 4238,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20961,
+    "testo": "La corsia di e mergenza (corsia A) è riservata alla decelerazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "94f7f145ac94aa5b71a2429c963f08da",
+    "pagina_quiz": 444
+  },
+  {
+    "id_blocco": 4238,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20962,
+    "testo": "La corsia di e mergenza (corsia A) è vietata al transito degli autoveicoli ma non al transito dei motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": "94f7f145ac94aa5b71a2429c963f08da",
+    "pagina_quiz": 444
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4638,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24833,
+    "testo": "L'idoneità al la guida può essere compromessa se si fa uso di alcuni farmaci sedat ivi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4638,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24834,
+    "testo": "L'idoneità al la guida può essere compromessa se si fa uso di farmaci antidepressivi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4638,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24835,
+    "testo": "L'idoneità al la guida può essere compromessa se si fa uso di allucinogeni (LSD, ecstasy, ecc.)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4638,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24836,
+    "testo": "L'idoneità al la guida può essere compromessa se si fa uso di bevande alcoliche",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4638,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24837,
+    "testo": "L'idoneità al la guida può essere compromessa se si fa uso di caffè amaro",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4638,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24838,
+    "testo": "L'idoneità al la guida può essere compromessa se si fa uso di bevande gassate",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4638,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24839,
+    "testo": "L'idoneità al la guida può essere compromessa se si fa uso di integratori di sali minerali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4638,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24840,
+    "testo": "L'idoneità al la guida può essere compromessa se si fa uso di integratori alimentari",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  }
+]

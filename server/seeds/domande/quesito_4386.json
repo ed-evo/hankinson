@@ -1,0 +1,158 @@
+[
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22439,
+    "testo": "La velocità deve essere particolarmente moderata in prossimità di un incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22440,
+    "testo": "La velocità deve essere particolarmente moderata nelle strettoie",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22441,
+    "testo": "La velocità deve essere particolarmente moderata quando risulta difficoltoso l'incrocio con altri veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22442,
+    "testo": "La velocità deve essere particolarmente moderata nei tratti di strada in cui manca la visibilità (curve, dossi)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22443,
+    "testo": "La velocità deve essere particolarmente moderata quando, in mancanza di marciapiedi, i pedoni occupano la carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22444,
+    "testo": "Si deve diminuire la velocità quando la strada è viscida, a causa di acqua, neve, ghiaccio, foglie o fango",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22445,
+    "testo": "La velocità deve essere particolarmente moderata subito dopo il tramonto del sole",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22446,
+    "testo": "La velocità deve essere particolarmente moderata subito dopo un incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22447,
+    "testo": "Si deve r egolare la velocità in base alla fretta del conducente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22448,
+    "testo": "Si deve tenere una velocità adeguata solo alle nostre condizioni di salute",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22449,
+    "testo": "Si deve tenere una velocità sempre superiore a 30 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4386,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22450,
+    "testo": "Si deve diminuire la velocità quando si è seguiti da un autobus di linea",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 497
+  }
+]

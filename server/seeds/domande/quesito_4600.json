@@ -1,0 +1,198 @@
+[
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24376,
+    "testo": "L'airbag è un cuscino gonfiabile di nylon o altro materiale sintetico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24377,
+    "testo": "L'airbag entra in funzione in caso di incidente stradale con urto violento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24378,
+    "testo": "L'airbag può essere pericoloso se si attiva mentre non si indossa la cintura di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24379,
+    "testo": "L'airbag serve a limitare i danni agli occupanti del veicolo per urti contro superfici int erne del veicolo in caso di urto violento a seguito di incidente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24380,
+    "testo": "L'airbag può essere talvolta disattivabile",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24381,
+    "testo": "L'airbag si gonfia automaticamente grazie al comando di un sensore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24382,
+    "testo": "L'airbag si gonfia in pochi millisecondi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24383,
+    "testo": "L'airbag si gonfia in pochi secondi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24384,
+    "testo": "L'airbag si gonfia premendo un pulsante posto sul cruscotto",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24385,
+    "testo": "L'airbag deve essere gonfiato periodicamente per verificarne l'efficienza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24386,
+    "testo": "L'airbag è utile soltanto nei percorsi extraurbani",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24387,
+    "testo": "L'airbag non va usato insieme alle cinture di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24388,
+    "testo": "L'airbag non può essere montato su vetture con meno di 4 porte",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 554
+  },
+  {
+    "id_blocco": 4600,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24389,
+    "testo": "Il c onducente può tarare, con apposito comando, la velocità minima d'urto al di sopra della quale far attivare l'airbag",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 554
+  }
+]

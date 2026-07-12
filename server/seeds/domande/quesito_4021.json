@@ -1,0 +1,100 @@
+[
+  {
+    "id_blocco": 4021,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18526,
+    "testo": "Il salvagente, posto in corrispondenza di attraversamenti pedonali, serve anche al riparo o alla sosta dei pedoni che attraversano la strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4021,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18527,
+    "testo": "Il salvagente facilita la salita e la discesa dei passeggeri da tram, filobus o autobus",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4021,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18528,
+    "testo": "Il salvagente può essere segnalato da colonnine luminose a luce gialla fissa",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4021,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18529,
+    "testo": "Il salvagente serve a dividere i sensi di marcia in una strada a doppio senso di circol azione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4021,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18530,
+    "testo": "Il salvagente serve a incanalare i veicoli in varie direzioni",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4021,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18531,
+    "testo": "Il salvagente è una persona preposta al primo soccorso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4021,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18532,
+    "testo": "Il salvagente è un itinerario ciclopedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 454
+  }
+]

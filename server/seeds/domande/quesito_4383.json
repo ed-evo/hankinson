@@ -1,0 +1,119 @@
+[
+  {
+    "id_blocco": 4383,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22409,
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 110 km/h per l e autovetture",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4383,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22410,
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 70 km/h per autovettura che traina caravan da 900 chilogrammi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4383,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22411,
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 110 km/h per autoveic oli fino a 3,5t",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4383,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22412,
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 70 km/h per autotreni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4383,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22413,
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 100 km/h per autocarri di massa complessiva fino a 3,5 t",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4383,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22414,
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 100 km/h per autocaravan di massa complessiva fino a 3,5 t",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4383,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22415,
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 80 km/h per autovetture con rimorchio leggero",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4383,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22416,
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 100 km/h per m otoci cli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4383,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22417,
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 100 km/h per l e autovetture con carrello appendice",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 496
+  }
+]

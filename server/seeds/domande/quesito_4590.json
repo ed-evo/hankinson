@@ -1,0 +1,132 @@
+[
+  {
+    "id_blocco": 4590,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24291,
+    "testo": "Il simbolo raffigurato è posto su un dispositivo che dà indicazioni sulla pressione del lubrificante nel motore",
+    "risposta_corretta": "VERO",
+    "immagine": "36779cfc84d87c2307160ac1333d689e",
+    "pagina_quiz": 447
+  },
+  {
+    "id_blocco": 4590,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24292,
+    "testo": "Il simbolo raffigurato può essere posto su una spia a luce rossa",
+    "risposta_corretta": "VERO",
+    "immagine": "36779cfc84d87c2307160ac1333d689e",
+    "pagina_quiz": 447
+  },
+  {
+    "id_blocco": 4590,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24293,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se spenta durant e la marcia, indica che la pressione dell'olio di lubrificazione del motore è regolare",
+    "risposta_corretta": "VERO",
+    "immagine": "36779cfc84d87c2307160ac1333d689e",
+    "pagina_quiz": 447
+  },
+  {
+    "id_blocco": 4590,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24294,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica insufficiente pressione dell'olio di lubrificazione del motore",
+    "risposta_corretta": "VERO",
+    "immagine": "36779cfc84d87c2307160ac1333d689e",
+    "pagina_quiz": 447
+  },
+  {
+    "id_blocco": 4590,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24295,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica di arrestare subito il motore per evitare gravi danni",
+    "risposta_corretta": "VERO",
+    "immagine": "36779cfc84d87c2307160ac1333d689e",
+    "pagina_quiz": 447
+  },
+  {
+    "id_blocco": 4590,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24296,
+    "testo": "Il simbolo raffigurato può contraddistinguere una spia luminosa di colore giallo ambra",
+    "risposta_corretta": "FALSO",
+    "immagine": "36779cfc84d87c2307160ac1333d689e",
+    "pagina_quiz": 447
+  },
+  {
+    "id_blocco": 4590,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24297,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica una temperatura troppo bassa dell'olio di lubrificazione del motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "36779cfc84d87c2307160ac1333d689e",
+    "pagina_quiz": 447
+  },
+  {
+    "id_blocco": 4590,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24298,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che il motore consuma troppo olio",
+    "risposta_corretta": "FALSO",
+    "immagine": "36779cfc84d87c2307160ac1333d689e",
+    "pagina_quiz": 448
+  },
+  {
+    "id_blocco": 4590,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24299,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che l'olio di lubrificazione del cambio di velocità è troppo denso",
+    "risposta_corretta": "FALSO",
+    "immagine": "36779cfc84d87c2307160ac1333d689e",
+    "pagina_quiz": 448
+  },
+  {
+    "id_blocco": 4590,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24300,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che bisogna cambiare l'olio di lubrificazione del motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "36779cfc84d87c2307160ac1333d689e",
+    "pagina_quiz": 448
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4300,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21559,
+    "testo": "Il segnale raffigurato indica l'ingresso di un pronto soccorso medico",
+    "risposta_corretta": "VERO",
+    "immagine": "48c50da3b91a82e86891d676bf735005",
+    "pagina_quiz": 57
+  },
+  {
+    "id_blocco": 4300,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21560,
+    "testo": "Il segnale raffigurato indica la direzione per entrare nel pronto soccorso",
+    "risposta_corretta": "VERO",
+    "immagine": "48c50da3b91a82e86891d676bf735005",
+    "pagina_quiz": 57
+  },
+  {
+    "id_blocco": 4300,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21561,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un pronto soccorso",
+    "risposta_corretta": "VERO",
+    "immagine": "48c50da3b91a82e86891d676bf735005",
+    "pagina_quiz": 57
+  },
+  {
+    "id_blocco": 4300,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21562,
+    "testo": "Il segnale raffigurato indica un posto di confine con la Svizzera",
+    "risposta_corretta": "FALSO",
+    "immagine": "48c50da3b91a82e86891d676bf735005",
+    "pagina_quiz": 57
+  },
+  {
+    "id_blocco": 4300,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21563,
+    "testo": "Il segnale raffigurato indica una farmacia",
+    "risposta_corretta": "FALSO",
+    "immagine": "48c50da3b91a82e86891d676bf735005",
+    "pagina_quiz": 57
+  },
+  {
+    "id_blocco": 4300,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21564,
+    "testo": "Il segnale raffigurato indica la strada da seguire per raggiungere il cimitero",
+    "risposta_corretta": "FALSO",
+    "immagine": "48c50da3b91a82e86891d676bf735005",
+    "pagina_quiz": 58
+  },
+  {
+    "id_blocco": 4300,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21565,
+    "testo": "Il segnale raffigurato preavvisa un incrocio a quattro strade",
+    "risposta_corretta": "FALSO",
+    "immagine": "48c50da3b91a82e86891d676bf735005",
+    "pagina_quiz": 58
+  },
+  {
+    "id_blocco": 4300,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21566,
+    "testo": "Il segnale raffigurato indica un parcheggio riservato ai medici",
+    "risposta_corretta": "FALSO",
+    "immagine": "48c50da3b91a82e86891d676bf735005",
+    "pagina_quiz": 58
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4188,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20444,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi all'accesso autostradale",
+    "risposta_corretta": "VERO",
+    "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
+    "pagina_quiz": 334
+  },
+  {
+    "id_blocco": 4188,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20445,
+    "testo": "Il segnale raffigurato impone l'obbligo di rallentare e fermarsi per le operazioni di pedaggio autostradale",
+    "risposta_corretta": "VERO",
+    "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
+    "pagina_quiz": 335
+  },
+  {
+    "id_blocco": 4188,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20446,
+    "testo": "Il segnale raffigurato s egnala una stazione autostradale alla quale è obbligatorio fermarsi",
+    "risposta_corretta": "VERO",
+    "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
+    "pagina_quiz": 335
+  },
+  {
+    "id_blocco": 4188,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20447,
+    "testo": "Il segnale raffigurato prescrive di arrestarsi al casello autostradale per le operazioni di pedaggio",
+    "risposta_corretta": "VERO",
+    "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
+    "pagina_quiz": 335
+  },
+  {
+    "id_blocco": 4188,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20448,
+    "testo": "Il segnale raffigurato è posto in corrispondenza degli accessi autostradali controlla ti dove è obbligatorio fermarsi",
+    "risposta_corretta": "VERO",
+    "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
+    "pagina_quiz": 335
+  },
+  {
+    "id_blocco": 4188,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20449,
+    "testo": "Il segnale raffigurato s egnala la presenza di un com ando stazione carabinieri, con posto di blocco",
+    "risposta_corretta": "FALSO",
+    "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
+    "pagina_quiz": 335
+  },
+  {
+    "id_blocco": 4188,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20450,
+    "testo": "Il segnale raffigurato preannuncia una stazione ferroviaria",
+    "risposta_corretta": "FALSO",
+    "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
+    "pagina_quiz": 335
+  },
+  {
+    "id_blocco": 4188,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20451,
+    "testo": "Il segnale raffigurato vieta l'accesso ad un'area riservata ai mezzi della socie tà autostradale",
+    "risposta_corretta": "FALSO",
+    "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
+    "pagina_quiz": 335
+  },
+  {
+    "id_blocco": 4188,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20452,
+    "testo": "Il segnale raffigurato indica il punto ove occorre fermarsi per caricare l'autovettura sul treno",
+    "risposta_corretta": "FALSO",
+    "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
+    "pagina_quiz": 335
+  },
+  {
+    "id_blocco": 4188,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20453,
+    "testo": "Il segnale raffigurato può indicare il punto di arresto nei pontili d'imbarco di navi tra ghetto",
+    "risposta_corretta": "FALSO",
+    "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
+    "pagina_quiz": 335
+  }
+]

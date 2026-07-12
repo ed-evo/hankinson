@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4280,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21355,
+    "testo": "Il segnale raffigurato preavvisa un incrocio urbano",
+    "risposta_corretta": "VERO",
+    "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
+    "pagina_quiz": 32
+  },
+  {
+    "id_blocco": 4280,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21356,
+    "testo": "Il segnale raffigurato riporta i nomi dei luoghi raggiungibili dall'incrocio urbano",
+    "risposta_corretta": "VERO",
+    "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
+    "pagina_quiz": 32
+  },
+  {
+    "id_blocco": 4280,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21357,
+    "testo": "Il segnale raffigurato preavvisa la svolta a destra per raggiungere la staz ione ferroviaria",
+    "risposta_corretta": "VERO",
+    "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
+    "pagina_quiz": 32
+  },
+  {
+    "id_blocco": 4280,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21358,
+    "testo": "Il segnale raffigurato preavvisa la svolta a destra per raggiungere il centro della città",
+    "risposta_corretta": "VERO",
+    "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
+    "pagina_quiz": 32
+  },
+  {
+    "id_blocco": 4280,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21359,
+    "testo": "Il segnale raffigurato indica di proseguire diritto per raggiungere Sora",
+    "risposta_corretta": "VERO",
+    "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
+    "pagina_quiz": 32
+  },
+  {
+    "id_blocco": 4280,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21360,
+    "testo": "Il segnale raffigurato preavvisa di proseguire diritto per raggiungere Napoli",
+    "risposta_corretta": "VERO",
+    "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
+    "pagina_quiz": 33
+  },
+  {
+    "id_blocco": 4280,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21361,
+    "testo": "Il segnale raffigurato s i trova su strade extraurbane",
+    "risposta_corretta": "FALSO",
+    "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
+    "pagina_quiz": 33
+  },
+  {
+    "id_blocco": 4280,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21362,
+    "testo": "Il segnale raffigurato indica di svoltare a destra per uscire dal centro abitato",
+    "risposta_corretta": "FALSO",
+    "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
+    "pagina_quiz": 33
+  },
+  {
+    "id_blocco": 4280,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21363,
+    "testo": "Il segnale raffigurato indica che per raggiungere il centro della città bisogna torna re indietro",
+    "risposta_corretta": "FALSO",
+    "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
+    "pagina_quiz": 33
+  },
+  {
+    "id_blocco": 4280,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21364,
+    "testo": "Il segnale raffigurato preavvisa un'area di sosta a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
+    "pagina_quiz": 33
+  },
+  {
+    "id_blocco": 4280,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21365,
+    "testo": "Il segnale raffigurato preavvisa a destra un passaggio a livello senza barriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
+    "pagina_quiz": 33
+  }
+]

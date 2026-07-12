@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4268,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21235,
+    "testo": "Il segnale raffigurato indica un itinerario di strada internazionale",
+    "risposta_corretta": "VERO",
+    "immagine": "d7cc4dc22ac0caca9adce872f7ee58a4",
+    "pagina_quiz": 18
+  },
+  {
+    "id_blocco": 4268,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21236,
+    "testo": "Il segnale raffigurato indica il numero della classificazione internazionale della strada",
+    "risposta_corretta": "VERO",
+    "immagine": "d7cc4dc22ac0caca9adce872f7ee58a4",
+    "pagina_quiz": 18
+  },
+  {
+    "id_blocco": 4268,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21237,
+    "testo": "Il segnale raffigurato è posto su s trade di importanza internazionale",
+    "risposta_corretta": "VERO",
+    "immagine": "d7cc4dc22ac0caca9adce872f7ee58a4",
+    "pagina_quiz": 18
+  },
+  {
+    "id_blocco": 4268,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21238,
+    "testo": "Il segnale raffigurato indica l'itinerario internazionale n. 55",
+    "risposta_corretta": "VERO",
+    "immagine": "d7cc4dc22ac0caca9adce872f7ee58a4",
+    "pagina_quiz": 18
+  },
+  {
+    "id_blocco": 4268,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21239,
+    "testo": "Il segnale raffigurato s i può trovare all'interno di un segnale di preavviso di bivio stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "d7cc4dc22ac0caca9adce872f7ee58a4",
+    "pagina_quiz": 18
+  },
+  {
+    "id_blocco": 4268,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21240,
+    "testo": "Il segnale raffigurato identifica le strade extraurbane",
+    "risposta_corretta": "FALSO",
+    "immagine": "d7cc4dc22ac0caca9adce872f7ee58a4",
+    "pagina_quiz": 18
+  },
+  {
+    "id_blocco": 4268,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21241,
+    "testo": "Il segnale raffigurato indica l'uscita autostradale n. 55",
+    "risposta_corretta": "FALSO",
+    "immagine": "d7cc4dc22ac0caca9adce872f7ee58a4",
+    "pagina_quiz": 19
+  },
+  {
+    "id_blocco": 4268,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21242,
+    "testo": "Il segnale raffigurato indica che mancano 55 chilometri al confine di Stato con l'estero",
+    "risposta_corretta": "FALSO",
+    "immagine": "d7cc4dc22ac0caca9adce872f7ee58a4",
+    "pagina_quiz": 19
+  },
+  {
+    "id_blocco": 4268,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21243,
+    "testo": "Il segnale raffigurato indica la velocità massima da tenere su quella strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "d7cc4dc22ac0caca9adce872f7ee58a4",
+    "pagina_quiz": 19
+  },
+  {
+    "id_blocco": 4268,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21244,
+    "testo": "Il segnale raffigurato indica il numero del cavalcavia",
+    "risposta_corretta": "FALSO",
+    "immagine": "d7cc4dc22ac0caca9adce872f7ee58a4",
+    "pagina_quiz": 19
+  },
+  {
+    "id_blocco": 4268,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21245,
+    "testo": "Il segnale raffigurato indica che sono stati percorsi 55 chilometri dal punto di origine de ll'autostrada",
+    "risposta_corretta": "FALSO",
+    "immagine": "d7cc4dc22ac0caca9adce872f7ee58a4",
+    "pagina_quiz": 19
+  }
+]

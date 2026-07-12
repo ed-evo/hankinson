@@ -1,0 +1,100 @@
+[
+  {
+    "id_blocco": 4007,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18388,
+    "testo": "L'intersezione (incrocio) a livelli sfalsati comprende strade situate ad altezze diverse",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4007,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18389,
+    "testo": "L'intersezione (incrocio) a livelli sfalsati facilita la circolazione, perché escl ude l'i ncrocio diretto fra i veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4007,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18390,
+    "testo": "L'intersezione (incrocio) a livelli sfalsati comprende rampe, sovrappassi o sottopassi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4007,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18391,
+    "testo": "L'intersezione (incrocio) a livelli sfalsati è munita di infrastrutture (rampe, sovrappassi, sottopassi) per il collegamento fra strade poste a livelli diversi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4007,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18392,
+    "testo": "L'intersezione a livelli sfalsati è un incrocio a raso fra una strada e i binari del treno",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4007,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18393,
+    "testo": "Nell'inter sezione (incrocio) a livelli sfalsati non valgono i limiti massimi generali di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4007,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18394,
+    "testo": "L'intersezione (incrocio) a livelli sfalsati è, di norma, regolata da semafori",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 450
+  }
+]

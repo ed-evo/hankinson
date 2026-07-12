@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4181,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20385,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un percorso unico per pedoni e ciclisti",
+    "risposta_corretta": "VERO",
+    "immagine": "8664a169f7eec06d02bef3a1c5053e42",
+    "pagina_quiz": 378
+  },
+  {
+    "id_blocco": 4181,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20386,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un viale misto, riservato sia a i pedoni che ai ciclisti",
+    "risposta_corretta": "VERO",
+    "immagine": "8664a169f7eec06d02bef3a1c5053e42",
+    "pagina_quiz": 378
+  },
+  {
+    "id_blocco": 4181,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20387,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un itinerario riservato solo al transito di pedoni e ciclisti",
+    "risposta_corretta": "VERO",
+    "immagine": "8664a169f7eec06d02bef3a1c5053e42",
+    "pagina_quiz": 378
+  },
+  {
+    "id_blocco": 4181,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20388,
+    "testo": "Il segnale raffigurato non consente la circolazione dei veicoli a motore",
+    "risposta_corretta": "VERO",
+    "immagine": "8664a169f7eec06d02bef3a1c5053e42",
+    "pagina_quiz": 379
+  },
+  {
+    "id_blocco": 4181,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20389,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di una pista ciclabile a fia nco del marciapiede",
+    "risposta_corretta": "FALSO",
+    "immagine": "8664a169f7eec06d02bef3a1c5053e42",
+    "pagina_quiz": 379
+  },
+  {
+    "id_blocco": 4181,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20390,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di una pista ciclabile a fia nco di un percorso riservato ai pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "8664a169f7eec06d02bef3a1c5053e42",
+    "pagina_quiz": 379
+  },
+  {
+    "id_blocco": 4181,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20391,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un'area pedonale accanto ad un perc orso per ciclisti",
+    "risposta_corretta": "FALSO",
+    "immagine": "8664a169f7eec06d02bef3a1c5053e42",
+    "pagina_quiz": 379
+  },
+  {
+    "id_blocco": 4181,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20392,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un percorso pedonale accanto ad un percorso per le biciclette, separati da spartitraffico",
+    "risposta_corretta": "FALSO",
+    "immagine": "8664a169f7eec06d02bef3a1c5053e42",
+    "pagina_quiz": 379
+  },
+  {
+    "id_blocco": 4181,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20393,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un'area transitabile con biciclette soltanto se condotte a mano",
+    "risposta_corretta": "FALSO",
+    "immagine": "8664a169f7eec06d02bef3a1c5053e42",
+    "pagina_quiz": 379
+  }
+]

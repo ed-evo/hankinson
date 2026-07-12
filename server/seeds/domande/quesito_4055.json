@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18903,
+    "testo": "Il segnale raffigurato preannuncia una cunetta",
+    "risposta_corretta": "VERO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 389
+  },
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18904,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada pericoloso a causa di una cunetta",
+    "risposta_corretta": "VERO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 389
+  },
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18905,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 389
+  },
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18906,
+    "testo": "Il segnale raffigurato s i trova prima di un tratto in discesa seguito da uno in salita",
+    "risposta_corretta": "VERO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 389
+  },
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18907,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada che potrebbe allagarsi in caso di forti piogge",
+    "risposta_corretta": "VERO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 389
+  },
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18908,
+    "testo": "Il segnale raffigurato indica una banchina cedevole",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 389
+  },
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18909,
+    "testo": "Il segnale raffigurato preannuncia una strada deformata",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 389
+  },
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18910,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cattivo stato",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 389
+  },
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18911,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada con pavimentazione irregolare",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 390
+  },
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18912,
+    "testo": "Il segnale raffigurato può trovarsi prima di un tratto in salita seguito da una disce sa",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 390
+  },
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18913,
+    "testo": "Il segnale raffigurato preannuncia un restringimento della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 390
+  },
+  {
+    "id_blocco": 4055,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18914,
+    "testo": "Il segnale raffigurato preannuncia un dosso",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 390
+  }
+]

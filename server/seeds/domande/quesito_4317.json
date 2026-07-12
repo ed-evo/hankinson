@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4317,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21713,
+    "testo": "Il segnale raffigurato indica le velocità minime obbligatorie da mantenere sulle corsie i ndicate",
+    "risposta_corretta": "VERO",
+    "immagine": "47a3132fb25bc64ef9f5157432941f04",
+    "pagina_quiz": 76
+  },
+  {
+    "id_blocco": 4317,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21714,
+    "testo": "Il segnale raffigurato è posto sulle autostrade",
+    "risposta_corretta": "VERO",
+    "immagine": "47a3132fb25bc64ef9f5157432941f04",
+    "pagina_quiz": 76
+  },
+  {
+    "id_blocco": 4317,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21715,
+    "testo": "Il segnale raffigurato consente ad un veicolo che viaggia a 100 km/h di percorrere la corsia di mezzo",
+    "risposta_corretta": "VERO",
+    "immagine": "47a3132fb25bc64ef9f5157432941f04",
+    "pagina_quiz": 76
+  },
+  {
+    "id_blocco": 4317,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21716,
+    "testo": "Il segnale raffigurato obbliga i veicoli che viaggiano alla velocità di 50 km/h di stare sulla prima corsia di destra",
+    "risposta_corretta": "VERO",
+    "immagine": "47a3132fb25bc64ef9f5157432941f04",
+    "pagina_quiz": 76
+  },
+  {
+    "id_blocco": 4317,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21717,
+    "testo": "Il segnale raffigurato consente di circolare a 160 km/h in tutte e tre le corsie",
+    "risposta_corretta": "FALSO",
+    "immagine": "47a3132fb25bc64ef9f5157432941f04",
+    "pagina_quiz": 76
+  },
+  {
+    "id_blocco": 4317,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21718,
+    "testo": "Il segnale raffigurato riporta le velocità che si consiglia di non superare",
+    "risposta_corretta": "FALSO",
+    "immagine": "47a3132fb25bc64ef9f5157432941f04",
+    "pagina_quiz": 77
+  },
+  {
+    "id_blocco": 4317,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21719,
+    "testo": "Il segnale raffigurato consente ad un veicolo che viaggia alla velocità di 80 km/h di stare sulla corsia di sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "47a3132fb25bc64ef9f5157432941f04",
+    "pagina_quiz": 77
+  },
+  {
+    "id_blocco": 4317,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21720,
+    "testo": "Il segnale raffigurato indica una strada a doppio senso di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "47a3132fb25bc64ef9f5157432941f04",
+    "pagina_quiz": 77
+  },
+  {
+    "id_blocco": 4317,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21721,
+    "testo": "Il segnale raffigurato indica le velocità consigliate",
+    "risposta_corretta": "FALSO",
+    "immagine": "47a3132fb25bc64ef9f5157432941f04",
+    "pagina_quiz": 77
+  }
+]

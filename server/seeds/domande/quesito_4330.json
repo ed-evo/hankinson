@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4330,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21826,
+    "testo": "Il pa nnell o raffigurato indica la vicinanza di una c urva stretta",
+    "risposta_corretta": "VERO",
+    "immagine": "bacab78176dc95f719635f109766d036",
+    "pagina_quiz": 403
+  },
+  {
+    "id_blocco": 4330,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21827,
+    "testo": "Il pa nnell o raffigurato indica il numero progressivo di una curva pericolosa",
+    "risposta_corretta": "VERO",
+    "immagine": "bacab78176dc95f719635f109766d036",
+    "pagina_quiz": 403
+  },
+  {
+    "id_blocco": 4330,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21828,
+    "testo": "Il pa nnell o raffigurato indica il primo di una serie di tornanti (curve a raggi o ridotto)",
+    "risposta_corretta": "VERO",
+    "immagine": "bacab78176dc95f719635f109766d036",
+    "pagina_quiz": 403
+  },
+  {
+    "id_blocco": 4330,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21829,
+    "testo": "Il pa nnell o raffigurato, in una serie di tornanti, ne indica il numero progressivo",
+    "risposta_corretta": "VERO",
+    "immagine": "bacab78176dc95f719635f109766d036",
+    "pagina_quiz": 403
+  },
+  {
+    "id_blocco": 4330,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21830,
+    "testo": "Il pa nnell o raffigurato indica una zona a circolazione rotatoria",
+    "risposta_corretta": "FALSO",
+    "immagine": "bacab78176dc95f719635f109766d036",
+    "pagina_quiz": 404
+  },
+  {
+    "id_blocco": 4330,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21831,
+    "testo": "Il pa nnell o raffigurato indica che fra un chilometro troveremo un tornante",
+    "risposta_corretta": "FALSO",
+    "immagine": "bacab78176dc95f719635f109766d036",
+    "pagina_quiz": 404
+  },
+  {
+    "id_blocco": 4330,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21832,
+    "testo": "Il pa nnell o raffigurato indica i chilometri da fare per poter tornare indietro",
+    "risposta_corretta": "FALSO",
+    "immagine": "bacab78176dc95f719635f109766d036",
+    "pagina_quiz": 404
+  },
+  {
+    "id_blocco": 4330,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21833,
+    "testo": "Il pa nnell o raffigurato indica il numero di incroci superati",
+    "risposta_corretta": "FALSO",
+    "immagine": "bacab78176dc95f719635f109766d036",
+    "pagina_quiz": 404
+  },
+  {
+    "id_blocco": 4330,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21834,
+    "testo": "Il pa nnell o raffigurato indica a quanti chilometri di distanza si trova il prossimo tornante",
+    "risposta_corretta": "FALSO",
+    "immagine": "bacab78176dc95f719635f109766d036",
+    "pagina_quiz": 404
+  },
+  {
+    "id_blocco": 4330,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21835,
+    "testo": "Il pa nnell o raffigurato indica il numero del cavalcavia",
+    "risposta_corretta": "FALSO",
+    "immagine": "bacab78176dc95f719635f109766d036",
+    "pagina_quiz": 404
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4678,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25115,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli aumenta se gli iniettori sono dife ttosi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4678,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25116,
+    "testo": "Una maggiore emissione di fumo dallo scarico è sintomo di maggior inquinamento causato dal motore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4678,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25117,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli è maggiore se il fumo di scarico presenta colore scuro",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4678,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25118,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli può causare danni alle vie respiratorie e irritazione agli occhi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4678,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25119,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli fa aumentare lo smog, le piogge acide e l'effetto serra",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4678,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25120,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli è dovuto per la maggior parte ai gas di scarico, generati dalla combustione all'interno del motore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4678,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25121,
+    "testo": "L'inquinamento atmosferico prodotto dai veicoli dipende principalmente dall'umidità presente nell'aria",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 581
+  }
+]

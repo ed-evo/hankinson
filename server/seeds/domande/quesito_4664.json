@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4664,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25019,
+    "testo": "È vieta to utilizzare il veicolo privo di copertura assicurativa sulle strade pubbliche",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4664,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25020,
+    "testo": "Quando l'assicurazione per la responsabilità civile auto è scaduta di validità si incorre in una sanzione se si circola o si lascia in sosta il veicolo sulle strade pubbliche",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4664,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25021,
+    "testo": "Quando l'assicurazione per la responsabilità civile auto è scaduta di validità si può incorr ere nella confisca del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4664,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25022,
+    "testo": "Quando l'assicurazione per la responsabilità civile auto è scaduta di validità si può continuare a usare il veicolo solo per brevi tragitti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4664,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25023,
+    "testo": "Quando l'assicurazione per la responsabilità civile auto è scaduta di validità si può utilizzare il veicolo solo sul territorio italiano",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4664,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25024,
+    "testo": "Quando l'assicurazione per la responsabilità civile auto è scaduta di validità è possibile lasciare il veicolo in sosta sulle strade pubbliche",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4664,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25025,
+    "testo": "Quando l'assicurazione per la responsabilità civile auto è scaduta di validità, il veicolo deve essere sottoposto a collaudo tecnico prima di essere rimesso in circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4664,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25026,
+    "testo": "Quando l'assicurazione per la responsabilità civile auto è scaduta di validità è possibile continuare ad usare il veicolo, solo se si è disposti a pagare personalmente gli eventuali danni arrecati",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  }
+]

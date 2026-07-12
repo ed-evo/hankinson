@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4313,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21673,
+    "testo": "Il segnale raffigurato indica il percorso da fare per prendere la strada di sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "668903331caeead72a084bb8ba238e53",
+    "pagina_quiz": 71
+  },
+  {
+    "id_blocco": 4313,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21674,
+    "testo": "Il segnale raffigurato indica che non è possibile svoltare a sinistra in modo dire tto",
+    "risposta_corretta": "VERO",
+    "immagine": "668903331caeead72a084bb8ba238e53",
+    "pagina_quiz": 71
+  },
+  {
+    "id_blocco": 4313,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21675,
+    "testo": "Il segnale raffigurato consente di proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "668903331caeead72a084bb8ba238e53",
+    "pagina_quiz": 71
+  },
+  {
+    "id_blocco": 4313,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21676,
+    "testo": "Il segnale raffigurato consente la svolta a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "668903331caeead72a084bb8ba238e53",
+    "pagina_quiz": 71
+  },
+  {
+    "id_blocco": 4313,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21677,
+    "testo": "Il segnale raffigurato interessa i conducenti che intendono prendere la strada di sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "668903331caeead72a084bb8ba238e53",
+    "pagina_quiz": 72
+  },
+  {
+    "id_blocco": 4313,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21678,
+    "testo": "Il segnale raffigurato obbliga a svoltare a sinistra al prossimo incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "668903331caeead72a084bb8ba238e53",
+    "pagina_quiz": 72
+  },
+  {
+    "id_blocco": 4313,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21679,
+    "testo": "Il segnale raffigurato indica un parcheggio a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "668903331caeead72a084bb8ba238e53",
+    "pagina_quiz": 72
+  },
+  {
+    "id_blocco": 4313,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21680,
+    "testo": "Il segnale raffigurato non vale per le biciclette ed i ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": "668903331caeead72a084bb8ba238e53",
+    "pagina_quiz": 72
+  },
+  {
+    "id_blocco": 4313,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21681,
+    "testo": "Il segnale raffigurato vieta la svolta a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "668903331caeead72a084bb8ba238e53",
+    "pagina_quiz": 72
+  },
+  {
+    "id_blocco": 4313,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21682,
+    "testo": "Il segnale raffigurato indica il percorso degli autobus che hanno fermate nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "668903331caeead72a084bb8ba238e53",
+    "pagina_quiz": 72
+  }
+]

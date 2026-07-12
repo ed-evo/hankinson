@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4398,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22578,
+    "testo": "La distanza minima di sicurezza se si viaggia a 30 km/h è di circa 9 metri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4398,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22579,
+    "testo": "La distanza minima di sicurezza se si viaggia a 50 km/h deve essere di circa 14 metri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4398,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22580,
+    "testo": "La distanza minima di sicurezza se si viaggia a 100 km/h deve essere di circa 28 me tri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4398,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22581,
+    "testo": "La distanza minima di sicurezza se si viaggia a 150 km/h deve essere di circa 42 me tri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4398,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22582,
+    "testo": "La distanza minima di sicurezza se si viaggia a 130 km/h deve essere di circa 36 me tri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4398,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22583,
+    "testo": "La distanza minima di sicurezza se si viaggia a 30 km/h deve essere di circa 2 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4398,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22584,
+    "testo": "La distanza minima di sicurezza se si viaggia a 50 km/h deve essere di circa 5 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4398,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22585,
+    "testo": "La distanza minima di sicurezza se si viaggia a 100 km/h deve essere di circa 15 me tri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4398,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22586,
+    "testo": "La distanza minima di sicurezza se si viaggia a 130 km/h deve essere di circa 20 me tri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4398,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22587,
+    "testo": "La distanza minima di sicurezza se si viaggia a 150 km/h deve essere di circa 25 me tri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  }
+]

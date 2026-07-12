@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4116,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19656,
+    "testo": "Il segnale raffigurato vieta il transito ai pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": "7d5994527a6ccfadd7ecf69f4ac79bee",
+    "pagina_quiz": 278
+  },
+  {
+    "id_blocco": 4116,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19657,
+    "testo": "Il segnale raffigurato consente il transito agli autoveicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "7d5994527a6ccfadd7ecf69f4ac79bee",
+    "pagina_quiz": 279
+  },
+  {
+    "id_blocco": 4116,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19658,
+    "testo": "Il segnale raffigurato consente il transito ai motocicli",
+    "risposta_corretta": "VERO",
+    "immagine": "7d5994527a6ccfadd7ecf69f4ac79bee",
+    "pagina_quiz": 279
+  },
+  {
+    "id_blocco": 4116,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19659,
+    "testo": "Il segnale raffigurato consente il transito ai quadricicli a motore",
+    "risposta_corretta": "VERO",
+    "immagine": "7d5994527a6ccfadd7ecf69f4ac79bee",
+    "pagina_quiz": 279
+  },
+  {
+    "id_blocco": 4116,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19660,
+    "testo": "Il segnale raffigurato consente il transito alle biciclette",
+    "risposta_corretta": "VERO",
+    "immagine": "7d5994527a6ccfadd7ecf69f4ac79bee",
+    "pagina_quiz": 279
+  },
+  {
+    "id_blocco": 4116,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19661,
+    "testo": "Il segnale raffigurato vieta il transito ai ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": "7d5994527a6ccfadd7ecf69f4ac79bee",
+    "pagina_quiz": 279
+  },
+  {
+    "id_blocco": 4116,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19662,
+    "testo": "Il segnale raffigurato vale dalle ore 8.00 alle ore 20.00",
+    "risposta_corretta": "FALSO",
+    "immagine": "7d5994527a6ccfadd7ecf69f4ac79bee",
+    "pagina_quiz": 279
+  },
+  {
+    "id_blocco": 4116,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19663,
+    "testo": "Il segnale raffigurato indica un'area urbana riservata a parco giochi e divertimenti",
+    "risposta_corretta": "FALSO",
+    "immagine": "7d5994527a6ccfadd7ecf69f4ac79bee",
+    "pagina_quiz": 279
+  },
+  {
+    "id_blocco": 4116,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19664,
+    "testo": "Il segnale raffigurato obbliga i pedoni a circolare sul margine sinistro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "7d5994527a6ccfadd7ecf69f4ac79bee",
+    "pagina_quiz": 279
+  },
+  {
+    "id_blocco": 4116,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19665,
+    "testo": "Il segnale raffigurato indica l'inizio di un percorso pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "7d5994527a6ccfadd7ecf69f4ac79bee",
+    "pagina_quiz": 279
+  }
+]

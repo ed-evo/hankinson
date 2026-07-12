@@ -1,0 +1,379 @@
+[
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22328,
+    "testo": "Il limite massimo di velocità per un'autovettura sulle autostrade è ordina riamente di 130 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22329,
+    "testo": "Il limite massimo di velocità per un'autovettura sulle strade extraurbane princ ipal i è ordinariamente di 110 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22330,
+    "testo": "Il limite massimo di velocità per un'autovettura sulle strade extraurbane secondarie è di 90 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22331,
+    "testo": "Il limite massimo di velocità per un'autovettura nei centri abitati è ordina riamente di 50 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22332,
+    "testo": "Il limite massimo di velocità per un autoveicolo fino a 3,5 tonnellate sulle autostrade è ordinariamente di 130 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22333,
+    "testo": "Il limite massimo di velocità per un autocarro fino a 3,5 tonnellate sulle strade extraurbane principali è di 110 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22334,
+    "testo": "Il limite massimo di velocità per un autoveicolo fino a 3,5 tonnellate sulle strade extraurbane secondarie è di 90 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22335,
+    "testo": "Il limite massimo di velocità per un motociclo nei centri abitati, è ordina riamente di 50 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22336,
+    "testo": "Il limite massimo di velocità per un'autovettura, in presenza di apposito segnal e in t ratti di autostrade con particolari caratteristiche, è di 150 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22337,
+    "testo": "Il limite massimo di velocità per un'autovettura in presenza di segnali su una strada urbana con particolari caratteristiche è di 70 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22338,
+    "testo": "Il limite massimo di velocità per un'autovettura in caso di precipitazioni atmosferiche sulle autos trade è di 110 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22339,
+    "testo": "Il limite massimo di velocità per un'autovettura in caso di precipitazioni atmosferiche su strade extraurbane principali è di 90 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22340,
+    "testo": "Il limite massimo di velocità per i ciclomotori è di 45 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22341,
+    "testo": "Il limite massimo di velocità per i quadricicli non leggeri, fuori dai centri urbani , è di 80 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22342,
+    "testo": "Il limite massimo di velocità per un'autovettura su una qualsiasi autostrada è di 150 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22343,
+    "testo": "Il limite massimo di velocità per un'autovettura su una strada extraurbana princ ipal e è di 90 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22344,
+    "testo": "Il limite massimo di velocità per un'autovettura su una strada extraurbana secondaria è di 70 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22345,
+    "testo": "Il limite massimo di velocità per un'autovettura nei centri abitati è sempre di 70 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22346,
+    "testo": "Il limite massimo di velocità per un'autovettura nei centri abitati è sempre di 50 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22347,
+    "testo": "Il limite massimo di velocità dei quadricicli fuori dai centri abitati è di 70 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22348,
+    "testo": "Il limite massimo di velocità degli autocarri nei centri abitati è di 40 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22349,
+    "testo": "Il limite massimo di velocità per un autocarro di massa complessiva fino a 3,5 tonnellate sulle autostrade è di 120 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22350,
+    "testo": "Il limite massimo di velocità per un autoveicolo fino a 3,5 tonnellate sulle strade extraurbane principali è di 80 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22351,
+    "testo": "Il limite massimo di velocità per un autoveicolo fino a 3,5 tonnellate nei centri abitati è di 40 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22352,
+    "testo": "Il limite massimo di velocità per qualsiasi veicolo nei centri abitati è di 60 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22353,
+    "testo": "Il limite massimo di velocità per una macchina agricola con pneumatici è di 50 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22354,
+    "testo": "Il limite massimo di velocità per una macchina operatrice gommata è di 50 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 494
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22355,
+    "testo": "Il limite massimo di velocità per una macchina agricola gommata è di 40 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 494
+  },
+  {
+    "id_blocco": 4377,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22356,
+    "testo": "Il limite massimo di velocità per una macchina operatrice gommata è di 40 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 494
+  }
+]

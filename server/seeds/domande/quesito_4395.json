@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4395,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22556,
+    "testo": "La distanza di sicurezza è commisurata anche alle condizioni psicofisiche del conducente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4395,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22557,
+    "testo": "La distanza di sicurezza va rispettata per non tamponare il veicolo che ci precede",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4395,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22558,
+    "testo": "La distanza di sicurezza deve essere determinata in relazione alla larghezza del veicolo che precede",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4395,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22559,
+    "testo": "La distanza di sicurezza è commisurata anche al numero di corsie della strada",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4395,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22560,
+    "testo": "La distanza di sicurezza è commisurata anche alla presenza del servosterzo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4395,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22561,
+    "testo": "La distanza di sicurezza è commisurata anche al tipo di veicolo che segue",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4395,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22562,
+    "testo": "La distanza di sicurezza è commisurata anche al limite di velocità riportato sul retro del veicolo che ci precede",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4395,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22563,
+    "testo": "La distanza di sicurezza è una distanza fissa",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4395,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22564,
+    "testo": "La distanza di sicurezza si deve rispettare al di sopra di una certa velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  }
+]

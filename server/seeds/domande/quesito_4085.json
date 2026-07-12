@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19272,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada che può diventare peri coloso in particolari condizioni climatiche specificate nei pannelli integrat ivi",
+    "risposta_corretta": "VERO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 201
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19273,
+    "testo": "Il segnale raffigurato preannuncia una strada con superficie che può diventare particolarmente sdrucciolevole",
+    "risposta_corretta": "VERO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 201
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19274,
+    "testo": "Il segnale (A), abbinato con il pannello (B), preannuncia una strada con superficie particolarmente sdrucciolevole in caso di pioggia",
+    "risposta_corretta": "VERO",
+    "immagine": "5170a97c44d65f9ac8c8e21aff06ee15",
+    "pagina_quiz": 201
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19275,
+    "testo": "Il segnale (A), se abbinato con il pannello (B), preannuncia un tratto di strada sul quale, in particolari condizioni meteorologiche, è probabile la presenza di ghiaccio",
+    "risposta_corretta": "VERO",
+    "immagine": "07789eec031ca160a567e18b66929fac",
+    "pagina_quiz": 201
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19276,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada sul quale può diminuire l'aderenza degli pneumatici",
+    "risposta_corretta": "VERO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 202
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19277,
+    "testo": "Il segnale raffigurato comporta di procedere a velocità moderata e di evitare brusche manovre",
+    "risposta_corretta": "VERO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 202
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19278,
+    "testo": "Il segnale raffigurato preannuncia una strettoia",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 202
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19279,
+    "testo": "Il segnale raffigurato preannuncia la possibilità di sbandamento per forte vento laterale",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 202
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19280,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada dove aumenta l'aderenza degli pneumatici",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 202
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19281,
+    "testo": "Il segnale raffigurato preannuncia che su quella strada diminuisce lo spazio di frenatura",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 202
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19282,
+    "testo": "Il segnale raffigurato invita a diminuire la distanza di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 202
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19283,
+    "testo": "Il segnale raffigurato preannuncia una strada con molte curve",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 202
+  },
+  {
+    "id_blocco": 4085,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19284,
+    "testo": "Il segnale raffigurato preannuncia una pista per la prova di tenuta degli pneumatici",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 202
+  }
+]

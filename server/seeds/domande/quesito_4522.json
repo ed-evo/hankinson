@@ -1,0 +1,46 @@
+[
+  {
+    "id_blocco": 4522,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23747,
+    "testo": "La sosta è vietata allo sbocco dei passi carrabili",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4522,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23748,
+    "testo": "La sosta ma non la fermata è vietata sugli attraversamenti pedonali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4522,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23749,
+    "testo": "La sosta è vietata sulle piste ciclabili, ma non agli sbocchi di esse nel caso sia di breve durata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4522,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23750,
+    "testo": "La sosta è consentita sui marciapiedi, solo se di breve durata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  }
+]

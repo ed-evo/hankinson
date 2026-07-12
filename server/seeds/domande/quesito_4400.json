@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4400,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22594,
+    "testo": "In un secondo, si percorrono circa m 14 se si viaggia a 50 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4400,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22595,
+    "testo": "In un secondo, si percorrono circa m 28 se si viaggia a 100 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4400,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22596,
+    "testo": "In un secondo, si percorrono circa m 36 se si viaggia a 130 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4400,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22597,
+    "testo": "In un secondo, si percorrono circa m 42 se si viaggia a 150 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4400,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22598,
+    "testo": "In un secondo, si percorrono circa m 20 se si viaggia a 150 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4400,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22599,
+    "testo": "In un secondo, si percorrono circa m 4 se si viaggia a 50 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4400,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22600,
+    "testo": "In un secondo, si percorrono circa m 10 se si viaggia a 100 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4400,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22601,
+    "testo": "In un secondo, si percorrono circa m 15 se si viaggia a 130 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  }
+]

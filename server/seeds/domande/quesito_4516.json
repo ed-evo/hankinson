@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4516,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23698,
+    "testo": "La sosta è la sospensione della marcia del veicolo protratta nel tempo, con possibilità del conducente di allontanarsi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4516,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23699,
+    "testo": "Durante la sosta il conducente può allontanarsi dal veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4516,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23700,
+    "testo": "Durante la sosta il conducente deve adottare le opportune cautele atte ad evitare incide nti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4516,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23701,
+    "testo": "Durante la sosta il conducente deve impedire l'uso del veicolo senza il suo consenso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4516,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23702,
+    "testo": "Durante la sosta nelle ore notturne il conducente deve lasciare in ogni caso accese le luci di posizione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4516,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23703,
+    "testo": "Durante la sosta il conducente non può allontanarsi dal veicolo per più di tre ore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 529
+  }
+]

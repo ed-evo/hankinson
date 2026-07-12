@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19666,
+    "testo": "Il segnale raffigurato vieta il transito alle biciclette",
+    "risposta_corretta": "VERO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 281
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19667,
+    "testo": "Il segnale raffigurato è un segnale di divieto",
+    "risposta_corretta": "VERO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 281
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19668,
+    "testo": "Il segnale raffigurato consente il transito ai quadricicli a motore",
+    "risposta_corretta": "VERO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 281
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19669,
+    "testo": "Il segnale raffigurato consente il transito ai pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 282
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19670,
+    "testo": "Il segnale raffigurato consente il transito ai ciclomotori a due ruote",
+    "risposta_corretta": "VERO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 282
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19671,
+    "testo": "Il segnale raffigurato vieta il transito ai quadricicli a pedale",
+    "risposta_corretta": "VERO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 282
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19672,
+    "testo": "Il segnale raffigurato vieta il transito ai tandem",
+    "risposta_corretta": "VERO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 282
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19673,
+    "testo": "Il segnale raffigurato vale dalle ore 8.00 alle ore 20.00",
+    "risposta_corretta": "FALSO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 282
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19674,
+    "testo": "Il segnale raffigurato consente il transito delle biciclette nelle ore notturne",
+    "risposta_corretta": "FALSO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 282
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19675,
+    "testo": "Il segnale raffigurato vieta il transito ai motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 282
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19676,
+    "testo": "Il segnale raffigurato vieta il transito ai ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 282
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19677,
+    "testo": "Il segnale raffigurato indica la presenza di una corsia riservata a biciclette e ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 282
+  },
+  {
+    "id_blocco": 4117,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19678,
+    "testo": "Il segnale raffigurato indica un parcheggio per le biciclette",
+    "risposta_corretta": "FALSO",
+    "immagine": "d62b58e41fee347a25ca241f48772c05",
+    "pagina_quiz": 283
+  }
+]

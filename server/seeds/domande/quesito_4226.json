@@ -1,0 +1,146 @@
+[
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20842,
+    "testo": "E' regolamentare, nelle zone destinate alla fermata degli autobus in servizio pubblico di linea, trovare sulla pavimentazione la scritta BUS di colore giallo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 467
+  },
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20843,
+    "testo": "E' regolamentare trovare sulla pavimentazione la scritta TAXI di colore giallo, per indicare zone riservate alla sosta dei taxi in servizio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 467
+  },
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20844,
+    "testo": "E' regolamentare trovare sulla pavimentazione la scritta STOP, a completamento del relativo segnale verticale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 467
+  },
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20845,
+    "testo": "E' regolamentare trovare sulla pavimentazione la scritta P L, con croce di S. Andrea, per segnalare un passaggio a livello",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 467
+  },
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20846,
+    "testo": "Quando si inc ontrano le strisce di figura dipinte sulla pavimentazione occorre moderare la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "e21cc580f432a80d30445dd1cfdf0ccf",
+    "pagina_quiz": 467
+  },
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20847,
+    "testo": "E' regolamentare trovare sulla pavimentazione la scritta indicante il nome di una località, a completamento della freccia direzionale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 467
+  },
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20848,
+    "testo": "E' regolamentare trovare sulla pavimentazione la scritta STOP, per completare il segnale verticale di DARE PRECEDENZA",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 467
+  },
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20849,
+    "testo": "E' regolamentare trovare sulla pavimentazione la scritta indicante una prossima stazione di servizio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 467
+  },
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20850,
+    "testo": "E' regolamentare trovare sulla pavimentazione una scritta pubblicitaria che indica un distributore di carburante",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 467
+  },
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20851,
+    "testo": "E' regolamentare trovare sulla pavimentazione una scritta di incoraggiamento per i corridori ciclisti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 467
+  },
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20852,
+    "testo": "E' regolamentare trovare sulla pavimentazione la scritta TAXI, di colore bianco, nei parcheggi per taxi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 467
+  },
+  {
+    "id_blocco": 4226,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20853,
+    "testo": "E' regolamentare trovare sulla pavimentazione la scritta GIOCHI, in vicinanza di giardini pubblici",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 467
+  }
+]

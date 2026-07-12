@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4510,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23642,
+    "testo": "L'arresto è l'interruzione della marcia del veicolo dovuta ad esigenze della circolazione, come ad esempio ad un semaforo rosso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4510,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23643,
+    "testo": "La fermat a di un veicolo è la temporanea sospensione della marcia per consent ire la salita o la discesa delle persone",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4510,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23644,
+    "testo": "La fermat a di un veicolo è la temporanea sospensione della marcia per esige nze di brevissima durata, come ad esempio per chiedere informazioni agli agenti del traffico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4510,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23645,
+    "testo": "La fermat a di un veicolo è la temporanea sospensione della marcia per esige nze di brevissima durata.",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4510,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23646,
+    "testo": "L'arresto è la temporanea sospensione della marcia per esigenze del conducente o dei passeggeri di un veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4510,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23647,
+    "testo": "La fermat a è l'interruzione della marcia del veicolo dovuta ad esigenze della circola zione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4510,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23648,
+    "testo": "La fermat a per esigenze del conducente può avere la durata massima di dieci minuti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4510,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23649,
+    "testo": "La fermat a di un veicolo è vietata se i passeggeri che scendono sono più di uno",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 528
+  }
+]

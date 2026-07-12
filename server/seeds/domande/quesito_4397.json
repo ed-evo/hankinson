@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4397,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22572,
+    "testo": "Lo spazio percorso nel tempo di reazione è quello percorso dal momento della percezione di una situazione di pericolo a quello di inizio della frenata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4397,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22573,
+    "testo": "La distanza di sicurezza deve essere mantenuta per evitare il tamponamento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4397,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22574,
+    "testo": "La distanza di sicurezza può essere maggiore dello spazio percorso nel tempo di re azione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4397,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22575,
+    "testo": "La distanza di sicurezza deve essere mantenuta per evitare lo scontro frontale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4397,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22576,
+    "testo": "La distanza di sicurezza deve essere mantenuta per evitare lo scontro laterale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4397,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22577,
+    "testo": "La distanza di sicurezza può essere inferiore allo spazio percorso nel tempo di re azione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  }
+]

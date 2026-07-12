@@ -1,0 +1,167 @@
+[
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19960,
+    "testo": "Il segnale raffigurato indica un parcheggio autorizzato",
+    "risposta_corretta": "VERO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 320
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19961,
+    "testo": "Il segnale raffigurato indica un'area attrezzata ed organizzata per sostare a tempo indeterminato, salvo diversa indicazione",
+    "risposta_corretta": "VERO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 320
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19962,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello che ne indica la distanza",
+    "risposta_corretta": "VERO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 320
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19963,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello che indica le categorie cui la stessa è riservata",
+    "risposta_corretta": "VERO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 320
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19964,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio e può essere integrato con pannello che indica le categorie di veicoli esclusi",
+    "risposta_corretta": "VERO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 320
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19965,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello che ne indica la limitazione nel tempo",
+    "risposta_corretta": "VERO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 320
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19966,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello che indica l'orario e le tariffe",
+    "risposta_corretta": "VERO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 321
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19967,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello indicante la disposizione dei veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 321
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19968,
+    "testo": "Il segnale raffigurato indica un'area di sosta con parchimetro",
+    "risposta_corretta": "FALSO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 321
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19969,
+    "testo": "Il segnale raffigurato indica che il parcheggio è ammesso dalle 8.00 alle 20.00",
+    "risposta_corretta": "FALSO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 321
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19970,
+    "testo": "Il segnale raffigurato indica un'area in cui è possibile la sosta al massimo per un'ora",
+    "risposta_corretta": "FALSO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 321
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19971,
+    "testo": "Il segnale raffigurato indica la sosta libera, ma con divieto di fermata",
+    "risposta_corretta": "FALSO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 321
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19972,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio riservato ai veicoli della Polizia di Stato",
+    "risposta_corretta": "FALSO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 321
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19973,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio e può essere integrato con un pannello che indica la superficie disponibile",
+    "risposta_corretta": "FALSO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 321
+  },
+  {
+    "id_blocco": 4143,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19974,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio e può essere integrato con la prescrizione di lasciare la chiave nel quadro",
+    "risposta_corretta": "FALSO",
+    "immagine": "2e9907861a067b19a668001c36fafa40",
+    "pagina_quiz": 321
+  }
+]

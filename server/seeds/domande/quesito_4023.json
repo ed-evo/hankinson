@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4023,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18544,
+    "testo": "I vei coli a due ruote, con motore termico fino a 50 cm3 di cilindrata e velocità massima di 45 km/h sono ciclomotori",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 455
+  },
+  {
+    "id_blocco": 4023,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18545,
+    "testo": "I ci clom otori possono avere due o tre ruote",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 455
+  },
+  {
+    "id_blocco": 4023,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18546,
+    "testo": "Non tutti i veicoli a motore a due ruote vengono classificati ciclomotori",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 455
+  },
+  {
+    "id_blocco": 4023,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18547,
+    "testo": "I ci clom otori a due ruote non possono avere un motore termico di cilindrata superiore a 50 cm3",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 455
+  },
+  {
+    "id_blocco": 4023,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18548,
+    "testo": "I ci clom otori sono soggetti a revisione dopo quattro anni dalla prima immatricolazi one, successivamente ogni due anni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 455
+  },
+  {
+    "id_blocco": 4023,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18549,
+    "testo": "I ci clom otori non hanno più di due ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 455
+  },
+  {
+    "id_blocco": 4023,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18550,
+    "testo": "Le biciclette con pedalata assistita, dotate di motore elettrico ausiliario di potenza massima fino a 0,25 kW, sono definite ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 455
+  },
+  {
+    "id_blocco": 4023,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18551,
+    "testo": "Si definiscono ciclomotori tutti i veicoli a due ruote di cilindrata superiore a 50 cm3",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 455
+  },
+  {
+    "id_blocco": 4023,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18552,
+    "testo": "I ci clom otori, per essere definiti tali, devono essere muniti di cambio manuale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 455
+  },
+  {
+    "id_blocco": 4023,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18553,
+    "testo": "I ci clom otori possono circolare alla velocità di 60 km/h fuori dai centri urbani",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 455
+  },
+  {
+    "id_blocco": 4023,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18554,
+    "testo": "I ci clom otori non sono soggetti a revisione periodica",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 455
+  }
+]

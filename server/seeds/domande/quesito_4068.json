@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4068,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19068,
+    "testo": "In presenza del segnale raffigurato è necessario rallentare in relazione alla visibilità della linea ferroviaria",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 177
+  },
+  {
+    "id_blocco": 4068,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19069,
+    "testo": "In presenza del segnale raffigurato è necessario usare la massima prudenza",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 177
+  },
+  {
+    "id_blocco": 4068,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19070,
+    "testo": "In presenza del segnale raffigurato è necessario rallentare per potere, eventualmente, arres tare il veicolo prima dell'attraversamento ferroviario",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 177
+  },
+  {
+    "id_blocco": 4068,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19071,
+    "testo": "In presenza del segnale raffigurato è necessario, prima di attraversare, assicurarsi c he non ci siano treni in arrivo sia da destra che da sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 177
+  },
+  {
+    "id_blocco": 4068,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19072,
+    "testo": "In presenza del segnale raffigurato non è consenti to sostare o fermarsi in prossimità o in corrispondenza dei binari",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 177
+  },
+  {
+    "id_blocco": 4068,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19073,
+    "testo": "In presenza del segnale raffigurato è necessario rallentare esclusivamente in caso di nebbia",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 177
+  },
+  {
+    "id_blocco": 4068,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19074,
+    "testo": "In presenza del segnale raffigurato è obbligatorio fermarsi prima dei binari se le segnalazioni luminose o acustiche non sono in funzione",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 177
+  },
+  {
+    "id_blocco": 4068,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19075,
+    "testo": "In presenza del segnale raffigurato è possibile attraversare i binari nel caso siano sbarrati da cavalletti a strisce bianche e rosse",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 177
+  },
+  {
+    "id_blocco": 4068,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19076,
+    "testo": "In presenza del segnale raffigurato è obbligatorio usare il segnalatore acust ico (clacson) prima di attraversare i binari",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 178
+  },
+  {
+    "id_blocco": 4068,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19077,
+    "testo": "In presenza del segnale raffigurato è consentito il sorpasso invadendo la corsia oppost a",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 178
+  }
+]

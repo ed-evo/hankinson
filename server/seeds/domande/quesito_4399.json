@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4399,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22588,
+    "testo": "La distrazione del conducente può essere causa di incidenti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4399,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22589,
+    "testo": "La distrazione del conducente può essere causata dall'accensione del cellulare",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4399,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22590,
+    "testo": "La distrazione del conducente può essere causata dalla accensione di una sigaretta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4399,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22591,
+    "testo": "La distrazione del conducente può essere causata dalla ricerca dei comandi della radio o di altri apparecchi elettronici",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4399,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22592,
+    "testo": "La distrazione del conducente non è determinata dall'uso del \"cellulare\"",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  },
+  {
+    "id_blocco": 4399,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22593,
+    "testo": "La distrazione del conducente non rappresenta un pericolo se si limita a pochi se condi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 502
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4474,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23303,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo D passa per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "c46da7a48b0a4850b97168a753b937bf",
+    "pagina_quiz": 121
+  },
+  {
+    "id_blocco": 4474,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23304,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo D non ha l'obbligo di dare la precedenza ad alcun veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "c46da7a48b0a4850b97168a753b937bf",
+    "pagina_quiz": 122
+  },
+  {
+    "id_blocco": 4474,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23305,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo D non ha l'obbligo di dare la precedenza al veicolo A",
+    "risposta_corretta": "VERO",
+    "immagine": "c46da7a48b0a4850b97168a753b937bf",
+    "pagina_quiz": 122
+  },
+  {
+    "id_blocco": 4474,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23306,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo D passa per t erzo",
+    "risposta_corretta": "FALSO",
+    "immagine": "c46da7a48b0a4850b97168a753b937bf",
+    "pagina_quiz": 122
+  },
+  {
+    "id_blocco": 4474,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23307,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo D ha l'obbligo di dare la precedenza a tutti i veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "c46da7a48b0a4850b97168a753b937bf",
+    "pagina_quiz": 122
+  },
+  {
+    "id_blocco": 4474,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23308,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo D ha l'obbligo di dare la precedenza al veicolo E, che prosegue diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "c46da7a48b0a4850b97168a753b937bf",
+    "pagina_quiz": 122
+  }
+]

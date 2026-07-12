@@ -1,0 +1,80 @@
+[
+  {
+    "id_blocco": 4581,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24210,
+    "testo": "Il simbolo raffigurato indica il comando degli indicatori di direzione",
+    "risposta_corretta": "VERO",
+    "immagine": "d858676ca464e7bde2123392d72cfe99",
+    "pagina_quiz": 429
+  },
+  {
+    "id_blocco": 4581,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24211,
+    "testo": "Il simbolo raffigurato è posto su una spia a luce verde",
+    "risposta_corretta": "VERO",
+    "immagine": "d858676ca464e7bde2123392d72cfe99",
+    "pagina_quiz": 429
+  },
+  {
+    "id_blocco": 4581,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24212,
+    "testo": "Il simbolo raffigurato si trova sulla spia a luce verde lampeggiante dell'indicator e di direzione azionato",
+    "risposta_corretta": "VERO",
+    "immagine": "d858676ca464e7bde2123392d72cfe99",
+    "pagina_quiz": 429
+  },
+  {
+    "id_blocco": 4581,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24213,
+    "testo": "Il simbolo raffigurato è posto su una spia di colore rosso",
+    "risposta_corretta": "FALSO",
+    "immagine": "d858676ca464e7bde2123392d72cfe99",
+    "pagina_quiz": 429
+  },
+  {
+    "id_blocco": 4581,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24214,
+    "testo": "Il simbolo raffigurato si trova su una spia che si attiva quando sono accese le luci di posizione",
+    "risposta_corretta": "FALSO",
+    "immagine": "d858676ca464e7bde2123392d72cfe99",
+    "pagina_quiz": 429
+  },
+  {
+    "id_blocco": 4581,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24215,
+    "testo": "Il simbolo raffigurato indica il comando per accendere le luci di posizione",
+    "risposta_corretta": "FALSO",
+    "immagine": "d858676ca464e7bde2123392d72cfe99",
+    "pagina_quiz": 429
+  }
+]

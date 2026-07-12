@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4191,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20482,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
+    "pagina_quiz": 258
+  },
+  {
+    "id_blocco": 4191,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20483,
+    "testo": "Il segnale raffigurato obbliga a dare precedenza ai veicoli che circolano sulla strada su cui ci si immette",
+    "risposta_corretta": "VERO",
+    "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
+    "pagina_quiz": 258
+  },
+  {
+    "id_blocco": 4191,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20484,
+    "testo": "La prescrizione del segnale raffigurato, se abbinato ad un semaforo, vale quando il semaforo funziona a luce gialla lampeggiante",
+    "risposta_corretta": "VERO",
+    "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
+    "pagina_quiz": 258
+  },
+  {
+    "id_blocco": 4191,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20485,
+    "testo": "Il segnale raffigurato s i trova sulle rampe di raccordo per l'immissione in autostrada",
+    "risposta_corretta": "VERO",
+    "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
+    "pagina_quiz": 258
+  },
+  {
+    "id_blocco": 4191,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20486,
+    "testo": "Il segnale raffigurato impone l'uso della massima prudenza al fine di evitare incidenti",
+    "risposta_corretta": "VERO",
+    "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
+    "pagina_quiz": 258
+  },
+  {
+    "id_blocco": 4191,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20487,
+    "testo": "Il segnale raffigurato può essere preceduto dal PREAVVISO DI FERMARSI E DARE PRECEDENZA",
+    "risposta_corretta": "FALSO",
+    "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
+    "pagina_quiz": 258
+  },
+  {
+    "id_blocco": 4191,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20488,
+    "testo": "Il segnale raffigurato lungo le autostrade viene posto a distanza di 150 metri da ll'a rea di servizio",
+    "risposta_corretta": "FALSO",
+    "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
+    "pagina_quiz": 258
+  },
+  {
+    "id_blocco": 4191,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20489,
+    "testo": "Il segnale raffigurato preannuncia di arrestarsi prima di impegnare l'incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
+    "pagina_quiz": 258
+  },
+  {
+    "id_blocco": 4191,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20490,
+    "testo": "Il segnale raffigurato s i trova solo su strade extraurbane",
+    "risposta_corretta": "FALSO",
+    "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
+    "pagina_quiz": 259
+  }
+]

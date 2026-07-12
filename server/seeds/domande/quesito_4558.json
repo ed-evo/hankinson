@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4558,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23998,
+    "testo": "Nonostante le caratteristiche costruttive del veicolo rendano possibile un adeguato campo di visibilità, durante la guida il conducente deve attentamente visualizzare l'area antistante e limitrofa",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 543
+  },
+  {
+    "id_blocco": 4558,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23999,
+    "testo": "Per il conducente il campo di visibilità può essere ridotto sia da uno dei poggiatesta sia da elementi della carrozzeria della propria autovettura che possono impedire accidentalmente l'avvistamento di altri utenti della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 543
+  },
+  {
+    "id_blocco": 4558,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24000,
+    "testo": "Per consentire una adeguata visibilità è vietato applicare pellicole adesive sul parabrezza e sui vetri laterali anteriori dei veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 543
+  },
+  {
+    "id_blocco": 4558,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24001,
+    "testo": "I pedoni e soprattutto i bambini rischiano di rimanere fuori dal campo visivo del conducente di un veicolo fuoristrada (Suv) a causa delle dimensioni del mezzo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 543
+  },
+  {
+    "id_blocco": 4558,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24002,
+    "testo": "Il c onducente può limitarsi ad un controllo visivo affrettato dell'area immediatamente antistante il veicolo poiché il suo mezzo dispone per costruzione di un adeguato campo di visibilità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 543
+  },
+  {
+    "id_blocco": 4558,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24003,
+    "testo": "E' co nsentito applicare sui vetri laterali anteriori e sul parabrezza pellicole adesi ve, a condizione che siano di materiale rimovibile",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 544
+  },
+  {
+    "id_blocco": 4558,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24004,
+    "testo": "I vei coli fuoristrada presentano un'altezza tale da permettere al conducente una adeguata visibilità di tutti i possibili ostacoli in basso (ad esempio, bambini)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 544
+  }
+]

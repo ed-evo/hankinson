@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22201,
+    "testo": "Il pa nnell o integrativo raffigurato indica un tratto di strada in salita con probabi le presenza di autocarri che marciano a bassa velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "80b32469db27add1894749dfd3f41c8a",
+    "pagina_quiz": 488
+  },
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22202,
+    "testo": "Il pa nnell o integrativo raffigurato indica un tratto di strada in ripida salita che costringe gli autocarri a rallentare",
+    "risposta_corretta": "VERO",
+    "immagine": "80b32469db27add1894749dfd3f41c8a",
+    "pagina_quiz": 488
+  },
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22203,
+    "testo": "Il pa nnell o integrativo raffigurato indica di fare attenzione per la probabile presenza di veicoli pesanti in lento movimento",
+    "risposta_corretta": "VERO",
+    "immagine": "80b32469db27add1894749dfd3f41c8a",
+    "pagina_quiz": 488
+  },
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22204,
+    "testo": "Il presenza del segnale raffigurato il conducente deve moderare la velocità per l a possi bile presenza di autocarri in lento movimento",
+    "risposta_corretta": "VERO",
+    "immagine": "8945e05f4fc8cb2c350bb19965468f51",
+    "pagina_quiz": 488
+  },
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22205,
+    "testo": "Il pa nnell o integrativo raffigurato indica di circolare ad una velocità prudenziale, per evitare incidenti con gli autocarri che potrebbero stare davanti",
+    "risposta_corretta": "VERO",
+    "immagine": "80b32469db27add1894749dfd3f41c8a",
+    "pagina_quiz": 488
+  },
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22206,
+    "testo": "Il pa nnell o integrativo raffigurato indica un tratto di strada chiuso a causa di un tamponamento",
+    "risposta_corretta": "FALSO",
+    "immagine": "80b32469db27add1894749dfd3f41c8a",
+    "pagina_quiz": 488
+  },
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22207,
+    "testo": "Il pa nnell o integrativo raffigurato indica che è vietato sorpassare gli autocarri",
+    "risposta_corretta": "FALSO",
+    "immagine": "80b32469db27add1894749dfd3f41c8a",
+    "pagina_quiz": 488
+  },
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22208,
+    "testo": "Il pa nnell o integrativo raffigurato si trova nei pontili d'imbarco delle navi tra ghett o",
+    "risposta_corretta": "FALSO",
+    "immagine": "80b32469db27add1894749dfd3f41c8a",
+    "pagina_quiz": 488
+  },
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22209,
+    "testo": "Il pa nnell o integrativo raffigurato indica di diminuire la distanza di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": "80b32469db27add1894749dfd3f41c8a",
+    "pagina_quiz": 488
+  },
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22210,
+    "testo": "Il pa nnell o integrativo raffigurato indica di proseguire con le luci accese",
+    "risposta_corretta": "FALSO",
+    "immagine": "80b32469db27add1894749dfd3f41c8a",
+    "pagina_quiz": 489
+  },
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22211,
+    "testo": "Il pa nnell o integrativo raffigurato indica che bisogna suonare il clacson ogni qualvolta si sorpassa un autocarro",
+    "risposta_corretta": "FALSO",
+    "immagine": "80b32469db27add1894749dfd3f41c8a",
+    "pagina_quiz": 489
+  },
+  {
+    "id_blocco": 4367,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22212,
+    "testo": "Il pa nnell o integrativo raffigurato segnala la possibilità di poter essere tra inat i",
+    "risposta_corretta": "FALSO",
+    "immagine": "80b32469db27add1894749dfd3f41c8a",
+    "pagina_quiz": 489
+  }
+]

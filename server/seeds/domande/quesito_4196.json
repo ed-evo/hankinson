@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20547,
+    "testo": "Il segnale raffigurato impone, nelle strettoie, di dare precedenza ai veicoli proveni enti dal senso opposto",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 242
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20548,
+    "testo": "Il segnale raffigurato preannuncia, in presenza di lavori, di dare precedenza ai veicoli provenienti dal senso opposto",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 242
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20549,
+    "testo": "Il segnale raffigurato preannuncia che bisogna dare la precedenza ai veicoli proveni enti di fronte",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 242
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20550,
+    "testo": "Il segnale raffigurato obbliga a dare la precedenza ai veicoli provenienti dal senso contrario",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 242
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20551,
+    "testo": "Il segnale raffigurato impone di dare la precedenza nei sensi unici alternati",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 243
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20552,
+    "testo": "Il segnale raffigurato, in una strada a doppio senso, precede una strettoia che permet te il transito di una sola fila di veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 243
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20553,
+    "testo": "Il segnale raffigurato preannuncia che la circolazione non può svolgersi contemporaneamente nei due sensi",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 243
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20554,
+    "testo": "Il segnale raffigurato preannuncia che la circolazione è ammessa nei giorni pari in un senso e nei giorni dispari nell'altro",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 243
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20555,
+    "testo": "Il segnale raffigurato preannuncia il diritto di precedenza nei sensi unici alternati",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 243
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20556,
+    "testo": "Il segnale raffigurato, s u una carreggiata a senso unico, preannuncia l'inizio del doppio senso di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 243
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20557,
+    "testo": "Il segnale raffigurato preannuncia la fine del senso unico di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 243
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20558,
+    "testo": "Il segnale raffigurato preannuncia la fine del diritto di precedenza nei sensi unici alternati",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 243
+  },
+  {
+    "id_blocco": 4196,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20559,
+    "testo": "Il segnale raffigurato s i trova su strade a senso unico di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 243
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24697,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere ristre tte zza della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24698,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere mancata segnalazione degli incroci",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24699,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere mancanza di segnaletica orizzontale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24700,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere fondo stradale deformato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24701,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere fondo stradale scivoloso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 565
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24702,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere presenza di strettoie non segnalate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24703,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere strada suddi visa in carreggiate",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24704,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere strada suddi visa in corsie",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24705,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere carreggiata a senso unico di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24706,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere strada a percorso pianeggiante",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24707,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere presenza di barriere laterali ad assorbimento d'urto (guardrails)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24708,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere regol amentazione semaforica",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4623,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24709,
+    "testo": "Causa probabile di incidenti dovuti alla struttura della strada può essere mancanza di curve pericolose",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  }
+]

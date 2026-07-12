@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4195,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20536,
+    "testo": "Il segnale raffigurato preannuncia un incrocio in cui vale la regola generale di dare la precedenza a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "1ae0a5f9e3fc82a6a91480e94779a5a7",
+    "pagina_quiz": 235
+  },
+  {
+    "id_blocco": 4195,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20537,
+    "testo": "Il segnale raffigurato prescrive di procedere a velocità particolarmente moderata",
+    "risposta_corretta": "VERO",
+    "immagine": "1ae0a5f9e3fc82a6a91480e94779a5a7",
+    "pagina_quiz": 236
+  },
+  {
+    "id_blocco": 4195,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20538,
+    "testo": "Il segnale raffigurato preannuncia un incrocio in cui si deve dare precedenza a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "1ae0a5f9e3fc82a6a91480e94779a5a7",
+    "pagina_quiz": 236
+  },
+  {
+    "id_blocco": 4195,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20539,
+    "testo": "Il segnale raffigurato è un segnale di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "1ae0a5f9e3fc82a6a91480e94779a5a7",
+    "pagina_quiz": 236
+  },
+  {
+    "id_blocco": 4195,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20540,
+    "testo": "Il segnale raffigurato non s i trova sul tratto di strada con diritto di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "1ae0a5f9e3fc82a6a91480e94779a5a7",
+    "pagina_quiz": 236
+  },
+  {
+    "id_blocco": 4195,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20541,
+    "testo": "Il segnale raffigurato presegnala un passaggio a livello custodito con barriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ae0a5f9e3fc82a6a91480e94779a5a7",
+    "pagina_quiz": 236
+  },
+  {
+    "id_blocco": 4195,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20542,
+    "testo": "Il segnale raffigurato precede il segnale DARE PRECEDENZA",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ae0a5f9e3fc82a6a91480e94779a5a7",
+    "pagina_quiz": 236
+  },
+  {
+    "id_blocco": 4195,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20543,
+    "testo": "Il segnale raffigurato precede il segnale di STOP",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ae0a5f9e3fc82a6a91480e94779a5a7",
+    "pagina_quiz": 236
+  },
+  {
+    "id_blocco": 4195,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20544,
+    "testo": "Il segnale raffigurato s i trova, di norma, a non più di 50 metri dall'incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ae0a5f9e3fc82a6a91480e94779a5a7",
+    "pagina_quiz": 236
+  },
+  {
+    "id_blocco": 4195,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20545,
+    "testo": "Il segnale raffigurato, in autostrada, viene posto a una distanza maggiore di 250 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ae0a5f9e3fc82a6a91480e94779a5a7",
+    "pagina_quiz": 236
+  },
+  {
+    "id_blocco": 4195,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20546,
+    "testo": "Il segnale raffigurato preannuncia la presenza del segnale CROCE DI S. ANDREA",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ae0a5f9e3fc82a6a91480e94779a5a7",
+    "pagina_quiz": 237
+  }
+]

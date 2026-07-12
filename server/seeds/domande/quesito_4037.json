@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4037,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18696,
+    "testo": "È vieta to spostare o imbrattare la segnaletica stradale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4037,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18697,
+    "testo": "È vieta to rimuovere la segnaletica stradale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4037,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18698,
+    "testo": "Spostare la segnaletica stradale può comportare pericolo grave per gli altri utenti della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4037,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18699,
+    "testo": "E' co nsentito spostare la segnaletica stradale, se non si tratta di segnali di peri colo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4037,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18700,
+    "testo": "E' co nsentito spostare la segnaletica stradale, dopo aver avvisato gli organi di polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4037,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18701,
+    "testo": "E' co nsentito spostare la segnaletica stradale, se si tratta delle barriere di delimitazione o dei coni stradali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 461
+  }
+]

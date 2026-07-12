@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4279,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21344,
+    "testo": "Il segnale raffigurato è un preavviso di deviazione temporanea",
+    "risposta_corretta": "VERO",
+    "immagine": "dfd8664988fdf17095257111dc0cf53c",
+    "pagina_quiz": 29
+  },
+  {
+    "id_blocco": 4279,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21345,
+    "testo": "Il segnale raffigurato preavvisa l'interruzione di una strada per lavori in corso",
+    "risposta_corretta": "VERO",
+    "immagine": "dfd8664988fdf17095257111dc0cf53c",
+    "pagina_quiz": 29
+  },
+  {
+    "id_blocco": 4279,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21346,
+    "testo": "Il segnale raffigurato fa parte dei segnali temporanei per lavori sulla strada",
+    "risposta_corretta": "VERO",
+    "immagine": "dfd8664988fdf17095257111dc0cf53c",
+    "pagina_quiz": 29
+  },
+  {
+    "id_blocco": 4279,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21347,
+    "testo": "Il segnale raffigurato indica nella parte inferiore la lunghezza della deviazione",
+    "risposta_corretta": "VERO",
+    "immagine": "dfd8664988fdf17095257111dc0cf53c",
+    "pagina_quiz": 29
+  },
+  {
+    "id_blocco": 4279,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21348,
+    "testo": "Il segnale raffigurato indica che non è assolutamente possibile raggiungere Novara",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfd8664988fdf17095257111dc0cf53c",
+    "pagina_quiz": 29
+  },
+  {
+    "id_blocco": 4279,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21349,
+    "testo": "Il segnale raffigurato obbliga a tornare indietro",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfd8664988fdf17095257111dc0cf53c",
+    "pagina_quiz": 29
+  },
+  {
+    "id_blocco": 4279,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21350,
+    "testo": "Il segnale raffigurato indica una piazzola di sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfd8664988fdf17095257111dc0cf53c",
+    "pagina_quiz": 29
+  },
+  {
+    "id_blocco": 4279,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21351,
+    "testo": "Il segnale raffigurato indica la distanza da un'area di servizio",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfd8664988fdf17095257111dc0cf53c",
+    "pagina_quiz": 29
+  },
+  {
+    "id_blocco": 4279,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21352,
+    "testo": "Il segnale raffigurato indica un cantiere di lavoro lungo 2 chilometri",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfd8664988fdf17095257111dc0cf53c",
+    "pagina_quiz": 29
+  },
+  {
+    "id_blocco": 4279,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21353,
+    "testo": "Il segnale raffigurato è posto a 2 chilometri dal segnale di lavori in corso",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfd8664988fdf17095257111dc0cf53c",
+    "pagina_quiz": 30
+  },
+  {
+    "id_blocco": 4279,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21354,
+    "testo": "Il segnale raffigurato indica che la deviazione si trova a 2 chilometri di distanza dal segnale",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfd8664988fdf17095257111dc0cf53c",
+    "pagina_quiz": 30
+  }
+]

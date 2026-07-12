@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4293,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21492,
+    "testo": "Il segnale raffigurato indica l'inizio di una zona a traffico limitato",
+    "risposta_corretta": "VERO",
+    "immagine": "231fe76e20dc7826420df8202ae1ec87",
+    "pagina_quiz": 50
+  },
+  {
+    "id_blocco": 4293,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21493,
+    "testo": "Il segnale raffigurato indica l'inizio dell'area dove il traffico è consentito solo ad a lcune categorie di veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "231fe76e20dc7826420df8202ae1ec87",
+    "pagina_quiz": 50
+  },
+  {
+    "id_blocco": 4293,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21494,
+    "testo": "Il segnale raffigurato riporta quali sono i veicoli che possono entrare",
+    "risposta_corretta": "VERO",
+    "immagine": "231fe76e20dc7826420df8202ae1ec87",
+    "pagina_quiz": 50
+  },
+  {
+    "id_blocco": 4293,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21495,
+    "testo": "Il segnale raffigurato riporta le categorie di veicoli ammessi al transito",
+    "risposta_corretta": "VERO",
+    "immagine": "231fe76e20dc7826420df8202ae1ec87",
+    "pagina_quiz": 50
+  },
+  {
+    "id_blocco": 4293,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21496,
+    "testo": "Il segnale raffigurato indica una strada a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "231fe76e20dc7826420df8202ae1ec87",
+    "pagina_quiz": 50
+  },
+  {
+    "id_blocco": 4293,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21497,
+    "testo": "Il segnale raffigurato vieta il transito di tutti i veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "231fe76e20dc7826420df8202ae1ec87",
+    "pagina_quiz": 50
+  },
+  {
+    "id_blocco": 4293,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21498,
+    "testo": "Il segnale raffigurato indica una zona militare",
+    "risposta_corretta": "FALSO",
+    "immagine": "231fe76e20dc7826420df8202ae1ec87",
+    "pagina_quiz": 50
+  },
+  {
+    "id_blocco": 4293,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21499,
+    "testo": "Il segnale raffigurato indica che la strada è chiusa per l'intenso traffico",
+    "risposta_corretta": "FALSO",
+    "immagine": "231fe76e20dc7826420df8202ae1ec87",
+    "pagina_quiz": 51
+  },
+  {
+    "id_blocco": 4293,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21500,
+    "testo": "Il segnale raffigurato consente il transito solo ai residenti",
+    "risposta_corretta": "FALSO",
+    "immagine": "231fe76e20dc7826420df8202ae1ec87",
+    "pagina_quiz": 51
+  },
+  {
+    "id_blocco": 4293,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21501,
+    "testo": "Il segnale raffigurato indica l'inizio di un'area pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "231fe76e20dc7826420df8202ae1ec87",
+    "pagina_quiz": 51
+  }
+]

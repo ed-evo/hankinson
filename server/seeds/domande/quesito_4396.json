@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4396,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22565,
+    "testo": "La distanza di sicurezza è commisurata anche all'aderenza degli pneumatici",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4396,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22566,
+    "testo": "La distanza di sicurezza dipende dallo spazio percorso nel tempo di reazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4396,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22567,
+    "testo": "La distanza di sicurezza deve essere di almeno 100 metri nelle forti discese",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4396,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22568,
+    "testo": "La distanza di sicurezza deve essere di almeno 100 metri in caso di nevicata in atto",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4396,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22569,
+    "testo": "La distanza di sicurezza dipende dall'efficienza del freno di stazionamento",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4396,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22570,
+    "testo": "La distanza di sicurezza deve essere maggiore se si percorre la corsia d'emergenza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4396,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22571,
+    "testo": "La distanza di sicurezza deve essere uguale allo spazio di frenatura aumentato di 20 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  }
+]

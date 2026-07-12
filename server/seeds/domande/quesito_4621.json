@@ -1,0 +1,338 @@
+[
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24655,
+    "testo": "Il superamento dei limiti di velocità di oltre 10 km/h durante la guida comporta una perdita di punti sulla patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24656,
+    "testo": "Il mancato rispetto di alcune norme relative alla manovra di sorpasso comporta una perdita di punti sulla patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24657,
+    "testo": "L'uso di telefono cellulare senza auricolare o viva voce durante la guida comporta una perdita di punti sulla patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24658,
+    "testo": "Circolare senza casco durante la guida quando previ sto, o con casco mal allacciato, comporta una perdita di punti sulla patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24659,
+    "testo": "Il mancato rispetto della distanza di sicurezza da cui sia derivato un incidente, comporta una perdita di punti sulla patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24660,
+    "testo": "Il mancato uti lizzo o l'uso improprio delle luci durante la guida, comporta una perdita di punti sulla patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24661,
+    "testo": "Il trasporto in sovraccarico o in sovrannumero durante la guida, comporta una perdita di punti sulla patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24662,
+    "testo": "L'omesso uso di lenti durante la guida, se prescritte, comporta una perdita di punti sulla patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24663,
+    "testo": "Circolare sulla corsia di emergenza in autostrada, al di fuori dei casi previ sti, comporta una perdita di punti sulla patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24664,
+    "testo": "Guidare sotto l'effetto di sostanze stupefacenti comporta una perdita di punti sulla patente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24665,
+    "testo": "Gareggiare in velocità su piste private, avendo meno di 24 anni e la sola patente B , comporta una perdita di punti sulla patente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24666,
+    "testo": "La sciare in sosta l'auto davanti a un passo carrabile comporta una perdita di punti sulla patente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24668,
+    "testo": "Circolare senza avere con sé la carta di circolazione del veicolo di cui si è alla guida comporta una perdita di punti sulla patente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24669,
+    "testo": "Guidare senza avere con sé il certificato di proprietà del veicolo di cui si è alla guida comporta una perdita di punti sulla patente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24670,
+    "testo": "Guidare un veicolo di altro proprietario senza autorizzazione della Motorizzazione Civile comporta una perdita di punti sulla patente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24671,
+    "testo": "La perdita di punti sulla patente per infrazione al codice della strada è raddoppi ata se effettuata alla guida di motociclo di potenza superiore a 35 kW",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24672,
+    "testo": "La perdita di punti sulla patente per infrazione al codice della strada è raddoppi ata se effettuata alla guida di autovettura di potenza superiore a 115 kW",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24673,
+    "testo": "Circolare con un'autovettura dotata di otto posti compreso il conducente con patente di categoria C comporta una perdita di punti sulla patente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24674,
+    "testo": "Circolare con un'autovettura su autostrada o su strada extraurbana princ ipal e avendo conseguito la patente di categoria B da meno di sei mesi comporta una perdita di punti sulla patente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24675,
+    "testo": "Circolare, in un giorno festivo, con un autocarro carico, di massa complessiva a pieno carico inferiore a 3,5 tonnellate, comporta una perdita di punti sulla patente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 564
+  },
+  {
+    "id_blocco": 4621,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24676,
+    "testo": "Circolare con veicolo che non sia stato sottoposto alla prescritta revisione peri odica comporta una perdita di punti sulla patente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 564
+  }
+]

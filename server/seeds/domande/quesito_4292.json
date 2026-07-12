@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4292,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21484,
+    "testo": "Il segnale raffigurato indica l'inizio di un'area pedonale",
+    "risposta_corretta": "VERO",
+    "immagine": "6c96f2c8ec875853432c7e8fe4db1e41",
+    "pagina_quiz": 49
+  },
+  {
+    "id_blocco": 4292,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21485,
+    "testo": "Il segnale raffigurato indica, nel pannello aggiuntivo, i veicoli che possono entrare",
+    "risposta_corretta": "VERO",
+    "immagine": "6c96f2c8ec875853432c7e8fe4db1e41",
+    "pagina_quiz": 49
+  },
+  {
+    "id_blocco": 4292,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21486,
+    "testo": "Il segnale raffigurato consente la circolazione dei veicoli per il carico e lo scarico merci",
+    "risposta_corretta": "VERO",
+    "immagine": "6c96f2c8ec875853432c7e8fe4db1e41",
+    "pagina_quiz": 49
+  },
+  {
+    "id_blocco": 4292,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21487,
+    "testo": "Il segnale raffigurato consente la circolazione dei veicoli per persone diversamente abili",
+    "risposta_corretta": "VERO",
+    "immagine": "6c96f2c8ec875853432c7e8fe4db1e41",
+    "pagina_quiz": 49
+  },
+  {
+    "id_blocco": 4292,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21488,
+    "testo": "Il segnale raffigurato indica una stazione di polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": "6c96f2c8ec875853432c7e8fe4db1e41",
+    "pagina_quiz": 49
+  },
+  {
+    "id_blocco": 4292,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21489,
+    "testo": "Il segnale raffigurato indica un'area riservata solo alle persone diversamente abili",
+    "risposta_corretta": "FALSO",
+    "immagine": "6c96f2c8ec875853432c7e8fe4db1e41",
+    "pagina_quiz": 49
+  },
+  {
+    "id_blocco": 4292,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21490,
+    "testo": "Il segnale raffigurato indica la presenza di polizia a piedi",
+    "risposta_corretta": "FALSO",
+    "immagine": "6c96f2c8ec875853432c7e8fe4db1e41",
+    "pagina_quiz": 49
+  },
+  {
+    "id_blocco": 4292,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21491,
+    "testo": "Il segnale raffigurato indica la presenza di venditori ambulanti",
+    "risposta_corretta": "FALSO",
+    "immagine": "6c96f2c8ec875853432c7e8fe4db1e41",
+    "pagina_quiz": 50
+  }
+]

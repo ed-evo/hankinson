@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4148,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20014,
+    "testo": "Il segnale raffigurato è un segnale di DIVIETO DI SOSTA TEMPORANEO",
+    "risposta_corretta": "VERO",
+    "immagine": "289fc7de638eec152da2ea0755f83fd9",
+    "pagina_quiz": 315
+  },
+  {
+    "id_blocco": 4148,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20015,
+    "testo": "Il segnale raffigurato è posto nei tratti di strada ove vengono effettuate operazioni di pulizia meccanica delle strade",
+    "risposta_corretta": "VERO",
+    "immagine": "289fc7de638eec152da2ea0755f83fd9",
+    "pagina_quiz": 315
+  },
+  {
+    "id_blocco": 4148,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20016,
+    "testo": "Il segnale raffigurato vieta la sosta nei periodi in cui viene effettuata la pulizia meccanica della strada",
+    "risposta_corretta": "VERO",
+    "immagine": "289fc7de638eec152da2ea0755f83fd9",
+    "pagina_quiz": 315
+  },
+  {
+    "id_blocco": 4148,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20017,
+    "testo": "Il segnale raffigurato, nei centri urbani, segnala il divieto di sosta limitato ai giorni e al le ore indicate",
+    "risposta_corretta": "VERO",
+    "immagine": "289fc7de638eec152da2ea0755f83fd9",
+    "pagina_quiz": 315
+  },
+  {
+    "id_blocco": 4148,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20018,
+    "testo": "Il segnale raffigurato indica la presenza di macchine sgombraneve al lavoro sulla strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "289fc7de638eec152da2ea0755f83fd9",
+    "pagina_quiz": 315
+  },
+  {
+    "id_blocco": 4148,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20019,
+    "testo": "Il segnale raffigurato s egnala che nelle ore indicate vige il DIVIETO DI SOSTA per i veicoli rappresentati in figura",
+    "risposta_corretta": "FALSO",
+    "immagine": "289fc7de638eec152da2ea0755f83fd9",
+    "pagina_quiz": 316
+  },
+  {
+    "id_blocco": 4148,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20020,
+    "testo": "Il segnale raffigurato indica che nei giorni e nelle ore indicate è vietata la sosta ai mezzi di pulizia",
+    "risposta_corretta": "FALSO",
+    "immagine": "289fc7de638eec152da2ea0755f83fd9",
+    "pagina_quiz": 316
+  },
+  {
+    "id_blocco": 4148,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20021,
+    "testo": "Il segnale raffigurato indica presenza di un deposito con probabile uscita di mezzi per pulizia meccanica delle strade",
+    "risposta_corretta": "FALSO",
+    "immagine": "289fc7de638eec152da2ea0755f83fd9",
+    "pagina_quiz": 316
+  }
+]

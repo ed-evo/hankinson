@@ -1,0 +1,130 @@
+[
+  {
+    "id_blocco": 4612,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24527,
+    "testo": "La patente di categoria B1 può ess ere conseguita a 16 anni di età",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 559
+  },
+  {
+    "id_blocco": 4612,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24530,
+    "testo": "La patente di categoria B1 abilita a condurre alcuni tipi di quadricicli non leggeri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 559
+  },
+  {
+    "id_blocco": 4612,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24531,
+    "testo": "La patente di categoria B1 abilita a condurre i quadricicli non leggeri con manubrio (Quad)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 559
+  },
+  {
+    "id_blocco": 4612,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24532,
+    "testo": "La patente di categoria B1 abilita a condurre i motocicli (con o senza carrozzetta) di cilindrata fino a 125 cm3, di potenza non superiore a 11 kW e con rapporto potenza/peso non superiore a 0,1kW/kg",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 559
+  },
+  {
+    "id_blocco": 4612,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24533,
+    "testo": "Con la pate nte di categoria B1 si possono condurre tutti i tricicli a motore, ma solo se il conducente ha già compiuto i 18 anni di età",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 559
+  },
+  {
+    "id_blocco": 4612,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24534,
+    "testo": "La patente di categoria B1 abilita a condurre le autovetture monoposto, o con un massimo di tre posti, compreso il conducente, purché si circoli senza passeggeri a bordo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 559
+  },
+  {
+    "id_blocco": 4612,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24535,
+    "testo": "La patente di categoria B1 abilita anche alla guida dei veicoli che si possono condurre con la patente A1",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 559
+  },
+  {
+    "id_blocco": 4612,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24536,
+    "testo": "Il titolare della patente di categoria B1 che intende conseguire la patente di categoria B dovrà sostenere solo un esame teorico integrativo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 559
+  }
+]

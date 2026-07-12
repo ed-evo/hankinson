@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4271,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21265,
+    "testo": "Il segnale raffigurato indica la vicinanza di un'area per campeggio",
+    "risposta_corretta": "VERO",
+    "immagine": "6bf2f66e80435e1fde57046fdd066280",
+    "pagina_quiz": 22
+  },
+  {
+    "id_blocco": 4271,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21266,
+    "testo": "Il segnale raffigurato indica un'area da campeggio con tende e sosta per caravan ed autocaravan",
+    "risposta_corretta": "VERO",
+    "immagine": "6bf2f66e80435e1fde57046fdd066280",
+    "pagina_quiz": 22
+  },
+  {
+    "id_blocco": 4271,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21267,
+    "testo": "Il segnale raffigurato indica una zona destinata alla sosta di caravan ed autocaravan ed al campeggio",
+    "risposta_corretta": "VERO",
+    "immagine": "6bf2f66e80435e1fde57046fdd066280",
+    "pagina_quiz": 22
+  },
+  {
+    "id_blocco": 4271,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21268,
+    "testo": "Il segnale raffigurato indica che è consentito il campeggio e la sosta di caravan ed autocaravan",
+    "risposta_corretta": "VERO",
+    "immagine": "6bf2f66e80435e1fde57046fdd066280",
+    "pagina_quiz": 22
+  },
+  {
+    "id_blocco": 4271,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21269,
+    "testo": "Il segnale raffigurato indica un divieto di sosta per caravan e per i veicoli da campeggio",
+    "risposta_corretta": "FALSO",
+    "immagine": "6bf2f66e80435e1fde57046fdd066280",
+    "pagina_quiz": 22
+  },
+  {
+    "id_blocco": 4271,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21270,
+    "testo": "Il segnale raffigurato indica una zona panoramica",
+    "risposta_corretta": "FALSO",
+    "immagine": "6bf2f66e80435e1fde57046fdd066280",
+    "pagina_quiz": 22
+  },
+  {
+    "id_blocco": 4271,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21271,
+    "testo": "Il segnale raffigurato indica un'officina di riparazione veicoli da campeggio nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "6bf2f66e80435e1fde57046fdd066280",
+    "pagina_quiz": 22
+  },
+  {
+    "id_blocco": 4271,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21272,
+    "testo": "Il segnale raffigurato indica una postazione mobile di Polizia nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "6bf2f66e80435e1fde57046fdd066280",
+    "pagina_quiz": 22
+  },
+  {
+    "id_blocco": 4271,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21273,
+    "testo": "Il segnale raffigurato indica un posto mobile di pronto soccorso nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "6bf2f66e80435e1fde57046fdd066280",
+    "pagina_quiz": 22
+  }
+]

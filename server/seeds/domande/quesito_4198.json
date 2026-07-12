@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4198,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20572,
+    "testo": "In presenza del segnale raffigurato e del semaforo a tre luci abbiamo la precedenza se il semaforo è a luce verde",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 245
+  },
+  {
+    "id_blocco": 4198,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20573,
+    "testo": "In presenza del segnale raffigurato e del semaforo a tre luci dobbiamo dare la precedenza se il semaforo è spento",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 245
+  },
+  {
+    "id_blocco": 4198,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20574,
+    "testo": "In presenza del segnale raffigurato e del semaforo a tre luci abbiamo la precedenza se il semaforo è a luce rossa, ma l'agente del traffico ci ordina di passare",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 245
+  },
+  {
+    "id_blocco": 4198,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20575,
+    "testo": "In presenza del segnale raffigurato e del semaforo a tre luci dobbiamo dare la precedenza se il semaforo è a luce lampeggiante gialla",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 245
+  },
+  {
+    "id_blocco": 4198,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20576,
+    "testo": "In presenza del segnale raffigurato e del semaforo a tre luci dobbiamo dare la precedenza anche se il semaforo è a luce verde",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 246
+  },
+  {
+    "id_blocco": 4198,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20577,
+    "testo": "In presenza del segnale raffigurato e del semaforo a tre luci abbiamo la precedenza se il semaforo è a luce gialla lampeggiante",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 246
+  },
+  {
+    "id_blocco": 4198,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20578,
+    "testo": "In presenza del segnale raffigurato e del semaforo a tre luci abbiamo la precedenza se il semaforo è a luce verde, ma l'agente del traffico ci ordina di fe rmarci",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 246
+  },
+  {
+    "id_blocco": 4198,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20579,
+    "testo": "In presenza del segnale raffigurato e del semaforo a tre luci dobbiamo dare la precedenza se il semaforo è spento e l'agente del traffico ci ordina di passare",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 246
+  }
+]

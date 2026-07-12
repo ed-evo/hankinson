@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4309,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21635,
+    "testo": "Il segnale raffigurato indica una strada riservata alla circolazione dei soli veicoli a motore",
+    "risposta_corretta": "VERO",
+    "immagine": "1ef915902f19c17ff26aaa2bff80ae9b",
+    "pagina_quiz": 66
+  },
+  {
+    "id_blocco": 4309,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21636,
+    "testo": "Il segnale raffigurato vieta il transito alle biciclette",
+    "risposta_corretta": "VERO",
+    "immagine": "1ef915902f19c17ff26aaa2bff80ae9b",
+    "pagina_quiz": 67
+  },
+  {
+    "id_blocco": 4309,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21637,
+    "testo": "Il segnale raffigurato viene posto all'inizio di una strada riservata alla circolazione dei veicoli a motore",
+    "risposta_corretta": "VERO",
+    "immagine": "1ef915902f19c17ff26aaa2bff80ae9b",
+    "pagina_quiz": 67
+  },
+  {
+    "id_blocco": 4309,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21638,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli senza motore",
+    "risposta_corretta": "VERO",
+    "immagine": "1ef915902f19c17ff26aaa2bff80ae9b",
+    "pagina_quiz": 67
+  },
+  {
+    "id_blocco": 4309,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21639,
+    "testo": "Il segnale raffigurato consente il transito agli autobus",
+    "risposta_corretta": "VERO",
+    "immagine": "1ef915902f19c17ff26aaa2bff80ae9b",
+    "pagina_quiz": 67
+  },
+  {
+    "id_blocco": 4309,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21640,
+    "testo": "Il segnale raffigurato s e barrato da una striscia rossa indica la fine della sua validità",
+    "risposta_corretta": "VERO",
+    "immagine": "1ef915902f19c17ff26aaa2bff80ae9b",
+    "pagina_quiz": 67
+  },
+  {
+    "id_blocco": 4309,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21641,
+    "testo": "Il segnale raffigurato indica una strada riservata solo ai taxi",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ef915902f19c17ff26aaa2bff80ae9b",
+    "pagina_quiz": 67
+  },
+  {
+    "id_blocco": 4309,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21642,
+    "testo": "Il segnale raffigurato indica un parcheggio per le sole autovetture",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ef915902f19c17ff26aaa2bff80ae9b",
+    "pagina_quiz": 67
+  },
+  {
+    "id_blocco": 4309,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21643,
+    "testo": "Il segnale raffigurato consente ad una bicicletta di percorrere quella strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ef915902f19c17ff26aaa2bff80ae9b",
+    "pagina_quiz": 67
+  },
+  {
+    "id_blocco": 4309,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21644,
+    "testo": "Il segnale raffigurato vieta il transito ad un autocarro",
+    "risposta_corretta": "FALSO",
+    "immagine": "1ef915902f19c17ff26aaa2bff80ae9b",
+    "pagina_quiz": 67
+  }
+]

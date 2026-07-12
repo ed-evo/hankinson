@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4080,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19209,
+    "testo": "Il segnale raffigurato è posto prima di una salita ripida",
+    "risposta_corretta": "VERO",
+    "immagine": "e00977c30f7df673be7ffea068667309",
+    "pagina_quiz": 194
+  },
+  {
+    "id_blocco": 4080,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19210,
+    "testo": "Il segnale raffigurato preannuncia una salita da percorrere con prudenza",
+    "risposta_corretta": "VERO",
+    "immagine": "e00977c30f7df673be7ffea068667309",
+    "pagina_quiz": 194
+  },
+  {
+    "id_blocco": 4080,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19211,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada da percorrere con marcia adeguatamente bassa",
+    "risposta_corretta": "VERO",
+    "immagine": "e00977c30f7df673be7ffea068667309",
+    "pagina_quiz": 194
+  },
+  {
+    "id_blocco": 4080,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19212,
+    "testo": "Il segnale raffigurato s pecifica la pendenza della salita",
+    "risposta_corretta": "VERO",
+    "immagine": "e00977c30f7df673be7ffea068667309",
+    "pagina_quiz": 194
+  },
+  {
+    "id_blocco": 4080,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19213,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada da percorrere con il pedale della frizione abbassato",
+    "risposta_corretta": "FALSO",
+    "immagine": "e00977c30f7df673be7ffea068667309",
+    "pagina_quiz": 194
+  },
+  {
+    "id_blocco": 4080,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19214,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada nel quale aumenta lo spazi o di frenatura del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "e00977c30f7df673be7ffea068667309",
+    "pagina_quiz": 194
+  },
+  {
+    "id_blocco": 4080,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19215,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada pericoloso per curve strette",
+    "risposta_corretta": "FALSO",
+    "immagine": "e00977c30f7df673be7ffea068667309",
+    "pagina_quiz": 194
+  },
+  {
+    "id_blocco": 4080,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19216,
+    "testo": "Il segnale raffigurato preannuncia una discesa e ne specifica la pendenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "e00977c30f7df673be7ffea068667309",
+    "pagina_quiz": 194
+  }
+]

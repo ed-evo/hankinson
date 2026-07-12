@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4175,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20329,
+    "testo": "Il segnale raffigurato prescrive di circolare con catene o pneumatici invernali",
+    "risposta_corretta": "VERO",
+    "immagine": "a985afd3ac1c765e157fe601c5667c56",
+    "pagina_quiz": 371
+  },
+  {
+    "id_blocco": 4175,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20330,
+    "testo": "Il segnale raffigurato indica che la circolazione è consentita solo con catene o pneumatici invernali",
+    "risposta_corretta": "VERO",
+    "immagine": "a985afd3ac1c765e157fe601c5667c56",
+    "pagina_quiz": 372
+  },
+  {
+    "id_blocco": 4175,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20331,
+    "testo": "Il segnale raffigurato consente il transito solo ai veicoli muniti di catene o pneumatici invernali",
+    "risposta_corretta": "VERO",
+    "immagine": "a985afd3ac1c765e157fe601c5667c56",
+    "pagina_quiz": 372
+  },
+  {
+    "id_blocco": 4175,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20332,
+    "testo": "Il segnale raffigurato vieta il transito a veicoli sprovvisti di catene o pneumatici invernali",
+    "risposta_corretta": "VERO",
+    "immagine": "a985afd3ac1c765e157fe601c5667c56",
+    "pagina_quiz": 372
+  },
+  {
+    "id_blocco": 4175,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20333,
+    "testo": "Il segnale raffigurato presegnala un tratto di strada ove occorre procedere con particolare prudenza",
+    "risposta_corretta": "VERO",
+    "immagine": "a985afd3ac1c765e157fe601c5667c56",
+    "pagina_quiz": 372
+  },
+  {
+    "id_blocco": 4175,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20334,
+    "testo": "Il segnale raffigurato s i trova su strade che, in particolari condizioni, sono innevate o ghiacciate",
+    "risposta_corretta": "VERO",
+    "immagine": "a985afd3ac1c765e157fe601c5667c56",
+    "pagina_quiz": 372
+  },
+  {
+    "id_blocco": 4175,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20335,
+    "testo": "Il segnale raffigurato vieta la circolazione ai veicoli muniti di pneumatici con catene",
+    "risposta_corretta": "FALSO",
+    "immagine": "a985afd3ac1c765e157fe601c5667c56",
+    "pagina_quiz": 372
+  },
+  {
+    "id_blocco": 4175,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20336,
+    "testo": "Il segnale raffigurato presegnala la progressiva chilometrica oltre la quale è obbligatorio l'uso delle catene",
+    "risposta_corretta": "FALSO",
+    "immagine": "a985afd3ac1c765e157fe601c5667c56",
+    "pagina_quiz": 372
+  },
+  {
+    "id_blocco": 4175,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20337,
+    "testo": "Il segnale raffigurato vieta la circolazione a veicoli muniti di pneumatici con spessore del battistrada inferiore a 3 millimetri",
+    "risposta_corretta": "FALSO",
+    "immagine": "a985afd3ac1c765e157fe601c5667c56",
+    "pagina_quiz": 372
+  },
+  {
+    "id_blocco": 4175,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20338,
+    "testo": "Il segnale raffigurato obbliga a togliere le catene per non rovinare l'asfalto",
+    "risposta_corretta": "FALSO",
+    "immagine": "a985afd3ac1c765e157fe601c5667c56",
+    "pagina_quiz": 372
+  },
+  {
+    "id_blocco": 4175,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20339,
+    "testo": "Il segnale raffigurato, con pannello integrativo, indica la distanza a cui si trova un'officina per montare le catene",
+    "risposta_corretta": "FALSO",
+    "immagine": "a985afd3ac1c765e157fe601c5667c56",
+    "pagina_quiz": 373
+  }
+]

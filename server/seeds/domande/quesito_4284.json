@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4284,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21400,
+    "testo": "Il segnale raffigurato preavvisa un incrocio su strada extraurbana",
+    "risposta_corretta": "VERO",
+    "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
+    "pagina_quiz": 37
+  },
+  {
+    "id_blocco": 4284,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21401,
+    "testo": "Il segnale raffigurato indica la presenza di un passaggio a livello svoltando a dest ra",
+    "risposta_corretta": "VERO",
+    "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
+    "pagina_quiz": 38
+  },
+  {
+    "id_blocco": 4284,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21402,
+    "testo": "Il segnale raffigurato preavvisa di proseguire diritto per raggiungere Porto Torres",
+    "risposta_corretta": "VERO",
+    "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
+    "pagina_quiz": 38
+  },
+  {
+    "id_blocco": 4284,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21403,
+    "testo": "Il segnale raffigurato preavvisa di svoltare a sinistra per una località turistica",
+    "risposta_corretta": "VERO",
+    "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
+    "pagina_quiz": 38
+  },
+  {
+    "id_blocco": 4284,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21404,
+    "testo": "Il segnale raffigurato preavvisa di svoltare a destra per S. Giovanni",
+    "risposta_corretta": "VERO",
+    "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
+    "pagina_quiz": 38
+  },
+  {
+    "id_blocco": 4284,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21405,
+    "testo": "Il segnale raffigurato preannuncia un pericolo per chi svolta a destra per il possibile attraversamento di treni",
+    "risposta_corretta": "VERO",
+    "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
+    "pagina_quiz": 38
+  },
+  {
+    "id_blocco": 4284,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21406,
+    "testo": "Il segnale raffigurato s i trova dopo un incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
+    "pagina_quiz": 38
+  },
+  {
+    "id_blocco": 4284,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21407,
+    "testo": "Il segnale raffigurato indica una stazione balneare a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
+    "pagina_quiz": 38
+  },
+  {
+    "id_blocco": 4284,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21408,
+    "testo": "Il segnale raffigurato fa parte dei segnali di obbligo",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
+    "pagina_quiz": 38
+  },
+  {
+    "id_blocco": 4284,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21409,
+    "testo": "Il segnale raffigurato indica che non è possibile raggiungere S. Giovanni",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
+    "pagina_quiz": 38
+  },
+  {
+    "id_blocco": 4284,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21410,
+    "testo": "Il segnale raffigurato preavvisa un incrocio urbano con zona residenziale a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
+    "pagina_quiz": 39
+  }
+]

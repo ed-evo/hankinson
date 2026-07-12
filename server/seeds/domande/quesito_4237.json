@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4237,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20945,
+    "testo": "La segnaletica rappresentata in figura si trova vicino ad un passaggio a livello",
+    "risposta_corretta": "VERO",
+    "immagine": "fc0562d273c757ef1a5227f0960f40b7",
+    "pagina_quiz": 424
+  },
+  {
+    "id_blocco": 4237,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20946,
+    "testo": "La segnaletica rappresentata in figura serve ad avvertire i conducenti che si è vicini ad un passaggio a livello senza barriere",
+    "risposta_corretta": "VERO",
+    "immagine": "fc0562d273c757ef1a5227f0960f40b7",
+    "pagina_quiz": 424
+  },
+  {
+    "id_blocco": 4237,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20947,
+    "testo": "La segnaletica rappresentata in figura serve ad avvertire i conducenti che si è vicini ad un passaggio a livello con barriere",
+    "risposta_corretta": "VERO",
+    "immagine": "fc0562d273c757ef1a5227f0960f40b7",
+    "pagina_quiz": 424
+  },
+  {
+    "id_blocco": 4237,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20948,
+    "testo": "In presenza della segnaletica rappresentata in figura non è consentito spostarsi nella parte sinistra della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "fc0562d273c757ef1a5227f0960f40b7",
+    "pagina_quiz": 424
+  },
+  {
+    "id_blocco": 4237,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20949,
+    "testo": "In presenza della segnaletica rappresentata in figura i conducenti devono prestare attenzione all'eventuale sopraggiungere di treni",
+    "risposta_corretta": "VERO",
+    "immagine": "fc0562d273c757ef1a5227f0960f40b7",
+    "pagina_quiz": 424
+  },
+  {
+    "id_blocco": 4237,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20950,
+    "testo": "La segnaletica rappresentata in figura serve ad indicare che a 150 metri vi è un attraversamento tranviario molto pericoloso",
+    "risposta_corretta": "FALSO",
+    "immagine": "fc0562d273c757ef1a5227f0960f40b7",
+    "pagina_quiz": 424
+  },
+  {
+    "id_blocco": 4237,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20951,
+    "testo": "La segnaletica rappresentata in figura si trova solo in vicinanza di passaggi a livello con barriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "fc0562d273c757ef1a5227f0960f40b7",
+    "pagina_quiz": 425
+  },
+  {
+    "id_blocco": 4237,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20952,
+    "testo": "La segnaletica rappresentata in figura segnala la vicinanza di un incrocio regol ato da Polizia locale",
+    "risposta_corretta": "FALSO",
+    "immagine": "fc0562d273c757ef1a5227f0960f40b7",
+    "pagina_quiz": 425
+  },
+  {
+    "id_blocco": 4237,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20953,
+    "testo": "La segnaletica rappresentata in figura delimita un parcheggio di autobus in servizio pubblico di linea",
+    "risposta_corretta": "FALSO",
+    "immagine": "fc0562d273c757ef1a5227f0960f40b7",
+    "pagina_quiz": 425
+  }
+]

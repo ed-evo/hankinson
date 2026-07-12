@@ -1,0 +1,74 @@
+[
+  {
+    "id_blocco": 4565,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24075,
+    "testo": "Nei caravan, per ridurre il rischio di ribaltamento in curva, occorre sistemare i l carico degli oggetti pesanti in modo da mantenere il baricentro il più basso possibile",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4565,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24076,
+    "testo": "Nei caravan, per ridurre il rischio di ribaltamento in curva, occorre sistemare i l carico in modo il più possibile equilibrato tra lato destro e sinistro",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4565,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24077,
+    "testo": "Il c aravan non è considerato un rimorchio perché può essere adibito ad alloggio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4565,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24078,
+    "testo": "E' possibile alloggiare nei caravan (roulotte) durante la circolazione, purché tutti i passeggeri allaccino le cinture di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 546
+  }
+]

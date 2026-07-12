@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4277,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21323,
+    "testo": "Il segnale raffigurato indica un posto di telefono pubblico nelle vicinanze",
+    "risposta_corretta": "VERO",
+    "immagine": "7c465c7946a16a29d37008033e2616f0",
+    "pagina_quiz": 13
+  },
+  {
+    "id_blocco": 4277,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21324,
+    "testo": "Il segnale raffigurato indica che siamo in vicinanza di un apparecchio telefoni co pubblico",
+    "risposta_corretta": "VERO",
+    "immagine": "7c465c7946a16a29d37008033e2616f0",
+    "pagina_quiz": 13
+  },
+  {
+    "id_blocco": 4277,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21325,
+    "testo": "Il segnale raffigurato indica la possibilità, a breve distanza, di poter telefonare da un telefono pubblico",
+    "risposta_corretta": "VERO",
+    "immagine": "7c465c7946a16a29d37008033e2616f0",
+    "pagina_quiz": 13
+  },
+  {
+    "id_blocco": 4277,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21326,
+    "testo": "Il segnale raffigurato indica un apparecchio telefonico pubblico posto su strade extraurbane",
+    "risposta_corretta": "VERO",
+    "immagine": "7c465c7946a16a29d37008033e2616f0",
+    "pagina_quiz": 13
+  },
+  {
+    "id_blocco": 4277,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21327,
+    "testo": "Il segnale raffigurato indica la vicinanza di un negozio di telefonia mobile",
+    "risposta_corretta": "FALSO",
+    "immagine": "7c465c7946a16a29d37008033e2616f0",
+    "pagina_quiz": 13
+  },
+  {
+    "id_blocco": 4277,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21328,
+    "testo": "Il segnale raffigurato indica un posto di pronto soccorso raggiungibile per telefono",
+    "risposta_corretta": "FALSO",
+    "immagine": "7c465c7946a16a29d37008033e2616f0",
+    "pagina_quiz": 13
+  },
+  {
+    "id_blocco": 4277,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21329,
+    "testo": "Il segnale raffigurato indica la possibilità di ricaricare i telefoni cellulari",
+    "risposta_corretta": "FALSO",
+    "immagine": "7c465c7946a16a29d37008033e2616f0",
+    "pagina_quiz": 13
+  },
+  {
+    "id_blocco": 4277,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21330,
+    "testo": "Il segnale raffigurato indica che è vietato usare i telefoni cellulari",
+    "risposta_corretta": "FALSO",
+    "immagine": "7c465c7946a16a29d37008033e2616f0",
+    "pagina_quiz": 13
+  },
+  {
+    "id_blocco": 4277,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21331,
+    "testo": "Il segnale raffigurato indica una zona sufficientemente coperta dal segnale per t elefonia mobile",
+    "risposta_corretta": "FALSO",
+    "immagine": "7c465c7946a16a29d37008033e2616f0",
+    "pagina_quiz": 14
+  },
+  {
+    "id_blocco": 4277,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21332,
+    "testo": "Il segnale raffigurato indica che è consentito telefonare solo con cellulari a viva voce",
+    "risposta_corretta": "FALSO",
+    "immagine": "7c465c7946a16a29d37008033e2616f0",
+    "pagina_quiz": 14
+  }
+]

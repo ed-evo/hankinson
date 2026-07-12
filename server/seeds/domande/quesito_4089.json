@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4089,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19317,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada con probabile attraversam ento di animali domestici",
+    "risposta_corretta": "VERO",
+    "immagine": "2aca17bfb73a3edfb26066f1e3c34f9d",
+    "pagina_quiz": 206
+  },
+  {
+    "id_blocco": 4089,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19318,
+    "testo": "Il segnale raffigurato richiede di rallentare o di arrestarsi se gli animali sulla strada danno segno di spavento",
+    "risposta_corretta": "VERO",
+    "immagine": "2aca17bfb73a3edfb26066f1e3c34f9d",
+    "pagina_quiz": 207
+  },
+  {
+    "id_blocco": 4089,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19319,
+    "testo": "Il segnale raffigurato richiede di rallentare o di arrestarsi se gli animali sulla strada non si spostano",
+    "risposta_corretta": "VERO",
+    "immagine": "2aca17bfb73a3edfb26066f1e3c34f9d",
+    "pagina_quiz": 207
+  },
+  {
+    "id_blocco": 4089,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19320,
+    "testo": "Il segnale raffigurato preannuncia la possibilità di trovare sulla strada animali domestici vaganti",
+    "risposta_corretta": "VERO",
+    "immagine": "2aca17bfb73a3edfb26066f1e3c34f9d",
+    "pagina_quiz": 207
+  },
+  {
+    "id_blocco": 4089,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19321,
+    "testo": "Il segnale raffigurato invita a fare attenzione per la probabile presenza di animali domestici sulla carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "2aca17bfb73a3edfb26066f1e3c34f9d",
+    "pagina_quiz": 207
+  },
+  {
+    "id_blocco": 4089,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19322,
+    "testo": "In presenza del segnale raffigurato è obbligatorio usare ripetutamente l'avvisatore acustico per allontanare gli animali",
+    "risposta_corretta": "FALSO",
+    "immagine": "2aca17bfb73a3edfb26066f1e3c34f9d",
+    "pagina_quiz": 207
+  },
+  {
+    "id_blocco": 4089,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19323,
+    "testo": "Il segnale raffigurato preannuncia una zona riservata al pascolo con divieto di transito ai veicoli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "2aca17bfb73a3edfb26066f1e3c34f9d",
+    "pagina_quiz": 207
+  },
+  {
+    "id_blocco": 4089,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19324,
+    "testo": "Il segnale raffigurato preannuncia una strada riservata alla circolazione di animali domestici",
+    "risposta_corretta": "FALSO",
+    "immagine": "2aca17bfb73a3edfb26066f1e3c34f9d",
+    "pagina_quiz": 207
+  },
+  {
+    "id_blocco": 4089,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19325,
+    "testo": "Il segnale raffigurato preannuncia la presenza di veicoli a trazione animale",
+    "risposta_corretta": "FALSO",
+    "immagine": "2aca17bfb73a3edfb26066f1e3c34f9d",
+    "pagina_quiz": 207
+  },
+  {
+    "id_blocco": 4089,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19326,
+    "testo": "Il segnale raffigurato preannuncia una fattoria in aperta campagna",
+    "risposta_corretta": "FALSO",
+    "immagine": "2aca17bfb73a3edfb26066f1e3c34f9d",
+    "pagina_quiz": 207
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4149,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20022,
+    "testo": "Il segnale raffigurato vieta il transito ad autotreni ed autoarticolati",
+    "risposta_corretta": "VERO",
+    "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
+    "pagina_quiz": 322
+  },
+  {
+    "id_blocco": 4149,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20023,
+    "testo": "In presenza del segnale raffigurato è vietato il transito alle categorie di veicoli r appresentati in figura",
+    "risposta_corretta": "VERO",
+    "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
+    "pagina_quiz": 323
+  },
+  {
+    "id_blocco": 4149,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20024,
+    "testo": "Il segnale raffigurato è un divieto di transito per determinate categorie di veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
+    "pagina_quiz": 323
+  },
+  {
+    "id_blocco": 4149,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20025,
+    "testo": "Il segnale raffigurato indica che i veicoli delle categorie rappresentate in figura non possono transitare",
+    "risposta_corretta": "VERO",
+    "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
+    "pagina_quiz": 323
+  },
+  {
+    "id_blocco": 4149,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20026,
+    "testo": "Il segnale raffigurato indica che possono transitare tutti i veicoli esclusi quelli delle categorie rappresentate in figura",
+    "risposta_corretta": "VERO",
+    "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
+    "pagina_quiz": 323
+  },
+  {
+    "id_blocco": 4149,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20027,
+    "testo": "Il segnale raffigurato indica un itinerario obbligatorio per gli autoveicoli delle categorie rappresentate in figura",
+    "risposta_corretta": "FALSO",
+    "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
+    "pagina_quiz": 323
+  },
+  {
+    "id_blocco": 4149,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20028,
+    "testo": "Il segnale raffigurato preannuncia un parcheggio per autocarri ed autotreni",
+    "risposta_corretta": "FALSO",
+    "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
+    "pagina_quiz": 323
+  },
+  {
+    "id_blocco": 4149,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20029,
+    "testo": "Il segnale raffigurato vieta il transito di tutti i veicoli con esclusione di quelli ra ppresentati in figura",
+    "risposta_corretta": "FALSO",
+    "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
+    "pagina_quiz": 323
+  },
+  {
+    "id_blocco": 4149,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20030,
+    "testo": "Il segnale raffigurato vieta la sosta ad autotreni ed autoarticolati",
+    "risposta_corretta": "FALSO",
+    "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
+    "pagina_quiz": 323
+  },
+  {
+    "id_blocco": 4149,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20031,
+    "testo": "Il segnale raffigurato indica un divieto di sosta per autotreni e autoarticolati",
+    "risposta_corretta": "FALSO",
+    "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
+    "pagina_quiz": 323
+  },
+  {
+    "id_blocco": 4149,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20032,
+    "testo": "Il segnale raffigurato presegnala una strada riservata ai veicoli delle categorie rappresentate in figura",
+    "risposta_corretta": "FALSO",
+    "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
+    "pagina_quiz": 324
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19091,
+    "testo": "Il segnale raffigurato impone di arrestarsi entro la striscia di arresto, se è in arrivo il tr eno.",
+    "risposta_corretta": "VERO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 179
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19092,
+    "testo": "Il segnale raffigurato è posto nelle immediate vicinanze di un attraversam ento ferroviario a livello senza barriere",
+    "risposta_corretta": "VERO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 180
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19093,
+    "testo": "Il segnale raffigurato indica che la linea ferroviaria ha più di un binario",
+    "risposta_corretta": "VERO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 180
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19094,
+    "testo": "Il segnale raffigurato invita a fare attenzione, prima di attraversare, perché potre bbe transitare più di un treno",
+    "risposta_corretta": "VERO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 180
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19095,
+    "testo": "Il segnale raffigurato s i trova dopo i pannelli distanziometrici a barre rosse",
+    "risposta_corretta": "VERO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 180
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19096,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 180
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19097,
+    "testo": "Il segnale (A) può essere abbinato al segnale (B)",
+    "risposta_corretta": "VERO",
+    "immagine": "71d81d8235f817af32013250464acc0b",
+    "pagina_quiz": 180
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19098,
+    "testo": "Il segnale raffigurato è posto, di norma, a 150 metri dai binari",
+    "risposta_corretta": "FALSO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 180
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19099,
+    "testo": "Il segnale (A) si trova dopo il s egnale (B)",
+    "risposta_corretta": "FALSO",
+    "immagine": "21380f33a31814dac6e4923376a47027",
+    "pagina_quiz": 180
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19100,
+    "testo": "Il segnale raffigurato preannuncia un doppio incrocio stradale pericoloso",
+    "risposta_corretta": "FALSO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 180
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19101,
+    "testo": "Il segnale raffigurato indica che la linea ferroviaria ha solo un binario",
+    "risposta_corretta": "FALSO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 181
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19102,
+    "testo": "Il segnale raffigurato può essere posto prima di un attraversamento ferroviario con semibarriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 181
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19103,
+    "testo": "Il segnale raffigurato indica che si possono incontrare due passaggi a livello consecutivi , che distano meno di 150 metri l'uno dall'altro",
+    "risposta_corretta": "FALSO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 181
+  },
+  {
+    "id_blocco": 4070,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19104,
+    "testo": "Il segnale può avere fondo giallo in caso di lavori ai binari",
+    "risposta_corretta": "FALSO",
+    "immagine": "ed53c457115b11eace8f91dc5d803a42",
+    "pagina_quiz": 181
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4077,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19181,
+    "testo": "In presenza del segnale raffigurato bisogna comportarsi in modo da non costituire pericolo o intralcio per i ciclisti",
+    "risposta_corretta": "VERO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 190
+  },
+  {
+    "id_blocco": 4077,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19182,
+    "testo": "In presenza del segnale raffigurato bisogna rallentare ed essere pronti ad arrestarsi, se necessario, per dare la precedenza ai ciclisti che attraversano",
+    "risposta_corretta": "VERO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 190
+  },
+  {
+    "id_blocco": 4077,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19183,
+    "testo": "In presenza del segnale raffigurato non è consenti to sorpassare i veicoli che si sono arrestati per far attraversare la carreggiata ai ciclisti",
+    "risposta_corretta": "VERO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 190
+  },
+  {
+    "id_blocco": 4077,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19184,
+    "testo": "In presenza del segnale raffigurato si deve suonare il clacson se vi sono ciclisti che stanno attraversando sulle strisce",
+    "risposta_corretta": "FALSO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 191
+  },
+  {
+    "id_blocco": 4077,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19185,
+    "testo": "In presenza del segnale raffigurato è necessario tenere presente che i ciclisti devono dare la precedenza ai veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 191
+  },
+  {
+    "id_blocco": 4077,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19186,
+    "testo": "In presenza del segnale raffigurato bisogna dare la precedenza solo ai ciclisti che att raversano da destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 191
+  }
+]

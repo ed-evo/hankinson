@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20560,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 244
+  },
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20561,
+    "testo": "Il segnale raffigurato può essere posto in una strada in cui una parte della carreggiata è sbarrata",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 244
+  },
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20562,
+    "testo": "Il segnale raffigurato può essere posto in una strada con strettoia",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 244
+  },
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20563,
+    "testo": "Il segnale raffigurato impone di dare la precedenza ai veicoli provenienti dal se nso opposto",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 244
+  },
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20564,
+    "testo": "Il segnale raffigurato prescrive di dare la precedenza nei sensi unici alternati",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 244
+  },
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20565,
+    "testo": "Il segnale raffigurato s i incontra prima di una strettoia che, di norma, consent e il passaggio di una sola fila di veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 244
+  },
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20566,
+    "testo": "Il segnale raffigurato s i incontra prima di un qualsiasi restringimento della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 244
+  },
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20567,
+    "testo": "Il segnale raffigurato è un segnale di divieto",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 244
+  },
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20568,
+    "testo": "Il segnale raffigurato è posto all'inizio di una strada a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 245
+  },
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20569,
+    "testo": "Il segnale raffigurato obbliga a dare la precedenza, negli incroci, ai veicoli proveni enti sia da destra che da sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 245
+  },
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20570,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 245
+  },
+  {
+    "id_blocco": 4197,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20571,
+    "testo": "Il segnale raffigurato preannuncia il diritto di precedenza nei sensi unici alternati",
+    "risposta_corretta": "FALSO",
+    "immagine": "cae815558b9cac8a475d91fb6e32c36e",
+    "pagina_quiz": 245
+  }
+]

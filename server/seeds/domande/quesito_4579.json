@@ -1,0 +1,80 @@
+[
+  {
+    "id_blocco": 4579,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24197,
+    "testo": "Il simbolo raffigurato è posto sul comando di accensione dei proiettori di profondità",
+    "risposta_corretta": "VERO",
+    "immagine": "ec7b0a5e371554e07a50c02a6506b43d",
+    "pagina_quiz": 443
+  },
+  {
+    "id_blocco": 4579,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24198,
+    "testo": "Il simbolo raffigurato è posto su una spia a luce blu",
+    "risposta_corretta": "VERO",
+    "immagine": "ec7b0a5e371554e07a50c02a6506b43d",
+    "pagina_quiz": 443
+  },
+  {
+    "id_blocco": 4579,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24199,
+    "testo": "Il simbolo raffigurato è posto su una spia a luce verde",
+    "risposta_corretta": "FALSO",
+    "immagine": "ec7b0a5e371554e07a50c02a6506b43d",
+    "pagina_quiz": 444
+  },
+  {
+    "id_blocco": 4579,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24200,
+    "testo": "Il simbolo raffigurato è posto sul comando di accensione dei proiettori anabbaglianti",
+    "risposta_corretta": "FALSO",
+    "immagine": "ec7b0a5e371554e07a50c02a6506b43d",
+    "pagina_quiz": 444
+  },
+  {
+    "id_blocco": 4579,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24201,
+    "testo": "Il simbolo raffigurato segnala l'accensione della luce posteriore per nebbia",
+    "risposta_corretta": "FALSO",
+    "immagine": "ec7b0a5e371554e07a50c02a6506b43d",
+    "pagina_quiz": 444
+  },
+  {
+    "id_blocco": 4579,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24202,
+    "testo": "Il simbolo raffigurato ricorda al conducente che deve spegnere le luci di posizione",
+    "risposta_corretta": "FALSO",
+    "immagine": "ec7b0a5e371554e07a50c02a6506b43d",
+    "pagina_quiz": 444
+  }
+]

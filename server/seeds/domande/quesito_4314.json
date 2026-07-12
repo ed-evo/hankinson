@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4314,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21683,
+    "testo": "Il segnale raffigurato indica, su strade a carreggiate separate, la presenza di un cavalcavia per effettuare l'inversione di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "7206f36808a5ee18e9b5163635a54363",
+    "pagina_quiz": 72
+  },
+  {
+    "id_blocco": 4314,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21684,
+    "testo": "Il segnale raffigurato indica, su strade a carreggiate separate, un sottopassaggio per invertire il senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "7206f36808a5ee18e9b5163635a54363",
+    "pagina_quiz": 72
+  },
+  {
+    "id_blocco": 4314,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21685,
+    "testo": "Il segnale raffigurato è posto su una strada a carreggiate separate",
+    "risposta_corretta": "VERO",
+    "immagine": "7206f36808a5ee18e9b5163635a54363",
+    "pagina_quiz": 73
+  },
+  {
+    "id_blocco": 4314,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21686,
+    "testo": "Il segnale raffigurato indica la presenza di una struttura (cavalcavia o sottopassaggio) che consente di tornare indietro",
+    "risposta_corretta": "VERO",
+    "immagine": "7206f36808a5ee18e9b5163635a54363",
+    "pagina_quiz": 73
+  },
+  {
+    "id_blocco": 4314,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21687,
+    "testo": "Il segnale raffigurato, s e su fondo verde, indica, su un'autostrada, la presenza di un cavalcavia per effettuare l'inversione di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "7206f36808a5ee18e9b5163635a54363",
+    "pagina_quiz": 73
+  },
+  {
+    "id_blocco": 4314,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21688,
+    "testo": "Il segnale raffigurato indica che la strada è interrotta a causa di lavori in corso",
+    "risposta_corretta": "FALSO",
+    "immagine": "7206f36808a5ee18e9b5163635a54363",
+    "pagina_quiz": 73
+  },
+  {
+    "id_blocco": 4314,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21689,
+    "testo": "Il segnale raffigurato indica l'inizio di un lungo rettilineo",
+    "risposta_corretta": "FALSO",
+    "immagine": "7206f36808a5ee18e9b5163635a54363",
+    "pagina_quiz": 73
+  },
+  {
+    "id_blocco": 4314,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21690,
+    "testo": "Il segnale raffigurato indica l'inizio di una strada extraurbana principale",
+    "risposta_corretta": "FALSO",
+    "immagine": "7206f36808a5ee18e9b5163635a54363",
+    "pagina_quiz": 73
+  },
+  {
+    "id_blocco": 4314,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21691,
+    "testo": "Il segnale raffigurato indica la vicinanza di un incrocio a raso (allo stesso livello del piano stradale)",
+    "risposta_corretta": "FALSO",
+    "immagine": "7206f36808a5ee18e9b5163635a54363",
+    "pagina_quiz": 73
+  },
+  {
+    "id_blocco": 4314,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21692,
+    "testo": "Il segnale raffigurato obbliga ad invertire il senso di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "7206f36808a5ee18e9b5163635a54363",
+    "pagina_quiz": 73
+  }
+]

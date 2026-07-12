@@ -1,0 +1,98 @@
+[
+  {
+    "id_blocco": 4244,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21009,
+    "testo": "È possibile trovare la luce gialla lampeggiante quando le altre sono spente",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 470
+  },
+  {
+    "id_blocco": 4244,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21010,
+    "testo": "La luce circolare gialla lampeggiante (tipo A di figura) è un segnale di peri colo generico",
+    "risposta_corretta": "VERO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 470
+  },
+  {
+    "id_blocco": 4244,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21011,
+    "testo": "La luce circolare gialla lampeggiante (tipo A di figura) invita a moderare la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 470
+  },
+  {
+    "id_blocco": 4244,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21012,
+    "testo": "La luce circolare gialla lampeggiante (tipo A di figura) invita a procedere con particolare prudenza",
+    "risposta_corretta": "VERO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 470
+  },
+  {
+    "id_blocco": 4244,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21013,
+    "testo": "Nel sem aforo la luce gialla lampeggiante impone l'arresto sempre prima dell'incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 470
+  },
+  {
+    "id_blocco": 4244,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21014,
+    "testo": "La luce circolare gialla lampeggiante (tipo A di figura) può essere posta prima di un ponte mobile",
+    "risposta_corretta": "FALSO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 470
+  },
+  {
+    "id_blocco": 4244,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21015,
+    "testo": "La luce circolare gialla lampeggiante (tipo A di figura) può essere posta prima di un pontile d'imbarco di navi traghetto",
+    "risposta_corretta": "FALSO",
+    "immagine": "72f9b60b915b838de4c89ca613cfd8f8",
+    "pagina_quiz": 470
+  },
+  {
+    "id_blocco": 4244,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21016,
+    "testo": "La luce gialla lampeggiante insieme a quella rossa in figura indica pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 471
+  }
+]

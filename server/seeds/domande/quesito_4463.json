@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23182,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono tra nsitare nel seguente ordine: C, A, L, R, E",
+    "risposta_corretta": "VERO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 104
+  },
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23183,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo C transita per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 104
+  },
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23184,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita subito dopo il veicolo C",
+    "risposta_corretta": "VERO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 104
+  },
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23185,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo E deve dare la precedenza ai veicoli R e L",
+    "risposta_corretta": "VERO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 104
+  },
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23186,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita prima del veicolo L",
+    "risposta_corretta": "VERO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 104
+  },
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23187,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo L transita prima del veicolo R",
+    "risposta_corretta": "VERO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 105
+  },
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23188,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo L transita dopo il veicolo A",
+    "risposta_corretta": "VERO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 105
+  },
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23189,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo E deve dare la precedenza al veicolo A",
+    "risposta_corretta": "FALSO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 105
+  },
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23190,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono tra nsitare nel seguente ordine: E, C, A, L, R",
+    "risposta_corretta": "FALSO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 105
+  },
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23191,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A deve attendere il passaggio del veicolo E",
+    "risposta_corretta": "FALSO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 105
+  },
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23192,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura qualunque veicolo può impegnare l'incrocio e fermarsi al centro di esso",
+    "risposta_corretta": "FALSO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 105
+  },
+  {
+    "id_blocco": 4463,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23193,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli C e R tra nsitano contemporaneamente dopo il passaggio del veicolo A",
+    "risposta_corretta": "FALSO",
+    "immagine": "57254c46fba07f75685a8ed30c84cf10",
+    "pagina_quiz": 105
+  }
+]

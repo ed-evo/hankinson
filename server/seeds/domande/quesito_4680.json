@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4680,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25131,
+    "testo": "Per diminuire l'inquinamento atmosferico provocato dai veicoli, bisogna far sostituire periodicamente il filtro dell'aria",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4680,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25132,
+    "testo": "Per diminuire l'inquinamento dell'aria provocato dai veicoli con motore diese l, bisogna far controllare periodicamente il sistema di alimentazione (pompa di iniezione ed iniettori)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4680,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25133,
+    "testo": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna far controlla re il motore, se il fumo dello scarico risulta troppo scuro",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4680,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25134,
+    "testo": "Per diminuire l'inquinamento dell'aria non bisogna accelerare e frenare spesso durante la marcia del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4680,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25135,
+    "testo": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna dare un breve colpo di acceleratore, prima di abbassare la frizione per cambiare marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4680,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25136,
+    "testo": "Per diminuire l'inquinamento atmosferico provocato dai veicoli, bisogna utilizzare il m otore al massimo numero di giri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4680,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25137,
+    "testo": "Per diminuire l'inquinamento dell'aria provocato dai gas di scarico del veicolo, bisogna sostituire periodicamente il filtro antipolline",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4680,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25138,
+    "testo": "Per diminuire l'inquinamento dell'aria provocato dai veicoli, bisogna sostituire il filtro dell'olio ad ogni cambio di stagione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 582
+  }
+]

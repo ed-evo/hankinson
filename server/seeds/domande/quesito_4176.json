@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4176,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20340,
+    "testo": "Il segnale raffigurato indica l'inizio di un viale pedonale",
+    "risposta_corretta": "VERO",
+    "immagine": "87d38e63be1b1961effb1381017feb47",
+    "pagina_quiz": 373
+  },
+  {
+    "id_blocco": 4176,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20341,
+    "testo": "Il segnale raffigurato è un segnale di obbligo",
+    "risposta_corretta": "VERO",
+    "immagine": "87d38e63be1b1961effb1381017feb47",
+    "pagina_quiz": 373
+  },
+  {
+    "id_blocco": 4176,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20342,
+    "testo": "Il segnale raffigurato vale anche di giorno",
+    "risposta_corretta": "VERO",
+    "immagine": "87d38e63be1b1961effb1381017feb47",
+    "pagina_quiz": 373
+  },
+  {
+    "id_blocco": 4176,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20343,
+    "testo": "Il segnale raffigurato indica un percorso pedonale",
+    "risposta_corretta": "VERO",
+    "immagine": "87d38e63be1b1961effb1381017feb47",
+    "pagina_quiz": 373
+  },
+  {
+    "id_blocco": 4176,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20344,
+    "testo": "Il segnale raffigurato consente il transito anche ai veicoli, ma solo con part icol are prudenza ed attenzione ai pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "87d38e63be1b1961effb1381017feb47",
+    "pagina_quiz": 373
+  },
+  {
+    "id_blocco": 4176,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20345,
+    "testo": "Il segnale raffigurato indica un divieto di transito per i pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "87d38e63be1b1961effb1381017feb47",
+    "pagina_quiz": 373
+  },
+  {
+    "id_blocco": 4176,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20346,
+    "testo": "Il segnale raffigurato indica un attraversamento pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "87d38e63be1b1961effb1381017feb47",
+    "pagina_quiz": 373
+  },
+  {
+    "id_blocco": 4176,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20347,
+    "testo": "Il segnale raffigurato obbliga i conducenti di veicoli a dare la precedenza ai pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "87d38e63be1b1961effb1381017feb47",
+    "pagina_quiz": 374
+  },
+  {
+    "id_blocco": 4176,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20348,
+    "testo": "Il segnale raffigurato indica un percorso pedonale e ciclabile",
+    "risposta_corretta": "FALSO",
+    "immagine": "87d38e63be1b1961effb1381017feb47",
+    "pagina_quiz": 374
+  }
+]

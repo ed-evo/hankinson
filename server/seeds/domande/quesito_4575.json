@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4575,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24168,
+    "testo": "I catadiottri sono dispositivi che riflettono la luce",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4575,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24169,
+    "testo": "I catadiottri installati nella parte posteriore dei veicoli sono di colore rosso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4575,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24170,
+    "testo": "I catadiottri installati nella parte posteriore di rimorchi e carrelli-appendice sono di colore rosso e di forma triangolare",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4575,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24171,
+    "testo": "I catadiottri vengono applicati anche sui rimorchi e sui carrelli-appendice",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4575,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24172,
+    "testo": "I catadiottri installati sulla parte davanti di rimorchi e carrelli-appendice sono di colore bianco",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4575,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24173,
+    "testo": "I catadiottri vanno accesi mezz'ora dopo il tramonto del sole",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4575,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24174,
+    "testo": "I catadiottri vanno accesi insieme alle luci di posizione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4575,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24175,
+    "testo": "I catadiottri sostituiscono le luci di posizione durante la circolazione nelle strade urba ne",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  }
+]

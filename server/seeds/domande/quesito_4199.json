@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20580,
+    "testo": "Il segnale raffigurato invita a maggiore prudenza perché non si ha più diritto di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 248
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20581,
+    "testo": "In presenza del segnale raffigurato il conducente, salvo diverso ulteriore segnal e, deve dare precedenza ai veicoli provenienti da destra.",
+    "risposta_corretta": "VERO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 248
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20582,
+    "testo": "Il segnale raffigurato è un segnale di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 248
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20583,
+    "testo": "Il segnale raffigurato indica che la strada non gode più del diritto di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 248
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20584,
+    "testo": "Il segnale raffigurato può essere seguito dal segnale FERMARSI E DARE PRECEDENZA",
+    "risposta_corretta": "VERO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 248
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20585,
+    "testo": "Il segnale raffigurato modifica le precedenti norme sulla precedenza agli incroci",
+    "risposta_corretta": "VERO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 248
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20586,
+    "testo": "Il segnale raffigurato è un segnale di indicazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 248
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20587,
+    "testo": "Il segnale raffigurato preannuncia che si sta percorrendo una strada con diritto di precedenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 249
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20588,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi all'incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 249
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20589,
+    "testo": "Il segnale raffigurato indica l'andamento della strada principale",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 249
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20590,
+    "testo": "Il segnale raffigurato preannuncia sempre un incrocio con precedenza a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 249
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20591,
+    "testo": "Il segnale raffigurato preannuncia la fine dell'obbligo precedentemente imposto",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 249
+  },
+  {
+    "id_blocco": 4199,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20592,
+    "testo": "Il segnale raffigurato preannuncia una strada senza uscita",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 249
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4126,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19770,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano merci peri colose",
+    "risposta_corretta": "VERO",
+    "immagine": "ae9d3c1c3182ac8d92642820f51ecbfe",
+    "pagina_quiz": 307
+  },
+  {
+    "id_blocco": 4126,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19771,
+    "testo": "Il segnale raffigurato vieta il transito alle autocisterne che trasportano benzina",
+    "risposta_corretta": "VERO",
+    "immagine": "ae9d3c1c3182ac8d92642820f51ecbfe",
+    "pagina_quiz": 307
+  },
+  {
+    "id_blocco": 4126,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19772,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano carni macellate",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae9d3c1c3182ac8d92642820f51ecbfe",
+    "pagina_quiz": 307
+  },
+  {
+    "id_blocco": 4126,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19773,
+    "testo": "Il segnale raffigurato vieta il transito agli autoveicoli con motore alimentato a gas l iquido (GPL)",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae9d3c1c3182ac8d92642820f51ecbfe",
+    "pagina_quiz": 307
+  },
+  {
+    "id_blocco": 4126,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19774,
+    "testo": "Il segnale raffigurato vieta il transito agli autocarri telonati",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae9d3c1c3182ac8d92642820f51ecbfe",
+    "pagina_quiz": 307
+  },
+  {
+    "id_blocco": 4126,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19775,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano merci deperibil i",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae9d3c1c3182ac8d92642820f51ecbfe",
+    "pagina_quiz": 307
+  },
+  {
+    "id_blocco": 4126,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19776,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli con furgone frigorifero",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae9d3c1c3182ac8d92642820f51ecbfe",
+    "pagina_quiz": 307
+  }
+]

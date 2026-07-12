@@ -1,0 +1,92 @@
+[
+  {
+    "id_blocco": 4554,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23979,
+    "testo": "Il c onducente di autovettura deve conoscere i rischi derivanti dalla presenza, soprattutto s u strade extraurbane, di mezzi particolarmente lenti, come ciclomotori a tre ruote",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 542
+  },
+  {
+    "id_blocco": 4554,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23980,
+    "testo": "Per un'aut ovettura che procede a velocità sostenuta, pur rispettando i limiti su strada extraurbana a due sole corsie, un ciclomotore a tre ruote costituisce un potenziale pericolo, soprattutto se effettua manovre improvvise",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 542
+  },
+  {
+    "id_blocco": 4554,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23981,
+    "testo": "Per il conducente di un'autovettura che procede a velocità regolare su strada extraurbana, può risultare difficoltosa la valutazione della velocità di una macchina agricola che, in genere, procede lentamente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 542
+  },
+  {
+    "id_blocco": 4554,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23982,
+    "testo": "La presenza di veicoli che possono raggiungere velocità molto diverse tra loro, soprattutto su strada extraurbana, costituisce un fattore di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 542
+  },
+  {
+    "id_blocco": 4554,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23983,
+    "testo": "Risulta fac ile la valutazione dei tempi di avvicinamento ad un veicolo lento per un'autovettura che, specialmente su strada extraurbana, viaggia a velocità sostenuta pur rispettando i limiti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 542
+  }
+]

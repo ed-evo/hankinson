@@ -1,0 +1,74 @@
+[
+  {
+    "id_blocco": 4242,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20992,
+    "testo": "Nei sem afori in figura le frecce verdi accese indicano le direzioni verso le quali si può proseguire",
+    "risposta_corretta": "VERO",
+    "immagine": "e1cf603fd1bc443bd8928a050562f802",
+    "pagina_quiz": 142
+  },
+  {
+    "id_blocco": 4242,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20993,
+    "testo": "Nei sem afori in figura le frecce rosse accese indicano che non si può proseguire ne lle direzioni indicate",
+    "risposta_corretta": "VERO",
+    "immagine": "e1cf603fd1bc443bd8928a050562f802",
+    "pagina_quiz": 143
+  },
+  {
+    "id_blocco": 4242,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20994,
+    "testo": "Nei sem afori in figura le frecce gialle fisse accese indicano di liberare l'incrocio, qualora sia stato già impegnato, o di arrestarsi in condizioni di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": "e1cf603fd1bc443bd8928a050562f802",
+    "pagina_quiz": 143
+  },
+  {
+    "id_blocco": 4242,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20995,
+    "testo": "Nel sem aforo in figura le frecce gialle lampeggianti accese indicano di attraversare l'incrocio con particolare prudenza",
+    "risposta_corretta": "VERO",
+    "immagine": "e1cf603fd1bc443bd8928a050562f802",
+    "pagina_quiz": 143
+  },
+  {
+    "id_blocco": 4242,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20996,
+    "testo": "Nel sem aforo in figura le frecce verdi accese, rivolte verso l'alto, indicano che si può proseguire in tutte le direzioni",
+    "risposta_corretta": "FALSO",
+    "immagine": "e1cf603fd1bc443bd8928a050562f802",
+    "pagina_quiz": 143
+  },
+  {
+    "id_blocco": 4242,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20997,
+    "testo": "Nel sem aforo in figura le frecce rosse accese indicano di proseguire con prudenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "e1cf603fd1bc443bd8928a050562f802",
+    "pagina_quiz": 143
+  }
+]

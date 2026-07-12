@@ -1,0 +1,98 @@
+[
+  {
+    "id_blocco": 4264,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21202,
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, è necessario fermarsi sulla linea d'arresto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4264,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21203,
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, non si deve accelerare per attraversare prima che si abbassi la semibarriera",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4264,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21204,
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, si può passare velocemente, se non si vede sopraggiungere il treno",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4264,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21205,
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, bisogna accelerare per liberare rapidamente l'attra versamento",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4264,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21206,
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, bisogna fermarsi in corrispondenza del terzo pannello distanziometrico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4264,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21207,
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, è possibile attraversare se la linea ferroviaria è ad un solo binario",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4264,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21208,
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, è possibile attraversare i binari se non si sente ancora il fischio del treno",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4264,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21209,
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, è possibile attraversare i binari se non vi sono altri ve icol i in attesa",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  }
+]

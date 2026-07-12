@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4145,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19982,
+    "testo": "Il segnale raffigurato vieta la sosta nel luogo dove è posto",
+    "risposta_corretta": "VERO",
+    "immagine": "4bf90ba530475a309c5ec86a96590f9d",
+    "pagina_quiz": 319
+  },
+  {
+    "id_blocco": 4145,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19983,
+    "testo": "Il segnale raffigurato indica la zona per l'accesso dei veicoli alle proprietà laterali",
+    "risposta_corretta": "VERO",
+    "immagine": "4bf90ba530475a309c5ec86a96590f9d",
+    "pagina_quiz": 319
+  },
+  {
+    "id_blocco": 4145,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19984,
+    "testo": "Il segnale raffigurato indica lo sbocco di un passo carrabile",
+    "risposta_corretta": "VERO",
+    "immagine": "4bf90ba530475a309c5ec86a96590f9d",
+    "pagina_quiz": 319
+  },
+  {
+    "id_blocco": 4145,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19985,
+    "testo": "Il segnale raffigurato consente la fermata, purché il veicolo non sia di intralc io",
+    "risposta_corretta": "VERO",
+    "immagine": "4bf90ba530475a309c5ec86a96590f9d",
+    "pagina_quiz": 319
+  },
+  {
+    "id_blocco": 4145,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19986,
+    "testo": "Il segnale raffigurato, per essere valido, deve contenere l'indicazione dell'ente che ha concesso l'autorizzazione, il numero e l'anno del rilascio",
+    "risposta_corretta": "VERO",
+    "immagine": "4bf90ba530475a309c5ec86a96590f9d",
+    "pagina_quiz": 319
+  },
+  {
+    "id_blocco": 4145,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19987,
+    "testo": "Il segnale raffigurato è posto soltanto nelle strade urbane",
+    "risposta_corretta": "FALSO",
+    "immagine": "4bf90ba530475a309c5ec86a96590f9d",
+    "pagina_quiz": 319
+  },
+  {
+    "id_blocco": 4145,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19988,
+    "testo": "Il segnale raffigurato vale solo nelle ore diurne",
+    "risposta_corretta": "FALSO",
+    "immagine": "4bf90ba530475a309c5ec86a96590f9d",
+    "pagina_quiz": 319
+  },
+  {
+    "id_blocco": 4145,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19989,
+    "testo": "Il segnale raffigurato vale solo nelle ore notturne",
+    "risposta_corretta": "FALSO",
+    "immagine": "4bf90ba530475a309c5ec86a96590f9d",
+    "pagina_quiz": 319
+  },
+  {
+    "id_blocco": 4145,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19990,
+    "testo": "Il segnale raffigurato consente la sosta a particolari categorie di veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "4bf90ba530475a309c5ec86a96590f9d",
+    "pagina_quiz": 320
+  },
+  {
+    "id_blocco": 4145,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19991,
+    "testo": "Il segnale raffigurato consente la sosta ai veicoli adibiti al pronto soccorso non in servizio",
+    "risposta_corretta": "FALSO",
+    "immagine": "4bf90ba530475a309c5ec86a96590f9d",
+    "pagina_quiz": 320
+  }
+]

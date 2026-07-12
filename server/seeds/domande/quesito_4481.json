@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4481,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23352,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo E deve dare la precedenza al veicolo L",
+    "risposta_corretta": "VERO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 116
+  },
+  {
+    "id_blocco": 4481,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23353,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo E deve dare la precedenza al veicolo proveniente dalla sua destra",
+    "risposta_corretta": "VERO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 116
+  },
+  {
+    "id_blocco": 4481,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23354,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo E non ha l'obbligo di dare la precedenza al filobus",
+    "risposta_corretta": "VERO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 116
+  },
+  {
+    "id_blocco": 4481,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23355,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo E passa prima del l'aut ocarro N, dopo il transito del veicolo L",
+    "risposta_corretta": "VERO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 116
+  },
+  {
+    "id_blocco": 4481,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23356,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo E passa dopo il filobus ma prima del veicolo N",
+    "risposta_corretta": "FALSO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 116
+  },
+  {
+    "id_blocco": 4481,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23357,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo E deve dare la precedenza all'autocarro perché prosegue diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 116
+  },
+  {
+    "id_blocco": 4481,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23358,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo E ha la precedenza sui veicoli provenienti da destra e da sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 116
+  },
+  {
+    "id_blocco": 4481,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23359,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo E passa per primo",
+    "risposta_corretta": "FALSO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 116
+  }
+]

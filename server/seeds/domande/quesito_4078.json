@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19187,
+    "testo": "Il segnale raffigurato è posto prima di una discesa pericolosa",
+    "risposta_corretta": "VERO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 191
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19188,
+    "testo": "Il segnale raffigurato preannuncia una discesa particolarmente pericolosa",
+    "risposta_corretta": "VERO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 191
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19189,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada sul quale aumenta lo spazi o di frenatura del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 191
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19190,
+    "testo": "Il segnale raffigurato preannuncia una discesa e ne specifica la pendenza",
+    "risposta_corretta": "VERO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 191
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19191,
+    "testo": "Il segnale raffigurato comporta di moderare la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 191
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19192,
+    "testo": "Il segnale raffigurato richiede di inserire una marcia adeguatamente bassa",
+    "risposta_corretta": "VERO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 192
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19193,
+    "testo": "Il segnale raffigurato preannuncia una salita da percorrere con marcia adeguatamente bassa",
+    "risposta_corretta": "FALSO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 192
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19194,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada pericoloso per il fondo dissestato",
+    "risposta_corretta": "FALSO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 192
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19195,
+    "testo": "Il segnale raffigurato s pecifica la pendenza di una salita",
+    "risposta_corretta": "FALSO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 192
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19196,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada che è bene percorrere con il pedale della frizione abbassato",
+    "risposta_corretta": "FALSO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 192
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19197,
+    "testo": "Il segnale raffigurato preannuncia una salita pericolosa",
+    "risposta_corretta": "FALSO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 192
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19198,
+    "testo": "Il segnale raffigurato indica che non è consentito superare la velocità di 10 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 192
+  },
+  {
+    "id_blocco": 4078,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19199,
+    "testo": "In presenza del segnale raffigurato il pericolo è minore in caso di pioggia",
+    "risposta_corretta": "FALSO",
+    "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
+    "pagina_quiz": 192
+  }
+]

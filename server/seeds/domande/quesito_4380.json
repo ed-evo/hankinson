@@ -1,0 +1,80 @@
+[
+  {
+    "id_blocco": 4380,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22384,
+    "testo": "La velocità dei veicoli deve essere regolata in modo da non causare intralc io al la circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 494
+  },
+  {
+    "id_blocco": 4380,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22385,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi negli incroci, per far passare i veicoli cui spetti la precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4380,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22386,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi da mezz'ora prima del tramonto a mezz'ora dopo il sorgere del sole",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4380,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22387,
+    "testo": "Si è tenuti a regolare la velocità in funzione del tipo di alimentazione del motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4380,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22388,
+    "testo": "Si è tenuti a regolare la velocità in funzione della velocità dei veicoli che seguono",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 495
+  },
+  {
+    "id_blocco": 4380,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22389,
+    "testo": "Si è tenuti a regolare la velocità in funzione del tipo di cambio di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 495
+  }
+]

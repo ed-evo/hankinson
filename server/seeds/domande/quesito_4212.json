@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4212,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20726,
+    "testo": "La doppia stri scia continua in figura serve a dividere i sensi di marcia, sulle strade a doppio senso di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 425
+  },
+  {
+    "id_blocco": 4212,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20727,
+    "testo": "La doppia stri scia continua in figura non può essere superata",
+    "risposta_corretta": "VERO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 425
+  },
+  {
+    "id_blocco": 4212,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20728,
+    "testo": "La doppia stri scia continua in figura permette il sorpasso, se consentito, senza superarla",
+    "risposta_corretta": "VERO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 425
+  },
+  {
+    "id_blocco": 4212,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20729,
+    "testo": "La doppia stri scia continua in figura non consente l'inversione del senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 425
+  },
+  {
+    "id_blocco": 4212,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20730,
+    "testo": "La doppia stri scia continua in figura non consente di svoltare a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 425
+  },
+  {
+    "id_blocco": 4212,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20731,
+    "testo": "La doppia stri scia continua in figura si può trovare ai bordi della strada, per segnal are i margini",
+    "risposta_corretta": "FALSO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 425
+  },
+  {
+    "id_blocco": 4212,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20732,
+    "testo": "La doppia stri scia continua in figura indica che si può viaggiare per file parallele",
+    "risposta_corretta": "FALSO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 425
+  },
+  {
+    "id_blocco": 4212,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20733,
+    "testo": "La doppia stri scia continua in figura indica il punto in cui i conducenti si debbono arrestare per la presenza del segnale di STOP",
+    "risposta_corretta": "FALSO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 425
+  },
+  {
+    "id_blocco": 4212,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20734,
+    "testo": "La doppia stri scia continua in figura è di colore azzurro nei parcheggi a pagamento",
+    "risposta_corretta": "FALSO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 425
+  },
+  {
+    "id_blocco": 4212,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20735,
+    "testo": "La doppia stri scia continua in figura può essere superata",
+    "risposta_corretta": "FALSO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 425
+  }
+]

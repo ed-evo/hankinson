@@ -1,0 +1,41 @@
+[
+  {
+    "id_blocco": 4573,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24157,
+    "testo": "E' obbligatorio accendere i proiettori anabbaglianti, anche di giorno, quando si transita in galleria",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4573,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24158,
+    "testo": "E' obbligatorio accendere le luci del veicolo in caso di scarsa visibilità per le condizioni del tempo (nebbia, neve, pioggia)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4573,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24159,
+    "testo": "E' obbligatorio accendere i proiettori anabbaglianti nelle gallerie stradali, solo se scarsamente illuminate",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4034,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18670,
+    "testo": "Bisogna lasciare liberi gli incroci in caso di traffico intenso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 459
+  },
+  {
+    "id_blocco": 4034,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18671,
+    "testo": "Bisogna lasciare liberi i passaggi a livello e i binari del tram anche in caso di traffico intenso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 459
+  },
+  {
+    "id_blocco": 4034,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18672,
+    "testo": "Bisogna lasciare liberi gli attraversamenti pedonali e quelli ciclabili in caso di formazione di code di veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 459
+  },
+  {
+    "id_blocco": 4034,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18673,
+    "testo": "Bisogna lasciare libere le immissioni stradali (incroci, confluenze, ingressi dei parcheggi, ecc.) anche in caso di traffico intenso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 459
+  },
+  {
+    "id_blocco": 4034,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18674,
+    "testo": "Bisogna lasciare liberi solo gli incroci regolati da semaforo in caso di formazione di code di veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 459
+  },
+  {
+    "id_blocco": 4034,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18675,
+    "testo": "Bisogna lasciare liberi i cavalcavia in caso di traffico intenso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4034,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18676,
+    "testo": "Bisogna lasciare libere le gallerie in caso di formazione di code di veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4034,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18677,
+    "testo": "Bisogna lasciare liberi gli ingressi delle abitazioni private in caso di formazione di code di veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4034,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18678,
+    "testo": "Bisogna lasciare liberi i sottovia in caso di traffico intenso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 460
+  }
+]

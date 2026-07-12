@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19580,
+    "testo": "In presenza del segnale raffigurato è obbligatorio mantenere una distanza di almeno 70 metri dal veicolo che precede",
+    "risposta_corretta": "VERO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 274
+  },
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19581,
+    "testo": "In presenza del segnale raffigurato è consentito ad un veicolo di circolare alla distanza di 80 metri da quello che lo precede",
+    "risposta_corretta": "VERO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 274
+  },
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19582,
+    "testo": "Il segnale raffigurato vieta ad un veicolo di circolare a meno di 70 metri da quello che lo precede",
+    "risposta_corretta": "VERO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 275
+  },
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19583,
+    "testo": "Il segnale raffigurato vale anche per i motocicli",
+    "risposta_corretta": "VERO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 275
+  },
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19584,
+    "testo": "Il segnale raffigurato deve essere rispettato anche quando si viaggia a bassa velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 275
+  },
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19585,
+    "testo": "Il segnale raffigurato obbliga a rispettare la distanza minima indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 275
+  },
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19586,
+    "testo": "Il segnale raffigurato obbliga i veicoli a marciare a meno di 70 metri di distanza l 'uno dall'altro",
+    "risposta_corretta": "FALSO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 275
+  },
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19587,
+    "testo": "Il segnale raffigurato obbliga il veicolo che precede a distanziare quello che lo segue di al meno 70 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 275
+  },
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19588,
+    "testo": "Il segnale raffigurato indica la distanza massima da mantenere escl usivamente nei tratti di strada dove il sorpasso è vietato",
+    "risposta_corretta": "FALSO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 275
+  },
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19589,
+    "testo": "Il segnale raffigurato preavvisa che a 70 metri inizia il divieto di transito per l e autovetture",
+    "risposta_corretta": "FALSO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 275
+  },
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19590,
+    "testo": "In presenza del segnale raffigurato le autovetture non possono superare la velocità di 70 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 275
+  },
+  {
+    "id_blocco": 4110,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19591,
+    "testo": "Il segnale raffigurato indica la lunghezza massima del cavo di traino",
+    "risposta_corretta": "FALSO",
+    "immagine": "1be58ec74bcd0d03bb415339bccad9e3",
+    "pagina_quiz": 276
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22189,
+    "testo": "Il pa nnell o integrativo raffigurato indica un tratto di strada pericoloso in caso di pioggia",
+    "risposta_corretta": "VERO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 402
+  },
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22190,
+    "testo": "Il pa nnell o integrativo raffigurato invita, in caso di pioggia, ad aumentare la distanza di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 402
+  },
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22191,
+    "testo": "Il pa nnell o integrativo raffigurato indica che quando piove la strada può diventare sdrucciolevole",
+    "risposta_corretta": "VERO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 402
+  },
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22192,
+    "testo": "Il pa nnell o integrativo raffigurato indica che in caso di pioggia si può trova re del fango sulla strada",
+    "risposta_corretta": "VERO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 402
+  },
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22193,
+    "testo": "Il pa nnell o integrativo raffigurato segnala un tratto di strada sdrucciolevole in caso di pioggia",
+    "risposta_corretta": "VERO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 402
+  },
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22194,
+    "testo": "Il pa nnell o integrativo raffigurato invita a diminuire la velocità in caso di pioggia, perché la strada diventa sdrucciolevole",
+    "risposta_corretta": "VERO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 402
+  },
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22195,
+    "testo": "Il pa nnell o integrativo raffigurato indica un autolavaggio nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 402
+  },
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22196,
+    "testo": "Il pa nnell o integrativo raffigurato indica la presenza di una stazione meteorol ogica nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 402
+  },
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22197,
+    "testo": "Il pa nnell o integrativo raffigurato indica di fare attenzione agli autocarri in tra nsito, per l a possibile perdita del carico trasportato",
+    "risposta_corretta": "FALSO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 403
+  },
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22198,
+    "testo": "Il pa nnell o integrativo raffigurato indica un tratto di strada con probabile formazione di nuvole di polvere",
+    "risposta_corretta": "FALSO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 403
+  },
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22199,
+    "testo": "Il pa nnell o raffigurato indica una zona dove piove spesso",
+    "risposta_corretta": "FALSO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 403
+  },
+  {
+    "id_blocco": 4366,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22200,
+    "testo": "Il pa nnell o integrativo raffigurato indica caduta di pietre sulla strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "5e3d380eb55b1ad0a83fbadf71431a7e",
+    "pagina_quiz": 403
+  }
+]

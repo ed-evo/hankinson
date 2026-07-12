@@ -1,0 +1,200 @@
+[
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19027,
+    "testo": "Il segnale raffigurato preannuncia un passaggio a livello con barriere o con semibarriere",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 172
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19028,
+    "testo": "Dopo il segna le raffigurato, se ci sono le semibarriere, è installato un dispositivo a luci rosse lampeggianti",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 172
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19029,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento ferroviario protetto da barriere o semibarriere, qualunque sia il numero dei binari",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 172
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19030,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento ferroviario munito di barriere o semibarriere",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 172
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19031,
+    "testo": "Dopo il segna le raffigurato si può trovare un dispositivo acustico che avverte della chiusura delle barriere o delle semibarriere",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 172
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19032,
+    "testo": "Il segnale raffigurato è posto, di norma, 150 metri prima del passaggio a livello",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 172
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19033,
+    "testo": "In presenza del segnale raffigurato è necessario moderare la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 172
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19034,
+    "testo": "Dopo il segna le raffigurato, se ci sono le barriere, è installato un dispositivo a luce rossa fissa",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 173
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19035,
+    "testo": "La figura rappresenta un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 173
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19036,
+    "testo": "Il segnale raffigurato preannuncia l'incrocio con una linea tranviaria",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 173
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19037,
+    "testo": "Il segnale raffigurato preannuncia una strada senza uscita",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 173
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19038,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi se le luci rosse poste in prossimità delle barriere o delle semibarriere sono spente",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 173
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19039,
+    "testo": "Il segnale raffigurato indica una deviazione obbligatoria",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 173
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19040,
+    "testo": "Il segnale raffigurato permette di transitare tra una barra e l'altra se le semibarriere sono chiuse, dopo aver verificato che non ci sono treni in arrivo",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 173
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19041,
+    "testo": "Il segnale raffigurato indica un'area di sosta custodita",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 173
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19042,
+    "testo": "Il segnale raffigurato s i trova prima del segnale verticale DOPPIA CROCE DI S. ANDREA",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 173
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19043,
+    "testo": "Il segnale raffigurato preannuncia barriere di recinzione di un cantiere stradale",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 174
+  },
+  {
+    "id_blocco": 4065,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19044,
+    "testo": "Il segnale raffigurato impone di dare la precedenza ai veicoli della polizia penitenziaria in uscita dalle carceri",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 174
+  }
+]

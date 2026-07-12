@@ -1,0 +1,98 @@
+[
+  {
+    "id_blocco": 4224,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20827,
+    "testo": "La corsia A rappresentata in figura consente al conducente solo di svoltare a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "05769e683b8d63d64a3afd4606167fab",
+    "pagina_quiz": 156
+  },
+  {
+    "id_blocco": 4224,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20828,
+    "testo": "La corsia B rappresentata in figura consente al conducente di proseguire diritto e di svoltare a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "05769e683b8d63d64a3afd4606167fab",
+    "pagina_quiz": 156
+  },
+  {
+    "id_blocco": 4224,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20829,
+    "testo": "In presenza della segnaletica in figura , la corsia C è l'unica che consente di svoltare a destra.",
+    "risposta_corretta": "VERO",
+    "immagine": "05769e683b8d63d64a3afd4606167fab",
+    "pagina_quiz": 156
+  },
+  {
+    "id_blocco": 4224,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20830,
+    "testo": "In presenza della segnaletica in figura è consentito cambiare corsia fino a che le strisce sono ancora discontinue(tratteggiate)",
+    "risposta_corretta": "VERO",
+    "immagine": "05769e683b8d63d64a3afd4606167fab",
+    "pagina_quiz": 156
+  },
+  {
+    "id_blocco": 4224,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20831,
+    "testo": "Tutte e tre le corsie rappresentate in figura consentono al conducente di proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "05769e683b8d63d64a3afd4606167fab",
+    "pagina_quiz": 156
+  },
+  {
+    "id_blocco": 4224,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20832,
+    "testo": "In presenza della segnaletica in figura, la corsia A è l'unica che consente di svoltare a sini stra",
+    "risposta_corretta": "FALSO",
+    "immagine": "05769e683b8d63d64a3afd4606167fab",
+    "pagina_quiz": 156
+  },
+  {
+    "id_blocco": 4224,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20833,
+    "testo": "La corsia B rappresentata in figura consente al conducente solo di proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "05769e683b8d63d64a3afd4606167fab",
+    "pagina_quiz": 157
+  },
+  {
+    "id_blocco": 4224,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20834,
+    "testo": "La corsia C rappresentata in figura consente al conducente solo la svolta a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "05769e683b8d63d64a3afd4606167fab",
+    "pagina_quiz": 157
+  }
+]

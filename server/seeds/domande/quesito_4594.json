@@ -1,0 +1,44 @@
+[
+  {
+    "id_blocco": 4594,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24322,
+    "testo": "Nei veicoli dotati di airbag con comando di disabilitazione, prima di sistemare sul sedile anteriore un seggiolino per bambini (schienale rivolto verso il parabrezza), bisogna disattivare l'airbag",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 552
+  },
+  {
+    "id_blocco": 4594,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24323,
+    "testo": "Nei veicoli che non sono muniti del comando per disabilitare l'airbag dal lato passeggero, il seggiolino per bambini non deve essere sistemato sul sedile ant eriore, con lo schienale rivolto verso la strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 552
+  },
+  {
+    "id_blocco": 4594,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24325,
+    "testo": "Se un veicolo è dotato di air-bag, non vi è l'obbligo di indossare le cinture di sicurezza durante la marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 552
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4011,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18425,
+    "testo": "Nelle aree pedonali possono transitare i veicoli ad emissione zero (el ett rici), se espressamente consentito",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4011,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18426,
+    "testo": "Nelle aree pedonali possono transitare i pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4011,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18427,
+    "testo": "Nelle aree pedonali possono transitare le biciclette",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4011,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18428,
+    "testo": "Nelle aree pedonali possono transitare i veicoli al servizio di persone diversamente abili",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4011,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18429,
+    "testo": "Nelle aree pedonali possono transitare i veicoli della polizia, con sirena e luce lampeggiante blu in funzione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4011,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18430,
+    "testo": "Nelle aree pedonali possono transitare gli autoveicoli dei vigili del fuoco, con luce lampeggiante blu e sirena in funzione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4011,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18431,
+    "testo": "Nelle aree pedonali possono transitare tutti i motocicli, purché diano la precedenza ai pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4011,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18432,
+    "testo": "Nelle aree pedonali possono transitare i trattori stradali, con velocità non superiore a 30 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4011,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18433,
+    "testo": "Nelle aree pedonali i ciclomotori possono transitare solo di giorno",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4011,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18434,
+    "testo": "Nelle aree pedonali possono transitare tutti gli autoveicoli, ma con prudenza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4011,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18435,
+    "testo": "Nelle aree pedonali possono transitare i quadricicli a motore, purché non superino la velocità di 50 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  }
+]

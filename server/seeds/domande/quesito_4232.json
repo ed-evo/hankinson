@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4232,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20896,
+    "testo": "La segnaletica in figura può essere completata con l'apposito segnale vert icale di ATT RAVERSAMENTO PEDONALE",
+    "risposta_corretta": "VERO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 427
+  },
+  {
+    "id_blocco": 4232,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20897,
+    "testo": "La segnaletica in figura obbliga i conducenti ad arrestarsi quando vi sono pedoni che attraversano la carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 427
+  },
+  {
+    "id_blocco": 4232,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20898,
+    "testo": "Un attr aversamento pedonale può essere preceduto sulla destra da una striscia gia lla a zig zag, come nella figura seguente",
+    "risposta_corretta": "VERO",
+    "immagine": "fd5851d40abd7d0d720a3c771c4bfc36",
+    "pagina_quiz": 427
+  },
+  {
+    "id_blocco": 4232,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20899,
+    "testo": "La segnaletica in figura posta su strade extraurbane secondarie deve essere preceduta dal segnale di pericolo ATTRAVERSAMENTO PEDONALE",
+    "risposta_corretta": "VERO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 427
+  },
+  {
+    "id_blocco": 4232,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20900,
+    "testo": "La segnaletica in figura obbliga i conducenti a fermarsi e dare la precedenza ai pedoni che si accingono ad attraversare",
+    "risposta_corretta": "VERO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 427
+  },
+  {
+    "id_blocco": 4232,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20901,
+    "testo": "La segnaletica in figura è un'is ola di rifugio per pedoni e ciclisti",
+    "risposta_corretta": "FALSO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 427
+  },
+  {
+    "id_blocco": 4232,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20902,
+    "testo": "La segnaletica in figura non consente ai veicoli di transitarci sopra",
+    "risposta_corretta": "FALSO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 427
+  },
+  {
+    "id_blocco": 4232,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20903,
+    "testo": "La segnaletica in figura indica un'area riservata ai soli pedoni disabili",
+    "risposta_corretta": "FALSO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 427
+  },
+  {
+    "id_blocco": 4232,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20904,
+    "testo": "La segnaletica in figura non consente il transito ai pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "eb927982dff82215401678c15830cc6c",
+    "pagina_quiz": 428
+  }
+]

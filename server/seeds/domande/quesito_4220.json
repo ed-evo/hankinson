@@ -1,0 +1,74 @@
+[
+  {
+    "id_blocco": 4220,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20799,
+    "testo": "In presenza dell'isola di traffico rappresentata in figura il veicolo C deve svoltare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 152
+  },
+  {
+    "id_blocco": 4220,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20800,
+    "testo": "In presenza dell'isola di traffico rappresentata in figura il veicolo B deve svoltare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 152
+  },
+  {
+    "id_blocco": 4220,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20801,
+    "testo": "In presenza dell'isola di traffico rappresentata in figura il veicolo A deve andare diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 153
+  },
+  {
+    "id_blocco": 4220,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20802,
+    "testo": "In presenza dell'isola di traffico rappresentata in figura il veicolo C può andare in qualsiasi direzione",
+    "risposta_corretta": "FALSO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 153
+  },
+  {
+    "id_blocco": 4220,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20803,
+    "testo": "In presenza dell'isola di traffico rappresentata in figura il veicolo B può svoltare a sini stra, dando la precedenza al veicolo A",
+    "risposta_corretta": "FALSO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 153
+  },
+  {
+    "id_blocco": 4220,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20804,
+    "testo": "In presenza dell'isola di traffico rappresentata in figura il veicolo A può svoltare a sini stra, dando la precedenza al veicolo C",
+    "risposta_corretta": "FALSO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 153
+  }
+]

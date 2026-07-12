@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4649,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24906,
+    "testo": "Se un ferito della strada è in stato di incoscienza, bisogna verificare se respira ancora, mettendo una mano sulla parte laterale bassa del torace o sull'addome",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4649,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24907,
+    "testo": "Se un ferito della strada è in stato di incoscienza, può essere mosso solo se si è c erti che non abbia traumi alla colonna vertebrale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4649,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24908,
+    "testo": "Se un ferito della strada è in stato di incoscienza e fa fatica a respirare, bisogna liberare subito il naso e la bocca da eventuali ostruzioni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4649,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24909,
+    "testo": "Se un ferito della strada è in stato di incoscienza, bisogna controllare spesso le sue condizioni di salute fino all'arrivo dell'ambulanza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4649,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24910,
+    "testo": "Se un ferito della strada è in stato di incoscienza, bisogna somministrargli bevande alcooliche",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4649,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24911,
+    "testo": "Se un ferito della strada è in stato di incoscienza bisogna bloccargli le mani",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4649,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24912,
+    "testo": "Se un ferito della strada è in stato di incoscienza bisogna fasciargli la testa",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4649,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24913,
+    "testo": "Se un ferito della strada è in stato di incoscienza bisogna metterlo in posizione semiseduta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 573
+  }
+]

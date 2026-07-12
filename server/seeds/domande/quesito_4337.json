@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4337,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21891,
+    "testo": "Il segnale raffigurato indica ai veicoli di massa effettiva superiore a 7 tonnellate dir etti a Lucca di cambiare strada",
+    "risposta_corretta": "VERO",
+    "immagine": "a0f1ec2809886af786a7aab9b3e6de55",
+    "pagina_quiz": 15
+  },
+  {
+    "id_blocco": 4337,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21892,
+    "testo": "Il segnale raffigurato consente agli autocarri di massa a pieno carico infe riore a 7 tonnellate di proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "a0f1ec2809886af786a7aab9b3e6de55",
+    "pagina_quiz": 15
+  },
+  {
+    "id_blocco": 4337,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21893,
+    "testo": "Il segnale raffigurato non consente ai veicoli di massa effettiva superiore a 7 tonnellate diretti a Lucca di proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "a0f1ec2809886af786a7aab9b3e6de55",
+    "pagina_quiz": 15
+  },
+  {
+    "id_blocco": 4337,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21894,
+    "testo": "Il segnale raffigurato indica una limitazione di transito su un tratto di strada per i veicoli di massa effettiva superiore a 7 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "a0f1ec2809886af786a7aab9b3e6de55",
+    "pagina_quiz": 16
+  },
+  {
+    "id_blocco": 4337,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21895,
+    "testo": "Il segnale raffigurato viene posto in vicinanza di un incrocio che anticipa un cantiere stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "a0f1ec2809886af786a7aab9b3e6de55",
+    "pagina_quiz": 16
+  },
+  {
+    "id_blocco": 4337,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21896,
+    "testo": "Il segnale raffigurato fa parte dei segnali temporanei per cantieri di lavoro sulla strada",
+    "risposta_corretta": "VERO",
+    "immagine": "a0f1ec2809886af786a7aab9b3e6de55",
+    "pagina_quiz": 16
+  },
+  {
+    "id_blocco": 4337,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21897,
+    "testo": "Il segnale raffigurato indica, a tutti i veicoli, che non è possibile proseguire diritto per Lucca",
+    "risposta_corretta": "FALSO",
+    "immagine": "a0f1ec2809886af786a7aab9b3e6de55",
+    "pagina_quiz": 16
+  },
+  {
+    "id_blocco": 4337,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21898,
+    "testo": "Il segnale raffigurato obbliga tutti i veicoli a svoltare a destra al bivio seguent e",
+    "risposta_corretta": "FALSO",
+    "immagine": "a0f1ec2809886af786a7aab9b3e6de55",
+    "pagina_quiz": 16
+  },
+  {
+    "id_blocco": 4337,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21899,
+    "testo": "Il segnale raffigurato vieta il sorpasso agli autoveicoli di massa totale superiore a 7 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": "a0f1ec2809886af786a7aab9b3e6de55",
+    "pagina_quiz": 16
+  },
+  {
+    "id_blocco": 4337,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21900,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che superano 7 metri di lunghezza",
+    "risposta_corretta": "FALSO",
+    "immagine": "a0f1ec2809886af786a7aab9b3e6de55",
+    "pagina_quiz": 16
+  }
+]

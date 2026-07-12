@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20454,
+    "testo": "Il segnale raffigurato preannuncia una svolta obbligatoria a destra per gli autocarri di massa s uperiore a 3,5 t",
+    "risposta_corretta": "VERO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 3
+  },
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20455,
+    "testo": "Il segnale raffigurato vieta agli autocarri di massa superiore a 3,5 t di proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 3
+  },
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20456,
+    "testo": "Il segnale raffigurato preannuncia l'obbligo di svoltare a destra per i veicoli rappresent ati nel segnale s tess o",
+    "risposta_corretta": "VERO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 3
+  },
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20457,
+    "testo": "Il segnale raffigurato preannuncia un divieto di svolta a sinistra per gli autocarri di massa s uperiore a 3,5 t",
+    "risposta_corretta": "VERO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 3
+  },
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20458,
+    "testo": "Il segnale raffigurato preannuncia una svolta obbligatoria per i veicoli rappresent ati nel segnale s tess o",
+    "risposta_corretta": "VERO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 3
+  },
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20459,
+    "testo": "Il segnale raffigurato preannuncia che gli autocarri oltre 3,5 t devono svoltare nella direzione della freccia",
+    "risposta_corretta": "VERO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 3
+  },
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20460,
+    "testo": "Il segnale raffigurato preannuncia un posto di rifornimento per autocarri",
+    "risposta_corretta": "FALSO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 3
+  },
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20461,
+    "testo": "Il segnale raffigurato preannuncia che per gli autocarri è consigliato svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 4
+  },
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20462,
+    "testo": "Il segnale raffigurato preannuncia il divieto di svoltare a destra per i veicoli rappresent ati in figura",
+    "risposta_corretta": "FALSO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 4
+  },
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20463,
+    "testo": "Il segnale raffigurato preannuncia un'area di parcheggio riservata agli autocarri",
+    "risposta_corretta": "FALSO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 4
+  },
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20464,
+    "testo": "Il segnale raffigurato preannuncia un segnale di obbligo di svoltare a sinistra per tutti gli autocarri",
+    "risposta_corretta": "FALSO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 4
+  },
+  {
+    "id_blocco": 4189,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20465,
+    "testo": "Il segnale raffigurato preannuncia una curva pericolosa a destra per gli autocarri in transito",
+    "risposta_corretta": "FALSO",
+    "immagine": "38e3612532b4986f50ce99ba5b621ad4",
+    "pagina_quiz": 4
+  }
+]

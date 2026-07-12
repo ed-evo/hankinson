@@ -1,0 +1,100 @@
+[
+  {
+    "id_blocco": 4017,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18498,
+    "testo": "La corsia di a ccelerazione facilita l'ingresso dei veicoli in autostrada o su strade extraurbane principali",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4017,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18499,
+    "testo": "La corsia di a ccelerazione serve ad entrare correttamente in autostrada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4017,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18500,
+    "testo": "La corsia di a ccelerazione viene utilizzata per aumentare la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4017,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18501,
+    "testo": "La corsia di a ccelerazione serve per rientrare sulla carreggiata dell'autostrada dopo che si è usciti da un'area di servizio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4017,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18502,
+    "testo": "La corsia di a ccelerazione può essere utilizzata per il sorpasso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4017,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18503,
+    "testo": "La corsia di a ccelerazione serve per uscire da una piazzola di sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4017,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18504,
+    "testo": "La corsia di a ccelerazione serve per abbandonare la carreggiata dell'autostrada ed entrare in un'area di sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 453
+  }
+]

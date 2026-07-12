@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4316,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21703,
+    "testo": "Il segnale raffigurato indica come utilizzare le corsie di una carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "7a0d4616a0410274021c7e94c7ead252",
+    "pagina_quiz": 75
+  },
+  {
+    "id_blocco": 4316,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21704,
+    "testo": "Il segnale raffigurato consente la circolazione dei motocicli su tutte e due le corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "7a0d4616a0410274021c7e94c7ead252",
+    "pagina_quiz": 75
+  },
+  {
+    "id_blocco": 4316,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21705,
+    "testo": "Il segnale raffigurato indica che la corsia di sinistra è vietata agli autocarri che superano la massa a pieno carico di 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "7a0d4616a0410274021c7e94c7ead252",
+    "pagina_quiz": 75
+  },
+  {
+    "id_blocco": 4316,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21706,
+    "testo": "Il segnale raffigurato è installato sulle strade extraurbane",
+    "risposta_corretta": "VERO",
+    "immagine": "7a0d4616a0410274021c7e94c7ead252",
+    "pagina_quiz": 75
+  },
+  {
+    "id_blocco": 4316,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21707,
+    "testo": "Il segnale raffigurato consente la circolazione delle autovetture su tutte e due le corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "7a0d4616a0410274021c7e94c7ead252",
+    "pagina_quiz": 75
+  },
+  {
+    "id_blocco": 4316,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21708,
+    "testo": "Il segnale raffigurato consente a tutti gli autocarri di sorpassare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "7a0d4616a0410274021c7e94c7ead252",
+    "pagina_quiz": 75
+  },
+  {
+    "id_blocco": 4316,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21709,
+    "testo": "Il segnale raffigurato indica che gli autocarri che superano 3,5 tonnellate possono circolare solo sulla corsia di sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "7a0d4616a0410274021c7e94c7ead252",
+    "pagina_quiz": 75
+  },
+  {
+    "id_blocco": 4316,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21710,
+    "testo": "Il segnale raffigurato vieta a tutti gli autocarri di circolare sulla corsia di sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "7a0d4616a0410274021c7e94c7ead252",
+    "pagina_quiz": 76
+  },
+  {
+    "id_blocco": 4316,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21711,
+    "testo": "Il segnale raffigurato vieta il transito anche agli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "7a0d4616a0410274021c7e94c7ead252",
+    "pagina_quiz": 76
+  },
+  {
+    "id_blocco": 4316,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21712,
+    "testo": "Il segnale raffigurato s i trova solo su strade a doppio senso di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "7a0d4616a0410274021c7e94c7ead252",
+    "pagina_quiz": 76
+  }
+]

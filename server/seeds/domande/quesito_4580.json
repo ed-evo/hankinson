@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4580,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24203,
+    "testo": "Il simbolo raffigurato è posto sul comando di accensione dei proiettori anabbaglianti",
+    "risposta_corretta": "VERO",
+    "immagine": "7933bbf13cf37ce45fa8d0d5361fce93",
+    "pagina_quiz": 353
+  },
+  {
+    "id_blocco": 4580,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24204,
+    "testo": "Il simbolo raffigurato è posto su una spia a luce verde",
+    "risposta_corretta": "VERO",
+    "immagine": "7933bbf13cf37ce45fa8d0d5361fce93",
+    "pagina_quiz": 353
+  },
+  {
+    "id_blocco": 4580,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24205,
+    "testo": "Il simbolo raffigurato è posto su una spia a luce blu",
+    "risposta_corretta": "FALSO",
+    "immagine": "7933bbf13cf37ce45fa8d0d5361fce93",
+    "pagina_quiz": 353
+  },
+  {
+    "id_blocco": 4580,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24206,
+    "testo": "Il simbolo raffigurato segnala l'accensione della luce posteriore per nebbia",
+    "risposta_corretta": "FALSO",
+    "immagine": "7933bbf13cf37ce45fa8d0d5361fce93",
+    "pagina_quiz": 353
+  },
+  {
+    "id_blocco": 4580,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24207,
+    "testo": "Il simbolo raffigurato è posto sulla spia delle luci abbaglianti accese",
+    "risposta_corretta": "FALSO",
+    "immagine": "7933bbf13cf37ce45fa8d0d5361fce93",
+    "pagina_quiz": 353
+  },
+  {
+    "id_blocco": 4580,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24208,
+    "testo": "Il simbolo raffigurato segnala l'accensione delle luci di posizione",
+    "risposta_corretta": "FALSO",
+    "immagine": "7933bbf13cf37ce45fa8d0d5361fce93",
+    "pagina_quiz": 353
+  },
+  {
+    "id_blocco": 4580,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24209,
+    "testo": "Il simbolo raffigurato indica il comando per azionare l'indicatore di dire zione destro",
+    "risposta_corretta": "FALSO",
+    "immagine": "7933bbf13cf37ce45fa8d0d5361fce93",
+    "pagina_quiz": 353
+  }
+]

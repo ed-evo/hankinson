@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23665,
+    "testo": "La fermat a è vietata in corrispondenza o in prossimità dei passaggi a livello",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23666,
+    "testo": "La fermat a è vietata sui binari di linee ferroviarie o tranviarie o così vicino ad essi da intralciare la marcia dei veicoli su rotaia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23667,
+    "testo": "La fermat a è vietata nelle gallerie, salvo diversa segnalazione.",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23668,
+    "testo": "La fermat a è vietata nei sottovia, sotto i sovrapassaggi, sotto i fornici e i portici, salvo diversa segnalazione.",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23669,
+    "testo": "La fermat a è vietata sui dos si.",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23670,
+    "testo": "Fuori dai cent ri abitati e sulle strade urbane di scorrimento la fermata è vietata in prossimità dei dossi.",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23671,
+    "testo": "La fermat a è vietata nelle curve e, fuori dei centri abitati e sulle strade urbane di scorrimento, anche in loro prossimità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23672,
+    "testo": "La fermat a è vietata sul margine destro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23673,
+    "testo": "La fermat a è vietata lungo il margine sinistro di una carreggiata a senso unico di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23674,
+    "testo": "La fermat a di breve durata è consentita anche in curva.",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23675,
+    "testo": "La fermat a è vietata allo sbocco dei passi carrabili",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4513,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23676,
+    "testo": "La fermat a è vietata sulle aree destinate al mercato o al carico e allo scarico delle merci",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 529
+  }
+]

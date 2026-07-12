@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4585,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24248,
+    "testo": "L'uso dei pr oiettori a luce abbagliante è vietato, di norma, durante la marcia nei centri abitati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4585,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24249,
+    "testo": "L'uso dei pr oiettori a luce abbagliante è necessario, fuori dei centri abitati, quando l'illuminazione pubblica è insufficiente e non si incrociano altri veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4585,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24250,
+    "testo": "L'uso dei pr oiettori a luce abbagliante è necessario, fuori dei centri abitati, quando l'illuminazione pubblica manca e non si incrociano altri veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4585,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24251,
+    "testo": "L'uso dei pr oiettori a luce abbagliante va sostituito con quello dei proiettori a luce anabbagliante quando si incrociano altri veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4585,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24252,
+    "testo": "L'uso dei pr oiettori a luce abbagliante è di norma consentito in città, in caso di nebbia fi tta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4585,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24253,
+    "testo": "L'uso dei pr oiettori a luce abbagliante è necessario nelle gallerie urbane a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4585,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24254,
+    "testo": "L'uso dei pr oiettori a luce abbagliante è sempre ammesso quando si tra sport ano feriti o ammalati gravi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4585,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24255,
+    "testo": "L'uso dei pr oiettori a luce abbagliante è necessario, di giorno, se si circola su un'autostra da viaggiando controsole",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  }
+]

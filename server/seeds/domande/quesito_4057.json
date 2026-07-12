@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18924,
+    "testo": "Il segnale raffigurato preannuncia una curva pericolosa a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 159
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18925,
+    "testo": "Il segnale raffigurato è posto, di norma, a 150 metri dal punto di inizio della curva",
+    "risposta_corretta": "VERO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 160
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18926,
+    "testo": "Il segnale raffigurato può essere integrato con pannello con la scritta TORNANTE",
+    "risposta_corretta": "VERO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 160
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18927,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada pericoloso per ridotta visibilità",
+    "risposta_corretta": "VERO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 160
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18928,
+    "testo": "Il segnale raffigurato richiede di moderare la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 160
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18929,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada pericoloso",
+    "risposta_corretta": "VERO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 160
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18930,
+    "testo": "Il segnale raffigurato preannuncia una serie di curve pericolose di cui la prima a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 160
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18931,
+    "testo": "Il segnale raffigurato preannuncia un obbligo di svolta a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 160
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18932,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 160
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18933,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in salita",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 160
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18934,
+    "testo": "Il segnale raffigurato preannuncia un cambio di corsia",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 161
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18935,
+    "testo": "Il segnale raffigurato preannuncia una curva a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 161
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18936,
+    "testo": "Il segnale raffigurato, pos to su una strada a doppio senso di circolazione, impone di portarsi sulla parte sinistra della carreggiata per affrontare meglio la curva",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 161
+  },
+  {
+    "id_blocco": 4057,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18937,
+    "testo": "Il segnale raffigurato è posto, di norma, a 5 metri dall'inizio della curva",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 161
+  }
+]

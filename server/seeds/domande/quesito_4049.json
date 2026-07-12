@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4049,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18830,
+    "testo": "Quando la carreggiata è occupata da ciclisti o pedoni, per sorpassarli è prudent e mantenere un'adeguata distanza di sicurezza laterale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4049,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18831,
+    "testo": "Quando la carreggiata è occupata da ciclisti o pedoni, non è prudente sorpassarli se non si può rispettare una distanza laterale sufficiente.",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4049,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18832,
+    "testo": "Quando la carreggiata extraurbana è occupata da ciclisti o pedoni, è consigliabile suonare il clacson prima di sorpassarli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4049,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18833,
+    "testo": "Il c onducente che intende sorpassare ciclisti o pedoni che occupano la carreggiata deve usare molta prudenza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4049,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18834,
+    "testo": "Poiché la marcia dei ciclisti a volte avviene con leggeri sbandamenti, il conducente di un veicolo deve tener conto di tale particolarità, in caso di sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4049,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18835,
+    "testo": "Il c onducente che intende sorpassare ciclisti o pedoni che occupano la carreggiata deve mantenere una distanza laterale di almeno 2 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4049,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18836,
+    "testo": "E' vietato sorpassare ciclisti o pedoni che occupano l a carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4049,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18837,
+    "testo": "Il c onducente , di notte, non deve dare la precedenza ai pedoni che attraversano sulle strisce pedonali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4049,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18838,
+    "testo": "Quando la carreggiata è occupata da ciclisti o pedoni, si devono sorpassare senza superare la velocità di 30 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 466
+  }
+]

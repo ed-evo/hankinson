@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4088,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19310,
+    "testo": "In presenza del segnale raffigurato occorre prestare particolare attenzione per l a possi bile presenza di bambini",
+    "risposta_corretta": "VERO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 206
+  },
+  {
+    "id_blocco": 4088,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19311,
+    "testo": "In presenza del segnale raffigurato è necessario moderare la velocità e prestare attenzione ai bambini anche se si trovano sui marciapiedi",
+    "risposta_corretta": "VERO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 206
+  },
+  {
+    "id_blocco": 4088,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19312,
+    "testo": "In presenza del segnale raffigurato occorre prestare particolare attenzione ai movimenti imprevedibili dei bambini",
+    "risposta_corretta": "VERO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 206
+  },
+  {
+    "id_blocco": 4088,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19313,
+    "testo": "In presenza del segnale raffigurato è vietato sorpassare i veicoli che si sono fermati per lasciare attraversare i bambini",
+    "risposta_corretta": "VERO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 206
+  },
+  {
+    "id_blocco": 4088,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19314,
+    "testo": "In presenza del segnale raffigurato è necessario fare attenzione ai bambini sulla carreggi ata e non a quelli sul marciapiede",
+    "risposta_corretta": "FALSO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 206
+  },
+  {
+    "id_blocco": 4088,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19315,
+    "testo": "In presenza del segnale raffigurato è vietato transitare durante l'orario di uscita dei bambini da scuola",
+    "risposta_corretta": "FALSO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 206
+  },
+  {
+    "id_blocco": 4088,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19316,
+    "testo": "In presenza del segnale raffigurato è vietato superare la velocità di 30 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 206
+  }
+]

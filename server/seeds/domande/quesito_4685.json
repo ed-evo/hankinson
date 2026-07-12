@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4685,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25160,
+    "testo": "E' vietato danneggiare le opere e gli impianti stradali",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4685,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25161,
+    "testo": "E' vietato gettare oggetti e rifiuti dai veicoli in movimento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4685,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25162,
+    "testo": "E' vietato sporcare la carreggiata depositando rifiuti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4685,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25163,
+    "testo": "E' vietato immettersi sulle strade con le ruote del veicolo sporche di fango",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4685,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25164,
+    "testo": "Su tutte le strade è vietato esercitarsi alla guida",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4685,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25165,
+    "testo": "Su tutte le strade sono vietati gli avvisatori acustici (clacson, trombe)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4685,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25166,
+    "testo": "Su tutte le strade è vietato il transito dei veicoli che superano 10 m di lunghezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4685,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25167,
+    "testo": "E' vietato parcheggiare nelle zone residenziali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  }
+]

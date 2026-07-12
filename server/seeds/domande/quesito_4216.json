@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4216,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20762,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia continua centrale in figura si trova prima di una curva",
+    "risposta_corretta": "VERO",
+    "immagine": "2a8cb20b2ed164c9a0b9677bc5fd1320",
+    "pagina_quiz": 440
+  },
+  {
+    "id_blocco": 4216,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20763,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia continua centrale in figura si trova sul tratto in salita di un dosso",
+    "risposta_corretta": "VERO",
+    "immagine": "2a8cb20b2ed164c9a0b9677bc5fd1320",
+    "pagina_quiz": 440
+  },
+  {
+    "id_blocco": 4216,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20764,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia continua centrale in figura si trova prima di un incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "2a8cb20b2ed164c9a0b9677bc5fd1320",
+    "pagina_quiz": 441
+  },
+  {
+    "id_blocco": 4216,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20765,
+    "testo": "Il ve icol o in figura non può superare la striscia continua centrale",
+    "risposta_corretta": "VERO",
+    "immagine": "2a8cb20b2ed164c9a0b9677bc5fd1320",
+    "pagina_quiz": 441
+  },
+  {
+    "id_blocco": 4216,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20766,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia continua centrale in figura si trova, di norma, su strade a senso unico di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "2a8cb20b2ed164c9a0b9677bc5fd1320",
+    "pagina_quiz": 441
+  },
+  {
+    "id_blocco": 4216,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20767,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia continua centrale in figura si trova ogni volta che si supera il tratto in discesa di un dosso",
+    "risposta_corretta": "FALSO",
+    "immagine": "2a8cb20b2ed164c9a0b9677bc5fd1320",
+    "pagina_quiz": 441
+  },
+  {
+    "id_blocco": 4216,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20768,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia continua centrale in figura si trova ogni volta che si supera un passaggio a livello",
+    "risposta_corretta": "FALSO",
+    "immagine": "2a8cb20b2ed164c9a0b9677bc5fd1320",
+    "pagina_quiz": 441
+  },
+  {
+    "id_blocco": 4216,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20769,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia continua centrale in figura consente l'inversione del senso di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "2a8cb20b2ed164c9a0b9677bc5fd1320",
+    "pagina_quiz": 441
+  },
+  {
+    "id_blocco": 4216,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20770,
+    "testo": "Il ve icol o in figura può effettuare un sorpasso anche superando la striscia continua centrale",
+    "risposta_corretta": "FALSO",
+    "immagine": "2a8cb20b2ed164c9a0b9677bc5fd1320",
+    "pagina_quiz": 441
+  }
+]

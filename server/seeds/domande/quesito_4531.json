@@ -1,0 +1,92 @@
+[
+  {
+    "id_blocco": 4531,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23810,
+    "testo": "In caso di ingombro della carreggiata per avaria del veicolo, il conducente deve sol lecitamente rendere libero il transito per il traffico sopraggiungente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 533
+  },
+  {
+    "id_blocco": 4531,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23811,
+    "testo": "In caso di ingombro della carreggiata per avaria del veicolo, il conducente deve spi ngere il veicolo s tess o fuori della carreggiata o, se ciò non è possibile, collocarlo sul margine destro della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 534
+  },
+  {
+    "id_blocco": 4531,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23812,
+    "testo": "In caso di ingombro della carreggiata per caduta del carico o per qualsiasi altra causa, il conducente deve rimuovere l'ingombro, per quanto possibile",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 534
+  },
+  {
+    "id_blocco": 4531,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23813,
+    "testo": "In caso di ingombro della carreggiata per avaria del veicolo, il conducente non è tenuto a spostarlo, in attesa dei soccorsi, se il traffico è scarso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 534
+  },
+  {
+    "id_blocco": 4531,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23814,
+    "testo": "Nel caso di ingombro della carreggiata per caduta accidentale del carico il conducente deve evitare di spostarlo per consentire la ricostruzione corretta dell'accaduto",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 534
+  }
+]

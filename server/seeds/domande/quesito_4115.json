@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19644,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli a trazione animale",
+    "risposta_corretta": "VERO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 277
+  },
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19645,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli trainati da cavalli",
+    "risposta_corretta": "VERO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 277
+  },
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19646,
+    "testo": "Il segnale raffigurato vieta la circolazione alle carrozze a cavalli",
+    "risposta_corretta": "VERO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 277
+  },
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19647,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli trainati da asini",
+    "risposta_corretta": "VERO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 277
+  },
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19648,
+    "testo": "Il segnale raffigurato consente il transito dei motocicli",
+    "risposta_corretta": "VERO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 277
+  },
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19649,
+    "testo": "Il segnale raffigurato consente il transito degli autoveicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 278
+  },
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19650,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 278
+  },
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19651,
+    "testo": "Il segnale raffigurato vige, nei centri abitati, dalle ore 8.00 alle ore 20.00",
+    "risposta_corretta": "FALSO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 278
+  },
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19652,
+    "testo": "Il segnale raffigurato consente il transito ai veicoli a trazione animale se muniti di pneumatici",
+    "risposta_corretta": "FALSO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 278
+  },
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19653,
+    "testo": "Il segnale raffigurato indica una strada riservata ai carri agricoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 278
+  },
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19654,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli a braccia",
+    "risposta_corretta": "FALSO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 278
+  },
+  {
+    "id_blocco": 4115,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19655,
+    "testo": "Il segnale raffigurato vieta la circolazione a tutti i veicoli sprovvisti di motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "2c1662a4924d2164fcd5f9efc31f87ae",
+    "pagina_quiz": 278
+  }
+]

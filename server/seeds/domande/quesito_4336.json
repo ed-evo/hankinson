@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4336,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21884,
+    "testo": "Il segnale raffigurato preavvisa un cantiere mobile con strettoia a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "f1e5c1caead6c28fe5819c396791ed64",
+    "pagina_quiz": 31
+  },
+  {
+    "id_blocco": 4336,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21885,
+    "testo": "Il segnale raffigurato può essere installato su un veicolo per preavvisare un cantiere stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "f1e5c1caead6c28fe5819c396791ed64",
+    "pagina_quiz": 31
+  },
+  {
+    "id_blocco": 4336,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21886,
+    "testo": "Il segnale raffigurato indica le corsie disponibili per la circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": "f1e5c1caead6c28fe5819c396791ed64",
+    "pagina_quiz": 31
+  },
+  {
+    "id_blocco": 4336,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21887,
+    "testo": "Il segnale raffigurato indica una diminuzione da tre a due corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "f1e5c1caead6c28fe5819c396791ed64",
+    "pagina_quiz": 31
+  },
+  {
+    "id_blocco": 4336,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21888,
+    "testo": "Il segnale raffigurato può essere completato con luci gialle lampeggianti",
+    "risposta_corretta": "VERO",
+    "immagine": "f1e5c1caead6c28fe5819c396791ed64",
+    "pagina_quiz": 32
+  },
+  {
+    "id_blocco": 4336,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21889,
+    "testo": "Il segnale raffigurato indica quanti veicoli possono transitare contemporaneamente",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1e5c1caead6c28fe5819c396791ed64",
+    "pagina_quiz": 32
+  },
+  {
+    "id_blocco": 4336,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21890,
+    "testo": "Il segnale raffigurato indica una piazzola di sosta sul lato sinistro",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1e5c1caead6c28fe5819c396791ed64",
+    "pagina_quiz": 32
+  }
+]

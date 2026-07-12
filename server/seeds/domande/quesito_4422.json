@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4422,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22789,
+    "testo": "Su una strada a tre corsie a doppio senso di marcia, in figura, si deve impegnare quella centrale solo per il sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": "dff3b1affd4734796911036361dd8cdc",
+    "pagina_quiz": 509
+  },
+  {
+    "id_blocco": 4422,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22790,
+    "testo": "Su una strada a due corsie a doppio senso di marcia, in figura, si deve impegnare quella di sinistra solo per il sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 510
+  },
+  {
+    "id_blocco": 4422,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22791,
+    "testo": "Sulle strade extraurbane principali la sosta è consentita solo nelle apposite aree",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 510
+  },
+  {
+    "id_blocco": 4422,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22792,
+    "testo": "Su una strada a due carreggiate separate, in figura, si deve percorrere la carreggiata di destra per la marcia normale e quella di sinistra per il sorpasso",
+    "risposta_corretta": "FALSO",
+    "immagine": "e00e36976523c1531ef87cc81ab30238",
+    "pagina_quiz": 510
+  },
+  {
+    "id_blocco": 4422,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22793,
+    "testo": "Nelle strade composte da una carreggiata a due corsie a doppio senso di marcia, in figura, si può marciare per file parallele",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 510
+  },
+  {
+    "id_blocco": 4422,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22794,
+    "testo": "Nelle strade a quattro carreggiate separate, quelle centrali sono riservate al sorpasso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 510
+  }
+]

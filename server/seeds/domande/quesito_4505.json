@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4505,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23597,
+    "testo": "E' co nsentito sorpassare un'auto della Polizia, se non è in servizio di emergenza e non vi sono altri tipi di impedimenti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4505,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23598,
+    "testo": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, è consigliabile ridurre la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4505,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23599,
+    "testo": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, occorre spostarsi il più vicino possibile al margine destro della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4505,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23600,
+    "testo": "Se si viene sorpassati ed avviene un incidente, si può avere una parte di responsabil ità, se non si è fatto il possibile per facilitare la manovra di sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4505,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23601,
+    "testo": "E' vietato sorpassare un'auto della Polizia, non in servizio di emergenza, per non ostac olarne la marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4505,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23602,
+    "testo": "Sulle autostrade a tre corsie per senso di marcia è consentito sorpassare un'auto della polizia, anche se in servizio di emergenza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4505,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23603,
+    "testo": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, occorre tenere accesi i proiettori abbaglianti, come segnale di pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4505,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23604,
+    "testo": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, si ha l'obbligo di mantenere la stessa velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 526
+  },
+  {
+    "id_blocco": 4505,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23605,
+    "testo": "Se si viene sorpassati mentre sopraggiunge un veicolo dal senso opposto, occorre azionare l'indicatore di direzione destro, come segnale di pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 526
+  }
+]

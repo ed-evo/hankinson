@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19327,
+    "testo": "Il segnale raffigurato preannuncia il probabile attraversamento di animali selva tic i",
+    "risposta_corretta": "VERO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 208
+  },
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19328,
+    "testo": "Il segnale raffigurato richiede di rallentare e all'occorrenza di arrestarsi se gli animali danno segno di spavento",
+    "risposta_corretta": "VERO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 208
+  },
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19329,
+    "testo": "Il segnale raffigurato richiede di rallentare e all'occorrenza di arrestarsi se gli animali attraversano improvvisamente la strada",
+    "risposta_corretta": "VERO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 208
+  },
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19330,
+    "testo": "Il segnale raffigurato preannuncia la possibilità di trovare improvvisamente animali vaganti sulla carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 208
+  },
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19331,
+    "testo": "Il segnale raffigurato preannuncia il probabile e improvviso attraversam ento di animali selvatici",
+    "risposta_corretta": "VERO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 208
+  },
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19332,
+    "testo": "Il segnale raffigurato richiede di rallentare per evitare urti con animali selva tic i vaganti",
+    "risposta_corretta": "VERO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 208
+  },
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19333,
+    "testo": "In presenza del segnale raffigurato è obbligatorio usare ripetutamente l'avvisatore acustico per allontanare gli animali",
+    "risposta_corretta": "FALSO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 208
+  },
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19334,
+    "testo": "Il segnale raffigurato preannuncia una area riservata alla circolazione di animali selva tici",
+    "risposta_corretta": "FALSO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 208
+  },
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19335,
+    "testo": "Il segnale raffigurato obbliga a marciare al centro della strada per evitare di investire gli animali selvatici",
+    "risposta_corretta": "FALSO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 209
+  },
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19336,
+    "testo": "Il segnale raffigurato consente il transito dei soli veicoli a quattro ruote motrici",
+    "risposta_corretta": "FALSO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 209
+  },
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19337,
+    "testo": "Il segnale raffigurato indica l'ingresso di uno \"zoo safari\"",
+    "risposta_corretta": "FALSO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 209
+  },
+  {
+    "id_blocco": 4090,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19338,
+    "testo": "Il segnale raffigurato indica l'ingresso di un Parco Nazionale",
+    "risposta_corretta": "FALSO",
+    "immagine": "36afb52a10944b6e19c4dc97b73653d4",
+    "pagina_quiz": 209
+  }
+]

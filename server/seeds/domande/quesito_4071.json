@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19105,
+    "testo": "I pannelli raffigurati sono posti prima di qualsiasi tipo di passaggio a livello",
+    "risposta_corretta": "VERO",
+    "immagine": "763ca110cf7b142f789b6577eb5719b4",
+    "pagina_quiz": 181
+  },
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19106,
+    "testo": "I pannelli raffigurati sono posti, di norma, a circa 150, 100 e 50 metri dall'attraversamento ferroviario",
+    "risposta_corretta": "VERO",
+    "immagine": "763ca110cf7b142f789b6577eb5719b4",
+    "pagina_quiz": 181
+  },
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19107,
+    "testo": "I pannelli raffigurati servono ad indicare che ci si sta avvicinando al passaggio a livello",
+    "risposta_corretta": "VERO",
+    "immagine": "763ca110cf7b142f789b6577eb5719b4",
+    "pagina_quiz": 181
+  },
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19108,
+    "testo": "Il pa nnell o con tre barre rosse (A) è posto sotto il segnale (B)",
+    "risposta_corretta": "VERO",
+    "immagine": "5789f1e8160390a6ff823a0d396af03b",
+    "pagina_quiz": 181
+  },
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19109,
+    "testo": "Nel caso di attraversamento ferroviario senza barriere, i pannelli (A) sono posti prima del segnale (B)",
+    "risposta_corretta": "VERO",
+    "immagine": "34821b0c004e42a22fc772854779ce47",
+    "pagina_quiz": 182
+  },
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19110,
+    "testo": "Il pa nnell o con tre barre oblique rosse è il primo dei pannelli che si incontra quando ci si approssima ad un pas saggio a livello",
+    "risposta_corretta": "VERO",
+    "immagine": "763ca110cf7b142f789b6577eb5719b4",
+    "pagina_quiz": 182
+  },
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19111,
+    "testo": "I pannelli raffigurati si pos sono trovare solo se il passaggio a livello è con barriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "763ca110cf7b142f789b6577eb5719b4",
+    "pagina_quiz": 182
+  },
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19112,
+    "testo": "I pannelli raffigurati sono segnali di prescrizione",
+    "risposta_corretta": "FALSO",
+    "immagine": "763ca110cf7b142f789b6577eb5719b4",
+    "pagina_quiz": 182
+  },
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19113,
+    "testo": "I pannelli raffigurati indicano lavori in corso",
+    "risposta_corretta": "FALSO",
+    "immagine": "763ca110cf7b142f789b6577eb5719b4",
+    "pagina_quiz": 182
+  },
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19114,
+    "testo": "I pannelli raffigurati hanno tante barre diagonali quanti sono i binari del passaggio a livello",
+    "risposta_corretta": "FALSO",
+    "immagine": "763ca110cf7b142f789b6577eb5719b4",
+    "pagina_quiz": 182
+  },
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19115,
+    "testo": "I pannelli raffigurati, se con due barre, indicano un attraversamento ferroviario con due soli binari",
+    "risposta_corretta": "FALSO",
+    "immagine": "763ca110cf7b142f789b6577eb5719b4",
+    "pagina_quiz": 182
+  },
+  {
+    "id_blocco": 4071,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19116,
+    "testo": "I pannelli raffigurati sono ins tallati su cavalletti che vietano il transito dell'attraversamento ferroviario",
+    "risposta_corretta": "FALSO",
+    "immagine": "763ca110cf7b142f789b6577eb5719b4",
+    "pagina_quiz": 182
+  }
+]

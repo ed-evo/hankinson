@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4515,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23688,
+    "testo": "La sosta e la fermata sono sempre vietate sugli attraversamenti pedonali",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4515,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23689,
+    "testo": "La sosta e la fermata sono vietate in ogni caso sulle piste ciclabili e agli sbocchi di esse",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4515,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23690,
+    "testo": "La sosta e la fermata sono vietate sui marciapiedi, salvo diversa segnal azione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4515,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23691,
+    "testo": "La fermat a è consentita allo sbocco dei passi carrabili",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4515,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23692,
+    "testo": "La fermat a è consentita davanti ai cassonetti dei rifiuti urbani",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4515,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23693,
+    "testo": "La fermat a è consentita sugli attraversamenti pedonali per far scendere un passeggero",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4515,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23694,
+    "testo": "La fermat a per esigenze di brevissima durata è vietata sulle piste ciclabili ma non agli sbocchi di esse",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4515,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23695,
+    "testo": "La fermat a è vietata allo sbocco dei passi carrabili",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4515,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23696,
+    "testo": "La fermat a è sempre vietata in seconda fila",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 529
+  },
+  {
+    "id_blocco": 4515,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23697,
+    "testo": "La fermat a è vietata in ogni caso nelle ore notturne",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 529
+  }
+]

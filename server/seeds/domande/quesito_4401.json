@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4401,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22602,
+    "testo": "Lo spazio di frenatura è quello percorso dall'inizio della frenata all'arresto del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4401,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22603,
+    "testo": "Lo spazio di frenatura si quadruplica se la velocità si raddoppia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4401,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22604,
+    "testo": "Lo spazio di frenatura diventa nove volte maggiore se la velocità si triplica",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4401,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22605,
+    "testo": "Lo spazio di frenatura diventa sedici volte maggiore se la velocità si quadrupl ica",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4401,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22606,
+    "testo": "Lo spazio di frenatura è indipendente dalla velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4401,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22607,
+    "testo": "Lo spazio di frenatura si raddoppia se la velocità si raddoppia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  }
+]

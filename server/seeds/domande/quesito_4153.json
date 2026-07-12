@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4153,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20083,
+    "testo": "Il segnale raffigurato indica che si può svoltare soltanto a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "fece8907377910340f0aecbc53ef2a9b",
+    "pagina_quiz": 340
+  },
+  {
+    "id_blocco": 4153,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20084,
+    "testo": "Il segnale raffigurato indica che non è consentito proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "fece8907377910340f0aecbc53ef2a9b",
+    "pagina_quiz": 340
+  },
+  {
+    "id_blocco": 4153,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20085,
+    "testo": "Il segnale raffigurato indica il divieto di svoltare a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "fece8907377910340f0aecbc53ef2a9b",
+    "pagina_quiz": 340
+  },
+  {
+    "id_blocco": 4153,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20086,
+    "testo": "Il segnale raffigurato indica che ci si può fermare sulla sinistra della strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "fece8907377910340f0aecbc53ef2a9b",
+    "pagina_quiz": 340
+  },
+  {
+    "id_blocco": 4153,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20087,
+    "testo": "Il segnale raffigurato indica l'obbligo di proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "fece8907377910340f0aecbc53ef2a9b",
+    "pagina_quiz": 341
+  },
+  {
+    "id_blocco": 4153,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20088,
+    "testo": "Il segnale raffigurato s ignifica che bisogna aggirare l'ostacolo a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "fece8907377910340f0aecbc53ef2a9b",
+    "pagina_quiz": 341
+  },
+  {
+    "id_blocco": 4153,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20089,
+    "testo": "Il segnale raffigurato s ignifica preavviso di curva a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "fece8907377910340f0aecbc53ef2a9b",
+    "pagina_quiz": 341
+  }
+]

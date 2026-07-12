@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4258,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21150,
+    "testo": "Il semaforo di corsie reversibili in figura è posto su una carreggiata con almeno tr e corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 146
+  },
+  {
+    "id_blocco": 4258,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21151,
+    "testo": "Il semaforo di corsie reversibili in figura consente il transito nella corsia indicata dalla freccia verde",
+    "risposta_corretta": "VERO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 146
+  },
+  {
+    "id_blocco": 4258,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21152,
+    "testo": "Il semaforo di corsie reversibili in figura, con freccia gialla lampeggiante impone al conducente di abbandonare quella corsia e di spostarsi in quella indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 146
+  },
+  {
+    "id_blocco": 4258,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21153,
+    "testo": "Il semaforo di corsie reversibili in figura indica la corsia per i veicoli lenti",
+    "risposta_corretta": "FALSO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 146
+  },
+  {
+    "id_blocco": 4258,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21154,
+    "testo": "Il semaforo di corsie reversibili in figura indica la corsia per la sosta di emergenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 146
+  },
+  {
+    "id_blocco": 4258,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21155,
+    "testo": "Il semaforo di corsie reversibili in figura indica la corsia riservata al sorpasso",
+    "risposta_corretta": "FALSO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 146
+  },
+  {
+    "id_blocco": 4258,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21156,
+    "testo": "Il semaforo di corsie reversibili in figura è posto solo su carreggiate a senso unico di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 147
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4325,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21784,
+    "testo": "Il segnale raffigurato indica un'area attrezzata con impianti di scarico per i veicoli che hanno i servizi igienico-sanitari",
+    "risposta_corretta": "VERO",
+    "immagine": "9c797083d3d0057384d311515773b958",
+    "pagina_quiz": 86
+  },
+  {
+    "id_blocco": 4325,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21785,
+    "testo": "Il segnale raffigurato indica un'area con impianti igienico-sanitari per raccogliere le acque delle autocaravan",
+    "risposta_corretta": "VERO",
+    "immagine": "9c797083d3d0057384d311515773b958",
+    "pagina_quiz": 86
+  },
+  {
+    "id_blocco": 4325,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21786,
+    "testo": "Il segnale raffigurato interessa tutti i veicoli che hanno degli impianti igienico- sanitari",
+    "risposta_corretta": "VERO",
+    "immagine": "9c797083d3d0057384d311515773b958",
+    "pagina_quiz": 86
+  },
+  {
+    "id_blocco": 4325,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21787,
+    "testo": "Il segnale raffigurato indica impianti che consentono, ai veicoli che hanno i servizi igienico-sanitari, lo scarico dei residui organici e delle acque bianche e sporche",
+    "risposta_corretta": "VERO",
+    "immagine": "9c797083d3d0057384d311515773b958",
+    "pagina_quiz": 86
+  },
+  {
+    "id_blocco": 4325,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21788,
+    "testo": "Il segnale raffigurato indica la presenza di servizi igienici per i viaggiatori",
+    "risposta_corretta": "FALSO",
+    "immagine": "9c797083d3d0057384d311515773b958",
+    "pagina_quiz": 86
+  },
+  {
+    "id_blocco": 4325,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21789,
+    "testo": "Il segnale raffigurato indica una strada riservata alle autocaravan",
+    "risposta_corretta": "FALSO",
+    "immagine": "9c797083d3d0057384d311515773b958",
+    "pagina_quiz": 87
+  },
+  {
+    "id_blocco": 4325,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21790,
+    "testo": "Il segnale raffigurato indica un impianto per la pesatura delle autocaravan",
+    "risposta_corretta": "FALSO",
+    "immagine": "9c797083d3d0057384d311515773b958",
+    "pagina_quiz": 87
+  },
+  {
+    "id_blocco": 4325,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21791,
+    "testo": "Il segnale raffigurato avverte di fare attenzione alle buche sulla carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "9c797083d3d0057384d311515773b958",
+    "pagina_quiz": 87
+  },
+  {
+    "id_blocco": 4325,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21792,
+    "testo": "Il segnale raffigurato preavvisa una cunetta pericolosa",
+    "risposta_corretta": "FALSO",
+    "immagine": "9c797083d3d0057384d311515773b958",
+    "pagina_quiz": 87
+  }
+]

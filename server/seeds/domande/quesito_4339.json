@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4339,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21912,
+    "testo": "Il segnale raffigurato, pos to in presenza di lavori stradali, indica alle categorie di veicoli quali corsie possono occupare",
+    "risposta_corretta": "VERO",
+    "immagine": "ccb30857f4fbd40dd9ab759d241453b3",
+    "pagina_quiz": 24
+  },
+  {
+    "id_blocco": 4339,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21913,
+    "testo": "Il segnale raffigurato viene utilizzato per indicare l'uso delle corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "ccb30857f4fbd40dd9ab759d241453b3",
+    "pagina_quiz": 24
+  },
+  {
+    "id_blocco": 4339,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21914,
+    "testo": "Il segnale raffigurato indica ai veicoli su quali corsie debbono circolare",
+    "risposta_corretta": "VERO",
+    "immagine": "ccb30857f4fbd40dd9ab759d241453b3",
+    "pagina_quiz": 24
+  },
+  {
+    "id_blocco": 4339,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21915,
+    "testo": "Il segnale raffigurato indica agli autocarri di massa complessiva superiore a 3,5 tonnellate quale corsia debbono percorrere",
+    "risposta_corretta": "VERO",
+    "immagine": "ccb30857f4fbd40dd9ab759d241453b3",
+    "pagina_quiz": 24
+  },
+  {
+    "id_blocco": 4339,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21916,
+    "testo": "Il segnale raffigurato indica che gli autocarri di massa complessiva superiore a 3,5 tonnellate possono percorrere solo la corsia di destra",
+    "risposta_corretta": "VERO",
+    "immagine": "ccb30857f4fbd40dd9ab759d241453b3",
+    "pagina_quiz": 24
+  },
+  {
+    "id_blocco": 4339,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21917,
+    "testo": "Il segnale raffigurato indica l'avvicinarsi di un casello autostradale",
+    "risposta_corretta": "FALSO",
+    "immagine": "ccb30857f4fbd40dd9ab759d241453b3",
+    "pagina_quiz": 24
+  },
+  {
+    "id_blocco": 4339,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21918,
+    "testo": "Il segnale raffigurato obbliga gli autocarri a circolare per file parallele",
+    "risposta_corretta": "FALSO",
+    "immagine": "ccb30857f4fbd40dd9ab759d241453b3",
+    "pagina_quiz": 24
+  },
+  {
+    "id_blocco": 4339,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21919,
+    "testo": "Il segnale raffigurato indica che gli autocarri debbono solo sorpassare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "ccb30857f4fbd40dd9ab759d241453b3",
+    "pagina_quiz": 25
+  },
+  {
+    "id_blocco": 4339,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21920,
+    "testo": "Il segnale raffigurato vieta ai motocicli di circolare sulla corsia di sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "ccb30857f4fbd40dd9ab759d241453b3",
+    "pagina_quiz": 25
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23063,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R pa ssa per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 90
+  },
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23064,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C de ve passare per ultimo",
+    "risposta_corretta": "VERO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 90
+  },
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23065,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A deve passare dopo il veicolo R",
+    "risposta_corretta": "VERO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 90
+  },
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23066,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A passa prima del veicolo C",
+    "risposta_corretta": "VERO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 90
+  },
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23067,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C de ve passare dopo i veicoli R e A",
+    "risposta_corretta": "VERO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 90
+  },
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23068,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A, se è della polizia con i dispositivi di allarme in funzione, passa per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 90
+  },
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23069,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A passa per primo",
+    "risposta_corretta": "FALSO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 90
+  },
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23070,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo A deve passare per ultimo",
+    "risposta_corretta": "FALSO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 90
+  },
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23071,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R de ve passare dopo il veicolo A",
+    "risposta_corretta": "FALSO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 91
+  },
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23072,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R de ve attraversare l'incrocio per secondo",
+    "risposta_corretta": "FALSO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 91
+  },
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23073,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C pa ssa per secondo",
+    "risposta_corretta": "FALSO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 91
+  },
+  {
+    "id_blocco": 4450,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23074,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli C e R passano per primi e contemporaneamente",
+    "risposta_corretta": "FALSO",
+    "immagine": "dff6c2da1167ac92f2211d345cec14f7",
+    "pagina_quiz": 91
+  }
+]

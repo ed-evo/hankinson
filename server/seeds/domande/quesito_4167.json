@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4167,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20244,
+    "testo": "Il segnale raffigurato obbliga i conducenti a passare a destra di un ostacolo",
+    "risposta_corretta": "VERO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 366
+  },
+  {
+    "id_blocco": 4167,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20245,
+    "testo": "Il segnale raffigurato, pos to in presenza di un'isola di traffico, obbliga i conducenti a passare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 367
+  },
+  {
+    "id_blocco": 4167,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20246,
+    "testo": "Il segnale raffigurato, pos to in presenza di un salvagente, obbliga i conducenti a passare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 367
+  },
+  {
+    "id_blocco": 4167,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20247,
+    "testo": "Il segnale raffigurato, pos to in presenza di un cantiere stradale, obbliga i conducenti a passare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 367
+  },
+  {
+    "id_blocco": 4167,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20248,
+    "testo": "Il segnale raffigurato obbliga i conducenti a passare a destra di uno spartitraffic o",
+    "risposta_corretta": "VERO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 367
+  },
+  {
+    "id_blocco": 4167,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20249,
+    "testo": "Il segnale raffigurato presegnala una curva pericolosa a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 367
+  },
+  {
+    "id_blocco": 4167,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20250,
+    "testo": "Il segnale raffigurato indica una strada deformata a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 367
+  },
+  {
+    "id_blocco": 4167,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20251,
+    "testo": "Il segnale raffigurato obbliga i conducenti a svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 367
+  },
+  {
+    "id_blocco": 4167,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20252,
+    "testo": "Il segnale raffigurato preannuncia l'obbligo di svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 367
+  }
+]

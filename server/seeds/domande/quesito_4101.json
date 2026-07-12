@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4101,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19468,
+    "testo": "Il segnale raffigurato preannuncia un incrocio di due o più strade extraurbane regolato con circolazione rotatoria",
+    "risposta_corretta": "VERO",
+    "immagine": "2b12fe96d3f0c9af53ce60483de34e8b",
+    "pagina_quiz": 225
+  },
+  {
+    "id_blocco": 4101,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19469,
+    "testo": "Il segnale raffigurato preannuncia un incrocio di più strade regolato con circolazione nel senso indicato dalle frecce",
+    "risposta_corretta": "VERO",
+    "immagine": "2b12fe96d3f0c9af53ce60483de34e8b",
+    "pagina_quiz": 225
+  },
+  {
+    "id_blocco": 4101,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19470,
+    "testo": "Il segnale raffigurato può essere usato anche nei centri abitati",
+    "risposta_corretta": "VERO",
+    "immagine": "2b12fe96d3f0c9af53ce60483de34e8b",
+    "pagina_quiz": 225
+  },
+  {
+    "id_blocco": 4101,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19471,
+    "testo": "Il segnale raffigurato vieta la svolta a destra al primo incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "2b12fe96d3f0c9af53ce60483de34e8b",
+    "pagina_quiz": 225
+  },
+  {
+    "id_blocco": 4101,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19472,
+    "testo": "Il segnale raffigurato preannuncia una strada senza uscita, per cui bisogna torna re indietro",
+    "risposta_corretta": "FALSO",
+    "immagine": "2b12fe96d3f0c9af53ce60483de34e8b",
+    "pagina_quiz": 225
+  },
+  {
+    "id_blocco": 4101,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19473,
+    "testo": "Il segnale raffigurato preannuncia una svolta a sinistra obbligatoria",
+    "risposta_corretta": "FALSO",
+    "immagine": "2b12fe96d3f0c9af53ce60483de34e8b",
+    "pagina_quiz": 225
+  }
+]

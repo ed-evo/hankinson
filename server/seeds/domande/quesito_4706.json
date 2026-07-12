@@ -1,0 +1,296 @@
+[
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25318,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata dalla presenza d'aria o vapore nel circuito frenante idraulico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25319,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata dal consumo eccessivo delle guarnizioni frenanti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25320,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata dal consumo irregolare dei tamburi o dei dischi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25321,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata dalla differente pressione di gonfiaggio dei pneumatici dello stesso asse",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25322,
+    "testo": "Una frenatura poco efficiente può essere causata dall'eccessivo riscaldamento delle guarnizioni frenanti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25323,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata dal carico eccessivo o mal ripartito",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25324,
+    "testo": "Una frenatura poco efficiente può essere causata da eccessive e ripetute frenate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25325,
+    "testo": "Con freni squilibrati può avvenire che, in frenata, si blocchino soltanto le ruote di un la to",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25326,
+    "testo": "Con freni squilibrati può avvenire che, in frenata, il veicolo sbandi, dirigendosi verso il lato della ruota che si blocca per prima",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25327,
+    "testo": "Con freni squilibrati si manifesta, in genere, un'usura irregolare e non omogenea dei battistrada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25328,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata dal consumo eccessivo dei meccanismi del freno di stazionamento",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25329,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata dall'insuffic iente lubrificazione dei tamburi o dei dischi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25330,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata dall'eccessivo gioco del pedale della frizione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25331,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata dalla presenza del servos terzo su veicoli di piccola cilindrata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25332,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata dalla presenza di freni a dis co sull'asse posteriore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25333,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata da pneumatici invernali montati su tutte e quattro le ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25334,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata da pneumatici invernali utilizzati su strade non innevate",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 589
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25335,
+    "testo": "Una frenatura poco efficiente o squilibrata può essere causata dall'utilizzo di veicoli con alimentazione a metano su strade di montagna",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 589
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25336,
+    "testo": "Con freni squilibrati si manifesta in genere un surriscaldamento del liquido refrigerante del motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 589
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25337,
+    "testo": "Su discese molto ripide è bene viaggiare con il freno a mano inserito parzialmente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 589
+  },
+  {
+    "id_blocco": 4706,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25338,
+    "testo": "Il c ambi o delle pastiglie dei freni è un'operazione di manutenzione ordina ria che può essere svolta da qualunque conducente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 589
+  }
+]

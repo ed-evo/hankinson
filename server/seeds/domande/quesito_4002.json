@@ -1,0 +1,114 @@
+[
+  {
+    "id_blocco": 4002,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18322,
+    "testo": "Nella strada rappresentata, per ogni senso di marcia, la corsia di destra è, di norma , dedicata alla marcia ordinaria",
+    "risposta_corretta": "VERO",
+    "immagine": "a55112f8aa2ffee4f82537f5b38f7b9b",
+    "pagina_quiz": 434
+  },
+  {
+    "id_blocco": 4002,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18323,
+    "testo": "La str ada rappresentata è composta da tre corsie per ogni senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "a55112f8aa2ffee4f82537f5b38f7b9b",
+    "pagina_quiz": 434
+  },
+  {
+    "id_blocco": 4002,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18324,
+    "testo": "Nella strada rappresentata, per ogni senso di marcia, le corsie di centro e di sinistra sono dedicate, di norma, al sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": "a55112f8aa2ffee4f82537f5b38f7b9b",
+    "pagina_quiz": 434
+  },
+  {
+    "id_blocco": 4002,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18325,
+    "testo": "La str ada rappresentata è composta da una carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "a55112f8aa2ffee4f82537f5b38f7b9b",
+    "pagina_quiz": 435
+  },
+  {
+    "id_blocco": 4002,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18326,
+    "testo": "Nella strada rappresentata, per ogni senso di marcia, la corsia di centro è dedicata, di norma, alla marcia ordinaria",
+    "risposta_corretta": "FALSO",
+    "immagine": "a55112f8aa2ffee4f82537f5b38f7b9b",
+    "pagina_quiz": 435
+  },
+  {
+    "id_blocco": 4002,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18327,
+    "testo": "Nella strada rappresentata, per ogni senso di marcia, la corsia di destra è dedicata, di norma, al sorpasso",
+    "risposta_corretta": "FALSO",
+    "immagine": "a55112f8aa2ffee4f82537f5b38f7b9b",
+    "pagina_quiz": 435
+  },
+  {
+    "id_blocco": 4002,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18328,
+    "testo": "La str ada rappresentata è composta da due carreggiate",
+    "risposta_corretta": "FALSO",
+    "immagine": "a55112f8aa2ffee4f82537f5b38f7b9b",
+    "pagina_quiz": 435
+  },
+  {
+    "id_blocco": 4002,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18329,
+    "testo": "Nella strada rappresentata, per ogni senso di marcia, la corsia di sinistra è dedicata, di norma, alla marcia ordinaria",
+    "risposta_corretta": "FALSO",
+    "immagine": "a55112f8aa2ffee4f82537f5b38f7b9b",
+    "pagina_quiz": 435
+  }
+]

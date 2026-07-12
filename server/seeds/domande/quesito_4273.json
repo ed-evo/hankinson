@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4273,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21283,
+    "testo": "Il segnale raffigurato indica un senso unico frontale",
+    "risposta_corretta": "VERO",
+    "immagine": "0130e542b3c053fd7dab618a819d645c",
+    "pagina_quiz": 393
+  },
+  {
+    "id_blocco": 4273,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21284,
+    "testo": "Il segnale raffigurato indica che la circolazione su quel tratto di strada è a senso unico",
+    "risposta_corretta": "VERO",
+    "immagine": "0130e542b3c053fd7dab618a819d645c",
+    "pagina_quiz": 393
+  },
+  {
+    "id_blocco": 4273,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21285,
+    "testo": "Il segnale raffigurato indica che dopo di esso è vietata l'inversione di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "0130e542b3c053fd7dab618a819d645c",
+    "pagina_quiz": 393
+  },
+  {
+    "id_blocco": 4273,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21286,
+    "testo": "Il segnale raffigurato indica l'inizio di una strada a senso unico",
+    "risposta_corretta": "VERO",
+    "immagine": "0130e542b3c053fd7dab618a819d645c",
+    "pagina_quiz": 394
+  },
+  {
+    "id_blocco": 4273,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21287,
+    "testo": "Il segnale raffigurato indica l'obbligo di proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "0130e542b3c053fd7dab618a819d645c",
+    "pagina_quiz": 394
+  },
+  {
+    "id_blocco": 4273,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21288,
+    "testo": "Il segnale raffigurato indica il divieto di svoltare a destra o a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "0130e542b3c053fd7dab618a819d645c",
+    "pagina_quiz": 394
+  },
+  {
+    "id_blocco": 4273,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21289,
+    "testo": "Il segnale raffigurato indica di circolare su una sola corsia",
+    "risposta_corretta": "FALSO",
+    "immagine": "0130e542b3c053fd7dab618a819d645c",
+    "pagina_quiz": 394
+  },
+  {
+    "id_blocco": 4273,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21290,
+    "testo": "Il segnale raffigurato indica un restringimento della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "0130e542b3c053fd7dab618a819d645c",
+    "pagina_quiz": 394
+  },
+  {
+    "id_blocco": 4273,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21291,
+    "testo": "Il segnale raffigurato indica che si viaggia per file parallele",
+    "risposta_corretta": "FALSO",
+    "immagine": "0130e542b3c053fd7dab618a819d645c",
+    "pagina_quiz": 394
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4448,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23042,
+    "testo": "Nella situa zione rappresentata in figura il tram ha la precedenza rispetto agli altri ve icoli",
+    "risposta_corretta": "VERO",
+    "immagine": "5193d63a57a52ce78dba15ecd5bbaf66",
+    "pagina_quiz": 87
+  },
+  {
+    "id_blocco": 4448,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23043,
+    "testo": "Nell'incrocio rappresentato in figura, tutti i veicoli devono usare prudenza nell'attraversarlo",
+    "risposta_corretta": "VERO",
+    "immagine": "5193d63a57a52ce78dba15ecd5bbaf66",
+    "pagina_quiz": 87
+  },
+  {
+    "id_blocco": 4448,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23044,
+    "testo": "Nella situa zione rappresentata in figura il veicolo O deve attendere il tra nsito del tram e che il veicolo A si porti al centro",
+    "risposta_corretta": "VERO",
+    "immagine": "5193d63a57a52ce78dba15ecd5bbaf66",
+    "pagina_quiz": 87
+  },
+  {
+    "id_blocco": 4448,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23045,
+    "testo": "Nella situa zione rappresentata in figura il tram transita per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "5193d63a57a52ce78dba15ecd5bbaf66",
+    "pagina_quiz": 87
+  },
+  {
+    "id_blocco": 4448,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23046,
+    "testo": "Nella situa zione rappresentata in figura il veicolo M deve attendere il tra nsito del veicolo O",
+    "risposta_corretta": "VERO",
+    "immagine": "5193d63a57a52ce78dba15ecd5bbaf66",
+    "pagina_quiz": 88
+  },
+  {
+    "id_blocco": 4448,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23047,
+    "testo": "Nella situa zione rappresentata in figura il veicolo M attraversa l'incrocio insieme a l tram",
+    "risposta_corretta": "FALSO",
+    "immagine": "5193d63a57a52ce78dba15ecd5bbaf66",
+    "pagina_quiz": 88
+  },
+  {
+    "id_blocco": 4448,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23048,
+    "testo": "Nella situa zione rappresentata in figura il veicolo A nello svoltare a sinistra ha la destra libera",
+    "risposta_corretta": "FALSO",
+    "immagine": "5193d63a57a52ce78dba15ecd5bbaf66",
+    "pagina_quiz": 88
+  },
+  {
+    "id_blocco": 4448,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23049,
+    "testo": "Nella situa zione rappresentata in figura il veicolo O deve attendere che passino il tram ed il veicolo M",
+    "risposta_corretta": "FALSO",
+    "immagine": "5193d63a57a52ce78dba15ecd5bbaf66",
+    "pagina_quiz": 88
+  },
+  {
+    "id_blocco": 4448,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23050,
+    "testo": "Nella situa zione rappresentata in figura il veicolo O deve attendere che tra nsitino tutti gli altri veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "5193d63a57a52ce78dba15ecd5bbaf66",
+    "pagina_quiz": 88
+  },
+  {
+    "id_blocco": 4448,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23051,
+    "testo": "Nella situa zione rappresentata in figura il veicolo A deve dare la precedenza al tram, ma non al veicolo M",
+    "risposta_corretta": "FALSO",
+    "immagine": "5193d63a57a52ce78dba15ecd5bbaf66",
+    "pagina_quiz": 88
+  },
+  {
+    "id_blocco": 4448,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23052,
+    "testo": "Nella situa zione rappresentata in figura il veicolo O deve dare la precedenza al tram ed al veicolo M",
+    "risposta_corretta": "FALSO",
+    "immagine": "5193d63a57a52ce78dba15ecd5bbaf66",
+    "pagina_quiz": 88
+  }
+]

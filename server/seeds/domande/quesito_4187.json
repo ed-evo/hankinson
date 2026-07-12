@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4187,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20434,
+    "testo": "Il segnale raffigurato preannuncia la presenza di un posto di blocco stradale istituito da organi di polizia",
+    "risposta_corretta": "VERO",
+    "immagine": "c8e37cfaa71b956ea33833537189d4a6",
+    "pagina_quiz": 333
+  },
+  {
+    "id_blocco": 4187,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20435,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi in prossimità di blocco stradale istituito da organi di polizia",
+    "risposta_corretta": "VERO",
+    "immagine": "c8e37cfaa71b956ea33833537189d4a6",
+    "pagina_quiz": 333
+  },
+  {
+    "id_blocco": 4187,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20436,
+    "testo": "Il segnale raffigurato indica l'obbligo di arresto ad un posto di blocco stradale ist ituito dagli organi di polizia",
+    "risposta_corretta": "VERO",
+    "immagine": "c8e37cfaa71b956ea33833537189d4a6",
+    "pagina_quiz": 333
+  },
+  {
+    "id_blocco": 4187,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20437,
+    "testo": "Il segnale raffigurato s egnala posto di blocco stradale istituito da organi di polizia al quale è obbligatorio fermarsi",
+    "risposta_corretta": "VERO",
+    "immagine": "c8e37cfaa71b956ea33833537189d4a6",
+    "pagina_quiz": 334
+  },
+  {
+    "id_blocco": 4187,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20438,
+    "testo": "Il segnale raffigurato, s ituato a distanza opportuna dal posto di blocco, è ripe tuto a ll'a ltezza del punto di arresto",
+    "risposta_corretta": "VERO",
+    "immagine": "c8e37cfaa71b956ea33833537189d4a6",
+    "pagina_quiz": 334
+  },
+  {
+    "id_blocco": 4187,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20439,
+    "testo": "Il segnale raffigurato obbliga a rallentare per essere pronti a fermarsi in caso di segnalazione da parte degli agenti",
+    "risposta_corretta": "FALSO",
+    "immagine": "c8e37cfaa71b956ea33833537189d4a6",
+    "pagina_quiz": 334
+  },
+  {
+    "id_blocco": 4187,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20440,
+    "testo": "Il segnale raffigurato presegnala un confine di Stato con obbligo di arrestarsi",
+    "risposta_corretta": "FALSO",
+    "immagine": "c8e37cfaa71b956ea33833537189d4a6",
+    "pagina_quiz": 334
+  },
+  {
+    "id_blocco": 4187,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20441,
+    "testo": "Il segnale raffigurato s egnala una stazione autostradale alla quale è obbligatorio fermarsi",
+    "risposta_corretta": "FALSO",
+    "immagine": "c8e37cfaa71b956ea33833537189d4a6",
+    "pagina_quiz": 334
+  },
+  {
+    "id_blocco": 4187,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20442,
+    "testo": "Il segnale raffigurato impone di fermarsi e dare precedenza ai mezzi della polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": "c8e37cfaa71b956ea33833537189d4a6",
+    "pagina_quiz": 334
+  },
+  {
+    "id_blocco": 4187,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20443,
+    "testo": "Il segnale raffigurato s egnala la vicinanza di un controllo doganale",
+    "risposta_corretta": "FALSO",
+    "immagine": "c8e37cfaa71b956ea33833537189d4a6",
+    "pagina_quiz": 334
+  }
+]

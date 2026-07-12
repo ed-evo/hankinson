@@ -1,0 +1,98 @@
+[
+  {
+    "id_blocco": 4265,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21210,
+    "testo": "Chi guida autoveicoli o motocicli deve esibire, a richiesta degli agenti, la carta di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4265,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21211,
+    "testo": "Chi guida autoveicoli o motocicli deve esibire, a richiesta degli agenti, la patente di guida",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4265,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21212,
+    "testo": "Chi guida autoveicoli o motocicli deve esibire, a richiesta degli agenti, il certificato di assicurazione del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4265,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21213,
+    "testo": "Chi guida autoveicoli deve esibire, a richiesta degli agenti, il segnale mobile di pericolo (triangolo)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4265,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21214,
+    "testo": "Chi guida autoveicoli o motocicli deve mostrare, a richiesta degli agenti, la valigetta di pr onto soccorso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4265,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21215,
+    "testo": "Chi guida autoveicoli o motocicli deve esibire, a richiesta degli agenti, il certificato di proprietà",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4265,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21216,
+    "testo": "Chi guida autoveicoli o motocicli deve esibire, a richiesta degli agenti, il codice fiscale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 472
+  },
+  {
+    "id_blocco": 4265,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21217,
+    "testo": "Chi guida autoveicoli o motocicli deve mostrare, a richiesta degli agenti, l'attestazi one di pagamento della tassa di possesso (bollo)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 472
+  }
+]

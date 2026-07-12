@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4470,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23262,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo N deve attendere il transito del veicolo E",
+    "risposta_corretta": "VERO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 114
+  },
+  {
+    "id_blocco": 4470,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23263,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo E deve attendere il transito del veicolo L",
+    "risposta_corretta": "VERO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 114
+  },
+  {
+    "id_blocco": 4470,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23264,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R de ve attendere il transito dei veicoli E ed N",
+    "risposta_corretta": "VERO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 115
+  },
+  {
+    "id_blocco": 4470,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23265,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nell'ordine: L, E, N, R",
+    "risposta_corretta": "VERO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 115
+  },
+  {
+    "id_blocco": 4470,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23266,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R (fi lobus) ha la precedenza sugli altri veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 115
+  },
+  {
+    "id_blocco": 4470,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23267,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo E deve attendere il transito del veicolo R",
+    "risposta_corretta": "FALSO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 115
+  },
+  {
+    "id_blocco": 4470,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23268,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo L deve attendere il transito del veicolo R",
+    "risposta_corretta": "FALSO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 115
+  },
+  {
+    "id_blocco": 4470,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23269,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo E deve attendere il transito dei veicoli N e R",
+    "risposta_corretta": "FALSO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 115
+  },
+  {
+    "id_blocco": 4470,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23270,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo E deve attendere il transito del veicolo N",
+    "risposta_corretta": "FALSO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 115
+  },
+  {
+    "id_blocco": 4470,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23271,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli transitano nell'ordine: R, L, E, N",
+    "risposta_corretta": "FALSO",
+    "immagine": "45932db5cadcb8898ba2ecf0e0be6390",
+    "pagina_quiz": 115
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23544,
+    "testo": "Quando si inizia il sorpasso è consentito segnalare la manovra ai veicoli che precedono lampeggiando con i proiettori abbaglianti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23545,
+    "testo": "Nell'eseguire la manovra di sorpasso occorre regolare la velocità in rel azione a quella del veicolo da sorpassare",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23546,
+    "testo": "Per eseguire la manovra di sorpasso nei centri urbani si possono momentaneamente superare i limiti di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23547,
+    "testo": "Nell'eseguire la manovra di sorpasso bisogna mantenere strettamente la destra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23548,
+    "testo": "Nell'eseguire la manovra di sorpasso non bisogna accelerare",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23549,
+    "testo": "Dopo il sorpasso bisogna rientrare immediatamente a destra, rallentando",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23550,
+    "testo": "È vieta to il sorpasso degli autobus in servizio pubblico di linea",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23551,
+    "testo": "È vieta to il sorpasso quando il veicolo che precede ha azionato l'indicatore di direzi one destro",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23552,
+    "testo": "È vieta to il sorpasso se nevica",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23553,
+    "testo": "È vieta to il sorpasso in corrispondenza dei passi carrabili",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23554,
+    "testo": "È vieta to il sorpasso in prossimità degli ospedali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4501,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23555,
+    "testo": "È vieta to il sorpasso in prossimità delle stazioni di servizio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  }
+]

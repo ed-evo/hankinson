@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18991,
+    "testo": "Su strada a due sole corsie e a doppio senso di circolazione, in presenza del segnal e raffigurato si deve marciare il più possibile vicino al margine destro",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 167
+  },
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18992,
+    "testo": "In presenza del segnale raffigurato è necessario regolare la velocità in rel azione all a visibilità e al raggio delle curve",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 168
+  },
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18993,
+    "testo": "In presenza del segnale raffigurato è necessario percorrere le curve con più attenzione in caso di pioggia",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 168
+  },
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18994,
+    "testo": "In presenza del segnale raffigurato è necessario regolare la velocità in rel azione all e condizioni di carico del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 168
+  },
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18995,
+    "testo": "Nella curve pericolose preannunciate dal segnale raffigurato è vietato il sorpasso se l a carreggiata è a due corsie e a doppio senso di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 168
+  },
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18996,
+    "testo": "Su strada a due corsie e a doppio senso di circolazione, in presenza del segnal e raffigurato è opportuno fare particolare attenzione ai veicoli proveni enti dal senso opposto",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 168
+  },
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18997,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cui è consentita l'inversione di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 168
+  },
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18998,
+    "testo": "In presenza del segnale raffigurato, posto su strada a due corsie e a doppio senso di circolazione, è consentito sorpassare nelle ore diurne",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 168
+  },
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18999,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cui è consentita la manovra di retromarcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 168
+  },
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19000,
+    "testo": "In presenza del segnale raffigurato è necessario tenere una velocità moderata esclusivamente nella prima curva",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 168
+  },
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19001,
+    "testo": "In presenza del segnale raffigurato è consentito effettuare la fermata in curva",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 169
+  },
+  {
+    "id_blocco": 4062,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19002,
+    "testo": "In presenza del segnale raffigurato è consentito sorpassare motocicli e ciclomotori su strada a due corsie e a doppio senso di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 169
+  }
+]

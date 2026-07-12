@@ -1,0 +1,198 @@
+[
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18446,
+    "testo": "L'autostrada non ha incroci a raso che l'attraversano",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18447,
+    "testo": "L'autostrada è dotata di speciali corsie per l'ingresso e l'uscita dei veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18448,
+    "testo": "L'autostrada è a carreggiate indipendenti o separate da spartitraffico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18449,
+    "testo": "I motocic li c on cilindrata di almeno 150 cm3 possono circolare in autostrada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18450,
+    "testo": "Le macchine agricole non possono circolare in autostrada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18451,
+    "testo": "Non tutti i tipi di veicoli possono circolare in autostrada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18452,
+    "testo": "L'uscita dei veicoli dalle autostrade avviene tramite corsie di decelerazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18453,
+    "testo": "L'autostrada deve essere lateralmente recintata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18454,
+    "testo": "Nelle autost rade possono circolare solo le autovetture",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18455,
+    "testo": "Nelle autost rade possono circolare tutti i tipi di motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18456,
+    "testo": "L'autostrada può comprendere piste ciclabili",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18457,
+    "testo": "Nelle autost rade possono circolare i ciclomotori e i motocicli con cilindrata fino a 125 cm3",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18458,
+    "testo": "Nelle autost rade possono circolare solo gli autoveicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  },
+  {
+    "id_blocco": 4013,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18459,
+    "testo": "Nelle autost rade possono circolare tutti i motocicli e i ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 452
+  }
+]

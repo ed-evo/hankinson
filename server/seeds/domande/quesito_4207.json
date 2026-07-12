@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20677,
+    "testo": "Il segnale raffigurato s i può trovare all'inizio di una strada urbana o extraurbana che gode del diritto di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 252
+  },
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20678,
+    "testo": "Il segnale raffigurato può essere ripetuto in formato piccolo prima e dopo ogni incroci o",
+    "risposta_corretta": "VERO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 252
+  },
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20679,
+    "testo": "Il segnale di figura (A) può essere ripetuto in formato piccolo e integrato con il pannello in figura (B)",
+    "risposta_corretta": "VERO",
+    "immagine": "4501bf0abf57c09c1853a18bcf293161",
+    "pagina_quiz": 252
+  },
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20680,
+    "testo": "Il segnale raffigurato comporta la presenza sulle strade che si incrociano del se gnale DA RE PRECE DENZA o STOP",
+    "risposta_corretta": "VERO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 252
+  },
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20681,
+    "testo": "In presenza del segnale raffigurato è comunque necessario moderare la velocità in prossimità degli incroci",
+    "risposta_corretta": "VERO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 252
+  },
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20682,
+    "testo": "Il segnale raffigurato s i trova all'inizio di una strada senza diritto di precedenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 252
+  },
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20683,
+    "testo": "Il segnale raffigurato s i trova all'inizio di un'autostrada",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 253
+  },
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20684,
+    "testo": "Il segnale raffigurato s i trova esclusivamente all'inizio di una strada statale",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 253
+  },
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20685,
+    "testo": "In presenza del segnale raffigurato non occorrono particolari cautele perché si ha la precedenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 253
+  },
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20686,
+    "testo": "Il segnale raffigurato s i trova alla fine di una strada con diritto di precedenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 253
+  },
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20687,
+    "testo": "Il segnale raffigurato s i trova alla fine di una strada statale",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 253
+  },
+  {
+    "id_blocco": 4207,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20688,
+    "testo": "Il segnale raffigurato indica che si ha la precedenza fino all'uscita del centro abitato",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 253
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4687,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25174,
+    "testo": "La forza aderente aumenta se l'asfalto è rugoso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4687,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25175,
+    "testo": "La forza aderente diminuisce se l'asfalto è bagnato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4687,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25176,
+    "testo": "La forza aderente aumenta se l'asfalto è bagnato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4687,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25177,
+    "testo": "La forza aderente aumenta se l'asfalto è coperto di foglie",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4687,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25178,
+    "testo": "La forza aderente aumenta se l'asfalto è coperto di ghiaccio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4687,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25179,
+    "testo": "La forza aderente aumenta se l'asfalto è coperto dal fango",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  }
+]

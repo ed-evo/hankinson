@@ -1,0 +1,98 @@
+[
+  {
+    "id_blocco": 4346,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21981,
+    "testo": "Il de line atore raffigurato si trova in serie di più elementi per evidenziare una curva pericolosa",
+    "risposta_corretta": "VERO",
+    "immagine": "2712e2c5f793df075327b6dc83e26e53",
+    "pagina_quiz": 396
+  },
+  {
+    "id_blocco": 4346,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21982,
+    "testo": "Il de line atore raffigurato è un segnale complementare",
+    "risposta_corretta": "VERO",
+    "immagine": "2712e2c5f793df075327b6dc83e26e53",
+    "pagina_quiz": 396
+  },
+  {
+    "id_blocco": 4346,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21984,
+    "testo": "Il de line atore raffigurato indica una curva pericolosa a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "2712e2c5f793df075327b6dc83e26e53",
+    "pagina_quiz": 396
+  },
+  {
+    "id_blocco": 4346,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21985,
+    "testo": "Il de line atore raffigurato indica una curva pericolosa a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "2712e2c5f793df075327b6dc83e26e53",
+    "pagina_quiz": 396
+  },
+  {
+    "id_blocco": 4346,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21986,
+    "testo": "Il de line atore raffigurato si trova 150 metri prima di una curva",
+    "risposta_corretta": "FALSO",
+    "immagine": "2712e2c5f793df075327b6dc83e26e53",
+    "pagina_quiz": 396
+  },
+  {
+    "id_blocco": 4346,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21987,
+    "testo": "Il de line atore raffigurato è posto all'ingresso di una galleria",
+    "risposta_corretta": "FALSO",
+    "immagine": "2712e2c5f793df075327b6dc83e26e53",
+    "pagina_quiz": 396
+  },
+  {
+    "id_blocco": 4346,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21988,
+    "testo": "Il de line atore raffigurato viene usato nei passaggi a livello, quando le barriere sono guaste",
+    "risposta_corretta": "FALSO",
+    "immagine": "2712e2c5f793df075327b6dc83e26e53",
+    "pagina_quiz": 396
+  },
+  {
+    "id_blocco": 4346,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21989,
+    "testo": "Il de line atore raffigurato si trova solo se la curva è su strada a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "2712e2c5f793df075327b6dc83e26e53",
+    "pagina_quiz": 396
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id_blocco": 4630,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24779,
+    "testo": "Quando bisogna far salire o scendere un passeggero, è opportuno che ciò avvenga dal lato del marciapiede o, in mancanza, dal lato opposto al tra ffico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 568
+  },
+  {
+    "id_blocco": 4630,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24780,
+    "testo": "Quando si deve far salire o scendere un passeggero dal veicolo, bisogna apri re la portiera solamente quando non si causa pericolo agli altri utenti della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 568
+  },
+  {
+    "id_blocco": 4630,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24781,
+    "testo": "Quando si deve far salire o scendere un passeggero dal veicolo, bisogna farlo attendere fino a che il veicolo sia completamente fermo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 568
+  },
+  {
+    "id_blocco": 4630,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24782,
+    "testo": "Quando si deve far salire o scendere un bambino dal veicolo, è opportuno che vi sia i l controllo di un adulto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 568
+  },
+  {
+    "id_blocco": 4630,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24783,
+    "testo": "Quando si deve far scendere un passeggero, bisogna tenere presente che l'apertura della portiera di destra è priva di qualsiasi rischio e pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 568
+  }
+]

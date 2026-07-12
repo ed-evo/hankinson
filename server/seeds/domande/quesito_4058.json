@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18938,
+    "testo": "In presenza del segnale raffigurato, posto su strada a doppio senso di circolazione e con due sole corsie, si deve circolare il più possibile vicino al margine destro",
+    "risposta_corretta": "VERO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 161
+  },
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18939,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cui è necessario regol are la velocità in relazione alla visibilità e al raggio della curva",
+    "risposta_corretta": "VERO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 161
+  },
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18940,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cui è necessario percorrere la curva con più attenzione se la strada è bagnata",
+    "risposta_corretta": "VERO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 161
+  },
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18941,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cui non è consentito il sorpasso se la carreggiata è a doppio senso di circolazione e con due sole corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 161
+  },
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18942,
+    "testo": "In presenza del segnale raffigurato si deve viaggiare ad andatura part icol armente moderata se si circola con il ruotino (ruota di soccorso)",
+    "risposta_corretta": "VERO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 162
+  },
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18943,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada a due corsie e doppio senso di circolazione in cui è consentito sorpassare i motocicli, senza superare la striscia bianca continua",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 162
+  },
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18944,
+    "testo": "In presenza del segnale raffigurato si deve circolare il più possibile vicino alla strisc ia bi anca che separa i sensi di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 162
+  },
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18945,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cui è consentita la fermata, ma non la sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 162
+  },
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18946,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cui è consentito sorpassare i motocicli, anche invadendo la corsia opposta",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 162
+  },
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18947,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cui è consentito effettuare l'inversione di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 162
+  },
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18948,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cui è consentito effettuare manovre di retromarcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 162
+  },
+  {
+    "id_blocco": 4058,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18949,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cui è consentito sorpassare i motocicli, anche superando di poco la striscia bianca continua",
+    "risposta_corretta": "FALSO",
+    "immagine": "34d83af03310c64d51078b75499c7efd",
+    "pagina_quiz": 162
+  }
+]

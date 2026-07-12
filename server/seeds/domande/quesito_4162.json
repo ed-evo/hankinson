@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4162,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20194,
+    "testo": "Il segnale raffigurato indica che non è consentito svoltare a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "6b00ed1114aae01dd9a254e2e5ff9432",
+    "pagina_quiz": 360
+  },
+  {
+    "id_blocco": 4162,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20195,
+    "testo": "Il segnale raffigurato indica che è consentito svoltare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "6b00ed1114aae01dd9a254e2e5ff9432",
+    "pagina_quiz": 360
+  },
+  {
+    "id_blocco": 4162,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20196,
+    "testo": "Il segnale raffigurato indica che è consentito proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "6b00ed1114aae01dd9a254e2e5ff9432",
+    "pagina_quiz": 361
+  },
+  {
+    "id_blocco": 4162,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20197,
+    "testo": "Il segnale raffigurato indica che si può scegliere fra le due direzioni consent ite",
+    "risposta_corretta": "VERO",
+    "immagine": "6b00ed1114aae01dd9a254e2e5ff9432",
+    "pagina_quiz": 361
+  },
+  {
+    "id_blocco": 4162,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20198,
+    "testo": "Il segnale raffigurato indica che è obbligatorio svoltare unicamente a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "6b00ed1114aae01dd9a254e2e5ff9432",
+    "pagina_quiz": 361
+  },
+  {
+    "id_blocco": 4162,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20199,
+    "testo": "Il segnale raffigurato indica che è obbligatorio proseguire solo diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "6b00ed1114aae01dd9a254e2e5ff9432",
+    "pagina_quiz": 361
+  },
+  {
+    "id_blocco": 4162,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20200,
+    "testo": "Il segnale raffigurato indica che è obbligatorio dare la precedenza a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "6b00ed1114aae01dd9a254e2e5ff9432",
+    "pagina_quiz": 361
+  },
+  {
+    "id_blocco": 4162,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20201,
+    "testo": "Il segnale raffigurato indica che in ogni caso bisogna tenersi il più possibile sul margine destro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "6b00ed1114aae01dd9a254e2e5ff9432",
+    "pagina_quiz": 361
+  },
+  {
+    "id_blocco": 4162,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20202,
+    "testo": "Il segnale raffigurato indica che è prossima una biforcazione pericolosa",
+    "risposta_corretta": "FALSO",
+    "immagine": "6b00ed1114aae01dd9a254e2e5ff9432",
+    "pagina_quiz": 361
+  }
+]

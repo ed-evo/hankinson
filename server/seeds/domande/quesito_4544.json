@@ -1,0 +1,92 @@
+[
+  {
+    "id_blocco": 4544,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23904,
+    "testo": "In aut ostrada è vietato dare un passaggio ad un automobilista fermo per avaria del veicolo sulla corsia di emergenza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4544,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23905,
+    "testo": "Qualora il conducente veda un automobilista fermo con veicolo in avaria in autostrada, lo deve accompagnare fino alla stazione di servizio più vicina",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4544,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23906,
+    "testo": "Qualora il conducente veda un automobilista fermo per avaria del veicolo in autostrada, si deve fermare a prestare soccorso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4544,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23907,
+    "testo": "Qualora il conducente veda un automobilista fermo per avaria del veicolo in autostrada, se lo ha superato può retrocedere con prudenza per soccorrerlo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4544,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23908,
+    "testo": "Qualora il conducente veda un automobilista fermo in autostrada per avaria del veicolo può trainare prudentemente il veicolo, fino al primo casello di uscita",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 538
+  }
+]

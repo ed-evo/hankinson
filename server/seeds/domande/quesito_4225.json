@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4225,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20835,
+    "testo": "Il bordo del marciapiede come dipinto in figura vieta la sosta anche ai taxi",
+    "risposta_corretta": "VERO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 442
+  },
+  {
+    "id_blocco": 4225,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20836,
+    "testo": "Il bordo del marciapiede dipinto come in figura indica che nessun veicolo può sostare",
+    "risposta_corretta": "VERO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 443
+  },
+  {
+    "id_blocco": 4225,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20837,
+    "testo": "Il bordo del marciapiede dipinto come in figura indica che non si può sostare l ungo quel tratto",
+    "risposta_corretta": "VERO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 443
+  },
+  {
+    "id_blocco": 4225,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20838,
+    "testo": "Il bordo del marciapiede dipinto come in figura indica che la sosta è consent ita solo a pagamento",
+    "risposta_corretta": "FALSO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 443
+  },
+  {
+    "id_blocco": 4225,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20839,
+    "testo": "Il bordo del marciapiede dipinto come in figura indica che la sosta è consent ita solo per un'ora",
+    "risposta_corretta": "FALSO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 443
+  },
+  {
+    "id_blocco": 4225,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20840,
+    "testo": "Il bordo del marciapiede dipinto come in figura indica la presenza di lavori in corso",
+    "risposta_corretta": "FALSO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 443
+  },
+  {
+    "id_blocco": 4225,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20841,
+    "testo": "Il bordo del marciapiede dipinto come in figura indica una strada con diritto di pre cedenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 443
+  }
+]

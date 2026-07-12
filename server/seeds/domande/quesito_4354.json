@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4354,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22059,
+    "testo": "Il segnale raffigurato vieta il transito ai soli veicoli indicati",
+    "risposta_corretta": "VERO",
+    "immagine": "7c73102d05c7e23b7a50fae6fd1a7e24",
+    "pagina_quiz": 478
+  },
+  {
+    "id_blocco": 4354,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22060,
+    "testo": "Il segnale raffigurato vieta la sosta ai veicoli indicati",
+    "risposta_corretta": "VERO",
+    "immagine": "b9680da84cee76bf297978d3353758da",
+    "pagina_quiz": 478
+  },
+  {
+    "id_blocco": 4354,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22061,
+    "testo": "Il segnale raffigurato vieta la sosta agli autoarticolati",
+    "risposta_corretta": "VERO",
+    "immagine": "9847053029583ecf4a4b213c0a6311b6",
+    "pagina_quiz": 478
+  },
+  {
+    "id_blocco": 4354,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22062,
+    "testo": "Il pa nnell o integrativo raffigurato indica che il segnale al quale è abbinato vale solo per i veicoli rappresentati",
+    "risposta_corretta": "VERO",
+    "immagine": "9176878fa4d26bd38e490c176920999a",
+    "pagina_quiz": 479
+  },
+  {
+    "id_blocco": 4354,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22063,
+    "testo": "Il pa nnell o integrativo raffigurato può essere abbinato ad un segnale di obbligo",
+    "risposta_corretta": "VERO",
+    "immagine": "9176878fa4d26bd38e490c176920999a",
+    "pagina_quiz": 479
+  },
+  {
+    "id_blocco": 4354,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22064,
+    "testo": "Il pa nnell o integrativo raffigurato può essere abbinato ad un segnale di divieto",
+    "risposta_corretta": "VERO",
+    "immagine": "9176878fa4d26bd38e490c176920999a",
+    "pagina_quiz": 479
+  },
+  {
+    "id_blocco": 4354,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22065,
+    "testo": "Il pa nnell o integrativo raffigurato indica un'officina meccanica per autotreni",
+    "risposta_corretta": "FALSO",
+    "immagine": "9176878fa4d26bd38e490c176920999a",
+    "pagina_quiz": 479
+  },
+  {
+    "id_blocco": 4354,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22066,
+    "testo": "Il pa nnell o integrativo raffigurato indica una stazione di rifornimento per soli mezz i pesanti",
+    "risposta_corretta": "FALSO",
+    "immagine": "9176878fa4d26bd38e490c176920999a",
+    "pagina_quiz": 479
+  },
+  {
+    "id_blocco": 4354,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22067,
+    "testo": "Il segnale raffigurato consente la sosta agli autoarticolati",
+    "risposta_corretta": "FALSO",
+    "immagine": "9847053029583ecf4a4b213c0a6311b6",
+    "pagina_quiz": 479
+  },
+  {
+    "id_blocco": 4354,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22068,
+    "testo": "Il segnale raffigurato prescrive che possono transitare gli autoarticolati",
+    "risposta_corretta": "FALSO",
+    "immagine": "7c73102d05c7e23b7a50fae6fd1a7e24",
+    "pagina_quiz": 479
+  },
+  {
+    "id_blocco": 4354,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22069,
+    "testo": "Il pa nnell o integrativo raffigurato, posto sotto il segnale PARCHEGGIO , indica che possono parcheggiare tutti i veicoli pesanti",
+    "risposta_corretta": "FALSO",
+    "immagine": "9176878fa4d26bd38e490c176920999a",
+    "pagina_quiz": 479
+  }
+]

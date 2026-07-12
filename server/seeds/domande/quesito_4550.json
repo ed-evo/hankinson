@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4550,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23946,
+    "testo": "Il pa nnell o arancione retroriflettente in figura segnala veicoli che stanno tra sport ando merci pericolose",
+    "risposta_corretta": "VERO",
+    "immagine": "37cb851778100bc1640d2dbd72c11d57",
+    "pagina_quiz": 540
+  },
+  {
+    "id_blocco": 4550,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23947,
+    "testo": "Il pa nnell o in figura facilita l'individuazione dalla parte posteriore di autocarri con massa a pieno carico superiore a 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "87fd4191b69ff4e1eee00e1990b00418",
+    "pagina_quiz": 540
+  },
+  {
+    "id_blocco": 4550,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23948,
+    "testo": "Il pa nnell o giallo in figura posto nella parte posteriore del rimorchio individua un autotreno o un autoarticolato",
+    "risposta_corretta": "VERO",
+    "immagine": "be0079414cd418f3e275dd374130b3c6",
+    "pagina_quiz": 541
+  },
+  {
+    "id_blocco": 4550,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23949,
+    "testo": "Il pa nnell o arancione retroriflettente riprodott0 in figura è collocato posteriorment e per segnalare carichi sporgenti pericolosi",
+    "risposta_corretta": "FALSO",
+    "immagine": "37cb851778100bc1640d2dbd72c11d57",
+    "pagina_quiz": 541
+  },
+  {
+    "id_blocco": 4550,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23950,
+    "testo": "I pannelli in figura sono posti sulla carreggiata per segnalare un ostacolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "87fd4191b69ff4e1eee00e1990b00418",
+    "pagina_quiz": 541
+  },
+  {
+    "id_blocco": 4550,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23951,
+    "testo": "Il pa nnell o in figura deve essere applicato posteriormente agli autobus di massa totale superiore a 3,5 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": "be0079414cd418f3e275dd374130b3c6",
+    "pagina_quiz": 541
+  }
+]

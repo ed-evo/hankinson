@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4074,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19145,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento pedonale",
+    "risposta_corretta": "VERO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 186
+  },
+  {
+    "id_blocco": 4074,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19146,
+    "testo": "In presenza del segnale raffigurato, il conducente deve dare la precedenza ai pedoni che attravers ano sulle strisce",
+    "risposta_corretta": "VERO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 186
+  },
+  {
+    "id_blocco": 4074,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19147,
+    "testo": "Nelle strade extraurbane il segnale raffigurato è posto, di norma, a 150 metri da ll'a ttraversamento",
+    "risposta_corretta": "VERO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 186
+  },
+  {
+    "id_blocco": 4074,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19148,
+    "testo": "Il segnale raffigurato può essere posto anche nei centri abitati",
+    "risposta_corretta": "VERO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 186
+  },
+  {
+    "id_blocco": 4074,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19149,
+    "testo": "Il segnale raffigurato comporta il divieto di sorpassare un veicolo che si sia arrestato per far attraversare i pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 186
+  },
+  {
+    "id_blocco": 4074,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19150,
+    "testo": "Il segnale raffigurato preannuncia un luogo frequentato da bambini",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 186
+  },
+  {
+    "id_blocco": 4074,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19151,
+    "testo": "Il segnale raffigurato preannuncia un viale pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 187
+  },
+  {
+    "id_blocco": 4074,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19152,
+    "testo": "Il segnale raffigurato impone di usare i dispositivi di segnalazione acustica per far spostare i pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 187
+  },
+  {
+    "id_blocco": 4074,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19153,
+    "testo": "Il segnale raffigurato consente la fermata dei veicoli sull'attraversamento pedonale, purché rimanga spazio sufficiente per i pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 187
+  },
+  {
+    "id_blocco": 4074,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19154,
+    "testo": "Il segnale raffigurato vieta il transito ai pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 187
+  },
+  {
+    "id_blocco": 4074,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19155,
+    "testo": "Il segnale raffigurato preannuncia un'isola pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
+    "pagina_quiz": 187
+  }
+]

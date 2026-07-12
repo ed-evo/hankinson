@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4402,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22608,
+    "testo": "Lo spazio di frenatura aumenta se l'aderenza tra pneumatico e asfalto è bassa",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4402,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22609,
+    "testo": "Lo spazio di frenatura aumenta se la strada è innevata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4402,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22610,
+    "testo": "Lo spazio di frenatura aumenta se la strada è bagnata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4402,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22611,
+    "testo": "Lo spazio di frenatura aumenta se la strada è in discesa",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4402,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22612,
+    "testo": "Lo spazio di frenatura diminuisce se la strada è in salita",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4402,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22613,
+    "testo": "Lo spazio di frenatura diminuisce Se il conducente ha i riflessi pronti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4402,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22614,
+    "testo": "Lo spazio di frenatura diminuisce se le ruote si bloccano",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4402,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22615,
+    "testo": "Lo spazio di frenatura diminuisce sul tratto in discesa di un dosso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4402,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22616,
+    "testo": "Lo spazio di frenatura aumenta se la strada è in salita",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4402,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22617,
+    "testo": "Lo spazio di frenatura diminuisce se la strada è in discesa",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  }
+]

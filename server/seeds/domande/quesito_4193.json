@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20509,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 259
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20510,
+    "testo": "Il segnale raffigurato è un preavviso di dare precedenza sia a destra che a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 259
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20511,
+    "testo": "Il segnale raffigurato preannuncia la successiva presenza di un segnale di DARE PRECEDENZA",
+    "risposta_corretta": "VERO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 259
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20512,
+    "testo": "Il segnale raffigurato indica la distanza dall'incrocio in cui dobbiamo dare precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 259
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20513,
+    "testo": "Il segnale raffigurato preannuncia di rallentare per potersi fermare se ci sono veic oli c ui bisogna dare precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 259
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20514,
+    "testo": "Il segnale raffigurato può preannunciare un incrocio a T, in cui bisogna dare la precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 259
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20515,
+    "testo": "Il segnale raffigurato è posto su una strada che non ha diritto di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 259
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20516,
+    "testo": "Il segnale raffigurato è un preavviso di fermarsi e dare precedenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 260
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20517,
+    "testo": "Il segnale raffigurato preannuncia la distanza dal prossimo segnale di STOP",
+    "risposta_corretta": "FALSO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 260
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20518,
+    "testo": "Il segnale raffigurato indica la distanza dall'incrocio in cui dovremo obbligatoriamente fermarci",
+    "risposta_corretta": "FALSO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 260
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20519,
+    "testo": "In presenza del segnale raffigurato è obbligatorio fermarsi al prossimo incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 260
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20520,
+    "testo": "Il segnale raffigurato preannuncia un incrocio in cui vale la regola di dare la precedenza solo a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 260
+  },
+  {
+    "id_blocco": 4193,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20521,
+    "testo": "Il segnale raffigurato preannuncia la presenza di un semaforo a tre luci a 320 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "1a690d53490cc07a880e1a228dd9681b",
+    "pagina_quiz": 260
+  }
+]

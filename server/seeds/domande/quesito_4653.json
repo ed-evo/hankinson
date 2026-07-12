@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4653,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24935,
+    "testo": "Dopo un incidente stradale, il soccorritore che interviene deve valutare bene la sit uazione, per proteggere gli infortunati da altri pericoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4653,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24936,
+    "testo": "Dopo un incidente stradale, il soccorritore che interviene deve assistere gli infortunati al meglio delle s ue possibilità, senza però prendere iniziative di speci fica competenza medica",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4653,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24937,
+    "testo": "Dopo un incidente stradale, il soccorritore che interviene deve prestare assistenz a agli infortunati, secondo le proprie possibilità e conoscenze",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4653,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24938,
+    "testo": "Chi è coinvolto in un incidente stradale deve allontanarsi sempre e subito dal luogo in cui si è verificato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4653,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24939,
+    "testo": "In caso di incidente stradale, bisogna aspettare solo l'arrivo dei soccorsi, senza fare nulla",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4653,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24940,
+    "testo": "In caso di incidente stradale, la prima cosa che deve fare il soccorritore è identificare l'infortunato, chiedendogli nome e cognome",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 574
+  },
+  {
+    "id_blocco": 4653,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24941,
+    "testo": "In caso di incidente stradale, il soccorritore deve somministrare farmaci alla vittima, se la stessa non ha specifica competenza medica",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 574
+  }
+]

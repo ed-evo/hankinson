@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4185,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20419,
+    "testo": "Il segnale raffigurato è posto in corrispondenza della fine di un percorso per gli animali da soma",
+    "risposta_corretta": "VERO",
+    "immagine": "fffa855fdfdaf3051f1d40f32f5783ad",
+    "pagina_quiz": 391
+  },
+  {
+    "id_blocco": 4185,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20420,
+    "testo": "Il segnale raffigurato è posto in corrispondenza della fine di un percorso per gli animali da sella",
+    "risposta_corretta": "VERO",
+    "immagine": "fffa855fdfdaf3051f1d40f32f5783ad",
+    "pagina_quiz": 391
+  },
+  {
+    "id_blocco": 4185,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20421,
+    "testo": "Il segnale raffigurato è posto in corrispondenza della fine del percorso riservato agli animali da soma e da sella",
+    "risposta_corretta": "VERO",
+    "immagine": "fffa855fdfdaf3051f1d40f32f5783ad",
+    "pagina_quiz": 391
+  },
+  {
+    "id_blocco": 4185,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20422,
+    "testo": "Il segnale raffigurato è posto in vicinanza di un ippodromo",
+    "risposta_corretta": "FALSO",
+    "immagine": "fffa855fdfdaf3051f1d40f32f5783ad",
+    "pagina_quiz": 392
+  },
+  {
+    "id_blocco": 4185,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20423,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli a trazione animale",
+    "risposta_corretta": "FALSO",
+    "immagine": "fffa855fdfdaf3051f1d40f32f5783ad",
+    "pagina_quiz": 392
+  },
+  {
+    "id_blocco": 4185,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20424,
+    "testo": "Il segnale raffigurato è posto in corrispondenza della fine di un tratto di strada vietato ai cavalli",
+    "risposta_corretta": "FALSO",
+    "immagine": "fffa855fdfdaf3051f1d40f32f5783ad",
+    "pagina_quiz": 392
+  },
+  {
+    "id_blocco": 4185,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20425,
+    "testo": "Il segnale raffigurato è posto in corrispondenza della fine di un percorso riservato solo ai cavalli da corsa",
+    "risposta_corretta": "FALSO",
+    "immagine": "fffa855fdfdaf3051f1d40f32f5783ad",
+    "pagina_quiz": 392
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4160,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20173,
+    "testo": "Il segnale raffigurato indica che è consentito svoltare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "abdee1e67c3ce68915d63029b1eb9b71",
+    "pagina_quiz": 358
+  },
+  {
+    "id_blocco": 4160,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20174,
+    "testo": "Il segnale raffigurato indica che è consentito svoltare a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "abdee1e67c3ce68915d63029b1eb9b71",
+    "pagina_quiz": 358
+  },
+  {
+    "id_blocco": 4160,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20175,
+    "testo": "Il segnale raffigurato indica che non è consentito proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "abdee1e67c3ce68915d63029b1eb9b71",
+    "pagina_quiz": 358
+  },
+  {
+    "id_blocco": 4160,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20176,
+    "testo": "Il segnale raffigurato indica che si può scegliere fra le due direzioni consent ite",
+    "risposta_corretta": "VERO",
+    "immagine": "abdee1e67c3ce68915d63029b1eb9b71",
+    "pagina_quiz": 358
+  },
+  {
+    "id_blocco": 4160,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20177,
+    "testo": "Il segnale raffigurato indica che nelle immediate vicinanze c'è una biforcazione pericolosa",
+    "risposta_corretta": "FALSO",
+    "immagine": "abdee1e67c3ce68915d63029b1eb9b71",
+    "pagina_quiz": 358
+  },
+  {
+    "id_blocco": 4160,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20178,
+    "testo": "Il segnale raffigurato indica che bisogna disporsi su due file per proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "abdee1e67c3ce68915d63029b1eb9b71",
+    "pagina_quiz": 358
+  },
+  {
+    "id_blocco": 4160,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20179,
+    "testo": "Il segnale raffigurato indica che è consentito passare sia a destra che a sinistra della striscia continua",
+    "risposta_corretta": "FALSO",
+    "immagine": "abdee1e67c3ce68915d63029b1eb9b71",
+    "pagina_quiz": 358
+  },
+  {
+    "id_blocco": 4160,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20180,
+    "testo": "Il segnale raffigurato indica due sensi unici paralleli",
+    "risposta_corretta": "FALSO",
+    "immagine": "abdee1e67c3ce68915d63029b1eb9b71",
+    "pagina_quiz": 359
+  }
+]

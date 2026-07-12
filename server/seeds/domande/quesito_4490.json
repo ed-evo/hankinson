@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4490,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23403,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo B transita per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "86cd179f86ceecb6c67b9294aa3d59f4",
+    "pagina_quiz": 130
+  },
+  {
+    "id_blocco": 4490,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23404,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine : B, T, S",
+    "risposta_corretta": "VERO",
+    "immagine": "86cd179f86ceecb6c67b9294aa3d59f4",
+    "pagina_quiz": 130
+  },
+  {
+    "id_blocco": 4490,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23405,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo S transita per ultimo",
+    "risposta_corretta": "VERO",
+    "immagine": "86cd179f86ceecb6c67b9294aa3d59f4",
+    "pagina_quiz": 130
+  },
+  {
+    "id_blocco": 4490,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23406,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli transitano nel seguente ordine : S, B, T",
+    "risposta_corretta": "FALSO",
+    "immagine": "86cd179f86ceecb6c67b9294aa3d59f4",
+    "pagina_quiz": 130
+  },
+  {
+    "id_blocco": 4490,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23407,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo B deve dare la precedenza al veicolo T",
+    "risposta_corretta": "FALSO",
+    "immagine": "86cd179f86ceecb6c67b9294aa3d59f4",
+    "pagina_quiz": 130
+  },
+  {
+    "id_blocco": 4490,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23408,
+    "testo": "Nell'incrocio rappresentato in figura nessuno dei veicoli deve moderare la velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": "86cd179f86ceecb6c67b9294aa3d59f4",
+    "pagina_quiz": 130
+  },
+  {
+    "id_blocco": 4490,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23409,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli B e S transitano contemporaneamente",
+    "risposta_corretta": "FALSO",
+    "immagine": "86cd179f86ceecb6c67b9294aa3d59f4",
+    "pagina_quiz": 130
+  }
+]

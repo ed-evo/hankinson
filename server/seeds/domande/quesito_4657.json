@@ -1,0 +1,80 @@
+[
+  {
+    "id_blocco": 4657,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24968,
+    "testo": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale si l ibera dall'obbligo se risarcisce il danneggiato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4657,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24969,
+    "testo": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale può accordarsi con il danneggiato circa il valore del risarcimento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4657,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24970,
+    "testo": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale può far riparare il proprio autoveicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4657,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24971,
+    "testo": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale può farsi assistere da un consulente d'infortunistica stradale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4657,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24972,
+    "testo": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale può, in alternativa, chiedere che la propria patente di guida sia revocata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 575
+  },
+  {
+    "id_blocco": 4657,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24973,
+    "testo": "Chi è civilmente obbligato a risarcire i danni provocati da un sinistro stradale si l ibera da ogni forma di responsabilità penale pagandone l'ammontare del danno",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 575
+  }
+]

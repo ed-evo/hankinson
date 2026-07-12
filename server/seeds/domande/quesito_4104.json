@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19498,
+    "testo": "Il segnale raffigurato preannuncia un impianto semaforico con disposizione delle luci in orizzontale",
+    "risposta_corretta": "VERO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 228
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19499,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 228
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19500,
+    "testo": "Nel segnale raffigurato, il disco giallo può essere sostituito da una luce gialla lampeggiante",
+    "risposta_corretta": "VERO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 228
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19501,
+    "testo": "Il segnale raffigurato indica che bisogna moderare la velocità per potersi all'occorrenza fermare",
+    "risposta_corretta": "VERO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 229
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19502,
+    "testo": "Il segnale raffigurato è, di norma, posto 150 metri prima di un semaforo",
+    "risposta_corretta": "VERO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 229
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19503,
+    "testo": "Il segnale raffigurato indica l'obbligo di arresto ad un posto di blocco stradale ist ituito dagli organi di polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 229
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19504,
+    "testo": "Il segnale raffigurato preannuncia la presenza di un ponte mobile",
+    "risposta_corretta": "FALSO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 229
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19505,
+    "testo": "Il segnale raffigurato preannuncia l'accesso al pontile d'imbarco di navi tra ghett o",
+    "risposta_corretta": "FALSO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 229
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19506,
+    "testo": "Il segnale raffigurato può avere il disco rosso sostituito da una luce rossa lampeggiante",
+    "risposta_corretta": "FALSO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 229
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19507,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento ferroviario senza barriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 229
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19508,
+    "testo": "Il segnale raffigurato preannuncia un passaggio a livello con semibarriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 229
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19509,
+    "testo": "Il segnale raffigurato preannuncia la presenza di corsie reversibili",
+    "risposta_corretta": "FALSO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 229
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19510,
+    "testo": "Il segnale raffigurato preannuncia la presenza di macchine sgombraneve in azione",
+    "risposta_corretta": "FALSO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 230
+  },
+  {
+    "id_blocco": 4104,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19511,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento ciclabile",
+    "risposta_corretta": "FALSO",
+    "immagine": "c4f549e09b93507609720c28ca762b12",
+    "pagina_quiz": 230
+  }
+]

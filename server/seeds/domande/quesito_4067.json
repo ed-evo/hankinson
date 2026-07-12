@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19054,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento ferroviario a livello senza barriere",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 175
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19055,
+    "testo": "Il segnale raffigurato è posto, di norma, a 150 metri dai binari, integrato dal rel ati vo pannello distanziometrico",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 175
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19056,
+    "testo": "Il segnale raffigurato richiede di usare la massima prudenza",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 175
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19057,
+    "testo": "La figura rappresenta un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 175
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19058,
+    "testo": "Dopo il segna le raffigurato è installato il segnale CROCE D I S. ANDREA, che è posizionato prima dei binari",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 175
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19059,
+    "testo": "Il segnale raffigurato è integrato con il pannello distanziometrico a tre barre rosse",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 176
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19060,
+    "testo": "Dopo il segna le raffigurato è installato il segnale DOPPIA CROCE DI S. ANDREA, se la linea ferroviaria ha più di un binario",
+    "risposta_corretta": "VERO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 176
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19061,
+    "testo": "Il segnale raffigurato indica l'incrocio con una linea tranviaria",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 176
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19062,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento ferroviario a livello munito di semibarriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 176
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19063,
+    "testo": "Il segnale raffigurato è posto sul secondo pannello distanziometrico a barre rosse",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 176
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19064,
+    "testo": "Il segnale raffigurato preannuncia un passaggio a livello con barriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 176
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19065,
+    "testo": "Il segnale raffigurato indica la presenza di una stazione ferroviaria a 150 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 176
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19066,
+    "testo": "Il segnale raffigurato può essere integrato con un pannello con la scritta TRAM",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 176
+  },
+  {
+    "id_blocco": 4067,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19067,
+    "testo": "La figura rappresenta un segnale di precedenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
+    "pagina_quiz": 176
+  }
+]

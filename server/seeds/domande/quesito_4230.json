@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4230,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20882,
+    "testo": "In una strada a doppio senso di circolazione con la segnaletica indicata in figura si può effettuare un sorpasso anche superando la striscia di mezzo",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 421
+  },
+  {
+    "id_blocco": 4230,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20883,
+    "testo": "In una strada a doppio senso di circolazione con la segnaletica indicata in figura non si può circolare stando a cavallo della striscia di mezzo",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 421
+  },
+  {
+    "id_blocco": 4230,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20884,
+    "testo": "In una strada a doppio senso di circolazione con la segnaletica indicata in figura per svoltare a sinistra bisogna spostarsi verso il centro della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 422
+  },
+  {
+    "id_blocco": 4230,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20885,
+    "testo": "In una strada a doppio senso di circolazione con la segnaletica indicata in figura si può sorpassare con qualsiasi condizione di visibilità e di traffico",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 422
+  },
+  {
+    "id_blocco": 4230,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20886,
+    "testo": "In una strada a doppio senso di circolazione con la segnaletica indicata in figura si può sorpassare anche in curva, ma solo in città",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 422
+  },
+  {
+    "id_blocco": 4230,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20887,
+    "testo": "In una strada a doppio senso di circolazione con la segnaletica indicata in figura si può fare l'inversione di marcia, ma senza occupare l'altra corsia",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 422
+  },
+  {
+    "id_blocco": 4230,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20888,
+    "testo": "In una strada a doppio senso di circolazione con la segnaletica indicata in figura, fuori dei centri abitati la corsia di sinistra serve per la sosta d'emergenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 422
+  }
+]

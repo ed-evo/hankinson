@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4350,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22016,
+    "testo": "Il pa nnell o integrativo raffigurato, posto sotto un segnale di pericolo, indica la lunghezza del tratto di strada pericoloso",
+    "risposta_corretta": "VERO",
+    "immagine": "581efb5bb17d61ce1f06789924aee4e2",
+    "pagina_quiz": 473
+  },
+  {
+    "id_blocco": 4350,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22017,
+    "testo": "Il pa nnell o integrativo raffigurato, posto sotto un segnale di obbligo, indica la lunghezza del tratto stradale nel quale vale la prescrizione del segnale",
+    "risposta_corretta": "VERO",
+    "immagine": "581efb5bb17d61ce1f06789924aee4e2",
+    "pagina_quiz": 473
+  },
+  {
+    "id_blocco": 4350,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22018,
+    "testo": "Il pa nnell o integrativo raffigurato può essere posto sotto un segnale di divieto",
+    "risposta_corretta": "VERO",
+    "immagine": "581efb5bb17d61ce1f06789924aee4e2",
+    "pagina_quiz": 473
+  },
+  {
+    "id_blocco": 4350,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22019,
+    "testo": "Il pa nnell o integrativo raffigurato in figura B, posto sotto ad un segnale di peri colo, i ndica, in chilometri, la lunghezza del tratto di strada pericoloso",
+    "risposta_corretta": "VERO",
+    "immagine": "581efb5bb17d61ce1f06789924aee4e2",
+    "pagina_quiz": 473
+  },
+  {
+    "id_blocco": 4350,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22020,
+    "testo": "Il segnale raffigurato indica la lunghezza di un tratto stradale con curve peri colose in successione",
+    "risposta_corretta": "VERO",
+    "immagine": "2cf2b55d5e7067094399adb2e3e64b0c",
+    "pagina_quiz": 473
+  },
+  {
+    "id_blocco": 4350,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22021,
+    "testo": "Il pa nnell o integrativo rappresentato in figura A obbliga a proseguire diritto per 380 m etri",
+    "risposta_corretta": "FALSO",
+    "immagine": "581efb5bb17d61ce1f06789924aee4e2",
+    "pagina_quiz": 474
+  },
+  {
+    "id_blocco": 4350,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22022,
+    "testo": "Il pa nnell o integrativo rappresentato in figura A indica la distanza di sicurezza da mantenere in caso di pioggia",
+    "risposta_corretta": "FALSO",
+    "immagine": "581efb5bb17d61ce1f06789924aee4e2",
+    "pagina_quiz": 474
+  },
+  {
+    "id_blocco": 4350,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22023,
+    "testo": "Il pa nnell o integrativo raffigurato indica la distanza tra il segnale e il punto d'inizio del pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "581efb5bb17d61ce1f06789924aee4e2",
+    "pagina_quiz": 474
+  },
+  {
+    "id_blocco": 4350,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22024,
+    "testo": "Il segnale raffigurato indica la distanza tra il segnale e l'inizio della strada in cattivo stato",
+    "risposta_corretta": "FALSO",
+    "immagine": "46aa2805f9f3e38a0b40da1c5aa8ea8d",
+    "pagina_quiz": 474
+  },
+  {
+    "id_blocco": 4350,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22025,
+    "testo": "Il pa nnell o integrativo raffigurato in figura A indica l'altezza di un viadotto",
+    "risposta_corretta": "FALSO",
+    "immagine": "581efb5bb17d61ce1f06789924aee4e2",
+    "pagina_quiz": 474
+  }
+]

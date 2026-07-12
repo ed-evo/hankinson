@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4525,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23767,
+    "testo": "La sosta è vietata nelle corsie o carreggiate riservate ai mezzi pubblici",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 532
+  },
+  {
+    "id_blocco": 4525,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23768,
+    "testo": "La sosta è vietata nelle aree pedonali urbane",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 532
+  },
+  {
+    "id_blocco": 4525,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23769,
+    "testo": "La sosta è vietata nelle zone a traffico limitato per i veicoli non autorizzati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 532
+  },
+  {
+    "id_blocco": 4525,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23770,
+    "testo": "La sosta è vietata negli spazi destinati a servizi di emergenza o di igiene pubblica indicati dalla apposita segnaletica",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 532
+  },
+  {
+    "id_blocco": 4525,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23771,
+    "testo": "La sosta è vietata davanti ai cassonetti dei rifiuti urbani",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 532
+  },
+  {
+    "id_blocco": 4525,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23772,
+    "testo": "Brevi soste sono consentite nelle aree pedonali urbane",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 532
+  },
+  {
+    "id_blocco": 4525,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23773,
+    "testo": "La sosta , ed anche la fermata, sono vietate negli spazi destinati a servizi di emergenza o di igiene pubblica indicati dalla apposita segnaletica",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 532
+  },
+  {
+    "id_blocco": 4525,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23774,
+    "testo": "La sosta così come la fermata sono vietate davanti ai cassonetti dei rifiuti urbani",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 532
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19860,
+    "testo": "Il segnale raffigurato indica la fine di una prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 302
+  },
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19861,
+    "testo": "Il segnale raffigurato indica la fine del limite massimo di velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 302
+  },
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19862,
+    "testo": "Il segnale raffigurato consente di circolare a velocità superiore a 50 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 303
+  },
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19863,
+    "testo": "Il segnale raffigurato consente di circolare entro i limiti di velocità vigenti per quel ti po di strada",
+    "risposta_corretta": "VERO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 303
+  },
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19864,
+    "testo": "Il segnale raffigurato consente di marciare anche a velocità inferiore a 50 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 303
+  },
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19865,
+    "testo": "Il segnale raffigurato indica la fine del relativo divieto",
+    "risposta_corretta": "VERO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 303
+  },
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19866,
+    "testo": "Il segnale raffigurato indica il limite di velocità per tutti i veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 303
+  },
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19867,
+    "testo": "Il segnale raffigurato vieta di superare la velocità di 50 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 303
+  },
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19868,
+    "testo": "Il segnale raffigurato indica la fine del limite minimo di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 303
+  },
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19869,
+    "testo": "Il segnale raffigurato indica la fine dell'obbligo di mantenere una distanza di sicurezza di almeno 50 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 303
+  },
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19870,
+    "testo": "Il segnale raffigurato prescrive ai veicoli che non superano la velocità di 50 km/h di marciare sulla corsia di destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 303
+  },
+  {
+    "id_blocco": 4135,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19871,
+    "testo": "Il segnale raffigurato indica la velocità consigliata",
+    "risposta_corretta": "FALSO",
+    "immagine": "b0f757139def7519417e65cf9072bf86",
+    "pagina_quiz": 304
+  }
+]

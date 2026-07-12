@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4703,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25290,
+    "testo": "Adesivi, c iondoli o altri oggetti applicati sui vetri del veicolo possono ridurre la visibilità del conducente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 587
+  },
+  {
+    "id_blocco": 4703,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25291,
+    "testo": "La trasparenza e la pulizia dei vetri dei finestrini del veicolo garantiscono una migliore visibilità esterna",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 587
+  },
+  {
+    "id_blocco": 4703,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25292,
+    "testo": "Occorre verificare le spazzole del tergicristallo per sostituirle se sono consuma te",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 587
+  },
+  {
+    "id_blocco": 4703,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25293,
+    "testo": "Occorre verificare che nel serbatoio del dispositivo lavacristallo sia sempre presente liquido per detergere i vetri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 587
+  },
+  {
+    "id_blocco": 4703,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25294,
+    "testo": "In caso di lesioni o rottura del vetro anteriore del veicolo, bisogna ripararlo con del nastro adesivo trasparente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 587
+  },
+  {
+    "id_blocco": 4703,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25295,
+    "testo": "Se il parabrezza è coperto dalla polvere, bisogna utilizzare il dispositivo di disappa nnamento",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 587
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21366,
+    "testo": "Il segnale raffigurato preavvisa due incroci vicini",
+    "risposta_corretta": "VERO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 33
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21367,
+    "testo": "Il segnale raffigurato indica che non è possibile svoltare a sinistra al primo incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 33
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21368,
+    "testo": "Il segnale raffigurato preavvisa di svoltare a sinistra per l'ospedale al secondo i ncrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 34
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21369,
+    "testo": "Il segnale raffigurato preavvisa di svoltare a destra per via Gemona al primo incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 34
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21370,
+    "testo": "Il segnale raffigurato preavvisa di svoltare a destra per il centro della città al se condo incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 34
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21371,
+    "testo": "Il segnale raffigurato preavvisa di svoltare a destra in direzione Trieste al secondo i ncrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 34
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21372,
+    "testo": "Il segnale raffigurato indica che bisogna svoltare a sinistra al secondo incrocio per raggiungere l'Austria",
+    "risposta_corretta": "VERO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 34
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21373,
+    "testo": "Il segnale raffigurato indica due incroci vicini su strada urbana",
+    "risposta_corretta": "VERO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 34
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21374,
+    "testo": "Il segnale raffigurato s i trova su strade extraurbane",
+    "risposta_corretta": "FALSO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 34
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21375,
+    "testo": "Il segnale raffigurato indica come lasciare in sosta i veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 34
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21376,
+    "testo": "Il segnale raffigurato indica ai veicoli diretti in Austria di tornare indietro",
+    "risposta_corretta": "FALSO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 34
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21377,
+    "testo": "Il segnale raffigurato consente di svoltare a sinistra al primo incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 35
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21378,
+    "testo": "Il segnale raffigurato indica come uscire da un centro commerciale",
+    "risposta_corretta": "FALSO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 35
+  },
+  {
+    "id_blocco": 4281,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21379,
+    "testo": "Il segnale raffigurato preannuncia le direzioni per l'ingresso in autostrada",
+    "risposta_corretta": "FALSO",
+    "immagine": "7d0ed64e87149994b3984d8f04688e2c",
+    "pagina_quiz": 35
+  }
+]

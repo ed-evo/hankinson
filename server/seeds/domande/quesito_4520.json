@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4520,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23727,
+    "testo": "La sosta è vietata in corrispondenza o in prossimità dei passaggi a livello",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4520,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23728,
+    "testo": "La sosta è vietata sui binari di linee ferroviarie o tranviarie o così vicino ad essi da intral ciare la marcia dei veicoli su rotaia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4520,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23729,
+    "testo": "La sosta è vietata nelle gallerie, salvo diversa segnalazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4520,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23730,
+    "testo": "La sosta è vietata nei sottovia, sotto i sovrapassaggi, sotto i fornici e i portici, salvo diversa segnalazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4520,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23731,
+    "testo": "La sosta è vietata sui dossi.",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4520,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23732,
+    "testo": "Fuori dai cent ri abitati e sulle strade urbane di scorrimento, la sosta è vietata in prossimità dei dossi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4520,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23733,
+    "testo": "La sosta è vietata in corrispondenza dei passaggi a livello ma non in loro prossimità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4520,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23734,
+    "testo": "La sosta è vietata sui binari delle linee ferroviarie ma non di quelle tra nviarie",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4520,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23735,
+    "testo": "La sosta è consentita nelle gallerie illuminate",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4520,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23736,
+    "testo": "La sosta , ma non la fermata, è vietata nei sottovia, sotto i sovrapassaggi, sotto i fornici e i portici",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4520,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23737,
+    "testo": "Fuori dei cent ri abitati e sulle strade urbane di scorrimento, è consentita la sosta in prossimità dei dossi.",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  }
+]

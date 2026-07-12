@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4584,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24237,
+    "testo": "L'uso degli indicatori di direzione è necessario per segnalare che si vuole effettuare un cambio di corsia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4584,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24238,
+    "testo": "L'uso degli indicatori di direzione è necessario per segnalare l'intenzione di effettuare una manovra di sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4584,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24239,
+    "testo": "L'uso degli indicatori di direzione è necessario per segnalare l'intenzione di parcheggiare sul margine sinistro di una strada a senso unico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4584,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24240,
+    "testo": "L'uso degli indicatori di direzione è necessario ogni qualvolta si deve fare una manovra di svolta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4584,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24241,
+    "testo": "L'uso degli indicatori di direzione è necessario quando si effettuano manovre di retromarcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4584,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24242,
+    "testo": "L'uso degli indicatori di direzione è necessario nella marcia per file parallele, anche se non si effettuano cambiamenti di corsia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4584,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24243,
+    "testo": "L'uso degli indicatori di direzione è necessario per almeno 500 metri dopo aver effettuato un sorpasso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4584,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24244,
+    "testo": "L'uso degli indicatori di direzione è necessario quando si inizia una manovra di sorpasso, ma non quando la si termina rientrando nella corsia di marcia normale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4584,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24245,
+    "testo": "L'uso degli indicatori di direzione non è necessario se si deve parcheggiare il veicolo spostandosi verso il margine destro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4584,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24246,
+    "testo": "L'uso degli indicatori di direzione è necessario quando ci si arresta ad un sema foro rosso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  },
+  {
+    "id_blocco": 4584,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24247,
+    "testo": "L'uso degli indicatori di direzione destri è necessario quando ci si arresta per cause di interruzione della circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 551
+  }
+]

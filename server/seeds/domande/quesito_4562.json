@@ -1,0 +1,416 @@
+[
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24029,
+    "testo": "Trainare un rimorchio su strade con forti salite fa aumentare la temperatura del liquido di raffreddamento del motore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24030,
+    "testo": "Se si traina un rimorchio aumenta lo spazio di frenatura",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24031,
+    "testo": "Trainando un rimorchio leggero, bisogna considerare che è maggiore la forza ribalt ante esercitata dal vento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24032,
+    "testo": "Per una m aggiore sicurezza, è consigliabile che nel rimorchio il carico venga si stemato in modo che gli oggetti pesanti si trovino il più vicino possibile al suo asse",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24033,
+    "testo": "Alla guida di un veicolo con rimorchio, nello svoltare a destra, bisogna fare part icol are attenzione a non salire con la ruota posteriore sul marciapiede",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24034,
+    "testo": "Quando un veicolo guasto, munito di servosterzo, viene trainato, può risultare faticoso manovrare lo sterzo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24035,
+    "testo": "Prima di trainare un rimorchio, è opportuno accertarsi che gli impianti di illuminazione e di segnalazione funzionino regolarmente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24036,
+    "testo": "Prima di iniziare a trainare un rimorchio, bisogna controllare dagli specchi ret rovisori che la visibilità sia adeguata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24037,
+    "testo": "Quando i ri morchi sono staccati dalla motrice, devono avere una copertura assicurativa c he vale anche per il rischio statico (da fermo)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24038,
+    "testo": "I rimorchi t rainati da autovetture sono muniti, in genere, di freno ad inerzia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24039,
+    "testo": "I rimorchi devono avere targa propria",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24040,
+    "testo": "Per garantire una maggiore sicurezza durante la guida di un veicolo con rimorchio, è consigliabile concentrare il carico massimo in corrispondenza del gancio di traino",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24041,
+    "testo": "Per pote r trainare un rimorchio non occorre effettuare il collegamento elettrico fra motrice e rimorchio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24042,
+    "testo": "Per guida re un'autovettura che traina un veicolo guasto, con conducente a bordo, occorre la patente di guida della categoria E",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24043,
+    "testo": "Il c onducente a bordo di un veicolo guasto, che viene trainato, può essere privo di patente di guida",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24044,
+    "testo": "Se un veicolo guasto viene trainato con le quattro ruote al suolo, occorre inserire la quarta marcia del cambio di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24045,
+    "testo": "Gli orga ni di traino di un veicolo non devono essere periodicamente lubrificati",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24046,
+    "testo": "Gli orga ni di traino di un veicolo possono non essere omologati, purché vengano trainati rimorchi di massa inferiore a 750 chilogrammi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24047,
+    "testo": "Se si traina un veicolo guasto, munito di servosterzo, lo sterzo risulterà sempre bloccato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24048,
+    "testo": "Trainando un rimorchio nelle forti discese, non occorre tener conto della forza di spinta esercitata dal rimorchio sulla motrice",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24049,
+    "testo": "Per trainare un rimorchio leggero non occorre effettuare il collegamento elettrico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24050,
+    "testo": "Quando si traina un veicolo guasto, occorre che la distanza fra i due veicoli sia di almeno 3 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4562,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24051,
+    "testo": "Quando si traina un rimorchio, bisogna considerare che nelle curve strette la fascia di ingombro è minore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 545
+  }
+]

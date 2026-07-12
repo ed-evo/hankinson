@@ -1,0 +1,67 @@
+[
+  {
+    "id_blocco": 4641,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24849,
+    "testo": "L'alcool può causare uno stato di euforia, con conseguente sottovalutazione del pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4641,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24850,
+    "testo": "Chi guida in stato di ebbrezza alcolica rischia l'arresto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4641,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24851,
+    "testo": "E' sconsigliabile guidare quando si ha uno stato emotivo alterato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4641,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24852,
+    "testo": "Chi guida un veicolo senza motore, con una concentrazione di alcool nel sangue superiore al limite stabilito, non è soggetto ad alcuna sanzione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4641,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24853,
+    "testo": "Chi guida in stato di ebbrezza alcoolica ha tempi di reazione più rapidi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 571
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4684,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25152,
+    "testo": "E' vietato scaricare nella fognatura il liquido antigelo del circuito di raffreddamento del veicolo, poiché potrebbe non essere biodegradabile",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4684,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25153,
+    "testo": "L'abb andono di una batteria per auto, sulla strada o sul terreno, può arrecare gravi danni all'ambiente e alle falde acquifere sottostanti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4684,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25154,
+    "testo": "Se si ac quista una batteria per auto si può consegnare quella esausta (usata) al rivendi tore, che provvederà a ritirarla, senza ulteriori costi aggiuntivi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4684,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25155,
+    "testo": "Il propri etario di un veicolo che intende demolirlo o rottamarlo, deve consegnarlo ad un centro di raccolta per la messa in sicurezza (aut odemol itore autorizzato)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4684,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25156,
+    "testo": "Al momento dello smaltimento dell'olio del motore, bisogna evitare che venga a contatto con la pelle per un tempo prolungato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4684,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25157,
+    "testo": "Lo scarico dei residui organici e delle acque sporche delle autocaravan deve avvenire negli appositi impianti di smaltimento igienico-sanitari",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4684,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25158,
+    "testo": "L'abb andono sul terreno di rifiuti pericolosi o tossici (olii, liquidi, residui di ripa razioni o di sostituzioni) non viene sanzionato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4684,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25159,
+    "testo": "Per dem olire o rottamare un veicolo, lo si deve consegnare esclusivamente al concessionario della casa costruttrice",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 582
+  }
+]

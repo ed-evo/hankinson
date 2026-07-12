@@ -1,0 +1,119 @@
+[
+  {
+    "id_blocco": 4626,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24729,
+    "testo": "Su strade coperte di neve occorre montare pneumatici per neve su tutte le ruote oppure catene s ulle ruote motrici",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4626,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24730,
+    "testo": "Su strade coperte di neve occorre moderare la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4626,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24731,
+    "testo": "Su strade coperte di neve occorre aumentare la distanza di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4626,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24732,
+    "testo": "Su strade coperte di neve occorre evitare brusche manovre",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4626,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24733,
+    "testo": "Su strade coperte di neve occorre evitare brusche accelerazioni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4626,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24734,
+    "testo": "Su strade coperte di neve occorre frenare con maggiore energia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4626,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24735,
+    "testo": "Su strade coperte di neve occorre alla partenza, accelerare al massimo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4626,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24736,
+    "testo": "Su strade coperte di neve occorre sterzare bruscamente per evitare di urtare veicoli f ermi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4626,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24737,
+    "testo": "Su strade coperte di neve occorre frenare a fondo in caso di sbandamento del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 567
+  }
+]

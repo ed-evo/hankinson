@@ -1,0 +1,184 @@
+[
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24813,
+    "testo": "Le rotaie del tram sono un elemento stradale che può essere pericoloso per la circolazi one dei veicoli a due ruote",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 569
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24814,
+    "testo": "Le str isce pedonali dipinte sulla carreggiata sono un elemento stradale che può essere pericoloso per la circolazione dei veicoli a due ruote",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 569
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24815,
+    "testo": "I tombini presenti sulla carreggiata sono un elemento stradale che può essere pericoloso per la circolazione dei veicoli a due ruote",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 569
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24816,
+    "testo": "Le rotaie del tram sono particolarmente pericolose per la circolazione dei veicoli a due ruote quando il fondo stradale è bagnato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 569
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24817,
+    "testo": "Le str isce pedonali dipinte sulla carreggiata sono particolarmente peri colose per la circolazione dei veicoli a due ruote quando il fondo stradale è bagnato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24818,
+    "testo": "I tombini presenti sulla carreggiata sono particolarmente pericolosi per la circolazione dei veicoli a due ruote quando il fondo stradale è bagnato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24819,
+    "testo": "Circolando su un veicolo a due ruote con fondo stradale bagnato, la frenata è particolarmente pericolosa se le ruote del veicolo sono su rotaie del tram, strisce pedonali o tombini",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24820,
+    "testo": "Il pa ssaggi o in velocità su tombini o rotaie del tram a bordo di un veicolo a due ruot e può far perdere tenuta di strada e dirigibilità al veicolo, causando sbandam enti o cadute",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24821,
+    "testo": "Le rotaie del tram o i tombini presenti sulla carreggiata stradale non costituiscono un pericolo per un conducente di veicolo a due ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24822,
+    "testo": "Quando, in un giorno di pioggia, si deve transitare su rotaie del tram o su tombini presenti sulla carreggiata stradale a bordo di un veicolo a due ruote , occorre accelerare decisamente prima di transitarvi sopra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24823,
+    "testo": "Quando, in un giorno di pioggia, si deve transitare su rotaie del tram o su tombini presenti sulla carreggiata stradale a bordo di un veicolo a due ruote , è bene alzarsi in piedi sulle pedivelle prima di transitarvi sopra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24824,
+    "testo": "Quando, in un giorno di pioggia, si deve transitare su rotaie del tram o su tombini presenti sulla carreggiata stradale a bordo di un veicolo a due ruote , è bene farlo in impennata in modo da non farvi transitare sopra la ruota anteriore che è quella direttrice",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24825,
+    "testo": "Le rotaie del tram o i tombini presenti sulla carreggiata stradale costituiscono un pericolo per un conducente di veicolo a due ruote, nella sola e ventualità che il suo veicolo s ia dotato di cambio automatico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4635,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24826,
+    "testo": "Se si deve circolare con veicolo a due ruote su una carreggiata a circolazione promis cua veicoli/tram, è bene se possibile circolare con entrambe le ruote nel solco della rotaia del tram",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  }
+]

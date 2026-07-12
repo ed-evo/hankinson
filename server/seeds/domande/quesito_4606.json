@@ -1,0 +1,66 @@
+[
+  {
+    "id_blocco": 4606,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24464,
+    "testo": "Un autoveicolo per poter circolare deve essere munito delle targhe identificat ive, affinché sia possibile risalire all'intestatario del mezzo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 557
+  },
+  {
+    "id_blocco": 4606,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24465,
+    "testo": "Un autoveicolo per poter circolare deve essere munito della carta di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 557
+  },
+  {
+    "id_blocco": 4606,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24467,
+    "testo": "Un autoveicolo per poter circolare deve essere munito del segnale mobile di pericol o (triangolo)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 557
+  },
+  {
+    "id_blocco": 4606,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24468,
+    "testo": "Un'autovettura per poter circolare deve avere la polizza assicurativa del tipo \"kasko\"",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 557
+  }
+]

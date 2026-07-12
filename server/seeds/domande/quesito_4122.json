@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4122,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19727,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli adibiti al trasporto di cose con massa a pieno carico superiore a 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "772cef27599e5536c2638e76e38a056d",
+    "pagina_quiz": 287
+  },
+  {
+    "id_blocco": 4122,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19728,
+    "testo": "In presenza del segnale raffigurato è consentito il transito di autobus di massa complessiva superiore a 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "772cef27599e5536c2638e76e38a056d",
+    "pagina_quiz": 287
+  },
+  {
+    "id_blocco": 4122,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19729,
+    "testo": "In presenza del segnale raffigurato è consentito il transito di un'autocaravan di massa a pieno carico superiore a 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "772cef27599e5536c2638e76e38a056d",
+    "pagina_quiz": 287
+  },
+  {
+    "id_blocco": 4122,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19730,
+    "testo": "Il segnale raffigurato può essere munito di pannello integrativo con un diverso valore della massa ammessa al transito",
+    "risposta_corretta": "VERO",
+    "immagine": "772cef27599e5536c2638e76e38a056d",
+    "pagina_quiz": 287
+  },
+  {
+    "id_blocco": 4122,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19731,
+    "testo": "Il segnale raffigurato vieta il transito di un autocarro di massa a pieno carico pari a 3 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": "772cef27599e5536c2638e76e38a056d",
+    "pagina_quiz": 287
+  },
+  {
+    "id_blocco": 4122,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19732,
+    "testo": "Il segnale raffigurato vieta il transito a tutti gli autocarri carrozzati con furgone chiuso",
+    "risposta_corretta": "FALSO",
+    "immagine": "772cef27599e5536c2638e76e38a056d",
+    "pagina_quiz": 288
+  },
+  {
+    "id_blocco": 4122,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19733,
+    "testo": "In presenza del segnale raffigurato è consentito il transito a tutti gli autocarri carrozzati con cassone aperto",
+    "risposta_corretta": "FALSO",
+    "immagine": "772cef27599e5536c2638e76e38a056d",
+    "pagina_quiz": 288
+  },
+  {
+    "id_blocco": 4122,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19734,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli di massa superiore a 3,5 tonnellate destinati al trasporto di persone",
+    "risposta_corretta": "FALSO",
+    "immagine": "772cef27599e5536c2638e76e38a056d",
+    "pagina_quiz": 288
+  },
+  {
+    "id_blocco": 4122,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19735,
+    "testo": "In presenza del segnale raffigurato è consentito il transito agli autotreni di massa superiore a 3,5 tonnellate non adibiti al trasporto di persone",
+    "risposta_corretta": "FALSO",
+    "immagine": "772cef27599e5536c2638e76e38a056d",
+    "pagina_quiz": 288
+  }
+]

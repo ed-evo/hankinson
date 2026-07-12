@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4128,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19785,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano sostanze suscettibili di contaminare l'acqua",
+    "risposta_corretta": "VERO",
+    "immagine": "3cd3237239447d165e9ae7dc3bb8b97a",
+    "pagina_quiz": 293
+  },
+  {
+    "id_blocco": 4128,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19786,
+    "testo": "In presenza del segnale raffigurato è consentito il transito di autoveicoli che tra sport ano prodotti che non contaminano l'acqua",
+    "risposta_corretta": "VERO",
+    "immagine": "3cd3237239447d165e9ae7dc3bb8b97a",
+    "pagina_quiz": 293
+  },
+  {
+    "id_blocco": 4128,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19787,
+    "testo": "In presenza del segnale raffigurato è consentito il transito alle autocisterne che trasportano acqua",
+    "risposta_corretta": "VERO",
+    "immagine": "3cd3237239447d165e9ae7dc3bb8b97a",
+    "pagina_quiz": 293
+  },
+  {
+    "id_blocco": 4128,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19788,
+    "testo": "In presenza del segnale raffigurato è consentito il transito alle innaffiatrici stradali",
+    "risposta_corretta": "VERO",
+    "immagine": "3cd3237239447d165e9ae7dc3bb8b97a",
+    "pagina_quiz": 294
+  },
+  {
+    "id_blocco": 4128,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19789,
+    "testo": "In presenza del segnale raffigurato è consentito il transito di rimorchi che tra sport ano sostanze che possono contaminare l'acqua",
+    "risposta_corretta": "FALSO",
+    "immagine": "3cd3237239447d165e9ae7dc3bb8b97a",
+    "pagina_quiz": 294
+  },
+  {
+    "id_blocco": 4128,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19790,
+    "testo": "Il segnale raffigurato preannuncia una zona soggetta ad allagamento",
+    "risposta_corretta": "FALSO",
+    "immagine": "3cd3237239447d165e9ae7dc3bb8b97a",
+    "pagina_quiz": 294
+  },
+  {
+    "id_blocco": 4128,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19791,
+    "testo": "Il segnale raffigurato preannuncia la probabile presenza di acqua sulla carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "3cd3237239447d165e9ae7dc3bb8b97a",
+    "pagina_quiz": 294
+  },
+  {
+    "id_blocco": 4128,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19792,
+    "testo": "Il segnale raffigurato vieta la sosta delle autocisterne",
+    "risposta_corretta": "FALSO",
+    "immagine": "3cd3237239447d165e9ae7dc3bb8b97a",
+    "pagina_quiz": 294
+  },
+  {
+    "id_blocco": 4128,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19793,
+    "testo": "Il segnale raffigurato vieta il transito alle cisterne vuote",
+    "risposta_corretta": "FALSO",
+    "immagine": "3cd3237239447d165e9ae7dc3bb8b97a",
+    "pagina_quiz": 294
+  }
+]

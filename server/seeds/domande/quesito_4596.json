@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4596,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24330,
+    "testo": "Le donne in stato di gravidanza con particolari condizioni di rischio certificate non sono obbligate ad agganciare la cintura di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 553
+  },
+  {
+    "id_blocco": 4596,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24331,
+    "testo": "Le persone che soffrono di particolari malattie certificate non sono tenute ad agganciare la cintura di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 553
+  },
+  {
+    "id_blocco": 4596,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24332,
+    "testo": "Gli istruttori di guida nello svolgimento della loro professione non sono obbligati ad agganciare la cintura di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 553
+  },
+  {
+    "id_blocco": 4596,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24333,
+    "testo": "Il postino, durante l'attività lavorativa, non ha l'obbligo di agganciare la cintura di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 553
+  },
+  {
+    "id_blocco": 4596,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24334,
+    "testo": "Le persone con oltre 65 anni di età non sono obbligate ad agganciare la cintura di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 553
+  },
+  {
+    "id_blocco": 4596,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24335,
+    "testo": "Chi guida un'autovettura munito di autorizzazione ad esercitarsi alla guida (foglio r osa), non è obbligato ad utilizzare la cintura di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 553
+  }
+]

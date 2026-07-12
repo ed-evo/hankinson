@@ -1,0 +1,41 @@
+[
+  {
+    "id_blocco": 4673,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25086,
+    "testo": "Il rumore prodotto dai veicoli a motore aumenta man mano che si va rovina ndo il silenziatore (marmitta)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4673,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25087,
+    "testo": "Il rumore prodotto dai veicoli a motore si può diminuire con una guida corretta, che eviti brusche frenate o forti accelerazioni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4673,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25088,
+    "testo": "Il rumore prodotto dai veicoli a motore è causato solo dal motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 580
+  }
+]

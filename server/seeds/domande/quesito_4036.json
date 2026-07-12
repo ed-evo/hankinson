@@ -1,0 +1,114 @@
+[
+  {
+    "id_blocco": 4036,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18688,
+    "testo": "Entrando in un centro abitato bisogna tenere conto che può cambiare spesso la precedenza agli incroci",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4036,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18689,
+    "testo": "Entrando in un centro abitato, bisogna tenere conto che il flusso della circolazione viene spes so intralciato o interrotto da veicoli che sono fermi, che partono o che cambiano direzione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4036,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18690,
+    "testo": "Entrati in un centro abitato, bisogna tenere conto che gli altri utenti della strada (qua li pedoni e ciclisti) si mescolano maggiormente con il traffico motorizz ato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4036,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18691,
+    "testo": "In un centro abitato bisogna essere più attenti, prudenti e tolleranti, a causa del maggior numero di utenti che interagiscono nell'ambiente urbano",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4036,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18692,
+    "testo": "Entrando in un centro abitato, bisogna continuare a mantenere la concentrazione alla guida anche se potrebbero aumentare i motivi per distrarsi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4036,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18693,
+    "testo": "Entrando in un centro abitato, bisogna considerare che è possibile sostare in corrispondenza di incroci non regolati",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4036,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18694,
+    "testo": "In un centro abitato è sempre consentita la marcia per file parallele",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 460
+  },
+  {
+    "id_blocco": 4036,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18695,
+    "testo": "In un centro abitato, bisogna considerare che i pedoni e i diversamente abili devono sem pre dare la precedenza ai veicoli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 460
+  }
+]

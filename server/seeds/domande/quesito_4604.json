@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4604,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24450,
+    "testo": "Le giacche ad uso motociclistico garantiscono un'adeguata protezione all'abrasione in caso di scivolamento sull'asfalto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 556
+  },
+  {
+    "id_blocco": 4604,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24451,
+    "testo": "Le giacche ad uso motociclistico hanno inserti rigidi protettivi in corrispondenza delle articolazioni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 556
+  },
+  {
+    "id_blocco": 4604,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24452,
+    "testo": "Gli indumenti ad uso motociclistico omologati sono sottoposti a prove di resiste nza al taglio e all'abrasione da impatto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 556
+  },
+  {
+    "id_blocco": 4604,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24453,
+    "testo": "Gli indumenti ad uso motociclistico omologati sono sottoposti a prove di resiste nza al lavaggio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 556
+  },
+  {
+    "id_blocco": 4604,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24454,
+    "testo": "Le giacche ad uso motociclistico non sono previste per utilizzo estivo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 556
+  },
+  {
+    "id_blocco": 4604,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24455,
+    "testo": "Le giacche ad uso motociclistico, per essere omologate devono essere unicamente di colore nero",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 556
+  }
+]

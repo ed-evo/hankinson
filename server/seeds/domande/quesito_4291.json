@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21472,
+    "testo": "Il segnale raffigurato indica la fine del centro abitato",
+    "risposta_corretta": "VERO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 47
+  },
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21473,
+    "testo": "Il segnale raffigurato nella prima riga in alto del pannello blu indica il prossimo ce ntro abitato",
+    "risposta_corretta": "VERO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 47
+  },
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21474,
+    "testo": "Il segnale raffigurato indica la fine del centro abitato e le località successive",
+    "risposta_corretta": "VERO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 48
+  },
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21475,
+    "testo": "Il segnale raffigurato nel pannello blu indica, per ogni località, la rispettiva distanza chilometrica",
+    "risposta_corretta": "VERO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 48
+  },
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21476,
+    "testo": "Il segnale raffigurato indica che per Napoli mancano 190 chilometri",
+    "risposta_corretta": "VERO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 48
+  },
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21477,
+    "testo": "Il segnale raffigurato indica che per S. Cesareo mancano 7 chilometri",
+    "risposta_corretta": "VERO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 48
+  },
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21478,
+    "testo": "Il segnale raffigurato indica l'inizio di un tratto di strada in salita per raggi ungere Montecompatri",
+    "risposta_corretta": "FALSO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 48
+  },
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21479,
+    "testo": "Il segnale raffigurato indica che non è possibile raggiungere Montecompat ri",
+    "risposta_corretta": "FALSO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 48
+  },
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21480,
+    "testo": "Il segnale raffigurato indica che per raggiungere Napoli bisogna percorrere la strada statale n. 190",
+    "risposta_corretta": "FALSO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 48
+  },
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21481,
+    "testo": "Il segnale raffigurato indica una strada chiusa al traffico",
+    "risposta_corretta": "FALSO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 48
+  },
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21482,
+    "testo": "Il segnale raffigurato s i trova su strade extraurbane principali",
+    "risposta_corretta": "FALSO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 48
+  },
+  {
+    "id_blocco": 4291,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21483,
+    "testo": "Il segnale raffigurato indica l'inizio del centro abitato",
+    "risposta_corretta": "FALSO",
+    "immagine": "3efaba666535392de0856070e5897178",
+    "pagina_quiz": 49
+  }
+]

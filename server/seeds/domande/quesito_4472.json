@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4472,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23283,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo N conclude per ultimo l'attraversamento dell'incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "63575eff7d97025bbf1ceb7d6a95bb02",
+    "pagina_quiz": 118
+  },
+  {
+    "id_blocco": 4472,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23284,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo N deve dare la precedenza al veicolo A",
+    "risposta_corretta": "VERO",
+    "immagine": "63575eff7d97025bbf1ceb7d6a95bb02",
+    "pagina_quiz": 118
+  },
+  {
+    "id_blocco": 4472,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23285,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo N ha la precedenza rispetto al veicolo R",
+    "risposta_corretta": "VERO",
+    "immagine": "63575eff7d97025bbf1ceb7d6a95bb02",
+    "pagina_quiz": 118
+  },
+  {
+    "id_blocco": 4472,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23286,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo N può concludere la manovra di svolta a sinistra dopo il transito dei veicoli R e A",
+    "risposta_corretta": "VERO",
+    "immagine": "63575eff7d97025bbf1ceb7d6a95bb02",
+    "pagina_quiz": 118
+  },
+  {
+    "id_blocco": 4472,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23287,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo N, dopo essersi portato al centro dell'incrocio, deve attendere il transito dei veicoli R e A",
+    "risposta_corretta": "VERO",
+    "immagine": "63575eff7d97025bbf1ceb7d6a95bb02",
+    "pagina_quiz": 118
+  },
+  {
+    "id_blocco": 4472,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23288,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo N attraversa per primo",
+    "risposta_corretta": "FALSO",
+    "immagine": "63575eff7d97025bbf1ceb7d6a95bb02",
+    "pagina_quiz": 118
+  },
+  {
+    "id_blocco": 4472,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23289,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo N deve dare la precedenza al veicolo R",
+    "risposta_corretta": "FALSO",
+    "immagine": "63575eff7d97025bbf1ceb7d6a95bb02",
+    "pagina_quiz": 119
+  },
+  {
+    "id_blocco": 4472,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23290,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo N ha la precedenza rispetto al veicolo A",
+    "risposta_corretta": "FALSO",
+    "immagine": "63575eff7d97025bbf1ceb7d6a95bb02",
+    "pagina_quiz": 119
+  },
+  {
+    "id_blocco": 4472,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23291,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo N passa dopo il transito del veicolo R ma prima che transiti il veicolo A",
+    "risposta_corretta": "FALSO",
+    "immagine": "63575eff7d97025bbf1ceb7d6a95bb02",
+    "pagina_quiz": 119
+  },
+  {
+    "id_blocco": 4472,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23292,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo N impegna l'incrocio per ultimo",
+    "risposta_corretta": "FALSO",
+    "immagine": "63575eff7d97025bbf1ceb7d6a95bb02",
+    "pagina_quiz": 119
+  }
+]

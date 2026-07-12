@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19260,
+    "testo": "Il segnale raffigurato preannuncia un ponte mobile",
+    "risposta_corretta": "VERO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 200
+  },
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19261,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 200
+  },
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19262,
+    "testo": "Il segnale raffigurato può essere integrato con pannello indicante gli orari di manovra o di funzionamento di un ponte mobile",
+    "risposta_corretta": "VERO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 200
+  },
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19263,
+    "testo": "Dopo il segna le raffigurato possiamo trovare un dispositivo a luci rosse lampeggianti",
+    "risposta_corretta": "VERO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 200
+  },
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19264,
+    "testo": "Il segnale raffigurato comporta di arrestarsi se sono in funzione le luci rosse lampeggianti",
+    "risposta_corretta": "VERO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 200
+  },
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19265,
+    "testo": "Il segnale raffigurato può essere integrato dal pannello distanziometrico a tre barre rosse",
+    "risposta_corretta": "VERO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 200
+  },
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19266,
+    "testo": "Il segnale raffigurato preannuncia un'area portuale",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 200
+  },
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19267,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi prima di attraversare il ponte",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 200
+  },
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19268,
+    "testo": "Il segnale raffigurato preannuncia un ponte con forte pendenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 201
+  },
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19269,
+    "testo": "Il segnale raffigurato impone di dare la precedenza ai veicoli provenienti dal se nso opposto",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 201
+  },
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19270,
+    "testo": "Il segnale raffigurato vieta il sorpasso se posto sulla strada di accesso ad un'area portuale",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 201
+  },
+  {
+    "id_blocco": 4084,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19271,
+    "testo": "Il segnale raffigurato preannuncia un passaggio a livello con barriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4c7c0853cebe7987cda4a4b7f7c96e8",
+    "pagina_quiz": 201
+  }
+]

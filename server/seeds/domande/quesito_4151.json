@@ -1,0 +1,233 @@
+[
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20045,
+    "testo": "Il segnale raffigurato indica l'obbligo di proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 336
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20046,
+    "testo": "Il segnale raffigurato non consente la svolta a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 336
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20047,
+    "testo": "Il segnale raffigurato, pos to prima di un incrocio, obbliga a proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 336
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20048,
+    "testo": "Il segnale raffigurato, in corrispondenza di un incrocio, non consente la svolta a destra o a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 336
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20049,
+    "testo": "Il segnale raffigurato indica l'unica direzione consentita",
+    "risposta_corretta": "VERO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 336
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20050,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 336
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20051,
+    "testo": "Il segnale raffigurato è un segnale di direzione obbligatoria",
+    "risposta_corretta": "VERO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 336
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20052,
+    "testo": "Il segnale raffigurato è un segnale di obbligo",
+    "risposta_corretta": "VERO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 336
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20053,
+    "testo": "Il segnale raffigurato non consente la svolta a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 337
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20054,
+    "testo": "Il segnale raffigurato consente di svoltare a destra o a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 337
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20055,
+    "testo": "Il segnale raffigurato consente di svoltare all'incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 337
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20056,
+    "testo": "Il segnale raffigurato indica l'inizio del senso unico di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 337
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20057,
+    "testo": "Il segnale raffigurato indica la fine del doppio senso di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 337
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20058,
+    "testo": "Il segnale raffigurato impone la marcia in unica fila",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 337
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20059,
+    "testo": "Il segnale raffigurato è un segnale di indicazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 337
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20060,
+    "testo": "Il segnale raffigurato è un segnale di divieto",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 337
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20061,
+    "testo": "Il segnale raffigurato è un segnale di corsia",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 337
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20062,
+    "testo": "Il segnale raffigurato preannuncia una direzione consigliata",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 338
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20063,
+    "testo": "Il segnale raffigurato obbliga a svoltare a destra o a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 338
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20064,
+    "testo": "Il segnale raffigurato esclude la possibilità che provengano veicoli di fronte",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 338
+  },
+  {
+    "id_blocco": 4151,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20065,
+    "testo": "Il segnale raffigurato indica un senso unico frontale",
+    "risposta_corretta": "FALSO",
+    "immagine": "6ff794188d5d8731f3360ac40409b437",
+    "pagina_quiz": 338
+  }
+]

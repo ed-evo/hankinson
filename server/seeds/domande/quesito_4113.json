@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4113,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19617,
+    "testo": "Il segnale raffigurato vieta l'uso del clacson",
+    "risposta_corretta": "VERO",
+    "immagine": "ca7a6476170f347036d9ae3447b28bba",
+    "pagina_quiz": 276
+  },
+  {
+    "id_blocco": 4113,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19618,
+    "testo": "Il segnale raffigurato vieta le segnalazioni acustiche",
+    "risposta_corretta": "VERO",
+    "immagine": "ca7a6476170f347036d9ae3447b28bba",
+    "pagina_quiz": 276
+  },
+  {
+    "id_blocco": 4113,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19620,
+    "testo": "Il segnale raffigurato indica l'inizio di una zona in cui è vietato suonare il clacson",
+    "risposta_corretta": "VERO",
+    "immagine": "ca7a6476170f347036d9ae3447b28bba",
+    "pagina_quiz": 276
+  },
+  {
+    "id_blocco": 4113,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19621,
+    "testo": "In presenza del segnale raffigurato si può utilizzare il clacson se si tra sport ano feriti o ammalati gravi",
+    "risposta_corretta": "VERO",
+    "immagine": "ca7a6476170f347036d9ae3447b28bba",
+    "pagina_quiz": 276
+  },
+  {
+    "id_blocco": 4113,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19622,
+    "testo": "Il segnale raffigurato consente l'uso del clacson per richiamare l'attenzione in qualsiasi circostanza",
+    "risposta_corretta": "FALSO",
+    "immagine": "ca7a6476170f347036d9ae3447b28bba",
+    "pagina_quiz": 276
+  },
+  {
+    "id_blocco": 4113,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19623,
+    "testo": "Il segnale raffigurato deve essere rispettato soltanto dalle ore 20.00 alle ore 8.00",
+    "risposta_corretta": "FALSO",
+    "immagine": "ca7a6476170f347036d9ae3447b28bba",
+    "pagina_quiz": 276
+  },
+  {
+    "id_blocco": 4113,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19624,
+    "testo": "Il segnale raffigurato preavvisa la possibilità di incontrare una caserma dei vigili del fuoco",
+    "risposta_corretta": "FALSO",
+    "immagine": "ca7a6476170f347036d9ae3447b28bba",
+    "pagina_quiz": 276
+  },
+  {
+    "id_blocco": 4113,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19625,
+    "testo": "Il segnale raffigurato preavvisa una strettoia su strade di montagna",
+    "risposta_corretta": "FALSO",
+    "immagine": "ca7a6476170f347036d9ae3447b28bba",
+    "pagina_quiz": 277
+  },
+  {
+    "id_blocco": 4113,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19626,
+    "testo": "Il segnale raffigurato consente l'uso del clacson nei casi di ingorgo stradale",
+    "risposta_corretta": "FALSO",
+    "immagine": "ca7a6476170f347036d9ae3447b28bba",
+    "pagina_quiz": 277
+  },
+  {
+    "id_blocco": 4113,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19627,
+    "testo": "Il segnale raffigurato indica la fine del divieto di segnalazioni acustiche",
+    "risposta_corretta": "FALSO",
+    "immagine": "ca7a6476170f347036d9ae3447b28bba",
+    "pagina_quiz": 277
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4319,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21730,
+    "testo": "Il segnale raffigurato indica un cambiamento del numero di corsie disponibili",
+    "risposta_corretta": "VERO",
+    "immagine": "cde48dcb8875c390a2c629a904b48266",
+    "pagina_quiz": 78
+  },
+  {
+    "id_blocco": 4319,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21731,
+    "testo": "Il segnale raffigurato indica un aumento da una a due corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "cde48dcb8875c390a2c629a904b48266",
+    "pagina_quiz": 78
+  },
+  {
+    "id_blocco": 4319,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21732,
+    "testo": "Il segnale raffigurato può essere abbinato ad un pannello che indica la distanza dal punto in cui si ha l'aumento di corsia",
+    "risposta_corretta": "VERO",
+    "immagine": "cde48dcb8875c390a2c629a904b48266",
+    "pagina_quiz": 78
+  },
+  {
+    "id_blocco": 4319,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21733,
+    "testo": "Il segnale raffigurato è posto sulle strade extraurbane",
+    "risposta_corretta": "VERO",
+    "immagine": "cde48dcb8875c390a2c629a904b48266",
+    "pagina_quiz": 78
+  },
+  {
+    "id_blocco": 4319,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21734,
+    "testo": "Il segnale raffigurato indica che si è vicini ad un cavalcavia che consente di invertire il senso di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "cde48dcb8875c390a2c629a904b48266",
+    "pagina_quiz": 79
+  },
+  {
+    "id_blocco": 4319,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21735,
+    "testo": "Il segnale raffigurato preavvisa l'obbligo di svolta a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "cde48dcb8875c390a2c629a904b48266",
+    "pagina_quiz": 79
+  },
+  {
+    "id_blocco": 4319,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21736,
+    "testo": "Il segnale raffigurato indica la possibilità di passare a destra o a sinistra di un ostac olo",
+    "risposta_corretta": "FALSO",
+    "immagine": "cde48dcb8875c390a2c629a904b48266",
+    "pagina_quiz": 79
+  },
+  {
+    "id_blocco": 4319,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21737,
+    "testo": "Il segnale raffigurato indica che è possibile sorpassare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "cde48dcb8875c390a2c629a904b48266",
+    "pagina_quiz": 79
+  },
+  {
+    "id_blocco": 4319,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21738,
+    "testo": "Il segnale raffigurato preannuncia una zona di preselezione",
+    "risposta_corretta": "FALSO",
+    "immagine": "cde48dcb8875c390a2c629a904b48266",
+    "pagina_quiz": 79
+  },
+  {
+    "id_blocco": 4319,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21739,
+    "testo": "Il segnale raffigurato preannuncia una corsia di decelerazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "cde48dcb8875c390a2c629a904b48266",
+    "pagina_quiz": 79
+  }
+]

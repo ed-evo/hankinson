@@ -1,0 +1,72 @@
+[
+  {
+    "id_blocco": 4688,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25180,
+    "testo": "Se il coefficiente di aderenza diminuisce le ruote motrici potrebbero pattinare",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4688,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25181,
+    "testo": "Se il coefficiente di aderenza diminuisce lo spazio di frenatura aumenta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4688,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25182,
+    "testo": "Se il coefficiente di aderenza è basso bisogna ridurre la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4688,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25183,
+    "testo": "Se il coefficiente di aderenza diminuisce lo spazio di frenatura si riduce",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4688,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25184,
+    "testo": "Se il coefficiente di aderenza è basso bisogna ridurre la velocità solo in curva",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  }
+]

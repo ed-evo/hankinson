@@ -1,0 +1,184 @@
+[
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25419,
+    "testo": "Nei veicoli a motore a due ruote è possibile spegnere il motore anche tra mite l'interruttore di emergenza posto sul manubrio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25420,
+    "testo": "Nei veicoli a motore a due ruote, per poter avviare il motore, è necessario che l'interruttore di emergenza posto sul manubrio sia posizionato su ON/Avviamento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25421,
+    "testo": "Nei veicoli a motore a due ruote, l'interruttore di emergenza permette lo spegnimento del motore senza staccare le mani dal manubrio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25422,
+    "testo": "Nei veicoli a motore a due ruote, l'interruttore di emergenza, permette lo spegnimento del motore qualora ci si arresti su strade a forti pendenze avendo le mani occupate sulle leve di comando",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25423,
+    "testo": "L'interrut tore di emergenza di cui sono muniti i veicoli a motore a due ruote , se guasto, deve essere riparato al più presto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25424,
+    "testo": "Su un motociclo, per lo spegnimento del motore nelle situazioni ordinarie, è preferibile utilizzare la chiave di accensione anziché l'interruttore di emergenza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25425,
+    "testo": "Nei veicoli a motore a due ruote, l'interruttore di emergenza posto sul manubrio sostituisce il dispositivo di accensione a chiave",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25426,
+    "testo": "Per facilitare lo spegnimento del motore, i veicoli a motore a due ruote sono equipa ggiati di un interruttore d'emergenza posto sulla pedivella del cambio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25427,
+    "testo": "Nei veicoli a motore a due ruote, l'interruttore d'emergenza permette il blocco ista ntaneo delle ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 592
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25428,
+    "testo": "L'interrut tore di emergenza posto sul cavalletto laterale, serve per spegnere il motore del motociclo sulle strade in pendenza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 592
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25429,
+    "testo": "Per facilitare lo spegnimento del motore, i veicoli a motore a due ruote sono equipa ggiati di un interruttore d'emergenza azionabile con la pressione del piede destro",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 592
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25430,
+    "testo": "Nei veicoli a motore a due ruote, l'interruttore d'emergenza ha la funzione di freno di stazionamento",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 592
+  },
+  {
+    "id_blocco": 4713,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25431,
+    "testo": "Nei veicoli a motore a due ruote, l'interruttore d'emergenza è collegato con l'antifurto del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 592
+  }
+]

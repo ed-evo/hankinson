@@ -1,0 +1,146 @@
+[
+  {
+    "id_blocco": 4563,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24052,
+    "testo": "Il numero di persone trasportabili sui veicoli è indicato sulla carta di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4563,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24053,
+    "testo": "Il numero dei posti di un veicolo è indicato sulla carta di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4563,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24055,
+    "testo": "Il numero massimo di posti delle autovetture è pari a nove, compreso quello del conducente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 545
+  },
+  {
+    "id_blocco": 4563,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24056,
+    "testo": "Il numero di persone trasportabili sulle autovetture può essere al massimo di nove, compreso il conducente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4563,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24057,
+    "testo": "Il numero di persone trasportabili sui motocicli è sempre di due, oltre il conducente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4563,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24058,
+    "testo": "Il numero di persone trasportabili sulle autovetture è al massimo di quattro",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4563,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24059,
+    "testo": "Il numero di persone trasportabili sugli autocarri è sempre di cinque, compreso il conducente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4563,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24060,
+    "testo": "Il numero di persone trasportabili su un veicolo, riportato sulla carta di circolazione, non comprende il conducente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 546
+  }
+]

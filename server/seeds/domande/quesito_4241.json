@@ -1,0 +1,146 @@
+[
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20980,
+    "testo": "Quando è accesa la luce verde del semaforo in figura è possibile svoltare a sinistra, dando la precedenza ai veicoli che arrivano di fronte",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 138
+  },
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20981,
+    "testo": "Quando è accesa la luce verde del semaforo in figura si può svoltare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 138
+  },
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20982,
+    "testo": "Quando è accesa la luce verde del semaforo in figura si può proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 138
+  },
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20983,
+    "testo": "Quando è accesa la luce verde del semaforo in figura si può impegnare l'incrocio, soltanto avendo la certezza di poterlo sgomberare prima dell'accensione della luce rossa",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 138
+  },
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20984,
+    "testo": "Quando è accesa la luce verde del semaforo in figura si può attraversare l'incrocio, usando prudenza",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 138
+  },
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20985,
+    "testo": "Avvicinandosi ad un semaforo, che già da molto tempo ha la luce verde accesa, occorre proseguire con prudenza, pronti eventualmente a fermarsi se, quando si accende la luce gialla, non si è ancora impegnato l'incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 138
+  },
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20986,
+    "testo": "Avvicinandosi ad un semaforo, che già da molto tempo ha la luce verde accesa, occorre accelerare, senza che vi sia necessità di guardare la luce del sema foro",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 138
+  },
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20987,
+    "testo": "Quando è accesa la luce verde del semaforo in figura si può svoltare a sinistra, ma solo quando si accende anche la luce gialla",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 138
+  },
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20988,
+    "testo": "Quando è accesa la luce verde del semaforo in figura, il conducente che svolta a sinistra ha la precedenza sui veicoli che provengono di fronte",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 138
+  },
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20989,
+    "testo": "Quando è accesa la luce verde del semaforo in figura si può svoltare solo se la carreggiata è divisa in corsie",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 139
+  },
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20990,
+    "testo": "Quando è accesa la luce verde del semaforo in figura si deve proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 139
+  },
+  {
+    "id_blocco": 4241,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20991,
+    "testo": "Quando è accesa la luce verde del semaforo in figura si può proseguire diritto, dando però la precedenza ai pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 139
+  }
+]

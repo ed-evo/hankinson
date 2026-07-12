@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4321,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21749,
+    "testo": "Il segnale raffigurato consiglia ai veicoli rappresentati nel pannello di seguire la direzione indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "113476552ab7edd34941547cee9a5ba7",
+    "pagina_quiz": 80
+  },
+  {
+    "id_blocco": 4321,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21750,
+    "testo": "Il segnale raffigurato preavvisa una deviazione consigliata per gli autotreni ed autoarticolati in transito",
+    "risposta_corretta": "VERO",
+    "immagine": "113476552ab7edd34941547cee9a5ba7",
+    "pagina_quiz": 81
+  },
+  {
+    "id_blocco": 4321,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21751,
+    "testo": "Il segnale raffigurato consiglia di svoltare a destra alle categorie dei veicoli rappresent ati",
+    "risposta_corretta": "VERO",
+    "immagine": "113476552ab7edd34941547cee9a5ba7",
+    "pagina_quiz": 81
+  },
+  {
+    "id_blocco": 4321,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21752,
+    "testo": "Il segnale raffigurato non è un segnale di obbligo",
+    "risposta_corretta": "VERO",
+    "immagine": "113476552ab7edd34941547cee9a5ba7",
+    "pagina_quiz": 81
+  },
+  {
+    "id_blocco": 4321,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21753,
+    "testo": "Il segnale raffigurato consiglia agli autotreni e agli autoarticolati la dire zione per non attraversare il centro abitato",
+    "risposta_corretta": "VERO",
+    "immagine": "113476552ab7edd34941547cee9a5ba7",
+    "pagina_quiz": 81
+  },
+  {
+    "id_blocco": 4321,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21754,
+    "testo": "Il segnale raffigurato vieta la svolta a destra agli autotreni ed autoarticolati",
+    "risposta_corretta": "FALSO",
+    "immagine": "113476552ab7edd34941547cee9a5ba7",
+    "pagina_quiz": 81
+  },
+  {
+    "id_blocco": 4321,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21755,
+    "testo": "Il segnale raffigurato indica agli autocarri di sorpassare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "113476552ab7edd34941547cee9a5ba7",
+    "pagina_quiz": 81
+  },
+  {
+    "id_blocco": 4321,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21756,
+    "testo": "Il segnale raffigurato indica agli autocarri la direzione per il centro cittadino",
+    "risposta_corretta": "FALSO",
+    "immagine": "113476552ab7edd34941547cee9a5ba7",
+    "pagina_quiz": 81
+  },
+  {
+    "id_blocco": 4321,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21757,
+    "testo": "Il segnale raffigurato preannuncia l'obbligo di svoltare subito a destra per i veicoli r appresentati",
+    "risposta_corretta": "FALSO",
+    "immagine": "113476552ab7edd34941547cee9a5ba7",
+    "pagina_quiz": 81
+  },
+  {
+    "id_blocco": 4321,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21758,
+    "testo": "Il segnale raffigurato indica che i veicoli rappresentati nel pannello devono immediatamente svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "113476552ab7edd34941547cee9a5ba7",
+    "pagina_quiz": 81
+  },
+  {
+    "id_blocco": 4321,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21759,
+    "testo": "Il segnale raffigurato preavvisa agli autocarri di spostarsi sulla corsia di destra per superare un ostacolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "113476552ab7edd34941547cee9a5ba7",
+    "pagina_quiz": 82
+  }
+]

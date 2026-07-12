@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4642,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24854,
+    "testo": "Soccorrere un ferito della strada è obbligatorio per legge",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4642,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24855,
+    "testo": "Soccorrere un ferito della strada può significare salvargli la vita",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4642,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24856,
+    "testo": "Soccorrere subito un ferito della strada può evitare che subisca ulteriori danni fisici",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4642,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24857,
+    "testo": "Soccorrere un ferito della strada non è un obbligo im posto dalla legge, ma solo un dovere morale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4642,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24858,
+    "testo": "Bisogna socc orrere un ferito della strada solo se si considera grave l'incidente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4642,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24859,
+    "testo": "Non è obbligatorio soccorrere un ferito della strada, se per farlo, si crea intralc io al la circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4642,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24860,
+    "testo": "Soccorrere un ferito della strada è obbligatorio solo per i medici e il personale sanitario",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4642,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24861,
+    "testo": "Non è obbligatorio soccorrere un ferito della strada, per non mettere a repentaglio la propria sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 571
+  }
+]

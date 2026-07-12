@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4582,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24216,
+    "testo": "Il simbolo raffigurato indica il comando per azionare la segnalazione luminosa di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "583c22d15e61024219429bcb2225ea77",
+    "pagina_quiz": 423
+  },
+  {
+    "id_blocco": 4582,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24217,
+    "testo": "Il simbolo raffigurato è posto sul comando che provoca l'accensione contemporanea di tutti gli indicatori di direzione",
+    "risposta_corretta": "VERO",
+    "immagine": "583c22d15e61024219429bcb2225ea77",
+    "pagina_quiz": 423
+  },
+  {
+    "id_blocco": 4582,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24218,
+    "testo": "Il simbolo raffigurato è posto su una spia di colore rosso",
+    "risposta_corretta": "VERO",
+    "immagine": "583c22d15e61024219429bcb2225ea77",
+    "pagina_quiz": 423
+  },
+  {
+    "id_blocco": 4582,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24219,
+    "testo": "Il simbolo raffigurato indica un dispositivo da usare in casi di emergenza",
+    "risposta_corretta": "VERO",
+    "immagine": "583c22d15e61024219429bcb2225ea77",
+    "pagina_quiz": 423
+  },
+  {
+    "id_blocco": 4582,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24220,
+    "testo": "Il simbolo raffigurato indica il comando che aziona il segnale mobile di peri colo",
+    "risposta_corretta": "FALSO",
+    "immagine": "583c22d15e61024219429bcb2225ea77",
+    "pagina_quiz": 423
+  },
+  {
+    "id_blocco": 4582,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24221,
+    "testo": "Il simbolo raffigurato è posto sulla spia di freno a mano inserito",
+    "risposta_corretta": "FALSO",
+    "immagine": "583c22d15e61024219429bcb2225ea77",
+    "pagina_quiz": 424
+  },
+  {
+    "id_blocco": 4582,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24222,
+    "testo": "Il simbolo raffigurato indica un dispositivo che si accende automaticamente ad ogni incidente",
+    "risposta_corretta": "FALSO",
+    "immagine": "583c22d15e61024219429bcb2225ea77",
+    "pagina_quiz": 424
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22133,
+    "testo": "Il pa nnell o integrativo raffigurato indica la presenza di macchine sgombraneve al lavoro sulla strada",
+    "risposta_corretta": "VERO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 399
+  },
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22134,
+    "testo": "Il pa nnell o integrativo raffigurato è abbinato al segnale ALTRI PERICOLI",
+    "risposta_corretta": "VERO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 399
+  },
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22135,
+    "testo": "Il pa nnell o integrativo raffigurato invita a diminuire la velocità per la presenza di macchine sgombraneve in funzione",
+    "risposta_corretta": "VERO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 399
+  },
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22136,
+    "testo": "Il pa nnell o integrativo raffigurato invita a mantenere una distanza di almeno 20 metri dalle macchine sgombraneve in funzione",
+    "risposta_corretta": "VERO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 399
+  },
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22137,
+    "testo": "Il pa nnell o integrativo raffigurato indica di prestare attenzione a macchine sgombraneve sulla strada",
+    "risposta_corretta": "VERO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 399
+  },
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22138,
+    "testo": "Il pa nnell o integrativo raffigurato è posto su strade innevate per segnalare la presenza di macchine sgombraneve",
+    "risposta_corretta": "VERO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 399
+  },
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22139,
+    "testo": "Il pa nnell o integrativo raffigurato indica la costruzione di un parco giochi nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 400
+  },
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22140,
+    "testo": "Il pa nnell o integrativo raffigurato indica il divieto di transito alle macchine sgombraneve",
+    "risposta_corretta": "FALSO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 400
+  },
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22141,
+    "testo": "Il pa nnell o integrativo raffigurato indica l'obbligo di montare le catene",
+    "risposta_corretta": "FALSO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 400
+  },
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22142,
+    "testo": "Il pa nnell o integrativo raffigurato obbliga a stare distanti 100 metri dallo sgombraneve in funzione",
+    "risposta_corretta": "FALSO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 400
+  },
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22143,
+    "testo": "Il pa nnell o integrativo raffigurato indica che la strada è percorribile solo dopo che si a passato lo sgombraneve",
+    "risposta_corretta": "FALSO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 400
+  },
+  {
+    "id_blocco": 4361,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22144,
+    "testo": "Il pa nnell o integrativo raffigurato indica che sulla strada è possibile incrociare il veicolo per la raccolta della spazzatura",
+    "risposta_corretta": "FALSO",
+    "immagine": "4bd336fcec7a7555807a6b1c56963183",
+    "pagina_quiz": 400
+  }
+]

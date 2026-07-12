@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19169,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento ciclabile",
+    "risposta_corretta": "VERO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 189
+  },
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19170,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 189
+  },
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19171,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento per ciclisti, contraddistinto dagli appositi segni sulla carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 189
+  },
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19172,
+    "testo": "Il segnale raffigurato preannuncia l'approssimarsi di un luogo dal quale possono provenire ciclisti",
+    "risposta_corretta": "VERO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 189
+  },
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19173,
+    "testo": "Il segnale raffigurato è posto, di norma, 150 metri prima dell'attraversamento ciclabile",
+    "risposta_corretta": "VERO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 189
+  },
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19174,
+    "testo": "Il segnale raffigurato comporta di moderare la velocità in modo da non costituire pericolo per la sicurezza dei ciclisti",
+    "risposta_corretta": "VERO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 189
+  },
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19175,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un attraversamento ciclabile",
+    "risposta_corretta": "FALSO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 189
+  },
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19176,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "FALSO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 190
+  },
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19177,
+    "testo": "Il segnale raffigurato vieta il transito ai ciclisti",
+    "risposta_corretta": "FALSO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 190
+  },
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19178,
+    "testo": "Il segnale raffigurato preannuncia l'inizio di una pista ciclabile",
+    "risposta_corretta": "FALSO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 190
+  },
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19179,
+    "testo": "Il segnale raffigurato indica che si sta svolgendo una gara ciclistica",
+    "risposta_corretta": "FALSO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 190
+  },
+  {
+    "id_blocco": 4076,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19180,
+    "testo": "Il segnale raffigurato indica un'area riservata alla circolazione dei ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": "307718ad8143b32f43530c57270b75ee",
+    "pagina_quiz": 190
+  }
+]

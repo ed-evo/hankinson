@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4171,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20283,
+    "testo": "Il segnale raffigurato è posto prima dello sbocco in una piazza con circolazione rotatoria",
+    "risposta_corretta": "VERO",
+    "immagine": "16c5adb5b0bfafc6c7b0777ae5eec32d",
+    "pagina_quiz": 328
+  },
+  {
+    "id_blocco": 4171,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20284,
+    "testo": "Il segnale raffigurato indica la presenza di un incrocio nel quale la circolazione è regolata a rotatoria",
+    "risposta_corretta": "VERO",
+    "immagine": "16c5adb5b0bfafc6c7b0777ae5eec32d",
+    "pagina_quiz": 328
+  },
+  {
+    "id_blocco": 4171,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20285,
+    "testo": "Il segnale raffigurato è un segnale di obbligo",
+    "risposta_corretta": "VERO",
+    "immagine": "16c5adb5b0bfafc6c7b0777ae5eec32d",
+    "pagina_quiz": 328
+  },
+  {
+    "id_blocco": 4171,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20286,
+    "testo": "Il segnale raffigurato obbliga i conducenti a circolare secondo il verso indicato dalle frecce",
+    "risposta_corretta": "VERO",
+    "immagine": "16c5adb5b0bfafc6c7b0777ae5eec32d",
+    "pagina_quiz": 328
+  },
+  {
+    "id_blocco": 4171,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20287,
+    "testo": "Il segnale di figura (A) su strade extraurbane è preceduto dal segnale di peri colo di CI RCOLAZ IONE ROTATORIA in figura (B)",
+    "risposta_corretta": "VERO",
+    "immagine": "a546518b46a865bad2855488f37ddc55",
+    "pagina_quiz": 328
+  },
+  {
+    "id_blocco": 4171,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20288,
+    "testo": "Il segnale raffigurato prescrive un obbligo di ROTATORIA solo per le autovettur e",
+    "risposta_corretta": "FALSO",
+    "immagine": "16c5adb5b0bfafc6c7b0777ae5eec32d",
+    "pagina_quiz": 329
+  },
+  {
+    "id_blocco": 4171,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20289,
+    "testo": "Il segnale raffigurato è posto su colonnina al centro dell'incrocio intorno alla quale bisogna girare secondo le frecce",
+    "risposta_corretta": "FALSO",
+    "immagine": "16c5adb5b0bfafc6c7b0777ae5eec32d",
+    "pagina_quiz": 329
+  },
+  {
+    "id_blocco": 4171,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20290,
+    "testo": "Il segnale raffigurato è posto all'inizio di una strada senza uscita",
+    "risposta_corretta": "FALSO",
+    "immagine": "16c5adb5b0bfafc6c7b0777ae5eec32d",
+    "pagina_quiz": 329
+  },
+  {
+    "id_blocco": 4171,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20291,
+    "testo": "Il segnale raffigurato indica l'obbligo di tornare indietro",
+    "risposta_corretta": "FALSO",
+    "immagine": "16c5adb5b0bfafc6c7b0777ae5eec32d",
+    "pagina_quiz": 329
+  },
+  {
+    "id_blocco": 4171,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20292,
+    "testo": "Il segnale raffigurato non vale per i ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": "16c5adb5b0bfafc6c7b0777ae5eec32d",
+    "pagina_quiz": 329
+  }
+]

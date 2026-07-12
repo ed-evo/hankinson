@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4574,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24160,
+    "testo": "Durante la marcia, in caso di pioggia intensa, oltre alle luci anabbaglianti bisogna tenere accesa la luce posteriore per nebbia, se il veicolo ne è dotato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4574,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24161,
+    "testo": "Durante la marcia, in caso di fitta nevicata, oltre alle luci anabbaglianti bisogna tenere accesa la luce posteriore per nebbia, se il veicolo ne è dotato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4574,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24162,
+    "testo": "Durante la marcia fuori dai centri abitati, è obbligatorio fare uso delle luci anabbaglianti, sia di giorno che di notte",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4574,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24163,
+    "testo": "Proiettori anabbaglianti male orientati possono abbagliare gli altri utenti della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4574,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24164,
+    "testo": "Durante la marcia nelle ore notturne, l'uso delle luci anabbaglianti è obbligatorio anche se l'illuminazione pubblica è sufficiente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4574,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24165,
+    "testo": "Durante la marcia, l'uso delle luci anabbaglianti non è consentito nelle galleri e il luminate",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4574,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24166,
+    "testo": "Durante la marcia, l'uso delle luci di posizione è sempre consentito in alternativa a quelle anabbaglianti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4574,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24167,
+    "testo": "L'uso delle luci anabbaglianti è obbligatorio quando si sorpassa un'auto della polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  }
+]

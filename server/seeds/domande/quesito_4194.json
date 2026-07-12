@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20522,
+    "testo": "Il segnale raffigurato è un segnale di preavviso di fermarsi e dare precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 246
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20523,
+    "testo": "Il segnale raffigurato preannuncia un segnale di STOP a 320 metri",
+    "risposta_corretta": "VERO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 246
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20524,
+    "testo": "Il segnale raffigurato preannuncia di arrestarsi al prossimo incrocio e dare la precedenza a destra ed a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 246
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20525,
+    "testo": "Il segnale raffigurato preannuncia di fermarsi 320 metri dopo il segnale e dare la precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 246
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20526,
+    "testo": "Il segnale raffigurato invita a rallentare perché è prossimo un incrocio in cui bisogna fermarsi e dare la precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 247
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20527,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 247
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20528,
+    "testo": "Il segnale raffigurato obbliga solo a rallentare e, se necessario, a dare la precedenza all'incrocio a 320 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 247
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20529,
+    "testo": "Il segnale raffigurato è posto a 320 metri dal segnale DARE PRECEDENZA",
+    "risposta_corretta": "FALSO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 247
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20530,
+    "testo": "Il segnale raffigurato s i trova solo nelle strade urbane",
+    "risposta_corretta": "FALSO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 247
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20531,
+    "testo": "Il segnale raffigurato preannuncia la presenza di una barriera doganale",
+    "risposta_corretta": "FALSO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 247
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20532,
+    "testo": "Il segnale raffigurato può presegnalare un casello autostradale",
+    "risposta_corretta": "FALSO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 247
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20533,
+    "testo": "Il segnale raffigurato è posto prima del segnale ALT-POLIZIA",
+    "risposta_corretta": "FALSO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 247
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20534,
+    "testo": "Incont rando il segnale raffigurato occorre fermarsi e poi arrestarsi nuovamente dopo 320 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 247
+  },
+  {
+    "id_blocco": 4194,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20535,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "0336dc776dc65daa553e91a1af9068c5",
+    "pagina_quiz": 248
+  }
+]

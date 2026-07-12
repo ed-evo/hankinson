@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4217,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20771,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia discontinua in figura si trova subito dopo una curva",
+    "risposta_corretta": "VERO",
+    "immagine": "baa788372c1b5dbe02e3d6585a546e14",
+    "pagina_quiz": 439
+  },
+  {
+    "id_blocco": 4217,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20772,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia discontinua in figura consente di effettuare un sorpasso anche superando tutte e due le strisce",
+    "risposta_corretta": "VERO",
+    "immagine": "baa788372c1b5dbe02e3d6585a546e14",
+    "pagina_quiz": 439
+  },
+  {
+    "id_blocco": 4217,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20773,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia discontinua in figura si trova dopo un passaggio a livello",
+    "risposta_corretta": "VERO",
+    "immagine": "baa788372c1b5dbe02e3d6585a546e14",
+    "pagina_quiz": 439
+  },
+  {
+    "id_blocco": 4217,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20774,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia discontinua in figura si può trovare nel tratto in discesa di un dosso",
+    "risposta_corretta": "VERO",
+    "immagine": "baa788372c1b5dbe02e3d6585a546e14",
+    "pagina_quiz": 440
+  },
+  {
+    "id_blocco": 4217,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20775,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia discontinua in figura consente anche al veicolo che viene di fronte di superare le strisce",
+    "risposta_corretta": "FALSO",
+    "immagine": "baa788372c1b5dbe02e3d6585a546e14",
+    "pagina_quiz": 440
+  },
+  {
+    "id_blocco": 4217,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20776,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia discontinua in figura si trova, di norma, su strade a senso unico di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "baa788372c1b5dbe02e3d6585a546e14",
+    "pagina_quiz": 440
+  },
+  {
+    "id_blocco": 4217,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20777,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia discontinua in figura si trova sul tratto in salita di un dosso",
+    "risposta_corretta": "FALSO",
+    "immagine": "baa788372c1b5dbe02e3d6585a546e14",
+    "pagina_quiz": 440
+  },
+  {
+    "id_blocco": 4217,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20778,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia discontinua in figura si trova subito prima di un incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "baa788372c1b5dbe02e3d6585a546e14",
+    "pagina_quiz": 440
+  },
+  {
+    "id_blocco": 4217,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20779,
+    "testo": "Rispetto al veicolo che procede nel senso della freccia, la striscia discontinua in figura si trova prima di una curva",
+    "risposta_corretta": "FALSO",
+    "immagine": "baa788372c1b5dbe02e3d6585a546e14",
+    "pagina_quiz": 440
+  }
+]

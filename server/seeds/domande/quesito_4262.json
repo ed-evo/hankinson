@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4262,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21184,
+    "testo": "Il vigile disposto con le braccia ad angolo retto come in figura consente la svolta a sinistra ai veicoli che arrivano dalla sua sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "d610e27fa096d71115e187fa059bcac1",
+    "pagina_quiz": 418
+  },
+  {
+    "id_blocco": 4262,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21185,
+    "testo": "Il vigile disposto con le braccia ad angolo retto come in figura ferma i veicoli che arrivano dalla sua destra",
+    "risposta_corretta": "VERO",
+    "immagine": "d610e27fa096d71115e187fa059bcac1",
+    "pagina_quiz": 418
+  },
+  {
+    "id_blocco": 4262,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21186,
+    "testo": "Il vigile disposto con le braccia ad angolo retto come in figura vieta di proseguire diritto ai veicoli che gli vengono dalle sue spalle",
+    "risposta_corretta": "VERO",
+    "immagine": "d610e27fa096d71115e187fa059bcac1",
+    "pagina_quiz": 418
+  },
+  {
+    "id_blocco": 4262,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21187,
+    "testo": "Il vigile disposto con le braccia ad angolo retto come in figura consente di proseguire diritto ai veicoli che arrivano dalla sua sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "d610e27fa096d71115e187fa059bcac1",
+    "pagina_quiz": 418
+  },
+  {
+    "id_blocco": 4262,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21188,
+    "testo": "Il vigile disposto con le braccia ad angolo retto come in figura consente di svoltare a destra ai veicoli che arrivano dalla sua sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "d610e27fa096d71115e187fa059bcac1",
+    "pagina_quiz": 418
+  },
+  {
+    "id_blocco": 4262,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21189,
+    "testo": "Il vigile disposto con le braccia ad angolo retto come in figura consente di svoltare a destra ai veicoli che arrivano dalla sua destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "d610e27fa096d71115e187fa059bcac1",
+    "pagina_quiz": 418
+  },
+  {
+    "id_blocco": 4262,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21190,
+    "testo": "Il vigile disposto con le braccia ad angolo retto come in figura consente la svolta a destra ai veicoli che arrivano dalle sue spalle",
+    "risposta_corretta": "FALSO",
+    "immagine": "d610e27fa096d71115e187fa059bcac1",
+    "pagina_quiz": 418
+  },
+  {
+    "id_blocco": 4262,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21191,
+    "testo": "Il vigile disposto con le braccia ad angolo retto come in figura consente la svolta a sinistra ai veicoli che arrivano dalla sua destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "d610e27fa096d71115e187fa059bcac1",
+    "pagina_quiz": 419
+  },
+  {
+    "id_blocco": 4262,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21192,
+    "testo": "Il vigile disposto con le braccia ad angolo retto come in figura consente di proseguire diritto ai veicoli che arrivano dalla sua destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "d610e27fa096d71115e187fa059bcac1",
+    "pagina_quiz": 419
+  },
+  {
+    "id_blocco": 4262,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21193,
+    "testo": "Il vigile disposto con le braccia ad angolo retto come in figura vieta il passaggio ai veicoli che arrivano dalla sua sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "d610e27fa096d71115e187fa059bcac1",
+    "pagina_quiz": 419
+  }
+]

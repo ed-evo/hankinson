@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4457,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23134,
+    "testo": "Nell'attraversare l'incrocio in figura il veicolo L passa per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "0cf19fb0857f2fd486fcb15f2d04b42a",
+    "pagina_quiz": 98
+  },
+  {
+    "id_blocco": 4457,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23135,
+    "testo": "Nell'attraversare l'incrocio in figura il veicolo D è l'ultimo a passare",
+    "risposta_corretta": "VERO",
+    "immagine": "0cf19fb0857f2fd486fcb15f2d04b42a",
+    "pagina_quiz": 98
+  },
+  {
+    "id_blocco": 4457,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23136,
+    "testo": "Nell'attraversare l'incrocio in figura i veicoli C e A passano contemporaneamente dopo il veicolo L",
+    "risposta_corretta": "VERO",
+    "immagine": "0cf19fb0857f2fd486fcb15f2d04b42a",
+    "pagina_quiz": 99
+  },
+  {
+    "id_blocco": 4457,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23137,
+    "testo": "Nell'attraversare l'incrocio in figura il veicolo A ha la precedenza sul veicolo D",
+    "risposta_corretta": "VERO",
+    "immagine": "0cf19fb0857f2fd486fcb15f2d04b42a",
+    "pagina_quiz": 99
+  },
+  {
+    "id_blocco": 4457,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23138,
+    "testo": "Nell'attraversare l'incrocio in figura passa per primo il veicolo più veloce",
+    "risposta_corretta": "FALSO",
+    "immagine": "0cf19fb0857f2fd486fcb15f2d04b42a",
+    "pagina_quiz": 99
+  },
+  {
+    "id_blocco": 4457,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23139,
+    "testo": "Nell'attraversare l'incrocio in figura il veicolo A passa per ultimo",
+    "risposta_corretta": "FALSO",
+    "immagine": "0cf19fb0857f2fd486fcb15f2d04b42a",
+    "pagina_quiz": 99
+  },
+  {
+    "id_blocco": 4457,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23140,
+    "testo": "Nell'attraversare l'incrocio in figura i veicoli passano nel seguente ordine: C, A, D, L",
+    "risposta_corretta": "FALSO",
+    "immagine": "0cf19fb0857f2fd486fcb15f2d04b42a",
+    "pagina_quiz": 99
+  },
+  {
+    "id_blocco": 4457,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23141,
+    "testo": "Nell'attraversare l'incrocio in figura i veicoli passano nel seguente ordine: C, L, A, D",
+    "risposta_corretta": "FALSO",
+    "immagine": "0cf19fb0857f2fd486fcb15f2d04b42a",
+    "pagina_quiz": 99
+  },
+  {
+    "id_blocco": 4457,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23142,
+    "testo": "Nell'attraversare l'incrocio in figura i veicoli D e L passano contemporaneamente prima del veicolo A",
+    "risposta_corretta": "FALSO",
+    "immagine": "0cf19fb0857f2fd486fcb15f2d04b42a",
+    "pagina_quiz": 99
+  }
+]

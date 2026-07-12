@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4323,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21767,
+    "testo": "Il segnale raffigurato indica un parcheggio per veicoli e fermata di autobus nelle vicinanze",
+    "risposta_corretta": "VERO",
+    "immagine": "da13b151d500f0dc7c2b8d13eeeaf14f",
+    "pagina_quiz": 84
+  },
+  {
+    "id_blocco": 4323,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21768,
+    "testo": "Il segnale raffigurato è posto vicino ad una fermata di autobus",
+    "risposta_corretta": "VERO",
+    "immagine": "da13b151d500f0dc7c2b8d13eeeaf14f",
+    "pagina_quiz": 84
+  },
+  {
+    "id_blocco": 4323,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21769,
+    "testo": "Il segnale raffigurato indica che dopo aver parcheggiato l'autovettura è possibile prendere l'autobus n. 8 o n. 45",
+    "risposta_corretta": "VERO",
+    "immagine": "da13b151d500f0dc7c2b8d13eeeaf14f",
+    "pagina_quiz": 84
+  },
+  {
+    "id_blocco": 4323,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21770,
+    "testo": "Il segnale raffigurato indica il numero (8 e 45) degli autobus pubblici che hanno fermate nelle vicinanze",
+    "risposta_corretta": "VERO",
+    "immagine": "da13b151d500f0dc7c2b8d13eeeaf14f",
+    "pagina_quiz": 84
+  },
+  {
+    "id_blocco": 4323,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21771,
+    "testo": "Il segnale raffigurato indica la possibilità di parcheggiare l'autovettura e di prendere l'autobus",
+    "risposta_corretta": "VERO",
+    "immagine": "da13b151d500f0dc7c2b8d13eeeaf14f",
+    "pagina_quiz": 84
+  },
+  {
+    "id_blocco": 4323,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21772,
+    "testo": "Il segnale raffigurato indica una piazzola di sosta per autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "da13b151d500f0dc7c2b8d13eeeaf14f",
+    "pagina_quiz": 84
+  },
+  {
+    "id_blocco": 4323,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21773,
+    "testo": "Il segnale raffigurato è posto nelle vicinanze di un pronto soccorso",
+    "risposta_corretta": "FALSO",
+    "immagine": "da13b151d500f0dc7c2b8d13eeeaf14f",
+    "pagina_quiz": 85
+  },
+  {
+    "id_blocco": 4323,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21774,
+    "testo": "Il segnale raffigurato indica il numero massimo di autobus che possono parcheggiare",
+    "risposta_corretta": "FALSO",
+    "immagine": "da13b151d500f0dc7c2b8d13eeeaf14f",
+    "pagina_quiz": 85
+  },
+  {
+    "id_blocco": 4323,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21775,
+    "testo": "Il segnale raffigurato indica per quanti minuti resta fermo un autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "da13b151d500f0dc7c2b8d13eeeaf14f",
+    "pagina_quiz": 85
+  },
+  {
+    "id_blocco": 4323,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21776,
+    "testo": "Il segnale raffigurato indica che è possibile iniziare a sostare dalle ore 8.45",
+    "risposta_corretta": "FALSO",
+    "immagine": "da13b151d500f0dc7c2b8d13eeeaf14f",
+    "pagina_quiz": 85
+  }
+]

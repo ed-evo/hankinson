@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4054,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18892,
+    "testo": "In presenza del segnale raffigurato è necessario moderare la velocità in rel azione all a visibilità",
+    "risposta_corretta": "VERO",
+    "immagine": "77a40e39cc4b726c3f05d1759479cd9e",
+    "pagina_quiz": 387
+  },
+  {
+    "id_blocco": 4054,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18893,
+    "testo": "In presenza del segnale raffigurato è vietata l'inversione di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "77a40e39cc4b726c3f05d1759479cd9e",
+    "pagina_quiz": 387
+  },
+  {
+    "id_blocco": 4054,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18894,
+    "testo": "In presenza del segnale raffigurato sono vietate la sosta e la fermata sia sul tra tto in salita che su quello in discesa",
+    "risposta_corretta": "VERO",
+    "immagine": "77a40e39cc4b726c3f05d1759479cd9e",
+    "pagina_quiz": 388
+  },
+  {
+    "id_blocco": 4054,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18895,
+    "testo": "In presenza del segnale raffigurato è vietato il sorpasso sul tratto in salita, se la strada è a doppio senso di circolazione con due sole corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "77a40e39cc4b726c3f05d1759479cd9e",
+    "pagina_quiz": 388
+  },
+  {
+    "id_blocco": 4054,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18896,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "77a40e39cc4b726c3f05d1759479cd9e",
+    "pagina_quiz": 388
+  },
+  {
+    "id_blocco": 4054,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18897,
+    "testo": "Il segnale raffigurato può presegnalare dossi artificiali",
+    "risposta_corretta": "VERO",
+    "immagine": "77a40e39cc4b726c3f05d1759479cd9e",
+    "pagina_quiz": 388
+  },
+  {
+    "id_blocco": 4054,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18898,
+    "testo": "Il segnale raffigurato vieta il transito degli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "77a40e39cc4b726c3f05d1759479cd9e",
+    "pagina_quiz": 388
+  },
+  {
+    "id_blocco": 4054,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18899,
+    "testo": "In presenza del segnale raffigurato è vietato il sorpasso nel tratto in discesa",
+    "risposta_corretta": "FALSO",
+    "immagine": "77a40e39cc4b726c3f05d1759479cd9e",
+    "pagina_quiz": 388
+  },
+  {
+    "id_blocco": 4054,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18900,
+    "testo": "Il segnale raffigurato è un segnale di obbligo",
+    "risposta_corretta": "FALSO",
+    "immagine": "77a40e39cc4b726c3f05d1759479cd9e",
+    "pagina_quiz": 388
+  },
+  {
+    "id_blocco": 4054,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18901,
+    "testo": "In presenza del segnale raffigurato è possibile effettuare l'inversione di marcia nel tratto in discesa",
+    "risposta_corretta": "FALSO",
+    "immagine": "77a40e39cc4b726c3f05d1759479cd9e",
+    "pagina_quiz": 388
+  },
+  {
+    "id_blocco": 4054,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18902,
+    "testo": "Il segnale raffigurato è un segnale di precedenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "77a40e39cc4b726c3f05d1759479cd9e",
+    "pagina_quiz": 388
+  }
+]

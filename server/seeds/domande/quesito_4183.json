@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4183,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20402,
+    "testo": "Il segnale raffigurato è posto in corrispondenza della fine del percorso unico pedonale e ciclabile",
+    "risposta_corretta": "VERO",
+    "immagine": "9510aebd8012b8dbd573ed72e2ad9d54",
+    "pagina_quiz": 380
+  },
+  {
+    "id_blocco": 4183,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20404,
+    "testo": "Il segnale raffigurato è posto in corrispondenza della fine del percorso riservato alla circolazione mista di pedoni e di ciclisti",
+    "risposta_corretta": "VERO",
+    "immagine": "9510aebd8012b8dbd573ed72e2ad9d54",
+    "pagina_quiz": 380
+  },
+  {
+    "id_blocco": 4183,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20405,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un percorso riservato ai pedoni e alle biciclette",
+    "risposta_corretta": "FALSO",
+    "immagine": "9510aebd8012b8dbd573ed72e2ad9d54",
+    "pagina_quiz": 381
+  },
+  {
+    "id_blocco": 4183,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20406,
+    "testo": "Il segnale raffigurato è posto in corrispondenza della fine della sola pista ciclabile",
+    "risposta_corretta": "FALSO",
+    "immagine": "9510aebd8012b8dbd573ed72e2ad9d54",
+    "pagina_quiz": 381
+  },
+  {
+    "id_blocco": 4183,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20407,
+    "testo": "Il segnale raffigurato vieta il transito delle biciclette condotte a mano",
+    "risposta_corretta": "FALSO",
+    "immagine": "9510aebd8012b8dbd573ed72e2ad9d54",
+    "pagina_quiz": 381
+  },
+  {
+    "id_blocco": 4183,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20408,
+    "testo": "Il segnale raffigurato è posto in corrispondenza della fine del solo percorso pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "9510aebd8012b8dbd573ed72e2ad9d54",
+    "pagina_quiz": 381
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4488,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23387,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo T transita per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "edb575872ce916cffb6bea8ee2a9735a",
+    "pagina_quiz": 128
+  },
+  {
+    "id_blocco": 4488,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23388,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita subito dopo il veicolo T",
+    "risposta_corretta": "VERO",
+    "immagine": "edb575872ce916cffb6bea8ee2a9735a",
+    "pagina_quiz": 128
+  },
+  {
+    "id_blocco": 4488,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23389,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo S deve attendere il transito dei veicoli T e A",
+    "risposta_corretta": "VERO",
+    "immagine": "edb575872ce916cffb6bea8ee2a9735a",
+    "pagina_quiz": 128
+  },
+  {
+    "id_blocco": 4488,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23390,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono tra nsitare nel seguente ordine: T, A, S",
+    "risposta_corretta": "VERO",
+    "immagine": "edb575872ce916cffb6bea8ee2a9735a",
+    "pagina_quiz": 128
+  },
+  {
+    "id_blocco": 4488,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23391,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo A transita per primo",
+    "risposta_corretta": "FALSO",
+    "immagine": "edb575872ce916cffb6bea8ee2a9735a",
+    "pagina_quiz": 128
+  },
+  {
+    "id_blocco": 4488,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23392,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono tra nsitare nel seguente ordine: A, T, S",
+    "risposta_corretta": "FALSO",
+    "immagine": "edb575872ce916cffb6bea8ee2a9735a",
+    "pagina_quiz": 128
+  },
+  {
+    "id_blocco": 4488,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23393,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura il veicolo S transita dopo il veicolo T, ma prima del veicolo A",
+    "risposta_corretta": "FALSO",
+    "immagine": "edb575872ce916cffb6bea8ee2a9735a",
+    "pagina_quiz": 128
+  },
+  {
+    "id_blocco": 4488,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23394,
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli A e S tra nsitano contemporaneamente dopo il passaggio del veicolo T",
+    "risposta_corretta": "FALSO",
+    "immagine": "edb575872ce916cffb6bea8ee2a9735a",
+    "pagina_quiz": 128
+  }
+]

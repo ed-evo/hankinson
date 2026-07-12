@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4442,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22977,
+    "testo": "Il c onducente di un motociclo che parte dal margine della carreggiata e si immette nel flusso della circolazione deve indossare ed allacciare il casco",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 519
+  },
+  {
+    "id_blocco": 4442,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22978,
+    "testo": "Il c onducente di un autoveicolo che parte dal margine della carreggiata e si immette nel flusso della circolazione deve allacciare la cintura di sicurezza salvo c he non sia esentato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 519
+  },
+  {
+    "id_blocco": 4442,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22979,
+    "testo": "Il c onducente di un motociclo che parte dal margine della carreggiata e si immette nel flusso della circolazione deve accendere il proiettore anabbagliante",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 519
+  },
+  {
+    "id_blocco": 4442,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22980,
+    "testo": "Il c onducente che parte dal margine della carreggiata e si immette nel flusso della circolazione deve accertarsi che la strada sia libera, guardando anche negli specchietti retrovisori",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 519
+  },
+  {
+    "id_blocco": 4442,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22981,
+    "testo": "Il c onducente che parte dal margine della carreggiata e si immette nel flusso della circolazione può allacciare la cintura di sicurezza dopo avere concluso tale manovra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 519
+  },
+  {
+    "id_blocco": 4442,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22982,
+    "testo": "Il motociclista che parte dal margine della carreggiata e si immette nel flusso della circolazione può indossare il casco dopo avere concluso tale manovra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 519
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19794,
+    "testo": "Il segnale raffigurato s i riferisce ai veicoli anche se sprovvisti di motore",
+    "risposta_corretta": "VERO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 294
+  },
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19795,
+    "testo": "Il segnale raffigurato può trovarsi prima di una strettoia",
+    "risposta_corretta": "VERO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 294
+  },
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19796,
+    "testo": "Il segnale raffigurato è posto sulle strade sia urbane che extraurbane",
+    "risposta_corretta": "VERO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 295
+  },
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19797,
+    "testo": "Il segnale raffigurato indica la larghezza massima dei veicoli ammessi al tra nsito",
+    "risposta_corretta": "VERO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 295
+  },
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19798,
+    "testo": "In presenza del segnale raffigurato è consentito il transito di autotreni larghi 2,30 metri",
+    "risposta_corretta": "VERO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 295
+  },
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19799,
+    "testo": "Il segnale raffigurato s i riferisce a tutti i veicoli di larghezza superiore a 2,30 metri",
+    "risposta_corretta": "VERO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 295
+  },
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19800,
+    "testo": "Il segnale raffigurato indica la distanza minima di sicurezza tra due autoveicoli in transito su quella strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 295
+  },
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19801,
+    "testo": "In presenza del segnale raffigurato i veicoli a trazione animale larghi più di 2,30 m possono transitare",
+    "risposta_corretta": "FALSO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 295
+  },
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19802,
+    "testo": "Il segnale raffigurato è un divieto che non riguarda gli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 295
+  },
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19803,
+    "testo": "Il segnale raffigurato indica la larghezza di una strettoia",
+    "risposta_corretta": "FALSO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 295
+  },
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19804,
+    "testo": "Il segnale raffigurato è relativo al rimorchio, ma non alla motrice",
+    "risposta_corretta": "FALSO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 295
+  },
+  {
+    "id_blocco": 4129,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19805,
+    "testo": "Il segnale raffigurato indica una strada larga 2,30 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "fc210680f70df08dec3a4c059858f5fe",
+    "pagina_quiz": 296
+  }
+]

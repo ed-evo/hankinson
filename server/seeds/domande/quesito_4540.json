@@ -1,0 +1,38 @@
+[
+  {
+    "id_blocco": 4540,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23878,
+    "testo": "Durante la marcia sulle autostrade e strade extraurbane principali è obbligatorio l'uso dei proiettori anabbaglianti anche di giorno",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 537
+  },
+  {
+    "id_blocco": 4540,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23879,
+    "testo": "Durante la marcia sulle autostrade e strade extraurbane principali l'uso dei proie ttori anabbaglianti è facoltativo in condizioni di perfetta visibilità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 537
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id_blocco": 4637,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24829,
+    "testo": "E' necessario che trascorrano alcune ore affinché un conducente che abbia assunto una quantità eccessiva di bevande alcoliche recuperi l'idoneità alla guida",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4637,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24830,
+    "testo": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche non può recuperare velocemente l'idoneità alla guida, specie se ha assunto anche dei farmaci",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4637,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24831,
+    "testo": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche può recuperare velocemente l'idoneità alla guida se assume cibi piuttosto sala ti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  },
+  {
+    "id_blocco": 4637,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24832,
+    "testo": "Un conducente che ha assunto una quantità eccessiva di bevande alcoliche può recuperare velocemente l'idoneità alla guida se assume caffè amaro",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 570
+  }
+]

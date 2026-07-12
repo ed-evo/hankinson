@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4373,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22261,
+    "testo": "Il segnale in figura consente l'accesso solo agli autobus",
+    "risposta_corretta": "VERO",
+    "immagine": "8f0111b381f8e798ce53a72e1cce2741",
+    "pagina_quiz": 490
+  },
+  {
+    "id_blocco": 4373,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22262,
+    "testo": "Il segnale in figura permette di transitare solo agli autobus",
+    "risposta_corretta": "VERO",
+    "immagine": "b48111d338ed367bc117a752f3c07843",
+    "pagina_quiz": 490
+  },
+  {
+    "id_blocco": 4373,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22263,
+    "testo": "Il segnale in figura indica che possono parcheggiare tutti i veicoli tranne gli autobus",
+    "risposta_corretta": "VERO",
+    "immagine": "1be11362c0754f9b56831550a3f61ec1",
+    "pagina_quiz": 491
+  },
+  {
+    "id_blocco": 4373,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22264,
+    "testo": "Il pa nnell o integrativo in figura può essere abbinato ad un segnale di obbligo",
+    "risposta_corretta": "VERO",
+    "immagine": "fda8b4efac0220fb14dde65da7fdcecc",
+    "pagina_quiz": 491
+  },
+  {
+    "id_blocco": 4373,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22265,
+    "testo": "Il pa nnell o integrativo in figura può essere abbinato ad un segnale di divieto",
+    "risposta_corretta": "VERO",
+    "immagine": "fda8b4efac0220fb14dde65da7fdcecc",
+    "pagina_quiz": 491
+  },
+  {
+    "id_blocco": 4373,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22266,
+    "testo": "Il segnale in figura vieta l'accesso agli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "8f0111b381f8e798ce53a72e1cce2741",
+    "pagina_quiz": 491
+  },
+  {
+    "id_blocco": 4373,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22267,
+    "testo": "Il segnale in figura vieta il transito agli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "b48111d338ed367bc117a752f3c07843",
+    "pagina_quiz": 491
+  },
+  {
+    "id_blocco": 4373,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22268,
+    "testo": "Il pa nnell o integrativo in figura può trovarsi da solo",
+    "risposta_corretta": "FALSO",
+    "immagine": "fda8b4efac0220fb14dde65da7fdcecc",
+    "pagina_quiz": 491
+  },
+  {
+    "id_blocco": 4373,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22269,
+    "testo": "Il pa nnell o integrativo in figura vale solo per gli autobus urbani",
+    "risposta_corretta": "FALSO",
+    "immagine": "fda8b4efac0220fb14dde65da7fdcecc",
+    "pagina_quiz": 491
+  }
+]

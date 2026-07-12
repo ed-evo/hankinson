@@ -1,0 +1,114 @@
+[
+  {
+    "id_blocco": 4038,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18702,
+    "testo": "Sulle strade è vietato gareggiare in velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 461
+  },
+  {
+    "id_blocco": 4038,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18703,
+    "testo": "Il c onducente che partecipa a gare di velocità non autorizzate su aree pubbliche è punito con la reclusione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 461
+  },
+  {
+    "id_blocco": 4038,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18704,
+    "testo": "E' punito con la reclusione il conducente che gareggia in velocità su strade pubbliche",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 461
+  },
+  {
+    "id_blocco": 4038,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18705,
+    "testo": "E' punito con la reclusione chi scommette su veicoli che partecipano a gare di velocità non autorizzate su strade pubbliche",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 461
+  },
+  {
+    "id_blocco": 4038,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18706,
+    "testo": "Le competizioni sportive con veicoli su aree pubbliche sono consentite senza autorizzazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 461
+  },
+  {
+    "id_blocco": 4038,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18707,
+    "testo": "Sulle strade pubbliche sono consentite le gare di velocità, anche se non autorizzate, dalle ore 23.00 alle ore 6.00",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 461
+  },
+  {
+    "id_blocco": 4038,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18708,
+    "testo": "Sono consentite le gare di velocità, anche se non autorizzate, purché part ecipino solo due autovetture",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 461
+  },
+  {
+    "id_blocco": 4038,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18709,
+    "testo": "Sulle strade pubbliche sono consentite le gare di velocità, anche se non autorizzate, t ra motocicli e non tra autoveicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 461
+  }
+]

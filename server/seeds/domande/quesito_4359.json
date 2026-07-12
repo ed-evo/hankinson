@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4359,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22114,
+    "testo": "Il pa nnell o integrativo raffigurato invita a rallentare a causa di un incidente",
+    "risposta_corretta": "VERO",
+    "immagine": "e11f357a1c1fed89487195de187be943",
+    "pagina_quiz": 5
+  },
+  {
+    "id_blocco": 4359,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22115,
+    "testo": "Il pa nnell o integrativo raffigurato indica veicoli incidentati sulla carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "e11f357a1c1fed89487195de187be943",
+    "pagina_quiz": 5
+  },
+  {
+    "id_blocco": 4359,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22116,
+    "testo": "Il pa nnell o integrativo raffigurato segnala che la carreggiata è occupata da veicoli incidentati",
+    "risposta_corretta": "VERO",
+    "immagine": "e11f357a1c1fed89487195de187be943",
+    "pagina_quiz": 6
+  },
+  {
+    "id_blocco": 4359,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22117,
+    "testo": "Il pa nnell o integrativo raffigurato segnala un incidente stradale e che quindi occorre diminuire la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "e11f357a1c1fed89487195de187be943",
+    "pagina_quiz": 6
+  },
+  {
+    "id_blocco": 4359,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22118,
+    "testo": "Il pa nnell o integrativo raffigurato indica una strada sdrucciolevole",
+    "risposta_corretta": "FALSO",
+    "immagine": "e11f357a1c1fed89487195de187be943",
+    "pagina_quiz": 6
+  },
+  {
+    "id_blocco": 4359,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22119,
+    "testo": "Il pa nnell o integrativo raffigurato indica di fermarsi e dare la precedenza a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "e11f357a1c1fed89487195de187be943",
+    "pagina_quiz": 6
+  },
+  {
+    "id_blocco": 4359,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22120,
+    "testo": "Il pa nnell o integrativo raffigurato si trova solo se l'incidente è avvenuto in autostrada",
+    "risposta_corretta": "FALSO",
+    "immagine": "e11f357a1c1fed89487195de187be943",
+    "pagina_quiz": 6
+  },
+  {
+    "id_blocco": 4359,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22121,
+    "testo": "Il pa nnell o integrativo raffigurato indica un divieto di sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": "e11f357a1c1fed89487195de187be943",
+    "pagina_quiz": 6
+  },
+  {
+    "id_blocco": 4359,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22122,
+    "testo": "Il pa nnell o integrativo raffigurato preavvisa la presenza di un garage per veicoli incidentati",
+    "risposta_corretta": "FALSO",
+    "immagine": "e11f357a1c1fed89487195de187be943",
+    "pagina_quiz": 6
+  },
+  {
+    "id_blocco": 4359,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22123,
+    "testo": "Il pa nnell o integrativo raffigurato indica di accendere le luci per evitare incidenti",
+    "risposta_corretta": "FALSO",
+    "immagine": "e11f357a1c1fed89487195de187be943",
+    "pagina_quiz": 6
+  }
+]

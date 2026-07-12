@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23556,
+    "testo": "Il sorpasso in prossimità di un dosso è consentito sulle strade a senso unico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23557,
+    "testo": "Il sorpasso in prossimità di un dosso è consentito sulle carreggiate a senso unico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23558,
+    "testo": "Il sorpasso in prossimità di un dosso è consentito sulle strade a due corsie per senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23559,
+    "testo": "Il sorpasso in prossimità di un dosso è consentito sulle strade a due carreggiate separate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23560,
+    "testo": "E'vietato sorpassare accodandosi ad un'ambulanza in servizio di emergenza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23562,
+    "testo": "Su carreggiate a due corsie e a doppio senso in prossimità di un dosso, è consent ito sorpassare veicoli a trazione animale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23563,
+    "testo": "Su carreggiate a due corsie a doppio senso di marcia in prossimità di un dosso, è consentito sorpassare nella scia del veicolo che precede",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23564,
+    "testo": "In prossimità di un dosso è consentito invadere l'opposta semicarreggiata, per sorpassare autobus di linea fermi per la salita e discesa dei passeggeri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23565,
+    "testo": "Non si può sorpassare in corrispondenza dei dossi su carreggiata a senso unico a due corsie",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23566,
+    "testo": "Non si può sorpassare un veicolo che abbia segnalato l'intenzione di accostarsi al margine des tro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23567,
+    "testo": "Non si può sorpassare in corrispondenza dell'uscita di un pubblico parcheggio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23568,
+    "testo": "E' vietato il sorpasso se alla sinistra del veicolo si trova una linea bianca discontinua a ffiancata da una continua",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4502,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23569,
+    "testo": "Non si può sorpassare sulla destra il tram che marcia al centro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  }
+]

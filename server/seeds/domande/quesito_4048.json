@@ -1,0 +1,100 @@
+[
+  {
+    "id_blocco": 4048,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18823,
+    "testo": "Il c onducente , in vicinanza di un posteggio riservato ai taxi, deve rallentare ed eventualmente fermarsi se vi sono pedoni che attraversano la strada, senza guardare",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4048,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18824,
+    "testo": "Il c onducente , in vicinanza di un posteggio riservato ai taxi, deve fare attenzione ai pedoni che salgono o scendono dal taxi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4048,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18825,
+    "testo": "Il c onducente di un veicolo diverso dai taxi non può sostare nei posteggi riservati ai taxi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4048,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18826,
+    "testo": "Il c onducente , in vicinanza di un posteggio riservato ai taxi, deve fare attenzione ai pedoni, che possono attraversare improvvisamente la strada senza le dovute precauzioni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4048,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18827,
+    "testo": "Il c onducente , in vicinanza di un posteggio riservato ai taxi, deve dare la precedenza ai taxi che s'immettono sulla strada",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4048,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18828,
+    "testo": "Il c onducente , in vicinanza di un posteggio riservato ai taxi, deve dare la precedenza ai taxi in partenza, qualora s'immettano dal lato sinistro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 466
+  },
+  {
+    "id_blocco": 4048,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18829,
+    "testo": "Il c onducente di un veicolo diverso dai taxi può sostare nei posteggi riservati ai taxi dalle ore 20.00 alle ore 8.00",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 466
+  }
+]

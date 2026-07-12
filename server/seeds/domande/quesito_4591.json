@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4591,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24301,
+    "testo": "Il simbolo raffigurato è posto su una spia di colore rosso",
+    "risposta_corretta": "VERO",
+    "immagine": "7ddd91f6c3fc7ef9f36722f849d5a624",
+    "pagina_quiz": 353
+  },
+  {
+    "id_blocco": 4591,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24302,
+    "testo": "Il simbolo raffigurato, contrassegna la spia di funzionamento difettoso di una parte del l'impianto frenante",
+    "risposta_corretta": "VERO",
+    "immagine": "7ddd91f6c3fc7ef9f36722f849d5a624",
+    "pagina_quiz": 354
+  },
+  {
+    "id_blocco": 4591,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24303,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, può segnalare una eccessiva usura delle guarnizioni degli elementi frenanti",
+    "risposta_corretta": "VERO",
+    "immagine": "7ddd91f6c3fc7ef9f36722f849d5a624",
+    "pagina_quiz": 354
+  },
+  {
+    "id_blocco": 4591,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24304,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, può segnalare lo scarso livello del liquido idraulico dei freni",
+    "risposta_corretta": "VERO",
+    "immagine": "7ddd91f6c3fc7ef9f36722f849d5a624",
+    "pagina_quiz": 354
+  },
+  {
+    "id_blocco": 4591,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24305,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, comporta di provvedere rapidamente a una manutenzione o riparazione dell'impianto frenante",
+    "risposta_corretta": "VERO",
+    "immagine": "7ddd91f6c3fc7ef9f36722f849d5a624",
+    "pagina_quiz": 354
+  },
+  {
+    "id_blocco": 4591,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24306,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, segnala che la centralina elettronica è fuori uso",
+    "risposta_corretta": "FALSO",
+    "immagine": "7ddd91f6c3fc7ef9f36722f849d5a624",
+    "pagina_quiz": 354
+  },
+  {
+    "id_blocco": 4591,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24307,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che occorre effettuare il tagliando periodico previ sto dalla casa costruttrice entro 500 chilometri",
+    "risposta_corretta": "FALSO",
+    "immagine": "7ddd91f6c3fc7ef9f36722f849d5a624",
+    "pagina_quiz": 354
+  },
+  {
+    "id_blocco": 4591,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24308,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che occorre effettuare la revisione periodica di legge entro un mese",
+    "risposta_corretta": "FALSO",
+    "immagine": "7ddd91f6c3fc7ef9f36722f849d5a624",
+    "pagina_quiz": 354
+  },
+  {
+    "id_blocco": 4591,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24309,
+    "testo": "Il simbolo raffigurato individua il luogo ove è riposto l'estintore di bordo",
+    "risposta_corretta": "FALSO",
+    "immagine": "7ddd91f6c3fc7ef9f36722f849d5a624",
+    "pagina_quiz": 354
+  },
+  {
+    "id_blocco": 4591,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24310,
+    "testo": "Il simbolo raffigurato individua una parte dell'impianto elettrico dove si trova alt a tensione",
+    "risposta_corretta": "FALSO",
+    "immagine": "7ddd91f6c3fc7ef9f36722f849d5a624",
+    "pagina_quiz": 354
+  },
+  {
+    "id_blocco": 4591,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24311,
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, segnala portiere aperte o chiuse non correttamente",
+    "risposta_corretta": "FALSO",
+    "immagine": "7ddd91f6c3fc7ef9f36722f849d5a624",
+    "pagina_quiz": 355
+  }
+]

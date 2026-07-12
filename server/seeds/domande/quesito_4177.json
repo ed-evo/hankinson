@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4177,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20349,
+    "testo": "Il segnale raffigurato è posto in corrispondenza della fine del percorso pedonale",
+    "risposta_corretta": "VERO",
+    "immagine": "125d99c6c74db6e107a78ba4749257ab",
+    "pagina_quiz": 374
+  },
+  {
+    "id_blocco": 4177,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20350,
+    "testo": "Il segnale raffigurato è posto in corrispondenza della fine del viale pedonale",
+    "risposta_corretta": "VERO",
+    "immagine": "125d99c6c74db6e107a78ba4749257ab",
+    "pagina_quiz": 374
+  },
+  {
+    "id_blocco": 4177,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20351,
+    "testo": "Il segnale raffigurato indica che da lì in poi i pedoni non circolano più su un percorso riservato",
+    "risposta_corretta": "VERO",
+    "immagine": "125d99c6c74db6e107a78ba4749257ab",
+    "pagina_quiz": 374
+  },
+  {
+    "id_blocco": 4177,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20352,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "125d99c6c74db6e107a78ba4749257ab",
+    "pagina_quiz": 374
+  },
+  {
+    "id_blocco": 4177,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20353,
+    "testo": "Il segnale raffigurato preannuncia un divieto di transito per i pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "125d99c6c74db6e107a78ba4749257ab",
+    "pagina_quiz": 374
+  },
+  {
+    "id_blocco": 4177,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20354,
+    "testo": "Il segnale raffigurato vieta ai pedoni di attraversare la strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "125d99c6c74db6e107a78ba4749257ab",
+    "pagina_quiz": 374
+  },
+  {
+    "id_blocco": 4177,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20355,
+    "testo": "Il segnale raffigurato preannuncia la fine di un'area vietata ai pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "125d99c6c74db6e107a78ba4749257ab",
+    "pagina_quiz": 375
+  }
+]

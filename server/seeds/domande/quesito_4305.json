@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4305,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21598,
+    "testo": "Il segnale raffigurato indica la presenza di un dispositivo da utilizzare in caso di richiesta di soccorso stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "917fd8b243dd1ff3cbbf6bd08550a3da",
+    "pagina_quiz": 62
+  },
+  {
+    "id_blocco": 4305,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21599,
+    "testo": "Il segnale raffigurato è posto su un dispositivo di chiamata per assistenza stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "917fd8b243dd1ff3cbbf6bd08550a3da",
+    "pagina_quiz": 62
+  },
+  {
+    "id_blocco": 4305,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21600,
+    "testo": "Il segnale raffigurato indica la presenza di un apparecchio per chiamare il soccorso stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "917fd8b243dd1ff3cbbf6bd08550a3da",
+    "pagina_quiz": 62
+  },
+  {
+    "id_blocco": 4305,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21601,
+    "testo": "Il segnale raffigurato indica una zona ospedaliera",
+    "risposta_corretta": "FALSO",
+    "immagine": "917fd8b243dd1ff3cbbf6bd08550a3da",
+    "pagina_quiz": 62
+  },
+  {
+    "id_blocco": 4305,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21602,
+    "testo": "Il segnale raffigurato indica la presenza di un telefono pubblico",
+    "risposta_corretta": "FALSO",
+    "immagine": "917fd8b243dd1ff3cbbf6bd08550a3da",
+    "pagina_quiz": 62
+  },
+  {
+    "id_blocco": 4305,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21603,
+    "testo": "Il segnale raffigurato indica un'area di sosta per ambulanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "917fd8b243dd1ff3cbbf6bd08550a3da",
+    "pagina_quiz": 62
+  },
+  {
+    "id_blocco": 4305,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21604,
+    "testo": "Il segnale raffigurato preavvisa una scuola secondaria statale",
+    "risposta_corretta": "FALSO",
+    "immagine": "917fd8b243dd1ff3cbbf6bd08550a3da",
+    "pagina_quiz": 63
+  }
+]

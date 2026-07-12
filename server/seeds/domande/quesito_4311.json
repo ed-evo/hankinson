@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4311,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21656,
+    "testo": "Il segnale raffigurato s i può trovare all'inizio di un ponte, di un viadotto o di un cavalcavia",
+    "risposta_corretta": "VERO",
+    "immagine": "8e024d9a123799792079a51d1bb306f5",
+    "pagina_quiz": 69
+  },
+  {
+    "id_blocco": 4311,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21657,
+    "testo": "Il segnale raffigurato può essere abbinato ad un pannello che indica la lunghezza del cavalcavia",
+    "risposta_corretta": "VERO",
+    "immagine": "8e024d9a123799792079a51d1bb306f5",
+    "pagina_quiz": 69
+  },
+  {
+    "id_blocco": 4311,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21658,
+    "testo": "Il segnale raffigurato invita a fare particolare attenzione in caso di forte vento",
+    "risposta_corretta": "VERO",
+    "immagine": "8e024d9a123799792079a51d1bb306f5",
+    "pagina_quiz": 69
+  },
+  {
+    "id_blocco": 4311,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21659,
+    "testo": "Il segnale raffigurato invita a tenere ben saldo lo sterzo per fronteggiare eventuali colpi di vento laterale",
+    "risposta_corretta": "VERO",
+    "immagine": "8e024d9a123799792079a51d1bb306f5",
+    "pagina_quiz": 69
+  },
+  {
+    "id_blocco": 4311,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21660,
+    "testo": "Il segnale raffigurato prescrive il divieto di sorpasso tra autoveicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "8e024d9a123799792079a51d1bb306f5",
+    "pagina_quiz": 69
+  },
+  {
+    "id_blocco": 4311,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21661,
+    "testo": "Il segnale raffigurato indica l'inizio di una galleria",
+    "risposta_corretta": "FALSO",
+    "immagine": "8e024d9a123799792079a51d1bb306f5",
+    "pagina_quiz": 70
+  },
+  {
+    "id_blocco": 4311,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21662,
+    "testo": "Il segnale raffigurato indica che si sta per transitare sotto un ponte",
+    "risposta_corretta": "FALSO",
+    "immagine": "8e024d9a123799792079a51d1bb306f5",
+    "pagina_quiz": 70
+  }
+]

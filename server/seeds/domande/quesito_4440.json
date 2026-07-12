@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4440,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22963,
+    "testo": "I conducenti devono attenersi alle segnalazioni di pericolo o alle prescrizioni che appaiono, con scritte luminose, sui veicoli della polizia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 518
+  },
+  {
+    "id_blocco": 4440,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22964,
+    "testo": "Se un'auto della polizia, con sirena in funzione, vi sorpassa ponendosi davanti e sul tetto ha un display con la scritta luminosa \"ACCOSTARE\", avete l'obbligo di arres tarvi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 519
+  },
+  {
+    "id_blocco": 4440,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22965,
+    "testo": "Se un'auto della polizia, con sirena in funzione, vi sorpassa ponendosi davanti e sul tetto ha un display con la scritta luminosa \"ALT POLIZIA\", solo voi avete l'obbligo di arrestarvi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 519
+  },
+  {
+    "id_blocco": 4440,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22966,
+    "testo": "Quando si vede sul tetto dell'auto della polizia un display con la scritta luminosa \"INCIDENTE\", bisogna diminuire la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 519
+  },
+  {
+    "id_blocco": 4440,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22967,
+    "testo": "Quando vedete sul tetto di un'auto della polizia un display con la scritta luminosa \"INCIDENTE\", significa che quella zona è ad alto rischio di incidenti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 519
+  },
+  {
+    "id_blocco": 4440,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22968,
+    "testo": "Se un'auto della polizia, con sirena in funzione, vi sorpassa ponendosi davanti e sul tetto ha un display con la scritta luminosa \"ACCOSTARE\", significa che avete l'obbligo di svoltare",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 519
+  },
+  {
+    "id_blocco": 4440,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22969,
+    "testo": "Se sul tetto di un'auto della polizia è presente un display con la scritta luminosa \"RAL LENTARE\", l'obbligo è rivolto ai soli veicoli pesanti.",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 519
+  }
+]

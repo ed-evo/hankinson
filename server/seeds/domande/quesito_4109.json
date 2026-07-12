@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19568,
+    "testo": "In presenza del segnale raffigurato è consentito sorpassare ciclomotori a due ruot e",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 270
+  },
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19569,
+    "testo": "In presenza del segnale raffigurato è consentito il sorpasso dei motocicli",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 270
+  },
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19570,
+    "testo": "Il segnale raffigurato consente il sorpasso delle biciclette",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 270
+  },
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19571,
+    "testo": "In presenza del segnale raffigurato è consentito il sorpasso dei veicoli sprovvisti di motore",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 270
+  },
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19572,
+    "testo": "In presenza del segnale raffigurato è consentito il sorpasso dei veicoli a braccia",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 270
+  },
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19573,
+    "testo": "In presenza del segnale raffigurato è consentito il sorpasso delle carrozze a cavalli",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 270
+  },
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19574,
+    "testo": "In presenza del segnale raffigurato è consentito il sorpasso degli autoveicoli a motore elettrico",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 271
+  },
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19575,
+    "testo": "Il segnale raffigurato preannuncia una strettoia",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 271
+  },
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19576,
+    "testo": "In presenza del segnale raffigurato è consentito il sorpasso delle macchine agri cole",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 271
+  },
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19577,
+    "testo": "In presenza del segnale raffigurato è consentito il sorpasso delle macchine operatrici",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 271
+  },
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19578,
+    "testo": "In presenza del segnale raffigurato è consentito il sorpasso dei veicoli a motore che procedono molto lentamente",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 271
+  },
+  {
+    "id_blocco": 4109,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19579,
+    "testo": "In presenza del segnale raffigurato è consentito il sorpasso dei veicoli che hanno segnalato l'intenzione di svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 271
+  }
+]

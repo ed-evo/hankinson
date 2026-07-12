@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4231,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20889,
+    "testo": "In una carreggiata a doppio senso di circolazione la striscia di mezzo può essere cont inua o discontinua (tratteggiata)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 468
+  },
+  {
+    "id_blocco": 4231,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20890,
+    "testo": "In una carreggiata a doppio senso di circolazione la striscia di mezzo, se discontinua (tratteggiata), può essere superata durante un sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 468
+  },
+  {
+    "id_blocco": 4231,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20891,
+    "testo": "In una carreggiata a doppio senso di circolazione la linea di mezzo può essere costituita da due strisce continue affiancate, come in figura",
+    "risposta_corretta": "VERO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 468
+  },
+  {
+    "id_blocco": 4231,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20892,
+    "testo": "In una carreggiata a doppio senso di circolazione la linea di mezzo se costituita da strisce continue, come in figura, consente il sorpasso senza superare le li nee",
+    "risposta_corretta": "VERO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 468
+  },
+  {
+    "id_blocco": 4231,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20893,
+    "testo": "Nella carreggiata a doppio senso di circolazione le strisce di mezzo in figura dividono i sensi di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "9452b305a54d3ce933cf84b3ec81361b",
+    "pagina_quiz": 468
+  },
+  {
+    "id_blocco": 4231,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20894,
+    "testo": "Nella carreggiata a doppio senso di circolazione la striscia di mezzo in figura, può essere superata con le sole ruote di sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "b43758bb9d85546a58f1d0a67f5b3b45",
+    "pagina_quiz": 468
+  },
+  {
+    "id_blocco": 4231,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20895,
+    "testo": "Nella carreggiata a doppio senso di circolazione come in figura la striscia di mezzo divide la strada in due carreggiate, ognuna a due corsie",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 468
+  }
+]

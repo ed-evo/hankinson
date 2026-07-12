@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4027,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18594,
+    "testo": "I caravan (roulottes ) sono rimorchi attrezzati per essere adibiti ad alloggio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 456
+  },
+  {
+    "id_blocco": 4027,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18595,
+    "testo": "I caravan (roulottes ) sono utilizzabili come alloggio solo con veicolo fermo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 456
+  },
+  {
+    "id_blocco": 4027,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18596,
+    "testo": "I caravan (roulottes ) sono muniti di targa",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 456
+  },
+  {
+    "id_blocco": 4027,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18597,
+    "testo": "E' possibile alloggiare nei caravan (roulottes) durante la circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 457
+  },
+  {
+    "id_blocco": 4027,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18598,
+    "testo": "I caravan (roulottes ) sono rimorchi destinati ai lavori agricoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 457
+  },
+  {
+    "id_blocco": 4027,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18599,
+    "testo": "I caravan (roulottes ) sono rimorchi destinati esclusivamente al trasporto di attrezzature turistiche e sportive",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 457
+  }
+]

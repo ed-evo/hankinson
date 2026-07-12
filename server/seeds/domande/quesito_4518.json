@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4518,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23710,
+    "testo": "Salvo diversa segnalazione il conducente, in caso di sosta nei centri abitati, deve collocare il veicolo il più vicino possibile al margine destro della carreggiata, parallelamente ad esso e secondo il senso di marcia, purché esista il marci apiede rialzato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4518,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23711,
+    "testo": "In caso di sosta ove non es ista marciapiede rialzato, il conducente deve lasc iare uno spazio non inferiore ad un metro per il transito dei pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4518,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23712,
+    "testo": "Fuori dei cent ri abitati, il conducente che deve sostare ha l'obbligo di collocare il veicolo, ove possibile, fuori della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4518,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23713,
+    "testo": "Fuori dei cent ri abitati, il conducente che deve sostare ha l'obbligo di collocare il veicolo fuori della carreggiata, ma non sulle piste ciclabili",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4518,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23714,
+    "testo": "Fuori dei cent ri abitati il conducente deve collocare il veicolo in sosta fuori della carreggiata, ma non sulle banchine, salvo diversa segnalazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4518,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23715,
+    "testo": "Fuori dei cent ri abitati, in caso di impossibilità a collocare il veicolo fuori della carreggiata, il conducente deve sostare il più vicino possibile al margine destro della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4518,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23716,
+    "testo": "In caso di sosta in un centro abitato, il conducente deve collocare il veicolo il più vicino possibile al margine destro della carreggiata, anche dove non esiste il marci apiede rialzato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4518,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23717,
+    "testo": "Fuori dei cent ri abitati, il conducente in caso di sosta deve collocare il veicolo fuori della carreggiata, eventualmente anche sulle piste ciclabili",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4518,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23718,
+    "testo": "Fuori dei cent ri abitati, in caso di impossibilità di collocare il veicolo fuori della carreggiata, il conducente non deve effettuare la sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 530
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19512,
+    "testo": "Il segnale raffigurato vieta la circolazione nei due sensi",
+    "risposta_corretta": "VERO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 261
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19513,
+    "testo": "Il segnale raffigurato vieta il transito a tutti i veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 261
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19514,
+    "testo": "Il segnale raffigurato vieta la circolazione ai quadricicli a motore",
+    "risposta_corretta": "VERO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 262
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19515,
+    "testo": "Il segnale raffigurato è posto su entrambi gli accessi della strada",
+    "risposta_corretta": "VERO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 262
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19516,
+    "testo": "Il segnale raffigurato vieta il transito agli autocarri",
+    "risposta_corretta": "VERO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 262
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19517,
+    "testo": "Il segnale raffigurato può avere validità limitata nel tempo, indicata in un pannello integrativo",
+    "risposta_corretta": "VERO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 262
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19518,
+    "testo": "Il segnale raffigurato consente il transito ai pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 262
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19519,
+    "testo": "Il segnale raffigurato vieta la circolazione ai ciclomotori",
+    "risposta_corretta": "VERO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 262
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19520,
+    "testo": "Il segnale raffigurato è un DIVIETO DI TRANSITO",
+    "risposta_corretta": "VERO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 262
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19521,
+    "testo": "Il segnale raffigurato consente il transito alle biciclette",
+    "risposta_corretta": "FALSO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 262
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19522,
+    "testo": "Il segnale raffigurato vieta il transito unicamente ai veicoli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 262
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19523,
+    "testo": "Il segnale raffigurato consente, di norma, di entrare nella strada per effettuare la sosta e le operazioni di carico e scarico",
+    "risposta_corretta": "FALSO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 263
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19524,
+    "testo": "Il segnale raffigurato non consente l'ingresso, ma solo l'uscita dalla strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 263
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19525,
+    "testo": "Il segnale raffigurato indica che la circolazione è a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 263
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19526,
+    "testo": "Il segnale raffigurato consente il transito alle autovetture con motore elettrico",
+    "risposta_corretta": "FALSO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 263
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19527,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 263
+  },
+  {
+    "id_blocco": 4105,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19528,
+    "testo": "Il segnale raffigurato, s e barrato in rosso, indica la fine del divieto",
+    "risposta_corretta": "FALSO",
+    "immagine": "fbde6a78154edc681ee7715bad203441",
+    "pagina_quiz": 263
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4031,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18637,
+    "testo": "Gli autoveicoli sono veicoli a motore con almeno quattro ruote, esclusi i quadri cicli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4031,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18638,
+    "testo": "L'autovei colo è un veicolo a motore con non meno di quattro ruote, eccetto i quadrici cli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4031,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18639,
+    "testo": "L'autobus viene classificato autoveicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4031,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18640,
+    "testo": "L'autocarro è un autoveicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 458
+  },
+  {
+    "id_blocco": 4031,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18641,
+    "testo": "I quadricicli non sono autoveicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 459
+  },
+  {
+    "id_blocco": 4031,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18642,
+    "testo": "Gli autoveicoli sono tutti i veicoli a motore con quattro o più ruote, compresi i quadricicli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 459
+  },
+  {
+    "id_blocco": 4031,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18643,
+    "testo": "Gli autoveicoli sono tutti i veicoli con almeno due ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 459
+  },
+  {
+    "id_blocco": 4031,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18644,
+    "testo": "Gli autoveicoli sono tutti i veicoli con almeno quattro ruote, compresi quelli senz a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 459
+  },
+  {
+    "id_blocco": 4031,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18645,
+    "testo": "Il triciclo a motore è un autoveicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 459
+  },
+  {
+    "id_blocco": 4031,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18646,
+    "testo": "L'autovei colo è un qualunque veicolo a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 459
+  },
+  {
+    "id_blocco": 4031,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18647,
+    "testo": "L'autovei colo è un qualunque veicolo adibito al trasporto di merce",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 459
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4645,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24877,
+    "testo": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna tamponare la ferita e chiamare subito i soccorsi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4645,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24878,
+    "testo": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve tamponare subito la ferita, facendo pressione con del materiale pulito o possibilmente sterile",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4645,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24879,
+    "testo": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna cercare di arrestare la fuoriuscita del sangue",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4645,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24880,
+    "testo": "Se un infortunato della strada ha un'abbondante emorragia esterna è opportuno, se possibile, mettere il ferito in posizione seduta o sdraiata, in attesa che arrivino i soccorsi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4645,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24881,
+    "testo": "Se un infortunato della strada ha un'abbondante emorragia esterna, bisogna solo medicare la ferita",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4645,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24882,
+    "testo": "Se un infortunato della strada ha un'abbondante emorragia esterna, si deve copri re la ferita e far camminare l'infortunato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4645,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24883,
+    "testo": "Se un infortunato della strada ha un'abbondante emorragia esterna non si può assolutamente dargli da bere acqua",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 572
+  }
+]

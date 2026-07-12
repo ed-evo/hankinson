@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4549,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23939,
+    "testo": "La sporgenza longitudinale del carico, fino ai 3/10 della lunghezza del veicolo, deve essere segnalata mediante uno o due pannelli quadrangolari in figura",
+    "risposta_corretta": "VERO",
+    "immagine": "cebd5604de2f733632998094cb590286",
+    "pagina_quiz": 539
+  },
+  {
+    "id_blocco": 4549,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23940,
+    "testo": "Il pa nnell o in figura deve essere applicato in ogni caso in cui il carico sporge posteriormente, anche se di poco",
+    "risposta_corretta": "VERO",
+    "immagine": "cebd5604de2f733632998094cb590286",
+    "pagina_quiz": 540
+  },
+  {
+    "id_blocco": 4549,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23941,
+    "testo": "Il pa nnell o in figura segnala carichi indivisibili che sporgono dalla parte posteriore del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "cebd5604de2f733632998094cb590286",
+    "pagina_quiz": 540
+  },
+  {
+    "id_blocco": 4549,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23942,
+    "testo": "Se il cari co sporge longitudinalmente per l'intera larghezza della parte posteriore del veicolo, i pannelli in figura devono essere due, posti tra sversalmente alle due estremità del carico",
+    "risposta_corretta": "VERO",
+    "immagine": "cebd5604de2f733632998094cb590286",
+    "pagina_quiz": 540
+  },
+  {
+    "id_blocco": 4549,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23943,
+    "testo": "La sporgenza longitudinale del carico, fino ai 3/10 della lunghezza del veicolo, deve essere segnalata mediante uno o due pannelli in figura",
+    "risposta_corretta": "FALSO",
+    "immagine": "87fd4191b69ff4e1eee00e1990b00418",
+    "pagina_quiz": 540
+  },
+  {
+    "id_blocco": 4549,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23944,
+    "testo": "Il pa nnell o in figura segnala carichi indivisibili che sporgono dalla parte posteriore destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "da5d3e67a29eb505cdd61ed330cdea4c",
+    "pagina_quiz": 540
+  },
+  {
+    "id_blocco": 4549,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23945,
+    "testo": "Se il cari co sporge longitudinalmente per l'intera larghezza della parte posteriore del veicolo, si devono applicare due pannelli retroriflettenti in figura",
+    "risposta_corretta": "FALSO",
+    "immagine": "be0079414cd418f3e275dd374130b3c6",
+    "pagina_quiz": 540
+  }
+]

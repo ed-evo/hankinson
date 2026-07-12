@@ -1,0 +1,182 @@
+[
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21135,
+    "testo": "I segnali luminosi in figura sono semafori di onda verde",
+    "risposta_corretta": "VERO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 147
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21136,
+    "testo": "Il semaforo in figura consiglia la velocità da mantenere, per trovare la luce verde al semaforo successivo",
+    "risposta_corretta": "VERO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 147
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21137,
+    "testo": "Il semaforo di onda verde in figura si trova su strade con più incroci dove vi sono semafori sincronizzati (temporizzati)",
+    "risposta_corretta": "VERO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 147
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21138,
+    "testo": "Il semaforo in figura segnala la velocità consigliata per poter usufruire dell'onda verde",
+    "risposta_corretta": "VERO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 147
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21139,
+    "testo": "Delle tre luci del semaforo in figura se ne accende soltanto una, mentre le altre sono spente",
+    "risposta_corretta": "VERO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 147
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21140,
+    "testo": "Il semaforo in figura obbliga a mantenere la velocità indicata",
+    "risposta_corretta": "FALSO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 147
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21141,
+    "testo": "Il semaforo in figura non consente di superare la velocità indicata",
+    "risposta_corretta": "FALSO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 147
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21142,
+    "testo": "Il semaforo in figura impone al conducente di mantenere dal veicolo che lo precede la distanza indicata",
+    "risposta_corretta": "FALSO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 148
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21143,
+    "testo": "Il semaforo in figura indica di procedere con prudenza.",
+    "risposta_corretta": "FALSO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 148
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21144,
+    "testo": "Il semaforo in figura, anche se spento, indica la velocità obbligatoria",
+    "risposta_corretta": "FALSO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 148
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21145,
+    "testo": "Il semaforo di onda verde in figura viene posto anche sulle autostrade",
+    "risposta_corretta": "FALSO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 148
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21146,
+    "testo": "Il semaforo di onda verde in figura riporta i limiti massimi di velocità delle autovettur e, motocicli e autocarri",
+    "risposta_corretta": "FALSO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 148
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21147,
+    "testo": "Il semaforo di onda verde in figura indica le velocità che devono obbligatoriamente rispettare alcuni veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 148
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21148,
+    "testo": "Il semaforo di onda verde in figura è un semaforo per lavori in corso",
+    "risposta_corretta": "FALSO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 148
+  },
+  {
+    "id_blocco": 4257,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21149,
+    "testo": "Il semaforo di onda verde in figura indica la distanza dai caselli autostradali",
+    "risposta_corretta": "FALSO",
+    "immagine": "db2b7fa24f44cf45dd290c6dc7291cb9",
+    "pagina_quiz": 148
+  }
+]

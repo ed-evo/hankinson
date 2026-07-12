@@ -1,0 +1,189 @@
+[
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19353,
+    "testo": "Il segnale raffigurato preannuncia lo sbocco della strada su una banchina portua le",
+    "risposta_corretta": "VERO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 211
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19354,
+    "testo": "Il segnale raffigurato preannuncia lo sbocco della strada su un molo",
+    "risposta_corretta": "VERO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 211
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19355,
+    "testo": "Il segnale raffigurato preannuncia lo sbocco della strada sull'argine di un fiume",
+    "risposta_corretta": "VERO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 211
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19356,
+    "testo": "Il segnale raffigurato preannuncia lo sbocco della strada sull'argine di un canale",
+    "risposta_corretta": "VERO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 211
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19357,
+    "testo": "In presenza del segnale raffigurato bisogna usare particolare prudenza, soprattutto di notte, per evitare di cadere in acqua",
+    "risposta_corretta": "VERO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 211
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19358,
+    "testo": "Il segnale raffigurato preannuncia il pericolo di caduta in acqua",
+    "risposta_corretta": "VERO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 211
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19359,
+    "testo": "In presenza del segnale raffigurato bisogna usare particolare prudenza se, nel trat to di strada che segue, si dovranno effettuare manovre di retromarcia",
+    "risposta_corretta": "VERO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 211
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19360,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 212
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19361,
+    "testo": "Il segnale raffigurato preannuncia un viadotto in costruzione",
+    "risposta_corretta": "FALSO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 212
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19362,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi in corrispondenza di un ponte mobile in manovra",
+    "risposta_corretta": "FALSO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 212
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19363,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada interrotto per alluvione",
+    "risposta_corretta": "FALSO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 212
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19364,
+    "testo": "Il segnale raffigurato preannuncia lo sbocco su un pont e mobile",
+    "risposta_corretta": "FALSO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 212
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19365,
+    "testo": "In presenza del segnale raffigurato bisogna usare particolare prudenza perché si incontra una discesa ripida",
+    "risposta_corretta": "FALSO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 212
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19366,
+    "testo": "Il segnale raffigurato preannuncia il pericolo di mareggiate",
+    "risposta_corretta": "FALSO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 212
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19367,
+    "testo": "Il segnale raffigurato preannuncia un'area attrezzata per il lavaggio dei veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 212
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19368,
+    "testo": "Il segnale raffigurato s i riferisce soltanto alle autovetture",
+    "risposta_corretta": "FALSO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 212
+  },
+  {
+    "id_blocco": 4092,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19369,
+    "testo": "Il segnale raffigurato non ha validità nei mesi estivi",
+    "risposta_corretta": "FALSO",
+    "immagine": "a8ad5623eb1559f20081cc1263908b79",
+    "pagina_quiz": 213
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4028,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18600,
+    "testo": "Le autocaravan (camper) sono veicoli aventi una speciale carrozzeria per essere adi biti al trasporto ed all'alloggio di persone",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 457
+  },
+  {
+    "id_blocco": 4028,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18601,
+    "testo": "Le autocaravan (camper) sono veicoli aventi una speciale carrozzeria per essere adi biti al trasporto ed all'alloggio al massimo del numero di persone indicato nella carta di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 457
+  },
+  {
+    "id_blocco": 4028,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18602,
+    "testo": "Le autocaravan (camper) sono veicoli attrezzati permanentemente per essere adi biti al trasporto ed all'alloggio di persone",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 457
+  },
+  {
+    "id_blocco": 4028,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18603,
+    "testo": "Le autocaravan sono soggette a revisione periodica",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 457
+  },
+  {
+    "id_blocco": 4028,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18604,
+    "testo": "Le autocaravan (camper) sono rimorchi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 457
+  },
+  {
+    "id_blocco": 4028,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18605,
+    "testo": "Le autocaravan (camper) sono veicoli destinati ai lavori agricoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 457
+  },
+  {
+    "id_blocco": 4028,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18606,
+    "testo": "Le autocaravan (camper) sono veicoli destinati alla costruzione e alla manutenzione di opere stradali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 457
+  },
+  {
+    "id_blocco": 4028,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18607,
+    "testo": "Sulle autocaravan (camper) è possibile viaggiare in piedi, solo per brevi tra tti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 457
+  },
+  {
+    "id_blocco": 4028,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18608,
+    "testo": "Le autocaravan sono soggette a revisione ogni cinque anni",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 457
+  }
+]

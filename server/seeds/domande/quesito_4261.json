@@ -1,0 +1,98 @@
+[
+  {
+    "id_blocco": 4261,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21176,
+    "testo": "La posizione del vigile con un braccio alzato come in figura equivale alla luce gialla fissa del semaforo",
+    "risposta_corretta": "VERO",
+    "immagine": "125f03bc48cba25667c0be2257dd80e3",
+    "pagina_quiz": 431
+  },
+  {
+    "id_blocco": 4261,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21177,
+    "testo": "Se il vigile ha un braccio alzato come in figura bisogna liberare velocemente l'incrocio, se già è stato impegnato",
+    "risposta_corretta": "VERO",
+    "immagine": "125f03bc48cba25667c0be2257dd80e3",
+    "pagina_quiz": 431
+  },
+  {
+    "id_blocco": 4261,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21178,
+    "testo": "Se il vigile ha un braccio alzato come in figura bisogna arrestarsi prima dell'incrocio, se è possibile farlo senza creare pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "125f03bc48cba25667c0be2257dd80e3",
+    "pagina_quiz": 431
+  },
+  {
+    "id_blocco": 4261,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21179,
+    "testo": "La posizione del vigile con un braccio alzato come in figura è una indicazione riservata solo ai veicoli che devono svolta re",
+    "risposta_corretta": "FALSO",
+    "immagine": "125f03bc48cba25667c0be2257dd80e3",
+    "pagina_quiz": 431
+  },
+  {
+    "id_blocco": 4261,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21180,
+    "testo": "Se il vigile ha un braccio alzato come in figura bisogna in ogni caso arrestarsi",
+    "risposta_corretta": "FALSO",
+    "immagine": "125f03bc48cba25667c0be2257dd80e3",
+    "pagina_quiz": 431
+  },
+  {
+    "id_blocco": 4261,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21181,
+    "testo": "Se il vigile ha un braccio alzato come in figura è consentito soltanto svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "125f03bc48cba25667c0be2257dd80e3",
+    "pagina_quiz": 431
+  },
+  {
+    "id_blocco": 4261,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21182,
+    "testo": "Se il vigile ha un braccio alzato come in figura bisogna rallentare solo se nell'incrocio vi sono binari del tram",
+    "risposta_corretta": "FALSO",
+    "immagine": "125f03bc48cba25667c0be2257dd80e3",
+    "pagina_quiz": 431
+  },
+  {
+    "id_blocco": 4261,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21183,
+    "testo": "La posizione del vigile con il braccio alzato come in figura equivale alla luce rossa de l semaforo",
+    "risposta_corretta": "FALSO",
+    "immagine": "125f03bc48cba25667c0be2257dd80e3",
+    "pagina_quiz": 431
+  }
+]

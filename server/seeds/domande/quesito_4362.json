@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4362,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22145,
+    "testo": "Il pa nnell o integrativo raffigurato indica una strada che in caso di forte pioggia si può allagare",
+    "risposta_corretta": "VERO",
+    "immagine": "9ea7baee038e71d7ed8d2fdd50cc4646",
+    "pagina_quiz": 485
+  },
+  {
+    "id_blocco": 4362,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22146,
+    "testo": "Il pa nnell o integrativo raffigurato indica che stiamo percorrendo un tratto di strada che può allagarsi in caso di forte pioggia",
+    "risposta_corretta": "VERO",
+    "immagine": "9ea7baee038e71d7ed8d2fdd50cc4646",
+    "pagina_quiz": 485
+  },
+  {
+    "id_blocco": 4362,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22147,
+    "testo": "Il segnale raffigurato indica che la strada si può allagare in caso di forte pioggia",
+    "risposta_corretta": "VERO",
+    "immagine": "70eea77a9125bb7d608304c1d2e29606",
+    "pagina_quiz": 485
+  },
+  {
+    "id_blocco": 4362,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22148,
+    "testo": "Il pa nnell o integrativo raffigurato indica il pericolo di allagamento della carreggiata in caso di pioggia o forte mareggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "9ea7baee038e71d7ed8d2fdd50cc4646",
+    "pagina_quiz": 485
+  },
+  {
+    "id_blocco": 4362,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22149,
+    "testo": "Il pa nnell o integrativo raffigurato indica una piscina nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ea7baee038e71d7ed8d2fdd50cc4646",
+    "pagina_quiz": 485
+  },
+  {
+    "id_blocco": 4362,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22150,
+    "testo": "Il pa nnell o integrativo raffigurato indica un tratto di strada coperto di neve",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ea7baee038e71d7ed8d2fdd50cc4646",
+    "pagina_quiz": 485
+  },
+  {
+    "id_blocco": 4362,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22151,
+    "testo": "Il pa nnell o integrativo raffigurato preavvisa una banchina cedevole",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ea7baee038e71d7ed8d2fdd50cc4646",
+    "pagina_quiz": 486
+  },
+  {
+    "id_blocco": 4362,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22152,
+    "testo": "Il pa nnell o integrativo raffigurato vieta il transito ai veicoli che trasportano prodotti che potrebbero inquinare l'acqua",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ea7baee038e71d7ed8d2fdd50cc4646",
+    "pagina_quiz": 486
+  },
+  {
+    "id_blocco": 4362,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22153,
+    "testo": "Il pa nnell o integrativo raffigurato indica un tratto di strada dove è possibile trova re nebbia",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ea7baee038e71d7ed8d2fdd50cc4646",
+    "pagina_quiz": 486
+  },
+  {
+    "id_blocco": 4362,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22154,
+    "testo": "Il pa nnell o integrativo raffigurato preavvisa la presenza di cordoli tra sversali di rallentamento (dossi artificiali)",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ea7baee038e71d7ed8d2fdd50cc4646",
+    "pagina_quiz": 486
+  }
+]

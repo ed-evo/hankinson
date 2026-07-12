@@ -1,0 +1,54 @@
+[
+  {
+    "id_blocco": 4577,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24183,
+    "testo": "La targa posteriore di un autoveicolo è illuminata per consentire una facile lettura dei ca ratteri che la compongono",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4577,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24184,
+    "testo": "La targa posteriore di un autoveicolo deve essere illuminata con una luce bianca",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4577,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24185,
+    "testo": "La luce della targa di un autoveicolo si deve accendere solo di notte",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4577,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24186,
+    "testo": "La luce della targa di un autoveicolo deve rimanere accesa se si sosta fuori dalla strada",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  }
+]

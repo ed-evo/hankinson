@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20203,
+    "testo": "Il segnale raffigurato consente solo di proseguire diritto o svoltare a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 361
+  },
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20204,
+    "testo": "Il segnale raffigurato non consente la svolta a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 362
+  },
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20205,
+    "testo": "Il segnale raffigurato obbliga a svoltare a sinistra o a proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 362
+  },
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20206,
+    "testo": "Il segnale raffigurato indica che non si deve svoltare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 362
+  },
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20207,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 362
+  },
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20208,
+    "testo": "Il segnale raffigurato s i trova anche fuori dei centri abitati",
+    "risposta_corretta": "VERO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 362
+  },
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20209,
+    "testo": "Il segnale raffigurato consente solo di proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 362
+  },
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20210,
+    "testo": "Il segnale raffigurato indica che è consentito soltanto svoltare a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 362
+  },
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20211,
+    "testo": "Il segnale raffigurato obbliga a passare a sinistra di un cantiere stradale",
+    "risposta_corretta": "FALSO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 362
+  },
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20212,
+    "testo": "Il segnale raffigurato consente di sorpassare a sinistra lo spartitraffico",
+    "risposta_corretta": "FALSO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 362
+  },
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20213,
+    "testo": "Il segnale raffigurato è un segnale di indicazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 363
+  },
+  {
+    "id_blocco": 4163,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20214,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "92d98106f0ae129dab0667c17a9e6a61",
+    "pagina_quiz": 363
+  }
+]

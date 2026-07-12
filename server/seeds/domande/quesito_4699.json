@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4699,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25256,
+    "testo": "Per la sostituzione di una ruota conviene stazionare il veicolo su un terreno oriz zontale e stabile",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4699,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25257,
+    "testo": "Prima di procedere alla sostituzione di una ruota, bisogna azionare il freno di staziona mento e inserire la prima marcia o la retromarcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4699,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25258,
+    "testo": "Prima di sollevare il veicolo per la sostituzione di una ruota, è conveniente allentare leggermente i bulloni di fissaggio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4699,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25259,
+    "testo": "Durante le operazioni di sostituzione di una ruota tramite il martinetto (cric), bisogna evitare di mettersi sotto il veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4699,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25260,
+    "testo": "Per sostituire una ruota, dopo aver sollevato il veicolo e inserito la ruota di scorta, bisogna stringere leggermente i bulloni a veicolo sollevato e completarne il bloccaggio solo dopo averlo abbassato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4699,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25261,
+    "testo": "In caso di foratura, prima di procedere alla sostituzione della ruota, è opportuno far scendere dal veicolo tutti i passeggeri, facendoli sistemare, per ragioni di sicurezza, fuori dalla carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4699,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25262,
+    "testo": "Per smontare una ruota da sostituire bisogna togliere i bulloni, prima di sollevare il veicolo con il martinetto (cric)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4699,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25263,
+    "testo": "Per smontare una ruota da sostituire bisogna fissare il martinetto (cric) in un punto qualsiasi del longherone del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4699,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25264,
+    "testo": "Per smontare una ruota bis ogna fissare il martinetto (cric) il più lontano possibile dalla ruota da sostituire",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4699,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25265,
+    "testo": "L'app licazione del \"ruotino\" (ruota di scorta di ridotte dimensioni), consent e di raggiungere la velocità di 120 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4699,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25266,
+    "testo": "Nei veicoli con il \"ruotino\" applicato (ruota di scorta di ridotte dimensioni) non è consentito trasportare passeggeri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 586
+  }
+]

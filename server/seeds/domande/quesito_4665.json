@@ -1,0 +1,80 @@
+[
+  {
+    "id_blocco": 4665,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25027,
+    "testo": "Il \"fondo di garanzia per le vittime della strada\" prevede il risarcimento dei danni arrecati alle persone da veicoli non coperti da assicurazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4665,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25028,
+    "testo": "Il \"fondo di garanzia per le vittime della strada\" prevede il risarcimento dei danni arrecati alle persone da veicoli non identificati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4665,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25029,
+    "testo": "Il \"fondo di garanzia per le vittime della strada\" garantisce un vitalizio al conducente infortunato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4665,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25030,
+    "testo": "Il \"fondo di garanzia per le vittime della strada\" è un premio per chi non ha provocato incidenti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4665,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25031,
+    "testo": "Il \"fondo di garanzia per le vittime della strada\" è una convenzione facoltativa",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4665,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25032,
+    "testo": "Il \"fondo di garanzia per le vittime della strada\" risarcisce i danni arrecati dai conducenti minorenni",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  }
+]

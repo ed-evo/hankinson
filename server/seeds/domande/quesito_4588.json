@@ -1,0 +1,132 @@
+[
+  {
+    "id_blocco": 4588,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24273,
+    "testo": "Il simbolo raffigurato è posto su una spia di colore rosso",
+    "risposta_corretta": "VERO",
+    "immagine": "14a02317e39ba75bcbf1188df815c4cd",
+    "pagina_quiz": 433
+  },
+  {
+    "id_blocco": 4588,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24274,
+    "testo": "Una spia accesa di colore rosso, contrassegnata dal simbolo di figura, indica un eccessivo riscaldamento del motore",
+    "risposta_corretta": "VERO",
+    "immagine": "14a02317e39ba75bcbf1188df815c4cd",
+    "pagina_quiz": 433
+  },
+  {
+    "id_blocco": 4588,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24275,
+    "testo": "Il simbolo raffigurato è collocato sulla spia che indica l'eccessiva temperatura del liquido di raffreddamento del motore",
+    "risposta_corretta": "VERO",
+    "immagine": "14a02317e39ba75bcbf1188df815c4cd",
+    "pagina_quiz": 433
+  },
+  {
+    "id_blocco": 4588,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24276,
+    "testo": "Il simbolo raffigurato è posto su una spia che, se accesa, indica che la temperatura del liquido di raffreddamento supera i limiti stabiliti dal costruttore",
+    "risposta_corretta": "VERO",
+    "immagine": "14a02317e39ba75bcbf1188df815c4cd",
+    "pagina_quiz": 433
+  },
+  {
+    "id_blocco": 4588,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24277,
+    "testo": "Il simbolo raffigurato è posto sulla spia che integra l'indicatore della temperatura del liquido di raffreddamento che circola nel motore",
+    "risposta_corretta": "VERO",
+    "immagine": "14a02317e39ba75bcbf1188df815c4cd",
+    "pagina_quiz": 434
+  },
+  {
+    "id_blocco": 4588,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24278,
+    "testo": "Il simbolo raffigurato individua il bocchettone del serbatoio del liquido tergicrist all i",
+    "risposta_corretta": "FALSO",
+    "immagine": "14a02317e39ba75bcbf1188df815c4cd",
+    "pagina_quiz": 434
+  },
+  {
+    "id_blocco": 4588,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24279,
+    "testo": "Il simbolo raffigurato è posto su una spia che segnala il livello del liquido di ra ffreddamento nel radiatore",
+    "risposta_corretta": "FALSO",
+    "immagine": "14a02317e39ba75bcbf1188df815c4cd",
+    "pagina_quiz": 434
+  },
+  {
+    "id_blocco": 4588,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24280,
+    "testo": "Il simbolo raffigurato è posto sulla spia luminosa che indica la temperatura dell'olio di lubrificazione del motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "14a02317e39ba75bcbf1188df815c4cd",
+    "pagina_quiz": 434
+  },
+  {
+    "id_blocco": 4588,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24281,
+    "testo": "Il simbolo raffigurato è posto sulla spia che individua l'indicatore della temperatura dell'olio che circola nel motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "14a02317e39ba75bcbf1188df815c4cd",
+    "pagina_quiz": 434
+  },
+  {
+    "id_blocco": 4588,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24282,
+    "testo": "Il simbolo raffigurato è posto su una spia che, se accesa, segnala l'eccessiva temperatura dell'olio di lubrificazione del cambio di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": "14a02317e39ba75bcbf1188df815c4cd",
+    "pagina_quiz": 434
+  }
+]

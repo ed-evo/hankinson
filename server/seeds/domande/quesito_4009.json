@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4009,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18404,
+    "testo": "Una zona a traffico limitato è un'area in cui può es sere limitata la circolazione dei veicoli solo in alcune ore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4009,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18405,
+    "testo": "Una zona a traffico limitato è un'area nella quale può essere limitata la circolazione solo di particolari categorie di veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4009,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18406,
+    "testo": "In una zona a traffico limitato possono circolare solo i veicoli autorizzati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4009,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18407,
+    "testo": "Una zona a traffico limitato è un'area nella quale può essere limitata la circolazione solo a particolari categorie di utenti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4009,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18408,
+    "testo": "Una zona a traffico limitato è delimitata da appositi segnali stradali di inizio e di fine",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4009,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18409,
+    "testo": "In una zona a traffico limitato non possono entrare più di un certo numero di veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4009,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18410,
+    "testo": "Una zona a traffico limitato è un'area nella quale è consentito solo il tra nsito di ciclomotori e biciclette",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4009,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18411,
+    "testo": "Una zona a traffico limitato è un'area sempre vietata al transito dei veicoli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4009,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18412,
+    "testo": "Una zona a traffico limitato è un'area vietata al transito dei pedoni durante le ore nott urne",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 451
+  }
+]

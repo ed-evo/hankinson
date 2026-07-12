@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4306,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21605,
+    "testo": "Il segnale raffigurato è posto all'inizio di una strada senza uscita per i veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "200351bc67f1cbc394aea09991968512",
+    "pagina_quiz": 63
+  },
+  {
+    "id_blocco": 4306,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21606,
+    "testo": "Il segnale raffigurato vale anche per i motocicli",
+    "risposta_corretta": "VERO",
+    "immagine": "200351bc67f1cbc394aea09991968512",
+    "pagina_quiz": 63
+  },
+  {
+    "id_blocco": 4306,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21607,
+    "testo": "Il segnale raffigurato indica una strada senza sbocco per i veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "200351bc67f1cbc394aea09991968512",
+    "pagina_quiz": 63
+  },
+  {
+    "id_blocco": 4306,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21608,
+    "testo": "Il segnale raffigurato vieta la sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": "200351bc67f1cbc394aea09991968512",
+    "pagina_quiz": 63
+  },
+  {
+    "id_blocco": 4306,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21609,
+    "testo": "Il segnale raffigurato preavvisa un incrocio a forma di \"T\"",
+    "risposta_corretta": "FALSO",
+    "immagine": "200351bc67f1cbc394aea09991968512",
+    "pagina_quiz": 63
+  },
+  {
+    "id_blocco": 4306,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21610,
+    "testo": "Il segnale raffigurato è posto in vicinanza di una tabaccheria",
+    "risposta_corretta": "FALSO",
+    "immagine": "200351bc67f1cbc394aea09991968512",
+    "pagina_quiz": 63
+  },
+  {
+    "id_blocco": 4306,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21611,
+    "testo": "Il segnale raffigurato indica lavori in corso",
+    "risposta_corretta": "FALSO",
+    "immagine": "200351bc67f1cbc394aea09991968512",
+    "pagina_quiz": 63
+  },
+  {
+    "id_blocco": 4306,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21612,
+    "testo": "Il segnale raffigurato vieta l'inversione di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "200351bc67f1cbc394aea09991968512",
+    "pagina_quiz": 64
+  },
+  {
+    "id_blocco": 4306,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21613,
+    "testo": "Il segnale raffigurato vieta di entrare anche ai pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "200351bc67f1cbc394aea09991968512",
+    "pagina_quiz": 64
+  }
+]

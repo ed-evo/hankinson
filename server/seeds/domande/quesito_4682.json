@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4682,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25143,
+    "testo": "Per limitare i consumi di carburante, conviene chiudere i finestrini se si viaggia a velocità medio alte, perché le turbolenze all'interno dell'abitacolo possono frenare la marcia del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4682,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25144,
+    "testo": "Per limitare i consumi di carburante non conviene fare uso del portapacchi, ma sistemare i bagagli all'interno del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4682,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25145,
+    "testo": "Viaggiare con uno spesso strato di neve sul tetto del veicolo, comporta un aumento dei consumi di carburante",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4682,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25146,
+    "testo": "Viaggiare a forte velocità con il tettuccio del veicolo aperto comporta un aumento dei consumi di carburante",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4682,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25147,
+    "testo": "In caso di ar resto prolungato in galleria, per la formazione di una fila di veicoli, è dannoso per la salute azionare il comando del ricircolo dell'aria all'interno del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4682,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25148,
+    "testo": "I vei coli che rispettano la normativa antinquinamento \"Euro 4\" emettono una quantità di gas inquinanti maggiore di quelli omologati secondo la norma tiva \"Euro 0\"",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 582
+  },
+  {
+    "id_blocco": 4682,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25149,
+    "testo": "Trainare un rimorchio non comporta un aumento dei consumi di carburante",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 582
+  }
+]

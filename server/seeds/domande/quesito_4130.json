@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4130,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19806,
+    "testo": "Il segnale raffigurato indica l'altezza massima, misurata dal piano stradale, dei veicoli che possono transitare",
+    "risposta_corretta": "VERO",
+    "immagine": "016a0bbce288af6879bd8c8e41bea0bf",
+    "pagina_quiz": 296
+  },
+  {
+    "id_blocco": 4130,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19807,
+    "testo": "Il segnale raffigurato vieta il transito degli autoveicoli con altezza, comprensiva del carico, superiore a 3,50 metri",
+    "risposta_corretta": "VERO",
+    "immagine": "016a0bbce288af6879bd8c8e41bea0bf",
+    "pagina_quiz": 296
+  },
+  {
+    "id_blocco": 4130,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19808,
+    "testo": "Il segnale raffigurato indica l'altezza massima dei veicoli ammessi al tra nsito",
+    "risposta_corretta": "VERO",
+    "immagine": "016a0bbce288af6879bd8c8e41bea0bf",
+    "pagina_quiz": 296
+  },
+  {
+    "id_blocco": 4130,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19809,
+    "testo": "In presenza del segnale raffigurato è consentito il transito di una macchina agri cola alta 3,50 metri",
+    "risposta_corretta": "VERO",
+    "immagine": "016a0bbce288af6879bd8c8e41bea0bf",
+    "pagina_quiz": 296
+  },
+  {
+    "id_blocco": 4130,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19810,
+    "testo": "Il segnale raffigurato può trovarsi sia nei centri abitati che fuori",
+    "risposta_corretta": "VERO",
+    "immagine": "016a0bbce288af6879bd8c8e41bea0bf",
+    "pagina_quiz": 296
+  },
+  {
+    "id_blocco": 4130,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19811,
+    "testo": "Il segnale raffigurato può trovarsi in un punto in cui la strada passa sotto un ponte",
+    "risposta_corretta": "VERO",
+    "immagine": "016a0bbce288af6879bd8c8e41bea0bf",
+    "pagina_quiz": 296
+  },
+  {
+    "id_blocco": 4130,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19812,
+    "testo": "Il segnale raffigurato vieta il transito degli autoveicoli di lunghezza superiore a 3,50 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "016a0bbce288af6879bd8c8e41bea0bf",
+    "pagina_quiz": 296
+  },
+  {
+    "id_blocco": 4130,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19813,
+    "testo": "Il segnale raffigurato indica un passaggio alto 3,50 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "016a0bbce288af6879bd8c8e41bea0bf",
+    "pagina_quiz": 297
+  },
+  {
+    "id_blocco": 4130,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19814,
+    "testo": "Il segnale raffigurato nei centri abitati vale soltanto dalle ore 8.00 alle ore 20.00",
+    "risposta_corretta": "FALSO",
+    "immagine": "016a0bbce288af6879bd8c8e41bea0bf",
+    "pagina_quiz": 297
+  },
+  {
+    "id_blocco": 4130,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19815,
+    "testo": "Il segnale raffigurato indica che possono passare gli autocarri con carico alto 3,50 metri dal piano del cassone",
+    "risposta_corretta": "FALSO",
+    "immagine": "016a0bbce288af6879bd8c8e41bea0bf",
+    "pagina_quiz": 297
+  },
+  {
+    "id_blocco": 4130,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19816,
+    "testo": "Il segnale raffigurato indica la distanza di sicurezza da tenere dal veicolo che precede",
+    "risposta_corretta": "FALSO",
+    "immagine": "016a0bbce288af6879bd8c8e41bea0bf",
+    "pagina_quiz": 297
+  }
+]

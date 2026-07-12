@@ -1,0 +1,98 @@
+[
+  {
+    "id_blocco": 4246,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21027,
+    "testo": "Il semaforo in figura può avere la luce bianca orizzontale accesa",
+    "risposta_corretta": "VERO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 157
+  },
+  {
+    "id_blocco": 4246,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21028,
+    "testo": "Il semaforo in figura può avere la luce bianca verticale accesa",
+    "risposta_corretta": "VERO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 157
+  },
+  {
+    "id_blocco": 4246,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21029,
+    "testo": "Il segnale luminoso in figura indica un semaforo per i veicoli di trasporto pubblico",
+    "risposta_corretta": "VERO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 157
+  },
+  {
+    "id_blocco": 4246,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21030,
+    "testo": "Il semaforo in figura è un semaforo pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 157
+  },
+  {
+    "id_blocco": 4246,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21031,
+    "testo": "Il semaforo in figura preannuncia lavori in corso",
+    "risposta_corretta": "FALSO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 157
+  },
+  {
+    "id_blocco": 4246,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21032,
+    "testo": "Il semaforo in figura indica i possibili scambi dei binari tranviari",
+    "risposta_corretta": "FALSO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 157
+  },
+  {
+    "id_blocco": 4246,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21033,
+    "testo": "Il semaforo in figura impone ai motocicli di rallentare quando è acceso il triangolo giallo",
+    "risposta_corretta": "FALSO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 158
+  },
+  {
+    "id_blocco": 4246,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21034,
+    "testo": "Il semaforo in figura vale per i veicoli con targa militare",
+    "risposta_corretta": "FALSO",
+    "immagine": "f826d5e22ebafa7ff4a643fb2cebeb7f",
+    "pagina_quiz": 158
+  }
+]

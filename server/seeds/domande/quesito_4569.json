@@ -1,0 +1,182 @@
+[
+  {
+    "id_blocco": 4569,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24127,
+    "testo": "Le parti meccaniche in movimento degli organi di traino di un autoveicolo e di un rimorchio devono essere mantenute pulite e adeguatamente lubrificate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4569,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24128,
+    "testo": "Gli orga ni di traino di un veicolo non devono presentare giochi, deformazioni o incrinature",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4569,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24129,
+    "testo": "Gli orga ni di traino di un veicolo devono consentire sufficienti oscillazioni in senso vert icale tra motrice e rimorchio, in modo da poter compensare le diverse inclinazioni dei veicoli dovute ai dislivelli stradali",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4569,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24130,
+    "testo": "Quando si traina un rimorchio occorre verificare che il carico verticale gravante sul gancio non ecceda il limite indicato dal costruttore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4569,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24131,
+    "testo": "Il c arico verticale massimo che può gravare sul gancio della motrice è indicato in un' apposita targhetta applicata sul gancio di traino",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4569,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24132,
+    "testo": "Gli orga ni di traino di un veicolo non necessitano di lubrificazione, ma devono essere periodicamente sgrassati con appositi detergenti o con benzina",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4569,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24133,
+    "testo": "Gli orga ni di traino di un veicolo possono non essere di tipo omologato, se destinati solo al traino di rimorchi leggeri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4569,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24134,
+    "testo": "Per pote r trainare un rimorchio leggero non occorre effettuare il collegamento elettrico fra motrice e rimorchio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4569,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24135,
+    "testo": "In caso di rottura degli organi di traino di un veicolo, gli stessi possono essere riparati tramite saldatura presso officina specializzata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4569,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24136,
+    "testo": "Per garantire una maggiore sicurezza durante la guida di un veicolo con rimorchio, è consigliabile concentrare il carico massimo in corrispondenza del gancio di traino",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 548
+  }
+]

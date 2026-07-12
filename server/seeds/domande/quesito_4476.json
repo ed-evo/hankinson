@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4476,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23318,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo T passa per ultimo",
+    "risposta_corretta": "VERO",
+    "immagine": "3a2a9f33095139a6bb1c46e732457df7",
+    "pagina_quiz": 123
+  },
+  {
+    "id_blocco": 4476,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23319,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo R passa per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "3a2a9f33095139a6bb1c46e732457df7",
+    "pagina_quiz": 123
+  },
+  {
+    "id_blocco": 4476,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23320,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo A deve attendere il tra nsito del veicolo R",
+    "risposta_corretta": "VERO",
+    "immagine": "3a2a9f33095139a6bb1c46e732457df7",
+    "pagina_quiz": 123
+  },
+  {
+    "id_blocco": 4476,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23321,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo T deve attendere il tra nsito dei veicoli R ed A",
+    "risposta_corretta": "VERO",
+    "immagine": "3a2a9f33095139a6bb1c46e732457df7",
+    "pagina_quiz": 123
+  },
+  {
+    "id_blocco": 4476,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23322,
+    "testo": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: R, A, T",
+    "risposta_corretta": "VERO",
+    "immagine": "3a2a9f33095139a6bb1c46e732457df7",
+    "pagina_quiz": 124
+  },
+  {
+    "id_blocco": 4476,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23323,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo T transita prima del veicolo R",
+    "risposta_corretta": "FALSO",
+    "immagine": "3a2a9f33095139a6bb1c46e732457df7",
+    "pagina_quiz": 124
+  },
+  {
+    "id_blocco": 4476,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23324,
+    "testo": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: R, T, A",
+    "risposta_corretta": "FALSO",
+    "immagine": "3a2a9f33095139a6bb1c46e732457df7",
+    "pagina_quiz": 124
+  },
+  {
+    "id_blocco": 4476,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23325,
+    "testo": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: T, A, R",
+    "risposta_corretta": "FALSO",
+    "immagine": "3a2a9f33095139a6bb1c46e732457df7",
+    "pagina_quiz": 124
+  },
+  {
+    "id_blocco": 4476,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23326,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo T transita prima degli altri ve icol i",
+    "risposta_corretta": "FALSO",
+    "immagine": "3a2a9f33095139a6bb1c46e732457df7",
+    "pagina_quiz": 124
+  }
+]

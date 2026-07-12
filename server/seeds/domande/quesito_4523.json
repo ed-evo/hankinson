@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4523,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23751,
+    "testo": "La sosta è vietata se si impedisce l'accesso ad altro veicolo già regol armente in sosta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4523,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23752,
+    "testo": "La sosta è vietata dovunque venga impedito lo spostamento di veicoli in sosta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4523,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23753,
+    "testo": "La sosta è vietata in seconda fila, salvo che si tratti di veicoli a due ruote",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4523,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23754,
+    "testo": "La sosta è vietata negli spazi riservati allo stazionamento e alla fermata degli autobus, dei filobus e dei veicoli circolanti su rotaia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4523,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23755,
+    "testo": "La sosta è vietata a meno di 15 metri dal segnale di fermata di autobus, filobus e veicoli circolanti su rotaia, qualora gli spazi di stazionamento non siano de limitati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4523,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23756,
+    "testo": "La sosta degli autoveicoli in doppia fila è consentita per pochi minuti, azionando le luci di emergenza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4523,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23757,
+    "testo": "La sosta degli autoveicoli in doppia fila è consentita purché rimanga spazio suffici ente per la circolazione di due file di veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4523,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23758,
+    "testo": "La sosta è consentita negli spazi riservati allo stazionamento e alla fermata degli autobus, dei filobus e dei veicoli circolanti su rotaia purché sia di breve durata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  }
+]

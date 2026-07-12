@@ -1,0 +1,146 @@
+[
+  {
+    "id_blocco": 4539,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23870,
+    "testo": "Sulle carreggiate, sulle rampe, sugli svincoli, sulle aree di servizio o di parcheggio e in ogni altra pertinenza autostradale è vietato richiedere o concedere passaggi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4539,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23871,
+    "testo": "Nelle aree di servizio o di parcheggio delle autostrade e in ogni altra pert inenza autostradale è possibile svolgere attività commerciali solo se autorizzate dall'ente proprietario della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4539,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23872,
+    "testo": "Sulle carreggiate, sulle rampe, sugli svincoli, sulle aree di servizio o di parcheggio e in ogni altra pertinenza autostradale è consentito campeggiare, solo nelle a ree a ciò destinate e per il periodo stabilito dall'ente proprietario della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4539,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23873,
+    "testo": "Nelle aree di servizio delle autostrade, il conducente non deve lasciare in sosta il veicolo per più di 24 ore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4539,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23874,
+    "testo": "Nelle autost rade è consentito concedere passaggi a persone invalide",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4539,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23875,
+    "testo": "Sulle aree di servizio delle autostrade o di parcheggio è consentito chiedere e concedere passaggi.",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4539,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23876,
+    "testo": "Sulle aree di servizio o di parcheggio delle autostrade e delle strade extraurbane principali è consentito campeggiare",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4539,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23877,
+    "testo": "Nelle aree di servizio e di parcheggio delle autostrade la durata massima per l a sost a di un veicolo è di tre ore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 537
+  }
+]

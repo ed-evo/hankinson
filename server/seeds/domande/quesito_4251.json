@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4251,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21074,
+    "testo": "Il segnale luminoso in figura è un semaforo per i veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 141
+  },
+  {
+    "id_blocco": 4251,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21075,
+    "testo": "Il semaforo in figura è posto, di norma, in un incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 141
+  },
+  {
+    "id_blocco": 4251,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21076,
+    "testo": "Il semaforo in figura serve, di norma, a regolare il passaggio dei veicoli in un incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 142
+  },
+  {
+    "id_blocco": 4251,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21077,
+    "testo": "Il semaforo in figura, con luce gialla fissa accesa, consente l'attra versamento dell'incrocio, se lo si è già impegnato",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 142
+  },
+  {
+    "id_blocco": 4251,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21078,
+    "testo": "Il semaforo in figura non vale per i veicoli in servizio di linea per trasporto di persone",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 142
+  },
+  {
+    "id_blocco": 4251,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21079,
+    "testo": "Il segnale luminoso in figura è un semaforo che non vale per le biciclette",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 142
+  },
+  {
+    "id_blocco": 4251,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21080,
+    "testo": "Il semaforo in figura si trova in tutti i caselli autostradali",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 142
+  },
+  {
+    "id_blocco": 4251,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21081,
+    "testo": "Il semaforo in figura si trova in vicinanza dei binari ferroviari",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 142
+  },
+  {
+    "id_blocco": 4251,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21082,
+    "testo": "Il semaforo in figura, con luce gialla lampeggiante accesa, non consente il tra nsito dei veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 142
+  }
+]

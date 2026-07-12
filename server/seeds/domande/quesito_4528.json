@@ -1,0 +1,57 @@
+[
+  {
+    "id_blocco": 4528,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23790,
+    "testo": "La sosta di emergenza è l'interruzione della marcia nel caso in cui il veicolo è inutilizzabile per avaria",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 533
+  },
+  {
+    "id_blocco": 4528,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23791,
+    "testo": "La sosta di emergenza è l'interruzione della marcia nel caso in cui il veicolo deve arrestarsi per malessere fisico del conducente o di un passeggero",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 533
+  },
+  {
+    "id_blocco": 4528,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23792,
+    "testo": "La sosta di emergenza è l'interruzione della marcia dovuta ad esigenze della circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 533
+  },
+  {
+    "id_blocco": 4528,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23793,
+    "testo": "La sosta di emergenza è la temporanea sospensione della marcia per consent ire la discesa di persona invalida",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 533
+  },
+  {
+    "id_blocco": 4528,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23794,
+    "testo": "La sosta di emergenza è la temporanea sospensione della marcia per consent ire ad una persona invalida di salire sul veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 533
+  }
+]

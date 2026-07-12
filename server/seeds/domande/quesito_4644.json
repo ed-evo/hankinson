@@ -1,0 +1,106 @@
+[
+  {
+    "id_blocco": 4644,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24869,
+    "testo": "Se un infortunato della strada ha una ferita sanguinante la si deve coprire con materiale sterile o quanto più possibile pulito, per bloccare il sanguina ment o",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4644,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24870,
+    "testo": "Se un infortunato della strada ha una ferita sanguinante, sporca di terra, bisogna lavarla quanto prima con acqua pulita",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4644,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24871,
+    "testo": "Durante un intervento di primo soccorso, se l'infortunato ha una ferita sanguina nte, con presenza di corpi estranei conficcati , non bisogna toglierli dalla ferita",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4644,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24872,
+    "testo": "Se un infortunato della strada ha una ferita sanguinante, bisogna tamponarl a con garze sterili o panni puliti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4644,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24873,
+    "testo": "Durante un intervento di primo soccorso, se l'infortunato ha una ferita sanguina nte, si devono togliere subito gli eventuali corpi estranei in essa presenti e, successivamente, coprire la ferita",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4644,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24874,
+    "testo": "Se un infortunato della strada ha una ferita sanguinante ed è incosciente, bisogna da rgli da bere acqua o tè",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4644,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24875,
+    "testo": "Se un infortunato della strada ha una ferita sanguinante non bisogna copri rla, per facilitare l'arresto spontaneo del sangue",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 572
+  },
+  {
+    "id_blocco": 4644,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24876,
+    "testo": "Se un infortunato della strada ha una ferita sanguinante si deve versarvi sopra acqua calda, per fermare il sanguinamento",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 572
+  }
+]

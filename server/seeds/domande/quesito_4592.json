@@ -1,0 +1,80 @@
+[
+  {
+    "id_blocco": 4592,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24312,
+    "testo": "Il simbolo raffigurato è posto su una spia di colore rosso",
+    "risposta_corretta": "VERO",
+    "immagine": "44cc0960ffd04ad122e74bb2362c2915",
+    "pagina_quiz": 448
+  },
+  {
+    "id_blocco": 4592,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24313,
+    "testo": "Il simbolo raffigurato è posto su una spia di colore rosso che, se accesa durant e la marcia, indica che il conducente o un passeggero non hanno indossato le cinture di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": "44cc0960ffd04ad122e74bb2362c2915",
+    "pagina_quiz": 448
+  },
+  {
+    "id_blocco": 4592,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24314,
+    "testo": "La spia rossa contraddistinta dal simbolo in figura, se accesa durante la marcia, è in genere abbinata ad un segnale acustico in funzione",
+    "risposta_corretta": "VERO",
+    "immagine": "44cc0960ffd04ad122e74bb2362c2915",
+    "pagina_quiz": 448
+  },
+  {
+    "id_blocco": 4592,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24315,
+    "testo": "La spia rossa contraddistinta dal simbolo in figura può essere disattivata con apposi to comando posto sul cruscotto",
+    "risposta_corretta": "FALSO",
+    "immagine": "44cc0960ffd04ad122e74bb2362c2915",
+    "pagina_quiz": 448
+  },
+  {
+    "id_blocco": 4592,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24316,
+    "testo": "Il simbolo raffigurato è posto su una spia di colore giallo",
+    "risposta_corretta": "FALSO",
+    "immagine": "44cc0960ffd04ad122e74bb2362c2915",
+    "pagina_quiz": 448
+  },
+  {
+    "id_blocco": 4592,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24317,
+    "testo": "Il simbolo raffigurato è posto sul pulsante che permette di regolare le modalità di azione del pretensionatore delle cinture di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": "44cc0960ffd04ad122e74bb2362c2915",
+    "pagina_quiz": 449
+  }
+]

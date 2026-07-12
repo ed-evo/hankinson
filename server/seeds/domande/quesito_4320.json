@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4320,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21740,
+    "testo": "Il segnale raffigurato indica una diminuzione del numero di corsie disponibili",
+    "risposta_corretta": "VERO",
+    "immagine": "e6b9eb6127f2b9813aff7b5e3ea59026",
+    "pagina_quiz": 79
+  },
+  {
+    "id_blocco": 4320,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21741,
+    "testo": "Il segnale raffigurato indica una riduzione da tre a due corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "e6b9eb6127f2b9813aff7b5e3ea59026",
+    "pagina_quiz": 79
+  },
+  {
+    "id_blocco": 4320,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21742,
+    "testo": "Il segnale raffigurato consiglia di rallentare per restringimento della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "e6b9eb6127f2b9813aff7b5e3ea59026",
+    "pagina_quiz": 80
+  },
+  {
+    "id_blocco": 4320,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21743,
+    "testo": "Il segnale raffigurato può essere abbinato ad un pannello che indica la distanza dal restringimento di corsia",
+    "risposta_corretta": "VERO",
+    "immagine": "e6b9eb6127f2b9813aff7b5e3ea59026",
+    "pagina_quiz": 80
+  },
+  {
+    "id_blocco": 4320,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21744,
+    "testo": "Il segnale raffigurato è installato sulle autostrade",
+    "risposta_corretta": "VERO",
+    "immagine": "e6b9eb6127f2b9813aff7b5e3ea59026",
+    "pagina_quiz": 80
+  },
+  {
+    "id_blocco": 4320,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21745,
+    "testo": "Il segnale raffigurato indica lavori in corso",
+    "risposta_corretta": "FALSO",
+    "immagine": "e6b9eb6127f2b9813aff7b5e3ea59026",
+    "pagina_quiz": 80
+  },
+  {
+    "id_blocco": 4320,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21746,
+    "testo": "Il segnale raffigurato preavvisa l'obbligo di svoltare a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "e6b9eb6127f2b9813aff7b5e3ea59026",
+    "pagina_quiz": 80
+  },
+  {
+    "id_blocco": 4320,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21747,
+    "testo": "Il segnale raffigurato preavvisa un cavalcavia che consente l'inversione di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "e6b9eb6127f2b9813aff7b5e3ea59026",
+    "pagina_quiz": 80
+  },
+  {
+    "id_blocco": 4320,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21748,
+    "testo": "Il segnale raffigurato indica che bisogna dare la precedenza ai veicoli che entrano in autostrada",
+    "risposta_corretta": "FALSO",
+    "immagine": "e6b9eb6127f2b9813aff7b5e3ea59026",
+    "pagina_quiz": 80
+  }
+]

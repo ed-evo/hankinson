@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4255,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21116,
+    "testo": "Il semaforo in figura si trova all'uscita di una pista ciclabile, per regolare l'attra versamento della strada",
+    "risposta_corretta": "VERO",
+    "immagine": "c3c957780ed480a75899918470e54d50",
+    "pagina_quiz": 149
+  },
+  {
+    "id_blocco": 4255,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21117,
+    "testo": "Il segnale luminoso in figura è un semaforo riservato ai conducenti di biciclette",
+    "risposta_corretta": "VERO",
+    "immagine": "c3c957780ed480a75899918470e54d50",
+    "pagina_quiz": 149
+  },
+  {
+    "id_blocco": 4255,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21118,
+    "testo": "Il semaforo in figura, con luce rossa accesa, impone l'arresto alle biciclette",
+    "risposta_corretta": "VERO",
+    "immagine": "c3c957780ed480a75899918470e54d50",
+    "pagina_quiz": 149
+  },
+  {
+    "id_blocco": 4255,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21119,
+    "testo": "Il semaforo in figura, con luce gialla fissa accesa, impone ai conducenti di biciclette di liberare velocemente l'incrocio se lo hanno già impegnato",
+    "risposta_corretta": "VERO",
+    "immagine": "c3c957780ed480a75899918470e54d50",
+    "pagina_quiz": 149
+  },
+  {
+    "id_blocco": 4255,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21120,
+    "testo": "Il semaforo in figura, con luce verde accesa, consente soltanto ai conducenti di biciclette di attraversare l'incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "c3c957780ed480a75899918470e54d50",
+    "pagina_quiz": 149
+  },
+  {
+    "id_blocco": 4255,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21121,
+    "testo": "Il semaforo in figura indica una corsia riservata alle biciclette e ai ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": "c3c957780ed480a75899918470e54d50",
+    "pagina_quiz": 149
+  },
+  {
+    "id_blocco": 4255,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21122,
+    "testo": "Il semaforo in figura indica lo svolgimento di una gara ciclistica",
+    "risposta_corretta": "FALSO",
+    "immagine": "c3c957780ed480a75899918470e54d50",
+    "pagina_quiz": 149
+  },
+  {
+    "id_blocco": 4255,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21123,
+    "testo": "Il semaforo in figura indica che ci sono lavori in corso per la costruzione di una pista ci clabile",
+    "risposta_corretta": "FALSO",
+    "immagine": "c3c957780ed480a75899918470e54d50",
+    "pagina_quiz": 149
+  },
+  {
+    "id_blocco": 4255,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21124,
+    "testo": "Il semaforo in figura indica una corsia riservata ai motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": "c3c957780ed480a75899918470e54d50",
+    "pagina_quiz": 149
+  },
+  {
+    "id_blocco": 4255,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21125,
+    "testo": "Il semaforo in figura indica il divieto di transito per le biciclette",
+    "risposta_corretta": "FALSO",
+    "immagine": "c3c957780ed480a75899918470e54d50",
+    "pagina_quiz": 150
+  },
+  {
+    "id_blocco": 4255,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21126,
+    "testo": "Il semaforo in figura vale per tutti i veicoli a due ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": "c3c957780ed480a75899918470e54d50",
+    "pagina_quiz": 150
+  }
+]

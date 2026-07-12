@@ -1,0 +1,306 @@
+[
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24537,
+    "testo": "La patente di categoria B abilita a condurre gli autoveicoli di massa massima autorizzata non superiore a 3,5 tonnellate destinati al trasporto di non più di otto persone oltre al conducente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 559
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24538,
+    "testo": "La patente di categoria B abilita a condurre le autovetture, anche se tra inant i un rimorchio leggero (massa fino a 750 chilogrammi)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 559
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24539,
+    "testo": "La patente di categoria B abilita a condurre gli autocaravan di massa massima autorizzata non superiore a 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 559
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24540,
+    "testo": "La patente di categoria B abilita a condurre le macchine agricole, comprese quelle definit e eccezionali",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 559
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24541,
+    "testo": "La patente di categoria B abilita a condurre le autovetture trainanti un rimorchio non leggero (massa oltre 750 chilogrammi) purché la massa massima autorizzata del complesso non superi 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24542,
+    "testo": "La patente di categoria B consente di guidare, ma solo sul territorio nazionale (Italia), i veicoli che si possono condurre con la patente A1",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24543,
+    "testo": "La patente di categoria B abilita anche alla guida dei veicoli che si possono condurre con le patenti AM e B1",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24544,
+    "testo": "La patente di categoria B consente di guidare, solo sul territorio nazionale (Italia) e se il conducente ha almeno 21 anni, i tricicli a motore di potenza superiore a 15 kW",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24545,
+    "testo": "La patente di categoria B abilita a condurre gli autocarri di massa massima autorizzata non superiore a 3.500 chilogrammi anche se trainanti un rimorchio leggero (massa fino a 750 chilogrammi)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24547,
+    "testo": "La patente di categoria B abilita anche alla guida dei veicoli che si possono condurre con le patenti A2 e A",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24548,
+    "testo": "La patente di categoria B abilita a guidare gli autobus destinati al trasporto di al massimo 16 posti, escluso il conducente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24549,
+    "testo": "La patente di categoria B abilita a guidare gli autocarri di massa massima autorizzata superiore a 3,5 tonnellate ma non superiore a 7,5 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24550,
+    "testo": "La patente di categoria B, per i primi tre anni dal suo conseguimento, non consent e la guida di autovetture aventi una potenza specifica, riferita alla tara, superiore a 55 kW/t o una potenza massima di 70 kW",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24551,
+    "testo": "La patente di categoria B abilita a condurre le macchine operatrici eccezionali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24552,
+    "testo": "La patente di categoria B abilita a condurre solo autovetture con al massimo 9 posti compreso il conducente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24553,
+    "testo": "La patente di categoria B abilita a condurre le autovetture, anche se tra inano rimorchi aventi massa superiore a 3.500 chilogrammi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24554,
+    "testo": "La patente di categoria B consente di guidare un'autovettura che traina un rimorchio, con massa del complesso veicolare pari a 4.500 chilogrammi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24555,
+    "testo": "La patente di categoria B, conseguita dopo i 24 anni di età, abilita alla guida di tutti i motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  },
+  {
+    "id_blocco": 4613,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24556,
+    "testo": "La patente di categoria B consente di guidare tutti gli autocaravan (camper)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 560
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4304,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21590,
+    "testo": "Il segnale raffigurato, s e posto s ul bordo del marciapiede, indica la fermata di uno scuolabus",
+    "risposta_corretta": "VERO",
+    "immagine": "ad3996df5149158644a0a874afd15c93",
+    "pagina_quiz": 61
+  },
+  {
+    "id_blocco": 4304,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21591,
+    "testo": "Il segnale raffigurato, s e posto all'esterno di un autobus, segnala che esso tra sport a scolari",
+    "risposta_corretta": "VERO",
+    "immagine": "ad3996df5149158644a0a874afd15c93",
+    "pagina_quiz": 61
+  },
+  {
+    "id_blocco": 4304,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21592,
+    "testo": "Il segnale raffigurato può indicare la fermata di un autobus per trasporto scola ri",
+    "risposta_corretta": "VERO",
+    "immagine": "ad3996df5149158644a0a874afd15c93",
+    "pagina_quiz": 61
+  },
+  {
+    "id_blocco": 4304,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21593,
+    "testo": "Il segnale raffigurato invita a fare attenzione ai bambini che possono attraversare improvvisamente la strada",
+    "risposta_corretta": "VERO",
+    "immagine": "ad3996df5149158644a0a874afd15c93",
+    "pagina_quiz": 61
+  },
+  {
+    "id_blocco": 4304,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21594,
+    "testo": "Il segnale raffigurato invita a fare attenzione perché possono esserci bambini discesi dallo scuolabus che possono attraversare improvvisamente la strada",
+    "risposta_corretta": "VERO",
+    "immagine": "ad3996df5149158644a0a874afd15c93",
+    "pagina_quiz": 61
+  },
+  {
+    "id_blocco": 4304,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21595,
+    "testo": "Il segnale raffigurato vieta il transito ai bambini non accompagnati",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad3996df5149158644a0a874afd15c93",
+    "pagina_quiz": 61
+  },
+  {
+    "id_blocco": 4304,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21596,
+    "testo": "Il segnale raffigurato indica la presenza di giardini pubblici",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad3996df5149158644a0a874afd15c93",
+    "pagina_quiz": 62
+  },
+  {
+    "id_blocco": 4304,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21597,
+    "testo": "Il segnale raffigurato indica che bisogna obbligatoriamente dare precedenza ai bambini che attraversano",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad3996df5149158644a0a874afd15c93",
+    "pagina_quiz": 62
+  }
+]

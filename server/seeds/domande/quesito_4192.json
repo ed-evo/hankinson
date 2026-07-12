@@ -1,0 +1,200 @@
+[
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20491,
+    "testo": "Il segnale raffigurato obbliga a fermarsi in corrispondenza della striscia tra sversale di arresto e a dare la precedenza agli altri veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 240
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20492,
+    "testo": "Il segnale raffigurato impone di arrestarsi e dare la precedenza prima di impegnare l'incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 240
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20493,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi all'incrocio e a dare la precedenza a destra e a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 240
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20494,
+    "testo": "Il segnale raffigurato impone di fermarsi all'incrocio anche in presenza di sema foro a luce lampeggiante gialla",
+    "risposta_corretta": "VERO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 240
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20495,
+    "testo": "Il segnale raffigurato s i trova all'incrocio con una strada con diritto di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 240
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20496,
+    "testo": "Il segnale raffigurato s i trova, in genere, negli incroci con scarsa visibilità",
+    "risposta_corretta": "VERO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 241
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20497,
+    "testo": "Il segnale raffigurato, fuori dei centri abitati, è preceduto dal relativo segnal e di preavviso",
+    "risposta_corretta": "VERO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 241
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20498,
+    "testo": "Il segnale raffigurato è utilizzato, di norma, negli incroci di particolare peri colosità",
+    "risposta_corretta": "VERO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 241
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20499,
+    "testo": "Il segnale raffigurato può trovarsi in corrispondenza di un passaggio a livello",
+    "risposta_corretta": "VERO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 241
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20500,
+    "testo": "Il segnale raffigurato preannuncia l'obbligo di fermarsi e di dare la precedenza nei sensi unici alternati",
+    "risposta_corretta": "FALSO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 241
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20501,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi al varco doganale",
+    "risposta_corretta": "FALSO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 241
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20502,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi soltanto in caso di incrocio con altri ve icol i",
+    "risposta_corretta": "FALSO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 241
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20503,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi per dare la precedenza solo ai veicoli pr ovenienti da destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 241
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20504,
+    "testo": "Il segnale raffigurato è posto, di norma, 150 metri prima dell'incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 241
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20505,
+    "testo": "Il segnale raffigurato impone di arrestarsi perché il transito è vietato",
+    "risposta_corretta": "FALSO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 242
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20506,
+    "testo": "Il segnale raffigurato preannuncia di arrestarsi all'incrocio anche se il sema foro e mette luce verde",
+    "risposta_corretta": "FALSO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 242
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20507,
+    "testo": "Il segnale raffigurato preannuncia l'obbligo di arresto ad un posto di blocco istituito dagli organi di polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 242
+  },
+  {
+    "id_blocco": 4192,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20508,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi solo se sopraggiungono altri veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "38d290655bf8f8975e6c77db50f3154c",
+    "pagina_quiz": 242
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id_blocco": 4691,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25197,
+    "testo": "La forza aderente diminuisce se la strada è sporca di olio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4691,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25198,
+    "testo": "La forza aderente risulta maggiore se l'asfalto è asciutto e pulito",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4691,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25199,
+    "testo": "La forza aderente aumenta se l'asfalto è coperto di ghiaccio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4691,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25200,
+    "testo": "La forza aderente aumenta se l'asfalto è coperto dal fango",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4691,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25201,
+    "testo": "La forza aderente non dipende dalla pressione dei pneumatici",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4572,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24150,
+    "testo": "Durante la marcia nei centri abitati, è obbligatorio tenere accese le luci anabbaglianti da mezz'ora dopo il tramonto del sole a mezz'ora prima del suo sorge re",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4572,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24151,
+    "testo": "Durante la marcia, in caso di scarsa visibilità per condizioni atmosferiche (neve, pioggia, nebbia), è obbligatorio tenere accese le luci di posizione e quelle anabbaglianti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4572,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24152,
+    "testo": "Durante la marcia, in caso di nebbia con visibilità inferiore a 50 metri, bisogna usare la luce posteriore per nebbia, se il veicolo ne è dotato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4572,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24153,
+    "testo": "Di notte, nei centri abitati, il veicolo in sosta al margine della carreggiata, può essere segnalato con le luci di sosta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4572,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24154,
+    "testo": "Durante la marcia, è obbligatorio tenere accese le luci abbaglianti, a partire dal tram onto del sole fino al suo sorgere",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4572,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24155,
+    "testo": "Di notte, in caso di sosta fuori dalla carreggiata, è obbligatorio tenere accese le luci anabbaglianti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4572,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24156,
+    "testo": "Se si lascia il veicolo in un parcheggio autorizzato, è obbligatorio tenere accese per tutto il tempo le luci di sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  }
+]

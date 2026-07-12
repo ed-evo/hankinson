@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4042,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18752,
+    "testo": "Bisogna usare maggiore prudenza nei confronti delle persone diversamente abili",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 462
+  },
+  {
+    "id_blocco": 4042,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18753,
+    "testo": "Bisogna usare maggiore prudenza nei confronti delle persone anziane",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 462
+  },
+  {
+    "id_blocco": 4042,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18754,
+    "testo": "Bisogna usare maggiore prudenza nei confronti dei bambini che attraversano l a strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 462
+  },
+  {
+    "id_blocco": 4042,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18755,
+    "testo": "Bisogna usare maggiore prudenza nei confronti dei conducenti che dimostrano una guida incerta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 463
+  },
+  {
+    "id_blocco": 4042,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18756,
+    "testo": "Bisogna usare maggiore prudenza nei confronti dei conducenti di veicoli adattati per persone diversamente abili",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 463
+  },
+  {
+    "id_blocco": 4042,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18757,
+    "testo": "Bisogna usare maggiore prudenza nei confronti delle persone in bicicletta e di quelle con scarsa capacità di movimento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 463
+  },
+  {
+    "id_blocco": 4042,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18758,
+    "testo": "Bisogna usare particolare prudenza nei confronti dei conducenti che hanno consegui to la patente di guida in uno Stato estero",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 463
+  },
+  {
+    "id_blocco": 4042,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18759,
+    "testo": "Bisogna usare maggiore prudenza nei confronti dei conducenti di autoveicoli elettrici",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 463
+  },
+  {
+    "id_blocco": 4042,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18760,
+    "testo": "Bisogna usare maggiore prudenza nei confronti dei conducenti di taxi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 463
+  },
+  {
+    "id_blocco": 4042,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18761,
+    "testo": "Bisogna usare maggiore prudenza nei confronti dei conducenti di tricicli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 463
+  },
+  {
+    "id_blocco": 4042,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18762,
+    "testo": "Bisogna usare maggiore prudenza nei confronti dei pedoni muniti di bastone bianco, ma non di quelli con bastone bianco-rosso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 463
+  }
+]

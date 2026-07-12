@@ -1,0 +1,321 @@
+[
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22527,
+    "testo": "Il rispe tto de lla distanza di sicurezza evita la collisione con il veicolo che precede",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22528,
+    "testo": "Il c onducente deve valutare la distanza di sicurezza anche sulla base della velocità del veicolo di cui è alla guida",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22529,
+    "testo": "Il c onducente deve commisurare la distanza di sicurezza anche in base alla propria prontezza di riflessi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22530,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base alle condizioni del traffico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22531,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base all'andamento planoaltimetrico della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22532,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base alle condizioni atmosferiche",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22533,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base al tipo di veicolo di cui si è alla guida",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22534,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base allo stato di effi cienza del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22535,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base all'entità del carico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22536,
+    "testo": "Il va lore della distanza di sicurezza da mantenere da una macchina sgombraneve in azione è di 20 metri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22537,
+    "testo": "Il va lore della distanza di sicurezza da mantenere da una macchina spanditrice di sale in azione è di 20 metri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 500
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22538,
+    "testo": "Il c onducente deve valutare la distanza di sicurezza con riferimento anche alla velocità del veicolo che lo precede",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22539,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base all'efficienza dei freni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22540,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base alla condizione dei pneumatici",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22541,
+    "testo": "Su strada extraurbana a una corsia per senso di marcia, la distanza fra veicoli adibiti al trasporto di merci di massa complessiva superiore a 3,5 tonnellate, cui sia stato imposto il divieto di sorpass o, deve essere di almeno 100 metri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22542,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base al tipo di alimentazione del motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22543,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base alla cilindra ta del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22544,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base alla potenza del motore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22545,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base all'ampiezza della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22546,
+    "testo": "Il c onducente deve stabilire il valore della distanza di sicurezza anche in base alla larghezza del veicolo di cui è alla guida",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22547,
+    "testo": "Il c onducente ha l'obbligo di controllare che il veicolo che lo segue rispetti la distanz a di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22548,
+    "testo": "Il va lore della distanza di sicurezza da mantenere da una macchina sgombraneve in azione è di 10 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22549,
+    "testo": "Il va lore della distanza di sicurezza da mantenere da una macchina spanditrice di sale in azione è di 15 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22550,
+    "testo": "La distanza fra autotreni, in presenza di segnali di divieto di sorpasso fra di loro, de ve essere pari ad almeno 10 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22551,
+    "testo": "Sulle strade extraurbane , il valore della distanza di sicurezza è sempre pari a 70 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22552,
+    "testo": "Il va lore della distanza di sicurezza deve essere almeno pari a quello della distanza di frenatura",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22553,
+    "testo": "Il va lore della distanza di sicurezza deve essere almeno pari a quello della distanza di visibilità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22554,
+    "testo": "La distanza di sicurezza non deve essere rispettata a velocità di marcia infe riori ai 50 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  },
+  {
+    "id_blocco": 4394,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22555,
+    "testo": "Il va lore della distanza di sicurezza deve essere stabilito anche in base alla marcia innestata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 501
+  }
+]

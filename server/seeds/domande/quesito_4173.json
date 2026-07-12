@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20305,
+    "testo": "Il segnale raffigurato vieta la circolazione ai veicoli che non sono in grado di marci are almeno a 30 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 331
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20306,
+    "testo": "Il segnale raffigurato prescrive un limite minimo di velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 331
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20307,
+    "testo": "Il segnale raffigurato obbliga a mantenere una velocità non inferiore a 30 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 331
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20308,
+    "testo": "In presenza del segnale raffigurato è consentito circolare entro i limiti massimi di velocità vigenti per quella strada",
+    "risposta_corretta": "VERO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 331
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20309,
+    "testo": "Il segnale raffigurato consente la circolazione ai veicoli che procedono a velocità uguale o superiore a quella indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 331
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20310,
+    "testo": "Il segnale raffigurato indica il limite massimo di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 331
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20311,
+    "testo": "Il segnale raffigurato indica che la circolazione è riservata ai veicoli con velocità massima inferiore a quella indicata",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 331
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20312,
+    "testo": "Il segnale raffigurato vieta di marciare a velocità superiore a quella indicata",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 331
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20313,
+    "testo": "Il segnale raffigurato consente di marciare alla velocità di 25 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 332
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20314,
+    "testo": "Il segnale raffigurato obbliga a mantenere la distanza minima di sicurezza di 30 metri dal veicolo che precede",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 332
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20315,
+    "testo": "Il segnale raffigurato indica il divieto di transito ai veicoli con massa complessiva superiore a 30 t",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 332
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20316,
+    "testo": "Il segnale raffigurato consente di circolare a velocità inferiore a quella indicata",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 332
+  },
+  {
+    "id_blocco": 4173,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20317,
+    "testo": "Il segnale raffigurato indica la velocità consigliata",
+    "risposta_corretta": "FALSO",
+    "immagine": "d975ef356f24d077b82e83106e5db105",
+    "pagina_quiz": 332
+  }
+]

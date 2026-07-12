@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4666,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25033,
+    "testo": "Le polizze assicurative stipulate di solito per coprire i danni da furto, incendio, atti vandalici, eventi naturali o danni al proprio veicolo (polizza kasko) non sono obbligatorie",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 578
+  },
+  {
+    "id_blocco": 4666,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25034,
+    "testo": "Nella polizza assicurativa contro il rischio di furto o incendio, il risarcimento dovuto non può essere superiore al valore che il veicolo aveva al momento in cui è stato rubato o ha preso fuoco",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 578
+  },
+  {
+    "id_blocco": 4666,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25035,
+    "testo": "Nel caso in cui il veicolo venga rubato in uno Stato estero, per poter attivare l'assicurazione bisogna ripetere la denuncia nello Stato italiano",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 578
+  },
+  {
+    "id_blocco": 4666,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25036,
+    "testo": "La polizza assicurativa contro il rischio di furto o incendio garantisce una rendi ta vi tal izia al proprietario del veicolo, nel caso in cui venga rubato o prenda fuoco",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 578
+  },
+  {
+    "id_blocco": 4666,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25037,
+    "testo": "Per pote r st ipulare una polizza assicurativa contro il rischio d'incendio occorre che il veicolo s ia munito di apposito meccanismo staccabatteria automatico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 578
+  },
+  {
+    "id_blocco": 4666,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25038,
+    "testo": "Per pote r st ipulare una polizza assicurativa contro il rischio di furto, occorre che il veicolo s ia dotato di antifurto",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 578
+  },
+  {
+    "id_blocco": 4666,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25039,
+    "testo": "Le polizze assicurative contro il rischio d'incendio del veicolo coprono, norma lme nte, solo i danni causati da incendi dolosi (intenzionali) e non quelli provoc ati da incendi accidentali (casuali)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 578
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id_blocco": 4690,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25193,
+    "testo": "Chi conduce un motociclo deve considerare che l'aderenza diminuisce sulle rota ie specialmente in caso di pioggia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4690,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25194,
+    "testo": "Chi conduce un motociclo deve considerare che l'aderenza diminuisce sulle strisce dell a segnaletica orizzontale in caso di pioggia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4690,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25195,
+    "testo": "Il c onducente di un motociclo deve considerare che l'aderenza non dipende dal tipo di pavimentazione stradale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4690,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25196,
+    "testo": "Chi conduce un motociclo deve considerare che l'aderenza diminuisce quando trasporta un passeggero",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  }
+]

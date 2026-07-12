@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4677,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25108,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli può dipendere da un funzi onamento irregolare del motore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4677,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25109,
+    "testo": "L'inquinamento dell'aria può essere ridotto, controllando che il veicolo sia sempre nelle condizioni ottimali di consumo e rendimento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4677,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25110,
+    "testo": "Adottando uno stile di guida che limiti i consumi di carburante, è possibile ridurre l'inqui namento dell'aria",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4677,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25111,
+    "testo": "L'inquinamento atmosferico prodotto dai veicoli può essere ridotto, controlla ndo che il filtro dell'aria non sia sporco o intasato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4677,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25112,
+    "testo": "L'inquinamento atmosferico prodotto dai veicoli scompare del tutto accelerando a fondo, perché l'alta temperatura fa consumare in fretta il carburante",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4677,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25113,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli diminuisce se si lascia acceso il climatizzatore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4677,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25114,
+    "testo": "L'inquinamento atmosferico è nullo nei veicoli che rispettano la normativa antinquinamento \"Euro 0\"",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 581
+  }
+]

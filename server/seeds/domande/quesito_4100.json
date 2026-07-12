@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19456,
+    "testo": "Il segnale raffigurato preannuncia l'attraversamento di una zona soggetta al peri colo d'incendio",
+    "risposta_corretta": "VERO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 223
+  },
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19457,
+    "testo": "Il segnale raffigurato preannuncia la vicinanza di zone ad alto rischio d'incendio",
+    "risposta_corretta": "VERO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 223
+  },
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19458,
+    "testo": "Il segnale raffigurato indica che ci si sta avvicinando ad un bosco facilm ente infiammabile",
+    "risposta_corretta": "VERO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 223
+  },
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19459,
+    "testo": "Il segnale raffigurato preannuncia zone laterali alla strada che sono ad alto rischio d'incendio",
+    "risposta_corretta": "VERO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 223
+  },
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19460,
+    "testo": "Il segnale raffigurato è integrato dal pannello che indica la lunghezza del tra tto di strada interessato",
+    "risposta_corretta": "VERO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 224
+  },
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19461,
+    "testo": "In presenza del segnale se il conducente o gli eventuali passeggeri non rispettano il divieto di gettare sigarette accese dal finestrino, può verificarsi un incendio",
+    "risposta_corretta": "VERO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 224
+  },
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19462,
+    "testo": "Il segnale raffigurato preannuncia l'attraversamento di una zona soggetta al peri colo di esplosioni",
+    "risposta_corretta": "FALSO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 224
+  },
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19463,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada fiancheggiato da cave di pietra , con pericolo di esplosioni",
+    "risposta_corretta": "FALSO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 224
+  },
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19464,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano esplosivi",
+    "risposta_corretta": "FALSO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 224
+  },
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19465,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano prodotti facilm ente infiammabili",
+    "risposta_corretta": "FALSO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 224
+  },
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19466,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano liquidi infiammabili",
+    "risposta_corretta": "FALSO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 224
+  },
+  {
+    "id_blocco": 4100,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19467,
+    "testo": "Il segnale raffigurato preannuncia la possibilità di forte vento laterale",
+    "risposta_corretta": "FALSO",
+    "immagine": "4e35a23fa5e62af4861ff27076a91a69",
+    "pagina_quiz": 224
+  }
+]

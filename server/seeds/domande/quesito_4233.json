@@ -1,0 +1,74 @@
+[
+  {
+    "id_blocco": 4233,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20905,
+    "testo": "In una carreggiata a senso unico, la striscia bianca discontinua in figura serve a delimitare le corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 422
+  },
+  {
+    "id_blocco": 4233,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20906,
+    "testo": "La str iscia bianca dis continua in figura, nelle strade a senso unico, divide le corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 422
+  },
+  {
+    "id_blocco": 4233,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20907,
+    "testo": "La str iscia bianca dis continua in figura consente l'inversione di marcia nelle strade a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 422
+  },
+  {
+    "id_blocco": 4233,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20908,
+    "testo": "La str iscia bianca dis continua in figura divide la strada in due carreggiate, ognuna a doppio senso",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 423
+  },
+  {
+    "id_blocco": 4233,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20909,
+    "testo": "La str iscia bianca dis continua in figura si trova solo nelle strade a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 423
+  },
+  {
+    "id_blocco": 4233,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20910,
+    "testo": "La str iscia bianca dis continua in figura nelle strade a senso unico è posta nei dossi, per dividere i due sensi di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 423
+  }
+]

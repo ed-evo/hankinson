@@ -1,0 +1,100 @@
+[
+  {
+    "id_blocco": 4693,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25208,
+    "testo": "Il ribaltamento in curva del veicolo è favorito da un carico posto in alto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4693,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25209,
+    "testo": "Il ribaltamento in curva del veicolo è favorito dal carico non stabilmente fissato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4693,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25210,
+    "testo": "Il ribaltamento in curva del veicolo è favorito da una ridotta distanza fra ruote dell o stesso asse (carreggiata stretta)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4693,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25211,
+    "testo": "Il ribaltamento in curva del veicolo è favorito da un raggio di curvatura della strada piccolo (curva stretta)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4693,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25212,
+    "testo": "Il ribaltamento in curva del veicolo è favorito da una ampia distanza fra ruote dell o stesso asse (carreggiata larga)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4693,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25213,
+    "testo": "Il ribaltamento in curva del veicolo è favorito da un carico posto in basso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4693,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25214,
+    "testo": "Il ribaltamento in curva del veicolo è favorito da un raggio di curvatura della strada ampio (curva larga)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 584
+  }
+]

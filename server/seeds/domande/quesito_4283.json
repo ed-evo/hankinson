@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4283,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21390,
+    "testo": "Il segnale raffigurato è un preavviso di incrocio urbano",
+    "risposta_corretta": "VERO",
+    "immagine": "1012b152b1a239de54a0afecec9d77e0",
+    "pagina_quiz": 36
+  },
+  {
+    "id_blocco": 4283,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21391,
+    "testo": "Il segnale raffigurato vieta agli autocarri di massa a pieno carico superiore a 3,5 tonnellate di proseguire diritto per Avezzano",
+    "risposta_corretta": "VERO",
+    "immagine": "1012b152b1a239de54a0afecec9d77e0",
+    "pagina_quiz": 36
+  },
+  {
+    "id_blocco": 4283,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21392,
+    "testo": "Il segnale raffigurato consente alle autovetture di proseguire diritto per Pescara",
+    "risposta_corretta": "VERO",
+    "immagine": "1012b152b1a239de54a0afecec9d77e0",
+    "pagina_quiz": 36
+  },
+  {
+    "id_blocco": 4283,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21393,
+    "testo": "Il segnale raffigurato preavvisa di svoltare a sinistra per raggiungere l'autostrada R oma-L'Aquila",
+    "risposta_corretta": "VERO",
+    "immagine": "1012b152b1a239de54a0afecec9d77e0",
+    "pagina_quiz": 37
+  },
+  {
+    "id_blocco": 4283,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21394,
+    "testo": "Il segnale raffigurato vieta agli autocarri di massa a pieno carico superiore a 3,5 tonnellate di continuare diritto per raggiungere il centro urbano",
+    "risposta_corretta": "VERO",
+    "immagine": "1012b152b1a239de54a0afecec9d77e0",
+    "pagina_quiz": 37
+  },
+  {
+    "id_blocco": 4283,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21395,
+    "testo": "Il segnale raffigurato vieta anche agli autobus di raggiungere Avezzano",
+    "risposta_corretta": "FALSO",
+    "immagine": "1012b152b1a239de54a0afecec9d77e0",
+    "pagina_quiz": 37
+  },
+  {
+    "id_blocco": 4283,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21396,
+    "testo": "Il segnale raffigurato s i trova solo su strade a senso unico di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "1012b152b1a239de54a0afecec9d77e0",
+    "pagina_quiz": 37
+  },
+  {
+    "id_blocco": 4283,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21397,
+    "testo": "Il segnale raffigurato s i trova all'ingresso di un'autostrada",
+    "risposta_corretta": "FALSO",
+    "immagine": "1012b152b1a239de54a0afecec9d77e0",
+    "pagina_quiz": 37
+  },
+  {
+    "id_blocco": 4283,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21398,
+    "testo": "Il segnale raffigurato indica che la corsia centrale è chiusa",
+    "risposta_corretta": "FALSO",
+    "immagine": "1012b152b1a239de54a0afecec9d77e0",
+    "pagina_quiz": 37
+  },
+  {
+    "id_blocco": 4283,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21399,
+    "testo": "Il segnale raffigurato fa parte dei segnali di precedenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "1012b152b1a239de54a0afecec9d77e0",
+    "pagina_quiz": 37
+  }
+]

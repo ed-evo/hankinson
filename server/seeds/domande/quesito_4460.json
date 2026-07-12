@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4460,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23168,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: C, A, P",
+    "risposta_corretta": "VERO",
+    "immagine": "4dc2aaee4b1a7bc0e43d626f282051a8",
+    "pagina_quiz": 445
+  },
+  {
+    "id_blocco": 4460,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23169,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo A passa dopo il veicolo C",
+    "risposta_corretta": "VERO",
+    "immagine": "4dc2aaee4b1a7bc0e43d626f282051a8",
+    "pagina_quiz": 445
+  },
+  {
+    "id_blocco": 4460,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23170,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo P passa per ultimo",
+    "risposta_corretta": "VERO",
+    "immagine": "4dc2aaee4b1a7bc0e43d626f282051a8",
+    "pagina_quiz": 445
+  },
+  {
+    "id_blocco": 4460,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23171,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: P, C, A",
+    "risposta_corretta": "FALSO",
+    "immagine": "4dc2aaee4b1a7bc0e43d626f282051a8",
+    "pagina_quiz": 445
+  },
+  {
+    "id_blocco": 4460,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23172,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo P passa prima del veicolo C",
+    "risposta_corretta": "FALSO",
+    "immagine": "4dc2aaee4b1a7bc0e43d626f282051a8",
+    "pagina_quiz": 445
+  },
+  {
+    "id_blocco": 4460,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23173,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo P passa per primo perché ha la destra libera",
+    "risposta_corretta": "FALSO",
+    "immagine": "4dc2aaee4b1a7bc0e43d626f282051a8",
+    "pagina_quiz": 445
+  }
+]

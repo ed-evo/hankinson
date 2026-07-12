@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19592,
+    "testo": "Il segnale raffigurato è un segnale di divieto",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 271
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19593,
+    "testo": "In presenza del segnale raffigurato è vietato superare la velocità di 80 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 271
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19594,
+    "testo": "Il segnale raffigurato può trovarsi anche sulle autostrade",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 272
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19595,
+    "testo": "Il limite di velocità indicato sul segnale raffigurato ha validità immediatamente dopo il segnale stesso",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 272
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19596,
+    "testo": "Il segnale raffigurato prescrive di marciare a velocità inferiore o uguale a 80 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 272
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19597,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 272
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19598,
+    "testo": "Il segnale raffigurato impone di mantenere una distanza di sicurezza di almeno 80 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 272
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19599,
+    "testo": "Il segnale raffigurato non s i riferisce ai motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 272
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19600,
+    "testo": "Il segnale raffigurato indica la velocità consigliata",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 272
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19601,
+    "testo": "Il segnale raffigurato permette di effettuare il sorpasso a velocità superiore a 80 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 272
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19602,
+    "testo": "Il segnale raffigurato vieta la circolazione dei veicoli di massa totale superiore a 80 quintali",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 272
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19603,
+    "testo": "Il segnale raffigurato obbliga a rispettare un limite minimo di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 273
+  },
+  {
+    "id_blocco": 4111,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19604,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che, per costruzione, non possono ra ggiungere la velocità indicata",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 273
+  }
+]

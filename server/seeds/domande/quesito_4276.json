@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4276,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21313,
+    "testo": "Il segnale raffigurato indica un'area di sosta per i taxi in servizio",
+    "risposta_corretta": "VERO",
+    "immagine": "7db243423fe983741f896d4c4439ad3c",
+    "pagina_quiz": 27
+  },
+  {
+    "id_blocco": 4276,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21314,
+    "testo": "Il segnale raffigurato indica un'area di sosta ad uso esclusivo dei taxi in servizio",
+    "risposta_corretta": "VERO",
+    "immagine": "7db243423fe983741f896d4c4439ad3c",
+    "pagina_quiz": 27
+  },
+  {
+    "id_blocco": 4276,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21315,
+    "testo": "Il segnale raffigurato indica un parcheggio riservato ai taxi in servizio",
+    "risposta_corretta": "VERO",
+    "immagine": "7db243423fe983741f896d4c4439ad3c",
+    "pagina_quiz": 28
+  },
+  {
+    "id_blocco": 4276,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21316,
+    "testo": "Il segnale raffigurato indica un'area contrassegnata da strisce gialle con la scritta T AXI",
+    "risposta_corretta": "VERO",
+    "immagine": "7db243423fe983741f896d4c4439ad3c",
+    "pagina_quiz": 28
+  },
+  {
+    "id_blocco": 4276,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21317,
+    "testo": "Il segnale raffigurato indica un divieto di sorpasso ai taxi",
+    "risposta_corretta": "FALSO",
+    "immagine": "7db243423fe983741f896d4c4439ad3c",
+    "pagina_quiz": 28
+  },
+  {
+    "id_blocco": 4276,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21318,
+    "testo": "Il segnale raffigurato indica una strada vietata ai taxi",
+    "risposta_corretta": "FALSO",
+    "immagine": "7db243423fe983741f896d4c4439ad3c",
+    "pagina_quiz": 28
+  },
+  {
+    "id_blocco": 4276,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21319,
+    "testo": "Il segnale raffigurato indica la presenza nelle vicinanze di un apparecchio per chiamare un taxi",
+    "risposta_corretta": "FALSO",
+    "immagine": "7db243423fe983741f896d4c4439ad3c",
+    "pagina_quiz": 28
+  },
+  {
+    "id_blocco": 4276,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21320,
+    "testo": "Il segnale raffigurato indica la presenza di una stazione radio per taxi",
+    "risposta_corretta": "FALSO",
+    "immagine": "7db243423fe983741f896d4c4439ad3c",
+    "pagina_quiz": 28
+  },
+  {
+    "id_blocco": 4276,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21321,
+    "testo": "Il segnale raffigurato è dotato di luce propria",
+    "risposta_corretta": "FALSO",
+    "immagine": "7db243423fe983741f896d4c4439ad3c",
+    "pagina_quiz": 28
+  },
+  {
+    "id_blocco": 4276,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21322,
+    "testo": "Il segnale raffigurato indica un garage riservato ai taxi",
+    "risposta_corretta": "FALSO",
+    "immagine": "7db243423fe983741f896d4c4439ad3c",
+    "pagina_quiz": 28
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4095,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19395,
+    "testo": "Il segnale raffigurato preannuncia il pericolo di caduta di massi da destra",
+    "risposta_corretta": "VERO",
+    "immagine": "a50e795242bbca87bdb941fb2715f989",
+    "pagina_quiz": 216
+  },
+  {
+    "id_blocco": 4095,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19396,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada ove esiste il pericolo di presenza di pietre sulla carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "a50e795242bbca87bdb941fb2715f989",
+    "pagina_quiz": 216
+  },
+  {
+    "id_blocco": 4095,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19397,
+    "testo": "Il segnale raffigurato preannuncia il pericolo di caduta di pietre dalla parete rocciosa",
+    "risposta_corretta": "VERO",
+    "immagine": "a50e795242bbca87bdb941fb2715f989",
+    "pagina_quiz": 216
+  },
+  {
+    "id_blocco": 4095,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19398,
+    "testo": "In presenza del segnale raffigurato è opportuno mode rare la velocità per evitare di urtare eventuali massi caduti sulla carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "a50e795242bbca87bdb941fb2715f989",
+    "pagina_quiz": 216
+  },
+  {
+    "id_blocco": 4095,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19399,
+    "testo": "In presenza del segnale raffigurato bisogna far attenzione a possibili brusche frenate da parte dei veicoli che precedono",
+    "risposta_corretta": "VERO",
+    "immagine": "a50e795242bbca87bdb941fb2715f989",
+    "pagina_quiz": 216
+  },
+  {
+    "id_blocco": 4095,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19400,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada sdrucciolevole",
+    "risposta_corretta": "FALSO",
+    "immagine": "a50e795242bbca87bdb941fb2715f989",
+    "pagina_quiz": 216
+  },
+  {
+    "id_blocco": 4095,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19401,
+    "testo": "Il segnale raffigurato preannuncia una strettoia a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "a50e795242bbca87bdb941fb2715f989",
+    "pagina_quiz": 216
+  },
+  {
+    "id_blocco": 4095,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19402,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada non asfaltato",
+    "risposta_corretta": "FALSO",
+    "immagine": "a50e795242bbca87bdb941fb2715f989",
+    "pagina_quiz": 217
+  },
+  {
+    "id_blocco": 4095,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19403,
+    "testo": "Il segnale raffigurato preannuncia banchine cedevoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "a50e795242bbca87bdb941fb2715f989",
+    "pagina_quiz": 217
+  },
+  {
+    "id_blocco": 4095,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19404,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada dove non si può circolare ad oltre 30 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": "a50e795242bbca87bdb941fb2715f989",
+    "pagina_quiz": 217
+  },
+  {
+    "id_blocco": 4095,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19405,
+    "testo": "Il segnale raffigurato preannuncia possibili grandinate",
+    "risposta_corretta": "FALSO",
+    "immagine": "a50e795242bbca87bdb941fb2715f989",
+    "pagina_quiz": 217
+  }
+]

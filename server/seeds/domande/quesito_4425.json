@@ -1,0 +1,218 @@
+[
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22812,
+    "testo": "I vei coli devono, di norma, circolare sulla parte destra della carreggiata ed in vicinanza del margine destro",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 511
+  },
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22813,
+    "testo": "In una strada divisa in due carreggiate separate come in figura, i veicoli devono, di norma, circolare sulla carreggiata di destra rispetto alla propria dire zione di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "a688b13a965ab6551c0ba93d5ad44db1",
+    "pagina_quiz": 511
+  },
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22814,
+    "testo": "Su una strada divisa in tre carreggiate separate come in figura, i veicoli devono, di norma, circolare sulla carreggiata centrale o su quella di destra rispetto alla propria direzione di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "6304fecd8e8f669b1a9c7c007bdab67d",
+    "pagina_quiz": 511
+  },
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22815,
+    "testo": "In una carreggiata a doppio senso di marcia con due corsie, come in figura, i veicoli devono circolare nella corsia di destra, impegnando solo quella di sinistra per il sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 511
+  },
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22816,
+    "testo": "Su carreggiate a tre corsie per senso di marcia, come in figura, i veicoli a motore devono, di norma, percorrere la corsia più libera a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "a55112f8aa2ffee4f82537f5b38f7b9b",
+    "pagina_quiz": 511
+  },
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22817,
+    "testo": "I vei coli a motore possono circolare per file parallele in vicinanza di incroci regol ati da vigili o da semafori",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 511
+  },
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22818,
+    "testo": "Su strada a doppio senso di marcia con tre corsie, come in figura, i veicoli possono usare la corsia centrale per la marcia normale",
+    "risposta_corretta": "FALSO",
+    "immagine": "dff3b1affd4734796911036361dd8cdc",
+    "pagina_quiz": 511
+  },
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22819,
+    "testo": "Quando una strada è a doppio senso di marcia con tre corsie, come in figura, i veicoli possono circolare per file parallele",
+    "risposta_corretta": "FALSO",
+    "immagine": "dff3b1affd4734796911036361dd8cdc",
+    "pagina_quiz": 511
+  },
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22820,
+    "testo": "Per svoltar e a sinistra i veicoli debbono tenersi sul margine destro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 511
+  },
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22821,
+    "testo": "E' possibile circolare al centro della carreggiata quando la strada è libera",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 511
+  },
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22822,
+    "testo": "In una strada a doppio senso di marcia con due corsie, come in figura, i veicoli possono circolare per file parallele",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 511
+  },
+  {
+    "id_blocco": 4425,
+    "argomenti": [
+      "Norme sulla circol. dei veicoli",
+      "pos. dei veicoli sulla carreggiata",
+      "cambio di direz. di corsia (svolta)",
+      "comp. in presenza di funerali, cortei, convogli militari",
+      "comp. agli incroci",
+      "norme di prec.",
+      "obblighi verso veicoli di Polizia e di emergenza",
+      "rischi legati a manovra e a guida dei diversi tipi di veicolo e relativo campo visivo del cond."
+    ],
+    "numero": 22823,
+    "testo": "In caso di intenso traffico è consentito circolare per file parallele, utilizzando le corsie riservate agli autobus e ai veicoli in servizio pubblico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 511
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4387,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22451,
+    "testo": "Si deve r egolare la velocità in base allo stato di manutenzione e pulizia della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4387,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22452,
+    "testo": "La velocità deve essere diminuita in caso di forte vento laterale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4387,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22453,
+    "testo": "La velocità va diminuita in caso di abbagliamento dovuto al sole",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4387,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22454,
+    "testo": "Sulle autostrade e sulle strade extraurbane principali, in caso di nebbia fitta, con visibilità inferiore a 100 m, possono essere imposti limiti massimi temporanei di velocità, non superiori a 50 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4387,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22455,
+    "testo": "Salvo diversa segnalazione, il limite massimo di velocità sulle strade extraurbane principali è di 100 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4387,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22456,
+    "testo": "Salvo diversa segnalazione, il limite massimo di velocità nei centri abitati è di 60 km/h, valido fino ad un chilometro dopo l'uscita del paese",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 497
+  },
+  {
+    "id_blocco": 4387,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22457,
+    "testo": "Si deve diminuire la velocità ogni qualvolta si incontra un segnale stradale di indicazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 497
+  }
+]

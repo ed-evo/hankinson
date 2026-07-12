@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4686,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25168,
+    "testo": "La forza aderente consente il movimento del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4686,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25169,
+    "testo": "La forza aderente si oppone allo slittamento verso l'esterno della curva",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4686,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25170,
+    "testo": "La forza aderente consente al veicolo di percorrere la traiettoria voluta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4686,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25171,
+    "testo": "La forza aderente si oppone allo slittamento dello pneumatico sull'asfalto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4686,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25172,
+    "testo": "La forza aderente non si oppone allo slittamento causato dal vento laterale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  },
+  {
+    "id_blocco": 4686,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25173,
+    "testo": "La forza aderente , se eccessiva, comporta il surriscaldamento dei freni",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 583
+  }
+]

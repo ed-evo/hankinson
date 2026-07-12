@@ -1,0 +1,200 @@
+[
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23570,
+    "testo": "Nella fase di sorpasso, il conducente è tenuto a evitare di stringere o di tagliare la strada al veicolo sorpassato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23571,
+    "testo": "La pericolosità del sorpasso è determinata dal rischio di urtare altri veicoli che manifestano l'intenzione di compiere la stessa manovra",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23572,
+    "testo": "La pericolosità del sorpasso è determinata dal rischio di collisione, in fase di avvicinamento, con il veicolo da sorpassare",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23573,
+    "testo": "La pericolosità del sorpasso è determinata dal rischio di collisione, in fase di rientro in corsia, con il veicolo sorpassato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23574,
+    "testo": "La pericolosità del sorpasso è determinata dal rischio di urto frontale con un veicolo che provenga dal senso contrario",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23575,
+    "testo": "La pericolosità del sorpasso è determinata dalla ridotta larghezza della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23576,
+    "testo": "Nella fase di sorpasso, il conducente è tenuto a mantenersi il più a lungo possibile nella corsia di sorpasso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23577,
+    "testo": "Nella fase di sorpasso, il conducente è tenuto a segnalare continuamente con l'avvisat ore acustico l'effettuazione della manovra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23578,
+    "testo": "Nella fase di sorpasso, il conducente è tenuto a mantenere una velocità almeno doppia di quella del veicolo sorpassato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23579,
+    "testo": "La pericolosità del sorpasso è determinata dalla presenza, sulla strada, di delineatori normali di margine",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23580,
+    "testo": "Il sorpasso è vietato di notte, nei centri urbani con pubblica illuminazione insuffic ient e",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23581,
+    "testo": "Il sorpasso è vietato quando sulla carreggiata è tracciata la linea tratteggiata di mezzeria",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23582,
+    "testo": "Il sorpasso è vietato quando sulle strade di montagna si è preceduti da un autobus di linea",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23583,
+    "testo": "Nella fase di rientro dal sorpasso in autostrada, il conducente deve distanzia rsi di almeno 100 m dal veicolo sorpassato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23584,
+    "testo": "Nella fase di rientro dal sorpasso il conducente deve segnalare acust icamente la manovra al veicolo sorpassato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23585,
+    "testo": "Il sorpasso a destra è consentito quando il filobus è fermo per la salita e la disce sa dei passeggeri, anche se non esiste salvagente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23586,
+    "testo": "Il sorpasso a destra è consentito quando si percorre una strada extraurbana a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  },
+  {
+    "id_blocco": 4503,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23587,
+    "testo": "Il c onducente che intende sorpassare deve assicurarsi che la potenza del motore del proprio veicolo sia maggiore di quella del veicolo da sorpassare",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 525
+  }
+]

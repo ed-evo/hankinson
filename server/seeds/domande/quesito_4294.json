@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4294,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21502,
+    "testo": "Il segnale raffigurato permette di conoscere le condizioni di transitabilità del passo dello Stelvio",
+    "risposta_corretta": "VERO",
+    "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
+    "pagina_quiz": 51
+  },
+  {
+    "id_blocco": 4294,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21503,
+    "testo": "Il segnale raffigurato indica che è necessario transitare solo con catene o pneumatici invernali",
+    "risposta_corretta": "VERO",
+    "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
+    "pagina_quiz": 51
+  },
+  {
+    "id_blocco": 4294,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21504,
+    "testo": "Il segnale raffigurato indica che la strada è aperta, ma solo ai veicoli che sono equipa ggiati con catene o pneumatici invernali",
+    "risposta_corretta": "VERO",
+    "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
+    "pagina_quiz": 51
+  },
+  {
+    "id_blocco": 4294,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21505,
+    "testo": "Il segnale raffigurato è posto su s trade di montagna",
+    "risposta_corretta": "VERO",
+    "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
+    "pagina_quiz": 51
+  },
+  {
+    "id_blocco": 4294,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21506,
+    "testo": "Il segnale raffigurato indica che è possibile raggiungere il passo dello Stelvio",
+    "risposta_corretta": "VERO",
+    "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
+    "pagina_quiz": 51
+  },
+  {
+    "id_blocco": 4294,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21507,
+    "testo": "Il segnale raffigurato indica strada aperta solo ai veicoli con pneumatici nuovi",
+    "risposta_corretta": "FALSO",
+    "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
+    "pagina_quiz": 52
+  },
+  {
+    "id_blocco": 4294,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21508,
+    "testo": "Il segnale raffigurato consiglia di montare le catene",
+    "risposta_corretta": "FALSO",
+    "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
+    "pagina_quiz": 52
+  },
+  {
+    "id_blocco": 4294,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21509,
+    "testo": "Il segnale raffigurato obbliga a montare le catene su tutte le quattro ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
+    "pagina_quiz": 52
+  },
+  {
+    "id_blocco": 4294,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21510,
+    "testo": "Il segnale raffigurato obbliga a togliere le catene per non rovinare l'asfalto",
+    "risposta_corretta": "FALSO",
+    "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
+    "pagina_quiz": 52
+  },
+  {
+    "id_blocco": 4294,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21511,
+    "testo": "Il segnale raffigurato indica l'apertura di un impianto sciistico",
+    "risposta_corretta": "FALSO",
+    "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
+    "pagina_quiz": 52
+  }
+]

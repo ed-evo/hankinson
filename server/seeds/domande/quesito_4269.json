@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4269,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21246,
+    "testo": "Il segnale raffigurato indica il tipo ed il numero di strada percorsa",
+    "risposta_corretta": "VERO",
+    "immagine": "9476acfee4cb476566d2aa68a47dcb6e",
+    "pagina_quiz": 19
+  },
+  {
+    "id_blocco": 4269,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21247,
+    "testo": "Il segnale raffigurato s i può trovare all'interno di un segnale di direzione o di bivio stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "9476acfee4cb476566d2aa68a47dcb6e",
+    "pagina_quiz": 19
+  },
+  {
+    "id_blocco": 4269,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21248,
+    "testo": "Il segnale raffigurato indica che la strada su cui viaggiamo è una strada statale",
+    "risposta_corretta": "VERO",
+    "immagine": "9476acfee4cb476566d2aa68a47dcb6e",
+    "pagina_quiz": 19
+  },
+  {
+    "id_blocco": 4269,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21249,
+    "testo": "Il segnale raffigurato indica che stiamo percorrendo la strada statale n. 2",
+    "risposta_corretta": "VERO",
+    "immagine": "9476acfee4cb476566d2aa68a47dcb6e",
+    "pagina_quiz": 20
+  },
+  {
+    "id_blocco": 4269,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21250,
+    "testo": "Il segnale raffigurato indica il numero di piazzole di sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": "9476acfee4cb476566d2aa68a47dcb6e",
+    "pagina_quiz": 20
+  },
+  {
+    "id_blocco": 4269,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21251,
+    "testo": "Il segnale raffigurato indica una strada sdrucciolevole per 2 chilometri",
+    "risposta_corretta": "FALSO",
+    "immagine": "9476acfee4cb476566d2aa68a47dcb6e",
+    "pagina_quiz": 20
+  },
+  {
+    "id_blocco": 4269,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21252,
+    "testo": "Il segnale raffigurato indica una strada stretta per 2 chilometri",
+    "risposta_corretta": "FALSO",
+    "immagine": "9476acfee4cb476566d2aa68a47dcb6e",
+    "pagina_quiz": 20
+  },
+  {
+    "id_blocco": 4269,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21253,
+    "testo": "Il segnale raffigurato indica una strada senza uscita a 2 chilometri",
+    "risposta_corretta": "FALSO",
+    "immagine": "9476acfee4cb476566d2aa68a47dcb6e",
+    "pagina_quiz": 20
+  },
+  {
+    "id_blocco": 4269,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21254,
+    "testo": "Il segnale raffigurato indica una strada senza segnaletica per 2 chilometri",
+    "risposta_corretta": "FALSO",
+    "immagine": "9476acfee4cb476566d2aa68a47dcb6e",
+    "pagina_quiz": 20
+  },
+  {
+    "id_blocco": 4269,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21255,
+    "testo": "Il segnale raffigurato indica una strada sterrata",
+    "risposta_corretta": "FALSO",
+    "immagine": "9476acfee4cb476566d2aa68a47dcb6e",
+    "pagina_quiz": 20
+  }
+]

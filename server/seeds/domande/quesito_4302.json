@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4302,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21574,
+    "testo": "Il segnale raffigurato preavvisa un ufficio di informazioni turistico- alberghiere",
+    "risposta_corretta": "VERO",
+    "immagine": "24002cad8355d9a15b8b1fc9390b7788",
+    "pagina_quiz": 59
+  },
+  {
+    "id_blocco": 4302,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21575,
+    "testo": "Il segnale raffigurato indica la possibilità di avere informazioni su alberghi e motel",
+    "risposta_corretta": "VERO",
+    "immagine": "24002cad8355d9a15b8b1fc9390b7788",
+    "pagina_quiz": 59
+  },
+  {
+    "id_blocco": 4302,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21576,
+    "testo": "Il segnale raffigurato indica un posto dove si possono richiedere informazioni sugli alberghi",
+    "risposta_corretta": "VERO",
+    "immagine": "24002cad8355d9a15b8b1fc9390b7788",
+    "pagina_quiz": 59
+  },
+  {
+    "id_blocco": 4302,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21577,
+    "testo": "Il segnale raffigurato indica il numero di alberghi che si trovano nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "24002cad8355d9a15b8b1fc9390b7788",
+    "pagina_quiz": 59
+  },
+  {
+    "id_blocco": 4302,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21578,
+    "testo": "Il segnale raffigurato indica, a 150 metri, l'ingresso di un ospedale",
+    "risposta_corretta": "FALSO",
+    "immagine": "24002cad8355d9a15b8b1fc9390b7788",
+    "pagina_quiz": 59
+  },
+  {
+    "id_blocco": 4302,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21579,
+    "testo": "Il segnale raffigurato indica l'ufficio accettazione dell'ospedale",
+    "risposta_corretta": "FALSO",
+    "immagine": "24002cad8355d9a15b8b1fc9390b7788",
+    "pagina_quiz": 59
+  },
+  {
+    "id_blocco": 4302,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21580,
+    "testo": "Il segnale raffigurato indica che a 150 metri vi è un albergo con personale interprete per clienti stranieri",
+    "risposta_corretta": "FALSO",
+    "immagine": "24002cad8355d9a15b8b1fc9390b7788",
+    "pagina_quiz": 60
+  }
+]

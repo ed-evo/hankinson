@@ -1,0 +1,184 @@
+[
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24749,
+    "testo": "In caso di nebbia fitta è opportuno lasciarsi guidare dalla segnaletica oriz zontale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24750,
+    "testo": "In caso di nebbia fitta è opportuno procedere ad una velocità adeguata alla visibilità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24751,
+    "testo": "In caso di nebbia fitta è opportuno fermarsi, se necessario, fuori dalla carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24752,
+    "testo": "In caso di nebbia fitta è opportuno se costretti a fermarsi sulla carreggiata, usare la segnalazione luminosa di pericolo (quattro frecce lampeggianti simultaneame nte)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24753,
+    "testo": "In caso di nebbia fitta è opportuno evitare di fermarsi sulla carreggiata, se non per cause di forza maggiore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24754,
+    "testo": "In caso di nebbia fitta è opportuno accendere i proiettori fendinebbia o, in mancanza, quelli anabbaglianti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24755,
+    "testo": "In caso di nebbia fitta è opportuno accendere la luce posteriore per nebbia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24756,
+    "testo": "In caso di nebbia fitta è opportuno guidare con la massima prudenza e concentrazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24757,
+    "testo": "In caso di nebbia fitta è opportuno circolare con le sole luci di posizioni accese",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24758,
+    "testo": "In caso di nebbia fitta è opportuno mantenere in funzione l'indicatore di dire zione sinistro",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24759,
+    "testo": "In caso di nebbia fitta è opportuno procedere a zig zag per far meglio notare la propria presenza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24760,
+    "testo": "In caso di nebbia fitta è opportuno accodarsi al veicolo che precede quanto più vicino possibile",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24761,
+    "testo": "In caso di nebbia fitta è opportuno suonare continuativamente il clacson",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 567
+  },
+  {
+    "id_blocco": 4628,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24762,
+    "testo": "In caso di nebbia fitta è opportuno tenere la cintura di sicurezza sganciata per essere più pronti ad abbandonare il veicolo in caso di incidente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 567
+  }
+]

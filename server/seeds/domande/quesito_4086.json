@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4086,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19285,
+    "testo": "In presenza del segnale raffigurato è necessario moderare la velocità ed evitare brusche frenate in caso di pioggia",
+    "risposta_corretta": "VERO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 203
+  },
+  {
+    "id_blocco": 4086,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19286,
+    "testo": "In presenza del segnale raffigurato è necessario moderare la velocità ed evitare brusche accelerate in caso di ghiaccio",
+    "risposta_corretta": "VERO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 203
+  },
+  {
+    "id_blocco": 4086,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19287,
+    "testo": "In presenza del segnale raffigurato è necessario moderare la velocità ed evitare brusche sterzate in caso di pioggia",
+    "risposta_corretta": "VERO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 203
+  },
+  {
+    "id_blocco": 4086,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19288,
+    "testo": "In presenza del segnale raffigurato è necessario moderare la velocità e tenere presente che la distanza di sicurezza aumenta in caso di ghiaccio",
+    "risposta_corretta": "VERO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 203
+  },
+  {
+    "id_blocco": 4086,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19289,
+    "testo": "In presenza del segnale raffigurato è necessario tenere presente che la distanza di frenatura diminuisce in caso di pioggia",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 203
+  },
+  {
+    "id_blocco": 4086,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19290,
+    "testo": "In presenza del segnale raffigurato è necessario diminuire la distanza dal veicolo che ci precede, in caso di pioggia",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 203
+  },
+  {
+    "id_blocco": 4086,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19291,
+    "testo": "In presenza del segnale raffigurato è necessario accelerare bruscamente in caso di pioggia",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 203
+  },
+  {
+    "id_blocco": 4086,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19292,
+    "testo": "In presenza del segnale raffigurato è sempre vietato il sorpasso quando piove",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 203
+  },
+  {
+    "id_blocco": 4086,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19293,
+    "testo": "In presenza del segnale raffigurato è necessario frenare bruscamente in caso di ghiaccio",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 204
+  },
+  {
+    "id_blocco": 4086,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19294,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli con ruote sporche di fango",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 204
+  },
+  {
+    "id_blocco": 4086,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19295,
+    "testo": "In presenza del segnale raffigurato è necessario montare le catene",
+    "risposta_corretta": "FALSO",
+    "immagine": "9557ea08889ddcf8ba229d0cbe9160eb",
+    "pagina_quiz": 204
+  }
+]

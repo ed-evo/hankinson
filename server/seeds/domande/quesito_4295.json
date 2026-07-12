@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4295,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21512,
+    "testo": "Il segnale raffigurato consiglia di procedere con particolare prudenza e attenzione",
+    "risposta_corretta": "VERO",
+    "immagine": "185a3c1d7ae6a5c7a4ddc4aa235f085d",
+    "pagina_quiz": 52
+  },
+  {
+    "id_blocco": 4295,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21513,
+    "testo": "Il segnale raffigurato indica che il passo dello Stelvio non è raggiungibile",
+    "risposta_corretta": "VERO",
+    "immagine": "185a3c1d7ae6a5c7a4ddc4aa235f085d",
+    "pagina_quiz": 52
+  },
+  {
+    "id_blocco": 4295,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21514,
+    "testo": "Il segnale raffigurato raccomanda l'uso delle catene o di pneumatici invernali fino a Trafoi",
+    "risposta_corretta": "VERO",
+    "immagine": "185a3c1d7ae6a5c7a4ddc4aa235f085d",
+    "pagina_quiz": 52
+  },
+  {
+    "id_blocco": 4295,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21515,
+    "testo": "Il segnale raffigurato indica che è possibile arrivare fino a Trafoi",
+    "risposta_corretta": "VERO",
+    "immagine": "185a3c1d7ae6a5c7a4ddc4aa235f085d",
+    "pagina_quiz": 53
+  },
+  {
+    "id_blocco": 4295,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21516,
+    "testo": "Il segnale raffigurato indica che le stazioni di servizio sono chiuse",
+    "risposta_corretta": "FALSO",
+    "immagine": "185a3c1d7ae6a5c7a4ddc4aa235f085d",
+    "pagina_quiz": 53
+  },
+  {
+    "id_blocco": 4295,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21517,
+    "testo": "Il segnale raffigurato indica che è obbligatorio montare gli pneumatici invernali",
+    "risposta_corretta": "FALSO",
+    "immagine": "185a3c1d7ae6a5c7a4ddc4aa235f085d",
+    "pagina_quiz": 53
+  },
+  {
+    "id_blocco": 4295,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21518,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che non hanno le catene da neve",
+    "risposta_corretta": "FALSO",
+    "immagine": "185a3c1d7ae6a5c7a4ddc4aa235f085d",
+    "pagina_quiz": 53
+  },
+  {
+    "id_blocco": 4295,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21519,
+    "testo": "Il segnale raffigurato indica che i veicoli per poter transitare debbono avere a bordo l e cat ene",
+    "risposta_corretta": "FALSO",
+    "immagine": "185a3c1d7ae6a5c7a4ddc4aa235f085d",
+    "pagina_quiz": 53
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4648,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24899,
+    "testo": "Un ferito in stato di shock va messo a terra e, se possibile, con le gambe sollevate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4648,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24900,
+    "testo": "Un ferito in stato di shock va coperto come meglio possibile, per evitare che si raffreddi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4648,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24901,
+    "testo": "Un ferito in stato di shock va disteso, tenendo possibilmente le gambe sollevate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4648,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24902,
+    "testo": "In presenza di un ferito in stato di shock, occorre farlo camminare, per ria ttivargli la circolazione del sangue",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4648,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24903,
+    "testo": "Un ferito in stato di shock va messo in posizione seduta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4648,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24904,
+    "testo": "In presenza di un ferito in stato di shock, occorre dargli piccoli schiaffi su guance e gambe, per riattivargli la circolazione del sangue",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 573
+  },
+  {
+    "id_blocco": 4648,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24905,
+    "testo": "In presenza di un ferito in stato di shock, occorre fargli bere piccole quantità di superalcolici",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 573
+  }
+]

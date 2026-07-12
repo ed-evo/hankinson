@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4282,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21380,
+    "testo": "Il segnale raffigurato è un preavviso di incrocio urbano con circolazione rota toria",
+    "risposta_corretta": "VERO",
+    "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
+    "pagina_quiz": 35
+  },
+  {
+    "id_blocco": 4282,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21381,
+    "testo": "Il segnale raffigurato preavvisa di svoltare alla prima traversa a destra per andare a Forlì",
+    "risposta_corretta": "VERO",
+    "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
+    "pagina_quiz": 35
+  },
+  {
+    "id_blocco": 4282,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21382,
+    "testo": "Il segnale raffigurato preavvisa di svoltare alla seconda traversa per raggi ungere la tangenziale",
+    "risposta_corretta": "VERO",
+    "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
+    "pagina_quiz": 35
+  },
+  {
+    "id_blocco": 4282,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21383,
+    "testo": "Il segnale raffigurato contiene lo schema della rotatoria",
+    "risposta_corretta": "VERO",
+    "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
+    "pagina_quiz": 35
+  },
+  {
+    "id_blocco": 4282,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21384,
+    "testo": "Il segnale raffigurato riporta i nomi delle località raggiungibili",
+    "risposta_corretta": "VERO",
+    "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
+    "pagina_quiz": 35
+  },
+  {
+    "id_blocco": 4282,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21385,
+    "testo": "Il segnale raffigurato indica una strada interrotta",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
+    "pagina_quiz": 36
+  },
+  {
+    "id_blocco": 4282,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21386,
+    "testo": "Il segnale raffigurato preavvisa un'area pedonale con verde pubblico",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
+    "pagina_quiz": 36
+  },
+  {
+    "id_blocco": 4282,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21387,
+    "testo": "Il segnale raffigurato preavvisa un divieto di transito agli autoveicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
+    "pagina_quiz": 36
+  },
+  {
+    "id_blocco": 4282,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21388,
+    "testo": "Il segnale raffigurato s i trova su strade extraurbane",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
+    "pagina_quiz": 36
+  },
+  {
+    "id_blocco": 4282,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21389,
+    "testo": "Il segnale raffigurato vale solo nelle ore notturne",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
+    "pagina_quiz": 36
+  }
+]

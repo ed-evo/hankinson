@@ -1,0 +1,100 @@
+[
+  {
+    "id_blocco": 4015,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18471,
+    "testo": "Fanno part e della carreggiata le corsie di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4015,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18472,
+    "testo": "Fanno part e della carreggiata gli attraversamenti ciclabili",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4015,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18473,
+    "testo": "Fanno part e della carreggiata gli attraversamenti pedonali",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4015,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18474,
+    "testo": "Fanno part e della carreggiata le corsie di sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4015,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18475,
+    "testo": "Fanno part e della carreggiata le corsie di emergenza delle autostrade",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4015,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18476,
+    "testo": "Fanno part e della carreggiata le banchine",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 453
+  },
+  {
+    "id_blocco": 4015,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18477,
+    "testo": "Fanno part e della carreggiata i marciapiedi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 453
+  }
+]

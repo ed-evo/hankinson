@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4234,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20911,
+    "testo": "La str iscia bianca continua di mezzo in figura divide la carreggiata in due corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "b43758bb9d85546a58f1d0a67f5b3b45",
+    "pagina_quiz": 355
+  },
+  {
+    "id_blocco": 4234,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20912,
+    "testo": "La str iscia bianca continua di mezzo in figura non può essere superata",
+    "risposta_corretta": "VERO",
+    "immagine": "b43758bb9d85546a58f1d0a67f5b3b45",
+    "pagina_quiz": 355
+  },
+  {
+    "id_blocco": 4234,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20913,
+    "testo": "La str iscia bianca continua di mezzo in figura, divide i sensi di marcia nelle strade a doppio senso",
+    "risposta_corretta": "VERO",
+    "immagine": "b43758bb9d85546a58f1d0a67f5b3b45",
+    "pagina_quiz": 355
+  },
+  {
+    "id_blocco": 4234,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20914,
+    "testo": "La str iscia bianca continua di mezzo in figura, sulle strade a doppio senso si può trova re sul tratto in salita di un dosso",
+    "risposta_corretta": "VERO",
+    "immagine": "b43758bb9d85546a58f1d0a67f5b3b45",
+    "pagina_quiz": 355
+  },
+  {
+    "id_blocco": 4234,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20915,
+    "testo": "La str iscia bianca continua di mezzo in figura, sulle strade a doppio senso può trova rsi in vicinanza degli attraversamenti pedonali",
+    "risposta_corretta": "VERO",
+    "immagine": "b43758bb9d85546a58f1d0a67f5b3b45",
+    "pagina_quiz": 355
+  },
+  {
+    "id_blocco": 4234,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20916,
+    "testo": "La str iscia bianca continua di mezzo in figura permette la manovra di sorpasso senza superarla",
+    "risposta_corretta": "VERO",
+    "immagine": "b43758bb9d85546a58f1d0a67f5b3b45",
+    "pagina_quiz": 355
+  },
+  {
+    "id_blocco": 4234,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20917,
+    "testo": "La str iscia bianca continua di mezzo in figura divide la strada in due carreggiate, ognuna a doppio senso",
+    "risposta_corretta": "FALSO",
+    "immagine": "b43758bb9d85546a58f1d0a67f5b3b45",
+    "pagina_quiz": 355
+  },
+  {
+    "id_blocco": 4234,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20918,
+    "testo": "La str iscia bianca continua di mezzo in figura consente di marciarvi a cavallo",
+    "risposta_corretta": "FALSO",
+    "immagine": "b43758bb9d85546a58f1d0a67f5b3b45",
+    "pagina_quiz": 356
+  },
+  {
+    "id_blocco": 4234,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20919,
+    "testo": "La str iscia bianca continua di mezzo in figura consente il sorpasso anche superandola, purché con le sole ruote di sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "b43758bb9d85546a58f1d0a67f5b3b45",
+    "pagina_quiz": 356
+  },
+  {
+    "id_blocco": 4234,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20920,
+    "testo": "La str iscia bianca continua di mezzo in figura consente l'inversione di marcia nelle strade a doppio senso",
+    "risposta_corretta": "FALSO",
+    "immagine": "b43758bb9d85546a58f1d0a67f5b3b45",
+    "pagina_quiz": 356
+  }
+]

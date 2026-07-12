@@ -1,0 +1,167 @@
+[
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19233,
+    "testo": "Il segnale raffigurato preannuncia un restringimento della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 196
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19234,
+    "testo": "Il segnale raffigurato preannuncia una strettoia sul lato sinistro della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 197
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19235,
+    "testo": "Il segnale raffigurato preannuncia un restringimento pericoloso sulla sinistra della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 197
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19236,
+    "testo": "Il segnale raffigurato preannuncia una strettoia con probabile difficoltà di incrocio con i veicoli provenienti dal senso opposto",
+    "risposta_corretta": "VERO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 197
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19237,
+    "testo": "Il segnale raffigurato impone di moderare la velocità e, se occorre, arrestarsi",
+    "risposta_corretta": "VERO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 197
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19238,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 197
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19239,
+    "testo": "Il segnale raffigurato, s e a fondo giallo, è posto in presenza di un cantiere stradale che riduce la larghezza della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 197
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19240,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "FALSO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 197
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19241,
+    "testo": "Il segnale raffigurato preannuncia una confluenza da sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 197
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19242,
+    "testo": "Il segnale raffigurato preannuncia una strada con una serie di curve",
+    "risposta_corretta": "FALSO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 197
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19243,
+    "testo": "Il segnale raffigurato preannuncia un cavalcavia",
+    "risposta_corretta": "FALSO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 198
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19244,
+    "testo": "Il segnale raffigurato preannuncia un sottopassaggio pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 198
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19245,
+    "testo": "Il segnale raffigurato preannuncia un restringimento sulla destra della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 198
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19246,
+    "testo": "Il segnale raffigurato preannuncia la presenza di un cordolo alto per separare le corsie",
+    "risposta_corretta": "FALSO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 198
+  },
+  {
+    "id_blocco": 4082,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19247,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada sdrucciolevole",
+    "risposta_corretta": "FALSO",
+    "immagine": "6a22104defc75f1e908cb883a771b8bc",
+    "pagina_quiz": 198
+  }
+]

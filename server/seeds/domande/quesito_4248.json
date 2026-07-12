@@ -1,0 +1,170 @@
+[
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21043,
+    "testo": "Le luci in figura si possono trovare in vicinanza di passaggi a livello con semibarriere",
+    "risposta_corretta": "VERO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 407
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21044,
+    "testo": "Le luci in figura si accendono alternativamente per segnalare l'arrivo dei tre ni nei passaggi a livello senza barriere",
+    "risposta_corretta": "VERO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 407
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21045,
+    "testo": "Le luci in figura quando sono accese vietano il passaggio di veicoli e pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 407
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21046,
+    "testo": "Le luci in figura, di norma, sono situate sul lato destro della strada",
+    "risposta_corretta": "VERO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 407
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21047,
+    "testo": "Le luci in figura entrano in funzione poco prima dell'arrivo del treno e rimangono accese fino alla fine del suo passaggio",
+    "risposta_corretta": "VERO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 407
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21048,
+    "testo": "Le luci in figura si accendono subito prima dell'inizio dell'abbassamento delle sem ibarriere",
+    "risposta_corretta": "VERO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 407
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21049,
+    "testo": "Le luci in figura sono integrate da un dispositivo di segnalazione acustica",
+    "risposta_corretta": "VERO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 408
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21050,
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse lampeggianti alternativamente e semibarriera ancora alzata, occorre predisporsi all'arresto",
+    "risposta_corretta": "VERO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 408
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21051,
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse lampeggianti alternativamente e semibarriera ancora alzata, si può passare velocemente, se non si vede sopraggiungere alcun treno",
+    "risposta_corretta": "FALSO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 408
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21052,
+    "testo": "Le luci in figura si trovano lungo le linee ferroviarie, come semaforo per i conducenti dei treni",
+    "risposta_corretta": "FALSO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 408
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21053,
+    "testo": "Le luci in figura quando lampeggiano alternativamente invitano a occupare rapi damente il passaggio a livello",
+    "risposta_corretta": "FALSO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 408
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21054,
+    "testo": "Le luci in figura si possono trovare 150 metri prima di un passaggio a livello con barriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 408
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21055,
+    "testo": "Le luci in figura vengono poste s ul primo dei pannelli distanziometrici di un passaggio a livello",
+    "risposta_corretta": "FALSO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 408
+  },
+  {
+    "id_blocco": 4248,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21056,
+    "testo": "Il dispositivo luminoso in figura è costituito da luci lampeggianti alternativamente che si accendono durante la fase di apertura (sollevamento) delle semibarriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "af67ba8e23b21e89a984be46b50086f0",
+    "pagina_quiz": 408
+  }
+]

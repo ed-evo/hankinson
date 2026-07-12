@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4174,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20318,
+    "testo": "Il segnale raffigurato indica la fine di una prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "9b53ff27b5ae803adc33fb8886e036e0",
+    "pagina_quiz": 370
+  },
+  {
+    "id_blocco": 4174,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20319,
+    "testo": "Il segnale raffigurato indica la fine del limite minimo di velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "9b53ff27b5ae803adc33fb8886e036e0",
+    "pagina_quiz": 370
+  },
+  {
+    "id_blocco": 4174,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20320,
+    "testo": "Il segnale raffigurato indica che non si ha più l'obbligo di circolare ad una velocità almeno pari a quella indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "9b53ff27b5ae803adc33fb8886e036e0",
+    "pagina_quiz": 370
+  },
+  {
+    "id_blocco": 4174,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20321,
+    "testo": "Il segnale raffigurato consente di circolare entro i limiti massimi di velocità vigenti per quella strada",
+    "risposta_corretta": "VERO",
+    "immagine": "9b53ff27b5ae803adc33fb8886e036e0",
+    "pagina_quiz": 370
+  },
+  {
+    "id_blocco": 4174,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20322,
+    "testo": "Il segnale raffigurato consente di circolare a velocità superiore a quella indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "9b53ff27b5ae803adc33fb8886e036e0",
+    "pagina_quiz": 371
+  },
+  {
+    "id_blocco": 4174,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20323,
+    "testo": "Il segnale raffigurato indica la fine del limite massimo di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": "9b53ff27b5ae803adc33fb8886e036e0",
+    "pagina_quiz": 371
+  },
+  {
+    "id_blocco": 4174,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20324,
+    "testo": "Il segnale raffigurato indica la fine del divieto di transito ai veicoli con massa complessiva superiore a 30 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": "9b53ff27b5ae803adc33fb8886e036e0",
+    "pagina_quiz": 371
+  },
+  {
+    "id_blocco": 4174,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20325,
+    "testo": "Il segnale raffigurato vieta la circolazione ai veicoli di massa superiore a 30 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": "9b53ff27b5ae803adc33fb8886e036e0",
+    "pagina_quiz": 371
+  },
+  {
+    "id_blocco": 4174,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20326,
+    "testo": "Il segnale raffigurato indica la fine del limite di lunghezza massima dei complessi di veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "9b53ff27b5ae803adc33fb8886e036e0",
+    "pagina_quiz": 371
+  },
+  {
+    "id_blocco": 4174,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20327,
+    "testo": "Il segnale raffigurato indica la fine dell'obbligo di mantenere la distanza di almeno 30 metri dal veicolo che precede",
+    "risposta_corretta": "FALSO",
+    "immagine": "9b53ff27b5ae803adc33fb8886e036e0",
+    "pagina_quiz": 371
+  },
+  {
+    "id_blocco": 4174,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20328,
+    "testo": "Il segnale raffigurato vieta di circolare alla velocità di 30 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": "9b53ff27b5ae803adc33fb8886e036e0",
+    "pagina_quiz": 371
+  }
+]

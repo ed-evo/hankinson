@@ -1,0 +1,57 @@
+[
+  {
+    "id_blocco": 4407,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22652,
+    "testo": "La distanza di sicurezza va sempre mantenuta, anche prima di iniziare un sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4407,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22653,
+    "testo": "La distanza di sicurezza deve essere aumentata qualora sia difficile valutare il comportamento del conducente che precede",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4407,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22654,
+    "testo": "La distanza di sicurezza deve essere tale da riuscire a fermare in tempo il veicolo, in caso di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4407,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22655,
+    "testo": "La distanza di sicurezza deve essere almeno uguale ai metri che il veicolo percorre durante il tempo di reazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4407,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22656,
+    "testo": "La distanza di sicurezza deve essere sempre uguale allo spazio di frenatura del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 504
+  }
+]

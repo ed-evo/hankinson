@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19406,
+    "testo": "Il segnale raffigurato preannuncia un semaforo",
+    "risposta_corretta": "VERO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 217
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19407,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 217
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19408,
+    "testo": "Nel segnale raffigurato, il disco giallo può essere sostituito da una luce gialla lampeggiante",
+    "risposta_corretta": "VERO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 217
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19409,
+    "testo": "In presenza del segnale raffigurato bisogna moderare la velocità per potersi all'occorrenza fermare",
+    "risposta_corretta": "VERO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 217
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19410,
+    "testo": "Il segnale raffigurato è a fondo giallo se posto prima di un cantiere stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 218
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19411,
+    "testo": "Il segnale raffigurato preannuncia un semaforo con disposizione delle luci in vertic ale",
+    "risposta_corretta": "VERO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 218
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19412,
+    "testo": "Il segnale raffigurato è obbligatorio sulle strade extraurbane",
+    "risposta_corretta": "VERO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 218
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19413,
+    "testo": "Sulle strade extraurbane il segnale è sempre obbligatorio",
+    "risposta_corretta": "VERO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 218
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19414,
+    "testo": "Il segnale raffigurato può avere il disco rosso sostituito da una luce rossa lampeggiante",
+    "risposta_corretta": "FALSO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 218
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19415,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento ferroviario senza barriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 218
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19416,
+    "testo": "Il segnale raffigurato può preannunciare un passaggio a livello con semibarriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 218
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19417,
+    "testo": "Il segnale raffigurato preannuncia un senso unico alternato",
+    "risposta_corretta": "FALSO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 218
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19418,
+    "testo": "Il segnale raffigurato preannuncia la presenza di un ponte mobile",
+    "risposta_corretta": "FALSO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 218
+  },
+  {
+    "id_blocco": 4096,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19419,
+    "testo": "Il segnale raffigurato può avere al centro una luce gialla fissa",
+    "risposta_corretta": "FALSO",
+    "immagine": "d8e896832ed7d2a8dc221808fd0ed0c1",
+    "pagina_quiz": 219
+  }
+]

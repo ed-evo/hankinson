@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4499,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23483,
+    "testo": "Dopo aver eseguito una prima manovra di sorpasso, in strade ad almeno due corsie per senso di marcia, è possibile eseguirne un' altra senza rie ntrare a destra, se non si crea intralcio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4499,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23484,
+    "testo": "La manovra di sorpasso deve essere eseguita a destra se il conducente del veicolo da sorpassare ha segnalato l'intenzione di voler svoltare a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4499,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23485,
+    "testo": "La manovra di sorpasso deve essere eseguita a destra se, su strada a senso unico, il conducente del veicolo da sorpassare ha segnalato l'intenzione di voler accostare a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4499,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23486,
+    "testo": "La manovra di sorpasso del tram può effettuarsi su ambo i lati se la strada è a senso unico e la larghezza della carreggiata lo consente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4499,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23487,
+    "testo": "Se il tram o il filobus sono fermi la manovra di sorpasso può effettuarsi a destra se e siste il salvagente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4499,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23488,
+    "testo": "Se il tram o il filobus sono fermi la manovra di sorpasso non può effettuarsi a dest ra se manca il salvagente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4499,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23489,
+    "testo": "Se il tram o il filobus sono fermi per la salita e la discesa dei passeggeri, la manovra di sorpasso può sempre effettuarsi a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4499,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23490,
+    "testo": "E' sempr e vietato effettuare la manovra di sorpass o a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4499,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23491,
+    "testo": "La manovra di sorpasso può, di norma, effettuarsi a destra sulle autostrade",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4499,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23492,
+    "testo": "La manovra di sorpasso può effettuarsi a sinistra soltanto se il veicolo da sorpassare sta svoltando a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4499,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23493,
+    "testo": "E' vietato effettuare un secondo sorpasso senza prima essersi riportati a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 523
+  }
+]

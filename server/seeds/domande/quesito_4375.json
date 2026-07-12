@@ -1,0 +1,379 @@
+[
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22286,
+    "testo": "Il c onducente deve sempre mantenere il controllo del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22287,
+    "testo": "Il c onducente deve sempre essere in grado di arrestare il veicolo in condizioni di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22288,
+    "testo": "Il c onducente deve poter arrestare il veicolo nel campo di visibilità e in condizioni di sicurezza.",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22289,
+    "testo": "E' obbligatorio regolare la velocità nelle curve",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22290,
+    "testo": "E' obbligatorio regolare la velocità nei tratti di strada a visibilità limitata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22291,
+    "testo": "E' obbligatorio regolare la velocità in prossimità delle intersezioni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22292,
+    "testo": "E' obbligatorio regolare la velocità in prossimità delle scuole",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22293,
+    "testo": "E' obbligatorio regolare la velocità in prossimità di luoghi frequentati dai bambini",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22294,
+    "testo": "E' obbligatorio regolare la velocità nelle forti discese",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22295,
+    "testo": "E' obbligatorio regolare la velocità nei passaggi stretti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22296,
+    "testo": "E' obbligatorio regolare la velocità nei passaggi ingombrati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22297,
+    "testo": "E' obbligatorio regolare la velocità nelle ore notturne",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22298,
+    "testo": "E' obbligatorio regolare la velocità nell'attraversamento di abitati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22299,
+    "testo": "E' obbligatorio regolare la velocità nei tratti di strada fiancheggiati da edifici",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22300,
+    "testo": "E' obbligatorio ridurre la velocità quando sia difficoltoso l'incrocio con altri veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22301,
+    "testo": "E' obbligatorio regolare la velocità in caso di nebbia o foschia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22302,
+    "testo": "E' obbligatorio regolare la velocità nei tratti di strada coperti da neve",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22303,
+    "testo": "E' obbligatorio regolare la velocità nei tratti di strada coperti da ghiaccio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22304,
+    "testo": "E' obbligatorio ridurre la velocità su strada a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22305,
+    "testo": "E' obbligatorio ridurre la velocità fuori dai centri abitati",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22306,
+    "testo": "E' obbligatorio ridurre la velocità nelle strade provinciali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22307,
+    "testo": "E' obbligatorio regolare la velocità nelle ore diurne ma non in quelle notturne",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22308,
+    "testo": "E' obbligatorio regolare la velocità nei rettilinei e non in curva",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22309,
+    "testo": "E' obbligatorio ridurre la velocità nelle strade in salita",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22310,
+    "testo": "E' obbligatorio ridurre la velocità in presenza di qualunque segnale stradale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22311,
+    "testo": "E' obbligatorio ridurre la velocità solo in presenza degli agenti del traffico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22313,
+    "testo": "E' obbligatorio regolare la velocità sulle strade extraurbane secondarie, ma non in quelle principali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22314,
+    "testo": "E' obbligatorio ridurre la velocità solo se l'autovettura è scarica",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4375,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22315,
+    "testo": "E' obbligatorio ridurre la velocità in prossimità degli autovelox",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 492
+  }
+]

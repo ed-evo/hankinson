@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4662,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25007,
+    "testo": "L'assicurazione obbligatoria RCA copre i danni subiti dai terzi trasportati se il veic olo è autorizzato al trasporto di persone",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4662,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25008,
+    "testo": "L'assicurazione obbligatoria RCA copre i danni subiti da persone e/o cose che si trovano in aree pubbliche o aperte al pubblico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4662,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25009,
+    "testo": "Il risa rcimento diretto nei sinistri stradali si applica se vi sono danni al veicolo e lesioni di lieve entità al conducente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4662,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25010,
+    "testo": "La procedura di risarcimento diretto non è applicabile se vi sono più di due veicoli coinvolti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4662,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25011,
+    "testo": "Il risa rcimento diretto è escluso se nel sinistro è coinvolto un motociclo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4662,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25012,
+    "testo": "In caso di si nistro con danni al veicolo, la richiesta di risarcimento diretto deve essere obbligatoriamente corredata di fotografie",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  },
+  {
+    "id_blocco": 4662,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 25013,
+    "testo": "L'assicurazione obbligatoria copre i danni subiti solo da terzi trasportati sui taxi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 577
+  }
+]

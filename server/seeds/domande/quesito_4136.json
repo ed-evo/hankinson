@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19872,
+    "testo": "Il segnale raffigurato indica la fine del divieto di sorpasso precedentemente imposto",
+    "risposta_corretta": "VERO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 304
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19873,
+    "testo": "In presenza del segnale raffigurato è vietato il sorpasso se deve essere oltrepassata la striscia continua",
+    "risposta_corretta": "VERO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 304
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19874,
+    "testo": "Il segnale raffigurato indica il punto in cui termina il divieto di sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 304
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19875,
+    "testo": "Il segnale raffigurato non impone un particolare limite di velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 304
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19876,
+    "testo": "Il segnale raffigurato può essere posto sia nei centri urbani che fuori",
+    "risposta_corretta": "VERO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 304
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19877,
+    "testo": "Il segnale raffigurato è un segnale di fine prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 304
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19878,
+    "testo": "Il segnale raffigurato ha validità per tutte le 24 ore",
+    "risposta_corretta": "VERO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 304
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19879,
+    "testo": "Il segnale raffigurato indica la fine del divieto di sorpasso tra le sole autovettur e",
+    "risposta_corretta": "FALSO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 305
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19880,
+    "testo": "Il segnale raffigurato indica la fine del divieto di transito per tutti gli autoveicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 305
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19881,
+    "testo": "Il segnale raffigurato prescrive il divieto di marcia per file parallele",
+    "risposta_corretta": "FALSO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 305
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19882,
+    "testo": "Il segnale raffigurato indica la fine del limite massimo di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 305
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19883,
+    "testo": "Il segnale raffigurato indica la fine del divieto di sosta su entrambi i lati della strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 305
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19884,
+    "testo": "Il segnale raffigurato indica che è finito l'obbligo di mantenere la distanza di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 305
+  },
+  {
+    "id_blocco": 4136,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19885,
+    "testo": "Il segnale raffigurato indica la fine del divieto di sosta in seconda fila",
+    "risposta_corretta": "FALSO",
+    "immagine": "cfd537fd007a42c41805523666d78953",
+    "pagina_quiz": 305
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23110,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: D, P, B, N",
+    "risposta_corretta": "VERO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 95
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23111,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo N deve passare per ultimo",
+    "risposta_corretta": "VERO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 96
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23112,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo B de ve passare dopo il veicolo P",
+    "risposta_corretta": "VERO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 96
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23113,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo D passa prima degli altri veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 96
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23114,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo B pa ssa prima del veicolo N",
+    "risposta_corretta": "VERO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 96
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23115,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo N passa dopo il veicolo B",
+    "risposta_corretta": "VERO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 96
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23116,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo P può passare prima del veicolo B",
+    "risposta_corretta": "VERO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 96
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23117,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: D, B, N, P",
+    "risposta_corretta": "FALSO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 96
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23118,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: P, B, N, D",
+    "risposta_corretta": "FALSO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 96
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23119,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli D e N passano contemporaneamente",
+    "risposta_corretta": "FALSO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 96
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23120,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura i veicoli D e B passano contemporaneamente",
+    "risposta_corretta": "FALSO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 97
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23121,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo P passa prima del veicolo B, ma dopo quello N",
+    "risposta_corretta": "FALSO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 97
+  },
+  {
+    "id_blocco": 4455,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23122,
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura passano per primi indifferentemente i veicoli B e D",
+    "risposta_corretta": "FALSO",
+    "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
+    "pagina_quiz": 97
+  }
+]

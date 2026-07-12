@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4456,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23123,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: D, C, A, H.",
+    "risposta_corretta": "VERO",
+    "immagine": "40153f827235d3de50afcc449e219f40",
+    "pagina_quiz": 97
+  },
+  {
+    "id_blocco": 4456,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23124,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo A ha la destra occupata",
+    "risposta_corretta": "VERO",
+    "immagine": "40153f827235d3de50afcc449e219f40",
+    "pagina_quiz": 97
+  },
+  {
+    "id_blocco": 4456,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23125,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo D ha la precedenza sul veicolo C",
+    "risposta_corretta": "VERO",
+    "immagine": "40153f827235d3de50afcc449e219f40",
+    "pagina_quiz": 97
+  },
+  {
+    "id_blocco": 4456,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23126,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo D è il primo ad impegnare l'incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "40153f827235d3de50afcc449e219f40",
+    "pagina_quiz": 97
+  },
+  {
+    "id_blocco": 4456,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23127,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo H è l'ultimo ad attraversare l'incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "40153f827235d3de50afcc449e219f40",
+    "pagina_quiz": 97
+  },
+  {
+    "id_blocco": 4456,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23128,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo D deve dare la precedenza a quello C",
+    "risposta_corretta": "FALSO",
+    "immagine": "40153f827235d3de50afcc449e219f40",
+    "pagina_quiz": 98
+  },
+  {
+    "id_blocco": 4456,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23129,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo C attraversa per primo",
+    "risposta_corretta": "FALSO",
+    "immagine": "40153f827235d3de50afcc449e219f40",
+    "pagina_quiz": 98
+  },
+  {
+    "id_blocco": 4456,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23130,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo A attraversa l'incrocio prima del veicolo C",
+    "risposta_corretta": "FALSO",
+    "immagine": "40153f827235d3de50afcc449e219f40",
+    "pagina_quiz": 98
+  },
+  {
+    "id_blocco": 4456,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23131,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: C, A, H, D",
+    "risposta_corretta": "FALSO",
+    "immagine": "40153f827235d3de50afcc449e219f40",
+    "pagina_quiz": 98
+  },
+  {
+    "id_blocco": 4456,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23132,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli passano nel seguente ordine: H, A, C, D",
+    "risposta_corretta": "FALSO",
+    "immagine": "40153f827235d3de50afcc449e219f40",
+    "pagina_quiz": 98
+  },
+  {
+    "id_blocco": 4456,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23133,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli C e H passano per primi",
+    "risposta_corretta": "FALSO",
+    "immagine": "40153f827235d3de50afcc449e219f40",
+    "pagina_quiz": 98
+  }
+]

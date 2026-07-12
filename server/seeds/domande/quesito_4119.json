@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4119,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19692,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli a braccia",
+    "risposta_corretta": "VERO",
+    "immagine": "e373a1d22f51974f4916ca4beb315b52",
+    "pagina_quiz": 283
+  },
+  {
+    "id_blocco": 4119,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19693,
+    "testo": "Il segnale raffigurato consente il transito delle biciclette",
+    "risposta_corretta": "VERO",
+    "immagine": "e373a1d22f51974f4916ca4beb315b52",
+    "pagina_quiz": 283
+  },
+  {
+    "id_blocco": 4119,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19694,
+    "testo": "Il segnale raffigurato consente il transito dei ciclomotori",
+    "risposta_corretta": "VERO",
+    "immagine": "e373a1d22f51974f4916ca4beb315b52",
+    "pagina_quiz": 283
+  },
+  {
+    "id_blocco": 4119,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19695,
+    "testo": "Il segnale raffigurato consente il transito di autovetture che trainano un carrello-appendice",
+    "risposta_corretta": "VERO",
+    "immagine": "e373a1d22f51974f4916ca4beb315b52",
+    "pagina_quiz": 283
+  },
+  {
+    "id_blocco": 4119,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19696,
+    "testo": "Il segnale raffigurato vieta il transito di carretti a mano",
+    "risposta_corretta": "VERO",
+    "immagine": "e373a1d22f51974f4916ca4beb315b52",
+    "pagina_quiz": 283
+  },
+  {
+    "id_blocco": 4119,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19697,
+    "testo": "Il segnale raffigurato indica una strada riservata ai venditori ambulanti",
+    "risposta_corretta": "FALSO",
+    "immagine": "e373a1d22f51974f4916ca4beb315b52",
+    "pagina_quiz": 283
+  },
+  {
+    "id_blocco": 4119,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19698,
+    "testo": "Il segnale raffigurato vieta il transito dei veicoli a motore durante le ore di mercato",
+    "risposta_corretta": "FALSO",
+    "immagine": "e373a1d22f51974f4916ca4beb315b52",
+    "pagina_quiz": 283
+  },
+  {
+    "id_blocco": 4119,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19699,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "e373a1d22f51974f4916ca4beb315b52",
+    "pagina_quiz": 284
+  },
+  {
+    "id_blocco": 4119,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19700,
+    "testo": "Il segnale raffigurato vale, per tutti i veicoli, durante le ore di mercato",
+    "risposta_corretta": "FALSO",
+    "immagine": "e373a1d22f51974f4916ca4beb315b52",
+    "pagina_quiz": 284
+  },
+  {
+    "id_blocco": 4119,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19701,
+    "testo": "Il segnale raffigurato vieta il transito di veicoli a trazione animale",
+    "risposta_corretta": "FALSO",
+    "immagine": "e373a1d22f51974f4916ca4beb315b52",
+    "pagina_quiz": 284
+  },
+  {
+    "id_blocco": 4119,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19702,
+    "testo": "Il segnale raffigurato vieta il transito ad un motociclo, anche se spinto a braccia",
+    "risposta_corretta": "FALSO",
+    "immagine": "e373a1d22f51974f4916ca4beb315b52",
+    "pagina_quiz": 284
+  }
+]

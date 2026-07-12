@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4056,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18915,
+    "testo": "In presenza del segnale raffigurato è necessario moderare la velocità per evitare danni alle sospensioni",
+    "risposta_corretta": "VERO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 390
+  },
+  {
+    "id_blocco": 4056,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18916,
+    "testo": "In presenza del segnale raffigurato è necessario moderare la velocità per mantenere il controllo del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 390
+  },
+  {
+    "id_blocco": 4056,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18917,
+    "testo": "In presenza del segnale raffigurato è necessario tenere il volante con una presa più si cura",
+    "risposta_corretta": "VERO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 390
+  },
+  {
+    "id_blocco": 4056,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18918,
+    "testo": "In presenza del segnale raffigurato e in caso di pioggia è necessario prevedere la possibilità di accumulo di acqua nella cunetta",
+    "risposta_corretta": "VERO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 390
+  },
+  {
+    "id_blocco": 4056,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18919,
+    "testo": "In presenza del segnale raffigurato è necessario prevedere la possibilità di accumulo di fango e detriti nella cunetta",
+    "risposta_corretta": "VERO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 391
+  },
+  {
+    "id_blocco": 4056,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18920,
+    "testo": "In presenza del segnale raffigurato è necessario rallentare solo se provengono veicoli dal senso opposto",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 391
+  },
+  {
+    "id_blocco": 4056,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18921,
+    "testo": "In presenza del segnale raffigurato non è necessario rallentare se la cunetta presenta visibilità",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 391
+  },
+  {
+    "id_blocco": 4056,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18922,
+    "testo": "In presenza del segnale raffigurato è vietato il sorpasso se si circola in una strada a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 391
+  },
+  {
+    "id_blocco": 4056,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18923,
+    "testo": "Il segnale raffigurato preannuncia una banchina cedevole",
+    "risposta_corretta": "FALSO",
+    "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
+    "pagina_quiz": 391
+  }
+]

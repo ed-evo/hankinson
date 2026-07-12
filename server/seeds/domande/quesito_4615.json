@@ -1,0 +1,162 @@
+[
+  {
+    "id_blocco": 4615,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24567,
+    "testo": "La patente di categoria BE abilita a condurre complessi di veicoli composti da un autoveicolo di massa massima autorizzata fino a 3.500 chilogrammi e da un ri morchio di massa fino a 3.500 chilogrammi, anche se la massa del complesso veicolare è superiore a 4.250 chilogrammi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4615,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24568,
+    "testo": "Per guida re un'autovettura che traina un rimorchio di massa massima autorizzata di 2.000 chilogrammi e massa massima autorizzata del complesso veicolare pari a 4.500 chilogrammi, è necessario aver consegui to la patente di categoria BE",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4615,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24569,
+    "testo": "La patente di categoria BE abilita a condurre autotreni composti da un autoveicolo di massa massima autorizzata fino a 3.500 chilogrammi e da un rimorchio di massa fino a 3.500 chilogrammi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4615,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24570,
+    "testo": "La patente di categoria BE abilita anche alla guida dei veicoli che si possono condurre con le patenti di categoria AM, B1, B e B con codice arm onizzato 96",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4615,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24571,
+    "testo": "Per condurre un autoveicolo di massa massima autorizzata pari a 3.500 chilogram mi che traina un rimorchio di massa massima autorizzata di 1.000 chilogram mi è necessario aver conseguito la patente di categoria BE",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4615,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24572,
+    "testo": "Per condurre un autoveicolo di massa massima autorizzata pari a 4.000 chilogram mi che traina un rimorchio di massa massima autorizzata di 2.000 chilogram mi è sufficiente aver conseguito la patente di categoria BE",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4615,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24573,
+    "testo": "La patente di categoria BE abilita a condurre complessi di veicoli composti da un minibus che traina un rimorchio di massa fino a 1.500 chilogrammi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4615,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24574,
+    "testo": "La patente di categoria BE abilita anche alla guida dei veicoli che si possono condurre con le patenti di categoria A, B e C1",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4615,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24575,
+    "testo": "La patente di categoria BE abilita a condurre autotreni composti da un autoveicolo di massa massima autorizzata fino a 3.500 chilogrammi che tra ina un rimorchio di massa superiore a 3.500 chilogrammi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 561
+  },
+  {
+    "id_blocco": 4615,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24576,
+    "testo": "La patente di categoria BE si può conseguire anche contestualmente alla patente di categoria B, sostenendo la prova di guida su specifico veicolo, ma bisogna aver compiuto almeno 21 anni",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 561
+  }
+]

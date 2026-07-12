@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4146,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19992,
+    "testo": "Il segnale raffigurato consente la sosta ai veicoli al servizio di persone invalide munite dell'apposito contrassegno",
+    "risposta_corretta": "VERO",
+    "immagine": "fa3b825df6cd8568e32c61ec42316b3b",
+    "pagina_quiz": 316
+  },
+  {
+    "id_blocco": 4146,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19993,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "fa3b825df6cd8568e32c61ec42316b3b",
+    "pagina_quiz": 316
+  },
+  {
+    "id_blocco": 4146,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19994,
+    "testo": "Il segnale raffigurato rappresenta una specifica eccezione al divieto di sosta",
+    "risposta_corretta": "VERO",
+    "immagine": "fa3b825df6cd8568e32c61ec42316b3b",
+    "pagina_quiz": 316
+  },
+  {
+    "id_blocco": 4146,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19995,
+    "testo": "Il segnale raffigurato non consente la sosta a veicoli diversi da quelli al servizio di persone invalide",
+    "risposta_corretta": "VERO",
+    "immagine": "fa3b825df6cd8568e32c61ec42316b3b",
+    "pagina_quiz": 316
+  },
+  {
+    "id_blocco": 4146,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19996,
+    "testo": "Il segnale raffigurato consente la sosta agli scuolabus",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa3b825df6cd8568e32c61ec42316b3b",
+    "pagina_quiz": 316
+  },
+  {
+    "id_blocco": 4146,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19997,
+    "testo": "Il segnale raffigurato indica una corsia riservata ai veicoli al servizio di persone invalide",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa3b825df6cd8568e32c61ec42316b3b",
+    "pagina_quiz": 317
+  },
+  {
+    "id_blocco": 4146,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19998,
+    "testo": "Il segnale raffigurato è un divieto di sosta per i veicoli al servizio di invalidi, ed indica il più vicino parcheggio",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa3b825df6cd8568e32c61ec42316b3b",
+    "pagina_quiz": 317
+  },
+  {
+    "id_blocco": 4146,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19999,
+    "testo": "Il segnale raffigurato preavvisa una zona vietata al traffico regolare perché attrezzata per persone invalide",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa3b825df6cd8568e32c61ec42316b3b",
+    "pagina_quiz": 317
+  },
+  {
+    "id_blocco": 4146,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20000,
+    "testo": "Il segnale raffigurato, nella strada ove è posto, consente il transito ai soli veicoli al servizio di persone invalide",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa3b825df6cd8568e32c61ec42316b3b",
+    "pagina_quiz": 317
+  },
+  {
+    "id_blocco": 4146,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20001,
+    "testo": "Il segnale raffigurato consente la sosta ai ciclomotori e ai motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa3b825df6cd8568e32c61ec42316b3b",
+    "pagina_quiz": 317
+  },
+  {
+    "id_blocco": 4146,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 20002,
+    "testo": "Il segnale raffigurato consente la sosta esponendo il tagliando emesso da un parchimetro",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa3b825df6cd8568e32c61ec42316b3b",
+    "pagina_quiz": 317
+  }
+]

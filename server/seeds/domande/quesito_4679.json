@@ -1,0 +1,119 @@
+[
+  {
+    "id_blocco": 4679,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25122,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si alleggerisce il peso del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4679,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25123,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli a motore può essere ridotto, scegl iendo veicoli con alimentazione elettrica, a metano o GPL",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4679,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25124,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si spegne i l motore, in caso di arresto prolungato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4679,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25125,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli a motore può essere ridotto, evitando di usare il veicolo per brevi percorsi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4679,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25126,
+    "testo": "Guidando un veicolo che emette troppi gas di scarico inquinanti si può essere puniti con una sanzione amministrativa e il ritiro della carta di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4679,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25127,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si sistemano i bagagli sul tetto dell'autovettura",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4679,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25128,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si circola sempre con marce basse",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4679,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25129,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si accelera tenendo premuto il pedale della frizione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 581
+  },
+  {
+    "id_blocco": 4679,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25130,
+    "testo": "L'inquinamento dell'aria prodotto dai veicoli a motore può diminuire se si accelera con il cambio in folle",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 581
+  }
+]

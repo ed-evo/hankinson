@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4473,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23293,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo A deve dare la precedenza al tram e al veicolo B",
+    "risposta_corretta": "VERO",
+    "immagine": "aae9fa7595cdb3bcddda3f83333fb049",
+    "pagina_quiz": 120
+  },
+  {
+    "id_blocco": 4473,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23294,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo A ha la precedenza rispetto al veicolo C",
+    "risposta_corretta": "VERO",
+    "immagine": "aae9fa7595cdb3bcddda3f83333fb049",
+    "pagina_quiz": 120
+  },
+  {
+    "id_blocco": 4473,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23295,
+    "testo": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: T e B, A, C",
+    "risposta_corretta": "VERO",
+    "immagine": "aae9fa7595cdb3bcddda3f83333fb049",
+    "pagina_quiz": 120
+  },
+  {
+    "id_blocco": 4473,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23296,
+    "testo": "Nell'incrocio rappresentato nella figura i veicoli T e B possono transitare contemporaneamente",
+    "risposta_corretta": "VERO",
+    "immagine": "aae9fa7595cdb3bcddda3f83333fb049",
+    "pagina_quiz": 121
+  },
+  {
+    "id_blocco": 4473,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23297,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo C transita per ultimo",
+    "risposta_corretta": "VERO",
+    "immagine": "aae9fa7595cdb3bcddda3f83333fb049",
+    "pagina_quiz": 121
+  },
+  {
+    "id_blocco": 4473,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23298,
+    "testo": "Nell'incrocio rappresentato nella figura i veicoli T e C transitano contemporaneamente",
+    "risposta_corretta": "FALSO",
+    "immagine": "aae9fa7595cdb3bcddda3f83333fb049",
+    "pagina_quiz": 121
+  },
+  {
+    "id_blocco": 4473,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23299,
+    "testo": "Nell'incrocio rappresentato nella figura i veicoli transitano nell'ordine: T, B, C, A",
+    "risposta_corretta": "FALSO",
+    "immagine": "aae9fa7595cdb3bcddda3f83333fb049",
+    "pagina_quiz": 121
+  },
+  {
+    "id_blocco": 4473,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23300,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo A transita per ultimo",
+    "risposta_corretta": "FALSO",
+    "immagine": "aae9fa7595cdb3bcddda3f83333fb049",
+    "pagina_quiz": 121
+  },
+  {
+    "id_blocco": 4473,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23301,
+    "testo": "Nell'incrocio rappresentato nella figura i veicoli T, B, C transitano contemporaneamente",
+    "risposta_corretta": "FALSO",
+    "immagine": "aae9fa7595cdb3bcddda3f83333fb049",
+    "pagina_quiz": 121
+  },
+  {
+    "id_blocco": 4473,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23302,
+    "testo": "Nell'incrocio rappresentato nella figura il veicolo B deve dare la precedenza al veicolo A",
+    "risposta_corretta": "FALSO",
+    "immagine": "aae9fa7595cdb3bcddda3f83333fb049",
+    "pagina_quiz": 121
+  }
+]

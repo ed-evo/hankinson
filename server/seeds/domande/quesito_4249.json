@@ -1,0 +1,98 @@
+[
+  {
+    "id_blocco": 4249,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21057,
+    "testo": "I segnali luminosi in figura sono semafori per corsie reversibili",
+    "risposta_corretta": "VERO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 145
+  },
+  {
+    "id_blocco": 4249,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21058,
+    "testo": "Il semaforo in figura non consente di occupare la corsia indicata con luce rossa a forma di X",
+    "risposta_corretta": "VERO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 145
+  },
+  {
+    "id_blocco": 4249,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21059,
+    "testo": "Il semaforo in figura consente di impegnare la corsia indicata dalla freccia verde",
+    "risposta_corretta": "VERO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 145
+  },
+  {
+    "id_blocco": 4249,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21060,
+    "testo": "Nei sem afori in figura la luce gialla lampeggiante obbliga il conducente a spostarsi nella corsia indicata dalla freccia",
+    "risposta_corretta": "VERO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 145
+  },
+  {
+    "id_blocco": 4249,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21061,
+    "testo": "Il semaforo in figura non consente di occupare le corsie indicate dalle frecce verdi",
+    "risposta_corretta": "FALSO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 145
+  },
+  {
+    "id_blocco": 4249,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21062,
+    "testo": "Il semaforo in figura vale anche per i pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 145
+  },
+  {
+    "id_blocco": 4249,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21063,
+    "testo": "Nei sem afori in figura, la luce rossa a forma di X impone di arrestarsi ed attendere la l uce gialla",
+    "risposta_corretta": "FALSO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 146
+  },
+  {
+    "id_blocco": 4249,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21064,
+    "testo": "Il semaforo in figura non vale per le biciclette",
+    "risposta_corretta": "FALSO",
+    "immagine": "80179c5962ca8a0999f5eb5f23ac5157",
+    "pagina_quiz": 146
+  }
+]

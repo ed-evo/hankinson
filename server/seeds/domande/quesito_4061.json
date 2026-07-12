@@ -1,0 +1,167 @@
+[
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18976,
+    "testo": "Il segnale raffigurato preannuncia una doppia curva pericolosa, la prima a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 166
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18977,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada non rettilineo che limita la visibilità",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 166
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18978,
+    "testo": "Il segnale raffigurato può essere integrato con un pannello indicante TORNANTI",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 166
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18979,
+    "testo": "Il segnale raffigurato richiede di moderare la velocità per potersi arrestare in caso di un ostacolo improvviso",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 166
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18980,
+    "testo": "Il segnale raffigurato può essere integrato con il pannello in figura",
+    "risposta_corretta": "VERO",
+    "immagine": "ac2593bb518516fed410c668f6aaa58d",
+    "pagina_quiz": 166
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18981,
+    "testo": "La figura rappresenta un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 166
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18982,
+    "testo": "Il segnale raffigurato preannuncia, di norma a 150 metri, una doppia curva peri colosa",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 166
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18983,
+    "testo": "In presenza del segnale raffigurato bisogna moderare la velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 166
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18984,
+    "testo": "Il segnale raffigurato preannuncia una deviazione per lavori in corso",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 167
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18985,
+    "testo": "Il segnale raffigurato preannuncia un raccordo di uscita autostradale",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 167
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18986,
+    "testo": "Il segnale raffigurato preannuncia una discesa pericolosa",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 167
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18987,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada con superficie sdrucciolevole",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 167
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18988,
+    "testo": "Il segnale raffigurato preannuncia un incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 167
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18989,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada con pavimentazione irregolare",
+    "risposta_corretta": "FALSO",
+    "immagine": "a49a8cac5f2b927e3ec530b85850b619",
+    "pagina_quiz": 167
+  },
+  {
+    "id_blocco": 4061,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 18990,
+    "testo": "Il segnale con il pannello in figura preannuncia un tratto di strada lungo 3,8 km con una serie di curve pericolose",
+    "risposta_corretta": "FALSO",
+    "immagine": "b0f214454b4f04746f9160175f696999",
+    "pagina_quiz": 167
+  }
+]

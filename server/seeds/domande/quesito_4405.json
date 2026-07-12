@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4405,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22634,
+    "testo": "Sulla distanza di sicurezza influisce la concentrazione del conducente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4405,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22635,
+    "testo": "Sulla distanza di sicurezza influisce la velocità a cui si viaggia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4405,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22636,
+    "testo": "Sulla distanza di sicurezza influisce il carico trasportato dal veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4405,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22637,
+    "testo": "Sulla distanza di sicurezza influiscono l'aderenza e le condizioni dei pneumatici",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4405,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22639,
+    "testo": "Sulla distanza di sicurezza influisce il numero di corsie della strada",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4405,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22640,
+    "testo": "Sulla distanza di sicurezza influisce la dimensione del veicolo che precede",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4405,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22641,
+    "testo": "Sulla distanza di sicurezza influisce il numero di marce del cambio di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4405,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22642,
+    "testo": "Sulla distanza di sicurezza influisce il numero di ruote del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  },
+  {
+    "id_blocco": 4405,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22643,
+    "testo": "Sulla distanza di sicurezza da mantenere dal veicolo che precede influisce il tipo di servosterzo utilizzato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 503
+  }
+]

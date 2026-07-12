@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4338,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21901,
+    "testo": "Il segnale raffigurato indica la chiusura della corsia di destra per lavori in corso",
+    "risposta_corretta": "VERO",
+    "immagine": "49403f634e5caa3742f951ca3f76507c",
+    "pagina_quiz": 11
+  },
+  {
+    "id_blocco": 4338,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21902,
+    "testo": "Il segnale raffigurato indica una diminuzione da due a una corsia di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "49403f634e5caa3742f951ca3f76507c",
+    "pagina_quiz": 11
+  },
+  {
+    "id_blocco": 4338,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21903,
+    "testo": "Il segnale raffigurato è posto in vicinanza di un cantiere stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "49403f634e5caa3742f951ca3f76507c",
+    "pagina_quiz": 12
+  },
+  {
+    "id_blocco": 4338,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21904,
+    "testo": "Il segnale raffigurato può essere completato con pannello che indica la distanza dal punto di chiusura della corsia",
+    "risposta_corretta": "VERO",
+    "immagine": "49403f634e5caa3742f951ca3f76507c",
+    "pagina_quiz": 12
+  },
+  {
+    "id_blocco": 4338,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21905,
+    "testo": "Il segnale raffigurato indica restringimento della carreggiata per lavori in corso",
+    "risposta_corretta": "VERO",
+    "immagine": "49403f634e5caa3742f951ca3f76507c",
+    "pagina_quiz": 12
+  },
+  {
+    "id_blocco": 4338,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21906,
+    "testo": "Il segnale raffigurato indica la possibilità di sorpassare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "49403f634e5caa3742f951ca3f76507c",
+    "pagina_quiz": 12
+  },
+  {
+    "id_blocco": 4338,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21907,
+    "testo": "Il segnale raffigurato preannuncia uno svincolo che consente l'inversione di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "49403f634e5caa3742f951ca3f76507c",
+    "pagina_quiz": 12
+  },
+  {
+    "id_blocco": 4338,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21908,
+    "testo": "Il segnale raffigurato s i trova in vicinanza di un incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "49403f634e5caa3742f951ca3f76507c",
+    "pagina_quiz": 12
+  },
+  {
+    "id_blocco": 4338,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21909,
+    "testo": "Il segnale raffigurato indica una piazzola per la fermata degli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "49403f634e5caa3742f951ca3f76507c",
+    "pagina_quiz": 12
+  },
+  {
+    "id_blocco": 4338,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21910,
+    "testo": "Il segnale raffigurato indica la chiusura della corsia per i veicoli lenti",
+    "risposta_corretta": "FALSO",
+    "immagine": "49403f634e5caa3742f951ca3f76507c",
+    "pagina_quiz": 12
+  },
+  {
+    "id_blocco": 4338,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21911,
+    "testo": "Il segnale raffigurato obbliga a dare la precedenza ai veicoli provenienti da destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "49403f634e5caa3742f951ca3f76507c",
+    "pagina_quiz": 12
+  }
+]

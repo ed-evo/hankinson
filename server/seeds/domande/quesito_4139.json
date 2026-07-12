@@ -1,0 +1,167 @@
+[
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19911,
+    "testo": "Il segnale raffigurato vieta la sosta, ma non la fermata",
+    "risposta_corretta": "VERO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 309
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19912,
+    "testo": "Il segnale raffigurato contraddistingue le aree dove è proibito lasciare in sosta un veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 309
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19913,
+    "testo": "Il segnale raffigurato, lungo strade extraurbane, indica divieto permanente di sosta in assenza di indicazioni integrative",
+    "risposta_corretta": "VERO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 309
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19914,
+    "testo": "Il segnale (A), se integrato con pannello (B), indica una zona in cui vige divieto di sosta",
+    "risposta_corretta": "VERO",
+    "immagine": "e46f16f7e28279933e4b1cfb665ab624",
+    "pagina_quiz": 310
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19915,
+    "testo": "Il segnale (A), se integrato con pannello (B), indica una zona in cui vige divieto di sosta, con rimozione del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "e46f16f7e28279933e4b1cfb665ab624",
+    "pagina_quiz": 310
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19916,
+    "testo": "Il segnale raffigurato vieta la sosta sul lato della strada dove è posto",
+    "risposta_corretta": "VERO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 310
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19917,
+    "testo": "Il segnale (A) con il pannello (B) vieta la sosta solo nei giorni lavorativi",
+    "risposta_corretta": "VERO",
+    "immagine": "b44a1aa5ea9941edcb30061b982b62c9",
+    "pagina_quiz": 310
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19918,
+    "testo": "Il segnale (A), integrato con il pannello (B), indica una ZONA RIMOZIONE COATTA",
+    "risposta_corretta": "VERO",
+    "immagine": "e46f16f7e28279933e4b1cfb665ab624",
+    "pagina_quiz": 310
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19920,
+    "testo": "Il segnale raffigurato, nelle strade extraurbane, consente la sosta dopo le ore 20.00",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 310
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19921,
+    "testo": "Il segnale raffigurato consente la sosta soltanto ai veicoli a due ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 310
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19922,
+    "testo": "Il segnale raffigurato consente la sosta ai quadricicli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 310
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19923,
+    "testo": "Il segnale raffigurato, nei centri urbani, prescrive il divieto di sosta dalle ore 20.00 alle ore 8.00, salvo diversa indicazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 310
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19924,
+    "testo": "Il segnale raffigurato indica che la sosta è regolamentata mediante disco orario",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 311
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19925,
+    "testo": "Il segnale (A), se integrato con il pannello (B), è divieto di sosta perm anente",
+    "risposta_corretta": "FALSO",
+    "immagine": "07210b74746df1d1dafd49312674ebe3",
+    "pagina_quiz": 311
+  },
+  {
+    "id_blocco": 4139,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19926,
+    "testo": "Il segnale raffigurato, opportunamente integrato, può vietare la sosta in doppia f ila",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 311
+  }
+]

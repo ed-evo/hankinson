@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20653,
+    "testo": "Il segnale raffigurato preannuncia un'immissione stradale con corsia di accelerazione posta sulla sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 231
+  },
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20654,
+    "testo": "Il segnale raffigurato preannuncia una confluenza sul lato sinistro della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 231
+  },
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20655,
+    "testo": "Il segnale raffigurato s i trova su carreggiate a senso unico di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 231
+  },
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20656,
+    "testo": "Il segnale raffigurato invita ad usare prudenza perché altri veicoli potre bbero immettersi nel flusso della circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 231
+  },
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20657,
+    "testo": "Il segnale raffigurato è usato su strade con diritto di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 232
+  },
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20658,
+    "testo": "Il segnale raffigurato comporta la presenza del segnale DARE PRECEDENZA sulla strada di immissione laterale",
+    "risposta_corretta": "VERO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 232
+  },
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20659,
+    "testo": "Il segnale raffigurato è posto a non più di 25 metri dall'incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 232
+  },
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20660,
+    "testo": "Il segnale raffigurato prescrive di dare la precedenza ai veicoli provenienti da sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 232
+  },
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20661,
+    "testo": "Il segnale raffigurato preannuncia che non si ha diritto di precedenza nella confl uenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 232
+  },
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20662,
+    "testo": "Il segnale raffigurato precede il segnale di DARE PRECEDENZA",
+    "risposta_corretta": "FALSO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 232
+  },
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20663,
+    "testo": "Il segnale raffigurato, pos to sulle autostrade, precede il segnale d'obbligo di svolta a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 232
+  },
+  {
+    "id_blocco": 4205,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20664,
+    "testo": "Il segnale raffigurato consente la svolta a sinistra al prossimo incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "0389a701f5e73e089b44b1c07f45d20b",
+    "pagina_quiz": 232
+  }
+]

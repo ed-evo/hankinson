@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4285,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21411,
+    "testo": "Il segnale raffigurato è posto su s trade extraurbane suddivise in due corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "99ca3fb32d6f71b7fc248b75bb160140",
+    "pagina_quiz": 39
+  },
+  {
+    "id_blocco": 4285,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21412,
+    "testo": "Il segnale raffigurato preavvisa una zona di preselezione con due destinazi oni",
+    "risposta_corretta": "VERO",
+    "immagine": "99ca3fb32d6f71b7fc248b75bb160140",
+    "pagina_quiz": 39
+  },
+  {
+    "id_blocco": 4285,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21413,
+    "testo": "Il segnale raffigurato indica al conducente diretto a Bari di spostarsi sulla corsia di sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "99ca3fb32d6f71b7fc248b75bb160140",
+    "pagina_quiz": 39
+  },
+  {
+    "id_blocco": 4285,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21414,
+    "testo": "Il segnale raffigurato indica al conducente diretto a Pescara di spostarsi sulla corsia di destra",
+    "risposta_corretta": "VERO",
+    "immagine": "99ca3fb32d6f71b7fc248b75bb160140",
+    "pagina_quiz": 39
+  },
+  {
+    "id_blocco": 4285,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21415,
+    "testo": "Il segnale raffigurato è posto dove è ancora possibile cambiare la corsia di canalizzazione",
+    "risposta_corretta": "VERO",
+    "immagine": "99ca3fb32d6f71b7fc248b75bb160140",
+    "pagina_quiz": 39
+  },
+  {
+    "id_blocco": 4285,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21416,
+    "testo": "Il segnale raffigurato indica l'obbligo di sorpassare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "99ca3fb32d6f71b7fc248b75bb160140",
+    "pagina_quiz": 39
+  },
+  {
+    "id_blocco": 4285,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21417,
+    "testo": "Il segnale raffigurato indica che la strada per Bari è interrotta",
+    "risposta_corretta": "FALSO",
+    "immagine": "99ca3fb32d6f71b7fc248b75bb160140",
+    "pagina_quiz": 39
+  },
+  {
+    "id_blocco": 4285,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21418,
+    "testo": "Il segnale raffigurato preavvisa a destra un lungo rettilineo",
+    "risposta_corretta": "FALSO",
+    "immagine": "99ca3fb32d6f71b7fc248b75bb160140",
+    "pagina_quiz": 40
+  },
+  {
+    "id_blocco": 4285,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21419,
+    "testo": "Il segnale raffigurato preavvisa a sinistra una curva pericolosa",
+    "risposta_corretta": "FALSO",
+    "immagine": "99ca3fb32d6f71b7fc248b75bb160140",
+    "pagina_quiz": 40
+  },
+  {
+    "id_blocco": 4285,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21420,
+    "testo": "Il segnale raffigurato preavvisa un obbligo di invertire il senso di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "99ca3fb32d6f71b7fc248b75bb160140",
+    "pagina_quiz": 40
+  },
+  {
+    "id_blocco": 4285,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21421,
+    "testo": "Il segnale raffigurato preavvisa a sinistra un cavalcavia",
+    "risposta_corretta": "FALSO",
+    "immagine": "99ca3fb32d6f71b7fc248b75bb160140",
+    "pagina_quiz": 40
+  }
+]

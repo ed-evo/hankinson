@@ -1,0 +1,98 @@
+[
+  {
+    "id_blocco": 4218,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20780,
+    "testo": "I segni gialli e neri in figura dipinti sul bordo del marciapiede indicano un divieto di sosta",
+    "risposta_corretta": "VERO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 441
+  },
+  {
+    "id_blocco": 4218,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20781,
+    "testo": "I segni gialli e neri in figura sono posti lungo la parte verticale del marciapiede",
+    "risposta_corretta": "VERO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 442
+  },
+  {
+    "id_blocco": 4218,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20782,
+    "testo": "I segni gialli e neri in figura dipinti sul bordo del marciapiede indicano che su quel lato della strada non è poss ibile sostare",
+    "risposta_corretta": "VERO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 442
+  },
+  {
+    "id_blocco": 4218,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20783,
+    "testo": "I segni gialli e neri in figura dipinti sul bordo del marciapiede consentono la fermata",
+    "risposta_corretta": "VERO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 442
+  },
+  {
+    "id_blocco": 4218,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20784,
+    "testo": "I segni gialli e neri in figura dipinti sul bordo del marciapiede indicano che la sosta è consentita solo agli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 442
+  },
+  {
+    "id_blocco": 4218,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20785,
+    "testo": "I segni gialli e neri in figura dipinti sul bordo del marciapiede segnalano un ostac olo al centro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 442
+  },
+  {
+    "id_blocco": 4218,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20786,
+    "testo": "I segni gialli e neri in figura dipinti sul bordo del marciapiede avvertono i pedoni di fare attenzione al gradino",
+    "risposta_corretta": "FALSO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 442
+  },
+  {
+    "id_blocco": 4218,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20787,
+    "testo": "I segni gialli e neri in figura dipinti sul bordo del marciapiede indicano che è vietata anche la fermata",
+    "risposta_corretta": "FALSO",
+    "immagine": "af2602d8031b88f151bcafc37bb4b7e5",
+    "pagina_quiz": 442
+  }
+]

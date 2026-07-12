@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4464,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23194,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguent e ordine: A, E , V, H, C",
+    "risposta_corretta": "VERO",
+    "immagine": "6b1045c7f93b62635b8ac5457e884b11",
+    "pagina_quiz": 105
+  },
+  {
+    "id_blocco": 4464,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23195,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo V ha la precedenza sul veicolo H",
+    "risposta_corretta": "VERO",
+    "immagine": "6b1045c7f93b62635b8ac5457e884b11",
+    "pagina_quiz": 106
+  },
+  {
+    "id_blocco": 4464,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23196,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo C deve dare la precedenza al veicolo H",
+    "risposta_corretta": "VERO",
+    "immagine": "6b1045c7f93b62635b8ac5457e884b11",
+    "pagina_quiz": 106
+  },
+  {
+    "id_blocco": 4464,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23197,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo E passa prima del veicolo H",
+    "risposta_corretta": "VERO",
+    "immagine": "6b1045c7f93b62635b8ac5457e884b11",
+    "pagina_quiz": 106
+  },
+  {
+    "id_blocco": 4464,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23198,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo H passa dopo i veicoli A, E, V",
+    "risposta_corretta": "VERO",
+    "immagine": "6b1045c7f93b62635b8ac5457e884b11",
+    "pagina_quiz": 106
+  },
+  {
+    "id_blocco": 4464,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23199,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo A passa per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "6b1045c7f93b62635b8ac5457e884b11",
+    "pagina_quiz": 106
+  },
+  {
+    "id_blocco": 4464,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23200,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguent e ordine: A, H, C, E, V",
+    "risposta_corretta": "FALSO",
+    "immagine": "6b1045c7f93b62635b8ac5457e884b11",
+    "pagina_quiz": 106
+  },
+  {
+    "id_blocco": 4464,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23201,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguent e ordine: A, E , C, V, H",
+    "risposta_corretta": "FALSO",
+    "immagine": "6b1045c7f93b62635b8ac5457e884b11",
+    "pagina_quiz": 106
+  },
+  {
+    "id_blocco": 4464,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23202,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo V deve attendere che siano tra nsitati i veicoli A, E, H",
+    "risposta_corretta": "FALSO",
+    "immagine": "6b1045c7f93b62635b8ac5457e884b11",
+    "pagina_quiz": 106
+  },
+  {
+    "id_blocco": 4464,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23203,
+    "testo": "Nell'incrocio rappresentato in figura i veicoli A, V e C passano contemporaneamente",
+    "risposta_corretta": "FALSO",
+    "immagine": "6b1045c7f93b62635b8ac5457e884b11",
+    "pagina_quiz": 106
+  },
+  {
+    "id_blocco": 4464,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23204,
+    "testo": "Nell'incrocio rappresentato in figura il veicolo V passa dopo i veicoli C e H",
+    "risposta_corretta": "FALSO",
+    "immagine": "6b1045c7f93b62635b8ac5457e884b11",
+    "pagina_quiz": 107
+  }
+]

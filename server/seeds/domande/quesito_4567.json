@@ -1,0 +1,470 @@
+[
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24089,
+    "testo": "Nei centri a bitati il conducente non deve lasciare in sosta un rimorchio stac cato dalla motrice, salvo diversa segnalazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24090,
+    "testo": "Durante la ci rcolazione, i rimorchi devono essere assicurati con la stessa polizza della motrice",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24091,
+    "testo": "Gli spec chietti esterni montati sulla motrice non devono sporgere oltre 20 centimetri dalla sagoma del veicolo (motrice o rimorchio), con riferimento al punto di maggiore larghezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24092,
+    "testo": "Il rapporto di traino, entro i limiti di quello tecnicamente ammesso per il veicolo, non deve superare il valore di 1, nel caso di rimorchi muniti di freno di servizio e di massa fino a 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24093,
+    "testo": "Il massimo rapporto di traino per un rimorchio sprovvisto di qualsiasi dispositivo di frenatura è di 0,5",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24094,
+    "testo": "Quando il gancio di traino non viene utilizzato, perché non si sta trainando un rimorchio, la sua parte sporgente dalla sagoma posteriore del veicolo deve essere sfilata, smontata o ripiegata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24095,
+    "testo": "I rimorchi T.A.T.S. sono destinati al trasporto di attrezzature che non devono cost ituire oggetto di commercio, ma essere impiegate solo per il tempo libero",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24096,
+    "testo": "I conducenti di autoveicoli trainanti un rimorchio, quando la massa complessiva a pieno carico del complesso veicolare è superiore a 3,5 tonnellate, sono considerati in stato di ebbrezza qualora sia stato accertato un valor e corrispondente ad un tasso alcolemico superiore a zero grammi per l itro",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24097,
+    "testo": "Nelle autost rade con carreggiate a tre o più corsie, ai conducenti di complessi di veicoli di lunghezza totale superiore a 7 metri, è vietato impegnare a ltre corsie all'infuori delle due più vicine al bordo destro della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24098,
+    "testo": "Durante la ci rcolazione, i rimorchi con massa massima a pieno carico fino a 3,5 tonnellate, devono essere segnalati con strisce posteriori e laterali ret roriflettenti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24099,
+    "testo": "E' possibile trainare rimorchi non immatricolati, se di massa inferiore ai 750 chilogrammi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24100,
+    "testo": "Il rimorchi o si considera parte integrante del veicolo se ha una massa fino a 3,5 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24101,
+    "testo": "La larghezza del rimorchio non deve superare quella del veicolo trainante",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24102,
+    "testo": "Il rimorchi o è parte integrante del veicolo a cui è stato abbinato in fase di collaudo e non può essere agganciato a un altro veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24103,
+    "testo": "Se si trainano caravan e rimorchi T.A.T.S. non è obbligatorio che il veicolo tra inant e sia munito di specchietto retrovisore destro",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24104,
+    "testo": "Gli spec chietti esterni montati sulla motrice possono sporgere fino a 50 centimetri dalla sagoma del veicolo di maggiore ingombro, qualora siano posizionati ad un'altezza da terra non superiore a 1 metro",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24105,
+    "testo": "Nel ri spetto della larghezza massima stabilita per i rimorchi T.A.T.S., le imbarcazioni trasportate possono sporgere fino a 50 centimetri per ogni lato rispetto ai bor di esterni delle luci di posizione posteriori",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24106,
+    "testo": "Il titolare di patente di guida della categoria BE che, successivamente, consegue la patente della categoria C, può guidare anche veicoli della categoria CE",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24107,
+    "testo": "Per i c omple ssi di veicoli con rimorchi fino a 3,5 tonnellate di massa, non vige l'obbligo di apporre nella parte posteriore i contrassegni indicanti i limiti massimi di velocità specifici loro imposti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24108,
+    "testo": "Quando si traina un rimorchio per trasporto di animali vivi occorre tenere in funz ione l a segnalazione luminosa di pericolo per segnalare agli altri conducenti di aumentare la distanza di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24109,
+    "testo": "Quando si traina un rimorchio occorre staccare la targa della motrice e applicarla nella parte posteriore del rimorchio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24110,
+    "testo": "Se nella carta di circolazione manca il valore della massa rimorchiabile, ciò significa che il veicolo è atto al traino di rimorchi di qualsiasi massa",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24111,
+    "testo": "I rimorchi devono essere sottoposti a revisione periodica insieme al veicolo tra inant e",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24112,
+    "testo": "Sui rimorchi, il carico trasportato può sporgere dalla parte anteriore fino ai 3/10 della lunghezza del complesso dei veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24113,
+    "testo": "Sui rimorchi leggeri, il carico trasportato può sporgere posteriormente senza obbligo di specifiche segnalazioni",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  },
+  {
+    "id_blocco": 4567,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24114,
+    "testo": "I rimorchi per il trasporto di cavalli (van) non possono circolare in autostrada",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 547
+  }
+]

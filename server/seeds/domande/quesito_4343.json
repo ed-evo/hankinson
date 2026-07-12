@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4343,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21950,
+    "testo": "Il de line atore raffigurato è posto ai lati della carreggiata nelle strade di montagna soggette ad innevamento",
+    "risposta_corretta": "VERO",
+    "immagine": "415ad58a6fd593c32edde2b4370f7ea0",
+    "pagina_quiz": 417
+  },
+  {
+    "id_blocco": 4343,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21951,
+    "testo": "Il de line atore raffigurato è un segnale complementare",
+    "risposta_corretta": "VERO",
+    "immagine": "415ad58a6fd593c32edde2b4370f7ea0",
+    "pagina_quiz": 417
+  },
+  {
+    "id_blocco": 4343,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21952,
+    "testo": "Il de line atore raffigurato è posto ai lati della carreggiata su strade di montagna",
+    "risposta_corretta": "VERO",
+    "immagine": "415ad58a6fd593c32edde2b4370f7ea0",
+    "pagina_quiz": 417
+  },
+  {
+    "id_blocco": 4343,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21953,
+    "testo": "Il de line atore raffigurato viene utilizzato per rendere meglio visibili i bordi della carreggiata di una strada innevata",
+    "risposta_corretta": "VERO",
+    "immagine": "415ad58a6fd593c32edde2b4370f7ea0",
+    "pagina_quiz": 417
+  },
+  {
+    "id_blocco": 4343,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21954,
+    "testo": "Il de line atore raffigurato è posto alla fermata degli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "415ad58a6fd593c32edde2b4370f7ea0",
+    "pagina_quiz": 417
+  },
+  {
+    "id_blocco": 4343,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21955,
+    "testo": "Il de line atore raffigurato è posto al centro della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "415ad58a6fd593c32edde2b4370f7ea0",
+    "pagina_quiz": 417
+  },
+  {
+    "id_blocco": 4343,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21956,
+    "testo": "Il de line atore raffigurato si trova in vicinanza di un attraversamento pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "415ad58a6fd593c32edde2b4370f7ea0",
+    "pagina_quiz": 417
+  },
+  {
+    "id_blocco": 4343,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21957,
+    "testo": "Il de line atore raffigurato è usato come paletto di ancoraggio per lasciare in sosta le biciclette",
+    "risposta_corretta": "FALSO",
+    "immagine": "415ad58a6fd593c32edde2b4370f7ea0",
+    "pagina_quiz": 417
+  },
+  {
+    "id_blocco": 4343,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21958,
+    "testo": "Il de line atore raffigurato è usato sulle strade sprovviste di barriere laterali (guardrails)",
+    "risposta_corretta": "FALSO",
+    "immagine": "415ad58a6fd593c32edde2b4370f7ea0",
+    "pagina_quiz": 417
+  },
+  {
+    "id_blocco": 4343,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21959,
+    "testo": "Il de line atore raffigurato indica un divieto di sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": "415ad58a6fd593c32edde2b4370f7ea0",
+    "pagina_quiz": 418
+  }
+]

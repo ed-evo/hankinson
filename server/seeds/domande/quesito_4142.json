@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19946,
+    "testo": "Il segnale raffigurato vieta la sosta sia di giorno che di notte, anche nei centri abitati",
+    "risposta_corretta": "VERO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 313
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19947,
+    "testo": "Il segnale raffigurato vieta la fermata a tutti i veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 313
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19948,
+    "testo": "Il segnale raffigurato, in assenza di iscrizioni integrative, vige per tutto l'arco delle ventiquattro ore",
+    "risposta_corretta": "VERO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 314
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19949,
+    "testo": "Il segnale raffigurato vieta qualsiasi volontaria fermata del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 314
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19950,
+    "testo": "In presenza del segnale raffigurato è sempre disposta la rimozione forzata del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 314
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19951,
+    "testo": "Il segnale (A), se integrato con il pannello (B), vieta la fermata nel tratto precedente",
+    "risposta_corretta": "VERO",
+    "immagine": "a78c3fc8bd11b52b0578f570be94d621",
+    "pagina_quiz": 314
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19952,
+    "testo": "Il segnale (A), se integrato con il pannello (B), indica la fine del divieto di fermata e di sosta",
+    "risposta_corretta": "VERO",
+    "immagine": "a78c3fc8bd11b52b0578f570be94d621",
+    "pagina_quiz": 314
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19953,
+    "testo": "Il segnale raffigurato vieta la fermata, ma consente la sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 314
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19954,
+    "testo": "Il segnale raffigurato non vale per gli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 314
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19955,
+    "testo": "Il segnale raffigurato non vale per i taxi",
+    "risposta_corretta": "FALSO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 314
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19956,
+    "testo": "Il segnale raffigurato è un preavviso di divieto di sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 314
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19957,
+    "testo": "Il segnale raffigurato vale solo nei giorni feriali, salvo diversa indicazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 315
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19958,
+    "testo": "Il segnale raffigurato consente la fermata del veicolo per la salita e la disce sa dei passeggeri",
+    "risposta_corretta": "FALSO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 315
+  },
+  {
+    "id_blocco": 4142,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19959,
+    "testo": "Il segnale raffigurato preannuncia la fine del divieto di sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 315
+  }
+]

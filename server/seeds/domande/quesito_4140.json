@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19927,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 311
+  },
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19928,
+    "testo": "Il segnale raffigurato non è posto nei luoghi ove per regola generale vige il divieto di sosta",
+    "risposta_corretta": "VERO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 311
+  },
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19929,
+    "testo": "Il segnale raffigurato vieta l'abbandono prolungato nel tempo del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 311
+  },
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19930,
+    "testo": "Il segnale raffigurato, pos to nei centri abitati, vieta, di norma, la sosta dalle ore 8.00 alle 20.00",
+    "risposta_corretta": "VERO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 311
+  },
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19931,
+    "testo": "Il segnale (A), integrato con il pannello (B), consente la sosta agli autobus",
+    "risposta_corretta": "VERO",
+    "immagine": "9a5b0958c6c44f82610ce3d20ac0f41d",
+    "pagina_quiz": 311
+  },
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19932,
+    "testo": "Il segnale (A), integrato con il pannello (B), vieta la sosta soltanto nei giorni festivi",
+    "risposta_corretta": "VERO",
+    "immagine": "d768224469a122fc09a78b44058a5095",
+    "pagina_quiz": 312
+  },
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19933,
+    "testo": "Il segnale raffigurato vieta la sosta ma non la fermata",
+    "risposta_corretta": "VERO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 312
+  },
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19934,
+    "testo": "Il segnale raffigurato vieta la sospensione temporanea della marcia per la salita e discesa dei passeggeri",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 312
+  },
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19935,
+    "testo": "Lungo le strade extraurbane, il segnale raffigurato vale soltanto nelle ore diurne",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 312
+  },
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19936,
+    "testo": "Il segnale raffigurato vieta la sosta dei veicoli su ambo i lati della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 312
+  },
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19937,
+    "testo": "Il segnale raffigurato permette la sosta degli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 312
+  },
+  {
+    "id_blocco": 4140,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19938,
+    "testo": "Il segnale raffigurato permette la sosta dei ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": "d4b28695e6068e452924476599e75981",
+    "pagina_quiz": 312
+  }
+]

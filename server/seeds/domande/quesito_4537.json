@@ -1,0 +1,218 @@
+[
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23852,
+    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di velocipedi, ciclomotori, motocicli di cilindrata inferiore a 150 cm3",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23853,
+    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di autovettur e che non sono in grado di sviluppare per costruzione la velocità in piano di almeno 80 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23854,
+    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di macchine agricole",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23855,
+    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di veicoli con carico disordinato e non solidamente assicurato o sporgente oltre i limiti consentiti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23856,
+    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di veicoli a tenuta non stagna e con carico scoperto, se trasportano materiali che possono disperdersi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23857,
+    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di veicoli le cui condizioni di us o, equipaggiamento e gommatura possono costituire pericolo per la circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23858,
+    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di autobus pe r trasporto di studenti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23859,
+    "testo": "Sulle autostrade e strade extraurbane principali è consigliabile evitare la circolazione di veicoli a tenuta non stagna e con carico scoperto, se tra sport ano materiali che possono disperdersi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23860,
+    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di veicoli che trasportano animali vivi.",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23861,
+    "testo": "Sono ammessi a circolare su autostrade e strade extraurbane principali i ciclomotori c he sviluppano una velocità di almeno 50 km/h",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23862,
+    "testo": "Sono ammesse a circolare su autostrade e strade extraurbane principali le macchine agricole, non trainanti un rimorchio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 536
+  },
+  {
+    "id_blocco": 4537,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23863,
+    "testo": "Sono ammessi a circolare su autostrade e strade extraurbane principali i veicoli non muniti di pneumatici, se assicurati",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 536
+  }
+]

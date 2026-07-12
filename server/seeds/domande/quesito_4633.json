@@ -1,0 +1,54 @@
+[
+  {
+    "id_blocco": 4633,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24792,
+    "testo": "Percorrendo un lungo tunnel o traforo, in caso di formazione di lunghe file di veicoli, è opportuno aumentare la distanza di sicurezza, per scongiurare, in caso d'incendio, il rapido propagarsi delle fiamme",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 569
+  },
+  {
+    "id_blocco": 4633,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24793,
+    "testo": "Percorrendo un lungo tunnel o traforo, in caso d'incendio, bisogna abbandonar e velocemente il veicolo, seguendo la se gnaletica che porta alle vie di fuga o ai luoghi sicuri protetti da porte tagliafuoco",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 569
+  },
+  {
+    "id_blocco": 4633,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24794,
+    "testo": "Percorrendo un lungo tunnel o traforo, in caso d'incendio, bisogna attenersi alle istruzioni vocali del personale di servizio o dei vigili del fuoco, per evitare di incamminars i nella direzione sbagliata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 569
+  },
+  {
+    "id_blocco": 4633,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24798,
+    "testo": "Percorrendo un lungo tunnel o traforo, in caso d'incendio, bisogna seguire la se gnaletica di emergenza, anche se in netto contrasto con gli ordini vocali impart iti dai vigili del fuoco",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 569
+  }
+]

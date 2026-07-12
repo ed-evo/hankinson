@@ -1,0 +1,119 @@
+[
+  {
+    "id_blocco": 4674,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25089,
+    "testo": "Per diminuire il rumore emesso dai veicoli a motore è necessario che il dispositivo silenziatore (marmitta) sia efficiente e di tipo approvato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4674,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25090,
+    "testo": "Per diminuire il rumore è necessario far sostituire la marmitta rovinata con una approva ta per quel tipo di veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4674,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25091,
+    "testo": "Per diminuire il rumore non si deve accelerare quando il veicolo è fermo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4674,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25092,
+    "testo": "Per diminuire il rumore prodotto dai veicoli a motore è necessario far controlla re i freni se emettono rumore durante le frenate, sostituendoli se necessario",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4674,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25093,
+    "testo": "Il c ontrollo dei freni che producono rumore, oltre ad aumentare la sicurezza può ridurre la rumorosità del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4674,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25094,
+    "testo": "Per diminuire il rumore emesso dai veicoli a motore si deve suonare il clacson il meno possibile",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4674,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25095,
+    "testo": "Per diminuire il rumore emesso dai veicoli a motore è opportuno praticare dei fori nel dispositivo silenziatore (marmitta)",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4674,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25096,
+    "testo": "Per diminuire il rumore emesso dai veicoli a motore si deve sostituire il tubo di scarico, usandone uno di diametro più piccolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 580
+  },
+  {
+    "id_blocco": 4674,
+    "argomenti": [
+      "Limitazione dei consumi",
+      "rispetto dell¿ambiente",
+      "inquinamento: atmosferico, acustico, da cattivo smaltimento dei rifiuti"
+    ],
+    "numero": 25097,
+    "testo": "Per diminuire il rumore emesso dai veicoli a motore basta eliminare la parte fina le della marmitta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 580
+  }
+]

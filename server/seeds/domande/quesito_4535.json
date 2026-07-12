@@ -1,0 +1,74 @@
+[
+  {
+    "id_blocco": 4535,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23841,
+    "testo": "Il segnale mobile triangolare di pericolo deve essere posto sulla corsia occupata dal veicolo fermo o dal carico caduto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 535
+  },
+  {
+    "id_blocco": 4535,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23842,
+    "testo": "Il segnale mobile triangolare di pericolo deve essere posto sulla carreggiata ad almeno un metro dal bordo esterno di essa",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 535
+  },
+  {
+    "id_blocco": 4535,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23843,
+    "testo": "Nel caso di carreggiata a più corsie, il segnale mobile triangolare di peri colo deve essere posto sulla corsia immediatamente a sinistra del veicolo fermo o del carico caduto",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 535
+  },
+  {
+    "id_blocco": 4535,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23844,
+    "testo": "Il segnale mobile triangolare di pericolo deve essere posto sulla carreggiata ad almeno un metro dalla striscia di separazione dei sensi di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 535
+  }
+]

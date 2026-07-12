@@ -1,14 +1,15 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
 	"log"
 	"net/http"
 
+	"github.com/ed-evo/hankinson/server/internal/orm"
+	"github.com/ed-evo/hankinson/server/webui"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-
-	"github.com/lysz210/hankinson/server/webui"
 )
 
 type MessageResponse struct {
@@ -31,6 +32,13 @@ func handleHello(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	ctx := context.Background()
+
+	_, err := orm.GetClient(ctx)
+	if err != nil {
+		log.Fatalf("Failed to create orm client %v", err)
+	}
+
 	r := chi.NewRouter()
 
 	// 1. Global Middleware

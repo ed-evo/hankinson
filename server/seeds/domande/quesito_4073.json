@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19131,
+    "testo": "In presenza del segnale raffigurato si può sorpassare a destra il tram in marcia se vi è lo spazio necessario",
+    "risposta_corretta": "VERO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 184
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19132,
+    "testo": "In presenza del segnale raffigurato si può circolare sui binari senza intralc iare la marcia del tram",
+    "risposta_corretta": "VERO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 184
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19133,
+    "testo": "In presenza del segnale raffigurato si può sorpassare a destra il tram fermo al centro de lla strada per la salita e discesa dei passeggeri, solo se esiste l'apposito salvagente",
+    "risposta_corretta": "VERO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 184
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19134,
+    "testo": "In presenza del segnale raffigurato si deve fare attenzione agli eventuali pedoni presenti alla fermata del tram",
+    "risposta_corretta": "VERO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 185
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19135,
+    "testo": "In presenza del segnale raffigurato bisogna fare attenzione alla possibile diminuzione di aderenza delle ruote del veicolo se si frena sui binari",
+    "risposta_corretta": "VERO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 185
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19136,
+    "testo": "In presenza del segnale raffigurato occorre tenere presente che il tram necessita di una distanza di arresto maggiore di quella degli autoveicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 185
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19137,
+    "testo": "In presenza del segnale raffigurato si ha l'obbligo di dare la precedenza ai filobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 185
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19138,
+    "testo": "In presenza del segnale raffigurato il sorpasso dei tram è vietato escl usivamente ai motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 185
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19139,
+    "testo": "In presenza del segnale raffigurato è vietata la marcia sopra i binari del tra m",
+    "risposta_corretta": "FALSO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 185
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19140,
+    "testo": "In presenza del segnale raffigurato il sorpasso del tram è consentito solo a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 185
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19141,
+    "testo": "In presenza del segnale raffigurato il sorpasso del tram è consentito solo a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 185
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19142,
+    "testo": "In presenza del segnale raffigurato, il tram fermo per la salita e la discesa dei passegger i può essere s orpassato a destra quando non esiste il salva gente",
+    "risposta_corretta": "FALSO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 185
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19143,
+    "testo": "Il segnale raffigurato preannuncia un'area di sosta per autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 186
+  },
+  {
+    "id_blocco": 4073,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19144,
+    "testo": "Il segnale raffigurato preannuncia una corsia riservata ai filobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "bb981f286218063a29cc9f7bf6f71389",
+    "pagina_quiz": 186
+  }
+]

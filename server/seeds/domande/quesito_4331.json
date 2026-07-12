@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4331,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21836,
+    "testo": "Il segnale raffigurato indica la direzione consigliata per gli autocarri di massa complessiva a pieno carico superiore a 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "95f306d30190f8232c642442bc2380bf",
+    "pagina_quiz": 82
+  },
+  {
+    "id_blocco": 4331,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21837,
+    "testo": "Il segnale raffigurato indica la categoria di veicoli a cui è consigliata la svolta",
+    "risposta_corretta": "VERO",
+    "immagine": "95f306d30190f8232c642442bc2380bf",
+    "pagina_quiz": 82
+  },
+  {
+    "id_blocco": 4331,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21838,
+    "testo": "Il segnale raffigurato è installato nel punto della deviazione consigliata per autocarri che superano 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "95f306d30190f8232c642442bc2380bf",
+    "pagina_quiz": 82
+  },
+  {
+    "id_blocco": 4331,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21839,
+    "testo": "Il segnale raffigurato può essere preceduto da un segnale di preavviso",
+    "risposta_corretta": "VERO",
+    "immagine": "95f306d30190f8232c642442bc2380bf",
+    "pagina_quiz": 82
+  },
+  {
+    "id_blocco": 4331,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21840,
+    "testo": "Il segnale raffigurato s i trova in vicinanza di un incrocio che precede un cantiere stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "95f306d30190f8232c642442bc2380bf",
+    "pagina_quiz": 82
+  },
+  {
+    "id_blocco": 4331,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21841,
+    "testo": "Il segnale raffigurato indica che è vietato svoltare a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "95f306d30190f8232c642442bc2380bf",
+    "pagina_quiz": 82
+  },
+  {
+    "id_blocco": 4331,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21842,
+    "testo": "Il segnale raffigurato indica un'area di sosta per gli autocarri",
+    "risposta_corretta": "FALSO",
+    "immagine": "95f306d30190f8232c642442bc2380bf",
+    "pagina_quiz": 82
+  },
+  {
+    "id_blocco": 4331,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21843,
+    "testo": "Il segnale raffigurato indica la direzione da seguire per arrivare in una disca rica",
+    "risposta_corretta": "FALSO",
+    "immagine": "95f306d30190f8232c642442bc2380bf",
+    "pagina_quiz": 83
+  },
+  {
+    "id_blocco": 4331,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21844,
+    "testo": "Il segnale raffigurato indica una strada a senso unico sulla destra, riservata solo agli autocarri",
+    "risposta_corretta": "FALSO",
+    "immagine": "95f306d30190f8232c642442bc2380bf",
+    "pagina_quiz": 83
+  },
+  {
+    "id_blocco": 4331,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21845,
+    "testo": "Il segnale raffigurato obbliga gli autocarri a svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "95f306d30190f8232c642442bc2380bf",
+    "pagina_quiz": 83
+  }
+]

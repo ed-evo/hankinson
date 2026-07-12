@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4315,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21693,
+    "testo": "Il segnale raffigurato indica una piazzola a lato della carreggiata per effettuare la fermata",
+    "risposta_corretta": "VERO",
+    "immagine": "f18ba4966ff5723564b62ec08c5c30bf",
+    "pagina_quiz": 74
+  },
+  {
+    "id_blocco": 4315,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21694,
+    "testo": "Il segnale raffigurato è posto in vicinanza di una piazzola per effettuare una fermata",
+    "risposta_corretta": "VERO",
+    "immagine": "f18ba4966ff5723564b62ec08c5c30bf",
+    "pagina_quiz": 74
+  },
+  {
+    "id_blocco": 4315,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21695,
+    "testo": "Il segnale raffigurato s i trova su strada extraurbana",
+    "risposta_corretta": "VERO",
+    "immagine": "f18ba4966ff5723564b62ec08c5c30bf",
+    "pagina_quiz": 74
+  },
+  {
+    "id_blocco": 4315,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21696,
+    "testo": "Il segnale raffigurato può essere abbinato ad un pannello che indica la distanza che c'è tra il segnale e la piazzola",
+    "risposta_corretta": "VERO",
+    "immagine": "f18ba4966ff5723564b62ec08c5c30bf",
+    "pagina_quiz": 74
+  },
+  {
+    "id_blocco": 4315,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21697,
+    "testo": "Il segnale raffigurato preavvisa un allargamento della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "f18ba4966ff5723564b62ec08c5c30bf",
+    "pagina_quiz": 74
+  },
+  {
+    "id_blocco": 4315,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21698,
+    "testo": "Il segnale raffigurato indica che la sosta è consentita solo per 3 ore",
+    "risposta_corretta": "FALSO",
+    "immagine": "f18ba4966ff5723564b62ec08c5c30bf",
+    "pagina_quiz": 74
+  },
+  {
+    "id_blocco": 4315,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21699,
+    "testo": "Il segnale raffigurato indica un'area di campeggio",
+    "risposta_corretta": "FALSO",
+    "immagine": "f18ba4966ff5723564b62ec08c5c30bf",
+    "pagina_quiz": 74
+  },
+  {
+    "id_blocco": 4315,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21700,
+    "testo": "Il segnale raffigurato indica la fermata di un autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "f18ba4966ff5723564b62ec08c5c30bf",
+    "pagina_quiz": 74
+  },
+  {
+    "id_blocco": 4315,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21701,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio per caravan",
+    "risposta_corretta": "FALSO",
+    "immagine": "f18ba4966ff5723564b62ec08c5c30bf",
+    "pagina_quiz": 74
+  },
+  {
+    "id_blocco": 4315,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21702,
+    "testo": "Il segnale raffigurato è posto solo sulle autostrade",
+    "risposta_corretta": "FALSO",
+    "immagine": "f18ba4966ff5723564b62ec08c5c30bf",
+    "pagina_quiz": 75
+  }
+]

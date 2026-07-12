@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4259,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21157,
+    "testo": "Quando il vigile si dispone con le braccia aperte verso la nostra direzione come in fi gura è vietato il passaggio",
+    "risposta_corretta": "VERO",
+    "immagine": "5dec4c1e652c85a82f5e3182e817c4f4",
+    "pagina_quiz": 404
+  },
+  {
+    "id_blocco": 4259,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21158,
+    "testo": "Quando il vigile si dispone con le braccia aperte verso la nostra direzione come in fi gura bisogna arrestarsi prima della striscia trasversale di arresto",
+    "risposta_corretta": "VERO",
+    "immagine": "5dec4c1e652c85a82f5e3182e817c4f4",
+    "pagina_quiz": 404
+  },
+  {
+    "id_blocco": 4259,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21159,
+    "testo": "Quando il vigile si dispone con le braccia aperte verso la nostra direzione come in fi gura non si può svoltare a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "5dec4c1e652c85a82f5e3182e817c4f4",
+    "pagina_quiz": 405
+  },
+  {
+    "id_blocco": 4259,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21160,
+    "testo": "Quando il vigile si dispone con le braccia aperte verso la nostra direzione come in fi gura non si può attraversare l'incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "5dec4c1e652c85a82f5e3182e817c4f4",
+    "pagina_quiz": 405
+  },
+  {
+    "id_blocco": 4259,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21161,
+    "testo": "Quando il vigile si dispone con le braccia aperte verso la nostra direzione come in fi gura non si può svoltare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "5dec4c1e652c85a82f5e3182e817c4f4",
+    "pagina_quiz": 405
+  },
+  {
+    "id_blocco": 4259,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21162,
+    "testo": "La posizione del vigile con le braccia aperte verso la nostra direzione come in figura equivale alla luce rossa del semaforo",
+    "risposta_corretta": "VERO",
+    "immagine": "5dec4c1e652c85a82f5e3182e817c4f4",
+    "pagina_quiz": 405
+  },
+  {
+    "id_blocco": 4259,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21163,
+    "testo": "Quando il vigile si dispone con le braccia aperte verso la nostra direzione come in fi gura si può passare se si svolta a destra, dando però la precedenza ai pedoni che attravers ano",
+    "risposta_corretta": "FALSO",
+    "immagine": "5dec4c1e652c85a82f5e3182e817c4f4",
+    "pagina_quiz": 405
+  },
+  {
+    "id_blocco": 4259,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21164,
+    "testo": "Quando il vigile si dispone con le braccia aperte verso la direzione da cui provie ne il conducente come in figura questi può procedere, ma con la massima prudenza e a velocità moderata",
+    "risposta_corretta": "FALSO",
+    "immagine": "5dec4c1e652c85a82f5e3182e817c4f4",
+    "pagina_quiz": 405
+  },
+  {
+    "id_blocco": 4259,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21165,
+    "testo": "Quando il vigile si dispone con le braccia aperte verso la nostra direzione come in fi gura bisogna suonare il clacson, ma con moderazione, per ric hiam are l'attenzione del vigile",
+    "risposta_corretta": "FALSO",
+    "immagine": "5dec4c1e652c85a82f5e3182e817c4f4",
+    "pagina_quiz": 405
+  },
+  {
+    "id_blocco": 4259,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21166,
+    "testo": "Quando il vigile si dispone con le braccia aperte verso la nostra direzione come in fi gura si può svoltare, ma non proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "5dec4c1e652c85a82f5e3182e817c4f4",
+    "pagina_quiz": 405
+  },
+  {
+    "id_blocco": 4259,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21167,
+    "testo": "La posizione del vigile con le braccia aperte verso la nostra direzione come in figura equivale alla luce verde del semaforo",
+    "risposta_corretta": "FALSO",
+    "immagine": "5dec4c1e652c85a82f5e3182e817c4f4",
+    "pagina_quiz": 405
+  }
+]

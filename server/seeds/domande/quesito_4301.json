@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4301,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21567,
+    "testo": "Il segnale raffigurato s i trova in vicinanza di un ponte che attraversa il fiume Arno",
+    "risposta_corretta": "VERO",
+    "immagine": "44dba945109a45f9fb4444b61104ef3a",
+    "pagina_quiz": 58
+  },
+  {
+    "id_blocco": 4301,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21568,
+    "testo": "Il segnale raffigurato indica il nome del fiume in vicinanza del ponte che lo attraversa",
+    "risposta_corretta": "VERO",
+    "immagine": "44dba945109a45f9fb4444b61104ef3a",
+    "pagina_quiz": 58
+  },
+  {
+    "id_blocco": 4301,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21569,
+    "testo": "Il segnale raffigurato fa parte dei segnali di indicazione",
+    "risposta_corretta": "VERO",
+    "immagine": "44dba945109a45f9fb4444b61104ef3a",
+    "pagina_quiz": 58
+  },
+  {
+    "id_blocco": 4301,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21570,
+    "testo": "Il segnale raffigurato è posto dove in caso di pioggia la strada si può allagare",
+    "risposta_corretta": "FALSO",
+    "immagine": "44dba945109a45f9fb4444b61104ef3a",
+    "pagina_quiz": 58
+  },
+  {
+    "id_blocco": 4301,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21571,
+    "testo": "Il segnale raffigurato indica il pericolo di mareggiate",
+    "risposta_corretta": "FALSO",
+    "immagine": "44dba945109a45f9fb4444b61104ef3a",
+    "pagina_quiz": 58
+  },
+  {
+    "id_blocco": 4301,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21572,
+    "testo": "Il segnale raffigurato indica la possibilità di effettuare sci nautico",
+    "risposta_corretta": "FALSO",
+    "immagine": "44dba945109a45f9fb4444b61104ef3a",
+    "pagina_quiz": 59
+  },
+  {
+    "id_blocco": 4301,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21573,
+    "testo": "Il segnale raffigurato indica una strada con curve in successione",
+    "risposta_corretta": "FALSO",
+    "immagine": "44dba945109a45f9fb4444b61104ef3a",
+    "pagina_quiz": 59
+  }
+]

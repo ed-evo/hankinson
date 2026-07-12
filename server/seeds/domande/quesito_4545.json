@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4545,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23909,
+    "testo": "Tutti i passeggeri dei veicoli a motore devono prendere posto in modo da non limitare la libertà del conducente e da non impedirgli la visibilità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4545,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23910,
+    "testo": "Il numero massimo di posti sulle autovetture è indicato sulla carta di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4545,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23911,
+    "testo": "Sui veicoli è consentito il trasporto di un animale domestico, comunque in condizione da non cos tituire impedimento o pericolo per la guida",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4545,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23912,
+    "testo": "Sui veicoli è consentito il trasporto di animali domestici anche in numero superiore ad uno, purché custoditi in gabbia o nel vano posteriore, appositame nte diviso da rete",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4545,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23913,
+    "testo": "Il numero delle persone trasportabili sulle autovetture indicato sulla carta di circolazione non comprende il conducente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4545,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23914,
+    "testo": "Il numero delle persone trasportabili sulle autovetture può raggiungere il massimo di dieci",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 538
+  },
+  {
+    "id_blocco": 4545,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23915,
+    "testo": "Sui veicoli è consentito il trasporto di cani anche in numero superiore ad uno, purché a deguatamente trattenuti al guinzaglio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 538
+  }
+]

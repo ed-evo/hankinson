@@ -1,0 +1,67 @@
+[
+  {
+    "id_blocco": 4632,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24787,
+    "testo": "I ta mponam enti stradali avvengono principalmente per la forte velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 568
+  },
+  {
+    "id_blocco": 4632,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24788,
+    "testo": "I ta mponam enti stradali avvengono maggiormente se non si rispetta la distanza di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 568
+  },
+  {
+    "id_blocco": 4632,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24789,
+    "testo": "I ta mponam enti stradali avvengono principalmente per la disattenzione dei conducenti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 569
+  },
+  {
+    "id_blocco": 4632,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24790,
+    "testo": "I ta mponam enti stradali avvengono principalmente per l'improvviso guasto del freno di stazionamento",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 569
+  },
+  {
+    "id_blocco": 4632,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24791,
+    "testo": "I ta mponam enti stradali avvengono principalmente tra autoveicoli dotati di servosterzo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 569
+  }
+]

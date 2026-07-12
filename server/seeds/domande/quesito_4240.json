@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4240,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20970,
+    "testo": "In presenza della luce semaforica rossa i veicoli devono arrestarsi",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 136
+  },
+  {
+    "id_blocco": 4240,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20971,
+    "testo": "Nei sem afori sistemati in verticale la luce rossa si trova in alto, in quelli posti in orizzontale si trova a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 136
+  },
+  {
+    "id_blocco": 4240,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20972,
+    "testo": "Nel sem aforo la luce ros sa può essere di dimensioni più grandi delle altre",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 137
+  },
+  {
+    "id_blocco": 4240,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20973,
+    "testo": "Quando è accesa la luce rossa del semaforo bisogna arrestarsi prima della striscia trasversale d'arresto",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 137
+  },
+  {
+    "id_blocco": 4240,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20974,
+    "testo": "Durante il periodo di accensione della luce rossa i veicoli non devono superare la striscia di arresto",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 137
+  },
+  {
+    "id_blocco": 4240,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20975,
+    "testo": "La luce rossa accesa del semaforo consente di svoltare a destra con prudenza, dando precedenza ai pedoni che attraversano la strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 137
+  },
+  {
+    "id_blocco": 4240,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20976,
+    "testo": "La luce rossa accesa del semaforo consente di ripartire lentamente quando appare il giallo per gli altri veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 137
+  },
+  {
+    "id_blocco": 4240,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20977,
+    "testo": "La luce rossa accesa del semaforo consente di impegnare l'incrocio con molta prude nza a condizione che non ci siano altri veicoli o pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 137
+  },
+  {
+    "id_blocco": 4240,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20978,
+    "testo": "La luce rossa accesa del semaforo consente l'attraversamento dell'incrocio, purché sia libero",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 137
+  },
+  {
+    "id_blocco": 4240,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20979,
+    "testo": "La luce rossa accesa del semaforo obbliga ad affrettarsi per liberare velocemente l'incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 137
+  }
+]

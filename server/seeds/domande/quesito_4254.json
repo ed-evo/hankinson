@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4254,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21106,
+    "testo": "Il semaforo in figura regola il passaggio dei pedoni negli incroci",
+    "risposta_corretta": "VERO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 398
+  },
+  {
+    "id_blocco": 4254,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21107,
+    "testo": "Il segnale luminoso in figura è un semaforo per i pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 398
+  },
+  {
+    "id_blocco": 4254,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21108,
+    "testo": "Il semaforo in figura, con luce gialla fissa accesa, impone ai pedoni che hanno già occupato l'attraversamento pedonale di liberarlo rapidamente",
+    "risposta_corretta": "VERO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 398
+  },
+  {
+    "id_blocco": 4254,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21109,
+    "testo": "Il semaforo in figura, con luce rossa accesa impone ai pedoni di non attraversare",
+    "risposta_corretta": "VERO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 398
+  },
+  {
+    "id_blocco": 4254,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21110,
+    "testo": "Il segnale luminoso in figura indica la presenza di una scuola",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 398
+  },
+  {
+    "id_blocco": 4254,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21111,
+    "testo": "Il semaforo in figura indica lo svolgimento di una gara podistica",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 398
+  },
+  {
+    "id_blocco": 4254,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21112,
+    "testo": "Nelle aree di servizio autostradali il semaforo in figura indica i sottopassaggi pedonali",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 398
+  },
+  {
+    "id_blocco": 4254,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21113,
+    "testo": "Il semaforo in figura si trova all'ingresso della metropolitana",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 398
+  },
+  {
+    "id_blocco": 4254,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21114,
+    "testo": "Il semaforo in figura indica i cancelli di imbarco nelle aree portuali",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 399
+  },
+  {
+    "id_blocco": 4254,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21115,
+    "testo": "Il semaforo in figura indica l'entrata di una struttura sportiva",
+    "risposta_corretta": "FALSO",
+    "immagine": "2129f648b286c6c53769eb3846a537af",
+    "pagina_quiz": 399
+  }
+]

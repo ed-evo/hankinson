@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4517,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23704,
+    "testo": "Durante la sosta è opportuno che il conducente azioni il freno di staz ionam ento ed inserisca il rapporto più basso del cambio di velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4517,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23705,
+    "testo": "Durante la sosta il conducente deve adottare accorgimenti atti a garantire l'immobilità del veicolo, indipendentemente dal grado di pendenza della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4517,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23706,
+    "testo": "Durante la sosta nelle strade a forte pendenza, è opportuno che il conducente azioni il freno di stazionamento, inserisca il rapporto più basso del cambio di velocità e lasci il veicolo con le ruote sterzate verso il marciapiede",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4517,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23707,
+    "testo": "Durante la sosta il conducente deve lasciare il veicolo con il motore spento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4517,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23708,
+    "testo": "Durante la sosta il conducente che lascia il veicolo su strada in salita, deve avere cura di inserire la quarta marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 530
+  },
+  {
+    "id_blocco": 4517,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23709,
+    "testo": "Durante la sosta il conducente deve posizionare il cambio di velocità dell'autovettura in folle",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 530
+  }
+]

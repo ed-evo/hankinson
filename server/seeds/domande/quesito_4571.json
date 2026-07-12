@@ -1,0 +1,119 @@
+[
+  {
+    "id_blocco": 4571,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24141,
+    "testo": "Nelle autost rade e strade extraurbane, è obbligatorio accendere i fari anabbaglianti anche di giorno o, in alternativa, le luci di marcia diurna",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4571,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24142,
+    "testo": "L'errata impostazione dell'orientamento dei proiettori può ridurre la visibilità del conducente o abbagliare gli altri utenti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4571,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24143,
+    "testo": "Proiettori anabbaglianti male orientati possono abbagliare gli altri utenti della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4571,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24144,
+    "testo": "Pur avendo acceso le luci anabbaglianti, si corre il rischio di abbagliare gli altri se le lampade sono montate in maniera errata o non sono omologate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 548
+  },
+  {
+    "id_blocco": 4571,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24145,
+    "testo": "Su un veicolo a motore non è consentito utilizzare lampade non omologate",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4571,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24146,
+    "testo": "Percorrendo una strada extraurbana durante una giornata assolata è suffici ente accendere le luci di posizione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4571,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24147,
+    "testo": "Percorrendo una strada extraurbana, è obbligatorio tenere accesi i proiettori abbaglianti durante le ore diurne",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4571,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24148,
+    "testo": "L'uso delle luci di posizione è obbligatorio di notte durante la sosta fuori della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  },
+  {
+    "id_blocco": 4571,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24149,
+    "testo": "Per le luci di posizione è possibile utilizzare lampade di qualsiasi colore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 549
+  }
+]

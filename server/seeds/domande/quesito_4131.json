@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19817,
+    "testo": "Il segnale raffigurato vieta il transito a tutti i veicoli di lunghezza complessiva superiore a 10 metri",
+    "risposta_corretta": "VERO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 297
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19818,
+    "testo": "In presenza del segnale raffigurato è consentito il transito di un autotreno lungo 10 metri",
+    "risposta_corretta": "VERO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 297
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19819,
+    "testo": "Il segnale raffigurato vieta il transito a veicoli di lunghezza superiore a quella indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 297
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19820,
+    "testo": "Il segnale raffigurato deve essere rispettato anche dai conducenti di autobus",
+    "risposta_corretta": "VERO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 297
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19821,
+    "testo": "Il segnale raffigurato vige anche di notte",
+    "risposta_corretta": "VERO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 298
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19822,
+    "testo": "Il segnale raffigurato deve essere rispettato anche dai conducenti di complessi di veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 298
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19823,
+    "testo": "Il segnale raffigurato deve essere rispettato solo dai conducenti di veicoli adibiti al trasporto di cose",
+    "risposta_corretta": "FALSO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 298
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19824,
+    "testo": "Il segnale raffigurato obbliga un veicolo a distanziare quello che lo segue di almeno 10 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 298
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19825,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio per autocarri lunghi al massimo 10 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 298
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19826,
+    "testo": "Il segnale raffigurato impone il distanziamento minimo tra autocarri per consent ire alle autovetture di sorpassarli",
+    "risposta_corretta": "FALSO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 298
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19827,
+    "testo": "In presenza del segnale raffigurato è consentito il transito di una autovettur a che traina un caravan anche se insieme superano i 10 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 298
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19828,
+    "testo": "In presenza del segnale raffigurato è consentito il transito a tutti gli autosnoda ti per trasporto di persone",
+    "risposta_corretta": "FALSO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 298
+  },
+  {
+    "id_blocco": 4131,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19829,
+    "testo": "Il segnale raffigurato preannuncia che gli autocarri devono mantenere una distanza di sicurezza di almeno 10 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "ccc2a316fd9a2a3cb2ed8e5c89134371",
+    "pagina_quiz": 298
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22081,
+    "testo": "Il segnale raffigurato indica che il divieto di sosta continua",
+    "risposta_corretta": "VERO",
+    "immagine": "698658a443349ca88c8ebf53bb0d9c1a",
+    "pagina_quiz": 481
+  },
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22082,
+    "testo": "Il segnale raffigurato conferma la continuazione del divieto di sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": "434788d9f15303500c6a41c25d1381d9",
+    "pagina_quiz": 481
+  },
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22083,
+    "testo": "Il segnale raffigurato indica la continuazione del limite massimo di velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "06e72a91fa5bb15104a19ce8ae45cde9",
+    "pagina_quiz": 481
+  },
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22084,
+    "testo": "Il segnale raffigurato indica la continuazione del tratto di strada sdrucciolevole",
+    "risposta_corretta": "VERO",
+    "immagine": "a2ed9eb4293f800d6bc0421b5a03e6c0",
+    "pagina_quiz": 481
+  },
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22085,
+    "testo": "Il segnale raffigurato indica che la fermata è vietata sia prima che dopo il segnal e",
+    "risposta_corretta": "VERO",
+    "immagine": "b1c7c7c5175adac5edf013eea5dd21ef",
+    "pagina_quiz": 481
+  },
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22086,
+    "testo": "Il pa nnell o integrativo raffigurato (A), posto sotto un segnale di pericolo, ne indica la continuazione",
+    "risposta_corretta": "VERO",
+    "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
+    "pagina_quiz": 481
+  },
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22087,
+    "testo": "Il pa nnell o integrativo raffigurato (A) indica di tornare indietro",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
+    "pagina_quiz": 482
+  },
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22088,
+    "testo": "Il segnale raffigurato indica la fine della zona destinata al parcheggio",
+    "risposta_corretta": "FALSO",
+    "immagine": "feec73a518738f6cbdf7869b0c52e6cc",
+    "pagina_quiz": 482
+  },
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22089,
+    "testo": "Il pa nnell o integrativo raffigurato (A) indica un senso unico alternato",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
+    "pagina_quiz": 482
+  },
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22090,
+    "testo": "Il pa nnell o integrativo raffigurato (A), posto sotto un segnale di pericolo, ne indica la fine",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
+    "pagina_quiz": 482
+  },
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22091,
+    "testo": "Il pa nnell o integrativo raffigurato (A) indica le due direzioni consentite",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
+    "pagina_quiz": 482
+  },
+  {
+    "id_blocco": 4356,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22092,
+    "testo": "Il pa nnell o integrativo raffigurato (A) indica una strada a doppio senso di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
+    "pagina_quiz": 482
+  }
+]

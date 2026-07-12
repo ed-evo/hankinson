@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4329,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21819,
+    "testo": "Il segnale raffigurato è posto in vicinanza di un cantiere stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "630cebb8d08ae99d4eecba26193b0e23",
+    "pagina_quiz": 2
+  },
+  {
+    "id_blocco": 4329,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21820,
+    "testo": "Il segnale raffigurato preavvisa la direzione obbligatoria per autotreni ed autoarti colati",
+    "risposta_corretta": "VERO",
+    "immagine": "630cebb8d08ae99d4eecba26193b0e23",
+    "pagina_quiz": 2
+  },
+  {
+    "id_blocco": 4329,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21821,
+    "testo": "Il segnale raffigurato viene installato per il periodo di durata dei lavori stradali",
+    "risposta_corretta": "VERO",
+    "immagine": "630cebb8d08ae99d4eecba26193b0e23",
+    "pagina_quiz": 2
+  },
+  {
+    "id_blocco": 4329,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21822,
+    "testo": "Il segnale raffigurato preavvisa la direzione per un'area di rifornimento e sosta per m ezzi pesanti",
+    "risposta_corretta": "FALSO",
+    "immagine": "630cebb8d08ae99d4eecba26193b0e23",
+    "pagina_quiz": 2
+  },
+  {
+    "id_blocco": 4329,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21823,
+    "testo": "Il segnale raffigurato obbliga tutti i veicoli a proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "630cebb8d08ae99d4eecba26193b0e23",
+    "pagina_quiz": 2
+  },
+  {
+    "id_blocco": 4329,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21824,
+    "testo": "Il segnale raffigurato preavvisa una direzione consigliata",
+    "risposta_corretta": "FALSO",
+    "immagine": "630cebb8d08ae99d4eecba26193b0e23",
+    "pagina_quiz": 2
+  },
+  {
+    "id_blocco": 4329,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21825,
+    "testo": "Il segnale raffigurato consiglia a tutti i veicoli di seguire la direzione indicata dalla freccia",
+    "risposta_corretta": "FALSO",
+    "immagine": "630cebb8d08ae99d4eecba26193b0e23",
+    "pagina_quiz": 3
+  }
+]

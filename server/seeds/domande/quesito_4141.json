@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4141,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19939,
+    "testo": "Il segnale raffigurato vieta la temporanea sospensione della marcia del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 312
+  },
+  {
+    "id_blocco": 4141,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19940,
+    "testo": "Il segnale raffigurato vieta la fermata volontaria di tutti i veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 313
+  },
+  {
+    "id_blocco": 4141,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19941,
+    "testo": "Lungo le strade dove è posto, il segnale raffigurato vale 24 ore su 24",
+    "risposta_corretta": "VERO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 313
+  },
+  {
+    "id_blocco": 4141,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19942,
+    "testo": "Il segnale raffigurato vieta la sosta, ma consente la fermata",
+    "risposta_corretta": "FALSO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 313
+  },
+  {
+    "id_blocco": 4141,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19943,
+    "testo": "Lungo le strade urbane, il segnale raffigurato indica che il divieto di fermata vige dalle ore 8.00 alle 20.00",
+    "risposta_corretta": "FALSO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 313
+  },
+  {
+    "id_blocco": 4141,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19944,
+    "testo": "Il segnale raffigurato consente la fermata per far salire o scendere passeggeri",
+    "risposta_corretta": "FALSO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 313
+  },
+  {
+    "id_blocco": 4141,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19945,
+    "testo": "Il segnale raffigurato consente la fermata se il veicolo non arreca intralcio alla circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "2d9d175d5a8ebb46c59508905f6a8ae4",
+    "pagina_quiz": 313
+  }
+]

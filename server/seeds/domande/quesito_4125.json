@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19756,
+    "testo": "Il segnale raffigurato vieta il transito alle trattrici agricole",
+    "risposta_corretta": "VERO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 291
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19757,
+    "testo": "In presenza del segnale raffigurato è consentito il transito di veicoli sgombraneve",
+    "risposta_corretta": "VERO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 291
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19758,
+    "testo": "Il segnale raffigurato vale sia di giorno che di notte",
+    "risposta_corretta": "VERO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 291
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19759,
+    "testo": "In presenza del segnale raffigurato è consentito il transito alle macchine operatrici destinate a lavori di manutenzione stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 291
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19760,
+    "testo": "Il segnale raffigurato vale sia per le macchine agricole gommate, sia per quelle cingolate",
+    "risposta_corretta": "VERO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 291
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19761,
+    "testo": "In presenza del segnale raffigurato è consentito il transito ai motocicli",
+    "risposta_corretta": "VERO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 291
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19762,
+    "testo": "In presenza del segnale raffigurato è consentito il transito ai quadricicli a motore",
+    "risposta_corretta": "VERO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 291
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19763,
+    "testo": "In presenza del segnale raffigurato è consentito il transito alle macchine agri cole",
+    "risposta_corretta": "FALSO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 291
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19764,
+    "testo": "In presenza del segnale raffigurato è consentito il traino dei rimorchi agri coli di ma ssa complessiva fino a 1,5 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 291
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19765,
+    "testo": "Il segnale raffigurato vieta il transito ai trattori stradali per semirimorchi",
+    "risposta_corretta": "FALSO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 292
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19766,
+    "testo": "Il segnale raffigurato vieta il transito ai quadricicli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 292
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19767,
+    "testo": "Il segnale raffigurato è obbligatorio in corrispondenza degli accessi privati",
+    "risposta_corretta": "FALSO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 292
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19768,
+    "testo": "Il segnale raffigurato s i trova soltanto sulla rete stradale delle aziende agri cole",
+    "risposta_corretta": "FALSO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 292
+  },
+  {
+    "id_blocco": 4125,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19769,
+    "testo": "In presenza del segnale raffigurato è consentito il transito alle macchine agri cole durante le fiere",
+    "risposta_corretta": "FALSO",
+    "immagine": "8a2144c790c2fb4700376c9bb49c6a0b",
+    "pagina_quiz": 292
+  }
+]

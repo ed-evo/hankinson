@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19679,
+    "testo": "Il segnale raffigurato vieta il transito ai motocicli",
+    "risposta_corretta": "VERO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 280
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19680,
+    "testo": "Il segnale raffigurato consente il transito ai tricicli e ai quadricicli a motore",
+    "risposta_corretta": "VERO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 280
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19681,
+    "testo": "Il segnale raffigurato consente il transito alle autovetture",
+    "risposta_corretta": "VERO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 280
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19682,
+    "testo": "Il segnale raffigurato consente il transito alle biciclette",
+    "risposta_corretta": "VERO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 280
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19683,
+    "testo": "Il segnale raffigurato vieta il transito ai motocicli di qualsiasi cilindrata",
+    "risposta_corretta": "VERO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 280
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19684,
+    "testo": "Il segnale raffigurato consente il transito ai motocicli",
+    "risposta_corretta": "FALSO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 280
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19685,
+    "testo": "Il segnale raffigurato vieta il transito a tutti i veicoli a due ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 280
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19686,
+    "testo": "Il segnale raffigurato s i riferisce ai soli motocicli di cilindrata superiore ai 125 cm3",
+    "risposta_corretta": "FALSO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 280
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19687,
+    "testo": "Il segnale raffigurato consente il transito ai motocicli dotati di cellula di sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 281
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19688,
+    "testo": "Il segnale raffigurato vieta il transito ai ciclomotori",
+    "risposta_corretta": "FALSO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 281
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19689,
+    "testo": "Il segnale raffigurato vieta il transito ai quadricicli a motore",
+    "risposta_corretta": "FALSO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 281
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19690,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 281
+  },
+  {
+    "id_blocco": 4118,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19691,
+    "testo": "Il segnale raffigurato obbliga i motociclisti a servirsi della pista loro riservata",
+    "risposta_corretta": "FALSO",
+    "immagine": "cbbad650c84e12d67b5be2d99b7fddff",
+    "pagina_quiz": 281
+  }
+]

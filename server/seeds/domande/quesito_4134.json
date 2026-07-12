@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4134,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19850,
+    "testo": "Il segnale raffigurato indica la fine delle prescrizioni precedentemente imposte",
+    "risposta_corretta": "VERO",
+    "immagine": "d8dce2d1c8f09a52c75de4be9144dd48",
+    "pagina_quiz": 301
+  },
+  {
+    "id_blocco": 4134,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19851,
+    "testo": "Il segnale raffigurato indica la fine di divieti precedentemente imposti",
+    "risposta_corretta": "VERO",
+    "immagine": "d8dce2d1c8f09a52c75de4be9144dd48",
+    "pagina_quiz": 301
+  },
+  {
+    "id_blocco": 4134,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19852,
+    "testo": "Il segnale raffigurato è un segnale di via libera",
+    "risposta_corretta": "VERO",
+    "immagine": "d8dce2d1c8f09a52c75de4be9144dd48",
+    "pagina_quiz": 301
+  },
+  {
+    "id_blocco": 4134,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19853,
+    "testo": "Il segnale raffigurato è un segnale di fine prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "d8dce2d1c8f09a52c75de4be9144dd48",
+    "pagina_quiz": 301
+  },
+  {
+    "id_blocco": 4134,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19854,
+    "testo": "Il segnale raffigurato indica il punto dal quale le prescrizioni precedentemente indicate non sono più valide",
+    "risposta_corretta": "VERO",
+    "immagine": "d8dce2d1c8f09a52c75de4be9144dd48",
+    "pagina_quiz": 302
+  },
+  {
+    "id_blocco": 4134,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19855,
+    "testo": "Il segnale raffigurato indica la fine di un cantiere di lavoro",
+    "risposta_corretta": "FALSO",
+    "immagine": "d8dce2d1c8f09a52c75de4be9144dd48",
+    "pagina_quiz": 302
+  },
+  {
+    "id_blocco": 4134,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19856,
+    "testo": "Il segnale raffigurato riguarda soltanto i veicoli in servizio pubblico",
+    "risposta_corretta": "FALSO",
+    "immagine": "d8dce2d1c8f09a52c75de4be9144dd48",
+    "pagina_quiz": 302
+  },
+  {
+    "id_blocco": 4134,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19857,
+    "testo": "Il segnale raffigurato è un segnale di indicazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "d8dce2d1c8f09a52c75de4be9144dd48",
+    "pagina_quiz": 302
+  },
+  {
+    "id_blocco": 4134,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19858,
+    "testo": "Il segnale raffigurato indica la fine di un centro abitato",
+    "risposta_corretta": "FALSO",
+    "immagine": "d8dce2d1c8f09a52c75de4be9144dd48",
+    "pagina_quiz": 302
+  },
+  {
+    "id_blocco": 4134,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19859,
+    "testo": "Il segnale raffigurato indica la fine del pericolo precedentemente segnalato",
+    "risposta_corretta": "FALSO",
+    "immagine": "d8dce2d1c8f09a52c75de4be9144dd48",
+    "pagina_quiz": 302
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4008,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18395,
+    "testo": "Nell'inter sezione (incrocio) a raso due o più strade si incrociano allo stesso livello",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4008,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18396,
+    "testo": "L'intersezione (incrocio) a raso può essere regolata da semaforo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4008,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18397,
+    "testo": "L'intersezione (incrocio) a raso è un'intersezione di due o più strade poste allo stesso livello",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4008,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18398,
+    "testo": "L'intersezione (incrocio) a raso richiede di fare attenzione ai veicoli proveni enti dalle strade che si incrociano",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4008,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18399,
+    "testo": "L'intersezione (incrocio) a raso è un incrocio fra una strada statale e i binari del tram",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4008,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18400,
+    "testo": "L'intersezione (incrocio) a raso è un incrocio fra una strada statale e un passo carrabile",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4008,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18401,
+    "testo": "L'intersezione (incrocio) a raso è un passaggio a livello dotato di barriere o semibarriere",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 450
+  },
+  {
+    "id_blocco": 4008,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18402,
+    "testo": "L'intersezione (incrocio) a raso è un'intersezione a livelli sfalsati",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 451
+  },
+  {
+    "id_blocco": 4008,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18403,
+    "testo": "L'intersezione (incrocio) a raso è un insieme di sovrappassi, sottopassi e ram pe",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 451
+  }
+]

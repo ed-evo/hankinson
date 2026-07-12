@@ -1,0 +1,56 @@
+[
+  {
+    "id_blocco": 4532,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23816,
+    "testo": "Su strada extraurbana, nel caso di incidente che provochi l'ingombro della carreggiata per la presenza di veicoli danneggiati che non è possibile rimuovere, il conducente o i passeggeri devono presegnalare la zona mediante il se gnale triangolare mobile di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 534
+  },
+  {
+    "id_blocco": 4532,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23817,
+    "testo": "Nel caso di ingombro della carreggiata per avaria del veicolo che non è possibile spostare , il conducente deve informare l'organo di polizia, senza dover opportunamente presegnalare la zona.",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 534
+  },
+  {
+    "id_blocco": 4532,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 23818,
+    "testo": "Nel caso di ingombro della carreggiata per caduta del carico non rem ovibile, il conducente può evitare di informare un organo di polizia se presegnala la zona con efficaci segnali manuali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 534
+  }
+]

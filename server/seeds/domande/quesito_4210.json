@@ -1,0 +1,122 @@
+[
+  {
+    "id_blocco": 4210,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20709,
+    "testo": "La str iscia bianca dis continua in figura può essere superata",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 419
+  },
+  {
+    "id_blocco": 4210,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20710,
+    "testo": "La str iscia bianca dis continua in figura divide la carreggiata in due corsie",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 419
+  },
+  {
+    "id_blocco": 4210,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20711,
+    "testo": "Nelle strade a doppio s enso con due corsie la striscia bianca discontinua in figura divide i sensi di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 419
+  },
+  {
+    "id_blocco": 4210,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20712,
+    "testo": "La str iscia bianca dis continua in figura consente, in caso si voglia sorpassare , di occupare momentaneamente l'altra corsia di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 419
+  },
+  {
+    "id_blocco": 4210,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20713,
+    "testo": "La str iscia bianca dis continua in figura consente l'inversione di marcia, in condizioni di sicurezza, se la strada è a doppio senso",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 419
+  },
+  {
+    "id_blocco": 4210,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20714,
+    "testo": "La str iscia bianca dis continua in figura consente la svolta a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 420
+  },
+  {
+    "id_blocco": 4210,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20715,
+    "testo": "La str iscia bianca dis continua in figura consente di circolare stando a cavallo di essa",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 420
+  },
+  {
+    "id_blocco": 4210,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20716,
+    "testo": "La str iscia bianca dis continua in figura divide la strada da una pista ciclabile",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 420
+  },
+  {
+    "id_blocco": 4210,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20717,
+    "testo": "La str iscia bianca dis continua in figura si trova in vicinanza di tutti i passaggi a livello",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 420
+  },
+  {
+    "id_blocco": 4210,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20718,
+    "testo": "La str iscia bianca dis continua in figura può essere sostituita da una serie di \"chiodi\" per segnaletica stradale",
+    "risposta_corretta": "FALSO",
+    "immagine": "f9768f4e7a236b03cb9ce9c2772d247f",
+    "pagina_quiz": 420
+  }
+]

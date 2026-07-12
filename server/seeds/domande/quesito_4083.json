@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19248,
+    "testo": "Il segnale raffigurato preannuncia una strettoia sulla destra della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 198
+  },
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19249,
+    "testo": "Il segnale raffigurato preannuncia una strettoia causata da un ostacolo fisso sul lato destro",
+    "risposta_corretta": "VERO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 198
+  },
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19250,
+    "testo": "Il segnale raffigurato preannuncia un restringimento pericoloso sulla destra della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 198
+  },
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19251,
+    "testo": "Il segnale raffigurato preannuncia il restringimento della carreggiata causato da muretti o altro ostacolo sul lato destro",
+    "risposta_corretta": "VERO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 199
+  },
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19252,
+    "testo": "Il segnale raffigurato può trovarsi anche su strada a doppio senso di circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 199
+  },
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19253,
+    "testo": "Il segnale raffigurato, s e a fondo giallo, è posto in presenza di un cantiere che riduce l a larghezza della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 199
+  },
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19254,
+    "testo": "Il segnale raffigurato indica la fine del doppio senso di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 199
+  },
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19255,
+    "testo": "Il segnale raffigurato obbliga a dare la precedenza ai veicoli provenienti dal senso opposto",
+    "risposta_corretta": "FALSO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 199
+  },
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19256,
+    "testo": "Il segnale raffigurato autorizza la marcia per file parallele",
+    "risposta_corretta": "FALSO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 199
+  },
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19257,
+    "testo": "Il segnale raffigurato indica di disporsi su due file",
+    "risposta_corretta": "FALSO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 199
+  },
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19258,
+    "testo": "Il segnale raffigurato preannuncia una confluenza da destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 199
+  },
+  {
+    "id_blocco": 4083,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19259,
+    "testo": "Il segnale raffigurato preannuncia l'inizio di un senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "ac725b724d8bc2fea3c34c68c685d605",
+    "pagina_quiz": 199
+  }
+]

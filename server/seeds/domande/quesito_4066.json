@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4066,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19045,
+    "testo": "In presenza del segnale raffigurato è necessario moderare la velocità per essere pronti ad arrestarsi se le barriere sono chiuse",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 174
+  },
+  {
+    "id_blocco": 4066,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19046,
+    "testo": "In presenza del segnale raffigurato non è consenti to impegnare il passaggio a livello se il traffico intenso impedisce di sgomberarlo",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 174
+  },
+  {
+    "id_blocco": 4066,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19047,
+    "testo": "In presenza del segnale raffigurato è necessario arrestarsi se sono in funzi one le due luci rosse lampeggianti",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 174
+  },
+  {
+    "id_blocco": 4066,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19048,
+    "testo": "In presenza del segnale raffigurato è necessario arrestarsi se è in funzione il dispositivo acustico che avverte della chiusura delle barriere",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 174
+  },
+  {
+    "id_blocco": 4066,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19049,
+    "testo": "In presenza del segnale raffigurato, se il veicolo si ferma per avaria sui binari, il conducente deve adottare ogni iniziativa utile al fine di evitare incidenti",
+    "risposta_corretta": "VERO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 174
+  },
+  {
+    "id_blocco": 4066,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19050,
+    "testo": "In presenza del segnale raffigurato è consentito sostare in corrispondenza o in prossimità dei passaggi a livelli",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 174
+  },
+  {
+    "id_blocco": 4066,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19051,
+    "testo": "In presenza del segnale raffigurato è necessario rallentare solo in caso di scarsa visibilità",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 175
+  },
+  {
+    "id_blocco": 4066,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19052,
+    "testo": "In presenza del segnale raffigurato è possibile attraversare i binari se sbarrati da cavalletti a strisce bianche e rosse",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 175
+  },
+  {
+    "id_blocco": 4066,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19053,
+    "testo": "In presenza del segnale raffigurato sono consentite la fermata ma non la sosta in prossimità o in corrispondenza dei binari",
+    "risposta_corretta": "FALSO",
+    "immagine": "accabdc7809596ef95d9e34d4b33d06b",
+    "pagina_quiz": 175
+  }
+]

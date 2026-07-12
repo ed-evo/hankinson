@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4355,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22070,
+    "testo": "Il pa nnell o integrativo (A), pos to sotto un segnale di divieto, evidenzia il punto d'inizio della prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "33212ce9941b32683cb07828adcf3260",
+    "pagina_quiz": 480
+  },
+  {
+    "id_blocco": 4355,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22071,
+    "testo": "Il segnale raffigurato indica che il divieto di sosta ha inizio in quel punto",
+    "risposta_corretta": "VERO",
+    "immagine": "7e264425ad71a77b6128cc604e2ed3eb",
+    "pagina_quiz": 480
+  },
+  {
+    "id_blocco": 4355,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22072,
+    "testo": "Il segnale raffigurato evidenzia l'inizio dell'area dove è possibile parcheggiare",
+    "risposta_corretta": "VERO",
+    "immagine": "a604c9c33c10697f0bd241a921570d3b",
+    "pagina_quiz": 480
+  },
+  {
+    "id_blocco": 4355,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22073,
+    "testo": "il segnale raffigurato evidenzia il punto d'inizio del divieto di fermata",
+    "risposta_corretta": "VERO",
+    "immagine": "1915bff092d45578bf9662328b438921",
+    "pagina_quiz": 480
+  },
+  {
+    "id_blocco": 4355,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22074,
+    "testo": "Il segnale raffigurato evidenzia il punto d'inizio del viale pedonale",
+    "risposta_corretta": "VERO",
+    "immagine": "bc784ca837ec863fae7360b12eb8e1c6",
+    "pagina_quiz": 480
+  },
+  {
+    "id_blocco": 4355,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22075,
+    "testo": "Il pa nnell o raffigurato (A) indica una strada in salita",
+    "risposta_corretta": "FALSO",
+    "immagine": "33212ce9941b32683cb07828adcf3260",
+    "pagina_quiz": 480
+  },
+  {
+    "id_blocco": 4355,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22076,
+    "testo": "Il pa nnell o raffigurato (A) indica l'obbligo di proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "33212ce9941b32683cb07828adcf3260",
+    "pagina_quiz": 480
+  },
+  {
+    "id_blocco": 4355,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22077,
+    "testo": "Il pa nnell o raffigurato (A) indica la fine di una strada a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "33212ce9941b32683cb07828adcf3260",
+    "pagina_quiz": 480
+  },
+  {
+    "id_blocco": 4355,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22078,
+    "testo": "Il pa nnell o raffigurato (B) indica la corsia riservata agli autobus urbani",
+    "risposta_corretta": "FALSO",
+    "immagine": "33212ce9941b32683cb07828adcf3260",
+    "pagina_quiz": 480
+  },
+  {
+    "id_blocco": 4355,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22079,
+    "testo": "Il segnale raffigurato evidenzia il punto in cui finisce l'area destinata al parcheggio",
+    "risposta_corretta": "FALSO",
+    "immagine": "8de98a2e232b482a4d93bc29ef3486d0",
+    "pagina_quiz": 481
+  },
+  {
+    "id_blocco": 4355,
+    "argomenti": [
+      "Pannelli integrativi dei segnali"
+    ],
+    "numero": 22080,
+    "testo": "Il pa nnell o raffigurato (A), posto s otto un segnale di pericolo, evidenzia il punto dove f inisce il pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "33212ce9941b32683cb07828adcf3260",
+    "pagina_quiz": 481
+  }
+]

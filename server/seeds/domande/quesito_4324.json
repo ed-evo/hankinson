@@ -1,0 +1,79 @@
+[
+  {
+    "id_blocco": 4324,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21777,
+    "testo": "Il segnale raffigurato s i trova nelle vicinanze di una stazione ferroviaria",
+    "risposta_corretta": "VERO",
+    "immagine": "5b1a54c826611831c1b407905d13972c",
+    "pagina_quiz": 85
+  },
+  {
+    "id_blocco": 4324,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21778,
+    "testo": "Il segnale raffigurato indica la vicinanza di una grande stazione ferroviaria con possibilità di trasporto di autovetture al seguito del viaggiatore",
+    "risposta_corretta": "VERO",
+    "immagine": "5b1a54c826611831c1b407905d13972c",
+    "pagina_quiz": 85
+  },
+  {
+    "id_blocco": 4324,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21779,
+    "testo": "Il segnale raffigurato s i trova in vicinanza dell'accesso per le autovetture da caricare sul treno",
+    "risposta_corretta": "VERO",
+    "immagine": "5b1a54c826611831c1b407905d13972c",
+    "pagina_quiz": 85
+  },
+  {
+    "id_blocco": 4324,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21780,
+    "testo": "Il segnale raffigurato indica, sulle strade extraurbane, la presenza di un hotel con parcheggio custodito",
+    "risposta_corretta": "FALSO",
+    "immagine": "5b1a54c826611831c1b407905d13972c",
+    "pagina_quiz": 85
+  },
+  {
+    "id_blocco": 4324,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21781,
+    "testo": "Il segnale raffigurato indica la possibilità di restare in auto durante il suo tra sport o in treno",
+    "risposta_corretta": "FALSO",
+    "immagine": "5b1a54c826611831c1b407905d13972c",
+    "pagina_quiz": 86
+  },
+  {
+    "id_blocco": 4324,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21782,
+    "testo": "Il segnale raffigurato indica che la zona è coperta dal segnale per antifurti sate llitari",
+    "risposta_corretta": "FALSO",
+    "immagine": "5b1a54c826611831c1b407905d13972c",
+    "pagina_quiz": 86
+  },
+  {
+    "id_blocco": 4324,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21783,
+    "testo": "Il segnale raffigurato indica un'area riservata alla sosta delle autocaravan",
+    "risposta_corretta": "FALSO",
+    "immagine": "5b1a54c826611831c1b407905d13972c",
+    "pagina_quiz": 86
+  }
+]

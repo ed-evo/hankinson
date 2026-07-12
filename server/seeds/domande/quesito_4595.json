@@ -1,0 +1,58 @@
+[
+  {
+    "id_blocco": 4595,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24326,
+    "testo": "Il poggiate sta è utile per prevenire il \"colpo di frusta\"",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 552
+  },
+  {
+    "id_blocco": 4595,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24327,
+    "testo": "Il poggiate sta è utile se viene regolato correttamente, sia in altezza che in inclinazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 553
+  },
+  {
+    "id_blocco": 4595,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24328,
+    "testo": "Il poggiate sta è particolarmente utile per rilassare la muscolatura durante la guida",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 553
+  },
+  {
+    "id_blocco": 4595,
+    "argomenti": [
+      "Dispositivi di equipaggiamento: funzione ed uso",
+      "cinture di sicurezza e sistemi di ritenuta per bambini",
+      "casco protettivo",
+      "abbigliamento di sicurezza"
+    ],
+    "numero": 24329,
+    "testo": "Il poggiate sta ha una funzione non di sicurezza, ma estetica",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 553
+  }
+]

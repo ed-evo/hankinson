@@ -1,0 +1,119 @@
+[
+  {
+    "id_blocco": 4625,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24720,
+    "testo": "Il fenomeno dell'aquaplaning fa scivolare le ruote sullo strato di acqua",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4625,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24721,
+    "testo": "Il fenomeno dell'aquaplaning inizia a velocità più bassa se il pneumatico è molto consumato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4625,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24722,
+    "testo": "Il fenomeno dell'aquaplaning si verifica più facilmente nei veicoli più leggeri",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4625,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24723,
+    "testo": "Il fenomeno dell'aquaplaning si verifica più facilmente a bassa velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4625,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24724,
+    "testo": "Il fenomeno dell'aquaplaning riduce lo sbandamento del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4625,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24725,
+    "testo": "Il fenomeno dell'aquaplaning aumenta nelle carreggiate a forte pendenza laterale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4625,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24726,
+    "testo": "Il fenomeno dell'aquaplaning aumenta l'aderenza sul fondo stradale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4625,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24727,
+    "testo": "Il fenomeno dell'aquaplaning rafforza il contatto fra pneumatici e asfalto",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  },
+  {
+    "id_blocco": 4625,
+    "argomenti": [
+      "Comportamenti per prevenire incidenti stradali",
+      "comportamento in caso di incidente stradale",
+      "peculiarità della guida di motocicli"
+    ],
+    "numero": 24728,
+    "testo": "Il fenomeno dell'aquaplaning non dipende dallo spessore e dal disegno del battistrada",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 566
+  }
+]

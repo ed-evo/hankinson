@@ -1,0 +1,57 @@
+[
+  {
+    "id_blocco": 4408,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22657,
+    "testo": "La distanza di sicurezza deve essere aumentata quando il veicolo che precede trasporta un carico sporgente, poco stabile",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4408,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22658,
+    "testo": "La distanza di sicurezza deve essere di almeno 100 metri, in caso di forte pioggia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4408,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22659,
+    "testo": "La distanza di sicurezza può essere diminuita nelle gallerie",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4408,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22660,
+    "testo": "Quando si ci rcola in autostrada, è possibile diminuire la distanza di sicurezza, in quanto non ci si aspetta una frenata improvvisa dal veicolo che precede",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 504
+  },
+  {
+    "id_blocco": 4408,
+    "argomenti": [
+      "Distanza di sicurezza"
+    ],
+    "numero": 22661,
+    "testo": "Se il veicolo che precede è un autocarro, si deve diminuire la distanza di sicurezza, in quanto i veicoli pesanti hanno uno spazio di frenatura molto più lungo rispetto agli altri veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 504
+  }
+]

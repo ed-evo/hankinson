@@ -1,0 +1,80 @@
+[
+  {
+    "id_blocco": 4659,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24984,
+    "testo": "La responsabilità penale connessa al sinistro stradale è esclusa quando vi siano da nni involontari alle sole cose",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 576
+  },
+  {
+    "id_blocco": 4659,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24985,
+    "testo": "La responsabilità penale connessa al sinistro stradale è esclusa quando il fat to non sia considerato un reato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 576
+  },
+  {
+    "id_blocco": 4659,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24986,
+    "testo": "La responsabilità penale connessa al sinistro stradale è esclusa quando il fat to dipe nde da causa di forza maggiore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 576
+  },
+  {
+    "id_blocco": 4659,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24987,
+    "testo": "La responsabilità penale connessa al sinistro stradale è esclusa quando si sia prest ato soccorso alla vittima",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 576
+  },
+  {
+    "id_blocco": 4659,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24988,
+    "testo": "La responsabilità penale connessa al sinistro stradale è esclusa ogni qualvolta ci sia stato il risarcimento del danno",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 576
+  },
+  {
+    "id_blocco": 4659,
+    "argomenti": [
+      "Responsabilità civile, penale, amministrativa",
+      "assicurazione R.C.A.",
+      "altre forme assicurative legate al veicolo"
+    ],
+    "numero": 24989,
+    "testo": "La responsabilità penale connessa al sinistro stradale è esclusa qualora intervenga l'impresa di ass icurazione che risarcisca adeguatamente il danneggiato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 576
+  }
+]

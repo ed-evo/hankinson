@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4208,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20689,
+    "testo": "In presenza del segnale raffigurato dobbiamo accertarci che i veicoli proveni enti dal senso contrario ci diano la precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "1d54595537d45c8248194c62b91d2222",
+    "pagina_quiz": 253
+  },
+  {
+    "id_blocco": 4208,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20690,
+    "testo": "In presenza del segnale raffigurato possiamo percorrere la strettoia, dopo esserci assicurati di aver ottenuto la precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "1d54595537d45c8248194c62b91d2222",
+    "pagina_quiz": 253
+  },
+  {
+    "id_blocco": 4208,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20691,
+    "testo": "In presenza del segnale raffigurato dobbiamo proc edere con cautela, anche se abbi amo l a precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "1d54595537d45c8248194c62b91d2222",
+    "pagina_quiz": 254
+  },
+  {
+    "id_blocco": 4208,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20692,
+    "testo": "In presenza del segnale raffigurato si può percorrere la strettoia accertandosi di aver avuto la precedenza dai veicoli provenienti di fronte",
+    "risposta_corretta": "VERO",
+    "immagine": "1d54595537d45c8248194c62b91d2222",
+    "pagina_quiz": 254
+  },
+  {
+    "id_blocco": 4208,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20693,
+    "testo": "In presenza del segnale raffigurato si deve dare la precedenza ai veicoli che provengono dal senso opposto",
+    "risposta_corretta": "FALSO",
+    "immagine": "1d54595537d45c8248194c62b91d2222",
+    "pagina_quiz": 254
+  },
+  {
+    "id_blocco": 4208,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20694,
+    "testo": "In presenza del segnale raffigurato possiamo procedere senza cautela, dato che abbiamo il diritto di precedenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "1d54595537d45c8248194c62b91d2222",
+    "pagina_quiz": 254
+  },
+  {
+    "id_blocco": 4208,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20695,
+    "testo": "In presenza del segnale raffigurato non vi sono particolari obblighi perché siamo su una strada a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "1d54595537d45c8248194c62b91d2222",
+    "pagina_quiz": 254
+  },
+  {
+    "id_blocco": 4208,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20696,
+    "testo": "In presenza del segnale raffigurato inizia il doppio senso di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "1d54595537d45c8248194c62b91d2222",
+    "pagina_quiz": 254
+  },
+  {
+    "id_blocco": 4208,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20697,
+    "testo": "In presenza del segnale raffigurato si deve usare prudenza nella strettoia perché la circolazione si svolge a doppio senso",
+    "risposta_corretta": "FALSO",
+    "immagine": "1d54595537d45c8248194c62b91d2222",
+    "pagina_quiz": 254
+  },
+  {
+    "id_blocco": 4208,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20698,
+    "testo": "Il segnale raffigurato preannuncia il divieto d'inversione di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "1d54595537d45c8248194c62b91d2222",
+    "pagina_quiz": 254
+  },
+  {
+    "id_blocco": 4208,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20699,
+    "testo": "Il segnale raffigurato preannuncia il divieto di svolta",
+    "risposta_corretta": "FALSO",
+    "immagine": "1d54595537d45c8248194c62b91d2222",
+    "pagina_quiz": 254
+  }
+]

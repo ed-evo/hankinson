@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4704,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25296,
+    "testo": "Per una m aggiore sicurezza, bisogna utilizzare esclusivamente pneumatici delle dimensioni previste dall'omologazione del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 587
+  },
+  {
+    "id_blocco": 4704,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25297,
+    "testo": "Per una m aggiore sicurezza, sulle ruote dello stesso asse bisogna utilizzare pneumatici uguali",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 587
+  },
+  {
+    "id_blocco": 4704,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25298,
+    "testo": "Per una m aggiore sicurezza, bisogna controllare le condizioni dei pneumatici anche sui lati, per prevenire improvvisi scoppi o sgonfiamenti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 587
+  },
+  {
+    "id_blocco": 4704,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25299,
+    "testo": "Per garantire l'aderenza e la stabilità del veicolo, bi sogna controllare che la pressione di gonfiaggio degli pneumatici sia quella consigliata dalla casa costruttric e",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 587
+  },
+  {
+    "id_blocco": 4704,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25300,
+    "testo": "La pressione di gonfiaggio troppo bassa degli pneumatici ne provoca l'anomalo consumo ai bordi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 587
+  },
+  {
+    "id_blocco": 4704,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25301,
+    "testo": "Non bisogna mai invertire la posizione degli pneumatici, per permettere loro di adat tarsi meglio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 587
+  },
+  {
+    "id_blocco": 4704,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25302,
+    "testo": "Per garantire l'aderenza e la stabilità del veicolo, bi sogna controllare solo la pressione di gonfiaggio degli pneumatici delle ruote motrici",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4704,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25303,
+    "testo": "Per migliorare il raffreddamento degli pneumatici, bisogna diminuire la pressione di gonfiaggio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 588
+  },
+  {
+    "id_blocco": 4704,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25304,
+    "testo": "La pressione di gonfiaggio troppo bassa degli pneumatici ne provoca l'anomalo consumo della parte centrale e dei bordi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 588
+  }
+]

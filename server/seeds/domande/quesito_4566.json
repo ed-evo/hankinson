@@ -1,0 +1,182 @@
+[
+  {
+    "id_blocco": 4566,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24079,
+    "testo": "Nel ri morchio è presente un dispositivo di sicurezza che, in caso di sganci amento accidentale, aziona automaticamente il freno di staz ionam ento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4566,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24080,
+    "testo": "Nei ri morchi con freno a inerzia, dopo un prolungato periodo di inattività, i freni potrebbero aver perso efficienza a causa della ruggine",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4566,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24081,
+    "testo": "Quando si la scia un rimorchio in sosta occorre azionare la leva del freno di staz ionam ento e, in caso di strada in pendenza, è opportuno applicare dei cunei di arresto alle ruote",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4566,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24082,
+    "testo": "La frenatura del rimorchio dotato di freno a inerzia non avviene simultaneame nte a quella della motrice, in quanto l'azionamento si ha solo dopo che il ri morchio ha es ercitato una spinta sulla motrice",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4566,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24083,
+    "testo": "In un rimor chio dotato di freno a inerzia l'effetto della frenata avviene quando il rimorchio si avvicina alla motrice",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4566,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24084,
+    "testo": "Alla guida di un veicolo con rimorchio, durante una frenata in marcia ret tilinea , il c arico trasportato tenderà a spostarsi all'indietro",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4566,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24085,
+    "testo": "Alla guida di un veicolo con rimorchio, durante una brusca accelerazione in marcia rettilinea, il carico trasportato tenderà a spostarsi in avanti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4566,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24086,
+    "testo": "Nelle autovetture dotate di A.B.S. non è possibile agganciare un rimorchio privo di impianto frenante",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4566,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24087,
+    "testo": "Nei ri morchi dotati di freno a inerzia la frenatura del rimorchio avviene simultaneame nte a quella della motrice",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 546
+  },
+  {
+    "id_blocco": 4566,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24088,
+    "testo": "Nei ri morchi dotati di freno a inerzia il rimorchio frena circa un secondo prima del la m otrice",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 546
+  }
+]

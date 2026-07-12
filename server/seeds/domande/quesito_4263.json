@@ -1,0 +1,98 @@
+[
+  {
+    "id_blocco": 4263,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21194,
+    "testo": "Il suono prolungato del fis chietto da parte dell'agente preposto al traffico significa che tutti i veicoli si devono arrestare, in condizioni di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4263,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21195,
+    "testo": "Il suono prolungato del fis chietto da parte dell'agente preposto al traffico serve per consentire il passaggio di veicoli di soccorso in servizio di emergenza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4263,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21196,
+    "testo": "Il suono prolungato del fis chietto da parte dell'agente preposto al traffico impone a chi ha impegnato l'incrocio di liberarlo ed eventualmente di arrestarsi subito dopo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4263,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21197,
+    "testo": "Il suono prolungato del fis chietto da parte dell'agente preposto al traffico indica che occorre arrestarsi, se non si è ancora occupato l'incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4263,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21198,
+    "testo": "Il suono prolungato del fis chietto da parte dell'agente preposto al traffico indica che occorre tornare indietro",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4263,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21199,
+    "testo": "Il suono prolungato del fis chietto da parte dell'agente preposto al traffico serve per arrestare o deviare solo i veicoli che arrivano dalla sua destra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4263,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21200,
+    "testo": "Il suono prolungato del fis chietto da parte dell'agente preposto al traffico significa che i veicoli fermi devono mettersi in marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  },
+  {
+    "id_blocco": 4263,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21201,
+    "testo": "Il suono prolungato del fis chietto da parte dell'agente preposto al traffico impone ai soli veicoli pesanti di arrestarsi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 471
+  }
+]

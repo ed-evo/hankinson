@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4132,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19830,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli aventi una massa effettiva superiore a quella indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "41d170b88f8596eef6889b041c2516cc",
+    "pagina_quiz": 299
+  },
+  {
+    "id_blocco": 4132,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19831,
+    "testo": "Il segnale raffigurato, integrato con pannello, può vietare il transito contemporaneo di più veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "41d170b88f8596eef6889b041c2516cc",
+    "pagina_quiz": 299
+  },
+  {
+    "id_blocco": 4132,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19832,
+    "testo": "Il segnale raffigurato vieta il transito agli autocarri di tara superiore a 7 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "41d170b88f8596eef6889b041c2516cc",
+    "pagina_quiz": 299
+  },
+  {
+    "id_blocco": 4132,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19833,
+    "testo": "In presenza del segnale raffigurato è consentito il transito di una macchina agri cola di massa a pieno carico pari a 7 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "41d170b88f8596eef6889b041c2516cc",
+    "pagina_quiz": 299
+  },
+  {
+    "id_blocco": 4132,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19834,
+    "testo": "Il segnale raffigurato s i può trovare prima di un ponte",
+    "risposta_corretta": "VERO",
+    "immagine": "41d170b88f8596eef6889b041c2516cc",
+    "pagina_quiz": 299
+  },
+  {
+    "id_blocco": 4132,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19835,
+    "testo": "In presenza del segnale raffigurato è consentito il transito ai veicoli il cui asse più caricato ha massa superiore a quella indicata",
+    "risposta_corretta": "FALSO",
+    "immagine": "41d170b88f8596eef6889b041c2516cc",
+    "pagina_quiz": 299
+  },
+  {
+    "id_blocco": 4132,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19836,
+    "testo": "Il segnale raffigurato, nei centri abitati, vige dalle ore 8.00 alle ore 20.00",
+    "risposta_corretta": "FALSO",
+    "immagine": "41d170b88f8596eef6889b041c2516cc",
+    "pagina_quiz": 299
+  },
+  {
+    "id_blocco": 4132,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19837,
+    "testo": "In presenza del segnale raffigurato è consentito il transito di autobus di massa superiore a 7 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": "41d170b88f8596eef6889b041c2516cc",
+    "pagina_quiz": 299
+  },
+  {
+    "id_blocco": 4132,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19838,
+    "testo": "Il segnale raffigurato vieta il transito ai soli veicoli per trasporto merci di massa superiore a 7 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": "41d170b88f8596eef6889b041c2516cc",
+    "pagina_quiz": 300
+  },
+  {
+    "id_blocco": 4132,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19839,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli di lunghezza superiore a 7 metri",
+    "risposta_corretta": "FALSO",
+    "immagine": "41d170b88f8596eef6889b041c2516cc",
+    "pagina_quiz": 300
+  }
+]

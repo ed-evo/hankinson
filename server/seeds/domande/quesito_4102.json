@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4102,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19474,
+    "testo": "Il segnale raffigurato preannuncia un pericolo diverso da quelli per cui sono previ sti speci fici segnali",
+    "risposta_corretta": "VERO",
+    "immagine": "8e8b109c5eb7cd5a4eec042b92f31e93",
+    "pagina_quiz": 225
+  },
+  {
+    "id_blocco": 4102,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19475,
+    "testo": "Il segnale raffigurato preannuncia che bisogna usa re prudenza perché è vicino un peri colo",
+    "risposta_corretta": "VERO",
+    "immagine": "8e8b109c5eb7cd5a4eec042b92f31e93",
+    "pagina_quiz": 225
+  },
+  {
+    "id_blocco": 4102,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19476,
+    "testo": "Il segnale (A), integrato con il pannello (B), preannuncia la possibilità di formazione del ghiaccio",
+    "risposta_corretta": "VERO",
+    "immagine": "ebf9ee4405481ca1df0dda96df4649bc",
+    "pagina_quiz": 226
+  },
+  {
+    "id_blocco": 4102,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19477,
+    "testo": "Il segnale raffigurato può essere usato senza pannelli integrativi per indicare un pericolo generico in caso di emergenza",
+    "risposta_corretta": "VERO",
+    "immagine": "8e8b109c5eb7cd5a4eec042b92f31e93",
+    "pagina_quiz": 226
+  },
+  {
+    "id_blocco": 4102,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19478,
+    "testo": "Il segnale (A), integrato con il pannello (B), preannuncia la presenza di binari di manovra in corris pondenza di stabilimenti industriali",
+    "risposta_corretta": "VERO",
+    "immagine": "d6b6c0213c7264d7acb1ab5d8491d452",
+    "pagina_quiz": 226
+  },
+  {
+    "id_blocco": 4102,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19479,
+    "testo": "Il segnale (A), integrato con il pannello (B), preannuncia la possibile presenza di macchine sgombraneve al lavoro sulla strada",
+    "risposta_corretta": "VERO",
+    "immagine": "c4353e11dd208717c3442642cdd8fe2b",
+    "pagina_quiz": 226
+  },
+  {
+    "id_blocco": 4102,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19480,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada in cattivo stato o con pavimentazione irregolare",
+    "risposta_corretta": "FALSO",
+    "immagine": "8e8b109c5eb7cd5a4eec042b92f31e93",
+    "pagina_quiz": 226
+  },
+  {
+    "id_blocco": 4102,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19481,
+    "testo": "Il segnale raffigurato preannuncia che bisogna proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "8e8b109c5eb7cd5a4eec042b92f31e93",
+    "pagina_quiz": 226
+  },
+  {
+    "id_blocco": 4102,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19482,
+    "testo": "Il segnale raffigurato preannuncia una salita ripida",
+    "risposta_corretta": "FALSO",
+    "immagine": "8e8b109c5eb7cd5a4eec042b92f31e93",
+    "pagina_quiz": 226
+  },
+  {
+    "id_blocco": 4102,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19483,
+    "testo": "Il segnale (A), integrato con il pannello (B), preannuncia un passaggio a livello senza barriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "d6b6c0213c7264d7acb1ab5d8491d452",
+    "pagina_quiz": 226
+  },
+  {
+    "id_blocco": 4102,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19484,
+    "testo": "Il segnale (A), integrato con il pannello (B), preannuncia la presenza di veicoli militari in manovra",
+    "risposta_corretta": "FALSO",
+    "immagine": "bff177cd20a852bebc08106403d13ee0",
+    "pagina_quiz": 226
+  }
+]

@@ -1,0 +1,171 @@
+[
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22418,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 90 km/h per m otoci cli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22419,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 90 km/h per autovetture con carrello appendice",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22420,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 70 km/h per autovetture con rimorchio per trasporto di imbarcazioni o simili",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22421,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 90 km/h per autocaravan di massa complessiva fino a 3,5t",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22422,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 90 km/h per autocarri di massa complessiva fino a 3,5t",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22423,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 70 km/h per autotreni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22424,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 70 km/h per i ciclomot ori",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22425,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 90 km/h per i quadricicli non leggeri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22426,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 80 km/h per m otoci cli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22427,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 100 km/h per le autovetture",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22428,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 80 km/h per autovettura che traina caravan da 750 chilogrammi",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22429,
+    "testo": "Il limite massimo di velocità su strade extraurbane secondarie è di 100 km/h per aut oveicoli fino a 3,5 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 496
+  },
+  {
+    "id_blocco": 4384,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22430,
+    "testo": "Su strade extraurbane secondarie il limite massimo di velocità è di 80 km/h per autovetture con carrello appendice",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 496
+  }
+]

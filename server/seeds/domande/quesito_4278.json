@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4278,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21333,
+    "testo": "Il segnale raffigurato indica un posto di rifornimento carburante",
+    "risposta_corretta": "VERO",
+    "immagine": "448eabbee847432f1274ed56814a5934",
+    "pagina_quiz": 14
+  },
+  {
+    "id_blocco": 4278,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21334,
+    "testo": "Il segnale raffigurato indica che nelle vicinanze vi è un posto di distribuzione carburante",
+    "risposta_corretta": "VERO",
+    "immagine": "448eabbee847432f1274ed56814a5934",
+    "pagina_quiz": 14
+  },
+  {
+    "id_blocco": 4278,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21335,
+    "testo": "Il segnale raffigurato indica la possibilità di rifornimento carburante a breve distanza",
+    "risposta_corretta": "VERO",
+    "immagine": "448eabbee847432f1274ed56814a5934",
+    "pagina_quiz": 14
+  },
+  {
+    "id_blocco": 4278,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21336,
+    "testo": "Il segnale raffigurato indica che a breve distanza vi è una stazione di riforni ment o carburante",
+    "risposta_corretta": "VERO",
+    "immagine": "448eabbee847432f1274ed56814a5934",
+    "pagina_quiz": 14
+  },
+  {
+    "id_blocco": 4278,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21337,
+    "testo": "Il segnale raffigurato indica che lungo la strada, a breve distanza, vi è un distributore di carburante",
+    "risposta_corretta": "VERO",
+    "immagine": "448eabbee847432f1274ed56814a5934",
+    "pagina_quiz": 14
+  },
+  {
+    "id_blocco": 4278,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21338,
+    "testo": "Il segnale raffigurato indica un'officina di assistenza meccanica nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "448eabbee847432f1274ed56814a5934",
+    "pagina_quiz": 14
+  },
+  {
+    "id_blocco": 4278,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21339,
+    "testo": "Il segnale raffigurato indica un posto telefonico pubblico nelle vicinanze",
+    "risposta_corretta": "FALSO",
+    "immagine": "448eabbee847432f1274ed56814a5934",
+    "pagina_quiz": 15
+  },
+  {
+    "id_blocco": 4278,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21340,
+    "testo": "Il segnale raffigurato indica che nelle vicinanze vi è un'area di sosta per autoveicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "448eabbee847432f1274ed56814a5934",
+    "pagina_quiz": 15
+  },
+  {
+    "id_blocco": 4278,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21341,
+    "testo": "Il segnale raffigurato indica un distributore di carburante riservato solo ai veicoli alimentati a GPL",
+    "risposta_corretta": "FALSO",
+    "immagine": "448eabbee847432f1274ed56814a5934",
+    "pagina_quiz": 15
+  },
+  {
+    "id_blocco": 4278,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21342,
+    "testo": "Il segnale raffigurato indica una raffineria",
+    "risposta_corretta": "FALSO",
+    "immagine": "448eabbee847432f1274ed56814a5934",
+    "pagina_quiz": 15
+  },
+  {
+    "id_blocco": 4278,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21343,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano carburante",
+    "risposta_corretta": "FALSO",
+    "immagine": "448eabbee847432f1274ed56814a5934",
+    "pagina_quiz": 15
+  }
+]

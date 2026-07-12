@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4643,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24862,
+    "testo": "Il fine del primo soccorso è quello di cercare di mantenere in vita il ferito con sem plic i e immediati interventi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4643,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24863,
+    "testo": "Il fine del primo soccorso è quello di assistere il ferito, come meglio possibile, in attesa che arrivi il soccorso medico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4643,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24864,
+    "testo": "Nell'inter vento di primo soccorso bisogna evitare, per quanto possibile, che il ferito subisca ulteriori danni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4643,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24865,
+    "testo": "Nelle operazioni di primo soccorso bisogna evitare che al ferito vengano prat icati i nterventi sbagliati o dannosi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4643,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24866,
+    "testo": "Il fine del primo soccorso è quello di chiedere subito al ferito come è avvenuto l'incidente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4643,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24867,
+    "testo": "Nell'inter vento di primo soccorso bisogna allontanare in ogni caso il ferito dal posto in cui si trova",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 571
+  },
+  {
+    "id_blocco": 4643,
+    "argomenti": [
+      "Guida in relazione alle qualità e condizioni fisiche e psichiche",
+      "alcool, droga e farmaci",
+      "primo soccorso"
+    ],
+    "numero": 24868,
+    "testo": "Durante un intervento di primo soccorso non bisogna mai toccare il ferito se non è ancora arrivata la polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 571
+  }
+]

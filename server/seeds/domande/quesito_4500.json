@@ -1,0 +1,552 @@
+[
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23494,
+    "testo": "Il sorpasso è vietato in prossimità delle curve su strade a due corsie a doppio senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23495,
+    "testo": "Il sorpasso è vietato in prossimità dei dossi su strade a due corsie a doppio senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23496,
+    "testo": "Il sorpasso è vietato in caso di scarsa visibilità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23497,
+    "testo": "Il sorpasso è consentito in curva se la strada è a due carreggiate separate con almeno due corsie per ogni senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23498,
+    "testo": "Il sorpasso è consentito su dossi se la strada è a due carreggiate separate e a due corsie per senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23499,
+    "testo": "E' vietato il sorpasso di un veicolo che ne stia superando un altro se ciò impone di spostarsi sul lato riservato all'altro senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23500,
+    "testo": "E' vietato il sorpasso di veicoli fermi ai passaggi a livello, se bisogna impegnare la semicarreggiata opposta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23501,
+    "testo": "E' vietato il sorpasso di veicoli in lento movimento ai passaggi a livello quando, a tal fine è necessario spostarsi sul lato riservato all'altro senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23502,
+    "testo": "E' vietato il sorpasso di veicoli fermi ai semafori quando, a tal fine è necessario spostarsi sul lato riservato all'altro senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23503,
+    "testo": "E' vietato il sorpasso di veicoli in lento movimento a causa di congestione della circola zione quando, a tal fine è necessario spostarsi sul lato riservato all'altro senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23504,
+    "testo": "E' co nsentito il sorpasso in prossimità o in corrispondenza delle intersezioni se regolate dai semafori",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23505,
+    "testo": "E' co nsentito il sorpasso a destra nelle intersezioni regolate da semaforo, se il veicolo da sorpassare ha indicato di voler svoltare a sinistra ed ha iniziato la manovra",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23506,
+    "testo": "E' co nsentito il sorpasso nelle intersezioni se la strada è a precedenza purché a due carreggiate separate e le corsie siano delimitate dall'apposita segnal etica orizzontale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23507,
+    "testo": "E' co nsentito il sorpasso in corrispondenza delle intersezioni se si supera un veicolo a due ruote non a motore e non si invade il lato riservato al senso opposto",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23508,
+    "testo": "E' co nsentito il sorpasso nelle intersezioni regolate da agenti del traffico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23509,
+    "testo": "E' co nsentito il sorpasso in prossimità o in corrispondenza di passaggi a livello senza barriere s e la circolazione è regolata da semafori",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23510,
+    "testo": "E' vietato il sorpasso di un veicolo che si sia arrestato in corrispondenza di un passaggio pedonale per consentire l'attraversamento di pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23511,
+    "testo": "E' vietato il sorpasso di un veicolo che abbia rallentato in corrispondenza di un passaggio pedonale per consentire l'attraversamento dei pedoni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23512,
+    "testo": "E' vietato sorpassare sulle corsie di accelerazione o di decelerazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23513,
+    "testo": "E' vietato il sorpasso se si deve valicare la striscia longitudinale bianca continua sem plice o doppia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23514,
+    "testo": "Lo spazio necessario al sorpasso aumenta se il veicolo da sorpassare accelera",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23515,
+    "testo": "Lo spazio necessario al sorpasso aumenta in relazione alla maggiore lunghezza del veicolo da sorpassare",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23516,
+    "testo": "Lo spazio necessario alla manovra di sorpasso aumenta in relazione alla maggiore l unghezza del veicolo che sorpassa",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23517,
+    "testo": "Lo spazio necessario al sorpasso è maggiore se vi è poca differenza di velocità tra i veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23518,
+    "testo": "La distanza di sicurezza va rispettata anche quando s i inizia la manovra di sorpasso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23519,
+    "testo": "E' co nsentito il sorpasso sul tratto discendente di un dosso in una strada a due corsie a doppio senso di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23520,
+    "testo": "E' obbligatorio accertarsi prima di effettuare il sorpasso che non vi siano segnal i che lo vietino",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 523
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23521,
+    "testo": "La pericolosità del sorpasso nasce dalla possibilità di urtare altri veicoli che, davanti o dietro, intendano compiere la stessa manovra",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23522,
+    "testo": "E' vietato il sorpasso se il veicolo da superare si è fermato per dare precedenza ai pedoni, anche fuori dagli attraversamenti pedonali",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23523,
+    "testo": "E' pericoloso effettuare il rientro dopo il sorpasso se la manovra costringe i veicoli sorpassati a frenare bruscamente",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23524,
+    "testo": "Prima di rientrare nella corsia di destra dopo il sorpasso, occorre controllare la posizione del veicolo sorpass ato attraverso gli specchietti retrovisori",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23525,
+    "testo": "Il sorpasso è consentito in caso di scarsa visibilità purché si lampeggi durant e la manovra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23526,
+    "testo": "Il sorpasso è vietato in curva anche se la strada è a due carreggiate separate",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23527,
+    "testo": "Il sorpasso è vietato in curva anche se la strada è ad almeno due corsie per senso di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23528,
+    "testo": "E' co nsentito il sorpasso di veicoli fermi ai passaggi a livello senza barriere se il treno è distante",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23529,
+    "testo": "E' co nsentito il sorpasso di veicoli in lento movimento ai passaggi a livello senza barriere se il treno è distante",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23530,
+    "testo": "E' co nsentito il sorpasso sulle intersezioni purché non provenga nessuno dalla dest ra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23531,
+    "testo": "E' co nsentito il sorpasso sulle corsie d'accelerazione purché la manovra venga effettuata con attenzione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23532,
+    "testo": "E' sempr e consentito superare un veicolo a due ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23533,
+    "testo": "E' vietato il sorpasso nelle strade a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23534,
+    "testo": "E' vietato il sorpasso di veicoli della polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23535,
+    "testo": "In aut ostrada si può sorpassare indifferentemente a destra e a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23536,
+    "testo": "Il sorpasso tra motocicli si può effettuare sia a destra che a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23537,
+    "testo": "Lo spazio necessario per il sorpasso aumenta se il veicolo da sorpassare ral lent a",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23538,
+    "testo": "Lo spazio necessario per il sorpasso è indipendente dalla lunghezza dei veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23539,
+    "testo": "E' vietato il sorpasso di un autobus fermo per la salita e la discesa dei passeggeri",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23540,
+    "testo": "Il sorpasso è vietato sulle curve e sui dossi delle strade a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23541,
+    "testo": "Il sorpasso è vietato se si è costretti a superare la linea longitudinale tra tte ggiat a",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23542,
+    "testo": "E' co nsentito il sorpasso a destra dei motocicli se vi è spazio sufficiente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  },
+  {
+    "id_blocco": 4500,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23543,
+    "testo": "In caso di intenso traffico è consentito ai motociclisti utilizzare per il sorpasso le corsie riservate",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 524
+  }
+]

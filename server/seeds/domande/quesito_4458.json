@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23143,
+    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli passano nel seguent e ordine: H, D, B, L",
+    "risposta_corretta": "VERO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 100
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23144,
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo H passa per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 100
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23145,
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo B passa prima del veicolo L",
+    "risposta_corretta": "VERO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 100
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23146,
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo D deve dare la precedenza al veicolo H",
+    "risposta_corretta": "VERO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 100
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23147,
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo L deve dare la precedenza al veicolo B",
+    "risposta_corretta": "VERO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 101
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23148,
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo L deve passare per ultimo",
+    "risposta_corretta": "VERO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 101
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23149,
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo D passa prima del veicolo B",
+    "risposta_corretta": "VERO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 101
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23150,
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo B deve attendere il tra nsito degli altri tre veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 101
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23151,
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo H deve attendere che si ano transitati i veicoli D e B",
+    "risposta_corretta": "FALSO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 101
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23152,
+    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli L e D passano contemporaneamente",
+    "risposta_corretta": "FALSO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 101
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23153,
+    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli passano nel seguent e ordine: H, D, L, B",
+    "risposta_corretta": "FALSO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 101
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23154,
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo B, dato che svolta a sinistra, non ha diritto di precedenza su alcun veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 101
+  },
+  {
+    "id_blocco": 4458,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23155,
+    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli L e D hanno la precedenza perché non effettuano svolte",
+    "risposta_corretta": "FALSO",
+    "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
+    "pagina_quiz": 101
+  }
+]

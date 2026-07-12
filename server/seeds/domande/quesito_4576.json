@@ -1,0 +1,93 @@
+[
+  {
+    "id_blocco": 4576,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24176,
+    "testo": "I catadiottri hanno la funzione di indicare la presenza e l'ingombro dei veicoli su c ui sono applicati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4576,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24177,
+    "testo": "I catadiottri di colore bianco hanno la funzione di evidenziare la parte davanti dei rimorchi e semirimorchi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4576,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24178,
+    "testo": "I catadiottri, se illuminati, hanno la funzione di rendere più visibili, speci alm ente di notte, i veicoli e i rimorchi in sosta sulla strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4576,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24179,
+    "testo": "I catadiottri rendono più visibile un veicolo guasto, nel caso in cui non funzi onino le luci di posizione pos teriori",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4576,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24180,
+    "testo": "I catadiottri con gli indicatori di direzione, segnalano la svolta di un veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4576,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24181,
+    "testo": "I catadiottri di colore bianco sono installati negli autoveicoli che tra sport ano materiale infiammabile",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4576,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24182,
+    "testo": "I catadiottri possono sostituire gli indicatori di direzione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4700,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25267,
+    "testo": "In caso di frenata di emergenza, con entrata in azione dell'ABS, bisogna continuare a premere con forza il pedale, senza allentare la pressione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4700,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25268,
+    "testo": "L'azione frenante esercitata dal motore è massima se si inserisce la prima marcia del cambio di velocità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4700,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25269,
+    "testo": "L'uso prolungato e ripetuto dei freni, provocandone il surriscaldamento, comporta l a diminuzione dell'efficienza frenante",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4700,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25270,
+    "testo": "Percorrendo l unghe e ripide discese è necessario inserire una marcia bassa per evitare di surriscaldare i freni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4700,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25271,
+    "testo": "Dopo il lavaggio del veicolo, è opportuno eseguire una prova di frenata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4700,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25272,
+    "testo": "In caso di frenata di emergenza, con entrata in azione dell'ABS, bisogna immediatamente diminuire la pressione esercitata sul pedale del freno",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4700,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25273,
+    "testo": "Tutti i veicoli sono dotati del freno di stazionamento che si aziona con comando manuale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4700,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25274,
+    "testo": "Il freno di stazionamento s i utilizza durante la marcia, per frenare o arrestare il veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 586
+  },
+  {
+    "id_blocco": 4700,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25275,
+    "testo": "Percorrendo l unghe e ripide discese è opportuno marciare con il cambio in folle per risparmiare carburante e freni",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 586
+  }
+]

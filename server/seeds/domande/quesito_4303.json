@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4303,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21581,
+    "testo": "Il segnale raffigurato indica un attraversamento pedonale non regolato",
+    "risposta_corretta": "VERO",
+    "immagine": "abf3d7b3d288ff886b24a821cd872a9c",
+    "pagina_quiz": 60
+  },
+  {
+    "id_blocco": 4303,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21582,
+    "testo": "Il segnale raffigurato fuori dei centri abitati si trova dopo il segnale di peri colo ATTRAVERSAMENTO PEDONALE",
+    "risposta_corretta": "VERO",
+    "immagine": "abf3d7b3d288ff886b24a821cd872a9c",
+    "pagina_quiz": 60
+  },
+  {
+    "id_blocco": 4303,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21583,
+    "testo": "Il segnale raffigurato s i trova direttamente in corrispondenza delle strisce dell'attraversamento pedonale",
+    "risposta_corretta": "VERO",
+    "immagine": "abf3d7b3d288ff886b24a821cd872a9c",
+    "pagina_quiz": 60
+  },
+  {
+    "id_blocco": 4303,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21584,
+    "testo": "Il segnale raffigurato obbliga i conducenti a fermarsi quando i pedoni tra nsitano sugli attraversamenti pedonali",
+    "risposta_corretta": "VERO",
+    "immagine": "abf3d7b3d288ff886b24a821cd872a9c",
+    "pagina_quiz": 60
+  },
+  {
+    "id_blocco": 4303,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21585,
+    "testo": "Il segnale raffigurato indica un sottopassaggio",
+    "risposta_corretta": "FALSO",
+    "immagine": "abf3d7b3d288ff886b24a821cd872a9c",
+    "pagina_quiz": 60
+  },
+  {
+    "id_blocco": 4303,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21586,
+    "testo": "Il segnale raffigurato è posto 150 metri prima di un attraversamento pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "abf3d7b3d288ff886b24a821cd872a9c",
+    "pagina_quiz": 60
+  },
+  {
+    "id_blocco": 4303,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21587,
+    "testo": "Il segnale raffigurato s e di colore verde è posto in autostrada",
+    "risposta_corretta": "FALSO",
+    "immagine": "abf3d7b3d288ff886b24a821cd872a9c",
+    "pagina_quiz": 60
+  },
+  {
+    "id_blocco": 4303,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21588,
+    "testo": "Il segnale raffigurato preavvisa una scuola elementare",
+    "risposta_corretta": "FALSO",
+    "immagine": "abf3d7b3d288ff886b24a821cd872a9c",
+    "pagina_quiz": 61
+  },
+  {
+    "id_blocco": 4303,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21589,
+    "testo": "Il segnale raffigurato consente di sorpassare un veicolo che si è arrestato per dare la precedenza ai pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "abf3d7b3d288ff886b24a821cd872a9c",
+    "pagina_quiz": 61
+  }
+]

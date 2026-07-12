@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19296,
+    "testo": "Il segnale raffigurato può preannunciare la presenza di una scuola frequentata da bambini nelle vicinanze",
+    "risposta_corretta": "VERO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 204
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19297,
+    "testo": "Il segnale raffigurato può essere posto nelle vicinanze di un campo da gioco frequentato da bambini",
+    "risposta_corretta": "VERO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 204
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19298,
+    "testo": "Il segnale raffigurato preannuncia luoghi frequentati da fanciulli",
+    "risposta_corretta": "VERO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 204
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19299,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 204
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19300,
+    "testo": "Il segnale raffigurato può essere posto nelle vicinanze di giardini pubblici frequentati da bambini",
+    "risposta_corretta": "VERO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 204
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19301,
+    "testo": "Il segnale raffigurato invita a circolare a velocità moderata",
+    "risposta_corretta": "VERO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 205
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19302,
+    "testo": "Il segnale raffigurato invita a considerare eventuali comportamenti imprudenti di fanciulli",
+    "risposta_corretta": "VERO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 205
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19303,
+    "testo": "Il segnale raffigurato vieta il transito ai bambini non accompagnati",
+    "risposta_corretta": "FALSO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 205
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19304,
+    "testo": "Il segnale raffigurato preannuncia un attraversamento pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 205
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19305,
+    "testo": "Il segnale raffigurato indica la fine di un viale riservato ai bambini",
+    "risposta_corretta": "FALSO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 205
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19306,
+    "testo": "Il segnale raffigurato preannuncia un percorso pedonale",
+    "risposta_corretta": "FALSO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 205
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19307,
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli a motore durante l'orario di uscita dei bambini dalla scuola",
+    "risposta_corretta": "FALSO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 205
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19308,
+    "testo": "Il segnale raffigurato indica la fermata di uno scuol abus",
+    "risposta_corretta": "FALSO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 205
+  },
+  {
+    "id_blocco": 4087,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19309,
+    "testo": "Il segnale raffigurato è posto sulla parte posteriore dello scuolabus",
+    "risposta_corretta": "FALSO",
+    "immagine": "cdbe4aad6e6d605fc94a507ecba3869c",
+    "pagina_quiz": 205
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19556,
+    "testo": "In presenza del segnale raffigurato un autocarro può sorpassare un motociclo",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 268
+  },
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19557,
+    "testo": "In presenza del segnale raffigurato un'autovettura può sorpassare un ciclomotore",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 269
+  },
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19558,
+    "testo": "Il segnale raffigurato consente il transito agli autotreni, autoarticolati ed autosnoda ti",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 269
+  },
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19559,
+    "testo": "In presenza del segnale raffigurato è vietato sorpassare anche gli autoveicoli di massa complessiva inferiore a 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 269
+  },
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19560,
+    "testo": "In presenza del segnale raffigurato è vietato sorpassare veicoli a motore diversi dai motocicli e dai ciclomotori",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 269
+  },
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19561,
+    "testo": "In presenza del segnale raffigurato è consentito sorpassare veicoli a tra zione animale",
+    "risposta_corretta": "VERO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 269
+  },
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19562,
+    "testo": "Il segnale raffigurato consente ad un'autovettura di sorpassare un autocarro",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 269
+  },
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19563,
+    "testo": "Il segnale raffigurato s i trova solo sulle strade extraurbane principali",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 269
+  },
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19564,
+    "testo": "In presenza del segnale raffigurato è vietato sorpassare qualsiasi veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 269
+  },
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19565,
+    "testo": "In presenza del segnale raffigurato è vietato il transito alle autovetture",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 269
+  },
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19566,
+    "testo": "Il segnale raffigurato impone di dare la precedenza nei sensi unici alternati",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 270
+  },
+  {
+    "id_blocco": 4108,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19567,
+    "testo": "Il segnale raffigurato consente ad un motociclo di superare un autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": "7380bb6088c1077bc47b7ec7cdc26345",
+    "pagina_quiz": 270
+  }
+]

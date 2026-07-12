@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4137,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19886,
+    "testo": "In presenza del segnale raffigurato un autotreno di massa pari a 44 tonnellate può sorpassare un'autovettura",
+    "risposta_corretta": "VERO",
+    "immagine": "28ff9501e70957cfba029d212ffefb79",
+    "pagina_quiz": 305
+  },
+  {
+    "id_blocco": 4137,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19887,
+    "testo": "Il segnale raffigurato indica la fine del divieto di sorpasso precedentemente imposto",
+    "risposta_corretta": "VERO",
+    "immagine": "28ff9501e70957cfba029d212ffefb79",
+    "pagina_quiz": 306
+  },
+  {
+    "id_blocco": 4137,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19888,
+    "testo": "In presenza del segnale raffigurato un autocarro può sorpassare un autobus",
+    "risposta_corretta": "VERO",
+    "immagine": "28ff9501e70957cfba029d212ffefb79",
+    "pagina_quiz": 306
+  },
+  {
+    "id_blocco": 4137,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19889,
+    "testo": "Il segnale raffigurato indica la fine del divieto di sorpasso per veicoli merci di massa a pieno carico superiore a 3,5 tonnellate",
+    "risposta_corretta": "VERO",
+    "immagine": "28ff9501e70957cfba029d212ffefb79",
+    "pagina_quiz": 306
+  },
+  {
+    "id_blocco": 4137,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19890,
+    "testo": "Il segnale raffigurato è un segnale di fine prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "28ff9501e70957cfba029d212ffefb79",
+    "pagina_quiz": 306
+  },
+  {
+    "id_blocco": 4137,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19891,
+    "testo": "In presenza del segnale raffigurato è vietato il transito degli autotreni, autosnoda ti, autoarticolati",
+    "risposta_corretta": "FALSO",
+    "immagine": "28ff9501e70957cfba029d212ffefb79",
+    "pagina_quiz": 306
+  },
+  {
+    "id_blocco": 4137,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19892,
+    "testo": "In presenza del segnale raffigurato le autovetture devono sorpassare gli autocarri sulla corsia di destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "28ff9501e70957cfba029d212ffefb79",
+    "pagina_quiz": 306
+  },
+  {
+    "id_blocco": 4137,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19893,
+    "testo": "Il segnale raffigurato indica la fine del divieto di sorpasso per autobus di massa a pieno carico superiore a 3,5 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": "28ff9501e70957cfba029d212ffefb79",
+    "pagina_quiz": 306
+  },
+  {
+    "id_blocco": 4137,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19894,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "28ff9501e70957cfba029d212ffefb79",
+    "pagina_quiz": 306
+  },
+  {
+    "id_blocco": 4137,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19895,
+    "testo": "Il segnale raffigurato non vale per gli autocarri di massa complessiva pari a 7 tonnellate",
+    "risposta_corretta": "FALSO",
+    "immagine": "28ff9501e70957cfba029d212ffefb79",
+    "pagina_quiz": 306
+  }
+]

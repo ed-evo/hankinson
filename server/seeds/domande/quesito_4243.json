@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4243,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20998,
+    "testo": "La luce gialla fissa si accende appena si spegne il verde",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 139
+  },
+  {
+    "id_blocco": 4243,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 20999,
+    "testo": "La luce gialla fissa si spegne prima che si accenda il rosso",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 139
+  },
+  {
+    "id_blocco": 4243,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21000,
+    "testo": "La luce gialla fissa obbliga chi ha già impegnato l'incrocio a liberarlo al più presto",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 139
+  },
+  {
+    "id_blocco": 4243,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21001,
+    "testo": "La luce gialla fissa obbliga a fermarsi prima del punto di arresto, purché lo si possa fare senza creare pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 139
+  },
+  {
+    "id_blocco": 4243,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21002,
+    "testo": "La luce gialla fissa si accende quando il verde e il rosso sono spenti",
+    "risposta_corretta": "VERO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 139
+  },
+  {
+    "id_blocco": 4243,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21003,
+    "testo": "La luce gialla fissa consente in ogni caso di proseguire impegnando l'incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 140
+  },
+  {
+    "id_blocco": 4243,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21004,
+    "testo": "La luce gialla fissa obbliga il conducente a tornare indietro se ha già superato la striscia trasversale di arresto",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 140
+  },
+  {
+    "id_blocco": 4243,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21005,
+    "testo": "La luce gialla fissa ci obbliga ad arrestarci in ogni caso, senza impegnare l'incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 140
+  },
+  {
+    "id_blocco": 4243,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21006,
+    "testo": "La luce gialla fissa si accende quando è ancora accesa quella rossa",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 140
+  },
+  {
+    "id_blocco": 4243,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21007,
+    "testo": "La luce gialla fissa si spegne insieme con il verde",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 140
+  },
+  {
+    "id_blocco": 4243,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21008,
+    "testo": "La luce gialla fissa si accende insieme con il rosso",
+    "risposta_corretta": "FALSO",
+    "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
+    "pagina_quiz": 140
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id_blocco": 4578,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24187,
+    "testo": "La spia di accensione della segnalazione luminosa di pericolo è di colore rosso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4578,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24188,
+    "testo": "La spia della temperatura dell'acqua di raffreddamento è di colore rosso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4578,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24189,
+    "testo": "La spia della pressione dell'olio è di colore rosso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4578,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24190,
+    "testo": "La spia della cintura di sicurezza è di colore rosso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4578,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24191,
+    "testo": "La spia del freno a mano è di colore rosso",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4578,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24192,
+    "testo": "La spia di accensione degli indicatori di direzione è di colore rosso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4578,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24193,
+    "testo": "La spia di accensione delle luci anabbaglianti è di colore rosso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4578,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24194,
+    "testo": "La spia di accensione delle luci abbaglianti è di colore rosso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4578,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24195,
+    "testo": "La spia delle luci fendinebbia è di colore rosso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  },
+  {
+    "id_blocco": 4578,
+    "argomenti": [
+      "Uso delle luci",
+      "uso dei dispositivi acustici",
+      "spie e simboli"
+    ],
+    "numero": 24196,
+    "testo": "La spia del dispositivo per sbrinare o disappannare il parabrezza è di colore rosso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 550
+  }
+]

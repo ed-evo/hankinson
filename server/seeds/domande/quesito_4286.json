@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4286,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21422,
+    "testo": "Il segnale raffigurato è posto su s trade urbane",
+    "risposta_corretta": "VERO",
+    "immagine": "1785d35606f4576c5fb085d53abb920e",
+    "pagina_quiz": 40
+  },
+  {
+    "id_blocco": 4286,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21423,
+    "testo": "Il segnale raffigurato nelle strade urbane a più corsie consente di immettersi nelle corsie di canalizzazione",
+    "risposta_corretta": "VERO",
+    "immagine": "1785d35606f4576c5fb085d53abb920e",
+    "pagina_quiz": 40
+  },
+  {
+    "id_blocco": 4286,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21424,
+    "testo": "Il segnale raffigurato indica ai conducenti diretti alla località turistica di immettersi nella corsia di mezzo",
+    "risposta_corretta": "VERO",
+    "immagine": "1785d35606f4576c5fb085d53abb920e",
+    "pagina_quiz": 40
+  },
+  {
+    "id_blocco": 4286,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21425,
+    "testo": "Il segnale raffigurato indica ai conducenti diretti a Terni di mettersi nella corsia di sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "1785d35606f4576c5fb085d53abb920e",
+    "pagina_quiz": 40
+  },
+  {
+    "id_blocco": 4286,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21426,
+    "testo": "Il segnale raffigurato indica ai conducenti diretti al centro della città di occupare la corsia di destra",
+    "risposta_corretta": "VERO",
+    "immagine": "1785d35606f4576c5fb085d53abb920e",
+    "pagina_quiz": 41
+  },
+  {
+    "id_blocco": 4286,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21427,
+    "testo": "Il segnale raffigurato preavvisa un incrocio autostradale",
+    "risposta_corretta": "FALSO",
+    "immagine": "1785d35606f4576c5fb085d53abb920e",
+    "pagina_quiz": 41
+  },
+  {
+    "id_blocco": 4286,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21428,
+    "testo": "Il segnale raffigurato indica come raggiungere un parcheggio",
+    "risposta_corretta": "FALSO",
+    "immagine": "1785d35606f4576c5fb085d53abb920e",
+    "pagina_quiz": 41
+  },
+  {
+    "id_blocco": 4286,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21429,
+    "testo": "Il segnale raffigurato indica che Terni si trova 500 metri dopo aver effettuato la svolta",
+    "risposta_corretta": "FALSO",
+    "immagine": "1785d35606f4576c5fb085d53abb920e",
+    "pagina_quiz": 41
+  },
+  {
+    "id_blocco": 4286,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21430,
+    "testo": "Il segnale raffigurato indica nelle corsie laterali di invertire il senso di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "1785d35606f4576c5fb085d53abb920e",
+    "pagina_quiz": 41
+  },
+  {
+    "id_blocco": 4286,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21431,
+    "testo": "Il segnale raffigurato indica che la strada per Terni è interrotta",
+    "risposta_corretta": "FALSO",
+    "immagine": "1785d35606f4576c5fb085d53abb920e",
+    "pagina_quiz": 41
+  },
+  {
+    "id_blocco": 4286,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21432,
+    "testo": "Il segnale raffigurato indica che non è più possibile cambiare corsia",
+    "risposta_corretta": "FALSO",
+    "immagine": "1785d35606f4576c5fb085d53abb920e",
+    "pagina_quiz": 41
+  }
+]

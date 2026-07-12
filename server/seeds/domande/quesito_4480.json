@@ -1,0 +1,68 @@
+[
+  {
+    "id_blocco": 4480,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23346,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo P deve dare la precedenza ai veicoli T e G",
+    "risposta_corretta": "VERO",
+    "immagine": "ef4c67192b45d45ffbddeb2ac385a3f6",
+    "pagina_quiz": 114
+  },
+  {
+    "id_blocco": 4480,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23347,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo P ha la precedenza sul veicolo B",
+    "risposta_corretta": "VERO",
+    "immagine": "ef4c67192b45d45ffbddeb2ac385a3f6",
+    "pagina_quiz": 114
+  },
+  {
+    "id_blocco": 4480,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23348,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo P transita dopo il tram e il veicolo G , ma prima del veicolo B",
+    "risposta_corretta": "VERO",
+    "immagine": "ef4c67192b45d45ffbddeb2ac385a3f6",
+    "pagina_quiz": 114
+  },
+  {
+    "id_blocco": 4480,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23349,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo P transita contemporaneamente al veicolo B, ma dopo il tram",
+    "risposta_corretta": "FALSO",
+    "immagine": "ef4c67192b45d45ffbddeb2ac385a3f6",
+    "pagina_quiz": 114
+  },
+  {
+    "id_blocco": 4480,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23350,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo P ha la precedenza su tutti i veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "ef4c67192b45d45ffbddeb2ac385a3f6",
+    "pagina_quiz": 114
+  },
+  {
+    "id_blocco": 4480,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23351,
+    "testo": "Nell'incrocio rappresentato nella figura il conducente del veicolo P deve dare la precedenza solo al veicolo proveniente dalla sua destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "ef4c67192b45d45ffbddeb2ac385a3f6",
+    "pagina_quiz": 114
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4287,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21433,
+    "testo": "Il segnale raffigurato indica l'ingresso di un ospedale",
+    "risposta_corretta": "VERO",
+    "immagine": "d91415c6609877cdc30749d99d46c248",
+    "pagina_quiz": 41
+  },
+  {
+    "id_blocco": 4287,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21434,
+    "testo": "Il segnale raffigurato, che indica la vicinanza di un ospedale, invita a non fare rumori molesti nelle sue vicinanze",
+    "risposta_corretta": "VERO",
+    "immagine": "d91415c6609877cdc30749d99d46c248",
+    "pagina_quiz": 42
+  },
+  {
+    "id_blocco": 4287,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21435,
+    "testo": "Il segnale raffigurato indica la direzione per entrare nell'ospedale",
+    "risposta_corretta": "VERO",
+    "immagine": "d91415c6609877cdc30749d99d46c248",
+    "pagina_quiz": 42
+  },
+  {
+    "id_blocco": 4287,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21436,
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un ospedale",
+    "risposta_corretta": "VERO",
+    "immagine": "d91415c6609877cdc30749d99d46c248",
+    "pagina_quiz": 42
+  },
+  {
+    "id_blocco": 4287,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21437,
+    "testo": "Il segnale raffigurato indica la vicinanza di un hotel",
+    "risposta_corretta": "FALSO",
+    "immagine": "d91415c6609877cdc30749d99d46c248",
+    "pagina_quiz": 42
+  },
+  {
+    "id_blocco": 4287,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21438,
+    "testo": "Il segnale raffigurato indica la vicinanza di una stazione ferroviaria con vagoni letto",
+    "risposta_corretta": "FALSO",
+    "immagine": "d91415c6609877cdc30749d99d46c248",
+    "pagina_quiz": 42
+  },
+  {
+    "id_blocco": 4287,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21439,
+    "testo": "Il segnale raffigurato indica un parcheggio riservato ai medici",
+    "risposta_corretta": "FALSO",
+    "immagine": "d91415c6609877cdc30749d99d46c248",
+    "pagina_quiz": 42
+  },
+  {
+    "id_blocco": 4287,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21440,
+    "testo": "Il segnale raffigurato indica un dormitorio pubblico",
+    "risposta_corretta": "FALSO",
+    "immagine": "d91415c6609877cdc30749d99d46c248",
+    "pagina_quiz": 42
+  }
+]

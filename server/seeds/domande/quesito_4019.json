@@ -1,0 +1,100 @@
+[
+  {
+    "id_blocco": 4019,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18511,
+    "testo": "La banchina non consente, di norma, il transito ai veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4019,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18512,
+    "testo": "La banchina è parte della strada, posta al di fuori della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4019,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18513,
+    "testo": "La banchina è parte della strada, situata oltre la linea bianca continua di margine della carreggiata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4019,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18514,
+    "testo": "La banchina è riservata ai veicoli lenti, nelle strade in salita",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4019,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18515,
+    "testo": "Sulle banchine la sosta dei veicoli è consentita per un massimo di 5 ore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4019,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18516,
+    "testo": "La banchina divide la carreggiata in due corsie",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4019,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18517,
+    "testo": "La banchina è parte della carreggiata, destinata alla sosta dei veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 454
+  }
+]

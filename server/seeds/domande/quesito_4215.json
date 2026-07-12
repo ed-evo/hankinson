@@ -1,0 +1,74 @@
+[
+  {
+    "id_blocco": 4215,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20756,
+    "testo": "L'isola di traffico in figura indica un tratto di strada vietato al transito ed alla sosta dei veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 152
+  },
+  {
+    "id_blocco": 4215,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20757,
+    "testo": "L'isola di traffico in figura è realizzata con strisce bianche oblique",
+    "risposta_corretta": "VERO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 152
+  },
+  {
+    "id_blocco": 4215,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20758,
+    "testo": "L'isola di traffico in figura indica una parte della strada su cui non si può circolare",
+    "risposta_corretta": "VERO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 152
+  },
+  {
+    "id_blocco": 4215,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20759,
+    "testo": "L'isola di traffico in figura può anche essere realizzata con strisce azzurre tra sversali",
+    "risposta_corretta": "FALSO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 152
+  },
+  {
+    "id_blocco": 4215,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20760,
+    "testo": "L'isola di traffico in figura indica una zona dove è possibile la sosta dei veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 152
+  },
+  {
+    "id_blocco": 4215,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20761,
+    "testo": "L'isola di traffico in figura indica una parte della carreggiata sulla quale si può sostare solo per 30 minuti",
+    "risposta_corretta": "FALSO",
+    "immagine": "80f7af983ab47f4a440f922cae6c345a",
+    "pagina_quiz": 152
+  }
+]

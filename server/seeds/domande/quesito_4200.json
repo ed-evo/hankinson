@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4200,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20593,
+    "testo": "Il segnale raffigurato indica il ripristino della norma generale sulla precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 249
+  },
+  {
+    "id_blocco": 4200,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20594,
+    "testo": "Il segnale raffigurato indica che termina una strada con diritto di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 249
+  },
+  {
+    "id_blocco": 4200,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20595,
+    "testo": "Il segnale raffigurato indica che dopo di esso si dovrà, di norma, dare la precedenza a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 250
+  },
+  {
+    "id_blocco": 4200,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20596,
+    "testo": "Il segnale raffigurato indica la fine del diritto di precedenza anche sulle strade urba ne",
+    "risposta_corretta": "VERO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 250
+  },
+  {
+    "id_blocco": 4200,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20597,
+    "testo": "Il segnale raffigurato indica la fine di un'autostrada",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 250
+  },
+  {
+    "id_blocco": 4200,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20598,
+    "testo": "Il segnale raffigurato indica la fine di una strada a senso unico",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 250
+  },
+  {
+    "id_blocco": 4200,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20599,
+    "testo": "Il segnale raffigurato indica la fine di una strada a doppio senso di circolazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 250
+  },
+  {
+    "id_blocco": 4200,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20600,
+    "testo": "Il segnale raffigurato indica fine del limite di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 250
+  },
+  {
+    "id_blocco": 4200,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20601,
+    "testo": "Il segnale raffigurato indica la fine di tutti i divieti",
+    "risposta_corretta": "FALSO",
+    "immagine": "459c93f6feb9d5a601c34e1088b16155",
+    "pagina_quiz": 250
+  }
+]

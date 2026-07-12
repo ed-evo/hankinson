@@ -1,0 +1,142 @@
+[
+  {
+    "id_blocco": 4709,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25364,
+    "testo": "Gli ammortizzatori di un veicolo a motore servono a ridurre le oscillazioni delle sospensioni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 590
+  },
+  {
+    "id_blocco": 4709,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25365,
+    "testo": "Gli ammortizzatori collaborano alla tenuta di strada del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 590
+  },
+  {
+    "id_blocco": 4709,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25366,
+    "testo": "Gli ammortizzatori servono, tra l'altro, a garantire la tenuta di strada del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 590
+  },
+  {
+    "id_blocco": 4709,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25367,
+    "testo": "Il sovraccarico del veicolo può rendere inefficienti gli ammortizzatori",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 590
+  },
+  {
+    "id_blocco": 4709,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25368,
+    "testo": "Il sovraccarico del veicolo può comportare un'usura precoce degli ammortizzatori",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 590
+  },
+  {
+    "id_blocco": 4709,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25369,
+    "testo": "Gli ammortizzatori di un veicolo a motore non necessitano di verifiche e manutenzioni fino a quando dura la garanzia del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 590
+  },
+  {
+    "id_blocco": 4709,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25370,
+    "testo": "Il sovraccarico non causa problemi agli ammortizzatori di un veicolo a motore se il conducente adotta uno stile di guida prudente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 590
+  },
+  {
+    "id_blocco": 4709,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25371,
+    "testo": "Se il veicolo è sovraccarico, per evitare problemi agli ammortizzatori è suffici ente aumentare la pressione dei pneumatici di mezzo bar",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 590
+  },
+  {
+    "id_blocco": 4709,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25372,
+    "testo": "Il c onducente può in ogni caso regolare la rigidità degli ammortizzatori",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 590
+  },
+  {
+    "id_blocco": 4709,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25373,
+    "testo": "La rigidità degli ammortizzatori di un veicolo a motore può essere controlla ta dal proprietario del veicolo, senza ricorrere ad un'officina speci ali zzata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 590
+  }
+]

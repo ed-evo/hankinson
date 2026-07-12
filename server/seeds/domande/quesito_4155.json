@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4155,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20106,
+    "testo": "Il segnale raffigurato indica direzione obbligatoria a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "d68ea45a3261ce3eb86cf26c76df3f6d",
+    "pagina_quiz": 343
+  },
+  {
+    "id_blocco": 4155,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20107,
+    "testo": "Il segnale raffigurato indica che si può svoltare soltanto a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "d68ea45a3261ce3eb86cf26c76df3f6d",
+    "pagina_quiz": 343
+  },
+  {
+    "id_blocco": 4155,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20108,
+    "testo": "Il segnale raffigurato indica che non è consentito proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "d68ea45a3261ce3eb86cf26c76df3f6d",
+    "pagina_quiz": 343
+  },
+  {
+    "id_blocco": 4155,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20109,
+    "testo": "Il segnale raffigurato indica che si deve svoltare a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "d68ea45a3261ce3eb86cf26c76df3f6d",
+    "pagina_quiz": 343
+  },
+  {
+    "id_blocco": 4155,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20110,
+    "testo": "Il segnale raffigurato indica il divieto di svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "d68ea45a3261ce3eb86cf26c76df3f6d",
+    "pagina_quiz": 343
+  },
+  {
+    "id_blocco": 4155,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20111,
+    "testo": "Il segnale raffigurato indica un'area di parcheggio a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "d68ea45a3261ce3eb86cf26c76df3f6d",
+    "pagina_quiz": 343
+  },
+  {
+    "id_blocco": 4155,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20112,
+    "testo": "Il segnale raffigurato indica l'obbligo di proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "d68ea45a3261ce3eb86cf26c76df3f6d",
+    "pagina_quiz": 344
+  },
+  {
+    "id_blocco": 4155,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20113,
+    "testo": "Il segnale raffigurato indica di passare a destra dell'ostacolo",
+    "risposta_corretta": "FALSO",
+    "immagine": "d68ea45a3261ce3eb86cf26c76df3f6d",
+    "pagina_quiz": 344
+  },
+  {
+    "id_blocco": 4155,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20114,
+    "testo": "Il segnale raffigurato indica preavviso di curva a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "d68ea45a3261ce3eb86cf26c76df3f6d",
+    "pagina_quiz": 344
+  }
+]

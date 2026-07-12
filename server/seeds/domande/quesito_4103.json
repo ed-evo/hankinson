@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19485,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada con banchina cedevole",
+    "risposta_corretta": "VERO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 227
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19486,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada con banchina non prat icabile",
+    "risposta_corretta": "VERO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 227
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19487,
+    "testo": "Il segnale raffigurato preannuncia un possibile pericolo di caduta nella cunetta laterale alla strada",
+    "risposta_corretta": "VERO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 227
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19488,
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada con banchina peri colosa",
+    "risposta_corretta": "VERO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 227
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19489,
+    "testo": "Il segnale raffigurato è un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 227
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19490,
+    "testo": "In presenza del segnale raffigurato è consigliabile non avvicinarsi troppo al margine destro della strada",
+    "risposta_corretta": "VERO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 227
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19491,
+    "testo": "Il segnale raffigurato deve essere integrato con il segnale di limite di velocità",
+    "risposta_corretta": "FALSO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 227
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19492,
+    "testo": "Il segnale raffigurato è un segnale di indicazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 227
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19493,
+    "testo": "Il segnale raffigurato preannuncia il divieto di continuare a percorrere quella strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 228
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19494,
+    "testo": "Il segnale raffigurato preannuncia una strada dissestata",
+    "risposta_corretta": "FALSO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 228
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19495,
+    "testo": "Il segnale raffigurato preannuncia la presenza di pietrisco sulla pavimentazione",
+    "risposta_corretta": "FALSO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 228
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19496,
+    "testo": "Il segnale raffigurato preannuncia il pericolo di allagamento della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 228
+  },
+  {
+    "id_blocco": 4103,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19497,
+    "testo": "Il segnale raffigurato, preannuncia lo sbocco su un m olo",
+    "risposta_corretta": "FALSO",
+    "immagine": "23e99b9a1141edf7ea8cb1fe5e054ca1",
+    "pagina_quiz": 228
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id_blocco": 4266,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21218,
+    "testo": "Gli addetti a servizi di polizia stradale vengono riconosciuti dall'uniforme (divisa)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 472
+  },
+  {
+    "id_blocco": 4266,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21219,
+    "testo": "Gli addetti a servizi di polizia stradale vengono riconosciuti dalla 'paletta' bianca e rossa",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 472
+  },
+  {
+    "id_blocco": 4266,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21220,
+    "testo": "Gli addetti a servizi di polizia stradale vengono riconosciuti dal segnale distintivo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 472
+  },
+  {
+    "id_blocco": 4266,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21221,
+    "testo": "Gli addetti a servizi di polizia stradale vengono riconosciuti dalla 'paletta' bianca e nera",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 472
+  },
+  {
+    "id_blocco": 4266,
+    "argomenti": [
+      "Segnalazioni semaforiche",
+      "segnalazioni degli agenti del traffico"
+    ],
+    "numero": 21222,
+    "testo": "Gli addetti a servizi di polizia stradale vengono riconosciuti dai guantoni e dalle strisc e rifrangenti",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 472
+  }
+]

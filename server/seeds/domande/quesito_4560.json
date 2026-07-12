@@ -1,0 +1,128 @@
+[
+  {
+    "id_blocco": 4560,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24011,
+    "testo": "Il giubbotto o le bretelle retroriflettenti ad alta visibilità possono sostituire, in ogni caso, il triangolo mobile di pericolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 544
+  },
+  {
+    "id_blocco": 4560,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24012,
+    "testo": "Il giubbotto o le bretelle retroriflettenti ad alta visibilità possono essere solo di colore gi all o",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 544
+  },
+  {
+    "id_blocco": 4560,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24013,
+    "testo": "Il giubbotto retroriflettente ad alta visibilità protegge il conducente anche da ri schi chimici, calore, fuoco ed elettricità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 544
+  },
+  {
+    "id_blocco": 4560,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24014,
+    "testo": "All'interno de l veicolo bisogna tenere giubbotti o bretelle retroriflettenti ad alta visibilità, in numero pari a quello dei posti disponibili",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 544
+  },
+  {
+    "id_blocco": 4560,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24015,
+    "testo": "L'obbligo di indossare il giubbotto ad alta visibilità si ha quando si sosta fuori dai centri abitati, mentre le bretelle retroriflettenti vanno indossate nelle aree urbane",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 544
+  },
+  {
+    "id_blocco": 4560,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24016,
+    "testo": "Il giubbotto retroriflettente ad alta visibilità serve per chiedere aiuto agli automobilisti in transito",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 544
+  },
+  {
+    "id_blocco": 4560,
+    "argomenti": [
+      "Ingombro della carreggiata",
+      "segnalazione di veicolo fermo",
+      "norme sulla circolazione in autostrada e strade extraurbane principali",
+      "trasporto di persone",
+      "carico dei veicoli",
+      "pannelli sui veicoli",
+      "traino dei veicoli e dei veicoli in avaria",
+      "traino dei rimorchi"
+    ],
+    "numero": 24017,
+    "testo": "Il giubbotto retroriflettente ad alta visibilità è utile solo quando si deve sostituire una ruota forata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 544
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23470,
+    "testo": "Prima di iniziare una manovra di sorpasso occorre azionare l'indicatore di dire zione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23471,
+    "testo": "La manovra di sorpasso si effettua, di norma, a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23472,
+    "testo": "Il sorpasso si effettua tenendo una adeguata distanza laterale dal veicolo che si sorpassa",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23473,
+    "testo": "Dopo aver effettuato una manovra di sorpasso il conducente del veicolo deve riportarsi a destra appena possibile senza creare pericolo o intralcio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23474,
+    "testo": "Il c onducente del veicolo che viene sorpassato deve agevolare la manovra di sorpasso e non accelerare",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23475,
+    "testo": "Il c onducente del veicolo che viene sorpassato, nelle strade ad una corsia per senso di marcia, deve tenersi il più vicino possibile al margine destro",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23476,
+    "testo": "La manovra di sorpasso non va effettuata se lo spazio visibile risulta insuffic ient e per completarla in sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23477,
+    "testo": "La manovra di sorpasso non va effettuata se la carreggiata non è suffici entemente larga",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23478,
+    "testo": "Il c onducente che intende effettuare il sorpasso ha l'obbligo di azionare il segnal e acustico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23479,
+    "testo": "Il c onducente che intende iniziare una manovra di sorpasso non ha l'obbligo di azionare l'indicatore di direzione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23480,
+    "testo": "Dopo il sorpasso il veicolo può immediatamente spostarsi a destra se taglia la strada a quello sorpassato",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23481,
+    "testo": "Il c onducente del veicolo sorpassato può gareggiare in velocità con il conducente del veicolo che lo sta sorpassando",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 522
+  },
+  {
+    "id_blocco": 4498,
+    "argomenti": [
+      "Norme sul sorpasso"
+    ],
+    "numero": 23482,
+    "testo": "La manovra di sorpasso si effettua anche se lo spazio visibile risulta insuffic ient e per completarla in sicurezza",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 522
+  }
+]

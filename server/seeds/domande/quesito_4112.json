@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19605,
+    "testo": "Il segnale raffigurato vieta ai veicoli di superare la velocità indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 273
+  },
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19606,
+    "testo": "Il segnale raffigurato obbliga a rispettare un limite massimo di velocità",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 273
+  },
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19607,
+    "testo": "Il segnale raffigurato indica la velocità massima alla quale i veicoli possono procedere",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 273
+  },
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19608,
+    "testo": "Il segnale raffigurato prescrive l'obbligo di viaggiare a velocità non superiore a 80 km/h",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 273
+  },
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19609,
+    "testo": "Il numero raffigurato nel segnale indica la velocità massima consentita",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 273
+  },
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19610,
+    "testo": "Il segnale raffigurato consente di circolare a velocità inferiore a quella indicata",
+    "risposta_corretta": "VERO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 273
+  },
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19611,
+    "testo": "Il segnale raffigurato indica un limite di velocità valido solo per autoveicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 274
+  },
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19612,
+    "testo": "Il segnale raffigurato obbliga a rispettare il limite minimo di velocità indicato",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 274
+  },
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19613,
+    "testo": "Il segnale raffigurato impone ai veicoli che non sono in grado di superare gli 80 km/h di marciare sulla corsia di destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 274
+  },
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19614,
+    "testo": "Il limite di velocità indicato dal segnale raffigurato entra in vigore 150 metri dopo il segnale s tess o",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 274
+  },
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19615,
+    "testo": "Il segnale raffigurato vieta il transito agli autoveicoli con massa complessiva superiore al valore indicato",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 274
+  },
+  {
+    "id_blocco": 4112,
+    "argomenti": [
+      "Segnali di divieto"
+    ],
+    "numero": 19616,
+    "testo": "Il segnale raffigurato indica un limite di velocità valido dalle ore 8.00 alle ore 20.00",
+    "risposta_corretta": "FALSO",
+    "immagine": "fa617b370db24cae54893424af1fe4fa",
+    "pagina_quiz": 274
+  }
+]

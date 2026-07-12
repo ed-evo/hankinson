@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4307,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21614,
+    "testo": "Il segnale raffigurato preavvisa che la strada di destra è senza uscita per i veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "ba0e3bf8bcbf65be03198270e1e8b821",
+    "pagina_quiz": 64
+  },
+  {
+    "id_blocco": 4307,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21615,
+    "testo": "Il segnale raffigurato consente la svolta a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "ba0e3bf8bcbf65be03198270e1e8b821",
+    "pagina_quiz": 64
+  },
+  {
+    "id_blocco": 4307,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21616,
+    "testo": "Il segnale raffigurato consente di proseguire diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "ba0e3bf8bcbf65be03198270e1e8b821",
+    "pagina_quiz": 64
+  },
+  {
+    "id_blocco": 4307,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21617,
+    "testo": "Il segnale raffigurato vale anche per i motocicli",
+    "risposta_corretta": "VERO",
+    "immagine": "ba0e3bf8bcbf65be03198270e1e8b821",
+    "pagina_quiz": 64
+  },
+  {
+    "id_blocco": 4307,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21618,
+    "testo": "Il segnale raffigurato fa parte dei segnali di indicazione",
+    "risposta_corretta": "VERO",
+    "immagine": "ba0e3bf8bcbf65be03198270e1e8b821",
+    "pagina_quiz": 64
+  },
+  {
+    "id_blocco": 4307,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21619,
+    "testo": "Il segnale raffigurato vieta la manovra di inversione di marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": "ba0e3bf8bcbf65be03198270e1e8b821",
+    "pagina_quiz": 64
+  },
+  {
+    "id_blocco": 4307,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21620,
+    "testo": "Il segnale raffigurato vieta la svolta a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "ba0e3bf8bcbf65be03198270e1e8b821",
+    "pagina_quiz": 65
+  },
+  {
+    "id_blocco": 4307,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21621,
+    "testo": "Il segnale raffigurato indica una piazzola di sosta sulla destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "ba0e3bf8bcbf65be03198270e1e8b821",
+    "pagina_quiz": 65
+  },
+  {
+    "id_blocco": 4307,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21622,
+    "testo": "Il segnale raffigurato preavvisa un'area di parcheggio sulla destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "ba0e3bf8bcbf65be03198270e1e8b821",
+    "pagina_quiz": 65
+  },
+  {
+    "id_blocco": 4307,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21623,
+    "testo": "Il segnale raffigurato vale anche per i pedoni",
+    "risposta_corretta": "FALSO",
+    "immagine": "ba0e3bf8bcbf65be03198270e1e8b821",
+    "pagina_quiz": 65
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4511,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23650,
+    "testo": "La fermat a non deve arrecare intralcio alla circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4511,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23651,
+    "testo": "Durante la fermata il conducente non deve impedire con il proprio autoveicolo il normale flusso del traffico",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4511,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23652,
+    "testo": "Durante la fermata il conducente deve comportarsi in modo da non costituire pericolo agli altri utenti della strada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4511,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23653,
+    "testo": "Durante la fermata il conducente deve essere sempre presente e pronto a riprendere la marcia",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4511,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23654,
+    "testo": "Durante la fermata il conducente deve sempre adottare le opportune cautele atte ad evitar e incidenti",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4511,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23655,
+    "testo": "Non è consentito fermarsi per chiedere informazioni agli agenti del traffico, quando ciò possa caus are intralcio o rallentamento alla circolazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4511,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23656,
+    "testo": "Durante la fermata il conducente può allontanarsi per brevissimo tempo prima di ripr endere la marcia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4511,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23657,
+    "testo": "La fermat a di un veicolo è sempre consentita per chiedere informazioni agli agenti del traffico",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 528
+  },
+  {
+    "id_blocco": 4511,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23658,
+    "testo": "Durante la fermata il conducente, se si allontana, deve lasciare il veicolo con il motore acceso",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 528
+  }
+]

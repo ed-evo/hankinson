@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20629,
+    "testo": "Il segnale raffigurato preannuncia che si incrocia sulla sinistra una strada di minore importanza",
+    "risposta_corretta": "VERO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 234
+  },
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20630,
+    "testo": "Il segnale raffigurato preannuncia un incrocio in cui si ha la precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 234
+  },
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20631,
+    "testo": "Il segnale raffigurato prescrive di usare prudenza perché ci si sta avvicinando ad un incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 234
+  },
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20632,
+    "testo": "Il segnale raffigurato è un segnale di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 234
+  },
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20633,
+    "testo": "Il segnale raffigurato preannuncia l'incrocio con una strada senza diritto di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 234
+  },
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20634,
+    "testo": "Il segnale raffigurato preannuncia un incrocio in cui si ha la precedenza sui veicoli pr ovenienti da sinis tra",
+    "risposta_corretta": "VERO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 235
+  },
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20635,
+    "testo": "Il segnale raffigurato preannuncia sulla sinistra una strada senza uscita",
+    "risposta_corretta": "FALSO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 235
+  },
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20636,
+    "testo": "Il segnale raffigurato vieta la svolta a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 235
+  },
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20637,
+    "testo": "Il segnale raffigurato preannuncia una confluenza in autostrada",
+    "risposta_corretta": "FALSO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 235
+  },
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20638,
+    "testo": "Il segnale raffigurato preannuncia una confluenza a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 235
+  },
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20639,
+    "testo": "Il segnale raffigurato è posto sulle rampe di accesso alle autostrade",
+    "risposta_corretta": "FALSO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 235
+  },
+  {
+    "id_blocco": 4203,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20640,
+    "testo": "Il segnale raffigurato preannuncia l'incrocio con un binario morto",
+    "risposta_corretta": "FALSO",
+    "immagine": "5c17bf965a93fa39910d1868d73061a2",
+    "pagina_quiz": 235
+  }
+]

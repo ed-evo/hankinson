@@ -1,0 +1,110 @@
+[
+  {
+    "id_blocco": 4334,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21866,
+    "testo": "Il c ono raffigurato può delimitare zone di lavoro di breve durata",
+    "risposta_corretta": "VERO",
+    "immagine": "61edff345204545bf7a2cc45613f1bca",
+    "pagina_quiz": 413
+  },
+  {
+    "id_blocco": 4334,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21867,
+    "testo": "Il c ono raffigurato si può usare per segnalare deviazioni provvisorie",
+    "risposta_corretta": "VERO",
+    "immagine": "61edff345204545bf7a2cc45613f1bca",
+    "pagina_quiz": 413
+  },
+  {
+    "id_blocco": 4334,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21868,
+    "testo": "Il c ono raffigurato si può usare per indicare aree interessate da incidenti",
+    "risposta_corretta": "VERO",
+    "immagine": "61edff345204545bf7a2cc45613f1bca",
+    "pagina_quiz": 413
+  },
+  {
+    "id_blocco": 4334,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21869,
+    "testo": "Il c ono raffigurato può indicare separazione provvisoria dei sensi di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "61edff345204545bf7a2cc45613f1bca",
+    "pagina_quiz": 413
+  },
+  {
+    "id_blocco": 4334,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21870,
+    "testo": "Il c ono raffigurato si usa per indicare un parcheggio riservato",
+    "risposta_corretta": "FALSO",
+    "immagine": "61edff345204545bf7a2cc45613f1bca",
+    "pagina_quiz": 414
+  },
+  {
+    "id_blocco": 4334,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21871,
+    "testo": "Il c ono raffigurato si può usare in presenza di lavori stradali superiori a 10 giorni",
+    "risposta_corretta": "FALSO",
+    "immagine": "61edff345204545bf7a2cc45613f1bca",
+    "pagina_quiz": 414
+  },
+  {
+    "id_blocco": 4334,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21872,
+    "testo": "Il c ono raffigurato si usa su strade dove avvengono abbondanti nevicate",
+    "risposta_corretta": "FALSO",
+    "immagine": "61edff345204545bf7a2cc45613f1bca",
+    "pagina_quiz": 414
+  },
+  {
+    "id_blocco": 4334,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21873,
+    "testo": "Il c ono raffigurato separa la carreggiata dalla pista ciclabile",
+    "risposta_corretta": "FALSO",
+    "immagine": "61edff345204545bf7a2cc45613f1bca",
+    "pagina_quiz": 414
+  },
+  {
+    "id_blocco": 4334,
+    "argomenti": [
+      "Segnali complementari",
+      "segnali temporanei e di cantiere"
+    ],
+    "numero": 21874,
+    "testo": "Il c ono raffigurato indica un ostacolo posto fuori della carreggiata",
+    "risposta_corretta": "FALSO",
+    "immagine": "61edff345204545bf7a2cc45613f1bca",
+    "pagina_quiz": 414
+  }
+]

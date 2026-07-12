@@ -1,0 +1,198 @@
+[
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25404,
+    "testo": "La marmitta deteriorata aumenta l'inquinamento acustico prodotto dai veicoli a motore",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25405,
+    "testo": "La marmitta deteriorata deve essere sostituita con altra di tipo approvato per quel ti po di veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25406,
+    "testo": "L'impianto di scarico ha lo scopo di convogliare i gas di scarico verso l'esterno dopo averne abbassato la tossicità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25407,
+    "testo": "L'impianto di scarico ha lo scopo di convogliare i gas di scarico verso l'esterno dopo averne abbassato la pressione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25408,
+    "testo": "L'impianto di scarico ha lo scopo di convogliare i gas di scarico verso l'esterno dopo averne abbassato la temperatura",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25409,
+    "testo": "L'impianto di scarico ha lo scopo di ridurre la rumorosità del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25410,
+    "testo": "L'impianto di scarico ha lo scopo di ridurre l'inquinamento atmosferico causato dai gas di scarico del veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25411,
+    "testo": "L'impianto di scarico deve essere integralmente sostituito a ogni cambio di lubrificante",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25412,
+    "testo": "L'impianto di scarico dei veicoli elettrici necessita di manutenzione più frequente rispetto a quello dei veicoli con motore a scoppio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25413,
+    "testo": "Fuori dei cent ri abitati, i veicoli possono circolare anche senza silenziatore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25414,
+    "testo": "Se il tubo di scarico del silenziatore si fora e non si intende sostituirlo a breve, lo si può riparare avvolgendolo con lana di vetro e nastro isolante",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25415,
+    "testo": "La sostituzione del tubo di scarico può essere fatta anche personalmente, senza rivolgersi ad un'officina autorizzata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25416,
+    "testo": "E' possibile modificare l'impianto di scarico, purché si autocertifichi che ciò non compor ta aumenti del consumo di carburante",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 591
+  },
+  {
+    "id_blocco": 4712,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25417,
+    "testo": "La manom issione dell'impianto di scarico non comporta alcuna sanzione, purché si circoli solo nei centri urbani",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 591
+  }
+]

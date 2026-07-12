@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4274,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21292,
+    "testo": "Il segnale raffigurato indica che la strada su cui è posto è a senso unico",
+    "risposta_corretta": "VERO",
+    "immagine": "916b7fab3c873dcafeae5ee6534775b7",
+    "pagina_quiz": 25
+  },
+  {
+    "id_blocco": 4274,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21293,
+    "testo": "Il segnale A di figura indica che svoltando a sinistra la strada è a senso unico",
+    "risposta_corretta": "VERO",
+    "immagine": "916b7fab3c873dcafeae5ee6534775b7",
+    "pagina_quiz": 25
+  },
+  {
+    "id_blocco": 4274,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21294,
+    "testo": "Il segnale raffigurato indica che svoltando nel senso della freccia non si incrociano veicoli provenienti dal senso opposto",
+    "risposta_corretta": "VERO",
+    "immagine": "916b7fab3c873dcafeae5ee6534775b7",
+    "pagina_quiz": 25
+  },
+  {
+    "id_blocco": 4274,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21295,
+    "testo": "Il segnale raffigurato indica che una volta svoltato nel senso della freccia è vietata l'inversione di marcia",
+    "risposta_corretta": "VERO",
+    "immagine": "916b7fab3c873dcafeae5ee6534775b7",
+    "pagina_quiz": 25
+  },
+  {
+    "id_blocco": 4274,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21296,
+    "testo": "Il segnale raffigurato indica che nel tratto di strada in cui è posto si deve sorpassare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "916b7fab3c873dcafeae5ee6534775b7",
+    "pagina_quiz": 25
+  },
+  {
+    "id_blocco": 4274,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21297,
+    "testo": "Il segnale A di figura indica che è obbligatorio svoltare a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "916b7fab3c873dcafeae5ee6534775b7",
+    "pagina_quiz": 25
+  },
+  {
+    "id_blocco": 4274,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21298,
+    "testo": "Il segnale raffigurato indica che è vietato proseguire diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "916b7fab3c873dcafeae5ee6534775b7",
+    "pagina_quiz": 26
+  },
+  {
+    "id_blocco": 4274,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21299,
+    "testo": "Il segnale raffigurato indica che si deve marciare per file parallele",
+    "risposta_corretta": "FALSO",
+    "immagine": "916b7fab3c873dcafeae5ee6534775b7",
+    "pagina_quiz": 26
+  },
+  {
+    "id_blocco": 4274,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21300,
+    "testo": "Il segnale raffigurato indica che svoltando nel senso della freccia la sosta è consent ita solo a sinistra",
+    "risposta_corretta": "FALSO",
+    "immagine": "916b7fab3c873dcafeae5ee6534775b7",
+    "pagina_quiz": 26
+  },
+  {
+    "id_blocco": 4274,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21301,
+    "testo": "Il segnale raffigurato indica un parcheggio libero nel senso della freccia",
+    "risposta_corretta": "FALSO",
+    "immagine": "916b7fab3c873dcafeae5ee6534775b7",
+    "pagina_quiz": 26
+  }
+]

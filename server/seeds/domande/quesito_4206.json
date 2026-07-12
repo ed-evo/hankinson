@@ -1,0 +1,134 @@
+[
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20665,
+    "testo": "Il segnale raffigurato indica l'inizio di una strada in cui i veicoli hanno diritto di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 250
+  },
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20666,
+    "testo": "Il segnale raffigurato può essere posto su una strada statale",
+    "risposta_corretta": "VERO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 251
+  },
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20667,
+    "testo": "In presenza del segnale raffigurato bisogna comunque dare la precedenza ai veicoli che hanno in funzione il lampeggiante blu e sirena",
+    "risposta_corretta": "VERO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 251
+  },
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20668,
+    "testo": "Il segnale raffigurato è un segnale di precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 251
+  },
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20669,
+    "testo": "In presenza del segnale raffigurato bisogna comunque assicurarsi che i veicoli pr ovenienti dalle strade laterali diano la precedenza",
+    "risposta_corretta": "VERO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 251
+  },
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20670,
+    "testo": "Il segnale raffigurato è un segnale di prescrizione",
+    "risposta_corretta": "VERO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 251
+  },
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20671,
+    "testo": "Il segnale raffigurato obbliga ad arrestarsi all'incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 251
+  },
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20672,
+    "testo": "Il segnale raffigurato può essere posto a protezione di attraversamenti pedonali pericolosi",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 251
+  },
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20673,
+    "testo": "Il segnale raffigurato è posto esclusivamente su strade extraurbane ad intenso traffico",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 251
+  },
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20674,
+    "testo": "Il segnale raffigurato preannuncia incrocio con precedenza rispetto ai soli veicoli pr ovenienti da destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 251
+  },
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20675,
+    "testo": "Il segnale raffigurato preannuncia le corsie riservate agli autobus in servizio pubblico",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 252
+  },
+  {
+    "id_blocco": 4206,
+    "argomenti": [
+      "Segnali di precedenza"
+    ],
+    "numero": 20676,
+    "testo": "Il segnale raffigurato preannuncia l'inizio di un cantiere stradale",
+    "risposta_corretta": "FALSO",
+    "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
+    "pagina_quiz": 252
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23628,
+    "testo": "Prima di iniziare a guidare un autoveicolo è opportuno regolare il sedile e il poggiatesta , secondo la propria statura",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23629,
+    "testo": "Prima di iniziare a guidare un autoveicolo è opportuno regolare gli specchi ret rovisori interni ed esterni",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23630,
+    "testo": "Prima di iniziare a guidare un motociclo è opportuno regolare gli specchi secondo l a propria statura",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23631,
+    "testo": "Quando si guida un veicolo a motore, bisogna avere con sé tutti i documenti necessari per la guida (carta di circolazione, certificato di assicurazione, patente ecc.), e in corso di validità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23632,
+    "testo": "Prima di iniziare a guidare un veicolo a motore bisogna essere certi che la categoria di patente posseduta ne consenta la guida",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23633,
+    "testo": "Prima di iniziare a guidare un veicolo, bisogna essere certi del perfetto stato di efficienza del mezzo",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23634,
+    "testo": "Prima di iniziare a guidare un veicolo bisogna accertarsi che gli oggetti tra sport ati siano sistemati in modo da evitarne la caduta o dispersione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23635,
+    "testo": "Prima di iniziare a guidare un veicolo, bisogna controllare che non sia compromessa la visibilità posteriore e laterale, per la presenza di passeggeri o per i l carico mal posizionato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23636,
+    "testo": "Prima di iniziare a guidare un autoveicolo, bisogna individuare i comandi (le ve e pulsanti) necessari per la guida e comprenderne bene il funzi onamento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23637,
+    "testo": "Prima di iniziare a guidare un'autovettura, bisogna controllare che i passeggeri a bbiano regolarmente allacciato le cinture di sicurezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23638,
+    "testo": "Prima di iniziare a guidare un veicolo a motore bisogna regolare il contachilometri parziale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23639,
+    "testo": "Prima di iniziare a guidare un veicolo a motore bisogna disinserire l'airbag del lato conducente",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23640,
+    "testo": "Prima di iniziare a guidare un autoveicolo, bisogna verificare che le cinture di sicurezza siano dotate di pretensionatore",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 527
+  },
+  {
+    "id_blocco": 4509,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23641,
+    "testo": "Prima di iniziare a guidare un veicolo, bisogna verificarne lo stato di efficienza solo se si deve intraprendere un lungo viaggio",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 527
+  }
+]

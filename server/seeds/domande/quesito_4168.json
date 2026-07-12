@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4168,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20253,
+    "testo": "Il segnale raffigurato indica passaggio obbligatorio a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 368
+  },
+  {
+    "id_blocco": 4168,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20254,
+    "testo": "Il segnale raffigurato indica che non è consentito superare l'ostacolo a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 368
+  },
+  {
+    "id_blocco": 4168,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20255,
+    "testo": "Il segnale raffigurato indica obbligo di superare lo spartitraffico dalla parte destra",
+    "risposta_corretta": "VERO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 368
+  },
+  {
+    "id_blocco": 4168,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20256,
+    "testo": "Il segnale raffigurato indica obbligo di lasciare un'isola salvagente a sinistra",
+    "risposta_corretta": "VERO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 368
+  },
+  {
+    "id_blocco": 4168,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20257,
+    "testo": "Il segnale raffigurato indica obbligo di passare a destra di un cantiere stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 368
+  },
+  {
+    "id_blocco": 4168,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20258,
+    "testo": "Il segnale raffigurato indica obbligo di svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 368
+  },
+  {
+    "id_blocco": 4168,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20259,
+    "testo": "Il segnale raffigurato indica obbligo di superare l'ostacolo lasciandolo alla propria destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 368
+  },
+  {
+    "id_blocco": 4168,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20260,
+    "testo": "Il segnale raffigurato indica direzione obbligatoria a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 368
+  },
+  {
+    "id_blocco": 4168,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20261,
+    "testo": "Il segnale raffigurato indica che siamo in prossimità di un incrocio",
+    "risposta_corretta": "FALSO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 368
+  },
+  {
+    "id_blocco": 4168,
+    "argomenti": [
+      "Segnali di obbligo"
+    ],
+    "numero": 20262,
+    "testo": "Il segnale raffigurato indica che non è possibile proseguire su quella strada",
+    "risposta_corretta": "FALSO",
+    "immagine": "f99d748827631a70c04e5d9aeac6183d",
+    "pagina_quiz": 369
+  }
+]

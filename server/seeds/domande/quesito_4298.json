@@ -1,0 +1,112 @@
+[
+  {
+    "id_blocco": 4298,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21541,
+    "testo": "Il segnale raffigurato indica il numero dell'autostrada",
+    "risposta_corretta": "VERO",
+    "immagine": "4407c6de338d7872782c9fce7ad59812",
+    "pagina_quiz": 56
+  },
+  {
+    "id_blocco": 4298,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21542,
+    "testo": "Il segnale raffigurato s i può trovare all'interno di un segnale di preavviso di svincolo autostradale",
+    "risposta_corretta": "VERO",
+    "immagine": "4407c6de338d7872782c9fce7ad59812",
+    "pagina_quiz": 56
+  },
+  {
+    "id_blocco": 4298,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21543,
+    "testo": "Il segnale raffigurato abbinato ad una freccia, indica la direzione per un casello autostradale",
+    "risposta_corretta": "VERO",
+    "immagine": "4407c6de338d7872782c9fce7ad59812",
+    "pagina_quiz": 56
+  },
+  {
+    "id_blocco": 4298,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21544,
+    "testo": "Il segnale raffigurato identifica l'autostrada n. 25",
+    "risposta_corretta": "VERO",
+    "immagine": "4407c6de338d7872782c9fce7ad59812",
+    "pagina_quiz": 56
+  },
+  {
+    "id_blocco": 4298,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21545,
+    "testo": "Il segnale raffigurato s i trova al confine con l'Austria",
+    "risposta_corretta": "FALSO",
+    "immagine": "4407c6de338d7872782c9fce7ad59812",
+    "pagina_quiz": 56
+  },
+  {
+    "id_blocco": 4298,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21546,
+    "testo": "Il segnale raffigurato indica il numero del cavalcavia",
+    "risposta_corretta": "FALSO",
+    "immagine": "4407c6de338d7872782c9fce7ad59812",
+    "pagina_quiz": 56
+  },
+  {
+    "id_blocco": 4298,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21547,
+    "testo": "Il segnale raffigurato indica la distanza di sicurezza da mantenere dal veicolo che sta davanti",
+    "risposta_corretta": "FALSO",
+    "immagine": "4407c6de338d7872782c9fce7ad59812",
+    "pagina_quiz": 56
+  },
+  {
+    "id_blocco": 4298,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21548,
+    "testo": "Il segnale raffigurato indica un centro di assistenza a 25 chilometri",
+    "risposta_corretta": "FALSO",
+    "immagine": "4407c6de338d7872782c9fce7ad59812",
+    "pagina_quiz": 57
+  },
+  {
+    "id_blocco": 4298,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21549,
+    "testo": "Il segnale raffigurato indica che il prossimo svincolo autostradale si trova a 25 chilometri",
+    "risposta_corretta": "FALSO",
+    "immagine": "4407c6de338d7872782c9fce7ad59812",
+    "pagina_quiz": 57
+  },
+  {
+    "id_blocco": 4298,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21550,
+    "testo": "Il segnale raffigurato indica il limite minimo di velocità che si consiglia di non superare",
+    "risposta_corretta": "FALSO",
+    "immagine": "4407c6de338d7872782c9fce7ad59812",
+    "pagina_quiz": 57
+  }
+]

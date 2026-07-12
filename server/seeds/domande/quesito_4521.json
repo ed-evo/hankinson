@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4521,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23738,
+    "testo": "La sosta e la fermata sono vietate nelle curve e, fuori dei centri abitati e sulle strade urbane di s corrimento, anche in loro prossimità",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4521,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23739,
+    "testo": "La sosta e la fermata sono vietate in prossimità e in corrispondenza di segnal i stradali verticali in modo da occultarne la vista",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4521,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23740,
+    "testo": "La sosta e la fermata sono vietate in prossimità e in corrispondenza di segnal i semaforici in modo da occultarne la vista",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4521,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23741,
+    "testo": "La sosta e la fermata sono vietate in corrispondenza dei segnali orizzontali di pre selezione e lungo le corsie di canalizzazione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4521,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23742,
+    "testo": "Fuori dei cent ri abitati, la sosta e la fermata sono vietate in corrispondenza e in prossimità delle aree di intersezione",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4521,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23743,
+    "testo": "La sosta è vietata nelle curve ma, fuori dei centri abitati e sulle strade di scorrim ento, non è vietata in loro prossimità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4521,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23744,
+    "testo": "La sosta , ma non la fermata, è vietata in prossimità e in corrispondenza di segnal i semaforici in modo da occultarne la vista",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4521,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23745,
+    "testo": "La sosta è vietata in corrispondenza dei segnali orizzontali di preselezione ma non lungo le corsie di canalizzazione",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  },
+  {
+    "id_blocco": 4521,
+    "argomenti": [
+      "Fermata, sosta, arresto e partenza"
+    ],
+    "numero": 23746,
+    "testo": "Fuori dei cent ri abitati, la sosta è vietata in corrispondenza delle aree di intersezione ma non in loro prossimità",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 531
+  }
+]

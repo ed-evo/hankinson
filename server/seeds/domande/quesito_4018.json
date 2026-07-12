@@ -1,0 +1,86 @@
+[
+  {
+    "id_blocco": 4018,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18505,
+    "testo": "La corsia di decelerazione facilita l'uscita dei veicoli dall'autostrada",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4018,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18506,
+    "testo": "La corsia di decelerazione serve per uscire correttamente da una strada extraurbana principale",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4018,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18507,
+    "testo": "La corsia di decelerazione serve per uscire dalla carreggiata dell'autostrada ed entrare nell'area di servizio",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4018,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18508,
+    "testo": "La corsia di decelerazione può essere utilizzata per la sosta dei veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4018,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18509,
+    "testo": "La corsia di decelerazione serve per entrare in una piazzola di sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 454
+  },
+  {
+    "id_blocco": 4018,
+    "argomenti": [
+      "Definizioni stradali e di traffico",
+      "definizioni e classificazione dei veicoli",
+      "doveri del conducente nell'uso della strada - convivenza civile ed uso responsabile della strada",
+      "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
+    ],
+    "numero": 18510,
+    "testo": "La corsia di decelerazione serve ad entrare in autostrada",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 454
+  }
+]

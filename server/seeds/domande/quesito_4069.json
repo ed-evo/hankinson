@@ -1,0 +1,145 @@
+[
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19078,
+    "testo": "Il segnale raffigurato indica che la sede ferroviaria ha un solo binario",
+    "risposta_corretta": "VERO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 178
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19079,
+    "testo": "Il segnale raffigurato è posto nelle immediate vicinanze di un attraversam ento ferroviario senza barriere",
+    "risposta_corretta": "VERO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 178
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19080,
+    "testo": "Il segnale raffigurato è posto nelle immediate vicinanze del binario",
+    "risposta_corretta": "VERO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 178
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19081,
+    "testo": "Il segnale raffigurato è posto sulla strada dopo il segnale PASSAGGIO A LIVELLO SENZA BARRIERE",
+    "risposta_corretta": "VERO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 178
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19082,
+    "testo": "La figura rappresenta un segnale di pericolo",
+    "risposta_corretta": "VERO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 178
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19083,
+    "testo": "Il segnale raffigurato può essere posto sia in senso orizzontale che in senso vert icale",
+    "risposta_corretta": "VERO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 178
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19084,
+    "testo": "Il segnale raffigurato preannuncia una sede ferroviaria con più binari",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 179
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19085,
+    "testo": "Il segnale raffigurato preannuncia un incrocio di quattro strade",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 179
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19086,
+    "testo": "Il segnale raffigurato preannuncia una sede tranviaria con un solo binario",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 179
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19087,
+    "testo": "Il segnale raffigurato è installato in prossimità di un passaggio a livello con semibarriere",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 179
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19088,
+    "testo": "Il segnale raffigurato è posto prima del segnale PASSAGGIO A LIVELLO SENZA BARRIERE",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 179
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19089,
+    "testo": "Il segnale raffigurato è integrato da una luce verde ed una rossa fissa",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 179
+  },
+  {
+    "id_blocco": 4069,
+    "argomenti": [
+      "Segnali di pericolo"
+    ],
+    "numero": 19090,
+    "testo": "Il segnale raffigurato s i trova, di norma, a 150 metri dai binari",
+    "risposta_corretta": "FALSO",
+    "immagine": "dfaf4fe7c7231e7f821a2cecea6f1ecb",
+    "pagina_quiz": 179
+  }
+]

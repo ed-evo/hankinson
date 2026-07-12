@@ -1,0 +1,158 @@
+[
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22316,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi quando riesce malagevole l'incrocio con altri veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22317,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi in prossimità degli attraversamenti pedonali",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22318,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi quando i pedoni, che sono sul percorso, tardano a scansarsi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 492
+  },
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22319,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi quando i pedoni, che sono sul percorso, danno segni d'incertezza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22320,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi quando gli animali che si trovano sulla strada danno segni di spavento",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22321,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi quando si rimane abbagliati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22322,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi in corrispondenza dei passi carrabili",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22323,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi in prossimità delle fermate degli autobus",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22324,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi ogni volta che si percorre un cavalcavia",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22325,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi in prossimità degli autovelox",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22326,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi in corrispondenza di qualunque segnale stradale",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  },
+  {
+    "id_blocco": 4376,
+    "argomenti": [
+      "Limiti di velocità",
+      "pericolo e intralcio alla circolazione",
+      "comportamenti ai passaggi a livello"
+    ],
+    "numero": 22327,
+    "testo": "E' obbligatorio ridurre la velocità e all'occorrenza fermarsi all'uscita dei centri abitati",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 493
+  }
+]

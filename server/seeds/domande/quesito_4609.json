@@ -1,0 +1,178 @@
+[
+  {
+    "id_blocco": 4609,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24488,
+    "testo": "Con la pate nte di categoria A1 si possono condurre i motocicli (con o senza carrozzetta) di cilindrata fino a 125 cm3, potenza non superiore a 11 kW e rapporto potenza/peso non superiore a 0,1 kW/kg",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4609,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24489,
+    "testo": "Con la pate nte di categoria A1 si possono condurre i tricicli a motore di potenza non superiore a 15 kW",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4609,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24490,
+    "testo": "Con la pate nte di categoria A1 si possono condurre le macchine agricole che rientrano nei limiti di sagoma e di massa previsti per i motoveicoli",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4609,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24491,
+    "testo": "La patente di categoria A1 può essere conseguita da chi ha almeno 16 anni di età",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4609,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24493,
+    "testo": "La patente di categoria A1 abilita anche alla guida dei veicoli che si possono condurre con la patente AM",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4609,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24494,
+    "testo": "La patente di categoria A1 può essere conseguita solo da chi è già in possesso della patente AM",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4609,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24495,
+    "testo": "La patente di categoria A1 abilita alla guida di tutti i motocicli di cilindrata fino a 125 cm3",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4609,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24496,
+    "testo": "Con la pate nte di categoria A1 si possono condurre i tricicli di potenza superiore a 15 kW, ma solo se il conducente è maggiorenne",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4609,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24497,
+    "testo": "Con la pate nte di categoria A1 si possono condurre le macchine operatrici non eccezionali",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4609,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24498,
+    "testo": "La patente di categoria A1 consente al conducente che ha meno di 18 anni di trasportare un passeggero, ma solo se lo stesso è maggiorenne",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  },
+  {
+    "id_blocco": 4609,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24499,
+    "testo": "La patente di categoria A1, trascorsi i primi due anni dal conseguimento, diventa automaticamente patente di categoria A2 e, dopo ulteriori due anni, diventa patente di categoria A che abilita alla guida di qualunque motociclo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 558
+  }
+]

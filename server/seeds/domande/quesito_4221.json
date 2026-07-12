@@ -1,0 +1,74 @@
+[
+  {
+    "id_blocco": 4221,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20805,
+    "testo": "In presenza delle strisce di guida in figura il veicolo C può andare diritto",
+    "risposta_corretta": "VERO",
+    "immagine": "d12587ece8be5fe2dee2c4814a97332d",
+    "pagina_quiz": 153
+  },
+  {
+    "id_blocco": 4221,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20806,
+    "testo": "In presenza delle strisce di guida in figura il veicolo B può svoltare a sinistra, dando però la precedenza al veicolo A",
+    "risposta_corretta": "VERO",
+    "immagine": "d12587ece8be5fe2dee2c4814a97332d",
+    "pagina_quiz": 153
+  },
+  {
+    "id_blocco": 4221,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20807,
+    "testo": "In presenza delle strisce di guida in figura il veicolo A può andare in qualsiasi dire zione",
+    "risposta_corretta": "VERO",
+    "immagine": "d12587ece8be5fe2dee2c4814a97332d",
+    "pagina_quiz": 153
+  },
+  {
+    "id_blocco": 4221,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20808,
+    "testo": "In presenza delle strisce di guida in figura il veicolo C deve svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "d12587ece8be5fe2dee2c4814a97332d",
+    "pagina_quiz": 153
+  },
+  {
+    "id_blocco": 4221,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20809,
+    "testo": "In presenza delle strisce di guida in figura il veicolo B deve svoltare a destra",
+    "risposta_corretta": "FALSO",
+    "immagine": "d12587ece8be5fe2dee2c4814a97332d",
+    "pagina_quiz": 154
+  },
+  {
+    "id_blocco": 4221,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20810,
+    "testo": "In presenza delle strisce di guida in figura il veicolo A deve andare diritto",
+    "risposta_corretta": "FALSO",
+    "immagine": "d12587ece8be5fe2dee2c4814a97332d",
+    "pagina_quiz": 154
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id_blocco": 4607,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24469,
+    "testo": "Le targhe dei veicoli devono essere apposte saldamente e in posizione corretta",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 557
+  },
+  {
+    "id_blocco": 4607,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24470,
+    "testo": "Le targhe dei veicoli devono essere sempre ben leggibili",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 557
+  },
+  {
+    "id_blocco": 4607,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24471,
+    "testo": "Le targhe dei veicoli non devono essere sporche",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 557
+  },
+  {
+    "id_blocco": 4607,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24472,
+    "testo": "Le targhe dei veicoli non devono essere manomesse o contraffatte",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 557
+  },
+  {
+    "id_blocco": 4607,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24473,
+    "testo": "Gli autoveicoli usati per le esercitazioni di guida devono essere muniti, sia anteriormente che posteriormente, di appositi pannelli retroriflettenti recanti la lettera \"P\" (principiante)",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 557
+  },
+  {
+    "id_blocco": 4607,
+    "argomenti": [
+      "Patenti di guida",
+      "documenti di circolazione del veicolo",
+      "obbligo verso funzionari ed agenti",
+      "sistema sanzionatorio",
+      "patente a punti",
+      "uso di lenti e di altri apparecchi"
+    ],
+    "numero": 24474,
+    "testo": "Le targhe dei veicoli possono essere piegate per adattarle meglio al loro supporto",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 557
+  }
+]

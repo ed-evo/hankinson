@@ -1,0 +1,123 @@
+[
+  {
+    "id_blocco": 4471,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23272,
+    "testo": "Secondo le norme di precedenza nell'incrocio in figura il veicolo F deve attendere il transito del veicolo A",
+    "risposta_corretta": "VERO",
+    "immagine": "acd72e3422e7e315607989978ca9f3b4",
+    "pagina_quiz": 117
+  },
+  {
+    "id_blocco": 4471,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23273,
+    "testo": "Secondo le norme di precedenza nell'incrocio in figura il veicolo L deve attendere il transito dei veicoli A ed F",
+    "risposta_corretta": "VERO",
+    "immagine": "acd72e3422e7e315607989978ca9f3b4",
+    "pagina_quiz": 117
+  },
+  {
+    "id_blocco": 4471,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23274,
+    "testo": "Secondo le norme di precedenza nell'incrocio in figura il veicolo A deve attendere il transito del veicolo H",
+    "risposta_corretta": "VERO",
+    "immagine": "acd72e3422e7e315607989978ca9f3b4",
+    "pagina_quiz": 117
+  },
+  {
+    "id_blocco": 4471,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23275,
+    "testo": "Secondo le norme di precedenza nell'incrocio in figura il veicolo L deve tra nsitare per ultimo",
+    "risposta_corretta": "VERO",
+    "immagine": "acd72e3422e7e315607989978ca9f3b4",
+    "pagina_quiz": 117
+  },
+  {
+    "id_blocco": 4471,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23276,
+    "testo": "Secondo le norme di precedenza nell'incrocio in figura il veicolo H transita per primo",
+    "risposta_corretta": "VERO",
+    "immagine": "acd72e3422e7e315607989978ca9f3b4",
+    "pagina_quiz": 117
+  },
+  {
+    "id_blocco": 4471,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23277,
+    "testo": "Secondo le norme di precedenza nell'incrocio in figura i veicoli debbono tra nsitare nell'ordine: H,A, F, L",
+    "risposta_corretta": "VERO",
+    "immagine": "acd72e3422e7e315607989978ca9f3b4",
+    "pagina_quiz": 117
+  },
+  {
+    "id_blocco": 4471,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23278,
+    "testo": "Secondo le norme di precedenza nell'incrocio in figura i veicoli devono tra nsitare nell'ordine: A, F, L, H",
+    "risposta_corretta": "FALSO",
+    "immagine": "acd72e3422e7e315607989978ca9f3b4",
+    "pagina_quiz": 117
+  },
+  {
+    "id_blocco": 4471,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23279,
+    "testo": "Secondo le norme di precedenza nell'incrocio in figura il veicolo F deve tra nsitare per primo",
+    "risposta_corretta": "FALSO",
+    "immagine": "acd72e3422e7e315607989978ca9f3b4",
+    "pagina_quiz": 117
+  },
+  {
+    "id_blocco": 4471,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23280,
+    "testo": "Secondo le norme di precedenza nell'incrocio in figura il veicolo H deve attendere il transito del veicolo L",
+    "risposta_corretta": "FALSO",
+    "immagine": "acd72e3422e7e315607989978ca9f3b4",
+    "pagina_quiz": 117
+  },
+  {
+    "id_blocco": 4471,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23281,
+    "testo": "Secondo le norme di precedenza nell'incrocio in figura il veicolo H deve attendere il transito del veicolo F",
+    "risposta_corretta": "FALSO",
+    "immagine": "acd72e3422e7e315607989978ca9f3b4",
+    "pagina_quiz": 118
+  },
+  {
+    "id_blocco": 4471,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23282,
+    "testo": "Secondo le norme di precedenza nell'incrocio in figura il veicolo A deve attendere il transito del veicolo F",
+    "risposta_corretta": "FALSO",
+    "immagine": "acd72e3422e7e315607989978ca9f3b4",
+    "pagina_quiz": 118
+  }
+]

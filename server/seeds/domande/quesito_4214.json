@@ -1,0 +1,158 @@
+[
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20743,
+    "testo": "Le frecce direzionali in figura si trovano all'interno delle corsie, prima di un incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 432
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20744,
+    "testo": "Le frecce direzionali in figura indicano ai conducenti le direzioni consentite all'incrocio",
+    "risposta_corretta": "VERO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 432
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20745,
+    "testo": "Le frecce direzionali in figura consentono di immettersi nella corsia scelta quando le strisce sono ancora discontinue (tratteggiate)",
+    "risposta_corretta": "VERO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 432
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20746,
+    "testo": "Le frecce direzionali in figura obbligano a seguire la direzione indicata se le strisce di corsia sono continue",
+    "risposta_corretta": "VERO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 432
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20747,
+    "testo": "Le frecce direzionali in figura sono a freccia combinata diritta-destra per corsie destinate a chi deve proseguire diritto o a destra",
+    "risposta_corretta": "VERO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 432
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20748,
+    "testo": "Le frecce direzionali in figura possono essere completate da scritte sulla pavimentazione che indicano la località raggiungibile",
+    "risposta_corretta": "VERO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 432
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20749,
+    "testo": "Le frecce direzionali in figura segnalano le direzioni permesse",
+    "risposta_corretta": "VERO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 432
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20750,
+    "testo": "Le frecce direzionali in figura obbligano a seguire la direzione indicata, anche se le strisce di corsia sono discontinue (tratteggiate)",
+    "risposta_corretta": "FALSO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 432
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20751,
+    "testo": "Le frecce direzionali in figura indicano che si è vic ino ad una corsia per la sosta d'emergenza",
+    "risposta_corretta": "FALSO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 432
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20752,
+    "testo": "Le frecce direzionali in figura ci consentono di cambiare corsia se le strisce sono continue",
+    "risposta_corretta": "FALSO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 433
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20753,
+    "testo": "Le frecce direzionali in figura sono di colore azzurro per indicare un parcheggio a pagamento",
+    "risposta_corretta": "FALSO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 433
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20754,
+    "testo": "Le frecce direzionali in figura sono di colore giallo nelle strade dove è vietata la sosta",
+    "risposta_corretta": "FALSO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 433
+  },
+  {
+    "id_blocco": 4214,
+    "argomenti": [
+      "Segnaletica orizzontale",
+      "segni sugli ostacoli"
+    ],
+    "numero": 20755,
+    "testo": "Le frecce direzionali in figura sono di colore blu nelle autostrade",
+    "risposta_corretta": "FALSO",
+    "immagine": "2b001af183efcff01e22099f95f0c5d9",
+    "pagina_quiz": 433
+  }
+]

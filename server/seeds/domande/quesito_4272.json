@@ -1,0 +1,101 @@
+[
+  {
+    "id_blocco": 4272,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21274,
+    "testo": "Il segnale raffigurato indica l'indirizzo ed i numeri telefonici del più vicino comando della polizia stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "5da3cc8d78e4bff5e79f129fb811fc6e",
+    "pagina_quiz": 23
+  },
+  {
+    "id_blocco": 4272,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21275,
+    "testo": "Il segnale raffigurato indica la località ed i numeri di telefono del più vicino comando di polizia stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "5da3cc8d78e4bff5e79f129fb811fc6e",
+    "pagina_quiz": 23
+  },
+  {
+    "id_blocco": 4272,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21276,
+    "testo": "Il segnale raffigurato indica la sede ed il numero telefonico del più vicino comando di polizia stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "5da3cc8d78e4bff5e79f129fb811fc6e",
+    "pagina_quiz": 23
+  },
+  {
+    "id_blocco": 4272,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21277,
+    "testo": "Il segnale raffigurato riporta alcuni dati (località, via, telefoni) del più vicino comando di polizia stradale",
+    "risposta_corretta": "VERO",
+    "immagine": "5da3cc8d78e4bff5e79f129fb811fc6e",
+    "pagina_quiz": 23
+  },
+  {
+    "id_blocco": 4272,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21278,
+    "testo": "Il segnale raffigurato indica un posto di blocco della polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": "5da3cc8d78e4bff5e79f129fb811fc6e",
+    "pagina_quiz": 23
+  },
+  {
+    "id_blocco": 4272,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21279,
+    "testo": "Il segnale raffigurato indica una strada interrotta per incidente stradale",
+    "risposta_corretta": "FALSO",
+    "immagine": "5da3cc8d78e4bff5e79f129fb811fc6e",
+    "pagina_quiz": 23
+  },
+  {
+    "id_blocco": 4272,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21280,
+    "testo": "Il segnale raffigurato indica una zona riservata al parcheggio dei veicoli della polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": "5da3cc8d78e4bff5e79f129fb811fc6e",
+    "pagina_quiz": 23
+  },
+  {
+    "id_blocco": 4272,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21281,
+    "testo": "Il segnale raffigurato indica la possibilità di incrociare una colonna di veicoli della polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": "5da3cc8d78e4bff5e79f129fb811fc6e",
+    "pagina_quiz": 23
+  },
+  {
+    "id_blocco": 4272,
+    "argomenti": [
+      "Segnali di indicazione"
+    ],
+    "numero": 21282,
+    "testo": "Il segnale raffigurato indica un tratto di strada riservato alla polizia",
+    "risposta_corretta": "FALSO",
+    "immagine": "5da3cc8d78e4bff5e79f129fb811fc6e",
+    "pagina_quiz": 24
+  }
+]

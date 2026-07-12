@@ -1,0 +1,170 @@
+[
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25217,
+    "testo": "L'A.B.S. impedisce alle ruote di bloccarsi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25218,
+    "testo": "L'A.B.S. consente di correggere la traiettoria del veicolo anche durante una frenata di emergenza",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25219,
+    "testo": "L'A.B.S. consente di utilizzare la massima forza aderente, in frenata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 584
+  },
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25220,
+    "testo": "L'A.B.S. è in grado di agire su tutte le ruote, intervenendo di volta in volta su quelle che stanno per bloccarsi durante la frenata",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 585
+  },
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25221,
+    "testo": "L'A.B.S. agisce anche quando gli pneumatici sono usurati",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 585
+  },
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25222,
+    "testo": "L'A.B.S. agisce anche quando l'asfalto è bagnato",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 585
+  },
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25223,
+    "testo": "L'A.B.S. rende la frenata più sicura perché impedisce alle ruote di bloccarsi",
+    "risposta_corretta": "VERO",
+    "immagine": null,
+    "pagina_quiz": 585
+  },
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25224,
+    "testo": "L'A.B.S. favorisce il bloccaggio delle ruote",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 585
+  },
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25225,
+    "testo": "L'A.B.S. impedisce , durante la frenata , di modificare la traiettoria del veicolo",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 585
+  },
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25226,
+    "testo": "L'A.B.S. impedisce di utilizzare la massima forza aderente , in frenata",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 585
+  },
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25227,
+    "testo": "L'A.B.S. non agisce sulle ruote motrici",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 585
+  },
+  {
+    "id_blocco": 4695,
+    "argomenti": [
+      "Elementi costitutivi del veicolo importanti per la sicurezza",
+      "manutenzione ed uso",
+      "stabilità e tenuta di strada del veicolo",
+      "comportamenti e cautele di guida"
+    ],
+    "numero": 25228,
+    "testo": "L'A.B.S. non si attiva se gli pneumatici sono usurati",
+    "risposta_corretta": "FALSO",
+    "immagine": null,
+    "pagina_quiz": 585
+  }
+]

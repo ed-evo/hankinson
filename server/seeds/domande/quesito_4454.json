@@ -1,0 +1,90 @@
+[
+  {
+    "id_blocco": 4454,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23102,
+    "testo": "Secondo le norme di precedenza possono impegnare l'incrocio rappresent ato in figura il veicolo D dopo l'attraversamento del veicolo R",
+    "risposta_corretta": "VERO",
+    "immagine": "8e82b775ecda8aff615e84d901ec3a50",
+    "pagina_quiz": 94
+  },
+  {
+    "id_blocco": 4454,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23103,
+    "testo": "Secondo le norme di precedenza possono impegnare l'incrocio rappresent ato in figura il veicolo B dopo l'attraversamento di tutti gli altri veicoli",
+    "risposta_corretta": "VERO",
+    "immagine": "8e82b775ecda8aff615e84d901ec3a50",
+    "pagina_quiz": 95
+  },
+  {
+    "id_blocco": 4454,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23104,
+    "testo": "Secondo le norme di precedenza possono impegnare l'incrocio rappresent ato in figura il veicolo R senza dare la precedenza ad alcun veicolo",
+    "risposta_corretta": "VERO",
+    "immagine": "8e82b775ecda8aff615e84d901ec3a50",
+    "pagina_quiz": 95
+  },
+  {
+    "id_blocco": 4454,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23105,
+    "testo": "Secondo le norme di precedenza possono impegnare l'incrocio rappresent ato in figura il veicolo B dopo l'attraversamento dei veicoli R e D",
+    "risposta_corretta": "VERO",
+    "immagine": "8e82b775ecda8aff615e84d901ec3a50",
+    "pagina_quiz": 95
+  },
+  {
+    "id_blocco": 4454,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23106,
+    "testo": "Secondo le norme di precedenza possono impegnare l'incrocio rappresent ato in figura il veicolo B contemporaneamente al veicolo R e prima di que llo D",
+    "risposta_corretta": "FALSO",
+    "immagine": "8e82b775ecda8aff615e84d901ec3a50",
+    "pagina_quiz": 95
+  },
+  {
+    "id_blocco": 4454,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23107,
+    "testo": "Secondo le norme di precedenza possono impegnare l'incrocio rappresent ato in figura il veicolo D prima degli altri veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "8e82b775ecda8aff615e84d901ec3a50",
+    "pagina_quiz": 95
+  },
+  {
+    "id_blocco": 4454,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23108,
+    "testo": "Secondo le norme di precedenza possono impegnare l'incrocio rappresent ato in figura il veicolo R dopo l'attraversamento dei veicoli B e D",
+    "risposta_corretta": "FALSO",
+    "immagine": "8e82b775ecda8aff615e84d901ec3a50",
+    "pagina_quiz": 95
+  },
+  {
+    "id_blocco": 4454,
+    "argomenti": [
+      "Esempi di precedenza (ordine di precedenza agli incroci)"
+    ],
+    "numero": 23109,
+    "testo": "Secondo le norme di precedenza possono impegnare l'incrocio rappresent ato in figura il veicolo B prima degli altri veicoli",
+    "risposta_corretta": "FALSO",
+    "immagine": "8e82b775ecda8aff615e84d901ec3a50",
+    "pagina_quiz": 95
+  }
+]
