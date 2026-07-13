@@ -2,6 +2,8 @@ package schema
 
 import (
 	"entgo.io/ent"
+	"entgo.io/ent/dialect/entsql"
+	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
 	"entgo.io/ent/schema/index"
@@ -12,9 +14,23 @@ type Argomento struct {
 	ent.Schema
 }
 
+func (Argomento) Annotations() []schema.Annotation {
+	return []schema.Annotation{
+		entsql.Annotation{
+			Table: "argomenti",
+		},
+	}
+}
+
 // Fields of the Argomento.
 func (Argomento) Fields() []ent.Field {
+	autoincremeent := false
 	return []ent.Field{
+		field.Int("id").
+			Unique().
+			Annotations(entsql.Annotation{
+				Incremental: &autoincremeent,
+			}),
 		field.String("nome").NotEmpty().Unique(),
 	}
 }

@@ -14,7 +14,7 @@ func init() {
 	argomentoFields := schema.Argomento{}.Fields()
 	_ = argomentoFields
 	// argomentoDescNome is the schema descriptor for nome field.
-	argomentoDescNome := argomentoFields[0].Descriptor()
+	argomentoDescNome := argomentoFields[1].Descriptor()
 	// argomento.NomeValidator is a validator for the "nome" field. It is called by the builders before save.
 	argomento.NomeValidator = argomentoDescNome.Validators[0].(func(string) error)
 }

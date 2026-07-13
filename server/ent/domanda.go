@@ -16,8 +16,6 @@ type Domanda struct {
 	config `json:"-"`
 	// ID of the ent.
 	ID int `json:"id,omitempty"`
-	// Numero holds the value of the "numero" field.
-	Numero int `json:"numero,omitempty"`
 	// Testo holds the value of the "testo" field.
 	Testo string `json:"testo,omitempty"`
 	// IsTrue holds the value of the "is_true" field.
@@ -59,7 +57,7 @@ func (*Domanda) scanValues(columns []string) ([]any, error) {
 		switch columns[i] {
 		case domanda.FieldIsTrue:
 			values[i] = new(sql.NullBool)
-		case domanda.FieldID, domanda.FieldNumero, domanda.FieldPaginaQuiz, domanda.FieldIDBlocco:
+		case domanda.FieldID, domanda.FieldPaginaQuiz, domanda.FieldIDBlocco:
 			values[i] = new(sql.NullInt64)
 		case domanda.FieldTesto, domanda.FieldImmagine:
 			values[i] = new(sql.NullString)
@@ -84,12 +82,6 @@ func (_m *Domanda) assignValues(columns []string, values []any) error {
 				return fmt.Errorf("unexpected type %T for field id", value)
 			}
 			_m.ID = int(value.Int64)
-		case domanda.FieldNumero:
-			if value, ok := values[i].(*sql.NullInt64); !ok {
-				return fmt.Errorf("unexpected type %T for field numero", values[i])
-			} else if value.Valid {
-				_m.Numero = int(value.Int64)
-			}
 		case domanda.FieldTesto:
 			if value, ok := values[i].(*sql.NullString); !ok {
 				return fmt.Errorf("unexpected type %T for field testo", values[i])
@@ -162,9 +154,6 @@ func (_m *Domanda) String() string {
 	var builder strings.Builder
 	builder.WriteString("Domanda(")
 	builder.WriteString(fmt.Sprintf("id=%v, ", _m.ID))
-	builder.WriteString("numero=")
-	builder.WriteString(fmt.Sprintf("%v", _m.Numero))
-	builder.WriteString(", ")
 	builder.WriteString("testo=")
 	builder.WriteString(_m.Testo)
 	builder.WriteString(", ")

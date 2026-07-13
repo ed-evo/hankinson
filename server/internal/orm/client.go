@@ -8,7 +8,7 @@ import (
 	"entgo.io/ent/dialect"
 	entsql "entgo.io/ent/dialect/sql"
 	"github.com/ed-evo/hankinson/server/ent"
-	"github.com/ed-evo/hankinson/server/seeds"
+	"github.com/ed-evo/hankinson/server/ent/seeds"
 
 	_ "modernc.org/sqlite"
 )
@@ -33,7 +33,7 @@ func GetClient(ctx context.Context) (*ent.Client, error) {
 		return nil, err
 	}
 
-	seeds.SeedDomande(ctx, client)
+	err = seeds.SeedDomande(ctx, db)
 
 	return client, err
 }

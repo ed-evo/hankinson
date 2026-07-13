@@ -28,27 +28,6 @@ func (_u *DomandaUpdate) Where(ps ...predicate.Domanda) *DomandaUpdate {
 	return _u
 }
 
-// SetNumero sets the "numero" field.
-func (_u *DomandaUpdate) SetNumero(v int) *DomandaUpdate {
-	_u.mutation.ResetNumero()
-	_u.mutation.SetNumero(v)
-	return _u
-}
-
-// SetNillableNumero sets the "numero" field if the given value is not nil.
-func (_u *DomandaUpdate) SetNillableNumero(v *int) *DomandaUpdate {
-	if v != nil {
-		_u.SetNumero(*v)
-	}
-	return _u
-}
-
-// AddNumero adds value to the "numero" field.
-func (_u *DomandaUpdate) AddNumero(v int) *DomandaUpdate {
-	_u.mutation.AddNumero(v)
-	return _u
-}
-
 // SetTesto sets the "testo" field.
 func (_u *DomandaUpdate) SetTesto(v string) *DomandaUpdate {
 	_u.mutation.SetTesto(v)
@@ -216,12 +195,6 @@ func (_u *DomandaUpdate) sqlSave(ctx context.Context) (_node int, err error) {
 			}
 		}
 	}
-	if value, ok := _u.mutation.Numero(); ok {
-		_spec.SetField(domanda.FieldNumero, field.TypeInt, value)
-	}
-	if value, ok := _u.mutation.AddedNumero(); ok {
-		_spec.AddField(domanda.FieldNumero, field.TypeInt, value)
-	}
 	if value, ok := _u.mutation.Testo(); ok {
 		_spec.SetField(domanda.FieldTesto, field.TypeString, value)
 	}
@@ -309,27 +282,6 @@ type DomandaUpdateOne struct {
 	fields   []string
 	hooks    []Hook
 	mutation *DomandaMutation
-}
-
-// SetNumero sets the "numero" field.
-func (_u *DomandaUpdateOne) SetNumero(v int) *DomandaUpdateOne {
-	_u.mutation.ResetNumero()
-	_u.mutation.SetNumero(v)
-	return _u
-}
-
-// SetNillableNumero sets the "numero" field if the given value is not nil.
-func (_u *DomandaUpdateOne) SetNillableNumero(v *int) *DomandaUpdateOne {
-	if v != nil {
-		_u.SetNumero(*v)
-	}
-	return _u
-}
-
-// AddNumero adds value to the "numero" field.
-func (_u *DomandaUpdateOne) AddNumero(v int) *DomandaUpdateOne {
-	_u.mutation.AddNumero(v)
-	return _u
 }
 
 // SetTesto sets the "testo" field.
@@ -528,12 +480,6 @@ func (_u *DomandaUpdateOne) sqlSave(ctx context.Context) (_node *Domanda, err er
 				ps[i](selector)
 			}
 		}
-	}
-	if value, ok := _u.mutation.Numero(); ok {
-		_spec.SetField(domanda.FieldNumero, field.TypeInt, value)
-	}
-	if value, ok := _u.mutation.AddedNumero(); ok {
-		_spec.AddField(domanda.FieldNumero, field.TypeInt, value)
 	}
 	if value, ok := _u.mutation.Testo(); ok {
 		_spec.SetField(domanda.FieldTesto, field.TypeString, value)

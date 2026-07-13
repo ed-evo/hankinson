@@ -16,13 +16,15 @@ const (
 	FieldNome = "nome"
 	// EdgeDomande holds the string denoting the domande edge name in mutations.
 	EdgeDomande = "domande"
+	// DomandaFieldID holds the string denoting the ID field of the Domanda.
+	DomandaFieldID = "numero"
 	// Table holds the table name of the argomento in the database.
-	Table = "argomentos"
+	Table = "argomenti"
 	// DomandeTable is the table that holds the domande relation/edge. The primary key declared below.
 	DomandeTable = "argomenti_domande"
 	// DomandeInverseTable is the table name for the Domanda entity.
 	// It exists in this package in order to avoid circular dependency with the "domanda" package.
-	DomandeInverseTable = "domandas"
+	DomandeInverseTable = "domande"
 )
 
 // Columns holds all SQL columns for argomento fields.
@@ -81,7 +83,7 @@ func ByDomande(term sql.OrderTerm, terms ...sql.OrderTerm) OrderOption {
 func newDomandeStep() *sqlgraph.Step {
 	return sqlgraph.NewStep(
 		sqlgraph.From(Table, FieldID),
-		sqlgraph.To(DomandeInverseTable, FieldID),
+		sqlgraph.To(DomandeInverseTable, DomandaFieldID),
 		sqlgraph.Edge(sqlgraph.M2M, false, DomandeTable, DomandePrimaryKey...),
 	)
 }

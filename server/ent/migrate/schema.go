@@ -3,59 +3,59 @@
 package migrate
 
 import (
+	"entgo.io/ent/dialect/entsql"
 	"entgo.io/ent/dialect/sql/schema"
 	"entgo.io/ent/schema/field"
 )
 
 var (
-	// ArgomentosColumns holds the columns for the "argomentos" table.
-	ArgomentosColumns = []*schema.Column{
-		{Name: "id", Type: field.TypeInt, Increment: true},
+	// ArgomentiColumns holds the columns for the "argomenti" table.
+	ArgomentiColumns = []*schema.Column{
+		{Name: "id", Type: field.TypeInt},
 		{Name: "nome", Type: field.TypeString, Unique: true},
 	}
-	// ArgomentosTable holds the schema information for the "argomentos" table.
-	ArgomentosTable = &schema.Table{
-		Name:       "argomentos",
-		Columns:    ArgomentosColumns,
-		PrimaryKey: []*schema.Column{ArgomentosColumns[0]},
+	// ArgomentiTable holds the schema information for the "argomenti" table.
+	ArgomentiTable = &schema.Table{
+		Name:       "argomenti",
+		Columns:    ArgomentiColumns,
+		PrimaryKey: []*schema.Column{ArgomentiColumns[0]},
 		Indexes: []*schema.Index{
 			{
 				Name:    "argomento_nome",
 				Unique:  false,
-				Columns: []*schema.Column{ArgomentosColumns[1]},
+				Columns: []*schema.Column{ArgomentiColumns[1]},
 			},
 		},
 	}
-	// DomandasColumns holds the columns for the "domandas" table.
-	DomandasColumns = []*schema.Column{
-		{Name: "id", Type: field.TypeInt, Increment: true},
-		{Name: "numero", Type: field.TypeInt, Unique: true},
+	// DomandeColumns holds the columns for the "domande" table.
+	DomandeColumns = []*schema.Column{
+		{Name: "numero", Type: field.TypeInt},
 		{Name: "testo", Type: field.TypeString, Size: 2147483647},
 		{Name: "is_true", Type: field.TypeBool},
 		{Name: "immagine", Type: field.TypeString, Nullable: true},
 		{Name: "pagina_quiz", Type: field.TypeInt},
 		{Name: "id_blocco", Type: field.TypeInt},
 	}
-	// DomandasTable holds the schema information for the "domandas" table.
-	DomandasTable = &schema.Table{
-		Name:       "domandas",
-		Columns:    DomandasColumns,
-		PrimaryKey: []*schema.Column{DomandasColumns[0]},
+	// DomandeTable holds the schema information for the "domande" table.
+	DomandeTable = &schema.Table{
+		Name:       "domande",
+		Columns:    DomandeColumns,
+		PrimaryKey: []*schema.Column{DomandeColumns[0]},
 		Indexes: []*schema.Index{
 			{
 				Name:    "domanda_is_true",
 				Unique:  false,
-				Columns: []*schema.Column{DomandasColumns[3]},
+				Columns: []*schema.Column{DomandeColumns[2]},
 			},
 			{
 				Name:    "domanda_id_blocco",
 				Unique:  false,
-				Columns: []*schema.Column{DomandasColumns[6]},
+				Columns: []*schema.Column{DomandeColumns[5]},
 			},
 			{
 				Name:    "domanda_pagina_quiz",
 				Unique:  false,
-				Columns: []*schema.Column{DomandasColumns[5]},
+				Columns: []*schema.Column{DomandeColumns[4]},
 			},
 		},
 	}
@@ -73,26 +73,32 @@ var (
 			{
 				Symbol:     "argomenti_domande_argomento_id",
 				Columns:    []*schema.Column{ArgomentiDomandeColumns[0]},
-				RefColumns: []*schema.Column{ArgomentosColumns[0]},
+				RefColumns: []*schema.Column{ArgomentiColumns[0]},
 				OnDelete:   schema.Cascade,
 			},
 			{
 				Symbol:     "argomenti_domande_domanda_id",
 				Columns:    []*schema.Column{ArgomentiDomandeColumns[1]},
-				RefColumns: []*schema.Column{DomandasColumns[0]},
+				RefColumns: []*schema.Column{DomandeColumns[0]},
 				OnDelete:   schema.Cascade,
 			},
 		},
 	}
 	// Tables holds all the tables in the schema.
 	Tables = []*schema.Table{
-		ArgomentosTable,
-		DomandasTable,
+		ArgomentiTable,
+		DomandeTable,
 		ArgomentiDomandeTable,
 	}
 )
 
 func init() {
-	ArgomentiDomandeTable.ForeignKeys[0].RefTable = ArgomentosTable
-	ArgomentiDomandeTable.ForeignKeys[1].RefTable = DomandasTable
+	ArgomentiTable.Annotation = &entsql.Annotation{
+		Table: "argomenti",
+	}
+	DomandeTable.Annotation = &entsql.Annotation{
+		Table: "domande",
+	}
+	ArgomentiDomandeTable.ForeignKeys[0].RefTable = ArgomentiTable
+	ArgomentiDomandeTable.ForeignKeys[1].RefTable = DomandeTable
 }

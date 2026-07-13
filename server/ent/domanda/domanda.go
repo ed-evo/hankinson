@@ -11,9 +11,7 @@ const (
 	// Label holds the string label denoting the domanda type in the database.
 	Label = "domanda"
 	// FieldID holds the string denoting the id field in the database.
-	FieldID = "id"
-	// FieldNumero holds the string denoting the numero field in the database.
-	FieldNumero = "numero"
+	FieldID = "numero"
 	// FieldTesto holds the string denoting the testo field in the database.
 	FieldTesto = "testo"
 	// FieldIsTrue holds the string denoting the is_true field in the database.
@@ -26,19 +24,20 @@ const (
 	FieldIDBlocco = "id_blocco"
 	// EdgeArgomenti holds the string denoting the argomenti edge name in mutations.
 	EdgeArgomenti = "argomenti"
+	// ArgomentoFieldID holds the string denoting the ID field of the Argomento.
+	ArgomentoFieldID = "id"
 	// Table holds the table name of the domanda in the database.
-	Table = "domandas"
+	Table = "domande"
 	// ArgomentiTable is the table that holds the argomenti relation/edge. The primary key declared below.
 	ArgomentiTable = "argomenti_domande"
 	// ArgomentiInverseTable is the table name for the Argomento entity.
 	// It exists in this package in order to avoid circular dependency with the "argomento" package.
-	ArgomentiInverseTable = "argomentos"
+	ArgomentiInverseTable = "argomenti"
 )
 
 // Columns holds all SQL columns for domanda fields.
 var Columns = []string{
 	FieldID,
-	FieldNumero,
 	FieldTesto,
 	FieldIsTrue,
 	FieldImmagine,
@@ -68,11 +67,6 @@ type OrderOption func(*sql.Selector)
 // ByID orders the results by the id field.
 func ByID(opts ...sql.OrderTermOption) OrderOption {
 	return sql.OrderByField(FieldID, opts...).ToFunc()
-}
-
-// ByNumero orders the results by the numero field.
-func ByNumero(opts ...sql.OrderTermOption) OrderOption {
-	return sql.OrderByField(FieldNumero, opts...).ToFunc()
 }
 
 // ByTesto orders the results by the testo field.
@@ -116,7 +110,7 @@ func ByArgomenti(term sql.OrderTerm, terms ...sql.OrderTerm) OrderOption {
 func newArgomentiStep() *sqlgraph.Step {
 	return sqlgraph.NewStep(
 		sqlgraph.From(Table, FieldID),
-		sqlgraph.To(ArgomentiInverseTable, FieldID),
+		sqlgraph.To(ArgomentiInverseTable, ArgomentoFieldID),
 		sqlgraph.Edge(sqlgraph.M2M, true, ArgomentiTable, ArgomentiPrimaryKey...),
 	)
 }

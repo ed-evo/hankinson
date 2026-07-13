@@ -114,6 +114,12 @@ func (m ArgomentoMutation) Tx() (*Tx, error) {
 	return tx, nil
 }
 
+// SetID sets the value of the id field. Note that this
+// operation is only accepted on creation of Argomento entities.
+func (m *ArgomentoMutation) SetID(id int) {
+	m.id = &id
+}
+
 // ID returns the ID value in the mutation. Note that the ID is only available
 // if it was provided to the builder or after it was returned from the database.
 func (m *ArgomentoMutation) ID() (id int, exists bool) {
@@ -453,8 +459,6 @@ type DomandaMutation struct {
 	op               Op
 	typ              string
 	id               *int
-	numero           *int
-	addnumero        *int
 	testo            *string
 	is_true          *bool
 	immagine         *string
@@ -541,6 +545,12 @@ func (m DomandaMutation) Tx() (*Tx, error) {
 	return tx, nil
 }
 
+// SetID sets the value of the id field. Note that this
+// operation is only accepted on creation of Domanda entities.
+func (m *DomandaMutation) SetID(id int) {
+	m.id = &id
+}
+
 // ID returns the ID value in the mutation. Note that the ID is only available
 // if it was provided to the builder or after it was returned from the database.
 func (m *DomandaMutation) ID() (id int, exists bool) {
@@ -567,62 +577,6 @@ func (m *DomandaMutation) IDs(ctx context.Context) ([]int, error) {
 	default:
 		return nil, fmt.Errorf("IDs is not allowed on %s operations", m.op)
 	}
-}
-
-// SetNumero sets the "numero" field.
-func (m *DomandaMutation) SetNumero(i int) {
-	m.numero = &i
-	m.addnumero = nil
-}
-
-// Numero returns the value of the "numero" field in the mutation.
-func (m *DomandaMutation) Numero() (r int, exists bool) {
-	v := m.numero
-	if v == nil {
-		return
-	}
-	return *v, true
-}
-
-// OldNumero returns the old "numero" field's value of the Domanda entity.
-// If the Domanda object wasn't provided to the builder, the object is fetched from the database.
-// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
-func (m *DomandaMutation) OldNumero(ctx context.Context) (v int, err error) {
-	if !m.op.Is(OpUpdateOne) {
-		return v, errors.New("OldNumero is only allowed on UpdateOne operations")
-	}
-	if m.id == nil || m.oldValue == nil {
-		return v, errors.New("OldNumero requires an ID field in the mutation")
-	}
-	oldValue, err := m.oldValue(ctx)
-	if err != nil {
-		return v, fmt.Errorf("querying old value for OldNumero: %w", err)
-	}
-	return oldValue.Numero, nil
-}
-
-// AddNumero adds i to the "numero" field.
-func (m *DomandaMutation) AddNumero(i int) {
-	if m.addnumero != nil {
-		*m.addnumero += i
-	} else {
-		m.addnumero = &i
-	}
-}
-
-// AddedNumero returns the value that was added to the "numero" field in this mutation.
-func (m *DomandaMutation) AddedNumero() (r int, exists bool) {
-	v := m.addnumero
-	if v == nil {
-		return
-	}
-	return *v, true
-}
-
-// ResetNumero resets all changes to the "numero" field.
-func (m *DomandaMutation) ResetNumero() {
-	m.numero = nil
-	m.addnumero = nil
 }
 
 // SetTesto sets the "testo" field.
@@ -946,10 +900,7 @@ func (m *DomandaMutation) Type() string {
 // order to get all numeric fields that were incremented/decremented, call
 // AddedFields().
 func (m *DomandaMutation) Fields() []string {
-	fields := make([]string, 0, 6)
-	if m.numero != nil {
-		fields = append(fields, domanda.FieldNumero)
-	}
+	fields := make([]string, 0, 5)
 	if m.testo != nil {
 		fields = append(fields, domanda.FieldTesto)
 	}
@@ -973,8 +924,6 @@ func (m *DomandaMutation) Fields() []string {
 // schema.
 func (m *DomandaMutation) Field(name string) (ent.Value, bool) {
 	switch name {
-	case domanda.FieldNumero:
-		return m.Numero()
 	case domanda.FieldTesto:
 		return m.Testo()
 	case domanda.FieldIsTrue:
@@ -994,8 +943,6 @@ func (m *DomandaMutation) Field(name string) (ent.Value, bool) {
 // database failed.
 func (m *DomandaMutation) OldField(ctx context.Context, name string) (ent.Value, error) {
 	switch name {
-	case domanda.FieldNumero:
-		return m.OldNumero(ctx)
 	case domanda.FieldTesto:
 		return m.OldTesto(ctx)
 	case domanda.FieldIsTrue:
@@ -1015,13 +962,6 @@ func (m *DomandaMutation) OldField(ctx context.Context, name string) (ent.Value,
 // type.
 func (m *DomandaMutation) SetField(name string, value ent.Value) error {
 	switch name {
-	case domanda.FieldNumero:
-		v, ok := value.(int)
-		if !ok {
-			return fmt.Errorf("unexpected type %T for field %s", value, name)
-		}
-		m.SetNumero(v)
-		return nil
 	case domanda.FieldTesto:
 		v, ok := value.(string)
 		if !ok {
@@ -1065,9 +1005,6 @@ func (m *DomandaMutation) SetField(name string, value ent.Value) error {
 // this mutation.
 func (m *DomandaMutation) AddedFields() []string {
 	var fields []string
-	if m.addnumero != nil {
-		fields = append(fields, domanda.FieldNumero)
-	}
 	if m.addpagina_quiz != nil {
 		fields = append(fields, domanda.FieldPaginaQuiz)
 	}
@@ -1082,8 +1019,6 @@ func (m *DomandaMutation) AddedFields() []string {
 // was not set, or was not defined in the schema.
 func (m *DomandaMutation) AddedField(name string) (ent.Value, bool) {
 	switch name {
-	case domanda.FieldNumero:
-		return m.AddedNumero()
 	case domanda.FieldPaginaQuiz:
 		return m.AddedPaginaQuiz()
 	case domanda.FieldIDBlocco:
@@ -1097,13 +1032,6 @@ func (m *DomandaMutation) AddedField(name string) (ent.Value, bool) {
 // type.
 func (m *DomandaMutation) AddField(name string, value ent.Value) error {
 	switch name {
-	case domanda.FieldNumero:
-		v, ok := value.(int)
-		if !ok {
-			return fmt.Errorf("unexpected type %T for field %s", value, name)
-		}
-		m.AddNumero(v)
-		return nil
 	case domanda.FieldPaginaQuiz:
 		v, ok := value.(int)
 		if !ok {
@@ -1154,9 +1082,6 @@ func (m *DomandaMutation) ClearField(name string) error {
 // It returns an error if the field is not defined in the schema.
 func (m *DomandaMutation) ResetField(name string) error {
 	switch name {
-	case domanda.FieldNumero:
-		m.ResetNumero()
-		return nil
 	case domanda.FieldTesto:
 		m.ResetTesto()
 		return nil

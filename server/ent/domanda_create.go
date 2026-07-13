@@ -22,12 +22,6 @@ type DomandaCreate struct {
 	conflict []sql.ConflictOption
 }
 
-// SetNumero sets the "numero" field.
-func (_c *DomandaCreate) SetNumero(v int) *DomandaCreate {
-	_c.mutation.SetNumero(v)
-	return _c
-}
-
 // SetTesto sets the "testo" field.
 func (_c *DomandaCreate) SetTesto(v string) *DomandaCreate {
 	_c.mutation.SetTesto(v)
@@ -63,6 +57,12 @@ func (_c *DomandaCreate) SetPaginaQuiz(v int) *DomandaCreate {
 // SetIDBlocco sets the "id_blocco" field.
 func (_c *DomandaCreate) SetIDBlocco(v int) *DomandaCreate {
 	_c.mutation.SetIDBlocco(v)
+	return _c
+}
+
+// SetID sets the "id" field.
+func (_c *DomandaCreate) SetID(v int) *DomandaCreate {
+	_c.mutation.SetID(v)
 	return _c
 }
 
@@ -115,9 +115,6 @@ func (_c *DomandaCreate) ExecX(ctx context.Context) {
 
 // check runs all checks and user-defined validators on the builder.
 func (_c *DomandaCreate) check() error {
-	if _, ok := _c.mutation.Numero(); !ok {
-		return &ValidationError{Name: "numero", err: errors.New(`ent: missing required field "Domanda.numero"`)}
-	}
 	if _, ok := _c.mutation.Testo(); !ok {
 		return &ValidationError{Name: "testo", err: errors.New(`ent: missing required field "Domanda.testo"`)}
 	}
@@ -144,8 +141,10 @@ func (_c *DomandaCreate) sqlSave(ctx context.Context) (*Domanda, error) {
 		}
 		return nil, err
 	}
-	id := _spec.ID.Value.(int64)
-	_node.ID = int(id)
+	if _spec.ID.Value != _node.ID {
+		id := _spec.ID.Value.(int64)
+		_node.ID = int(id)
+	}
 	_c.mutation.id = &_node.ID
 	_c.mutation.done = true
 	return _node, nil
@@ -157,9 +156,9 @@ func (_c *DomandaCreate) createSpec() (*Domanda, *sqlgraph.CreateSpec) {
 		_spec = sqlgraph.NewCreateSpec(domanda.Table, sqlgraph.NewFieldSpec(domanda.FieldID, field.TypeInt))
 	)
 	_spec.OnConflict = _c.conflict
-	if value, ok := _c.mutation.Numero(); ok {
-		_spec.SetField(domanda.FieldNumero, field.TypeInt, value)
-		_node.Numero = value
+	if id, ok := _c.mutation.ID(); ok {
+		_node.ID = id
+		_spec.ID.Value = id
 	}
 	if value, ok := _c.mutation.Testo(); ok {
 		_spec.SetField(domanda.FieldTesto, field.TypeString, value)
@@ -204,7 +203,7 @@ func (_c *DomandaCreate) createSpec() (*Domanda, *sqlgraph.CreateSpec) {
 // of the `INSERT` statement. For example:
 //
 //	client.Domanda.Create().
-//		SetNumero(v).
+//		SetTesto(v).
 //		OnConflict(
 //			// Update the row with the new values
 //			// the was proposed for insertion.
@@ -213,7 +212,7 @@ func (_c *DomandaCreate) createSpec() (*Domanda, *sqlgraph.CreateSpec) {
 //		// Override some of the fields with custom
 //		// update values.
 //		Update(func(u *ent.DomandaUpsert) {
-//			SetNumero(v+v).
+//			SetTesto(v+v).
 //		}).
 //		Exec(ctx)
 func (_c *DomandaCreate) OnConflict(opts ...sql.ConflictOption) *DomandaUpsertOne {
@@ -248,24 +247,6 @@ type (
 		*sql.UpdateSet
 	}
 )
-
-// SetNumero sets the "numero" field.
-func (u *DomandaUpsert) SetNumero(v int) *DomandaUpsert {
-	u.Set(domanda.FieldNumero, v)
-	return u
-}
-
-// UpdateNumero sets the "numero" field to the value that was provided on create.
-func (u *DomandaUpsert) UpdateNumero() *DomandaUpsert {
-	u.SetExcluded(domanda.FieldNumero)
-	return u
-}
-
-// AddNumero adds v to the "numero" field.
-func (u *DomandaUpsert) AddNumero(v int) *DomandaUpsert {
-	u.Add(domanda.FieldNumero, v)
-	return u
-}
 
 // SetTesto sets the "testo" field.
 func (u *DomandaUpsert) SetTesto(v string) *DomandaUpsert {
@@ -345,16 +326,24 @@ func (u *DomandaUpsert) AddIDBlocco(v int) *DomandaUpsert {
 	return u
 }
 
-// UpdateNewValues updates the mutable fields using the new values that were set on create.
+// UpdateNewValues updates the mutable fields using the new values that were set on create except the ID field.
 // Using this option is equivalent to using:
 //
 //	client.Domanda.Create().
 //		OnConflict(
 //			sql.ResolveWithNewValues(),
+//			sql.ResolveWith(func(u *sql.UpdateSet) {
+//				u.SetIgnore(domanda.FieldID)
+//			}),
 //		).
 //		Exec(ctx)
 func (u *DomandaUpsertOne) UpdateNewValues() *DomandaUpsertOne {
 	u.create.conflict = append(u.create.conflict, sql.ResolveWithNewValues())
+	u.create.conflict = append(u.create.conflict, sql.ResolveWith(func(s *sql.UpdateSet) {
+		if _, exists := u.create.mutation.ID(); exists {
+			s.SetIgnore(domanda.FieldID)
+		}
+	}))
 	return u
 }
 
@@ -383,27 +372,6 @@ func (u *DomandaUpsertOne) Update(set func(*DomandaUpsert)) *DomandaUpsertOne {
 		set(&DomandaUpsert{UpdateSet: update})
 	}))
 	return u
-}
-
-// SetNumero sets the "numero" field.
-func (u *DomandaUpsertOne) SetNumero(v int) *DomandaUpsertOne {
-	return u.Update(func(s *DomandaUpsert) {
-		s.SetNumero(v)
-	})
-}
-
-// AddNumero adds v to the "numero" field.
-func (u *DomandaUpsertOne) AddNumero(v int) *DomandaUpsertOne {
-	return u.Update(func(s *DomandaUpsert) {
-		s.AddNumero(v)
-	})
-}
-
-// UpdateNumero sets the "numero" field to the value that was provided on create.
-func (u *DomandaUpsertOne) UpdateNumero() *DomandaUpsertOne {
-	return u.Update(func(s *DomandaUpsert) {
-		s.UpdateNumero()
-	})
 }
 
 // SetTesto sets the "testo" field.
@@ -576,7 +544,7 @@ func (_c *DomandaCreateBulk) Save(ctx context.Context) ([]*Domanda, error) {
 					return nil, err
 				}
 				mutation.id = &nodes[i].ID
-				if specs[i].ID.Value != nil {
+				if specs[i].ID.Value != nil && nodes[i].ID == 0 {
 					id := specs[i].ID.Value.(int64)
 					nodes[i].ID = int(id)
 				}
@@ -631,7 +599,7 @@ func (_c *DomandaCreateBulk) ExecX(ctx context.Context) {
 //		// Override some of the fields with custom
 //		// update values.
 //		Update(func(u *ent.DomandaUpsert) {
-//			SetNumero(v+v).
+//			SetTesto(v+v).
 //		}).
 //		Exec(ctx)
 func (_c *DomandaCreateBulk) OnConflict(opts ...sql.ConflictOption) *DomandaUpsertBulk {
@@ -666,10 +634,20 @@ type DomandaUpsertBulk struct {
 //	client.Domanda.Create().
 //		OnConflict(
 //			sql.ResolveWithNewValues(),
+//			sql.ResolveWith(func(u *sql.UpdateSet) {
+//				u.SetIgnore(domanda.FieldID)
+//			}),
 //		).
 //		Exec(ctx)
 func (u *DomandaUpsertBulk) UpdateNewValues() *DomandaUpsertBulk {
 	u.create.conflict = append(u.create.conflict, sql.ResolveWithNewValues())
+	u.create.conflict = append(u.create.conflict, sql.ResolveWith(func(s *sql.UpdateSet) {
+		for _, b := range u.create.builders {
+			if _, exists := b.mutation.ID(); exists {
+				s.SetIgnore(domanda.FieldID)
+			}
+		}
+	}))
 	return u
 }
 
@@ -698,27 +676,6 @@ func (u *DomandaUpsertBulk) Update(set func(*DomandaUpsert)) *DomandaUpsertBulk 
 		set(&DomandaUpsert{UpdateSet: update})
 	}))
 	return u
-}
-
-// SetNumero sets the "numero" field.
-func (u *DomandaUpsertBulk) SetNumero(v int) *DomandaUpsertBulk {
-	return u.Update(func(s *DomandaUpsert) {
-		s.SetNumero(v)
-	})
-}
-
-// AddNumero adds v to the "numero" field.
-func (u *DomandaUpsertBulk) AddNumero(v int) *DomandaUpsertBulk {
-	return u.Update(func(s *DomandaUpsert) {
-		s.AddNumero(v)
-	})
-}
-
-// UpdateNumero sets the "numero" field to the value that was provided on create.
-func (u *DomandaUpsertBulk) UpdateNumero() *DomandaUpsertBulk {
-	return u.Update(func(s *DomandaUpsert) {
-		s.UpdateNumero()
-	})
 }
 
 // SetTesto sets the "testo" field.

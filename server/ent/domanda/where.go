@@ -53,11 +53,6 @@ func IDLTE(id int) predicate.Domanda {
 	return predicate.Domanda(sql.FieldLTE(FieldID, id))
 }
 
-// Numero applies equality check predicate on the "numero" field. It's identical to NumeroEQ.
-func Numero(v int) predicate.Domanda {
-	return predicate.Domanda(sql.FieldEQ(FieldNumero, v))
-}
-
 // Testo applies equality check predicate on the "testo" field. It's identical to TestoEQ.
 func Testo(v string) predicate.Domanda {
 	return predicate.Domanda(sql.FieldEQ(FieldTesto, v))
@@ -81,46 +76,6 @@ func PaginaQuiz(v int) predicate.Domanda {
 // IDBlocco applies equality check predicate on the "id_blocco" field. It's identical to IDBloccoEQ.
 func IDBlocco(v int) predicate.Domanda {
 	return predicate.Domanda(sql.FieldEQ(FieldIDBlocco, v))
-}
-
-// NumeroEQ applies the EQ predicate on the "numero" field.
-func NumeroEQ(v int) predicate.Domanda {
-	return predicate.Domanda(sql.FieldEQ(FieldNumero, v))
-}
-
-// NumeroNEQ applies the NEQ predicate on the "numero" field.
-func NumeroNEQ(v int) predicate.Domanda {
-	return predicate.Domanda(sql.FieldNEQ(FieldNumero, v))
-}
-
-// NumeroIn applies the In predicate on the "numero" field.
-func NumeroIn(vs ...int) predicate.Domanda {
-	return predicate.Domanda(sql.FieldIn(FieldNumero, vs...))
-}
-
-// NumeroNotIn applies the NotIn predicate on the "numero" field.
-func NumeroNotIn(vs ...int) predicate.Domanda {
-	return predicate.Domanda(sql.FieldNotIn(FieldNumero, vs...))
-}
-
-// NumeroGT applies the GT predicate on the "numero" field.
-func NumeroGT(v int) predicate.Domanda {
-	return predicate.Domanda(sql.FieldGT(FieldNumero, v))
-}
-
-// NumeroGTE applies the GTE predicate on the "numero" field.
-func NumeroGTE(v int) predicate.Domanda {
-	return predicate.Domanda(sql.FieldGTE(FieldNumero, v))
-}
-
-// NumeroLT applies the LT predicate on the "numero" field.
-func NumeroLT(v int) predicate.Domanda {
-	return predicate.Domanda(sql.FieldLT(FieldNumero, v))
-}
-
-// NumeroLTE applies the LTE predicate on the "numero" field.
-func NumeroLTE(v int) predicate.Domanda {
-	return predicate.Domanda(sql.FieldLTE(FieldNumero, v))
 }
 
 // TestoEQ applies the EQ predicate on the "testo" field.

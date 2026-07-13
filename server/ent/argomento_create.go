@@ -28,6 +28,12 @@ func (_c *ArgomentoCreate) SetNome(v string) *ArgomentoCreate {
 	return _c
 }
 
+// SetID sets the "id" field.
+func (_c *ArgomentoCreate) SetID(v int) *ArgomentoCreate {
+	_c.mutation.SetID(v)
+	return _c
+}
+
 // AddDomandeIDs adds the "domande" edge to the Domanda entity by IDs.
 func (_c *ArgomentoCreate) AddDomandeIDs(ids ...int) *ArgomentoCreate {
 	_c.mutation.AddDomandeIDs(ids...)
@@ -99,8 +105,10 @@ func (_c *ArgomentoCreate) sqlSave(ctx context.Context) (*Argomento, error) {
 		}
 		return nil, err
 	}
-	id := _spec.ID.Value.(int64)
-	_node.ID = int(id)
+	if _spec.ID.Value != _node.ID {
+		id := _spec.ID.Value.(int64)
+		_node.ID = int(id)
+	}
 	_c.mutation.id = &_node.ID
 	_c.mutation.done = true
 	return _node, nil
@@ -112,6 +120,10 @@ func (_c *ArgomentoCreate) createSpec() (*Argomento, *sqlgraph.CreateSpec) {
 		_spec = sqlgraph.NewCreateSpec(argomento.Table, sqlgraph.NewFieldSpec(argomento.FieldID, field.TypeInt))
 	)
 	_spec.OnConflict = _c.conflict
+	if id, ok := _c.mutation.ID(); ok {
+		_node.ID = id
+		_spec.ID.Value = id
+	}
 	if value, ok := _c.mutation.Nome(); ok {
 		_spec.SetField(argomento.FieldNome, field.TypeString, value)
 		_node.Nome = value
@@ -196,16 +208,24 @@ func (u *ArgomentoUpsert) UpdateNome() *ArgomentoUpsert {
 	return u
 }
 
-// UpdateNewValues updates the mutable fields using the new values that were set on create.
+// UpdateNewValues updates the mutable fields using the new values that were set on create except the ID field.
 // Using this option is equivalent to using:
 //
 //	client.Argomento.Create().
 //		OnConflict(
 //			sql.ResolveWithNewValues(),
+//			sql.ResolveWith(func(u *sql.UpdateSet) {
+//				u.SetIgnore(argomento.FieldID)
+//			}),
 //		).
 //		Exec(ctx)
 func (u *ArgomentoUpsertOne) UpdateNewValues() *ArgomentoUpsertOne {
 	u.create.conflict = append(u.create.conflict, sql.ResolveWithNewValues())
+	u.create.conflict = append(u.create.conflict, sql.ResolveWith(func(s *sql.UpdateSet) {
+		if _, exists := u.create.mutation.ID(); exists {
+			s.SetIgnore(argomento.FieldID)
+		}
+	}))
 	return u
 }
 
@@ -329,7 +349,7 @@ func (_c *ArgomentoCreateBulk) Save(ctx context.Context) ([]*Argomento, error) {
 					return nil, err
 				}
 				mutation.id = &nodes[i].ID
-				if specs[i].ID.Value != nil {
+				if specs[i].ID.Value != nil && nodes[i].ID == 0 {
 					id := specs[i].ID.Value.(int64)
 					nodes[i].ID = int(id)
 				}
@@ -419,10 +439,20 @@ type ArgomentoUpsertBulk struct {
 //	client.Argomento.Create().
 //		OnConflict(
 //			sql.ResolveWithNewValues(),
+//			sql.ResolveWith(func(u *sql.UpdateSet) {
+//				u.SetIgnore(argomento.FieldID)
+//			}),
 //		).
 //		Exec(ctx)
 func (u *ArgomentoUpsertBulk) UpdateNewValues() *ArgomentoUpsertBulk {
 	u.create.conflict = append(u.create.conflict, sql.ResolveWithNewValues())
+	u.create.conflict = append(u.create.conflict, sql.ResolveWith(func(s *sql.UpdateSet) {
+		for _, b := range u.create.builders {
+			if _, exists := b.mutation.ID(); exists {
+				s.SetIgnore(argomento.FieldID)
+			}
+		}
+	}))
 	return u
 }
 

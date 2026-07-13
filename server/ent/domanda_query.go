@@ -299,12 +299,12 @@ func (_q *DomandaQuery) WithArgomenti(opts ...func(*ArgomentoQuery)) *DomandaQue
 // Example:
 //
 //	var v []struct {
-//		Numero int `json:"numero,omitempty"`
+//		Testo string `json:"testo,omitempty"`
 //		Count int `json:"count,omitempty"`
 //	}
 //
 //	client.Domanda.Query().
-//		GroupBy(domanda.FieldNumero).
+//		GroupBy(domanda.FieldTesto).
 //		Aggregate(ent.Count()).
 //		Scan(ctx, &v)
 func (_q *DomandaQuery) GroupBy(field string, fields ...string) *DomandaGroupBy {
@@ -322,11 +322,11 @@ func (_q *DomandaQuery) GroupBy(field string, fields ...string) *DomandaGroupBy 
 // Example:
 //
 //	var v []struct {
-//		Numero int `json:"numero,omitempty"`
+//		Testo string `json:"testo,omitempty"`
 //	}
 //
 //	client.Domanda.Query().
-//		Select(domanda.FieldNumero).
+//		Select(domanda.FieldTesto).
 //		Scan(ctx, &v)
 func (_q *DomandaQuery) Select(fields ...string) *DomandaSelect {
 	_q.ctx.Fields = append(_q.ctx.Fields, fields...)
