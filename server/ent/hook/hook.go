@@ -21,6 +21,18 @@ func (f ArgomentoFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, e
 	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.ArgomentoMutation", m)
 }
 
+// The CapitoloFunc type is an adapter to allow the use of ordinary
+// function as Capitolo mutator.
+type CapitoloFunc func(context.Context, *ent.CapitoloMutation) (ent.Value, error)
+
+// Mutate calls f(ctx, m).
+func (f CapitoloFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, error) {
+	if mv, ok := m.(*ent.CapitoloMutation); ok {
+		return f(ctx, mv)
+	}
+	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.CapitoloMutation", m)
+}
+
 // The DomandaFunc type is an adapter to allow the use of ordinary
 // function as Domanda mutator.
 type DomandaFunc func(context.Context, *ent.DomandaMutation) (ent.Value, error)

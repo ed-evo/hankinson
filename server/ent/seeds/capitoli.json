@@ -1,0 +1,177 @@
+[
+    {
+        "capitolo": 1,
+        "nome": "Definizioni generali e doveri",
+        "min": 18315,
+        "max": 18849,
+        "atteso": 531
+    },
+    {
+        "capitolo": 2,
+        "nome": "Segnali di pericolo",
+        "min": 18850,
+        "max": 19511,
+        "atteso": 662
+    },
+    {
+        "capitolo": 3,
+        "nome": "Segnali di divieto",
+        "min": 19512,
+        "max": 20032,
+        "atteso": 519
+    },
+    {
+        "capitolo": 4,
+        "nome": "Segnali di obbligo",
+        "min": 20033,
+        "max": 20465,
+        "atteso": 431
+    },
+    {
+        "capitolo": 5,
+        "nome": "Segnali di precedenza",
+        "min": 20466,
+        "max": 20708,
+        "atteso": 243
+    },
+    {
+        "capitolo": 6,
+        "nome": "Segnaletica orizzontale",
+        "min": 20709,
+        "max": 20969,
+        "atteso": 259
+    },
+    {
+        "capitolo": 7,
+        "nome": "Semafori e Agenti",
+        "min": 20970,
+        "max": 21222,
+        "atteso": 252
+    },
+    {
+        "capitolo": 8,
+        "nome": "Segnali di indicazione",
+        "min": 21223,
+        "max": 21825,
+        "atteso": 603
+    },
+    {
+        "capitolo": 9,
+        "nome": "Segnali temporanei e complementari",
+        "min": 21826,
+        "max": 22006,
+        "atteso": 180
+    },
+    {
+        "capitolo": 10,
+        "nome": "Pannelli integrativi",
+        "min": 22007,
+        "max": 22269,
+        "atteso": 261
+    },
+    {
+        "capitolo": 11,
+        "nome": "Limiti, velocità e passaggi a livello",
+        "min": 22270,
+        "max": 22526,
+        "atteso": 256
+    },
+    {
+        "capitolo": 12,
+        "nome": "Distanza di sicurezza",
+        "min": 22527,
+        "max": 22661,
+        "atteso": 134
+    },
+    {
+        "capitolo": 13,
+        "nome": "Norme di comportamento sulla strada",
+        "min": 22662,
+        "max": 23041,
+        "atteso": 379
+    },
+    {
+        "capitolo": 14,
+        "nome": "Incroci e precedenze (Esempi)",
+        "min": 23042,
+        "max": 23456,
+        "atteso": 415
+    },
+    {
+        "capitolo": 15,
+        "nome": "Norme sul sorpasso",
+        "min": 23457,
+        "max": 23613,
+        "atteso": 156
+    },
+    {
+        "capitolo": 16,
+        "nome": "Fermata, sosta, arresto e partenza",
+        "min": 23614,
+        "max": 23804,
+        "atteso": 190
+    },
+    {
+        "capitolo": 17,
+        "nome": "Uso della strada, carico e ingombri",
+        "min": 23805,
+        "max": 24140,
+        "atteso": 332
+    },
+    {
+        "capitolo": 18,
+        "nome": "Uso di luci, spie, dispositivi acustici",
+        "min": 24141,
+        "max": 24317,
+        "atteso": 176
+    },
+    {
+        "capitolo": 19,
+        "nome": "Dispositivi di sicurezza (cinture/casco)",
+        "min": 24318,
+        "max": 24455,
+        "atteso": 135
+    },
+    {
+        "capitolo": 20,
+        "nome": "Patenti, sanzioni e documenti",
+        "min": 24456,
+        "max": 24696,
+        "atteso": 230
+    },
+    {
+        "capitolo": 21,
+        "nome": "Prevenzione incidenti e moto",
+        "min": 24697,
+        "max": 24826,
+        "atteso": 126
+    },
+    {
+        "capitolo": 22,
+        "nome": "Condizioni fisiche, alcool e primo soccorso",
+        "min": 24827,
+        "max": 24967,
+        "atteso": 141
+    },
+    {
+        "capitolo": 23,
+        "nome": "Responsabilità e Assicurazione",
+        "min": 24968,
+        "max": 31064,
+        "atteso": 149
+    },
+    {
+        "capitolo": 24,
+        "nome": "Rispetto dell'ambiente e consumi",
+        "min": 25065,
+        "max": 25167,
+        "atteso": 103
+    },
+    {
+        "capitolo": 25,
+        "nome": "Manutenzione, stabilità e sicurezza veicolo",
+        "min": 25168,
+        "max": 25454,
+        "atteso": 284
+    }
+]

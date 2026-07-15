@@ -8,6 +8,7 @@ import (
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
+	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 )
 
@@ -22,6 +23,8 @@ type Domanda struct {
 	IsTrue bool `json:"is_true,omitempty"`
 	// Immagine holds the value of the "immagine" field.
 	Immagine *string `json:"immagine,omitempty"`
+	// IDCapitolo holds the value of the "id_capitolo" field.
+	IDCapitolo int `json:"id_capitolo,omitempty"`
 	// PaginaQuiz holds the value of the "pagina_quiz" field.
 	PaginaQuiz int `json:"pagina_quiz,omitempty"`
 	// IDBlocco holds the value of the "id_blocco" field.
@@ -36,9 +39,11 @@ type Domanda struct {
 type DomandaEdges struct {
 	// Argomenti holds the value of the argomenti edge.
 	Argomenti []*Argomento `json:"argomenti,omitempty"`
+	// Capitolo holds the value of the capitolo edge.
+	Capitolo *Capitolo `json:"capitolo,omitempty"`
 	// loadedTypes holds the information for reporting if a
 	// type was loaded (or requested) in eager-loading or not.
-	loadedTypes [1]bool
+	loadedTypes [2]bool
 }
 
 // ArgomentiOrErr returns the Argomenti value or an error if the edge
@@ -50,6 +55,17 @@ func (e DomandaEdges) ArgomentiOrErr() ([]*Argomento, error) {
 	return nil, &NotLoadedError{edge: "argomenti"}
 }
 
+// CapitoloOrErr returns the Capitolo value or an error if the edge
+// was not loaded in eager-loading, or loaded but was not found.
+func (e DomandaEdges) CapitoloOrErr() (*Capitolo, error) {
+	if e.Capitolo != nil {
+		return e.Capitolo, nil
+	} else if e.loadedTypes[1] {
+		return nil, &NotFoundError{label: capitolo.Label}
+	}
+	return nil, &NotLoadedError{edge: "capitolo"}
+}
+
 // scanValues returns the types for scanning values from sql.Rows.
 func (*Domanda) scanValues(columns []string) ([]any, error) {
 	values := make([]any, len(columns))
@@ -57,7 +73,7 @@ func (*Domanda) scanValues(columns []string) ([]any, error) {
 		switch columns[i] {
 		case domanda.FieldIsTrue:
 			values[i] = new(sql.NullBool)
-		case domanda.FieldID, domanda.FieldPaginaQuiz, domanda.FieldIDBlocco:
+		case domanda.FieldID, domanda.FieldIDCapitolo, domanda.FieldPaginaQuiz, domanda.FieldIDBlocco:
 			values[i] = new(sql.NullInt64)
 		case domanda.FieldTesto, domanda.FieldImmagine:
 			values[i] = new(sql.NullString)
@@ -101,6 +117,12 @@ func (_m *Domanda) assignValues(columns []string, values []any) error {
 				_m.Immagine = new(string)
 				*_m.Immagine = value.String
 			}
+		case domanda.FieldIDCapitolo:
+			if value, ok := values[i].(*sql.NullInt64); !ok {
+				return fmt.Errorf("unexpected type %T for field id_capitolo", values[i])
+			} else if value.Valid {
+				_m.IDCapitolo = int(value.Int64)
+			}
 		case domanda.FieldPaginaQuiz:
 			if value, ok := values[i].(*sql.NullInt64); !ok {
 				return fmt.Errorf("unexpected type %T for field pagina_quiz", values[i])
@@ -129,6 +151,11 @@ func (_m *Domanda) Value(name string) (ent.Value, error) {
 // QueryArgomenti queries the "argomenti" edge of the Domanda entity.
 func (_m *Domanda) QueryArgomenti() *ArgomentoQuery {
 	return NewDomandaClient(_m.config).QueryArgomenti(_m)
+}
+
+// QueryCapitolo queries the "capitolo" edge of the Domanda entity.
+func (_m *Domanda) QueryCapitolo() *CapitoloQuery {
+	return NewDomandaClient(_m.config).QueryCapitolo(_m)
 }
 
 // Update returns a builder for updating this Domanda.
@@ -164,6 +191,9 @@ func (_m *Domanda) String() string {
 		builder.WriteString("immagine=")
 		builder.WriteString(*v)
 	}
+	builder.WriteString(", ")
+	builder.WriteString("id_capitolo=")
+	builder.WriteString(fmt.Sprintf("%v", _m.IDCapitolo))
 	builder.WriteString(", ")
 	builder.WriteString("pagina_quiz=")
 	builder.WriteString(fmt.Sprintf("%v", _m.PaginaQuiz))

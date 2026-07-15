@@ -18,14 +18,20 @@ const (
 	FieldIsTrue = "is_true"
 	// FieldImmagine holds the string denoting the immagine field in the database.
 	FieldImmagine = "immagine"
+	// FieldIDCapitolo holds the string denoting the id_capitolo field in the database.
+	FieldIDCapitolo = "id_capitolo"
 	// FieldPaginaQuiz holds the string denoting the pagina_quiz field in the database.
 	FieldPaginaQuiz = "pagina_quiz"
 	// FieldIDBlocco holds the string denoting the id_blocco field in the database.
 	FieldIDBlocco = "id_blocco"
 	// EdgeArgomenti holds the string denoting the argomenti edge name in mutations.
 	EdgeArgomenti = "argomenti"
+	// EdgeCapitolo holds the string denoting the capitolo edge name in mutations.
+	EdgeCapitolo = "capitolo"
 	// ArgomentoFieldID holds the string denoting the ID field of the Argomento.
 	ArgomentoFieldID = "id"
+	// CapitoloFieldID holds the string denoting the ID field of the Capitolo.
+	CapitoloFieldID = "id"
 	// Table holds the table name of the domanda in the database.
 	Table = "domande"
 	// ArgomentiTable is the table that holds the argomenti relation/edge. The primary key declared below.
@@ -33,6 +39,13 @@ const (
 	// ArgomentiInverseTable is the table name for the Argomento entity.
 	// It exists in this package in order to avoid circular dependency with the "argomento" package.
 	ArgomentiInverseTable = "argomenti"
+	// CapitoloTable is the table that holds the capitolo relation/edge.
+	CapitoloTable = "domande"
+	// CapitoloInverseTable is the table name for the Capitolo entity.
+	// It exists in this package in order to avoid circular dependency with the "capitolo" package.
+	CapitoloInverseTable = "capitoli"
+	// CapitoloColumn is the table column denoting the capitolo relation/edge.
+	CapitoloColumn = "id_capitolo"
 )
 
 // Columns holds all SQL columns for domanda fields.
@@ -41,6 +54,7 @@ var Columns = []string{
 	FieldTesto,
 	FieldIsTrue,
 	FieldImmagine,
+	FieldIDCapitolo,
 	FieldPaginaQuiz,
 	FieldIDBlocco,
 }
@@ -84,6 +98,11 @@ func ByImmagine(opts ...sql.OrderTermOption) OrderOption {
 	return sql.OrderByField(FieldImmagine, opts...).ToFunc()
 }
 
+// ByIDCapitolo orders the results by the id_capitolo field.
+func ByIDCapitolo(opts ...sql.OrderTermOption) OrderOption {
+	return sql.OrderByField(FieldIDCapitolo, opts...).ToFunc()
+}
+
 // ByPaginaQuiz orders the results by the pagina_quiz field.
 func ByPaginaQuiz(opts ...sql.OrderTermOption) OrderOption {
 	return sql.OrderByField(FieldPaginaQuiz, opts...).ToFunc()
@@ -107,10 +126,24 @@ func ByArgomenti(term sql.OrderTerm, terms ...sql.OrderTerm) OrderOption {
 		sqlgraph.OrderByNeighborTerms(s, newArgomentiStep(), append([]sql.OrderTerm{term}, terms...)...)
 	}
 }
+
+// ByCapitoloField orders the results by capitolo field.
+func ByCapitoloField(field string, opts ...sql.OrderTermOption) OrderOption {
+	return func(s *sql.Selector) {
+		sqlgraph.OrderByNeighborTerms(s, newCapitoloStep(), sql.OrderByField(field, opts...))
+	}
+}
 func newArgomentiStep() *sqlgraph.Step {
 	return sqlgraph.NewStep(
 		sqlgraph.From(Table, FieldID),
 		sqlgraph.To(ArgomentiInverseTable, ArgomentoFieldID),
 		sqlgraph.Edge(sqlgraph.M2M, true, ArgomentiTable, ArgomentiPrimaryKey...),
+	)
+}
+func newCapitoloStep() *sqlgraph.Step {
+	return sqlgraph.NewStep(
+		sqlgraph.From(Table, FieldID),
+		sqlgraph.To(CapitoloInverseTable, CapitoloFieldID),
+		sqlgraph.Edge(sqlgraph.M2O, true, CapitoloTable, CapitoloColumn),
 	)
 }

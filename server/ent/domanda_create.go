@@ -11,6 +11,7 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/ed-evo/hankinson/server/ent/argomento"
+	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 )
 
@@ -48,6 +49,12 @@ func (_c *DomandaCreate) SetNillableImmagine(v *string) *DomandaCreate {
 	return _c
 }
 
+// SetIDCapitolo sets the "id_capitolo" field.
+func (_c *DomandaCreate) SetIDCapitolo(v int) *DomandaCreate {
+	_c.mutation.SetIDCapitolo(v)
+	return _c
+}
+
 // SetPaginaQuiz sets the "pagina_quiz" field.
 func (_c *DomandaCreate) SetPaginaQuiz(v int) *DomandaCreate {
 	_c.mutation.SetPaginaQuiz(v)
@@ -79,6 +86,17 @@ func (_c *DomandaCreate) AddArgomenti(v ...*Argomento) *DomandaCreate {
 		ids[i] = v[i].ID
 	}
 	return _c.AddArgomentiIDs(ids...)
+}
+
+// SetCapitoloID sets the "capitolo" edge to the Capitolo entity by ID.
+func (_c *DomandaCreate) SetCapitoloID(id int) *DomandaCreate {
+	_c.mutation.SetCapitoloID(id)
+	return _c
+}
+
+// SetCapitolo sets the "capitolo" edge to the Capitolo entity.
+func (_c *DomandaCreate) SetCapitolo(v *Capitolo) *DomandaCreate {
+	return _c.SetCapitoloID(v.ID)
 }
 
 // Mutation returns the DomandaMutation object of the builder.
@@ -121,11 +139,17 @@ func (_c *DomandaCreate) check() error {
 	if _, ok := _c.mutation.IsTrue(); !ok {
 		return &ValidationError{Name: "is_true", err: errors.New(`ent: missing required field "Domanda.is_true"`)}
 	}
+	if _, ok := _c.mutation.IDCapitolo(); !ok {
+		return &ValidationError{Name: "id_capitolo", err: errors.New(`ent: missing required field "Domanda.id_capitolo"`)}
+	}
 	if _, ok := _c.mutation.PaginaQuiz(); !ok {
 		return &ValidationError{Name: "pagina_quiz", err: errors.New(`ent: missing required field "Domanda.pagina_quiz"`)}
 	}
 	if _, ok := _c.mutation.IDBlocco(); !ok {
 		return &ValidationError{Name: "id_blocco", err: errors.New(`ent: missing required field "Domanda.id_blocco"`)}
+	}
+	if len(_c.mutation.CapitoloIDs()) == 0 {
+		return &ValidationError{Name: "capitolo", err: errors.New(`ent: missing required edge "Domanda.capitolo"`)}
 	}
 	return nil
 }
@@ -194,6 +218,23 @@ func (_c *DomandaCreate) createSpec() (*Domanda, *sqlgraph.CreateSpec) {
 		for _, k := range nodes {
 			edge.Target.Nodes = append(edge.Target.Nodes, k)
 		}
+		_spec.Edges = append(_spec.Edges, edge)
+	}
+	if nodes := _c.mutation.CapitoloIDs(); len(nodes) > 0 {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.M2O,
+			Inverse: true,
+			Table:   domanda.CapitoloTable,
+			Columns: []string{domanda.CapitoloColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(capitolo.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_node.IDCapitolo = nodes[0]
 		_spec.Edges = append(_spec.Edges, edge)
 	}
 	return _node, _spec
@@ -287,6 +328,18 @@ func (u *DomandaUpsert) UpdateImmagine() *DomandaUpsert {
 // ClearImmagine clears the value of the "immagine" field.
 func (u *DomandaUpsert) ClearImmagine() *DomandaUpsert {
 	u.SetNull(domanda.FieldImmagine)
+	return u
+}
+
+// SetIDCapitolo sets the "id_capitolo" field.
+func (u *DomandaUpsert) SetIDCapitolo(v int) *DomandaUpsert {
+	u.Set(domanda.FieldIDCapitolo, v)
+	return u
+}
+
+// UpdateIDCapitolo sets the "id_capitolo" field to the value that was provided on create.
+func (u *DomandaUpsert) UpdateIDCapitolo() *DomandaUpsert {
+	u.SetExcluded(domanda.FieldIDCapitolo)
 	return u
 }
 
@@ -420,6 +473,20 @@ func (u *DomandaUpsertOne) UpdateImmagine() *DomandaUpsertOne {
 func (u *DomandaUpsertOne) ClearImmagine() *DomandaUpsertOne {
 	return u.Update(func(s *DomandaUpsert) {
 		s.ClearImmagine()
+	})
+}
+
+// SetIDCapitolo sets the "id_capitolo" field.
+func (u *DomandaUpsertOne) SetIDCapitolo(v int) *DomandaUpsertOne {
+	return u.Update(func(s *DomandaUpsert) {
+		s.SetIDCapitolo(v)
+	})
+}
+
+// UpdateIDCapitolo sets the "id_capitolo" field to the value that was provided on create.
+func (u *DomandaUpsertOne) UpdateIDCapitolo() *DomandaUpsertOne {
+	return u.Update(func(s *DomandaUpsert) {
+		s.UpdateIDCapitolo()
 	})
 }
 
@@ -724,6 +791,20 @@ func (u *DomandaUpsertBulk) UpdateImmagine() *DomandaUpsertBulk {
 func (u *DomandaUpsertBulk) ClearImmagine() *DomandaUpsertBulk {
 	return u.Update(func(s *DomandaUpsert) {
 		s.ClearImmagine()
+	})
+}
+
+// SetIDCapitolo sets the "id_capitolo" field.
+func (u *DomandaUpsertBulk) SetIDCapitolo(v int) *DomandaUpsertBulk {
+	return u.Update(func(s *DomandaUpsert) {
+		s.SetIDCapitolo(v)
+	})
+}
+
+// UpdateIDCapitolo sets the "id_capitolo" field to the value that was provided on create.
+func (u *DomandaUpsertBulk) UpdateIDCapitolo() *DomandaUpsertBulk {
+	return u.Update(func(s *DomandaUpsert) {
+		s.UpdateIDCapitolo()
 	})
 }
 

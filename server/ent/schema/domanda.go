@@ -37,6 +37,7 @@ func (Domanda) Fields() []ent.Field {
 		field.String("immagine").
 			Optional().
 			Nillable(),
+		field.Int("id_capitolo"),
 		field.Int("pagina_quiz"),
 		field.Int("id_blocco"),
 	}
@@ -46,11 +47,17 @@ func (Domanda) Edges() []ent.Edge {
 	return []ent.Edge{
 		edge.From("argomenti", Argomento.Type).
 			Ref("domande"),
+		edge.From("capitolo", Capitolo.Type).
+			Ref("domande").
+			Unique(). // Garantisce che sia Many-to-One
+			Field("id_capitolo").
+			Required(),
 	}
 }
 
 func (Domanda) Indexes() []ent.Index {
 	return []ent.Index{
+		index.Fields("id_capitolo"),
 		index.Fields("is_true"),
 		index.Fields("id_blocco"),
 		index.Fields("pagina_quiz"),

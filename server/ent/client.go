@@ -16,6 +16,7 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"github.com/ed-evo/hankinson/server/ent/argomento"
+	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 )
 
@@ -26,6 +27,8 @@ type Client struct {
 	Schema *migrate.Schema
 	// Argomento is the client for interacting with the Argomento builders.
 	Argomento *ArgomentoClient
+	// Capitolo is the client for interacting with the Capitolo builders.
+	Capitolo *CapitoloClient
 	// Domanda is the client for interacting with the Domanda builders.
 	Domanda *DomandaClient
 }
@@ -40,6 +43,7 @@ func NewClient(opts ...Option) *Client {
 func (c *Client) init() {
 	c.Schema = migrate.NewSchema(c.driver)
 	c.Argomento = NewArgomentoClient(c.config)
+	c.Capitolo = NewCapitoloClient(c.config)
 	c.Domanda = NewDomandaClient(c.config)
 }
 
@@ -134,6 +138,7 @@ func (c *Client) Tx(ctx context.Context) (*Tx, error) {
 		ctx:       ctx,
 		config:    cfg,
 		Argomento: NewArgomentoClient(cfg),
+		Capitolo:  NewCapitoloClient(cfg),
 		Domanda:   NewDomandaClient(cfg),
 	}, nil
 }
@@ -155,6 +160,7 @@ func (c *Client) BeginTx(ctx context.Context, opts *sql.TxOptions) (*Tx, error) 
 		ctx:       ctx,
 		config:    cfg,
 		Argomento: NewArgomentoClient(cfg),
+		Capitolo:  NewCapitoloClient(cfg),
 		Domanda:   NewDomandaClient(cfg),
 	}, nil
 }
@@ -185,6 +191,7 @@ func (c *Client) Close() error {
 // In order to add hooks to a specific client, call: `client.Node.Use(...)`.
 func (c *Client) Use(hooks ...Hook) {
 	c.Argomento.Use(hooks...)
+	c.Capitolo.Use(hooks...)
 	c.Domanda.Use(hooks...)
 }
 
@@ -192,6 +199,7 @@ func (c *Client) Use(hooks ...Hook) {
 // In order to add interceptors to a specific client, call: `client.Node.Intercept(...)`.
 func (c *Client) Intercept(interceptors ...Interceptor) {
 	c.Argomento.Intercept(interceptors...)
+	c.Capitolo.Intercept(interceptors...)
 	c.Domanda.Intercept(interceptors...)
 }
 
@@ -200,6 +208,8 @@ func (c *Client) Mutate(ctx context.Context, m Mutation) (Value, error) {
 	switch m := m.(type) {
 	case *ArgomentoMutation:
 		return c.Argomento.mutate(ctx, m)
+	case *CapitoloMutation:
+		return c.Capitolo.mutate(ctx, m)
 	case *DomandaMutation:
 		return c.Domanda.mutate(ctx, m)
 	default:
@@ -356,6 +366,155 @@ func (c *ArgomentoClient) mutate(ctx context.Context, m *ArgomentoMutation) (Val
 	}
 }
 
+// CapitoloClient is a client for the Capitolo schema.
+type CapitoloClient struct {
+	config
+}
+
+// NewCapitoloClient returns a client for the Capitolo from the given config.
+func NewCapitoloClient(c config) *CapitoloClient {
+	return &CapitoloClient{config: c}
+}
+
+// Use adds a list of mutation hooks to the hooks stack.
+// A call to `Use(f, g, h)` equals to `capitolo.Hooks(f(g(h())))`.
+func (c *CapitoloClient) Use(hooks ...Hook) {
+	c.hooks.Capitolo = append(c.hooks.Capitolo, hooks...)
+}
+
+// Intercept adds a list of query interceptors to the interceptors stack.
+// A call to `Intercept(f, g, h)` equals to `capitolo.Intercept(f(g(h())))`.
+func (c *CapitoloClient) Intercept(interceptors ...Interceptor) {
+	c.inters.Capitolo = append(c.inters.Capitolo, interceptors...)
+}
+
+// Create returns a builder for creating a Capitolo entity.
+func (c *CapitoloClient) Create() *CapitoloCreate {
+	mutation := newCapitoloMutation(c.config, OpCreate)
+	return &CapitoloCreate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// CreateBulk returns a builder for creating a bulk of Capitolo entities.
+func (c *CapitoloClient) CreateBulk(builders ...*CapitoloCreate) *CapitoloCreateBulk {
+	return &CapitoloCreateBulk{config: c.config, builders: builders}
+}
+
+// MapCreateBulk creates a bulk creation builder from the given slice. For each item in the slice, the function creates
+// a builder and applies setFunc on it.
+func (c *CapitoloClient) MapCreateBulk(slice any, setFunc func(*CapitoloCreate, int)) *CapitoloCreateBulk {
+	rv := reflect.ValueOf(slice)
+	if rv.Kind() != reflect.Slice {
+		return &CapitoloCreateBulk{err: fmt.Errorf("calling to CapitoloClient.MapCreateBulk with wrong type %T, need slice", slice)}
+	}
+	builders := make([]*CapitoloCreate, rv.Len())
+	for i := 0; i < rv.Len(); i++ {
+		builders[i] = c.Create()
+		setFunc(builders[i], i)
+	}
+	return &CapitoloCreateBulk{config: c.config, builders: builders}
+}
+
+// Update returns an update builder for Capitolo.
+func (c *CapitoloClient) Update() *CapitoloUpdate {
+	mutation := newCapitoloMutation(c.config, OpUpdate)
+	return &CapitoloUpdate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOne returns an update builder for the given entity.
+func (c *CapitoloClient) UpdateOne(_m *Capitolo) *CapitoloUpdateOne {
+	mutation := newCapitoloMutation(c.config, OpUpdateOne, withCapitolo(_m))
+	return &CapitoloUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOneID returns an update builder for the given id.
+func (c *CapitoloClient) UpdateOneID(id int) *CapitoloUpdateOne {
+	mutation := newCapitoloMutation(c.config, OpUpdateOne, withCapitoloID(id))
+	return &CapitoloUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// Delete returns a delete builder for Capitolo.
+func (c *CapitoloClient) Delete() *CapitoloDelete {
+	mutation := newCapitoloMutation(c.config, OpDelete)
+	return &CapitoloDelete{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// DeleteOne returns a builder for deleting the given entity.
+func (c *CapitoloClient) DeleteOne(_m *Capitolo) *CapitoloDeleteOne {
+	return c.DeleteOneID(_m.ID)
+}
+
+// DeleteOneID returns a builder for deleting the given entity by its id.
+func (c *CapitoloClient) DeleteOneID(id int) *CapitoloDeleteOne {
+	builder := c.Delete().Where(capitolo.ID(id))
+	builder.mutation.id = &id
+	builder.mutation.op = OpDeleteOne
+	return &CapitoloDeleteOne{builder}
+}
+
+// Query returns a query builder for Capitolo.
+func (c *CapitoloClient) Query() *CapitoloQuery {
+	return &CapitoloQuery{
+		config: c.config,
+		ctx:    &QueryContext{Type: TypeCapitolo},
+		inters: c.Interceptors(),
+	}
+}
+
+// Get returns a Capitolo entity by its id.
+func (c *CapitoloClient) Get(ctx context.Context, id int) (*Capitolo, error) {
+	return c.Query().Where(capitolo.ID(id)).Only(ctx)
+}
+
+// GetX is like Get, but panics if an error occurs.
+func (c *CapitoloClient) GetX(ctx context.Context, id int) *Capitolo {
+	obj, err := c.Get(ctx, id)
+	if err != nil {
+		panic(err)
+	}
+	return obj
+}
+
+// QueryDomande queries the domande edge of a Capitolo.
+func (c *CapitoloClient) QueryDomande(_m *Capitolo) *DomandaQuery {
+	query := (&DomandaClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(capitolo.Table, capitolo.FieldID, id),
+			sqlgraph.To(domanda.Table, domanda.FieldID),
+			sqlgraph.Edge(sqlgraph.O2M, false, capitolo.DomandeTable, capitolo.DomandeColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
+// Hooks returns the client hooks.
+func (c *CapitoloClient) Hooks() []Hook {
+	return c.hooks.Capitolo
+}
+
+// Interceptors returns the client interceptors.
+func (c *CapitoloClient) Interceptors() []Interceptor {
+	return c.inters.Capitolo
+}
+
+func (c *CapitoloClient) mutate(ctx context.Context, m *CapitoloMutation) (Value, error) {
+	switch m.Op() {
+	case OpCreate:
+		return (&CapitoloCreate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdate:
+		return (&CapitoloUpdate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdateOne:
+		return (&CapitoloUpdateOne{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpDelete, OpDeleteOne:
+		return (&CapitoloDelete{config: c.config, hooks: c.Hooks(), mutation: m}).Exec(ctx)
+	default:
+		return nil, fmt.Errorf("ent: unknown Capitolo mutation op: %q", m.Op())
+	}
+}
+
 // DomandaClient is a client for the Domanda schema.
 type DomandaClient struct {
 	config
@@ -480,6 +639,22 @@ func (c *DomandaClient) QueryArgomenti(_m *Domanda) *ArgomentoQuery {
 	return query
 }
 
+// QueryCapitolo queries the capitolo edge of a Domanda.
+func (c *DomandaClient) QueryCapitolo(_m *Domanda) *CapitoloQuery {
+	query := (&CapitoloClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(domanda.Table, domanda.FieldID, id),
+			sqlgraph.To(capitolo.Table, capitolo.FieldID),
+			sqlgraph.Edge(sqlgraph.M2O, true, domanda.CapitoloTable, domanda.CapitoloColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
 // Hooks returns the client hooks.
 func (c *DomandaClient) Hooks() []Hook {
 	return c.hooks.Domanda
@@ -508,9 +683,9 @@ func (c *DomandaClient) mutate(ctx context.Context, m *DomandaMutation) (Value, 
 // hooks and interceptors per client, for fast access.
 type (
 	hooks struct {
-		Argomento, Domanda []ent.Hook
+		Argomento, Capitolo, Domanda []ent.Hook
 	}
 	inters struct {
-		Argomento, Domanda []ent.Interceptor
+		Argomento, Capitolo, Domanda []ent.Interceptor
 	}
 )

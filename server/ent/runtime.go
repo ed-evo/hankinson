@@ -4,6 +4,7 @@ package ent
 
 import (
 	"github.com/ed-evo/hankinson/server/ent/argomento"
+	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/schema"
 )
 
@@ -17,4 +18,10 @@ func init() {
 	argomentoDescNome := argomentoFields[1].Descriptor()
 	// argomento.NomeValidator is a validator for the "nome" field. It is called by the builders before save.
 	argomento.NomeValidator = argomentoDescNome.Validators[0].(func(string) error)
+	capitoloFields := schema.Capitolo{}.Fields()
+	_ = capitoloFields
+	// capitoloDescNome is the schema descriptor for nome field.
+	capitoloDescNome := capitoloFields[1].Descriptor()
+	// capitolo.NomeValidator is a validator for the "nome" field. It is called by the builders before save.
+	capitolo.NomeValidator = capitoloDescNome.Validators[0].(func(string) error)
 }

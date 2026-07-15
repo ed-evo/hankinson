@@ -9,5 +9,8 @@ import (
 // Argomento is the predicate function for argomento builders.
 type Argomento func(*sql.Selector)
 
+// Capitolo is the predicate function for capitolo builders.
+type Capitolo func(*sql.Selector)
+
 // Domanda is the predicate function for domanda builders.
 type Domanda func(*sql.Selector)

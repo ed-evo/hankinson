@@ -11,6 +11,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"github.com/ed-evo/hankinson/server/ent/argomento"
+	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 	"github.com/ed-evo/hankinson/server/ent/predicate"
 )
@@ -25,6 +26,7 @@ const (
 
 	// Node types.
 	TypeArgomento = "Argomento"
+	TypeCapitolo  = "Capitolo"
 	TypeDomanda   = "Domanda"
 )
 
@@ -453,6 +455,695 @@ func (m *ArgomentoMutation) ResetEdge(name string) error {
 	return fmt.Errorf("unknown Argomento edge %s", name)
 }
 
+// CapitoloMutation represents an operation that mutates the Capitolo nodes in the graph.
+type CapitoloMutation struct {
+	config
+	op                    Op
+	typ                   string
+	id                    *int
+	nome                  *string
+	min_numero_domanda    *int
+	addmin_numero_domanda *int
+	max_numero_domanda    *int
+	addmax_numero_domanda *int
+	totale_domande        *int
+	addtotale_domande     *int
+	clearedFields         map[string]struct{}
+	domande               map[int]struct{}
+	removeddomande        map[int]struct{}
+	cleareddomande        bool
+	done                  bool
+	oldValue              func(context.Context) (*Capitolo, error)
+	predicates            []predicate.Capitolo
+}
+
+var _ ent.Mutation = (*CapitoloMutation)(nil)
+
+// capitoloOption allows management of the mutation configuration using functional options.
+type capitoloOption func(*CapitoloMutation)
+
+// newCapitoloMutation creates new mutation for the Capitolo entity.
+func newCapitoloMutation(c config, op Op, opts ...capitoloOption) *CapitoloMutation {
+	m := &CapitoloMutation{
+		config:        c,
+		op:            op,
+		typ:           TypeCapitolo,
+		clearedFields: make(map[string]struct{}),
+	}
+	for _, opt := range opts {
+		opt(m)
+	}
+	return m
+}
+
+// withCapitoloID sets the ID field of the mutation.
+func withCapitoloID(id int) capitoloOption {
+	return func(m *CapitoloMutation) {
+		var (
+			err   error
+			once  sync.Once
+			value *Capitolo
+		)
+		m.oldValue = func(ctx context.Context) (*Capitolo, error) {
+			once.Do(func() {
+				if m.done {
+					err = errors.New("querying old values post mutation is not allowed")
+				} else {
+					value, err = m.Client().Capitolo.Get(ctx, id)
+				}
+			})
+			return value, err
+		}
+		m.id = &id
+	}
+}
+
+// withCapitolo sets the old Capitolo of the mutation.
+func withCapitolo(node *Capitolo) capitoloOption {
+	return func(m *CapitoloMutation) {
+		m.oldValue = func(context.Context) (*Capitolo, error) {
+			return node, nil
+		}
+		m.id = &node.ID
+	}
+}
+
+// Client returns a new `ent.Client` from the mutation. If the mutation was
+// executed in a transaction (ent.Tx), a transactional client is returned.
+func (m CapitoloMutation) Client() *Client {
+	client := &Client{config: m.config}
+	client.init()
+	return client
+}
+
+// Tx returns an `ent.Tx` for mutations that were executed in transactions;
+// it returns an error otherwise.
+func (m CapitoloMutation) Tx() (*Tx, error) {
+	if _, ok := m.driver.(*txDriver); !ok {
+		return nil, errors.New("ent: mutation is not running in a transaction")
+	}
+	tx := &Tx{config: m.config}
+	tx.init()
+	return tx, nil
+}
+
+// SetID sets the value of the id field. Note that this
+// operation is only accepted on creation of Capitolo entities.
+func (m *CapitoloMutation) SetID(id int) {
+	m.id = &id
+}
+
+// ID returns the ID value in the mutation. Note that the ID is only available
+// if it was provided to the builder or after it was returned from the database.
+func (m *CapitoloMutation) ID() (id int, exists bool) {
+	if m.id == nil {
+		return
+	}
+	return *m.id, true
+}
+
+// IDs queries the database and returns the entity ids that match the mutation's predicate.
+// That means, if the mutation is applied within a transaction with an isolation level such
+// as sql.LevelSerializable, the returned ids match the ids of the rows that will be updated
+// or updated by the mutation.
+func (m *CapitoloMutation) IDs(ctx context.Context) ([]int, error) {
+	switch {
+	case m.op.Is(OpUpdateOne | OpDeleteOne):
+		id, exists := m.ID()
+		if exists {
+			return []int{id}, nil
+		}
+		fallthrough
+	case m.op.Is(OpUpdate | OpDelete):
+		return m.Client().Capitolo.Query().Where(m.predicates...).IDs(ctx)
+	default:
+		return nil, fmt.Errorf("IDs is not allowed on %s operations", m.op)
+	}
+}
+
+// SetNome sets the "nome" field.
+func (m *CapitoloMutation) SetNome(s string) {
+	m.nome = &s
+}
+
+// Nome returns the value of the "nome" field in the mutation.
+func (m *CapitoloMutation) Nome() (r string, exists bool) {
+	v := m.nome
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldNome returns the old "nome" field's value of the Capitolo entity.
+// If the Capitolo object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *CapitoloMutation) OldNome(ctx context.Context) (v string, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldNome is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldNome requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldNome: %w", err)
+	}
+	return oldValue.Nome, nil
+}
+
+// ResetNome resets all changes to the "nome" field.
+func (m *CapitoloMutation) ResetNome() {
+	m.nome = nil
+}
+
+// SetMinNumeroDomanda sets the "min_numero_domanda" field.
+func (m *CapitoloMutation) SetMinNumeroDomanda(i int) {
+	m.min_numero_domanda = &i
+	m.addmin_numero_domanda = nil
+}
+
+// MinNumeroDomanda returns the value of the "min_numero_domanda" field in the mutation.
+func (m *CapitoloMutation) MinNumeroDomanda() (r int, exists bool) {
+	v := m.min_numero_domanda
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldMinNumeroDomanda returns the old "min_numero_domanda" field's value of the Capitolo entity.
+// If the Capitolo object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *CapitoloMutation) OldMinNumeroDomanda(ctx context.Context) (v int, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldMinNumeroDomanda is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldMinNumeroDomanda requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldMinNumeroDomanda: %w", err)
+	}
+	return oldValue.MinNumeroDomanda, nil
+}
+
+// AddMinNumeroDomanda adds i to the "min_numero_domanda" field.
+func (m *CapitoloMutation) AddMinNumeroDomanda(i int) {
+	if m.addmin_numero_domanda != nil {
+		*m.addmin_numero_domanda += i
+	} else {
+		m.addmin_numero_domanda = &i
+	}
+}
+
+// AddedMinNumeroDomanda returns the value that was added to the "min_numero_domanda" field in this mutation.
+func (m *CapitoloMutation) AddedMinNumeroDomanda() (r int, exists bool) {
+	v := m.addmin_numero_domanda
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// ResetMinNumeroDomanda resets all changes to the "min_numero_domanda" field.
+func (m *CapitoloMutation) ResetMinNumeroDomanda() {
+	m.min_numero_domanda = nil
+	m.addmin_numero_domanda = nil
+}
+
+// SetMaxNumeroDomanda sets the "max_numero_domanda" field.
+func (m *CapitoloMutation) SetMaxNumeroDomanda(i int) {
+	m.max_numero_domanda = &i
+	m.addmax_numero_domanda = nil
+}
+
+// MaxNumeroDomanda returns the value of the "max_numero_domanda" field in the mutation.
+func (m *CapitoloMutation) MaxNumeroDomanda() (r int, exists bool) {
+	v := m.max_numero_domanda
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldMaxNumeroDomanda returns the old "max_numero_domanda" field's value of the Capitolo entity.
+// If the Capitolo object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *CapitoloMutation) OldMaxNumeroDomanda(ctx context.Context) (v int, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldMaxNumeroDomanda is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldMaxNumeroDomanda requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldMaxNumeroDomanda: %w", err)
+	}
+	return oldValue.MaxNumeroDomanda, nil
+}
+
+// AddMaxNumeroDomanda adds i to the "max_numero_domanda" field.
+func (m *CapitoloMutation) AddMaxNumeroDomanda(i int) {
+	if m.addmax_numero_domanda != nil {
+		*m.addmax_numero_domanda += i
+	} else {
+		m.addmax_numero_domanda = &i
+	}
+}
+
+// AddedMaxNumeroDomanda returns the value that was added to the "max_numero_domanda" field in this mutation.
+func (m *CapitoloMutation) AddedMaxNumeroDomanda() (r int, exists bool) {
+	v := m.addmax_numero_domanda
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// ResetMaxNumeroDomanda resets all changes to the "max_numero_domanda" field.
+func (m *CapitoloMutation) ResetMaxNumeroDomanda() {
+	m.max_numero_domanda = nil
+	m.addmax_numero_domanda = nil
+}
+
+// SetTotaleDomande sets the "totale_domande" field.
+func (m *CapitoloMutation) SetTotaleDomande(i int) {
+	m.totale_domande = &i
+	m.addtotale_domande = nil
+}
+
+// TotaleDomande returns the value of the "totale_domande" field in the mutation.
+func (m *CapitoloMutation) TotaleDomande() (r int, exists bool) {
+	v := m.totale_domande
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldTotaleDomande returns the old "totale_domande" field's value of the Capitolo entity.
+// If the Capitolo object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *CapitoloMutation) OldTotaleDomande(ctx context.Context) (v int, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldTotaleDomande is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldTotaleDomande requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldTotaleDomande: %w", err)
+	}
+	return oldValue.TotaleDomande, nil
+}
+
+// AddTotaleDomande adds i to the "totale_domande" field.
+func (m *CapitoloMutation) AddTotaleDomande(i int) {
+	if m.addtotale_domande != nil {
+		*m.addtotale_domande += i
+	} else {
+		m.addtotale_domande = &i
+	}
+}
+
+// AddedTotaleDomande returns the value that was added to the "totale_domande" field in this mutation.
+func (m *CapitoloMutation) AddedTotaleDomande() (r int, exists bool) {
+	v := m.addtotale_domande
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// ResetTotaleDomande resets all changes to the "totale_domande" field.
+func (m *CapitoloMutation) ResetTotaleDomande() {
+	m.totale_domande = nil
+	m.addtotale_domande = nil
+}
+
+// AddDomandeIDs adds the "domande" edge to the Domanda entity by ids.
+func (m *CapitoloMutation) AddDomandeIDs(ids ...int) {
+	if m.domande == nil {
+		m.domande = make(map[int]struct{})
+	}
+	for i := range ids {
+		m.domande[ids[i]] = struct{}{}
+	}
+}
+
+// ClearDomande clears the "domande" edge to the Domanda entity.
+func (m *CapitoloMutation) ClearDomande() {
+	m.cleareddomande = true
+}
+
+// DomandeCleared reports if the "domande" edge to the Domanda entity was cleared.
+func (m *CapitoloMutation) DomandeCleared() bool {
+	return m.cleareddomande
+}
+
+// RemoveDomandeIDs removes the "domande" edge to the Domanda entity by IDs.
+func (m *CapitoloMutation) RemoveDomandeIDs(ids ...int) {
+	if m.removeddomande == nil {
+		m.removeddomande = make(map[int]struct{})
+	}
+	for i := range ids {
+		delete(m.domande, ids[i])
+		m.removeddomande[ids[i]] = struct{}{}
+	}
+}
+
+// RemovedDomande returns the removed IDs of the "domande" edge to the Domanda entity.
+func (m *CapitoloMutation) RemovedDomandeIDs() (ids []int) {
+	for id := range m.removeddomande {
+		ids = append(ids, id)
+	}
+	return
+}
+
+// DomandeIDs returns the "domande" edge IDs in the mutation.
+func (m *CapitoloMutation) DomandeIDs() (ids []int) {
+	for id := range m.domande {
+		ids = append(ids, id)
+	}
+	return
+}
+
+// ResetDomande resets all changes to the "domande" edge.
+func (m *CapitoloMutation) ResetDomande() {
+	m.domande = nil
+	m.cleareddomande = false
+	m.removeddomande = nil
+}
+
+// Where appends a list predicates to the CapitoloMutation builder.
+func (m *CapitoloMutation) Where(ps ...predicate.Capitolo) {
+	m.predicates = append(m.predicates, ps...)
+}
+
+// WhereP appends storage-level predicates to the CapitoloMutation builder. Using this method,
+// users can use type-assertion to append predicates that do not depend on any generated package.
+func (m *CapitoloMutation) WhereP(ps ...func(*sql.Selector)) {
+	p := make([]predicate.Capitolo, len(ps))
+	for i := range ps {
+		p[i] = ps[i]
+	}
+	m.Where(p...)
+}
+
+// Op returns the operation name.
+func (m *CapitoloMutation) Op() Op {
+	return m.op
+}
+
+// SetOp allows setting the mutation operation.
+func (m *CapitoloMutation) SetOp(op Op) {
+	m.op = op
+}
+
+// Type returns the node type of this mutation (Capitolo).
+func (m *CapitoloMutation) Type() string {
+	return m.typ
+}
+
+// Fields returns all fields that were changed during this mutation. Note that in
+// order to get all numeric fields that were incremented/decremented, call
+// AddedFields().
+func (m *CapitoloMutation) Fields() []string {
+	fields := make([]string, 0, 4)
+	if m.nome != nil {
+		fields = append(fields, capitolo.FieldNome)
+	}
+	if m.min_numero_domanda != nil {
+		fields = append(fields, capitolo.FieldMinNumeroDomanda)
+	}
+	if m.max_numero_domanda != nil {
+		fields = append(fields, capitolo.FieldMaxNumeroDomanda)
+	}
+	if m.totale_domande != nil {
+		fields = append(fields, capitolo.FieldTotaleDomande)
+	}
+	return fields
+}
+
+// Field returns the value of a field with the given name. The second boolean
+// return value indicates that this field was not set, or was not defined in the
+// schema.
+func (m *CapitoloMutation) Field(name string) (ent.Value, bool) {
+	switch name {
+	case capitolo.FieldNome:
+		return m.Nome()
+	case capitolo.FieldMinNumeroDomanda:
+		return m.MinNumeroDomanda()
+	case capitolo.FieldMaxNumeroDomanda:
+		return m.MaxNumeroDomanda()
+	case capitolo.FieldTotaleDomande:
+		return m.TotaleDomande()
+	}
+	return nil, false
+}
+
+// OldField returns the old value of the field from the database. An error is
+// returned if the mutation operation is not UpdateOne, or the query to the
+// database failed.
+func (m *CapitoloMutation) OldField(ctx context.Context, name string) (ent.Value, error) {
+	switch name {
+	case capitolo.FieldNome:
+		return m.OldNome(ctx)
+	case capitolo.FieldMinNumeroDomanda:
+		return m.OldMinNumeroDomanda(ctx)
+	case capitolo.FieldMaxNumeroDomanda:
+		return m.OldMaxNumeroDomanda(ctx)
+	case capitolo.FieldTotaleDomande:
+		return m.OldTotaleDomande(ctx)
+	}
+	return nil, fmt.Errorf("unknown Capitolo field %s", name)
+}
+
+// SetField sets the value of a field with the given name. It returns an error if
+// the field is not defined in the schema, or if the type mismatched the field
+// type.
+func (m *CapitoloMutation) SetField(name string, value ent.Value) error {
+	switch name {
+	case capitolo.FieldNome:
+		v, ok := value.(string)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetNome(v)
+		return nil
+	case capitolo.FieldMinNumeroDomanda:
+		v, ok := value.(int)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetMinNumeroDomanda(v)
+		return nil
+	case capitolo.FieldMaxNumeroDomanda:
+		v, ok := value.(int)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetMaxNumeroDomanda(v)
+		return nil
+	case capitolo.FieldTotaleDomande:
+		v, ok := value.(int)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetTotaleDomande(v)
+		return nil
+	}
+	return fmt.Errorf("unknown Capitolo field %s", name)
+}
+
+// AddedFields returns all numeric fields that were incremented/decremented during
+// this mutation.
+func (m *CapitoloMutation) AddedFields() []string {
+	var fields []string
+	if m.addmin_numero_domanda != nil {
+		fields = append(fields, capitolo.FieldMinNumeroDomanda)
+	}
+	if m.addmax_numero_domanda != nil {
+		fields = append(fields, capitolo.FieldMaxNumeroDomanda)
+	}
+	if m.addtotale_domande != nil {
+		fields = append(fields, capitolo.FieldTotaleDomande)
+	}
+	return fields
+}
+
+// AddedField returns the numeric value that was incremented/decremented on a field
+// with the given name. The second boolean return value indicates that this field
+// was not set, or was not defined in the schema.
+func (m *CapitoloMutation) AddedField(name string) (ent.Value, bool) {
+	switch name {
+	case capitolo.FieldMinNumeroDomanda:
+		return m.AddedMinNumeroDomanda()
+	case capitolo.FieldMaxNumeroDomanda:
+		return m.AddedMaxNumeroDomanda()
+	case capitolo.FieldTotaleDomande:
+		return m.AddedTotaleDomande()
+	}
+	return nil, false
+}
+
+// AddField adds the value to the field with the given name. It returns an error if
+// the field is not defined in the schema, or if the type mismatched the field
+// type.
+func (m *CapitoloMutation) AddField(name string, value ent.Value) error {
+	switch name {
+	case capitolo.FieldMinNumeroDomanda:
+		v, ok := value.(int)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.AddMinNumeroDomanda(v)
+		return nil
+	case capitolo.FieldMaxNumeroDomanda:
+		v, ok := value.(int)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.AddMaxNumeroDomanda(v)
+		return nil
+	case capitolo.FieldTotaleDomande:
+		v, ok := value.(int)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.AddTotaleDomande(v)
+		return nil
+	}
+	return fmt.Errorf("unknown Capitolo numeric field %s", name)
+}
+
+// ClearedFields returns all nullable fields that were cleared during this
+// mutation.
+func (m *CapitoloMutation) ClearedFields() []string {
+	return nil
+}
+
+// FieldCleared returns a boolean indicating if a field with the given name was
+// cleared in this mutation.
+func (m *CapitoloMutation) FieldCleared(name string) bool {
+	_, ok := m.clearedFields[name]
+	return ok
+}
+
+// ClearField clears the value of the field with the given name. It returns an
+// error if the field is not defined in the schema.
+func (m *CapitoloMutation) ClearField(name string) error {
+	return fmt.Errorf("unknown Capitolo nullable field %s", name)
+}
+
+// ResetField resets all changes in the mutation for the field with the given name.
+// It returns an error if the field is not defined in the schema.
+func (m *CapitoloMutation) ResetField(name string) error {
+	switch name {
+	case capitolo.FieldNome:
+		m.ResetNome()
+		return nil
+	case capitolo.FieldMinNumeroDomanda:
+		m.ResetMinNumeroDomanda()
+		return nil
+	case capitolo.FieldMaxNumeroDomanda:
+		m.ResetMaxNumeroDomanda()
+		return nil
+	case capitolo.FieldTotaleDomande:
+		m.ResetTotaleDomande()
+		return nil
+	}
+	return fmt.Errorf("unknown Capitolo field %s", name)
+}
+
+// AddedEdges returns all edge names that were set/added in this mutation.
+func (m *CapitoloMutation) AddedEdges() []string {
+	edges := make([]string, 0, 1)
+	if m.domande != nil {
+		edges = append(edges, capitolo.EdgeDomande)
+	}
+	return edges
+}
+
+// AddedIDs returns all IDs (to other nodes) that were added for the given edge
+// name in this mutation.
+func (m *CapitoloMutation) AddedIDs(name string) []ent.Value {
+	switch name {
+	case capitolo.EdgeDomande:
+		ids := make([]ent.Value, 0, len(m.domande))
+		for id := range m.domande {
+			ids = append(ids, id)
+		}
+		return ids
+	}
+	return nil
+}
+
+// RemovedEdges returns all edge names that were removed in this mutation.
+func (m *CapitoloMutation) RemovedEdges() []string {
+	edges := make([]string, 0, 1)
+	if m.removeddomande != nil {
+		edges = append(edges, capitolo.EdgeDomande)
+	}
+	return edges
+}
+
+// RemovedIDs returns all IDs (to other nodes) that were removed for the edge with
+// the given name in this mutation.
+func (m *CapitoloMutation) RemovedIDs(name string) []ent.Value {
+	switch name {
+	case capitolo.EdgeDomande:
+		ids := make([]ent.Value, 0, len(m.removeddomande))
+		for id := range m.removeddomande {
+			ids = append(ids, id)
+		}
+		return ids
+	}
+	return nil
+}
+
+// ClearedEdges returns all edge names that were cleared in this mutation.
+func (m *CapitoloMutation) ClearedEdges() []string {
+	edges := make([]string, 0, 1)
+	if m.cleareddomande {
+		edges = append(edges, capitolo.EdgeDomande)
+	}
+	return edges
+}
+
+// EdgeCleared returns a boolean which indicates if the edge with the given name
+// was cleared in this mutation.
+func (m *CapitoloMutation) EdgeCleared(name string) bool {
+	switch name {
+	case capitolo.EdgeDomande:
+		return m.cleareddomande
+	}
+	return false
+}
+
+// ClearEdge clears the value of the edge with the given name. It returns an error
+// if that edge is not defined in the schema.
+func (m *CapitoloMutation) ClearEdge(name string) error {
+	switch name {
+	}
+	return fmt.Errorf("unknown Capitolo unique edge %s", name)
+}
+
+// ResetEdge resets all changes to the edge with the given name in this mutation.
+// It returns an error if the edge is not defined in the schema.
+func (m *CapitoloMutation) ResetEdge(name string) error {
+	switch name {
+	case capitolo.EdgeDomande:
+		m.ResetDomande()
+		return nil
+	}
+	return fmt.Errorf("unknown Capitolo edge %s", name)
+}
+
 // DomandaMutation represents an operation that mutates the Domanda nodes in the graph.
 type DomandaMutation struct {
 	config
@@ -470,6 +1161,8 @@ type DomandaMutation struct {
 	argomenti        map[int]struct{}
 	removedargomenti map[int]struct{}
 	clearedargomenti bool
+	capitolo         *int
+	clearedcapitolo  bool
 	done             bool
 	oldValue         func(context.Context) (*Domanda, error)
 	predicates       []predicate.Domanda
@@ -700,6 +1393,42 @@ func (m *DomandaMutation) ResetImmagine() {
 	delete(m.clearedFields, domanda.FieldImmagine)
 }
 
+// SetIDCapitolo sets the "id_capitolo" field.
+func (m *DomandaMutation) SetIDCapitolo(i int) {
+	m.capitolo = &i
+}
+
+// IDCapitolo returns the value of the "id_capitolo" field in the mutation.
+func (m *DomandaMutation) IDCapitolo() (r int, exists bool) {
+	v := m.capitolo
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldIDCapitolo returns the old "id_capitolo" field's value of the Domanda entity.
+// If the Domanda object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *DomandaMutation) OldIDCapitolo(ctx context.Context) (v int, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldIDCapitolo is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldIDCapitolo requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldIDCapitolo: %w", err)
+	}
+	return oldValue.IDCapitolo, nil
+}
+
+// ResetIDCapitolo resets all changes to the "id_capitolo" field.
+func (m *DomandaMutation) ResetIDCapitolo() {
+	m.capitolo = nil
+}
+
 // SetPaginaQuiz sets the "pagina_quiz" field.
 func (m *DomandaMutation) SetPaginaQuiz(i int) {
 	m.pagina_quiz = &i
@@ -866,6 +1595,46 @@ func (m *DomandaMutation) ResetArgomenti() {
 	m.removedargomenti = nil
 }
 
+// SetCapitoloID sets the "capitolo" edge to the Capitolo entity by id.
+func (m *DomandaMutation) SetCapitoloID(id int) {
+	m.capitolo = &id
+}
+
+// ClearCapitolo clears the "capitolo" edge to the Capitolo entity.
+func (m *DomandaMutation) ClearCapitolo() {
+	m.clearedcapitolo = true
+	m.clearedFields[domanda.FieldIDCapitolo] = struct{}{}
+}
+
+// CapitoloCleared reports if the "capitolo" edge to the Capitolo entity was cleared.
+func (m *DomandaMutation) CapitoloCleared() bool {
+	return m.clearedcapitolo
+}
+
+// CapitoloID returns the "capitolo" edge ID in the mutation.
+func (m *DomandaMutation) CapitoloID() (id int, exists bool) {
+	if m.capitolo != nil {
+		return *m.capitolo, true
+	}
+	return
+}
+
+// CapitoloIDs returns the "capitolo" edge IDs in the mutation.
+// Note that IDs always returns len(IDs) <= 1 for unique edges, and you should use
+// CapitoloID instead. It exists only for internal usage by the builders.
+func (m *DomandaMutation) CapitoloIDs() (ids []int) {
+	if id := m.capitolo; id != nil {
+		ids = append(ids, *id)
+	}
+	return
+}
+
+// ResetCapitolo resets all changes to the "capitolo" edge.
+func (m *DomandaMutation) ResetCapitolo() {
+	m.capitolo = nil
+	m.clearedcapitolo = false
+}
+
 // Where appends a list predicates to the DomandaMutation builder.
 func (m *DomandaMutation) Where(ps ...predicate.Domanda) {
 	m.predicates = append(m.predicates, ps...)
@@ -900,7 +1669,7 @@ func (m *DomandaMutation) Type() string {
 // order to get all numeric fields that were incremented/decremented, call
 // AddedFields().
 func (m *DomandaMutation) Fields() []string {
-	fields := make([]string, 0, 5)
+	fields := make([]string, 0, 6)
 	if m.testo != nil {
 		fields = append(fields, domanda.FieldTesto)
 	}
@@ -909,6 +1678,9 @@ func (m *DomandaMutation) Fields() []string {
 	}
 	if m.immagine != nil {
 		fields = append(fields, domanda.FieldImmagine)
+	}
+	if m.capitolo != nil {
+		fields = append(fields, domanda.FieldIDCapitolo)
 	}
 	if m.pagina_quiz != nil {
 		fields = append(fields, domanda.FieldPaginaQuiz)
@@ -930,6 +1702,8 @@ func (m *DomandaMutation) Field(name string) (ent.Value, bool) {
 		return m.IsTrue()
 	case domanda.FieldImmagine:
 		return m.Immagine()
+	case domanda.FieldIDCapitolo:
+		return m.IDCapitolo()
 	case domanda.FieldPaginaQuiz:
 		return m.PaginaQuiz()
 	case domanda.FieldIDBlocco:
@@ -949,6 +1723,8 @@ func (m *DomandaMutation) OldField(ctx context.Context, name string) (ent.Value,
 		return m.OldIsTrue(ctx)
 	case domanda.FieldImmagine:
 		return m.OldImmagine(ctx)
+	case domanda.FieldIDCapitolo:
+		return m.OldIDCapitolo(ctx)
 	case domanda.FieldPaginaQuiz:
 		return m.OldPaginaQuiz(ctx)
 	case domanda.FieldIDBlocco:
@@ -982,6 +1758,13 @@ func (m *DomandaMutation) SetField(name string, value ent.Value) error {
 			return fmt.Errorf("unexpected type %T for field %s", value, name)
 		}
 		m.SetImmagine(v)
+		return nil
+	case domanda.FieldIDCapitolo:
+		v, ok := value.(int)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetIDCapitolo(v)
 		return nil
 	case domanda.FieldPaginaQuiz:
 		v, ok := value.(int)
@@ -1091,6 +1874,9 @@ func (m *DomandaMutation) ResetField(name string) error {
 	case domanda.FieldImmagine:
 		m.ResetImmagine()
 		return nil
+	case domanda.FieldIDCapitolo:
+		m.ResetIDCapitolo()
+		return nil
 	case domanda.FieldPaginaQuiz:
 		m.ResetPaginaQuiz()
 		return nil
@@ -1103,9 +1889,12 @@ func (m *DomandaMutation) ResetField(name string) error {
 
 // AddedEdges returns all edge names that were set/added in this mutation.
 func (m *DomandaMutation) AddedEdges() []string {
-	edges := make([]string, 0, 1)
+	edges := make([]string, 0, 2)
 	if m.argomenti != nil {
 		edges = append(edges, domanda.EdgeArgomenti)
+	}
+	if m.capitolo != nil {
+		edges = append(edges, domanda.EdgeCapitolo)
 	}
 	return edges
 }
@@ -1120,13 +1909,17 @@ func (m *DomandaMutation) AddedIDs(name string) []ent.Value {
 			ids = append(ids, id)
 		}
 		return ids
+	case domanda.EdgeCapitolo:
+		if id := m.capitolo; id != nil {
+			return []ent.Value{*id}
+		}
 	}
 	return nil
 }
 
 // RemovedEdges returns all edge names that were removed in this mutation.
 func (m *DomandaMutation) RemovedEdges() []string {
-	edges := make([]string, 0, 1)
+	edges := make([]string, 0, 2)
 	if m.removedargomenti != nil {
 		edges = append(edges, domanda.EdgeArgomenti)
 	}
@@ -1149,9 +1942,12 @@ func (m *DomandaMutation) RemovedIDs(name string) []ent.Value {
 
 // ClearedEdges returns all edge names that were cleared in this mutation.
 func (m *DomandaMutation) ClearedEdges() []string {
-	edges := make([]string, 0, 1)
+	edges := make([]string, 0, 2)
 	if m.clearedargomenti {
 		edges = append(edges, domanda.EdgeArgomenti)
+	}
+	if m.clearedcapitolo {
+		edges = append(edges, domanda.EdgeCapitolo)
 	}
 	return edges
 }
@@ -1162,6 +1958,8 @@ func (m *DomandaMutation) EdgeCleared(name string) bool {
 	switch name {
 	case domanda.EdgeArgomenti:
 		return m.clearedargomenti
+	case domanda.EdgeCapitolo:
+		return m.clearedcapitolo
 	}
 	return false
 }
@@ -1170,6 +1968,9 @@ func (m *DomandaMutation) EdgeCleared(name string) bool {
 // if that edge is not defined in the schema.
 func (m *DomandaMutation) ClearEdge(name string) error {
 	switch name {
+	case domanda.EdgeCapitolo:
+		m.ClearCapitolo()
+		return nil
 	}
 	return fmt.Errorf("unknown Domanda unique edge %s", name)
 }
@@ -1180,6 +1981,9 @@ func (m *DomandaMutation) ResetEdge(name string) error {
 	switch name {
 	case domanda.EdgeArgomenti:
 		m.ResetArgomenti()
+		return nil
+	case domanda.EdgeCapitolo:
+		m.ResetCapitolo()
 		return nil
 	}
 	return fmt.Errorf("unknown Domanda edge %s", name)

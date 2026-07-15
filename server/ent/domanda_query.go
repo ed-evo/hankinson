@@ -13,6 +13,7 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/ed-evo/hankinson/server/ent/argomento"
+	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 	"github.com/ed-evo/hankinson/server/ent/predicate"
 )
@@ -25,6 +26,7 @@ type DomandaQuery struct {
 	inters        []Interceptor
 	predicates    []predicate.Domanda
 	withArgomenti *ArgomentoQuery
+	withCapitolo  *CapitoloQuery
 	// intermediate query (i.e. traversal path).
 	sql  *sql.Selector
 	path func(context.Context) (*sql.Selector, error)
@@ -76,6 +78,28 @@ func (_q *DomandaQuery) QueryArgomenti() *ArgomentoQuery {
 			sqlgraph.From(domanda.Table, domanda.FieldID, selector),
 			sqlgraph.To(argomento.Table, argomento.FieldID),
 			sqlgraph.Edge(sqlgraph.M2M, true, domanda.ArgomentiTable, domanda.ArgomentiPrimaryKey...),
+		)
+		fromU = sqlgraph.SetNeighbors(_q.driver.Dialect(), step)
+		return fromU, nil
+	}
+	return query
+}
+
+// QueryCapitolo chains the current query on the "capitolo" edge.
+func (_q *DomandaQuery) QueryCapitolo() *CapitoloQuery {
+	query := (&CapitoloClient{config: _q.config}).Query()
+	query.path = func(ctx context.Context) (fromU *sql.Selector, err error) {
+		if err := _q.prepareQuery(ctx); err != nil {
+			return nil, err
+		}
+		selector := _q.sqlQuery(ctx)
+		if err := selector.Err(); err != nil {
+			return nil, err
+		}
+		step := sqlgraph.NewStep(
+			sqlgraph.From(domanda.Table, domanda.FieldID, selector),
+			sqlgraph.To(capitolo.Table, capitolo.FieldID),
+			sqlgraph.Edge(sqlgraph.M2O, true, domanda.CapitoloTable, domanda.CapitoloColumn),
 		)
 		fromU = sqlgraph.SetNeighbors(_q.driver.Dialect(), step)
 		return fromU, nil
@@ -276,6 +300,7 @@ func (_q *DomandaQuery) Clone() *DomandaQuery {
 		inters:        append([]Interceptor{}, _q.inters...),
 		predicates:    append([]predicate.Domanda{}, _q.predicates...),
 		withArgomenti: _q.withArgomenti.Clone(),
+		withCapitolo:  _q.withCapitolo.Clone(),
 		// clone intermediate query.
 		sql:  _q.sql.Clone(),
 		path: _q.path,
@@ -290,6 +315,17 @@ func (_q *DomandaQuery) WithArgomenti(opts ...func(*ArgomentoQuery)) *DomandaQue
 		opt(query)
 	}
 	_q.withArgomenti = query
+	return _q
+}
+
+// WithCapitolo tells the query-builder to eager-load the nodes that are connected to
+// the "capitolo" edge. The optional arguments are used to configure the query builder of the edge.
+func (_q *DomandaQuery) WithCapitolo(opts ...func(*CapitoloQuery)) *DomandaQuery {
+	query := (&CapitoloClient{config: _q.config}).Query()
+	for _, opt := range opts {
+		opt(query)
+	}
+	_q.withCapitolo = query
 	return _q
 }
 
@@ -371,8 +407,9 @@ func (_q *DomandaQuery) sqlAll(ctx context.Context, hooks ...queryHook) ([]*Doma
 	var (
 		nodes       = []*Domanda{}
 		_spec       = _q.querySpec()
-		loadedTypes = [1]bool{
+		loadedTypes = [2]bool{
 			_q.withArgomenti != nil,
+			_q.withCapitolo != nil,
 		}
 	)
 	_spec.ScanValues = func(columns []string) ([]any, error) {
@@ -397,6 +434,12 @@ func (_q *DomandaQuery) sqlAll(ctx context.Context, hooks ...queryHook) ([]*Doma
 		if err := _q.loadArgomenti(ctx, query, nodes,
 			func(n *Domanda) { n.Edges.Argomenti = []*Argomento{} },
 			func(n *Domanda, e *Argomento) { n.Edges.Argomenti = append(n.Edges.Argomenti, e) }); err != nil {
+			return nil, err
+		}
+	}
+	if query := _q.withCapitolo; query != nil {
+		if err := _q.loadCapitolo(ctx, query, nodes, nil,
+			func(n *Domanda, e *Capitolo) { n.Edges.Capitolo = e }); err != nil {
 			return nil, err
 		}
 	}
@@ -464,6 +507,35 @@ func (_q *DomandaQuery) loadArgomenti(ctx context.Context, query *ArgomentoQuery
 	}
 	return nil
 }
+func (_q *DomandaQuery) loadCapitolo(ctx context.Context, query *CapitoloQuery, nodes []*Domanda, init func(*Domanda), assign func(*Domanda, *Capitolo)) error {
+	ids := make([]int, 0, len(nodes))
+	nodeids := make(map[int][]*Domanda)
+	for i := range nodes {
+		fk := nodes[i].IDCapitolo
+		if _, ok := nodeids[fk]; !ok {
+			ids = append(ids, fk)
+		}
+		nodeids[fk] = append(nodeids[fk], nodes[i])
+	}
+	if len(ids) == 0 {
+		return nil
+	}
+	query.Where(capitolo.IDIn(ids...))
+	neighbors, err := query.All(ctx)
+	if err != nil {
+		return err
+	}
+	for _, n := range neighbors {
+		nodes, ok := nodeids[n.ID]
+		if !ok {
+			return fmt.Errorf(`unexpected foreign-key "id_capitolo" returned %v`, n.ID)
+		}
+		for i := range nodes {
+			assign(nodes[i], n)
+		}
+	}
+	return nil
+}
 
 func (_q *DomandaQuery) sqlCount(ctx context.Context) (int, error) {
 	_spec := _q.querySpec()
@@ -489,6 +561,9 @@ func (_q *DomandaQuery) querySpec() *sqlgraph.QuerySpec {
 			if fields[i] != domanda.FieldID {
 				_spec.Node.Columns = append(_spec.Node.Columns, fields[i])
 			}
+		}
+		if _q.withCapitolo != nil {
+			_spec.Node.AddColumnOnce(domanda.FieldIDCapitolo)
 		}
 	}
 	if ps := _q.predicates; len(ps) > 0 {

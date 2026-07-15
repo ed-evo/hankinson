@@ -14,6 +14,8 @@ type Tx struct {
 	config
 	// Argomento is the client for interacting with the Argomento builders.
 	Argomento *ArgomentoClient
+	// Capitolo is the client for interacting with the Capitolo builders.
+	Capitolo *CapitoloClient
 	// Domanda is the client for interacting with the Domanda builders.
 	Domanda *DomandaClient
 
@@ -148,6 +150,7 @@ func (tx *Tx) Client() *Client {
 
 func (tx *Tx) init() {
 	tx.Argomento = NewArgomentoClient(tx.config)
+	tx.Capitolo = NewCapitoloClient(tx.config)
 	tx.Domanda = NewDomandaClient(tx.config)
 }
 

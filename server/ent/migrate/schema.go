@@ -27,6 +27,20 @@ var (
 			},
 		},
 	}
+	// CapitoliColumns holds the columns for the "capitoli" table.
+	CapitoliColumns = []*schema.Column{
+		{Name: "id", Type: field.TypeInt},
+		{Name: "nome", Type: field.TypeString},
+		{Name: "min_numero_domanda", Type: field.TypeInt},
+		{Name: "max_numero_domanda", Type: field.TypeInt},
+		{Name: "totale_domande", Type: field.TypeInt},
+	}
+	// CapitoliTable holds the schema information for the "capitoli" table.
+	CapitoliTable = &schema.Table{
+		Name:       "capitoli",
+		Columns:    CapitoliColumns,
+		PrimaryKey: []*schema.Column{CapitoliColumns[0]},
+	}
 	// DomandeColumns holds the columns for the "domande" table.
 	DomandeColumns = []*schema.Column{
 		{Name: "numero", Type: field.TypeInt},
@@ -35,13 +49,27 @@ var (
 		{Name: "immagine", Type: field.TypeString, Nullable: true},
 		{Name: "pagina_quiz", Type: field.TypeInt},
 		{Name: "id_blocco", Type: field.TypeInt},
+		{Name: "id_capitolo", Type: field.TypeInt},
 	}
 	// DomandeTable holds the schema information for the "domande" table.
 	DomandeTable = &schema.Table{
 		Name:       "domande",
 		Columns:    DomandeColumns,
 		PrimaryKey: []*schema.Column{DomandeColumns[0]},
+		ForeignKeys: []*schema.ForeignKey{
+			{
+				Symbol:     "domande_capitoli_domande",
+				Columns:    []*schema.Column{DomandeColumns[6]},
+				RefColumns: []*schema.Column{CapitoliColumns[0]},
+				OnDelete:   schema.NoAction,
+			},
+		},
 		Indexes: []*schema.Index{
+			{
+				Name:    "domanda_id_capitolo",
+				Unique:  false,
+				Columns: []*schema.Column{DomandeColumns[6]},
+			},
 			{
 				Name:    "domanda_is_true",
 				Unique:  false,
@@ -87,6 +115,7 @@ var (
 	// Tables holds all the tables in the schema.
 	Tables = []*schema.Table{
 		ArgomentiTable,
+		CapitoliTable,
 		DomandeTable,
 		ArgomentiDomandeTable,
 	}
@@ -96,6 +125,10 @@ func init() {
 	ArgomentiTable.Annotation = &entsql.Annotation{
 		Table: "argomenti",
 	}
+	CapitoliTable.Annotation = &entsql.Annotation{
+		Table: "capitoli",
+	}
+	DomandeTable.ForeignKeys[0].RefTable = CapitoliTable
 	DomandeTable.Annotation = &entsql.Annotation{
 		Table: "domande",
 	}

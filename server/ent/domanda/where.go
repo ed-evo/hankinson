@@ -68,6 +68,11 @@ func Immagine(v string) predicate.Domanda {
 	return predicate.Domanda(sql.FieldEQ(FieldImmagine, v))
 }
 
+// IDCapitolo applies equality check predicate on the "id_capitolo" field. It's identical to IDCapitoloEQ.
+func IDCapitolo(v int) predicate.Domanda {
+	return predicate.Domanda(sql.FieldEQ(FieldIDCapitolo, v))
+}
+
 // PaginaQuiz applies equality check predicate on the "pagina_quiz" field. It's identical to PaginaQuizEQ.
 func PaginaQuiz(v int) predicate.Domanda {
 	return predicate.Domanda(sql.FieldEQ(FieldPaginaQuiz, v))
@@ -228,6 +233,26 @@ func ImmagineContainsFold(v string) predicate.Domanda {
 	return predicate.Domanda(sql.FieldContainsFold(FieldImmagine, v))
 }
 
+// IDCapitoloEQ applies the EQ predicate on the "id_capitolo" field.
+func IDCapitoloEQ(v int) predicate.Domanda {
+	return predicate.Domanda(sql.FieldEQ(FieldIDCapitolo, v))
+}
+
+// IDCapitoloNEQ applies the NEQ predicate on the "id_capitolo" field.
+func IDCapitoloNEQ(v int) predicate.Domanda {
+	return predicate.Domanda(sql.FieldNEQ(FieldIDCapitolo, v))
+}
+
+// IDCapitoloIn applies the In predicate on the "id_capitolo" field.
+func IDCapitoloIn(vs ...int) predicate.Domanda {
+	return predicate.Domanda(sql.FieldIn(FieldIDCapitolo, vs...))
+}
+
+// IDCapitoloNotIn applies the NotIn predicate on the "id_capitolo" field.
+func IDCapitoloNotIn(vs ...int) predicate.Domanda {
+	return predicate.Domanda(sql.FieldNotIn(FieldIDCapitolo, vs...))
+}
+
 // PaginaQuizEQ applies the EQ predicate on the "pagina_quiz" field.
 func PaginaQuizEQ(v int) predicate.Domanda {
 	return predicate.Domanda(sql.FieldEQ(FieldPaginaQuiz, v))
@@ -323,6 +348,29 @@ func HasArgomenti() predicate.Domanda {
 func HasArgomentiWith(preds ...predicate.Argomento) predicate.Domanda {
 	return predicate.Domanda(func(s *sql.Selector) {
 		step := newArgomentiStep()
+		sqlgraph.HasNeighborsWith(s, step, func(s *sql.Selector) {
+			for _, p := range preds {
+				p(s)
+			}
+		})
+	})
+}
+
+// HasCapitolo applies the HasEdge predicate on the "capitolo" edge.
+func HasCapitolo() predicate.Domanda {
+	return predicate.Domanda(func(s *sql.Selector) {
+		step := sqlgraph.NewStep(
+			sqlgraph.From(Table, FieldID),
+			sqlgraph.Edge(sqlgraph.M2O, true, CapitoloTable, CapitoloColumn),
+		)
+		sqlgraph.HasNeighbors(s, step)
+	})
+}
+
+// HasCapitoloWith applies the HasEdge predicate on the "capitolo" edge with a given conditions (other predicates).
+func HasCapitoloWith(preds ...predicate.Capitolo) predicate.Domanda {
+	return predicate.Domanda(func(s *sql.Selector) {
+		step := newCapitoloStep()
 		sqlgraph.HasNeighborsWith(s, step, func(s *sql.Selector) {
 			for _, p := range preds {
 				p(s)

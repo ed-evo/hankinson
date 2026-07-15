@@ -17,13 +17,13 @@ func main() {
 		log.Fatal("this generator must be run via 'go generate'")
 	}
 
-	domande, argomennti, err := seeds.GetSeeds()
+	capitoli, domande, argomennti, err := seeds.GetSeeds()
 
 	if err != nil {
 		log.Fatalf("Errore lettura dati: %v", err)
 	}
 
-	log.Printf("Domande %v, Argomenti %v", len(domande), len(argomennti))
+	log.Printf("Capitoli %v, Domande %v, Argomenti %v", len(capitoli), len(domande), len(argomennti))
 
 	// 1. Definiamo le funzioni custom usate nel file SQL (.escape)
 	funcMap := template.FuncMap{
@@ -39,9 +39,11 @@ func main() {
 
 	var queryBuffer bytes.Buffer
 	data := struct {
+		Capitoli  []seeds.Capitolo
 		Argomenti []seeds.Argomento
 		Domande   []seeds.Domanda
 	}{
+		Capitoli:  capitoli,
 		Argomenti: argomennti,
 		Domande:   domande,
 	}

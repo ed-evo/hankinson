@@ -11,6 +11,7 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 	"github.com/ed-evo/hankinson/server/ent/argomento"
+	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 	"github.com/ed-evo/hankinson/server/ent/predicate"
 )
@@ -76,6 +77,20 @@ func (_u *DomandaUpdate) ClearImmagine() *DomandaUpdate {
 	return _u
 }
 
+// SetIDCapitolo sets the "id_capitolo" field.
+func (_u *DomandaUpdate) SetIDCapitolo(v int) *DomandaUpdate {
+	_u.mutation.SetIDCapitolo(v)
+	return _u
+}
+
+// SetNillableIDCapitolo sets the "id_capitolo" field if the given value is not nil.
+func (_u *DomandaUpdate) SetNillableIDCapitolo(v *int) *DomandaUpdate {
+	if v != nil {
+		_u.SetIDCapitolo(*v)
+	}
+	return _u
+}
+
 // SetPaginaQuiz sets the "pagina_quiz" field.
 func (_u *DomandaUpdate) SetPaginaQuiz(v int) *DomandaUpdate {
 	_u.mutation.ResetPaginaQuiz()
@@ -133,6 +148,17 @@ func (_u *DomandaUpdate) AddArgomenti(v ...*Argomento) *DomandaUpdate {
 	return _u.AddArgomentiIDs(ids...)
 }
 
+// SetCapitoloID sets the "capitolo" edge to the Capitolo entity by ID.
+func (_u *DomandaUpdate) SetCapitoloID(id int) *DomandaUpdate {
+	_u.mutation.SetCapitoloID(id)
+	return _u
+}
+
+// SetCapitolo sets the "capitolo" edge to the Capitolo entity.
+func (_u *DomandaUpdate) SetCapitolo(v *Capitolo) *DomandaUpdate {
+	return _u.SetCapitoloID(v.ID)
+}
+
 // Mutation returns the DomandaMutation object of the builder.
 func (_u *DomandaUpdate) Mutation() *DomandaMutation {
 	return _u.mutation
@@ -157,6 +183,12 @@ func (_u *DomandaUpdate) RemoveArgomenti(v ...*Argomento) *DomandaUpdate {
 		ids[i] = v[i].ID
 	}
 	return _u.RemoveArgomentiIDs(ids...)
+}
+
+// ClearCapitolo clears the "capitolo" edge to the Capitolo entity.
+func (_u *DomandaUpdate) ClearCapitolo() *DomandaUpdate {
+	_u.mutation.ClearCapitolo()
+	return _u
 }
 
 // Save executes the query and returns the number of nodes affected by the update operation.
@@ -186,7 +218,18 @@ func (_u *DomandaUpdate) ExecX(ctx context.Context) {
 	}
 }
 
+// check runs all checks and user-defined validators on the builder.
+func (_u *DomandaUpdate) check() error {
+	if _u.mutation.CapitoloCleared() && len(_u.mutation.CapitoloIDs()) > 0 {
+		return errors.New(`ent: clearing a required unique edge "Domanda.capitolo"`)
+	}
+	return nil
+}
+
 func (_u *DomandaUpdate) sqlSave(ctx context.Context) (_node int, err error) {
+	if err := _u.check(); err != nil {
+		return _node, err
+	}
 	_spec := sqlgraph.NewUpdateSpec(domanda.Table, domanda.Columns, sqlgraph.NewFieldSpec(domanda.FieldID, field.TypeInt))
 	if ps := _u.mutation.predicates; len(ps) > 0 {
 		_spec.Predicate = func(selector *sql.Selector) {
@@ -264,6 +307,35 @@ func (_u *DomandaUpdate) sqlSave(ctx context.Context) (_node int, err error) {
 		}
 		_spec.Edges.Add = append(_spec.Edges.Add, edge)
 	}
+	if _u.mutation.CapitoloCleared() {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.M2O,
+			Inverse: true,
+			Table:   domanda.CapitoloTable,
+			Columns: []string{domanda.CapitoloColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(capitolo.FieldID, field.TypeInt),
+			},
+		}
+		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
+	}
+	if nodes := _u.mutation.CapitoloIDs(); len(nodes) > 0 {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.M2O,
+			Inverse: true,
+			Table:   domanda.CapitoloTable,
+			Columns: []string{domanda.CapitoloColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(capitolo.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_spec.Edges.Add = append(_spec.Edges.Add, edge)
+	}
 	if _node, err = sqlgraph.UpdateNodes(ctx, _u.driver, _spec); err != nil {
 		if _, ok := err.(*sqlgraph.NotFoundError); ok {
 			err = &NotFoundError{domanda.Label}
@@ -332,6 +404,20 @@ func (_u *DomandaUpdateOne) ClearImmagine() *DomandaUpdateOne {
 	return _u
 }
 
+// SetIDCapitolo sets the "id_capitolo" field.
+func (_u *DomandaUpdateOne) SetIDCapitolo(v int) *DomandaUpdateOne {
+	_u.mutation.SetIDCapitolo(v)
+	return _u
+}
+
+// SetNillableIDCapitolo sets the "id_capitolo" field if the given value is not nil.
+func (_u *DomandaUpdateOne) SetNillableIDCapitolo(v *int) *DomandaUpdateOne {
+	if v != nil {
+		_u.SetIDCapitolo(*v)
+	}
+	return _u
+}
+
 // SetPaginaQuiz sets the "pagina_quiz" field.
 func (_u *DomandaUpdateOne) SetPaginaQuiz(v int) *DomandaUpdateOne {
 	_u.mutation.ResetPaginaQuiz()
@@ -389,6 +475,17 @@ func (_u *DomandaUpdateOne) AddArgomenti(v ...*Argomento) *DomandaUpdateOne {
 	return _u.AddArgomentiIDs(ids...)
 }
 
+// SetCapitoloID sets the "capitolo" edge to the Capitolo entity by ID.
+func (_u *DomandaUpdateOne) SetCapitoloID(id int) *DomandaUpdateOne {
+	_u.mutation.SetCapitoloID(id)
+	return _u
+}
+
+// SetCapitolo sets the "capitolo" edge to the Capitolo entity.
+func (_u *DomandaUpdateOne) SetCapitolo(v *Capitolo) *DomandaUpdateOne {
+	return _u.SetCapitoloID(v.ID)
+}
+
 // Mutation returns the DomandaMutation object of the builder.
 func (_u *DomandaUpdateOne) Mutation() *DomandaMutation {
 	return _u.mutation
@@ -413,6 +510,12 @@ func (_u *DomandaUpdateOne) RemoveArgomenti(v ...*Argomento) *DomandaUpdateOne {
 		ids[i] = v[i].ID
 	}
 	return _u.RemoveArgomentiIDs(ids...)
+}
+
+// ClearCapitolo clears the "capitolo" edge to the Capitolo entity.
+func (_u *DomandaUpdateOne) ClearCapitolo() *DomandaUpdateOne {
+	_u.mutation.ClearCapitolo()
+	return _u
 }
 
 // Where appends a list predicates to the DomandaUpdate builder.
@@ -455,7 +558,18 @@ func (_u *DomandaUpdateOne) ExecX(ctx context.Context) {
 	}
 }
 
+// check runs all checks and user-defined validators on the builder.
+func (_u *DomandaUpdateOne) check() error {
+	if _u.mutation.CapitoloCleared() && len(_u.mutation.CapitoloIDs()) > 0 {
+		return errors.New(`ent: clearing a required unique edge "Domanda.capitolo"`)
+	}
+	return nil
+}
+
 func (_u *DomandaUpdateOne) sqlSave(ctx context.Context) (_node *Domanda, err error) {
+	if err := _u.check(); err != nil {
+		return _node, err
+	}
 	_spec := sqlgraph.NewUpdateSpec(domanda.Table, domanda.Columns, sqlgraph.NewFieldSpec(domanda.FieldID, field.TypeInt))
 	id, ok := _u.mutation.ID()
 	if !ok {
@@ -543,6 +657,35 @@ func (_u *DomandaUpdateOne) sqlSave(ctx context.Context) (_node *Domanda, err er
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(argomento.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_spec.Edges.Add = append(_spec.Edges.Add, edge)
+	}
+	if _u.mutation.CapitoloCleared() {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.M2O,
+			Inverse: true,
+			Table:   domanda.CapitoloTable,
+			Columns: []string{domanda.CapitoloColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(capitolo.FieldID, field.TypeInt),
+			},
+		}
+		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
+	}
+	if nodes := _u.mutation.CapitoloIDs(); len(nodes) > 0 {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.M2O,
+			Inverse: true,
+			Table:   domanda.CapitoloTable,
+			Columns: []string{domanda.CapitoloColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(capitolo.FieldID, field.TypeInt),
 			},
 		}
 		for _, k := range nodes {

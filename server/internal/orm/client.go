@@ -40,6 +40,16 @@ func GetClient(ctx context.Context) *ent.Client {
 		}
 
 		err = seeds.SeedDomande(ctx, db)
+
+		if err != nil {
+			log.Fatalf("Errore Seeding Domande: %v", err)
+		}
+
+		err = seeds.VerificaCapitoli(ctx, db)
+
+		if err != nil {
+			log.Fatalf("Errore Capitoli: %v", err)
+		}
 	})
 
 	return client
