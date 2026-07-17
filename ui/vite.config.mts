@@ -43,6 +43,14 @@ export default defineConfig({
   },
   server: {
     port: 3000,
+    proxy: {
+      // Intercept any request starting with "/api"
+      '/api': {
+        target: 'http://localhost:8080', // Your local backend API server
+        changeOrigin: true,             // Necessary to avoid CORS issues locally
+        // rewrite: (path) => path.replace(/^\/api/, '') // Optional: use this if you need to strip "/api" before forwarding
+      }
+    }
   },
   build: {
     outDir: '../server/webui/public',
