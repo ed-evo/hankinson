@@ -7,11 +7,11 @@ import (
 
 var BasePath string = "/quiz"
 
-func QuizGroup(db *ent.Client) chi.Router {
+func NewQuizRouter(db *ent.Client) chi.Router {
 	r := chi.NewRouter()
-	r.Mount("/capitoli", getCapitoliRouter(db))
-	r.Mount("/domande", getDomandeRouter(db))
-	r.Mount("/argomenti", getArgomentiRouter(db))
-	r.Mount("/prove", getProveRouter(db))
+	r.Mount("/capitoli", newCapitoliRouter(db))
+	r.Mount("/domande", newDomandeRouter(db))
+	r.Mount("/argomenti", newArgomentiRouter(db))
+	r.Mount("/prove", newProveRouter(db))
 	return r
 }

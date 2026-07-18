@@ -12,7 +12,7 @@ import (
 	"github.com/go-chi/render"
 )
 
-func getCapitoliRouter(db *ent.Client) chi.Router {
+func newCapitoliRouter(db *ent.Client) chi.Router {
 	capitoliRouter := chi.NewRouter()
 	capitoliRouter.Get("/", func(w http.ResponseWriter, r *http.Request) {
 		capitoli, _ := db.Capitolo.Query().

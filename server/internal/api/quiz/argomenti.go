@@ -12,7 +12,7 @@ import (
 	"github.com/go-chi/render"
 )
 
-func getArgomentiRouter(db *ent.Client) chi.Router {
+func newArgomentiRouter(db *ent.Client) chi.Router {
 	argomentiRouter := chi.NewRouter()
 
 	argomentiRouter.Get("/", func(w http.ResponseWriter, r *http.Request) {

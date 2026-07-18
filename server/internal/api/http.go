@@ -27,14 +27,15 @@ func CorsHeaders(next http.Handler) http.Handler {
 	})
 }
 
-func ApiGroup(db *ent.Client) chi.Router {
+func NewApiRouter(db *ent.Client) chi.Router {
 	r := chi.NewRouter()
+	r.Use(middleware.Logger)
 	r.Use(middleware.RequestID)
 	r.Use(middleware.URLFormat)
 
 	r.Use(render.SetContentType(render.ContentTypeJSON))
 	r.Use(CorsHeaders)
-	r.Mount(quiz_api.BasePath, quiz_api.QuizGroup(db))
+	r.Mount(quiz_api.BasePath, quiz_api.NewQuizRouter(db))
 
 	return r
 }

@@ -8,7 +8,7 @@ import (
 	"github.com/go-chi/render"
 )
 
-func getDomandeRouter(db *ent.Client) chi.Router {
+func newDomandeRouter(db *ent.Client) chi.Router {
 	domandeRouter := chi.NewRouter()
 
 	domandeRouter.Get("/", func(w http.ResponseWriter, r *http.Request) {
