@@ -43,7 +43,7 @@
 
 <script lang="ts" setup>
 import { useQuizStore } from '@/stores/quiz';
-import type { Domanda } from '@/types/hankinson';
+import type { Domanda } from '@/services/hankinson';
 import { ref, computed, onMounted } from 'vue';
 
 import { useDisplay } from 'vuetify';

@@ -1,6 +1,7 @@
-import type { Capitolo, Domanda } from "@/types/hankinson";
+import { getCapitoli, getDomandeByCapitolo, login, USER_REF, type Capitolo, type Domanda, type User } from "@/services/hankinson";
+import { useLocalStorage } from "@vueuse/core";
 import { defineStore } from "pinia";
-import { ref, type Ref } from "vue";
+import { computed, ref, type Ref } from "vue";
 
 class MultiMap<K, V> extends Map<K, V[]> {
     // Overrides standard set to append to an array
@@ -17,39 +18,55 @@ class MultiMap<K, V> extends Map<K, V[]> {
 
 async function fetchCapitoli(
     progress: Ref<number>,
-    capitoliContainer: Ref<Map<number, Capitolo>>,
-    domandeContainer: Ref<MultiMap<number, Domanda>>
+    capitoliContainer: Map<number, Capitolo>,
+    domandeContainer: MultiMap<number, Domanda>
 ) {
-    const response = await fetch('/api/v1/quiz/capitoli')
-    const body: Capitolo[] = await response.json()
+    const body: Capitolo[] = await getCapitoli()
     const singlePercentage = 100/body.length
     for (const capitolo of body) {
-        capitoliContainer.value.set(capitolo.id as number, capitolo)
-        const domandeResponse = await fetch(`/api/v1/quiz/capitoli/${capitolo.id}`)
-        const domandeBody = await domandeResponse.json()
-        domandeContainer.value.set(capitolo.id, domandeBody.edges.domande)
+        capitoliContainer.set(capitolo.id as number, capitolo)
+        const domande = await getDomandeByCapitolo(capitolo.id)
+        domandeContainer.set(capitolo.id, domande)
         progress.value += singlePercentage
     }
-    progress.value = 100
 }
 
 export const useQuizStore = defineStore('quiz', () => {
-    const downloadProgress = ref(0)
-    const capitoli = ref<Map<number, Capitolo>>(new Map())
-    const capitoliSelezionati = ref<Capitolo[]>([])
-    // capitoliSelezionati.value = Array.from(capitoli.value.keys())
-    const domandeByCapitoli = ref<MultiMap<number, Domanda>>(new MultiMap())
-    fetchCapitoli(downloadProgress, capitoli, domandeByCapitoli)
 
+    const capitoliSelezionati: Ref<Capitolo[]> = useLocalStorage('quiz.capitoliSelezionati', [] as Capitolo[])
+    const downloadProgress = ref(-1)
+    const capitoli: Map<number, Capitolo> = new Map()
+    const domandeByCapitoli: MultiMap<number, Domanda> = new MultiMap()
+
+    login().then(
+        user => console.log('user', user),
+        err => {
+            console.error("errore login", err)
+            const user = window.prompt("Inserisci la tua email.")
+            console.info("user", user)
+            USER_REF.value = user as User
+        }
+    ).then(() => fetchCapitoli(downloadProgress, capitoli, domandeByCapitoli))
+    .then(() => {
+        if (capitoliSelezionati.value.length === 0) {
+            const c0 = capitoli.get(0);
+            const c1 = capitoli.get(1);
+            const c2 = capitoli.get(2);
+            if (c0) capitoliSelezionati.value.push(c0);
+            if (c1) capitoliSelezionati.value.push(c1);
+            if (c2) capitoliSelezionati.value.push(c2);
+        }
+        downloadProgress.value = 100
+    })
+    
     return {
-        downloadProgress,
-        capitoli,
-        domandeByCapitoli,
-        capitoliSelezionati
-    }
-}, {
-    persist: {
-        key: 'quiz-store',
-        pick: ['capitoliSelezionati'] 
+        // state
+        capitoliSelezionati,
+        // getters
+        user: computed(() => USER_REF),
+        downloadProgress: computed(() => downloadProgress.value),
+        capitoli: computed(() => capitoli),
+        domandeByCapitoli: computed(() => domandeByCapitoli),
+        // actions
     }
 })

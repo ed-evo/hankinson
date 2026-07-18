@@ -20,6 +20,10 @@
     </v-overlay>
     <v-layout class="d-flex flex-column" v-if="!isLoading">
       <v-system-bar color="grey-darken-3">
+        <span>@{{ quizStore.user }}</span>
+
+        <v-spacer></v-spacer>
+        
         <v-icon :icon="settingsDrawerIcon" @click="toggleSettingleDrawer"></v-icon>
       </v-system-bar>
       <v-navigation-drawer v-model="appStore.opennedSettings" color="grey-darken-2" :width="mobile ? width : width / 4">

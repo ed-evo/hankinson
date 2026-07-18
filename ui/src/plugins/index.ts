@@ -1,6 +1,6 @@
 import router from '../router';
 import { createPinia } from 'pinia';
-import piniaPersistedState from 'pinia-plugin-persistedstate'
+
 /**
  * plugins/index.ts
  *
@@ -15,7 +15,6 @@ import vuetify from './vuetify'
 
 export function registerPlugins(app: App) {
     const pinia = createPinia()
-    pinia.use(piniaPersistedState)
     app.use(vuetify)
     app.use(pinia);
     app.use(router);
