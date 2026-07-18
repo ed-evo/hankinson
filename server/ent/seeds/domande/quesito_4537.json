@@ -30,7 +30,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23853,
-    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di autovettur e che non sono in grado di sviluppare per costruzione la velocità in piano di almeno 80 km/h",
+    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di autovetture che non sono in grado di sviluppare per costruzione la velocità in piano di almeno 80 km/h",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 536
@@ -102,7 +102,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23857,
-    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di veicoli le cui condizioni di us o, equipaggiamento e gommatura possono costituire pericolo per la circolazione",
+    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di veicoli le cui condizioni di uso, equipaggiamento e gommatura possono costituire pericolo per la circolazione",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 536
@@ -120,7 +120,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23858,
-    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di autobus pe r trasporto di studenti",
+    "testo": "Sulle autostrade e strade extraurbane principali è vietata la circolazione di autobus per trasporto di studenti",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 536
@@ -138,7 +138,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23859,
-    "testo": "Sulle autostrade e strade extraurbane principali è consigliabile evitare la circolazione di veicoli a tenuta non stagna e con carico scoperto, se tra sport ano materiali che possono disperdersi",
+    "testo": "Sulle autostrade e strade extraurbane principali è consigliabile evitare la circolazione di veicoli a tenuta non stagna e con carico scoperto, se trasportano materiali che possono disperdersi",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 536
@@ -174,7 +174,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23861,
-    "testo": "Sono ammessi a circolare su autostrade e strade extraurbane principali i ciclomotori c he sviluppano una velocità di almeno 50 km/h",
+    "testo": "Sono ammessi a circolare su autostrade e strade extraurbane principali i ciclomotori che sviluppano una velocità di almeno 50 km/h",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 536

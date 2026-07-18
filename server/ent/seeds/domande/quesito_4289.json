@@ -38,7 +38,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21455,
-    "testo": "Il segnale raffigurato s i può trovare su strade urbane",
+    "testo": "Il segnale raffigurato si può trovare su strade urbane",
     "risposta_corretta": "VERO",
     "immagine": "6e5435838d3626718724832f871812e2",
     "pagina_quiz": 44
@@ -60,7 +60,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21457,
-    "testo": "Il segnale raffigurato s i trova solo su strade a senso unico",
+    "testo": "Il segnale raffigurato si trova solo su strade a senso unico",
     "risposta_corretta": "FALSO",
     "immagine": "6e5435838d3626718724832f871812e2",
     "pagina_quiz": 44

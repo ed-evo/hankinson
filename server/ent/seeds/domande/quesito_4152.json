@@ -27,7 +27,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20068,
-    "testo": "Il segnale raffigurato, pos to prima di un incrocio, obbliga a svoltare a sinistra",
+    "testo": "Il segnale raffigurato, posto prima di un incrocio, obbliga a svoltare a sinistra",
     "risposta_corretta": "VERO",
     "immagine": "fece8907377910340f0aecbc53ef2a9b",
     "pagina_quiz": 338
@@ -137,7 +137,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20078,
-    "testo": "Il segnale raffigurato indica che è obbligatorio passare a sinistra di un ostac olo posto sulla carreggiata",
+    "testo": "Il segnale raffigurato indica che è obbligatorio passare a sinistra di un ostacolo posto sulla carreggiata",
     "risposta_corretta": "FALSO",
     "immagine": "fece8907377910340f0aecbc53ef2a9b",
     "pagina_quiz": 339

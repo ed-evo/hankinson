@@ -5,7 +5,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19156,
-    "testo": "In presenza del segnale raffigurato non è consenti to sorpassare i veicoli che ral lent ano per far attraversare i pedoni",
+    "testo": "In presenza del segnale raffigurato non è consentito sorpassare i veicoli che rallentano per far attraversare i pedoni",
     "risposta_corretta": "VERO",
     "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
     "pagina_quiz": 187
@@ -38,7 +38,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19159,
-    "testo": "In presenza del segnale raffigurato non si deve effettuare sosta o fermata sopra le st risce pedonali",
+    "testo": "In presenza del segnale raffigurato non si deve effettuare sosta o fermata sopra le strisce pedonali",
     "risposta_corretta": "VERO",
     "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
     "pagina_quiz": 188
@@ -60,7 +60,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19161,
-    "testo": "In presenza del segnale raffigurato è obbligatorio suonare il clacson se vi sono pedoni c he attraversano sulle strisce pedonali",
+    "testo": "In presenza del segnale raffigurato è obbligatorio suonare il clacson se vi sono pedoni che attraversano sulle strisce pedonali",
     "risposta_corretta": "FALSO",
     "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
     "pagina_quiz": 188
@@ -93,7 +93,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19164,
-    "testo": "In presenza del segnale raffigurato non è obbligatorio dare la precedenza ai pedoni che attraversano sulle s trisce pedonali",
+    "testo": "In presenza del segnale raffigurato non è obbligatorio dare la precedenza ai pedoni che attraversano sulle strisce pedonali",
     "risposta_corretta": "FALSO",
     "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
     "pagina_quiz": 188
@@ -104,7 +104,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19165,
-    "testo": "In presenza del segnale raffigurato si deve dare la precedenza solo ai pedoni che attraversano da sinis tra",
+    "testo": "In presenza del segnale raffigurato si deve dare la precedenza solo ai pedoni che attraversano da sinistra",
     "risposta_corretta": "FALSO",
     "immagine": "d28d2b64a1ad2efdcae7f4db0146e644",
     "pagina_quiz": 188

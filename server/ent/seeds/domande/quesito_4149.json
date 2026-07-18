@@ -16,7 +16,7 @@
       "Segnali di divieto"
     ],
     "numero": 20023,
-    "testo": "In presenza del segnale raffigurato è vietato il transito alle categorie di veicoli r appresentati in figura",
+    "testo": "In presenza del segnale raffigurato è vietato il transito alle categorie di veicoli rappresentati in figura",
     "risposta_corretta": "VERO",
     "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
     "pagina_quiz": 323
@@ -82,7 +82,7 @@
       "Segnali di divieto"
     ],
     "numero": 20029,
-    "testo": "Il segnale raffigurato vieta il transito di tutti i veicoli con esclusione di quelli ra ppresentati in figura",
+    "testo": "Il segnale raffigurato vieta il transito di tutti i veicoli con esclusione di quelli rappresentati in figura",
     "risposta_corretta": "FALSO",
     "immagine": "3ee5cbf2115bf21c580617c75914fcf3",
     "pagina_quiz": 323

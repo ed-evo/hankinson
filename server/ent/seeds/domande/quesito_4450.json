@@ -5,7 +5,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23063,
-    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R pa ssa per primo",
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R passa per primo",
     "risposta_corretta": "VERO",
     "immagine": "dff6c2da1167ac92f2211d345cec14f7",
     "pagina_quiz": 90
@@ -16,7 +16,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23064,
-    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C de ve passare per ultimo",
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C deve passare per ultimo",
     "risposta_corretta": "VERO",
     "immagine": "dff6c2da1167ac92f2211d345cec14f7",
     "pagina_quiz": 90
@@ -49,7 +49,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23067,
-    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C de ve passare dopo i veicoli R e A",
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C deve passare dopo i veicoli R e A",
     "risposta_corretta": "VERO",
     "immagine": "dff6c2da1167ac92f2211d345cec14f7",
     "pagina_quiz": 90
@@ -93,7 +93,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23071,
-    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R de ve passare dopo il veicolo A",
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R deve passare dopo il veicolo A",
     "risposta_corretta": "FALSO",
     "immagine": "dff6c2da1167ac92f2211d345cec14f7",
     "pagina_quiz": 91
@@ -104,7 +104,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23072,
-    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R de ve attraversare l'incrocio per secondo",
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo R deve attraversare l'incrocio per secondo",
     "risposta_corretta": "FALSO",
     "immagine": "dff6c2da1167ac92f2211d345cec14f7",
     "pagina_quiz": 91
@@ -115,7 +115,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23073,
-    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C pa ssa per secondo",
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo C passa per secondo",
     "risposta_corretta": "FALSO",
     "immagine": "dff6c2da1167ac92f2211d345cec14f7",
     "pagina_quiz": 91

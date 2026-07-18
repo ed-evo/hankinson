@@ -38,7 +38,7 @@
       "Segnali di divieto"
     ],
     "numero": 19899,
-    "testo": "Il segnale raffigurato cessa di validità dopo il primo incrocio, se non ripe tuto",
+    "testo": "Il segnale raffigurato cessa di validità dopo il primo incrocio, se non ripetuto",
     "risposta_corretta": "VERO",
     "immagine": "d4b28695e6068e452924476599e75981",
     "pagina_quiz": 308
@@ -82,7 +82,7 @@
       "Segnali di divieto"
     ],
     "numero": 19903,
-    "testo": "Il segnale raffigurato, s e posto s ul lato sinistro di una strada a senso unico, vieta la sosta anche sul lato destro",
+    "testo": "Il segnale raffigurato, se posto sul lato sinistro di una strada a senso unico, vieta la sosta anche sul lato destro",
     "risposta_corretta": "FALSO",
     "immagine": "d4b28695e6068e452924476599e75981",
     "pagina_quiz": 308

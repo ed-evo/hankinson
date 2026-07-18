@@ -16,7 +16,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21723,
-    "testo": "Il segnale raffigurato indica che la corsia di destra è riservata agli autobus dei se rvizi pubblici urbani",
+    "testo": "Il segnale raffigurato indica che la corsia di destra è riservata agli autobus dei servizi pubblici urbani",
     "risposta_corretta": "VERO",
     "immagine": "0573c2af5262ded64a42122fe33ee273",
     "pagina_quiz": 77
@@ -27,7 +27,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21724,
-    "testo": "Il segnale raffigurato indica che le corsie di sinistra sono destinate al tra nsito normale di tutti i veicoli",
+    "testo": "Il segnale raffigurato indica che le corsie di sinistra sono destinate al transito normale di tutti i veicoli",
     "risposta_corretta": "VERO",
     "immagine": "0573c2af5262ded64a42122fe33ee273",
     "pagina_quiz": 77
@@ -38,7 +38,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21725,
-    "testo": "Il segnale raffigurato è posto su s trade urbane",
+    "testo": "Il segnale raffigurato è posto su strade urbane",
     "risposta_corretta": "VERO",
     "immagine": "0573c2af5262ded64a42122fe33ee273",
     "pagina_quiz": 77
@@ -71,7 +71,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21728,
-    "testo": "Il segnale raffigurato s i può trovare sulle autostrade",
+    "testo": "Il segnale raffigurato si può trovare sulle autostrade",
     "risposta_corretta": "FALSO",
     "immagine": "0573c2af5262ded64a42122fe33ee273",
     "pagina_quiz": 78
@@ -82,7 +82,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21729,
-    "testo": "Il segnale raffigurato indica che gli autobus possono sor passare a destra",
+    "testo": "Il segnale raffigurato indica che gli autobus possono sorpassare a destra",
     "risposta_corretta": "FALSO",
     "immagine": "0573c2af5262ded64a42122fe33ee273",
     "pagina_quiz": 78

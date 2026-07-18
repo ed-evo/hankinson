@@ -12,7 +12,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24089,
-    "testo": "Nei centri a bitati il conducente non deve lasciare in sosta un rimorchio stac cato dalla motrice, salvo diversa segnalazione",
+    "testo": "Nei centri abitati il conducente non deve lasciare in sosta un rimorchio staccato dalla motrice, salvo diversa segnalazione",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 546
@@ -30,7 +30,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24090,
-    "testo": "Durante la ci rcolazione, i rimorchi devono essere assicurati con la stessa polizza della motrice",
+    "testo": "Durante la circolazione, i rimorchi devono essere assicurati con la stessa polizza della motrice",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 546
@@ -48,7 +48,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24091,
-    "testo": "Gli spec chietti esterni montati sulla motrice non devono sporgere oltre 20 centimetri dalla sagoma del veicolo (motrice o rimorchio), con riferimento al punto di maggiore larghezza",
+    "testo": "Gli specchietti esterni montati sulla motrice non devono sporgere oltre 20 centimetri dalla sagoma del veicolo (motrice o rimorchio), con riferimento al punto di maggiore larghezza",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 546
@@ -120,7 +120,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24095,
-    "testo": "I rimorchi T.A.T.S. sono destinati al trasporto di attrezzature che non devono cost ituire oggetto di commercio, ma essere impiegate solo per il tempo libero",
+    "testo": "I rimorchi T.A.T.S. sono destinati al trasporto di attrezzature che non devono costituire oggetto di commercio, ma essere impiegate solo per il tempo libero",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 547
@@ -138,7 +138,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24096,
-    "testo": "I conducenti di autoveicoli trainanti un rimorchio, quando la massa complessiva a pieno carico del complesso veicolare è superiore a 3,5 tonnellate, sono considerati in stato di ebbrezza qualora sia stato accertato un valor e corrispondente ad un tasso alcolemico superiore a zero grammi per l itro",
+    "testo": "I conducenti di autoveicoli trainanti un rimorchio, quando la massa complessiva a pieno carico del complesso veicolare è superiore a 3,5 tonnellate, sono considerati in stato di ebbrezza qualora sia stato accertato un valore corrispondente ad un tasso alcolemico superiore a zero grammi per litro",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 547
@@ -156,7 +156,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24097,
-    "testo": "Nelle autost rade con carreggiate a tre o più corsie, ai conducenti di complessi di veicoli di lunghezza totale superiore a 7 metri, è vietato impegnare a ltre corsie all'infuori delle due più vicine al bordo destro della carreggiata",
+    "testo": "Nelle autostrade con carreggiate a tre o più corsie, ai conducenti di complessi di veicoli di lunghezza totale superiore a 7 metri, è vietato impegnare altre corsie all'infuori delle due più vicine al bordo destro della carreggiata",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 547
@@ -174,7 +174,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24098,
-    "testo": "Durante la ci rcolazione, i rimorchi con massa massima a pieno carico fino a 3,5 tonnellate, devono essere segnalati con strisce posteriori e laterali ret roriflettenti",
+    "testo": "Durante la circolazione, i rimorchi con massa massima a pieno carico fino a 3,5 tonnellate, devono essere segnalati con strisce posteriori e laterali retroriflettenti",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 547
@@ -210,7 +210,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24100,
-    "testo": "Il rimorchi o si considera parte integrante del veicolo se ha una massa fino a 3,5 tonnellate",
+    "testo": "Il rimorchio si considera parte integrante del veicolo se ha una massa fino a 3,5 tonnellate",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 547
@@ -246,7 +246,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24102,
-    "testo": "Il rimorchi o è parte integrante del veicolo a cui è stato abbinato in fase di collaudo e non può essere agganciato a un altro veicolo",
+    "testo": "Il rimorchio è parte integrante del veicolo a cui è stato abbinato in fase di collaudo e non può essere agganciato a un altro veicolo",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 547
@@ -264,7 +264,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24103,
-    "testo": "Se si trainano caravan e rimorchi T.A.T.S. non è obbligatorio che il veicolo tra inant e sia munito di specchietto retrovisore destro",
+    "testo": "Se si trainano caravan e rimorchi T.A.T.S. non è obbligatorio che il veicolo trainante sia munito di specchietto retrovisore destro",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 547
@@ -282,7 +282,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24104,
-    "testo": "Gli spec chietti esterni montati sulla motrice possono sporgere fino a 50 centimetri dalla sagoma del veicolo di maggiore ingombro, qualora siano posizionati ad un'altezza da terra non superiore a 1 metro",
+    "testo": "Gli specchietti esterni montati sulla motrice possono sporgere fino a 50 centimetri dalla sagoma del veicolo di maggiore ingombro, qualora siano posizionati ad un'altezza da terra non superiore a 1 metro",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 547
@@ -300,7 +300,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24105,
-    "testo": "Nel ri spetto della larghezza massima stabilita per i rimorchi T.A.T.S., le imbarcazioni trasportate possono sporgere fino a 50 centimetri per ogni lato rispetto ai bor di esterni delle luci di posizione posteriori",
+    "testo": "Nel rispetto della larghezza massima stabilita per i rimorchi T.A.T.S., le imbarcazioni trasportate possono sporgere fino a 50 centimetri per ogni lato rispetto ai bordi esterni delle luci di posizione posteriori",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 547
@@ -336,7 +336,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24107,
-    "testo": "Per i c omple ssi di veicoli con rimorchi fino a 3,5 tonnellate di massa, non vige l'obbligo di apporre nella parte posteriore i contrassegni indicanti i limiti massimi di velocità specifici loro imposti",
+    "testo": "Per i complessi di veicoli con rimorchi fino a 3,5 tonnellate di massa, non vige l'obbligo di apporre nella parte posteriore i contrassegni indicanti i limiti massimi di velocità specifici loro imposti",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 547
@@ -354,7 +354,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24108,
-    "testo": "Quando si traina un rimorchio per trasporto di animali vivi occorre tenere in funz ione l a segnalazione luminosa di pericolo per segnalare agli altri conducenti di aumentare la distanza di sicurezza",
+    "testo": "Quando si traina un rimorchio per trasporto di animali vivi occorre tenere in funzione la segnalazione luminosa di pericolo per segnalare agli altri conducenti di aumentare la distanza di sicurezza",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 547
@@ -408,7 +408,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24111,
-    "testo": "I rimorchi devono essere sottoposti a revisione periodica insieme al veicolo tra inant e",
+    "testo": "I rimorchi devono essere sottoposti a revisione periodica insieme al veicolo trainante",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 547

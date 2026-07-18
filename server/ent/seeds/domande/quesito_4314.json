@@ -49,7 +49,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21687,
-    "testo": "Il segnale raffigurato, s e su fondo verde, indica, su un'autostrada, la presenza di un cavalcavia per effettuare l'inversione di marcia",
+    "testo": "Il segnale raffigurato, se su fondo verde, indica, su un'autostrada, la presenza di un cavalcavia per effettuare l'inversione di marcia",
     "risposta_corretta": "VERO",
     "immagine": "7206f36808a5ee18e9b5163635a54363",
     "pagina_quiz": 73

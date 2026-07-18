@@ -5,7 +5,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23182,
-    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono tra nsitare nel seguente ordine: C, A, L, R, E",
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono transitare nel seguente ordine: C, A, L, R, E",
     "risposta_corretta": "VERO",
     "immagine": "57254c46fba07f75685a8ed30c84cf10",
     "pagina_quiz": 104
@@ -93,7 +93,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23190,
-    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono tra nsitare nel seguente ordine: E, C, A, L, R",
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono transitare nel seguente ordine: E, C, A, L, R",
     "risposta_corretta": "FALSO",
     "immagine": "57254c46fba07f75685a8ed30c84cf10",
     "pagina_quiz": 105
@@ -126,7 +126,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23193,
-    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli C e R tra nsitano contemporaneamente dopo il passaggio del veicolo A",
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli C e R transitano contemporaneamente dopo il passaggio del veicolo A",
     "risposta_corretta": "FALSO",
     "immagine": "57254c46fba07f75685a8ed30c84cf10",
     "pagina_quiz": 105

@@ -7,7 +7,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22328,
-    "testo": "Il limite massimo di velocità per un'autovettura sulle autostrade è ordina riamente di 130 km/h",
+    "testo": "Il limite massimo di velocità per un'autovettura sulle autostrade è ordinariamente di 130 km/h",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 493
@@ -20,7 +20,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22329,
-    "testo": "Il limite massimo di velocità per un'autovettura sulle strade extraurbane princ ipal i è ordinariamente di 110 km/h",
+    "testo": "Il limite massimo di velocità per un'autovettura sulle strade extraurbane principali è ordinariamente di 110 km/h",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 493
@@ -46,7 +46,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22331,
-    "testo": "Il limite massimo di velocità per un'autovettura nei centri abitati è ordina riamente di 50 km/h",
+    "testo": "Il limite massimo di velocità per un'autovettura nei centri abitati è ordinariamente di 50 km/h",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 493
@@ -98,7 +98,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22335,
-    "testo": "Il limite massimo di velocità per un motociclo nei centri abitati, è ordina riamente di 50 km/h",
+    "testo": "Il limite massimo di velocità per un motociclo nei centri abitati, è ordinariamente di 50 km/h",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 493
@@ -111,7 +111,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22336,
-    "testo": "Il limite massimo di velocità per un'autovettura, in presenza di apposito segnal e in t ratti di autostrade con particolari caratteristiche, è di 150 km/h",
+    "testo": "Il limite massimo di velocità per un'autovettura, in presenza di apposito segnale in tratti di autostrade con particolari caratteristiche, è di 150 km/h",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 493
@@ -137,7 +137,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22338,
-    "testo": "Il limite massimo di velocità per un'autovettura in caso di precipitazioni atmosferiche sulle autos trade è di 110 km/h",
+    "testo": "Il limite massimo di velocità per un'autovettura in caso di precipitazioni atmosferiche sulle autostrade è di 110 km/h",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 493
@@ -176,7 +176,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22341,
-    "testo": "Il limite massimo di velocità per i quadricicli non leggeri, fuori dai centri urbani , è di 80 km/h",
+    "testo": "Il limite massimo di velocità per i quadricicli non leggeri, fuori dai centri urbani, è di 80 km/h",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 493
@@ -202,7 +202,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22343,
-    "testo": "Il limite massimo di velocità per un'autovettura su una strada extraurbana princ ipal e è di 90 km/h",
+    "testo": "Il limite massimo di velocità per un'autovettura su una strada extraurbana principale è di 90 km/h",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 493

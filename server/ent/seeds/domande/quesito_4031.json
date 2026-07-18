@@ -8,7 +8,7 @@
       "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
     ],
     "numero": 18637,
-    "testo": "Gli autoveicoli sono veicoli a motore con almeno quattro ruote, esclusi i quadri cicli",
+    "testo": "Gli autoveicoli sono veicoli a motore con almeno quattro ruote, esclusi i quadricicli",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 458
@@ -22,7 +22,7 @@
       "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
     ],
     "numero": 18638,
-    "testo": "L'autovei colo è un veicolo a motore con non meno di quattro ruote, eccetto i quadrici cli",
+    "testo": "L'autoveicolo è un veicolo a motore con non meno di quattro ruote, eccetto i quadricicli",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 458
@@ -106,7 +106,7 @@
       "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
     ],
     "numero": 18644,
-    "testo": "Gli autoveicoli sono tutti i veicoli con almeno quattro ruote, compresi quelli senz a motore",
+    "testo": "Gli autoveicoli sono tutti i veicoli con almeno quattro ruote, compresi quelli senza motore",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 459
@@ -134,7 +134,7 @@
       "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
     ],
     "numero": 18646,
-    "testo": "L'autovei colo è un qualunque veicolo a motore",
+    "testo": "L'autoveicolo è un qualunque veicolo a motore",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 459
@@ -148,7 +148,7 @@
       "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
     ],
     "numero": 18647,
-    "testo": "L'autovei colo è un qualunque veicolo adibito al trasporto di merce",
+    "testo": "L'autoveicolo è un qualunque veicolo adibito al trasporto di merce",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 459

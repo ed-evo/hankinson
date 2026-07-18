@@ -38,7 +38,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20485,
-    "testo": "Il segnale raffigurato s i trova sulle rampe di raccordo per l'immissione in autostrada",
+    "testo": "Il segnale raffigurato si trova sulle rampe di raccordo per l'immissione in autostrada",
     "risposta_corretta": "VERO",
     "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
     "pagina_quiz": 258
@@ -71,7 +71,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20488,
-    "testo": "Il segnale raffigurato lungo le autostrade viene posto a distanza di 150 metri da ll'a rea di servizio",
+    "testo": "Il segnale raffigurato lungo le autostrade viene posto a distanza di 150 metri dall'area di servizio",
     "risposta_corretta": "FALSO",
     "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
     "pagina_quiz": 258
@@ -93,7 +93,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20490,
-    "testo": "Il segnale raffigurato s i trova solo su strade extraurbane",
+    "testo": "Il segnale raffigurato si trova solo su strade extraurbane",
     "risposta_corretta": "FALSO",
     "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
     "pagina_quiz": 259

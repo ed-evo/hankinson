@@ -5,7 +5,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21380,
-    "testo": "Il segnale raffigurato è un preavviso di incrocio urbano con circolazione rota toria",
+    "testo": "Il segnale raffigurato è un preavviso di incrocio urbano con circolazione rotatoria",
     "risposta_corretta": "VERO",
     "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
     "pagina_quiz": 35
@@ -27,7 +27,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21382,
-    "testo": "Il segnale raffigurato preavvisa di svoltare alla seconda traversa per raggi ungere la tangenziale",
+    "testo": "Il segnale raffigurato preavvisa di svoltare alla seconda traversa per raggiungere la tangenziale",
     "risposta_corretta": "VERO",
     "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
     "pagina_quiz": 35
@@ -93,7 +93,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21388,
-    "testo": "Il segnale raffigurato s i trova su strade extraurbane",
+    "testo": "Il segnale raffigurato si trova su strade extraurbane",
     "risposta_corretta": "FALSO",
     "immagine": "ad2b98705bca9ce6b8bd0d6a5cc6a2c1",
     "pagina_quiz": 36

@@ -60,7 +60,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19344,
-    "testo": "Il segnale raffigurato, s e a fondo giallo, è posto in presenza di lavori in corso",
+    "testo": "Il segnale raffigurato, se a fondo giallo, è posto in presenza di lavori in corso",
     "risposta_corretta": "VERO",
     "immagine": "d74486cedaf64b4708047a7c8d23f672",
     "pagina_quiz": 210

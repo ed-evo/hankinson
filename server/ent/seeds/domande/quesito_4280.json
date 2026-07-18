@@ -27,7 +27,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21357,
-    "testo": "Il segnale raffigurato preavvisa la svolta a destra per raggiungere la staz ione ferroviaria",
+    "testo": "Il segnale raffigurato preavvisa la svolta a destra per raggiungere la stazione ferroviaria",
     "risposta_corretta": "VERO",
     "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
     "pagina_quiz": 32
@@ -71,7 +71,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21361,
-    "testo": "Il segnale raffigurato s i trova su strade extraurbane",
+    "testo": "Il segnale raffigurato si trova su strade extraurbane",
     "risposta_corretta": "FALSO",
     "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
     "pagina_quiz": 33
@@ -93,7 +93,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21363,
-    "testo": "Il segnale raffigurato indica che per raggiungere il centro della città bisogna torna re indietro",
+    "testo": "Il segnale raffigurato indica che per raggiungere il centro della città bisogna tornare indietro",
     "risposta_corretta": "FALSO",
     "immagine": "065f8ea171c65c6cd1eeda6f2fdaf8d0",
     "pagina_quiz": 33

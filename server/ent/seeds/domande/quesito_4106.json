@@ -16,7 +16,7 @@
       "Segnali di divieto"
     ],
     "numero": 19530,
-    "testo": "I vei coli senza motore devono rispettare il divieto imposto dal segnale rappresent ato",
+    "testo": "I veicoli senza motore devono rispettare il divieto imposto dal segnale rappresentato",
     "risposta_corretta": "VERO",
     "immagine": "3eca137357d840256e2c019f597a7575",
     "pagina_quiz": 263
@@ -27,7 +27,7 @@
       "Segnali di divieto"
     ],
     "numero": 19531,
-    "testo": "I ta xi devono rispettare il divieto imposto dal segnale rappresentato",
+    "testo": "I taxi devono rispettare il divieto imposto dal segnale rappresentato",
     "risposta_corretta": "VERO",
     "immagine": "3eca137357d840256e2c019f597a7575",
     "pagina_quiz": 264
@@ -38,7 +38,7 @@
       "Segnali di divieto"
     ],
     "numero": 19532,
-    "testo": "I quadricicli a motore devono rispettare il divieto imposto dal segnale rappresent ato",
+    "testo": "I quadricicli a motore devono rispettare il divieto imposto dal segnale rappresentato",
     "risposta_corretta": "VERO",
     "immagine": "3eca137357d840256e2c019f597a7575",
     "pagina_quiz": 264
@@ -49,7 +49,7 @@
       "Segnali di divieto"
     ],
     "numero": 19533,
-    "testo": "Il divieto imposto dal segnale raffigurato deve essere rispettato anche nelle ore not turne",
+    "testo": "Il divieto imposto dal segnale raffigurato deve essere rispettato anche nelle ore notturne",
     "risposta_corretta": "VERO",
     "immagine": "3eca137357d840256e2c019f597a7575",
     "pagina_quiz": 264
@@ -71,7 +71,7 @@
       "Segnali di divieto"
     ],
     "numero": 19535,
-    "testo": "Il segnale raffigurato è un SENS O VIETATO",
+    "testo": "Il segnale raffigurato è un SENSO VIETATO",
     "risposta_corretta": "VERO",
     "immagine": "3eca137357d840256e2c019f597a7575",
     "pagina_quiz": 264

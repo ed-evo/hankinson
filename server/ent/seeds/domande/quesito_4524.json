@@ -16,7 +16,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23760,
-    "testo": "La sosta è vietata sulle aree destinate al mercato e ai veicoli per il carico e lo sca rico di cose, nelle ore stabilite",
+    "testo": "La sosta è vietata sulle aree destinate al mercato e ai veicoli per il carico e lo scarico di cose, nelle ore stabilite",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 532
@@ -38,7 +38,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23762,
-    "testo": "La sosta è vietata negli spazi riservati alla fermata o alla sosta dei veicoli per persone i nvalide",
+    "testo": "La sosta è vietata negli spazi riservati alla fermata o alla sosta dei veicoli per persone invalide",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 532
@@ -60,7 +60,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23764,
-    "testo": "La sosta è consentita negli spazi riservati allo stazionamento dei taxi solo se non si protra e per lungo tempo",
+    "testo": "La sosta è consentita negli spazi riservati allo stazionamento dei taxi solo se non si protrae per lungo tempo",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 532
@@ -71,7 +71,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23765,
-    "testo": "La sosta è consentita sulle aree destinate ai veicoli per il carico e lo scarico di cose , nelle ore stabilite, soltanto se di breve durata",
+    "testo": "La sosta è consentita sulle aree destinate ai veicoli per il carico e lo scarico di cose, nelle ore stabilite, soltanto se di breve durata",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 532

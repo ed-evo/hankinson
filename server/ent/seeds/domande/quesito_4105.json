@@ -181,7 +181,7 @@
       "Segnali di divieto"
     ],
     "numero": 19528,
-    "testo": "Il segnale raffigurato, s e barrato in rosso, indica la fine del divieto",
+    "testo": "Il segnale raffigurato, se barrato in rosso, indica la fine del divieto",
     "risposta_corretta": "FALSO",
     "immagine": "fbde6a78154edc681ee7715bad203441",
     "pagina_quiz": 263

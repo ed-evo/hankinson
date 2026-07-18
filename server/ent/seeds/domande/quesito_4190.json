@@ -38,7 +38,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20469,
-    "testo": "Il segnale raffigurato viene posto su strada secondaria che non ha il diritto di pre cedenza",
+    "testo": "Il segnale raffigurato viene posto su strada secondaria che non ha il diritto di precedenza",
     "risposta_corretta": "VERO",
     "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
     "pagina_quiz": 256
@@ -49,7 +49,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20470,
-    "testo": "Il segnale raffigurato s i trova sulle corsie di accelerazione per l'immissione in autostrada",
+    "testo": "Il segnale raffigurato si trova sulle corsie di accelerazione per l'immissione in autostrada",
     "risposta_corretta": "VERO",
     "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
     "pagina_quiz": 256
@@ -60,7 +60,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20471,
-    "testo": "Il segnale raffigurato s u strade extraurbane è preceduto dal segnale PREAVVISO DI DARE PRECEDENZA",
+    "testo": "Il segnale raffigurato su strade extraurbane è preceduto dal segnale PREAVVISO DI DARE PRECEDENZA",
     "risposta_corretta": "VERO",
     "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
     "pagina_quiz": 256
@@ -82,7 +82,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20473,
-    "testo": "In presenza del segnale raffigurato non occorre fermarsi all'incrocio se, ral lent ando, si ha modo di vedere che non vi sono veicoli in arrivo, sia da destra che da sinistra",
+    "testo": "In presenza del segnale raffigurato non occorre fermarsi all'incrocio se, rallentando, si ha modo di vedere che non vi sono veicoli in arrivo, sia da destra che da sinistra",
     "risposta_corretta": "VERO",
     "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
     "pagina_quiz": 257
@@ -148,7 +148,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20479,
-    "testo": "Il segnale raffigurato s i trova solo su strade urbane",
+    "testo": "Il segnale raffigurato si trova solo su strade urbane",
     "risposta_corretta": "FALSO",
     "immagine": "626acdf5f84d181e1ad0e9ec805822ed",
     "pagina_quiz": 257

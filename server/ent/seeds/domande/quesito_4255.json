@@ -6,7 +6,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21116,
-    "testo": "Il semaforo in figura si trova all'uscita di una pista ciclabile, per regolare l'attra versamento della strada",
+    "testo": "Il semaforo in figura si trova all'uscita di una pista ciclabile, per regolare l'attraversamento della strada",
     "risposta_corretta": "VERO",
     "immagine": "c3c957780ed480a75899918470e54d50",
     "pagina_quiz": 149
@@ -90,7 +90,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21123,
-    "testo": "Il semaforo in figura indica che ci sono lavori in corso per la costruzione di una pista ci clabile",
+    "testo": "Il semaforo in figura indica che ci sono lavori in corso per la costruzione di una pista ciclabile",
     "risposta_corretta": "FALSO",
     "immagine": "c3c957780ed480a75899918470e54d50",
     "pagina_quiz": 149

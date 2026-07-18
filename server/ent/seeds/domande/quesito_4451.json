@@ -5,7 +5,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23075,
-    "testo": "Nella situa zione rappresentata in figura il veicolo L attraversa l'incrocio per primo",
+    "testo": "Nella situazione rappresentata in figura il veicolo L attraversa l'incrocio per primo",
     "risposta_corretta": "VERO",
     "immagine": "c30bdae3c2537fc8ccbdcdbf293eb0ef",
     "pagina_quiz": 91
@@ -16,7 +16,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23076,
-    "testo": "Nella situa zione rappresentata in figura il veicolo H attraversa l'incrocio per ultimo",
+    "testo": "Nella situazione rappresentata in figura il veicolo H attraversa l'incrocio per ultimo",
     "risposta_corretta": "VERO",
     "immagine": "c30bdae3c2537fc8ccbdcdbf293eb0ef",
     "pagina_quiz": 91
@@ -27,7 +27,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23077,
-    "testo": "E' co nsentito attraversare l'incrocio in figura secondo l'ordine veicolo L, veicolo C, ve icolo H",
+    "testo": "E' consentito attraversare l'incrocio in figura secondo l'ordine veicolo L, veicolo C, veicolo H",
     "risposta_corretta": "VERO",
     "immagine": "c30bdae3c2537fc8ccbdcdbf293eb0ef",
     "pagina_quiz": 91
@@ -38,7 +38,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23078,
-    "testo": "E' co nsentito attraversare l'incrocio in figura secondo l'ordine il veicolo C dopo il veicolo L, ma prima del veicolo H",
+    "testo": "E' consentito attraversare l'incrocio in figura secondo l'ordine il veicolo C dopo il veicolo L, ma prima del veicolo H",
     "risposta_corretta": "VERO",
     "immagine": "c30bdae3c2537fc8ccbdcdbf293eb0ef",
     "pagina_quiz": 91
@@ -49,7 +49,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23079,
-    "testo": "E' co nsentito attraversare l'incrocio in figura secondo l'ordine il veicolo L contemporaneamente al veicolo C, poi il veicolo H",
+    "testo": "E' consentito attraversare l'incrocio in figura secondo l'ordine il veicolo L contemporaneamente al veicolo C, poi il veicolo H",
     "risposta_corretta": "FALSO",
     "immagine": "c30bdae3c2537fc8ccbdcdbf293eb0ef",
     "pagina_quiz": 92
@@ -60,7 +60,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23080,
-    "testo": "E' co nsentito attraversare l'incrocio in figura secondo l'ordine il veicolo H, il veicolo C, il veicolo L",
+    "testo": "E' consentito attraversare l'incrocio in figura secondo l'ordine il veicolo H, il veicolo C, il veicolo L",
     "risposta_corretta": "FALSO",
     "immagine": "c30bdae3c2537fc8ccbdcdbf293eb0ef",
     "pagina_quiz": 92
@@ -71,7 +71,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23081,
-    "testo": "E' co nsentito attraversare l'incrocio in figura secondo l'ordine il veicolo H, il veicolo L, il veicolo C",
+    "testo": "E' consentito attraversare l'incrocio in figura secondo l'ordine il veicolo H, il veicolo L, il veicolo C",
     "risposta_corretta": "FALSO",
     "immagine": "c30bdae3c2537fc8ccbdcdbf293eb0ef",
     "pagina_quiz": 92
@@ -82,7 +82,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23082,
-    "testo": "E' co nsentito attraversare l'incrocio in figura secondo l'ordine il veicolo L, il veicolo H, il veicolo C",
+    "testo": "E' consentito attraversare l'incrocio in figura secondo l'ordine il veicolo L, il veicolo H, il veicolo C",
     "risposta_corretta": "FALSO",
     "immagine": "c30bdae3c2537fc8ccbdcdbf293eb0ef",
     "pagina_quiz": 92
@@ -93,7 +93,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23083,
-    "testo": "E' co nsentito attraversare l'incrocio in figura secondo l'ordine il veicolo C, il veicolo H, il veicolo L",
+    "testo": "E' consentito attraversare l'incrocio in figura secondo l'ordine il veicolo C, il veicolo H, il veicolo L",
     "risposta_corretta": "FALSO",
     "immagine": "c30bdae3c2537fc8ccbdcdbf293eb0ef",
     "pagina_quiz": 92

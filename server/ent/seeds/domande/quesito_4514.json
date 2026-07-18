@@ -5,7 +5,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23677,
-    "testo": "La fermat a è vietata in prossimità e in corrispondenza di segnali stradali vert icali i n modo da occultarne la vista",
+    "testo": "La fermata è vietata in prossimità e in corrispondenza di segnali stradali verticali in modo da occultarne la vista",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 529
@@ -16,7 +16,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23678,
-    "testo": "La fermat a è vietata in prossimità e in corrispondenza di segnali semaforici in modo da occultarne la vista",
+    "testo": "La fermata è vietata in prossimità e in corrispondenza di segnali semaforici in modo da occultarne la vista",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 529
@@ -27,7 +27,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23679,
-    "testo": "La fermat a è vietata in corrispondenza dei segnali orizzontali di preselezione e lungo le corsie di canalizzazione",
+    "testo": "La fermata è vietata in corrispondenza dei segnali orizzontali di preselezione e lungo le corsie di canalizzazione",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 529
@@ -38,7 +38,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23680,
-    "testo": "Fuori dei cent ri abitati, la fermata è vietata in corrispondenza e in prossimità delle aree di intersezione",
+    "testo": "Fuori dei centri abitati, la fermata è vietata in corrispondenza e in prossimità delle aree di intersezione",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 529
@@ -49,7 +49,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23681,
-    "testo": "Nei centri a bitati, la fermata e la sosta sono vietate in corrispondenza delle aree di intersezione e in prossimità di esse a meno di 5 metri, salvo diversa segnal azione.",
+    "testo": "Nei centri abitati, la fermata e la sosta sono vietate in corrispondenza delle aree di intersezione e in prossimità di esse a meno di 5 metri, salvo diversa segnalazione.",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 529
@@ -60,7 +60,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23682,
-    "testo": "La fermat a è vietata limitatamente alle ore di esercizio, in corrispondenza dei distributori di carburante",
+    "testo": "La fermata è vietata limitatamente alle ore di esercizio, in corrispondenza dei distributori di carburante",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 529
@@ -71,7 +71,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23683,
-    "testo": "La fermat a è vietata dopo il segnale DIVIETO DI SOSTA",
+    "testo": "La fermata è vietata dopo il segnale DIVIETO DI SOSTA",
     "risposta_corretta": "FALSO",
     "immagine": "d4b28695e6068e452924476599e75981",
     "pagina_quiz": 529
@@ -82,7 +82,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23684,
-    "testo": "La fermat a è vietata in prossimità dei segnali stradali, anche se il veicolo non ne occulta la vista",
+    "testo": "La fermata è vietata in prossimità dei segnali stradali, anche se il veicolo non ne occulta la vista",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 529
@@ -93,7 +93,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23685,
-    "testo": "La fermat a è vietata lungo le autostrade, anche in caso di emergenza",
+    "testo": "La fermata è vietata lungo le autostrade, anche in caso di emergenza",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 529
@@ -104,7 +104,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23686,
-    "testo": "Nei centri a bitati la fermata è vietata in prossimità delle aree di intersezione, a più di 5 metri",
+    "testo": "Nei centri abitati la fermata è vietata in prossimità delle aree di intersezione, a più di 5 metri",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 529
@@ -115,7 +115,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23687,
-    "testo": "La fermat a è consentita sulle corsie di accelerazione, purché brevissima",
+    "testo": "La fermata è consentita sulle corsie di accelerazione, purché brevissima",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 529

@@ -27,7 +27,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21504,
-    "testo": "Il segnale raffigurato indica che la strada è aperta, ma solo ai veicoli che sono equipa ggiati con catene o pneumatici invernali",
+    "testo": "Il segnale raffigurato indica che la strada è aperta, ma solo ai veicoli che sono equipaggiati con catene o pneumatici invernali",
     "risposta_corretta": "VERO",
     "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
     "pagina_quiz": 51
@@ -38,7 +38,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21505,
-    "testo": "Il segnale raffigurato è posto su s trade di montagna",
+    "testo": "Il segnale raffigurato è posto su strade di montagna",
     "risposta_corretta": "VERO",
     "immagine": "0d8a80138e9ac22a0fe1adb369bd70ad",
     "pagina_quiz": 51

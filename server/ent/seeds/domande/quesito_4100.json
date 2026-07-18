@@ -5,7 +5,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19456,
-    "testo": "Il segnale raffigurato preannuncia l'attraversamento di una zona soggetta al peri colo d'incendio",
+    "testo": "Il segnale raffigurato preannuncia l'attraversamento di una zona soggetta al pericolo d'incendio",
     "risposta_corretta": "VERO",
     "immagine": "4e35a23fa5e62af4861ff27076a91a69",
     "pagina_quiz": 223
@@ -27,7 +27,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19458,
-    "testo": "Il segnale raffigurato indica che ci si sta avvicinando ad un bosco facilm ente infiammabile",
+    "testo": "Il segnale raffigurato indica che ci si sta avvicinando ad un bosco facilmente infiammabile",
     "risposta_corretta": "VERO",
     "immagine": "4e35a23fa5e62af4861ff27076a91a69",
     "pagina_quiz": 223
@@ -49,7 +49,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19460,
-    "testo": "Il segnale raffigurato è integrato dal pannello che indica la lunghezza del tra tto di strada interessato",
+    "testo": "Il segnale raffigurato è integrato dal pannello che indica la lunghezza del tratto di strada interessato",
     "risposta_corretta": "VERO",
     "immagine": "4e35a23fa5e62af4861ff27076a91a69",
     "pagina_quiz": 224
@@ -71,7 +71,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19462,
-    "testo": "Il segnale raffigurato preannuncia l'attraversamento di una zona soggetta al peri colo di esplosioni",
+    "testo": "Il segnale raffigurato preannuncia l'attraversamento di una zona soggetta al pericolo di esplosioni",
     "risposta_corretta": "FALSO",
     "immagine": "4e35a23fa5e62af4861ff27076a91a69",
     "pagina_quiz": 224
@@ -82,7 +82,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19463,
-    "testo": "Il segnale raffigurato preannuncia un tratto di strada fiancheggiato da cave di pietra , con pericolo di esplosioni",
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada fiancheggiato da cave di pietra, con pericolo di esplosioni",
     "risposta_corretta": "FALSO",
     "immagine": "4e35a23fa5e62af4861ff27076a91a69",
     "pagina_quiz": 224
@@ -104,7 +104,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19465,
-    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano prodotti facilm ente infiammabili",
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano prodotti facilmente infiammabili",
     "risposta_corretta": "FALSO",
     "immagine": "4e35a23fa5e62af4861ff27076a91a69",
     "pagina_quiz": 224

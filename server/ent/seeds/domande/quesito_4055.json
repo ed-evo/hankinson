@@ -38,7 +38,7 @@
       "Segnali di pericolo"
     ],
     "numero": 18906,
-    "testo": "Il segnale raffigurato s i trova prima di un tratto in discesa seguito da uno in salita",
+    "testo": "Il segnale raffigurato si trova prima di un tratto in discesa seguito da uno in salita",
     "risposta_corretta": "VERO",
     "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
     "pagina_quiz": 389
@@ -104,7 +104,7 @@
       "Segnali di pericolo"
     ],
     "numero": 18912,
-    "testo": "Il segnale raffigurato può trovarsi prima di un tratto in salita seguito da una disce sa",
+    "testo": "Il segnale raffigurato può trovarsi prima di un tratto in salita seguito da una discesa",
     "risposta_corretta": "FALSO",
     "immagine": "f1d28ec1aa4add69b5be2109e97aeb85",
     "pagina_quiz": 390

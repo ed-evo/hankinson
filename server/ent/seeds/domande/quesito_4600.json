@@ -50,7 +50,7 @@
       "abbigliamento di sicurezza"
     ],
     "numero": 24379,
-    "testo": "L'airbag serve a limitare i danni agli occupanti del veicolo per urti contro superfici int erne del veicolo in caso di urto violento a seguito di incidente",
+    "testo": "L'airbag serve a limitare i danni agli occupanti del veicolo per urti contro superfici interne del veicolo in caso di urto violento a seguito di incidente",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 554
@@ -190,7 +190,7 @@
       "abbigliamento di sicurezza"
     ],
     "numero": 24389,
-    "testo": "Il c onducente può tarare, con apposito comando, la velocità minima d'urto al di sopra della quale far attivare l'airbag",
+    "testo": "Il conducente può tarare, con apposito comando, la velocità minima d'urto al di sopra della quale far attivare l'airbag",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 554

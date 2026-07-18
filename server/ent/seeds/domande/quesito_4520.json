@@ -16,7 +16,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23728,
-    "testo": "La sosta è vietata sui binari di linee ferroviarie o tranviarie o così vicino ad essi da intral ciare la marcia dei veicoli su rotaia",
+    "testo": "La sosta è vietata sui binari di linee ferroviarie o tranviarie o così vicino ad essi da intralciare la marcia dei veicoli su rotaia",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 531
@@ -60,7 +60,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23732,
-    "testo": "Fuori dai cent ri abitati e sulle strade urbane di scorrimento, la sosta è vietata in prossimità dei dossi",
+    "testo": "Fuori dai centri abitati e sulle strade urbane di scorrimento, la sosta è vietata in prossimità dei dossi",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 531
@@ -82,7 +82,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23734,
-    "testo": "La sosta è vietata sui binari delle linee ferroviarie ma non di quelle tra nviarie",
+    "testo": "La sosta è vietata sui binari delle linee ferroviarie ma non di quelle tranviarie",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 531
@@ -104,7 +104,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23736,
-    "testo": "La sosta , ma non la fermata, è vietata nei sottovia, sotto i sovrapassaggi, sotto i fornici e i portici",
+    "testo": "La sosta, ma non la fermata, è vietata nei sottovia, sotto i sovrapassaggi, sotto i fornici e i portici",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 531
@@ -115,7 +115,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23737,
-    "testo": "Fuori dei cent ri abitati e sulle strade urbane di scorrimento, è consentita la sosta in prossimità dei dossi.",
+    "testo": "Fuori dei centri abitati e sulle strade urbane di scorrimento, è consentita la sosta in prossimità dei dossi.",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 531

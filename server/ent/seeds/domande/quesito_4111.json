@@ -82,7 +82,7 @@
       "Segnali di divieto"
     ],
     "numero": 19599,
-    "testo": "Il segnale raffigurato non s i riferisce ai motocicli",
+    "testo": "Il segnale raffigurato non si riferisce ai motocicli",
     "risposta_corretta": "FALSO",
     "immagine": "fa617b370db24cae54893424af1fe4fa",
     "pagina_quiz": 272
@@ -137,7 +137,7 @@
       "Segnali di divieto"
     ],
     "numero": 19604,
-    "testo": "Il segnale raffigurato vieta il transito ai veicoli che, per costruzione, non possono ra ggiungere la velocità indicata",
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che, per costruzione, non possono raggiungere la velocità indicata",
     "risposta_corretta": "FALSO",
     "immagine": "fa617b370db24cae54893424af1fe4fa",
     "pagina_quiz": 273

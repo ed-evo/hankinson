@@ -98,6 +98,7 @@ def extract_pdf_with_clean_assets(pdf_path: Path, assets_dir: Path, offset: int 
             page_data = {
                 "pageNumber": page.page_number,
                 "chars": [],
+                "words": [],
                 "rects": [],
                 "images": []
             }
@@ -111,7 +112,17 @@ def extract_pdf_with_clean_assets(pdf_path: Path, assets_dir: Path, offset: int 
                     "bottom": round(char["bottom"], 2),
                     "text": char["text"]
                 })
+            
             logger.info(f"Trovati {len(page_data['chars'])} caratteri.")
+            for word in page.extract_words():
+                page_data["words"].append({
+                    "x0": round(word["x0"], 2),
+                    "x1": round(word["x1"], 2),
+                    "top": round(word["top"], 2),
+                    "bottom": round(word["bottom"], 2),
+                    "text": word["text"]
+                })
+            logger.info(f"Trovate {len(page_data['words'])} parole")
 
             # Map row grids and boxes
             for rect in page.rects:

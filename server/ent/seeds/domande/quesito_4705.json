@@ -22,7 +22,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25306,
-    "testo": "Negli impianti di frenatura, l'energia cinetica dell'autoveicolo viene tra sformata in calore grazie all'attrito",
+    "testo": "Negli impianti di frenatura, l'energia cinetica dell'autoveicolo viene trasformata in calore grazie all'attrito",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 588
@@ -64,7 +64,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25309,
-    "testo": "Il livello del liquido idraulico dei freni deve essere periodicamente controlla to",
+    "testo": "Il livello del liquido idraulico dei freni deve essere periodicamente controllato",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 588
@@ -120,7 +120,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25313,
-    "testo": "Il c ircuito frenante dei veicoli leggeri è di tipo a circuito sigillato, pertanto non è necessario un periodico controllo del livello del liquido idraulico",
+    "testo": "Il circuito frenante dei veicoli leggeri è di tipo a circuito sigillato, pertanto non è necessario un periodico controllo del livello del liquido idraulico",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 588
@@ -134,7 +134,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25314,
-    "testo": "Il freno di stazionamento deve essere utilizzato per la frenatura di servizio quando si c ircola su strade a forte pendenza, in modo da ridurre il surriscaldamento degli elementi frenanti",
+    "testo": "Il freno di stazionamento deve essere utilizzato per la frenatura di servizio quando si circola su strade a forte pendenza, in modo da ridurre il surriscaldamento degli elementi frenanti",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 588
@@ -162,7 +162,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25316,
-    "testo": "In caso di frenata di emergenza, il conducente deve inserire rapidamente la ret romarcia",
+    "testo": "In caso di frenata di emergenza, il conducente deve inserire rapidamente la retromarcia",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 588

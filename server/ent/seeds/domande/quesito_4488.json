@@ -38,7 +38,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23390,
-    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono tra nsitare nel seguente ordine: T, A, S",
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono transitare nel seguente ordine: T, A, S",
     "risposta_corretta": "VERO",
     "immagine": "edb575872ce916cffb6bea8ee2a9735a",
     "pagina_quiz": 128
@@ -60,7 +60,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23392,
-    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono tra nsitare nel seguente ordine: A, T, S",
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli devono transitare nel seguente ordine: A, T, S",
     "risposta_corretta": "FALSO",
     "immagine": "edb575872ce916cffb6bea8ee2a9735a",
     "pagina_quiz": 128
@@ -82,7 +82,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23394,
-    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli A e S tra nsitano contemporaneamente dopo il passaggio del veicolo T",
+    "testo": "Dovendo attraversare l'incrocio rappresentato in figura i veicoli A e S transitano contemporaneamente dopo il passaggio del veicolo T",
     "risposta_corretta": "FALSO",
     "immagine": "edb575872ce916cffb6bea8ee2a9735a",
     "pagina_quiz": 128

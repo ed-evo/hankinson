@@ -49,6 +49,16 @@ def join_chars(chars):
     logger.debug(result)
     return result
 
+def join_words(words):
+    logger = context.getLogger()
+    if not words:
+        logger.debug("words vuoto.")
+        return ""
+    plain_words = [word['text'] for word in words]
+    result = " ".join(plain_words)
+    logger.debug(result)
+    return result
+
 def extract_quizes(pages):
     logger = context.getLogger()
     logger.info(f"Estrazione tabelle quiz su {len(pages)} pagine")
@@ -70,6 +80,7 @@ def extract_quizes(pages):
     for page in pages:
         page_number = page["pageNumber"]
         chars = sorted(page["chars"], key=by_top_x0)
+        words = sorted(page["words"], key=by_top_x0)
         rects = sorted(page["rects"], key=by_top_x0)
         images = sorted(page["images"], key=by_top_x0)
         logger.info(f"📄 Pagina: {page_number}")
@@ -96,8 +107,14 @@ def extract_quizes(pages):
                     "contents": current_row
                 })
                 current_row = []
-            cell_chars = extract_cell_data(chars, rect)
-            cell_text = join_chars(cell_chars)
+            # cell_chars richiede una strategia di ricostruzione piu' soffisticata
+            # al momento usare le parole estratte da Page.extract_words porta risultati migliori
+            # in particola per la parola 'strada' nella pagina 347 (--offset 346)
+            # con l'algoritmo semplice viene ricostruito come 'str ada'
+            # con uno spazio tra 'r' e 'a'.
+            # cell_chars = extract_cell_data(chars, rect)
+            cell_words = extract_cell_data(words, rect)
+            cell_text = join_words(cell_words)
             if "Numero domanda" == cell_text:
                 logger.debug("Trovato inizio nuova tabella quiz")
                 caption_text = ""

@@ -38,7 +38,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23444,
-    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli devono passare nel seguent e ordine: A, C, L",
+    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli devono passare nel seguente ordine: A, C, L",
     "risposta_corretta": "VERO",
     "immagine": "73556162393bafc933f3d816daf9f4f1",
     "pagina_quiz": 135
@@ -49,7 +49,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23445,
-    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo A deve attendere che si ano transitati i veicoli L e C",
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo A deve attendere che siano transitati i veicoli L e C",
     "risposta_corretta": "FALSO",
     "immagine": "73556162393bafc933f3d816daf9f4f1",
     "pagina_quiz": 135
@@ -71,7 +71,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23447,
-    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli devono passare nel seguent e ordine: L, C, A",
+    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli devono passare nel seguente ordine: L, C, A",
     "risposta_corretta": "FALSO",
     "immagine": "73556162393bafc933f3d816daf9f4f1",
     "pagina_quiz": 135
@@ -82,7 +82,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23448,
-    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo C deve attendere il tra nsito del veicolo L",
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo C deve attendere il transito del veicolo L",
     "risposta_corretta": "FALSO",
     "immagine": "73556162393bafc933f3d816daf9f4f1",
     "pagina_quiz": 135

@@ -33,7 +33,7 @@
       "spie e simboli"
     ],
     "numero": 24293,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se spenta durant e la marcia, indica che la pressione dell'olio di lubrificazione del motore è regolare",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se spenta durante la marcia, indica che la pressione dell'olio di lubrificazione del motore è regolare",
     "risposta_corretta": "VERO",
     "immagine": "36779cfc84d87c2307160ac1333d689e",
     "pagina_quiz": 447
@@ -46,7 +46,7 @@
       "spie e simboli"
     ],
     "numero": 24294,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica insufficiente pressione dell'olio di lubrificazione del motore",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica insufficiente pressione dell'olio di lubrificazione del motore",
     "risposta_corretta": "VERO",
     "immagine": "36779cfc84d87c2307160ac1333d689e",
     "pagina_quiz": 447
@@ -59,7 +59,7 @@
       "spie e simboli"
     ],
     "numero": 24295,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica di arrestare subito il motore per evitare gravi danni",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica di arrestare subito il motore per evitare gravi danni",
     "risposta_corretta": "VERO",
     "immagine": "36779cfc84d87c2307160ac1333d689e",
     "pagina_quiz": 447
@@ -85,7 +85,7 @@
       "spie e simboli"
     ],
     "numero": 24297,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica una temperatura troppo bassa dell'olio di lubrificazione del motore",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica una temperatura troppo bassa dell'olio di lubrificazione del motore",
     "risposta_corretta": "FALSO",
     "immagine": "36779cfc84d87c2307160ac1333d689e",
     "pagina_quiz": 447
@@ -98,7 +98,7 @@
       "spie e simboli"
     ],
     "numero": 24298,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che il motore consuma troppo olio",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che il motore consuma troppo olio",
     "risposta_corretta": "FALSO",
     "immagine": "36779cfc84d87c2307160ac1333d689e",
     "pagina_quiz": 448
@@ -111,7 +111,7 @@
       "spie e simboli"
     ],
     "numero": 24299,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che l'olio di lubrificazione del cambio di velocità è troppo denso",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che l'olio di lubrificazione del cambio di velocità è troppo denso",
     "risposta_corretta": "FALSO",
     "immagine": "36779cfc84d87c2307160ac1333d689e",
     "pagina_quiz": 448
@@ -124,7 +124,7 @@
       "spie e simboli"
     ],
     "numero": 24300,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che bisogna cambiare l'olio di lubrificazione del motore",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che bisogna cambiare l'olio di lubrificazione del motore",
     "risposta_corretta": "FALSO",
     "immagine": "36779cfc84d87c2307160ac1333d689e",
     "pagina_quiz": 448

@@ -5,7 +5,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20454,
-    "testo": "Il segnale raffigurato preannuncia una svolta obbligatoria a destra per gli autocarri di massa s uperiore a 3,5 t",
+    "testo": "Il segnale raffigurato preannuncia una svolta obbligatoria a destra per gli autocarri di massa superiore a 3,5 t",
     "risposta_corretta": "VERO",
     "immagine": "38e3612532b4986f50ce99ba5b621ad4",
     "pagina_quiz": 3
@@ -27,7 +27,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20456,
-    "testo": "Il segnale raffigurato preannuncia l'obbligo di svoltare a destra per i veicoli rappresent ati nel segnale s tess o",
+    "testo": "Il segnale raffigurato preannuncia l'obbligo di svoltare a destra per i veicoli rappresentati nel segnale stesso",
     "risposta_corretta": "VERO",
     "immagine": "38e3612532b4986f50ce99ba5b621ad4",
     "pagina_quiz": 3
@@ -38,7 +38,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20457,
-    "testo": "Il segnale raffigurato preannuncia un divieto di svolta a sinistra per gli autocarri di massa s uperiore a 3,5 t",
+    "testo": "Il segnale raffigurato preannuncia un divieto di svolta a sinistra per gli autocarri di massa superiore a 3,5 t",
     "risposta_corretta": "VERO",
     "immagine": "38e3612532b4986f50ce99ba5b621ad4",
     "pagina_quiz": 3
@@ -49,7 +49,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20458,
-    "testo": "Il segnale raffigurato preannuncia una svolta obbligatoria per i veicoli rappresent ati nel segnale s tess o",
+    "testo": "Il segnale raffigurato preannuncia una svolta obbligatoria per i veicoli rappresentati nel segnale stesso",
     "risposta_corretta": "VERO",
     "immagine": "38e3612532b4986f50ce99ba5b621ad4",
     "pagina_quiz": 3
@@ -93,7 +93,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20462,
-    "testo": "Il segnale raffigurato preannuncia il divieto di svoltare a destra per i veicoli rappresent ati in figura",
+    "testo": "Il segnale raffigurato preannuncia il divieto di svoltare a destra per i veicoli rappresentati in figura",
     "risposta_corretta": "FALSO",
     "immagine": "38e3612532b4986f50ce99ba5b621ad4",
     "pagina_quiz": 4

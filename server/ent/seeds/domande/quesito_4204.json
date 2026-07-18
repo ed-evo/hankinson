@@ -60,7 +60,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20646,
-    "testo": "In presenza del segnale raffigurato, sulla rampa di raccordo è posto il segnal e di DARE P RECEDENZA",
+    "testo": "In presenza del segnale raffigurato, sulla rampa di raccordo è posto il segnale di DARE PRECEDENZA",
     "risposta_corretta": "VERO",
     "immagine": "c3fbf607467f1dbb78f137f6e2ff37f8",
     "pagina_quiz": 239
@@ -82,7 +82,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20648,
-    "testo": "Il segnale raffigurato preannuncia di dare precedenza ai veicoli provenienti da dest ra",
+    "testo": "Il segnale raffigurato preannuncia di dare precedenza ai veicoli provenienti da destra",
     "risposta_corretta": "FALSO",
     "immagine": "c3fbf607467f1dbb78f137f6e2ff37f8",
     "pagina_quiz": 239
@@ -115,7 +115,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20651,
-    "testo": "Il segnale raffigurato, s u autostrada, non comporta una riduzione della velocità",
+    "testo": "Il segnale raffigurato, su autostrada, non comporta una riduzione della velocità",
     "risposta_corretta": "FALSO",
     "immagine": "c3fbf607467f1dbb78f137f6e2ff37f8",
     "pagina_quiz": 240

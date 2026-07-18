@@ -48,7 +48,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24020,
-    "testo": "Circolando dietro ad un veicolo che trasporta un carico che sta per cadere, è opportuno a vvertire il conducente del potenziale pericolo",
+    "testo": "Circolando dietro ad un veicolo che trasporta un carico che sta per cadere, è opportuno avvertire il conducente del potenziale pericolo",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 544
@@ -66,7 +66,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24021,
-    "testo": "Circolando dietro ad un veicolo che ha un carico poco sicuro, conviene non stargli troppo vicino, così da riuscire a fermarsi in tempo, in caso di caduta della merce t rasportata",
+    "testo": "Circolando dietro ad un veicolo che ha un carico poco sicuro, conviene non stargli troppo vicino, così da riuscire a fermarsi in tempo, in caso di caduta della merce trasportata",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 544
@@ -84,7 +84,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24022,
-    "testo": "Circolando dietro ad un veicolo che ha un carico instabile, bisogna stare attenti, soprattutto quando frena o s volta, per la possibile caduta della merce trasportata",
+    "testo": "Circolando dietro ad un veicolo che ha un carico instabile, bisogna stare attenti, soprattutto quando frena o svolta, per la possibile caduta della merce trasportata",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 544
@@ -192,7 +192,7 @@
       "traino dei rimorchi"
     ],
     "numero": 24028,
-    "testo": "Circolando dietro ad un veicolo che trasporta un carico instabile, bisogna diminuire la distanza di s icurezza, in modo che gli altri veicoli rinuncino al sorpasso, non essendovi spazio sufficiente",
+    "testo": "Circolando dietro ad un veicolo che trasporta un carico instabile, bisogna diminuire la distanza di sicurezza, in modo che gli altri veicoli rinuncino al sorpasso, non essendovi spazio sufficiente",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 545

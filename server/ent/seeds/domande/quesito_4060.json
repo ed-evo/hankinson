@@ -16,7 +16,7 @@
       "Segnali di pericolo"
     ],
     "numero": 18966,
-    "testo": "In presenza del segnale raffigurato è necessario regolare la velocità in rel azione all a visibilità e al raggio della curva",
+    "testo": "In presenza del segnale raffigurato è necessario regolare la velocità in relazione alla visibilità e al raggio della curva",
     "risposta_corretta": "VERO",
     "immagine": "20d1949582fe2500af34cafef3f9167c",
     "pagina_quiz": 164
@@ -38,7 +38,7 @@
       "Segnali di pericolo"
     ],
     "numero": 18968,
-    "testo": "In presenza del segnale raffigurato non è consenti to sorpassare altri veicoli su una carreggiata a doppio senso di circolazione con due sole corsie",
+    "testo": "In presenza del segnale raffigurato non è consentito sorpassare altri veicoli su una carreggiata a doppio senso di circolazione con due sole corsie",
     "risposta_corretta": "VERO",
     "immagine": "20d1949582fe2500af34cafef3f9167c",
     "pagina_quiz": 165
@@ -49,7 +49,7 @@
       "Segnali di pericolo"
     ],
     "numero": 18969,
-    "testo": "In presenza del segnale raffigurato si deve viaggiare ad andatura part icol armente moderata se si circola con il \"ruotino\" (ruota di soccorso)",
+    "testo": "In presenza del segnale raffigurato si deve viaggiare ad andatura particolarmente moderata se si circola con il \"ruotino\" (ruota di soccorso)",
     "risposta_corretta": "VERO",
     "immagine": "20d1949582fe2500af34cafef3f9167c",
     "pagina_quiz": 165
@@ -104,7 +104,7 @@
       "Segnali di pericolo"
     ],
     "numero": 18974,
-    "testo": "In presenza del segnale raffigurato è consentito effettuare manovre di ret romarcia",
+    "testo": "In presenza del segnale raffigurato è consentito effettuare manovre di retromarcia",
     "risposta_corretta": "FALSO",
     "immagine": "20d1949582fe2500af34cafef3f9167c",
     "pagina_quiz": 165
@@ -115,7 +115,7 @@
       "Segnali di pericolo"
     ],
     "numero": 18975,
-    "testo": "In presenza del segnale raffigurato non è consenti to il transito ai veicoli con il \"ruotino\" (ruota di soccorso)",
+    "testo": "In presenza del segnale raffigurato non è consentito il transito ai veicoli con il \"ruotino\" (ruota di soccorso)",
     "risposta_corretta": "FALSO",
     "immagine": "20d1949582fe2500af34cafef3f9167c",
     "pagina_quiz": 165

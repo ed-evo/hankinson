@@ -5,7 +5,12 @@
             "name": "Python: UV Run Current File",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
+            "program": "${workspaceFolder}/quiz/main.py",
+            "args": [
+                "--take", "1",
+                "--offset", "346",
+                "--intermediate"
+            ],
             "console": "integratedTerminal",
             "python": "${command:python.interpreterPath}",
             "purpose": [

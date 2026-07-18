@@ -8,7 +8,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25202,
-    "testo": "Quando il veicolo percorre una curva è assoggettato ad una forza che tende a spostarl o verso l'esterno",
+    "testo": "Quando il veicolo percorre una curva è assoggettato ad una forza che tende a spostarlo verso l'esterno",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 584
@@ -22,7 +22,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25203,
-    "testo": "Quando il veicolo percorre una curva, la velocità eccessiva può provocarne lo sbanda mento",
+    "testo": "Quando il veicolo percorre una curva, la velocità eccessiva può provocarne lo sbandamento",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 584
@@ -50,7 +50,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25205,
-    "testo": "Quando il veicolo percorre una curva è assoggettato ad una forza che tende a spostarl o verso l'interno",
+    "testo": "Quando il veicolo percorre una curva è assoggettato ad una forza che tende a spostarlo verso l'interno",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 584

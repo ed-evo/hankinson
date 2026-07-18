@@ -18,7 +18,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21044,
-    "testo": "Le luci in figura si accendono alternativamente per segnalare l'arrivo dei tre ni nei passaggi a livello senza barriere",
+    "testo": "Le luci in figura si accendono alternativamente per segnalare l'arrivo dei treni nei passaggi a livello senza barriere",
     "risposta_corretta": "VERO",
     "immagine": "af67ba8e23b21e89a984be46b50086f0",
     "pagina_quiz": 407
@@ -66,7 +66,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21048,
-    "testo": "Le luci in figura si accendono subito prima dell'inizio dell'abbassamento delle sem ibarriere",
+    "testo": "Le luci in figura si accendono subito prima dell'inizio dell'abbassamento delle semibarriere",
     "risposta_corretta": "VERO",
     "immagine": "af67ba8e23b21e89a984be46b50086f0",
     "pagina_quiz": 407
@@ -126,7 +126,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21053,
-    "testo": "Le luci in figura quando lampeggiano alternativamente invitano a occupare rapi damente il passaggio a livello",
+    "testo": "Le luci in figura quando lampeggiano alternativamente invitano a occupare rapidamente il passaggio a livello",
     "risposta_corretta": "FALSO",
     "immagine": "af67ba8e23b21e89a984be46b50086f0",
     "pagina_quiz": 408
@@ -150,7 +150,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21055,
-    "testo": "Le luci in figura vengono poste s ul primo dei pannelli distanziometrici di un passaggio a livello",
+    "testo": "Le luci in figura vengono poste sul primo dei pannelli distanziometrici di un passaggio a livello",
     "risposta_corretta": "FALSO",
     "immagine": "af67ba8e23b21e89a984be46b50086f0",
     "pagina_quiz": 408

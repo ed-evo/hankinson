@@ -27,7 +27,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19189,
-    "testo": "Il segnale raffigurato preannuncia un tratto di strada sul quale aumenta lo spazi o di frenatura del veicolo",
+    "testo": "Il segnale raffigurato preannuncia un tratto di strada sul quale aumenta lo spazio di frenatura del veicolo",
     "risposta_corretta": "VERO",
     "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
     "pagina_quiz": 191
@@ -93,7 +93,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19195,
-    "testo": "Il segnale raffigurato s pecifica la pendenza di una salita",
+    "testo": "Il segnale raffigurato specifica la pendenza di una salita",
     "risposta_corretta": "FALSO",
     "immagine": "f765bd82ad5ae48ffb2e5ed4434c16a8",
     "pagina_quiz": 192

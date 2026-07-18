@@ -5,7 +5,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19091,
-    "testo": "Il segnale raffigurato impone di arrestarsi entro la striscia di arresto, se è in arrivo il tr eno.",
+    "testo": "Il segnale raffigurato impone di arrestarsi entro la striscia di arresto, se è in arrivo il treno.",
     "risposta_corretta": "VERO",
     "immagine": "ed53c457115b11eace8f91dc5d803a42",
     "pagina_quiz": 179
@@ -16,7 +16,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19092,
-    "testo": "Il segnale raffigurato è posto nelle immediate vicinanze di un attraversam ento ferroviario a livello senza barriere",
+    "testo": "Il segnale raffigurato è posto nelle immediate vicinanze di un attraversamento ferroviario a livello senza barriere",
     "risposta_corretta": "VERO",
     "immagine": "ed53c457115b11eace8f91dc5d803a42",
     "pagina_quiz": 180
@@ -38,7 +38,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19094,
-    "testo": "Il segnale raffigurato invita a fare attenzione, prima di attraversare, perché potre bbe transitare più di un treno",
+    "testo": "Il segnale raffigurato invita a fare attenzione, prima di attraversare, perché potrebbe transitare più di un treno",
     "risposta_corretta": "VERO",
     "immagine": "ed53c457115b11eace8f91dc5d803a42",
     "pagina_quiz": 180
@@ -49,7 +49,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19095,
-    "testo": "Il segnale raffigurato s i trova dopo i pannelli distanziometrici a barre rosse",
+    "testo": "Il segnale raffigurato si trova dopo i pannelli distanziometrici a barre rosse",
     "risposta_corretta": "VERO",
     "immagine": "ed53c457115b11eace8f91dc5d803a42",
     "pagina_quiz": 180
@@ -93,7 +93,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19099,
-    "testo": "Il segnale (A) si trova dopo il s egnale (B)",
+    "testo": "Il segnale (A) si trova dopo il segnale (B)",
     "risposta_corretta": "FALSO",
     "immagine": "21380f33a31814dac6e4923376a47027",
     "pagina_quiz": 180
@@ -137,7 +137,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19103,
-    "testo": "Il segnale raffigurato indica che si possono incontrare due passaggi a livello consecutivi , che distano meno di 150 metri l'uno dall'altro",
+    "testo": "Il segnale raffigurato indica che si possono incontrare due passaggi a livello consecutivi, che distano meno di 150 metri l'uno dall'altro",
     "risposta_corretta": "FALSO",
     "immagine": "ed53c457115b11eace8f91dc5d803a42",
     "pagina_quiz": 181

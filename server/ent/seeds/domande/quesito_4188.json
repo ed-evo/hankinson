@@ -27,7 +27,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20446,
-    "testo": "Il segnale raffigurato s egnala una stazione autostradale alla quale è obbligatorio fermarsi",
+    "testo": "Il segnale raffigurato segnala una stazione autostradale alla quale è obbligatorio fermarsi",
     "risposta_corretta": "VERO",
     "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
     "pagina_quiz": 335
@@ -49,7 +49,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20448,
-    "testo": "Il segnale raffigurato è posto in corrispondenza degli accessi autostradali controlla ti dove è obbligatorio fermarsi",
+    "testo": "Il segnale raffigurato è posto in corrispondenza degli accessi autostradali controllati dove è obbligatorio fermarsi",
     "risposta_corretta": "VERO",
     "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
     "pagina_quiz": 335
@@ -60,7 +60,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20449,
-    "testo": "Il segnale raffigurato s egnala la presenza di un com ando stazione carabinieri, con posto di blocco",
+    "testo": "Il segnale raffigurato segnala la presenza di un comando stazione carabinieri, con posto di blocco",
     "risposta_corretta": "FALSO",
     "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
     "pagina_quiz": 335
@@ -82,7 +82,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20451,
-    "testo": "Il segnale raffigurato vieta l'accesso ad un'area riservata ai mezzi della socie tà autostradale",
+    "testo": "Il segnale raffigurato vieta l'accesso ad un'area riservata ai mezzi della società autostradale",
     "risposta_corretta": "FALSO",
     "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
     "pagina_quiz": 335
@@ -104,7 +104,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20453,
-    "testo": "Il segnale raffigurato può indicare il punto di arresto nei pontili d'imbarco di navi tra ghetto",
+    "testo": "Il segnale raffigurato può indicare il punto di arresto nei pontili d'imbarco di navi traghetto",
     "risposta_corretta": "FALSO",
     "immagine": "a76ae926b3d2617ac4d872f0b4addc24",
     "pagina_quiz": 335

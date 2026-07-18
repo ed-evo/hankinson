@@ -5,7 +5,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23194,
-    "testo": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguent e ordine: A, E , V, H, C",
+    "testo": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguente ordine: A, E, V, H, C",
     "risposta_corretta": "VERO",
     "immagine": "6b1045c7f93b62635b8ac5457e884b11",
     "pagina_quiz": 105
@@ -71,7 +71,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23200,
-    "testo": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguent e ordine: A, H, C, E, V",
+    "testo": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguente ordine: A, H, C, E, V",
     "risposta_corretta": "FALSO",
     "immagine": "6b1045c7f93b62635b8ac5457e884b11",
     "pagina_quiz": 106
@@ -82,7 +82,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23201,
-    "testo": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguent e ordine: A, E , C, V, H",
+    "testo": "Nell'incrocio rappresentato in figura i veicoli disimpegnano l'incrocio nel seguente ordine: A, E, C, V, H",
     "risposta_corretta": "FALSO",
     "immagine": "6b1045c7f93b62635b8ac5457e884b11",
     "pagina_quiz": 106
@@ -93,7 +93,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23202,
-    "testo": "Nell'incrocio rappresentato in figura il veicolo V deve attendere che siano tra nsitati i veicoli A, E, H",
+    "testo": "Nell'incrocio rappresentato in figura il veicolo V deve attendere che siano transitati i veicoli A, E, H",
     "risposta_corretta": "FALSO",
     "immagine": "6b1045c7f93b62635b8ac5457e884b11",
     "pagina_quiz": 106

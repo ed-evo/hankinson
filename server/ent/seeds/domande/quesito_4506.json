@@ -5,7 +5,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23606,
-    "testo": "Durante un sorpass o in autostrada, la scarsa attenzione posta ai veicoli che seguono può essere causa di incidente",
+    "testo": "Durante un sorpasso in autostrada, la scarsa attenzione posta ai veicoli che seguono può essere causa di incidente",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 526
@@ -16,7 +16,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23607,
-    "testo": "Durante un sorpass o in autostrada, l'insufficiente distanza di sicurezza può essere causa di incidente",
+    "testo": "Durante un sorpasso in autostrada, l'insufficiente distanza di sicurezza può essere causa di incidente",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 526
@@ -27,7 +27,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23608,
-    "testo": "Durante un sorpass o in autostrada, può essere causa di incidente l'improvviso spostamento sulla corsia di sorpasso di uno dei veicoli che precedono",
+    "testo": "Durante un sorpasso in autostrada, può essere causa di incidente l'improvviso spostamento sulla corsia di sorpasso di uno dei veicoli che precedono",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 526
@@ -38,7 +38,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23609,
-    "testo": "Durante un sorpass o in autostrada, mantenersi troppo a lungo sulla corsia di sorpasso può essere motivo di intralcio",
+    "testo": "Durante un sorpasso in autostrada, mantenersi troppo a lungo sulla corsia di sorpasso può essere motivo di intralcio",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 526
@@ -49,7 +49,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23610,
-    "testo": "Il sorpasso in autostrada può ess ere motivo di incidente, se viene effettuato accodandosi ad un veicolo che sta sorpassando",
+    "testo": "Il sorpasso in autostrada può essere motivo di incidente, se viene effettuato accodandosi ad un veicolo che sta sorpassando",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 526
@@ -60,7 +60,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23611,
-    "testo": "Il sorpasso in autostrada può ess ere motivo di incidente, se il forte vento laterale compromette la stabilità dei veicoli",
+    "testo": "Il sorpasso in autostrada può essere motivo di incidente, se il forte vento laterale compromette la stabilità dei veicoli",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 526
@@ -71,7 +71,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23612,
-    "testo": "Il sorpasso in autostrada può ess ere motivo di incidente, se viene effettuato in vicinanza di una piazzola di sosta",
+    "testo": "Il sorpasso in autostrada può essere motivo di incidente, se viene effettuato in vicinanza di una piazzola di sosta",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 526
@@ -82,7 +82,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23613,
-    "testo": "Il sorpasso in autostrada può ess ere motivo di incidente, se si viaggia con le luci anabbaglianti sempre accese",
+    "testo": "Il sorpasso in autostrada può essere motivo di incidente, se si viaggia con le luci anabbaglianti sempre accese",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 526

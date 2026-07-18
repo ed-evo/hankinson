@@ -7,7 +7,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22409,
-    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 110 km/h per l e autovetture",
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 110 km/h per le autovetture",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 495
@@ -33,7 +33,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22411,
-    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 110 km/h per autoveic oli fino a 3,5t",
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 110 km/h per autoveicoli fino a 3,5t",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 495
@@ -98,7 +98,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22416,
-    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 100 km/h per m otoci cli",
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 100 km/h per motocicli",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 496
@@ -111,7 +111,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22417,
-    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 100 km/h per l e autovetture con carrello appendice",
+    "testo": "Su strade extraurbane principali il limite massimo di velocità è di 100 km/h per le autovetture con carrello appendice",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 496

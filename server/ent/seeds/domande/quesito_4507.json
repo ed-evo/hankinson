@@ -27,7 +27,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23616,
-    "testo": "In una zona in cui la sos ta è regolamentata con parchimetro, non occorre utilizzarl o se ci si ferma soltanto per far salire o scendere un passeggero",
+    "testo": "In una zona in cui la sosta è regolamentata con parchimetro, non occorre utilizzarlo se ci si ferma soltanto per far salire o scendere un passeggero",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 526
@@ -38,7 +38,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23617,
-    "testo": "Nelle aree di parcheggio a tempo limitato, i veicoli al servizio di persone diversamente abili non sono obbligati a rispettare il limite di tempo stabilito per l a sost a.",
+    "testo": "Nelle aree di parcheggio a tempo limitato, i veicoli al servizio di persone diversamente abili non sono obbligati a rispettare il limite di tempo stabilito per la sosta.",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 526
@@ -49,7 +49,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23618,
-    "testo": "Per parcheggiare in una zona regolamentata mediante disco orario, bisogna indicare sul disco l'orario di fine della sosta, oppure trascriverlo su un foglio di ca rta",
+    "testo": "Per parcheggiare in una zona regolamentata mediante disco orario, bisogna indicare sul disco l'orario di fine della sosta, oppure trascriverlo su un foglio di carta",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 526
@@ -60,7 +60,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23619,
-    "testo": "In una zona in cui la sos ta è regolamentata mediante disco orario, prima che scada il t empo di validità della sosta è consentito aggiornare l'orario, senza che il veicolo venga s postato",
+    "testo": "In una zona in cui la sosta è regolamentata mediante disco orario, prima che scada il tempo di validità della sosta è consentito aggiornare l'orario, senza che il veicolo venga spostato",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 527
@@ -71,7 +71,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23620,
-    "testo": "In una zona in cui la sos ta è regolamentata con parchimetro, non occorre utilizzare il parchimetro se si effettua una breve sosta",
+    "testo": "In una zona in cui la sosta è regolamentata con parchimetro, non occorre utilizzare il parchimetro se si effettua una breve sosta",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 527
@@ -82,7 +82,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23621,
-    "testo": "Se si parcheggia in una zona regolamentata mediante disco orario, bisogna tra scrivere su un foglio di carta l'ora di arrivo, senza indicare i minuti",
+    "testo": "Se si parcheggia in una zona regolamentata mediante disco orario, bisogna trascrivere su un foglio di carta l'ora di arrivo, senza indicare i minuti",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 527

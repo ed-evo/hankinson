@@ -5,7 +5,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23470,
-    "testo": "Prima di iniziare una manovra di sorpasso occorre azionare l'indicatore di dire zione",
+    "testo": "Prima di iniziare una manovra di sorpasso occorre azionare l'indicatore di direzione",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 522
@@ -49,7 +49,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23474,
-    "testo": "Il c onducente del veicolo che viene sorpassato deve agevolare la manovra di sorpasso e non accelerare",
+    "testo": "Il conducente del veicolo che viene sorpassato deve agevolare la manovra di sorpasso e non accelerare",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 522
@@ -60,7 +60,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23475,
-    "testo": "Il c onducente del veicolo che viene sorpassato, nelle strade ad una corsia per senso di marcia, deve tenersi il più vicino possibile al margine destro",
+    "testo": "Il conducente del veicolo che viene sorpassato, nelle strade ad una corsia per senso di marcia, deve tenersi il più vicino possibile al margine destro",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 522
@@ -71,7 +71,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23476,
-    "testo": "La manovra di sorpasso non va effettuata se lo spazio visibile risulta insuffic ient e per completarla in sicurezza",
+    "testo": "La manovra di sorpasso non va effettuata se lo spazio visibile risulta insufficiente per completarla in sicurezza",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 522
@@ -82,7 +82,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23477,
-    "testo": "La manovra di sorpasso non va effettuata se la carreggiata non è suffici entemente larga",
+    "testo": "La manovra di sorpasso non va effettuata se la carreggiata non è sufficientemente larga",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 522
@@ -93,7 +93,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23478,
-    "testo": "Il c onducente che intende effettuare il sorpasso ha l'obbligo di azionare il segnal e acustico",
+    "testo": "Il conducente che intende effettuare il sorpasso ha l'obbligo di azionare il segnale acustico",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 522
@@ -104,7 +104,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23479,
-    "testo": "Il c onducente che intende iniziare una manovra di sorpasso non ha l'obbligo di azionare l'indicatore di direzione",
+    "testo": "Il conducente che intende iniziare una manovra di sorpasso non ha l'obbligo di azionare l'indicatore di direzione",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 522
@@ -126,7 +126,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23481,
-    "testo": "Il c onducente del veicolo sorpassato può gareggiare in velocità con il conducente del veicolo che lo sta sorpassando",
+    "testo": "Il conducente del veicolo sorpassato può gareggiare in velocità con il conducente del veicolo che lo sta sorpassando",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 522
@@ -137,7 +137,7 @@
       "Norme sul sorpasso"
     ],
     "numero": 23482,
-    "testo": "La manovra di sorpasso si effettua anche se lo spazio visibile risulta insuffic ient e per completarla in sicurezza",
+    "testo": "La manovra di sorpasso si effettua anche se lo spazio visibile risulta insufficiente per completarla in sicurezza",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 522

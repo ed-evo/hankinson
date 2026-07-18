@@ -16,7 +16,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20386,
-    "testo": "Il segnale raffigurato è posto in corrispondenza di un viale misto, riservato sia a i pedoni che ai ciclisti",
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un viale misto, riservato sia ai pedoni che ai ciclisti",
     "risposta_corretta": "VERO",
     "immagine": "8664a169f7eec06d02bef3a1c5053e42",
     "pagina_quiz": 378
@@ -49,7 +49,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20389,
-    "testo": "Il segnale raffigurato è posto in corrispondenza di una pista ciclabile a fia nco del marciapiede",
+    "testo": "Il segnale raffigurato è posto in corrispondenza di una pista ciclabile a fianco del marciapiede",
     "risposta_corretta": "FALSO",
     "immagine": "8664a169f7eec06d02bef3a1c5053e42",
     "pagina_quiz": 379
@@ -60,7 +60,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20390,
-    "testo": "Il segnale raffigurato è posto in corrispondenza di una pista ciclabile a fia nco di un percorso riservato ai pedoni",
+    "testo": "Il segnale raffigurato è posto in corrispondenza di una pista ciclabile a fianco di un percorso riservato ai pedoni",
     "risposta_corretta": "FALSO",
     "immagine": "8664a169f7eec06d02bef3a1c5053e42",
     "pagina_quiz": 379
@@ -71,7 +71,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20391,
-    "testo": "Il segnale raffigurato è posto in corrispondenza di un'area pedonale accanto ad un perc orso per ciclisti",
+    "testo": "Il segnale raffigurato è posto in corrispondenza di un'area pedonale accanto ad un percorso per ciclisti",
     "risposta_corretta": "FALSO",
     "immagine": "8664a169f7eec06d02bef3a1c5053e42",
     "pagina_quiz": 379

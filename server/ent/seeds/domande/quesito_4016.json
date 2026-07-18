@@ -22,7 +22,7 @@
       "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
     ],
     "numero": 18479,
-    "testo": "La corsia è l imitata da strisce continue o discontinue",
+    "testo": "La corsia è limitata da strisce continue o discontinue",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 453
@@ -78,7 +78,7 @@
       "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
     ],
     "numero": 18483,
-    "testo": "La corsia può essere riservata alla circolazione di alcune categorie di veicoli ( taxi , autobus, ecc.)",
+    "testo": "La corsia può essere riservata alla circolazione di alcune categorie di veicoli (taxi, autobus, ecc.)",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 453
@@ -106,7 +106,7 @@
       "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
     ],
     "numero": 18485,
-    "testo": "L'ente proprietario della strada può imporre che su una corsia i veicoli tra nsitino ad una velocità minima obbligatoria",
+    "testo": "L'ente proprietario della strada può imporre che su una corsia i veicoli transitino ad una velocità minima obbligatoria",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 453
@@ -148,7 +148,7 @@
       "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
     ],
     "numero": 18488,
-    "testo": "La corsia può essere riservata ai veicoli che intendono svoltare (corsia speci ali zzata)",
+    "testo": "La corsia può essere riservata ai veicoli che intendono svoltare (corsia specializzata)",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 453
@@ -260,7 +260,7 @@
       "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
     ],
     "numero": 18496,
-    "testo": "Nei centri a bitati, su una stessa corsia possono circolare affiancati due motocicli",
+    "testo": "Nei centri abitati, su una stessa corsia possono circolare affiancati due motocicli",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 453
@@ -274,7 +274,7 @@
       "riguardo verso gli utenti deboli della strada (anziani, diversamente abili, bambini, pedoni, ciclisti)"
     ],
     "numero": 18497,
-    "testo": "Fuori dai cent ri abitati, s u una stessa corsia possono circolare affiancati due ciclomotori",
+    "testo": "Fuori dai centri abitati, su una stessa corsia possono circolare affiancati due ciclomotori",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 453

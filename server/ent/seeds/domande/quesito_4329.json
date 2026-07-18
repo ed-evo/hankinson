@@ -16,7 +16,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21820,
-    "testo": "Il segnale raffigurato preavvisa la direzione obbligatoria per autotreni ed autoarti colati",
+    "testo": "Il segnale raffigurato preavvisa la direzione obbligatoria per autotreni ed autoarticolati",
     "risposta_corretta": "VERO",
     "immagine": "630cebb8d08ae99d4eecba26193b0e23",
     "pagina_quiz": 2
@@ -38,7 +38,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21822,
-    "testo": "Il segnale raffigurato preavvisa la direzione per un'area di rifornimento e sosta per m ezzi pesanti",
+    "testo": "Il segnale raffigurato preavvisa la direzione per un'area di rifornimento e sosta per mezzi pesanti",
     "risposta_corretta": "FALSO",
     "immagine": "630cebb8d08ae99d4eecba26193b0e23",
     "pagina_quiz": 2

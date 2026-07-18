@@ -42,7 +42,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21077,
-    "testo": "Il semaforo in figura, con luce gialla fissa accesa, consente l'attra versamento dell'incrocio, se lo si è già impegnato",
+    "testo": "Il semaforo in figura, con luce gialla fissa accesa, consente l'attraversamento dell'incrocio, se lo si è già impegnato",
     "risposta_corretta": "VERO",
     "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
     "pagina_quiz": 142
@@ -102,7 +102,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21082,
-    "testo": "Il semaforo in figura, con luce gialla lampeggiante accesa, non consente il tra nsito dei veicoli",
+    "testo": "Il semaforo in figura, con luce gialla lampeggiante accesa, non consente il transito dei veicoli",
     "risposta_corretta": "FALSO",
     "immagine": "9ce1d0d0b1d24fbc9d01bd52aef5f7ab",
     "pagina_quiz": 142

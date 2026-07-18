@@ -148,7 +148,7 @@
       "Segnali di divieto"
     ],
     "numero": 19925,
-    "testo": "Il segnale (A), se integrato con il pannello (B), è divieto di sosta perm anente",
+    "testo": "Il segnale (A), se integrato con il pannello (B), è divieto di sosta permanente",
     "risposta_corretta": "FALSO",
     "immagine": "07210b74746df1d1dafd49312674ebe3",
     "pagina_quiz": 311
@@ -159,7 +159,7 @@
       "Segnali di divieto"
     ],
     "numero": 19926,
-    "testo": "Il segnale raffigurato, opportunamente integrato, può vietare la sosta in doppia f ila",
+    "testo": "Il segnale raffigurato, opportunamente integrato, può vietare la sosta in doppia fila",
     "risposta_corretta": "FALSO",
     "immagine": "d4b28695e6068e452924476599e75981",
     "pagina_quiz": 311

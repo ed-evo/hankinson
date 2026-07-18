@@ -38,7 +38,7 @@
       "Segnali di divieto"
     ],
     "numero": 20017,
-    "testo": "Il segnale raffigurato, nei centri urbani, segnala il divieto di sosta limitato ai giorni e al le ore indicate",
+    "testo": "Il segnale raffigurato, nei centri urbani, segnala il divieto di sosta limitato ai giorni e alle ore indicate",
     "risposta_corretta": "VERO",
     "immagine": "289fc7de638eec152da2ea0755f83fd9",
     "pagina_quiz": 315
@@ -60,7 +60,7 @@
       "Segnali di divieto"
     ],
     "numero": 20019,
-    "testo": "Il segnale raffigurato s egnala che nelle ore indicate vige il DIVIETO DI SOSTA per i veicoli rappresentati in figura",
+    "testo": "Il segnale raffigurato segnala che nelle ore indicate vige il DIVIETO DI SOSTA per i veicoli rappresentati in figura",
     "risposta_corretta": "FALSO",
     "immagine": "289fc7de638eec152da2ea0755f83fd9",
     "pagina_quiz": 316

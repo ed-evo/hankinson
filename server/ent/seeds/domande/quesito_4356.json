@@ -49,7 +49,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22085,
-    "testo": "Il segnale raffigurato indica che la fermata è vietata sia prima che dopo il segnal e",
+    "testo": "Il segnale raffigurato indica che la fermata è vietata sia prima che dopo il segnale",
     "risposta_corretta": "VERO",
     "immagine": "b1c7c7c5175adac5edf013eea5dd21ef",
     "pagina_quiz": 481
@@ -60,7 +60,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22086,
-    "testo": "Il pa nnell o integrativo raffigurato (A), posto sotto un segnale di pericolo, ne indica la continuazione",
+    "testo": "Il pannello integrativo raffigurato (A), posto sotto un segnale di pericolo, ne indica la continuazione",
     "risposta_corretta": "VERO",
     "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
     "pagina_quiz": 481
@@ -71,7 +71,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22087,
-    "testo": "Il pa nnell o integrativo raffigurato (A) indica di tornare indietro",
+    "testo": "Il pannello integrativo raffigurato (A) indica di tornare indietro",
     "risposta_corretta": "FALSO",
     "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
     "pagina_quiz": 482
@@ -93,7 +93,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22089,
-    "testo": "Il pa nnell o integrativo raffigurato (A) indica un senso unico alternato",
+    "testo": "Il pannello integrativo raffigurato (A) indica un senso unico alternato",
     "risposta_corretta": "FALSO",
     "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
     "pagina_quiz": 482
@@ -104,7 +104,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22090,
-    "testo": "Il pa nnell o integrativo raffigurato (A), posto sotto un segnale di pericolo, ne indica la fine",
+    "testo": "Il pannello integrativo raffigurato (A), posto sotto un segnale di pericolo, ne indica la fine",
     "risposta_corretta": "FALSO",
     "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
     "pagina_quiz": 482
@@ -115,7 +115,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22091,
-    "testo": "Il pa nnell o integrativo raffigurato (A) indica le due direzioni consentite",
+    "testo": "Il pannello integrativo raffigurato (A) indica le due direzioni consentite",
     "risposta_corretta": "FALSO",
     "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
     "pagina_quiz": 482
@@ -126,7 +126,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22092,
-    "testo": "Il pa nnell o integrativo raffigurato (A) indica una strada a doppio senso di circolazione",
+    "testo": "Il pannello integrativo raffigurato (A) indica una strada a doppio senso di circolazione",
     "risposta_corretta": "FALSO",
     "immagine": "ad3b1bf6ded9b192f1c739df850f6eba",
     "pagina_quiz": 482

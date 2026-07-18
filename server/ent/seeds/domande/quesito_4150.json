@@ -38,7 +38,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20036,
-    "testo": "Il segnale raffigurato precede un segnale di DIREZIONE OBBLIGAT ORIA A SINISTRA",
+    "testo": "Il segnale raffigurato precede un segnale di DIREZIONE OBBLIGATORIA A SINISTRA",
     "risposta_corretta": "VERO",
     "immagine": "b23552307304d167fe185d4c6fe5181f",
     "pagina_quiz": 324
@@ -93,7 +93,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20041,
-    "testo": "Il segnale raffigurato indica che è obbligatorio passare a sinistra dell'ostac olo",
+    "testo": "Il segnale raffigurato indica che è obbligatorio passare a sinistra dell'ostacolo",
     "risposta_corretta": "FALSO",
     "immagine": "b23552307304d167fe185d4c6fe5181f",
     "pagina_quiz": 325

@@ -27,7 +27,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19183,
-    "testo": "In presenza del segnale raffigurato non è consenti to sorpassare i veicoli che si sono arrestati per far attraversare la carreggiata ai ciclisti",
+    "testo": "In presenza del segnale raffigurato non è consentito sorpassare i veicoli che si sono arrestati per far attraversare la carreggiata ai ciclisti",
     "risposta_corretta": "VERO",
     "immagine": "307718ad8143b32f43530c57270b75ee",
     "pagina_quiz": 190
@@ -60,7 +60,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19186,
-    "testo": "In presenza del segnale raffigurato bisogna dare la precedenza solo ai ciclisti che att raversano da destra",
+    "testo": "In presenza del segnale raffigurato bisogna dare la precedenza solo ai ciclisti che attraversano da destra",
     "risposta_corretta": "FALSO",
     "immagine": "307718ad8143b32f43530c57270b75ee",
     "pagina_quiz": 191

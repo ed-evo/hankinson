@@ -5,7 +5,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19353,
-    "testo": "Il segnale raffigurato preannuncia lo sbocco della strada su una banchina portua le",
+    "testo": "Il segnale raffigurato preannuncia lo sbocco della strada su una banchina portuale",
     "risposta_corretta": "VERO",
     "immagine": "a8ad5623eb1559f20081cc1263908b79",
     "pagina_quiz": 211
@@ -71,7 +71,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19359,
-    "testo": "In presenza del segnale raffigurato bisogna usare particolare prudenza se, nel trat to di strada che segue, si dovranno effettuare manovre di retromarcia",
+    "testo": "In presenza del segnale raffigurato bisogna usare particolare prudenza se, nel tratto di strada che segue, si dovranno effettuare manovre di retromarcia",
     "risposta_corretta": "VERO",
     "immagine": "a8ad5623eb1559f20081cc1263908b79",
     "pagina_quiz": 211
@@ -126,7 +126,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19364,
-    "testo": "Il segnale raffigurato preannuncia lo sbocco su un pont e mobile",
+    "testo": "Il segnale raffigurato preannuncia lo sbocco su un ponte mobile",
     "risposta_corretta": "FALSO",
     "immagine": "a8ad5623eb1559f20081cc1263908b79",
     "pagina_quiz": 212
@@ -170,7 +170,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19368,
-    "testo": "Il segnale raffigurato s i riferisce soltanto alle autovetture",
+    "testo": "Il segnale raffigurato si riferisce soltanto alle autovetture",
     "risposta_corretta": "FALSO",
     "immagine": "a8ad5623eb1559f20081cc1263908b79",
     "pagina_quiz": 212

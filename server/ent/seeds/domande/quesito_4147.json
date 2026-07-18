@@ -115,7 +115,7 @@
       "Segnali di divieto"
     ],
     "numero": 20013,
-    "testo": "Nelle ore in c ui è vietata la sosta, il segnale raffigurato comporta la rimozione del veicolo",
+    "testo": "Nelle ore in cui è vietata la sosta, il segnale raffigurato comporta la rimozione del veicolo",
     "risposta_corretta": "FALSO",
     "immagine": "000b9ec4803628ffc83403efb710b16e",
     "pagina_quiz": 318

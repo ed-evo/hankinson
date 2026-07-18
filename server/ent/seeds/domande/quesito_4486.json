@@ -5,7 +5,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23376,
-    "testo": "Nell'inter sezione in figura il veicolo T transita per primo",
+    "testo": "Nell'intersezione in figura il veicolo T transita per primo",
     "risposta_corretta": "VERO",
     "immagine": "987f3c2361b3dd48cc27d5570701e901",
     "pagina_quiz": 126
@@ -16,7 +16,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23377,
-    "testo": "Nell'inter sezione in figura i veicoli transitano nel seguente ordine: T, P, M",
+    "testo": "Nell'intersezione in figura i veicoli transitano nel seguente ordine: T, P, M",
     "risposta_corretta": "VERO",
     "immagine": "987f3c2361b3dd48cc27d5570701e901",
     "pagina_quiz": 126
@@ -27,7 +27,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23378,
-    "testo": "Nell'inter sezione in figura il veicolo M transita per ultimo",
+    "testo": "Nell'intersezione in figura il veicolo M transita per ultimo",
     "risposta_corretta": "VERO",
     "immagine": "987f3c2361b3dd48cc27d5570701e901",
     "pagina_quiz": 126
@@ -38,7 +38,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23379,
-    "testo": "Nell'inter sezione in figura il veicolo M ha la precedenza perché è in servizio pubblico",
+    "testo": "Nell'intersezione in figura il veicolo M ha la precedenza perché è in servizio pubblico",
     "risposta_corretta": "FALSO",
     "immagine": "987f3c2361b3dd48cc27d5570701e901",
     "pagina_quiz": 127
@@ -49,7 +49,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23380,
-    "testo": "Nell'inter sezione in figura i veicoli transitano nel seguente ordine: T, M, P",
+    "testo": "Nell'intersezione in figura i veicoli transitano nel seguente ordine: T, M, P",
     "risposta_corretta": "FALSO",
     "immagine": "987f3c2361b3dd48cc27d5570701e901",
     "pagina_quiz": 127
@@ -60,7 +60,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23381,
-    "testo": "Nell'inter sezione in figura, il veicolo T può passare per primo, purché il veicolo M non stia svolgendo un servizio pubblico di linea",
+    "testo": "Nell'intersezione in figura, il veicolo T può passare per primo, purché il veicolo M non stia svolgendo un servizio pubblico di linea",
     "risposta_corretta": "FALSO",
     "immagine": "987f3c2361b3dd48cc27d5570701e901",
     "pagina_quiz": 127

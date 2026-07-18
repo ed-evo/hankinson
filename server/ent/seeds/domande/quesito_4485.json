@@ -5,7 +5,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23371,
-    "testo": "Nell'inter sezione di figura l'ordine di transito dei veicoli è: N, A, R",
+    "testo": "Nell'intersezione di figura l'ordine di transito dei veicoli è: N, A, R",
     "risposta_corretta": "VERO",
     "immagine": "64297c82b58553f35c10ada436091224",
     "pagina_quiz": 126
@@ -16,7 +16,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23372,
-    "testo": "Nell'inter sezione di figura i veicoli A ed R devono, se necessario, fermarsi",
+    "testo": "Nell'intersezione di figura i veicoli A ed R devono, se necessario, fermarsi",
     "risposta_corretta": "VERO",
     "immagine": "64297c82b58553f35c10ada436091224",
     "pagina_quiz": 126
@@ -27,7 +27,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23373,
-    "testo": "Nell'inter sezione di figura il veicolo A può transitare prima del veicolo R, ma dopo il veicolo N",
+    "testo": "Nell'intersezione di figura il veicolo A può transitare prima del veicolo R, ma dopo il veicolo N",
     "risposta_corretta": "VERO",
     "immagine": "64297c82b58553f35c10ada436091224",
     "pagina_quiz": 126
@@ -38,7 +38,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23374,
-    "testo": "Nell'inter sezione di figura l'ordine di transito dei veicoli è: A, N, R",
+    "testo": "Nell'intersezione di figura l'ordine di transito dei veicoli è: A, N, R",
     "risposta_corretta": "FALSO",
     "immagine": "64297c82b58553f35c10ada436091224",
     "pagina_quiz": 126
@@ -49,7 +49,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23375,
-    "testo": "Nell'inter sezione di figura l'ordine di precedenza dei veicoli è: N, R, A",
+    "testo": "Nell'intersezione di figura l'ordine di precedenza dei veicoli è: N, R, A",
     "risposta_corretta": "FALSO",
     "immagine": "64297c82b58553f35c10ada436091224",
     "pagina_quiz": 126

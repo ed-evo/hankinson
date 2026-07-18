@@ -5,7 +5,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20677,
-    "testo": "Il segnale raffigurato s i può trovare all'inizio di una strada urbana o extraurbana che gode del diritto di precedenza",
+    "testo": "Il segnale raffigurato si può trovare all'inizio di una strada urbana o extraurbana che gode del diritto di precedenza",
     "risposta_corretta": "VERO",
     "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
     "pagina_quiz": 252
@@ -16,7 +16,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20678,
-    "testo": "Il segnale raffigurato può essere ripetuto in formato piccolo prima e dopo ogni incroci o",
+    "testo": "Il segnale raffigurato può essere ripetuto in formato piccolo prima e dopo ogni incrocio",
     "risposta_corretta": "VERO",
     "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
     "pagina_quiz": 252
@@ -38,7 +38,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20680,
-    "testo": "Il segnale raffigurato comporta la presenza sulle strade che si incrociano del se gnale DA RE PRECE DENZA o STOP",
+    "testo": "Il segnale raffigurato comporta la presenza sulle strade che si incrociano del segnale DARE PRECEDENZA o STOP",
     "risposta_corretta": "VERO",
     "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
     "pagina_quiz": 252
@@ -60,7 +60,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20682,
-    "testo": "Il segnale raffigurato s i trova all'inizio di una strada senza diritto di precedenza",
+    "testo": "Il segnale raffigurato si trova all'inizio di una strada senza diritto di precedenza",
     "risposta_corretta": "FALSO",
     "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
     "pagina_quiz": 252
@@ -71,7 +71,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20683,
-    "testo": "Il segnale raffigurato s i trova all'inizio di un'autostrada",
+    "testo": "Il segnale raffigurato si trova all'inizio di un'autostrada",
     "risposta_corretta": "FALSO",
     "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
     "pagina_quiz": 253
@@ -82,7 +82,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20684,
-    "testo": "Il segnale raffigurato s i trova esclusivamente all'inizio di una strada statale",
+    "testo": "Il segnale raffigurato si trova esclusivamente all'inizio di una strada statale",
     "risposta_corretta": "FALSO",
     "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
     "pagina_quiz": 253
@@ -104,7 +104,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20686,
-    "testo": "Il segnale raffigurato s i trova alla fine di una strada con diritto di precedenza",
+    "testo": "Il segnale raffigurato si trova alla fine di una strada con diritto di precedenza",
     "risposta_corretta": "FALSO",
     "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
     "pagina_quiz": 253
@@ -115,7 +115,7 @@
       "Segnali di precedenza"
     ],
     "numero": 20687,
-    "testo": "Il segnale raffigurato s i trova alla fine di una strada statale",
+    "testo": "Il segnale raffigurato si trova alla fine di una strada statale",
     "risposta_corretta": "FALSO",
     "immagine": "ae0a5db589f248f6cde41a1db1f0fe3f",
     "pagina_quiz": 253

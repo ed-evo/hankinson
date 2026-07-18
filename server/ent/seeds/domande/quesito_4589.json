@@ -7,7 +7,7 @@
       "spie e simboli"
     ],
     "numero": 24283,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che il generatore di corrente non carica la batteria",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che il generatore di corrente non carica la batteria",
     "risposta_corretta": "VERO",
     "immagine": "7f50dfe61c766b2f46b9bdeb73ea68a1",
     "pagina_quiz": 446
@@ -20,7 +20,7 @@
       "spie e simboli"
     ],
     "numero": 24284,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che la batteria non si sta ricaricando come previ sto",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che la batteria non si sta ricaricando come previsto",
     "risposta_corretta": "VERO",
     "immagine": "7f50dfe61c766b2f46b9bdeb73ea68a1",
     "pagina_quiz": 446
@@ -33,7 +33,7 @@
       "spie e simboli"
     ],
     "numero": 24285,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che l'alternatore non sta ricaricando la batteria",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che l'alternatore non sta ricaricando la batteria",
     "risposta_corretta": "VERO",
     "immagine": "7f50dfe61c766b2f46b9bdeb73ea68a1",
     "pagina_quiz": 446
@@ -59,7 +59,7 @@
       "spie e simboli"
     ],
     "numero": 24287,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che la batteria è completamente scarica",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che la batteria è completamente scarica",
     "risposta_corretta": "FALSO",
     "immagine": "7f50dfe61c766b2f46b9bdeb73ea68a1",
     "pagina_quiz": 446
@@ -72,7 +72,7 @@
       "spie e simboli"
     ],
     "numero": 24288,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica di sostituire subito la batteria",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica di sostituire subito la batteria",
     "risposta_corretta": "FALSO",
     "immagine": "7f50dfe61c766b2f46b9bdeb73ea68a1",
     "pagina_quiz": 446
@@ -85,7 +85,7 @@
       "spie e simboli"
     ],
     "numero": 24289,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che bisogna invertire l'allacciamento dei cavi ai morsetti della batteria",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che bisogna invertire l'allacciamento dei cavi ai morsetti della batteria",
     "risposta_corretta": "FALSO",
     "immagine": "7f50dfe61c766b2f46b9bdeb73ea68a1",
     "pagina_quiz": 446
@@ -98,7 +98,7 @@
       "spie e simboli"
     ],
     "numero": 24290,
-    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durant e la marcia, indica che la batteria è sovraccarica",
+    "testo": "Una spia di colore rosso contrassegnata dal simbolo di figura, se accesa durante la marcia, indica che la batteria è sovraccarica",
     "risposta_corretta": "FALSO",
     "immagine": "7f50dfe61c766b2f46b9bdeb73ea68a1",
     "pagina_quiz": 447

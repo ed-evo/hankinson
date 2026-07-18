@@ -5,7 +5,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23143,
-    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli passano nel seguent e ordine: H, D, B, L",
+    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli passano nel seguente ordine: H, D, B, L",
     "risposta_corretta": "VERO",
     "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
     "pagina_quiz": 100
@@ -82,7 +82,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23150,
-    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo B deve attendere il tra nsito degli altri tre veicoli",
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo B deve attendere il transito degli altri tre veicoli",
     "risposta_corretta": "FALSO",
     "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
     "pagina_quiz": 101
@@ -93,7 +93,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23151,
-    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo H deve attendere che si ano transitati i veicoli D e B",
+    "testo": "Giungendo all'incrocio rappresentato in figura il veicolo H deve attendere che siano transitati i veicoli D e B",
     "risposta_corretta": "FALSO",
     "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
     "pagina_quiz": 101
@@ -115,7 +115,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23153,
-    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli passano nel seguent e ordine: H, D, L, B",
+    "testo": "Giungendo all'incrocio rappresentato in figura i veicoli passano nel seguente ordine: H, D, L, B",
     "risposta_corretta": "FALSO",
     "immagine": "893024c5c2b2644c6aa0af3156f0ac8f",
     "pagina_quiz": 101

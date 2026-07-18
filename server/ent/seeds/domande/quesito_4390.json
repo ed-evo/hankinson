@@ -7,7 +7,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22479,
-    "testo": "In caso di ar resto forzato di un veicolo sui binari di un passaggio a livello, bisogna spostarlo, spingendolo quanto prima fuori dai binari",
+    "testo": "In caso di arresto forzato di un veicolo sui binari di un passaggio a livello, bisogna spostarlo, spingendolo quanto prima fuori dai binari",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 498
@@ -20,7 +20,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22480,
-    "testo": "In caso di ar resto forzato di un veicolo sui binari di un passaggio a livello, se non è possibile spostarlo subito dai binari, bisogna far scendere immediatamente tutte le persone che si trovano a bordo, e avvisare la staz ione ferroviaria",
+    "testo": "In caso di arresto forzato di un veicolo sui binari di un passaggio a livello, se non è possibile spostarlo subito dai binari, bisogna far scendere immediatamente tutte le persone che si trovano a bordo, e avvisare la stazione ferroviaria",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 498
@@ -33,7 +33,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22481,
-    "testo": "In caso di ar resto forzato del veicolo sui binari ferroviari di un passaggio a livello, bisogna fare in modo che i conducenti dei veicoli su rotaie siano avvisa ti in tempo utile del pericolo",
+    "testo": "In caso di arresto forzato del veicolo sui binari ferroviari di un passaggio a livello, bisogna fare in modo che i conducenti dei veicoli su rotaie siano avvisati in tempo utile del pericolo",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 498
@@ -46,7 +46,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22482,
-    "testo": "Se si percorre una lunga discesa con il cambio in folle e a motore spento, diventa dif ficoltoso muovere lo sterzo se il veicolo è dotato di servosterzo",
+    "testo": "Se si percorre una lunga discesa con il cambio in folle e a motore spento, diventa difficoltoso muovere lo sterzo se il veicolo è dotato di servosterzo",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 498
@@ -59,7 +59,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22483,
-    "testo": "Se si percorre una lunga discesa con il cambio in folle e a motore spento, diventa dif ficoltoso frenare se il veicolo è dotato di servofreno",
+    "testo": "Se si percorre una lunga discesa con il cambio in folle e a motore spento, diventa difficoltoso frenare se il veicolo è dotato di servofreno",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 498
@@ -72,7 +72,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22484,
-    "testo": "Nei veicoli dotati di servofreno, se si percorre una lunga discesa con il cambio in f olle e a motore s pento, aumenta il rischio di provocare incidenti",
+    "testo": "Nei veicoli dotati di servofreno, se si percorre una lunga discesa con il cambio in folle e a motore spento, aumenta il rischio di provocare incidenti",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 498
@@ -85,7 +85,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22485,
-    "testo": "Nei veicoli dotati di servosterzo, s e si percorre una lunga discesa con il cambio in f olle e a motore s pento, diventa difficoltoso girare rapidamente lo sterzo per schivare un ostacolo",
+    "testo": "Nei veicoli dotati di servosterzo, se si percorre una lunga discesa con il cambio in folle e a motore spento, diventa difficoltoso girare rapidamente lo sterzo per schivare un ostacolo",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 498
@@ -98,7 +98,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22486,
-    "testo": "Nei veicoli dotati di servofreno, se si percorre una lunga discesa con il cambio in f olle e a motore s pento, aumenta pericolosamente lo spazio di frenatura",
+    "testo": "Nei veicoli dotati di servofreno, se si percorre una lunga discesa con il cambio in folle e a motore spento, aumenta pericolosamente lo spazio di frenatura",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 498
@@ -111,7 +111,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22487,
-    "testo": "Nei veicoli dotati di servofreno, se si percorre una lunga discesa con il cambio in f olle e a motore s pento, diventa sempre più difficoltoso arrestare il veicolo",
+    "testo": "Nei veicoli dotati di servofreno, se si percorre una lunga discesa con il cambio in folle e a motore spento, diventa sempre più difficoltoso arrestare il veicolo",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 499
@@ -150,7 +150,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22490,
-    "testo": "Per una m aggiore sicurezza, è conveniente percorrere le lunghe discese con il cambio in folle e a motore spento, risparmiando così anche carburante",
+    "testo": "Per una maggiore sicurezza, è conveniente percorrere le lunghe discese con il cambio in folle e a motore spento, risparmiando così anche carburante",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 499
@@ -176,7 +176,7 @@
       "comportamenti ai passaggi a livello"
     ],
     "numero": 22492,
-    "testo": "Nei veicoli dotati di servofreno a depressione, se si percorre una lunga disce sa con il cambio in folle e a motore spento, si ottiene la stessa forza frenante che si ha con il motore acceso",
+    "testo": "Nei veicoli dotati di servofreno a depressione, se si percorre una lunga discesa con il cambio in folle e a motore spento, si ottiene la stessa forza frenante che si ha con il motore acceso",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 499

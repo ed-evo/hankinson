@@ -16,7 +16,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19132,
-    "testo": "In presenza del segnale raffigurato si può circolare sui binari senza intralc iare la marcia del tram",
+    "testo": "In presenza del segnale raffigurato si può circolare sui binari senza intralciare la marcia del tram",
     "risposta_corretta": "VERO",
     "immagine": "bb981f286218063a29cc9f7bf6f71389",
     "pagina_quiz": 184
@@ -27,7 +27,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19133,
-    "testo": "In presenza del segnale raffigurato si può sorpassare a destra il tram fermo al centro de lla strada per la salita e discesa dei passeggeri, solo se esiste l'apposito salvagente",
+    "testo": "In presenza del segnale raffigurato si può sorpassare a destra il tram fermo al centro della strada per la salita e discesa dei passeggeri, solo se esiste l'apposito salvagente",
     "risposta_corretta": "VERO",
     "immagine": "bb981f286218063a29cc9f7bf6f71389",
     "pagina_quiz": 184
@@ -82,7 +82,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19138,
-    "testo": "In presenza del segnale raffigurato il sorpasso dei tram è vietato escl usivamente ai motocicli",
+    "testo": "In presenza del segnale raffigurato il sorpasso dei tram è vietato esclusivamente ai motocicli",
     "risposta_corretta": "FALSO",
     "immagine": "bb981f286218063a29cc9f7bf6f71389",
     "pagina_quiz": 185
@@ -93,7 +93,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19139,
-    "testo": "In presenza del segnale raffigurato è vietata la marcia sopra i binari del tra m",
+    "testo": "In presenza del segnale raffigurato è vietata la marcia sopra i binari del tram",
     "risposta_corretta": "FALSO",
     "immagine": "bb981f286218063a29cc9f7bf6f71389",
     "pagina_quiz": 185
@@ -126,7 +126,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19142,
-    "testo": "In presenza del segnale raffigurato, il tram fermo per la salita e la discesa dei passegger i può essere s orpassato a destra quando non esiste il salva gente",
+    "testo": "In presenza del segnale raffigurato, il tram fermo per la salita e la discesa dei passeggeri può essere sorpassato a destra quando non esiste il salvagente",
     "risposta_corretta": "FALSO",
     "immagine": "bb981f286218063a29cc9f7bf6f71389",
     "pagina_quiz": 185

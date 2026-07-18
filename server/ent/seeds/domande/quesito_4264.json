@@ -42,7 +42,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21205,
-    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, bisogna accelerare per liberare rapidamente l'attra versamento",
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, bisogna accelerare per liberare rapidamente l'attraversamento",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 471
@@ -90,7 +90,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21209,
-    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, è possibile attraversare i binari se non vi sono altri ve icol i in attesa",
+    "testo": "Avvicinandosi ad un passaggio a livello con luci rosse accese e semibarriera ancora alzata, è possibile attraversare i binari se non vi sono altri veicoli in attesa",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 471

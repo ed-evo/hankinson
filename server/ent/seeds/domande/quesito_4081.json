@@ -49,7 +49,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19221,
-    "testo": "Dopo il segna le (A) si può trovare il segnale (B)",
+    "testo": "Dopo il segnale (A) si può trovare il segnale (B)",
     "risposta_corretta": "VERO",
     "immagine": "8c3ca9b5032fdb24e6f2f92b15c2feb2",
     "pagina_quiz": 195
@@ -60,7 +60,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19222,
-    "testo": "Dopo il segna le (A) si può trovare il segnale (B)",
+    "testo": "Dopo il segnale (A) si può trovare il segnale (B)",
     "risposta_corretta": "VERO",
     "immagine": "2a0caaad4dffa7d4e796ed67e1c83b96",
     "pagina_quiz": 195
@@ -71,7 +71,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19223,
-    "testo": "Il segnale raffigurato, s e a fondo giallo, è posto in presenza di un cantiere stradale che riduce la larghezza della carreggiata",
+    "testo": "Il segnale raffigurato, se a fondo giallo, è posto in presenza di un cantiere stradale che riduce la larghezza della carreggiata",
     "risposta_corretta": "VERO",
     "immagine": "935e0fb53dc5ade5d74efa55184c4022",
     "pagina_quiz": 195
@@ -104,7 +104,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19226,
-    "testo": "Il segnale raffigurato preannuncia che i veicoli provenienti dall'altro senso devono darc i la precedenza",
+    "testo": "Il segnale raffigurato preannuncia che i veicoli provenienti dall'altro senso devono darci la precedenza",
     "risposta_corretta": "FALSO",
     "immagine": "935e0fb53dc5ade5d74efa55184c4022",
     "pagina_quiz": 196

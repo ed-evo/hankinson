@@ -12,7 +12,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23930,
-    "testo": "Il c arico non deve superare il limite di sagoma stabilito per ogni tipo di veicolo",
+    "testo": "Il carico non deve superare il limite di sagoma stabilito per ogni tipo di veicolo",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 539
@@ -48,7 +48,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23932,
-    "testo": "Il c arico può sporgere longitudinalmente dalla parte posteriore, se costituito da cose indivi sibili, fino ai 3/10 della lunghezza dell'autoveicolo",
+    "testo": "Il carico può sporgere longitudinalmente dalla parte posteriore, se costituito da cose indivisibili, fino ai 3/10 della lunghezza dell'autoveicolo",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 539
@@ -84,7 +84,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23934,
-    "testo": "E' vietato trasportare o trainare cose che strisciano sul terreno, anche se in part e sost enute da ruote",
+    "testo": "E' vietato trasportare o trainare cose che strisciano sul terreno, anche se in parte sostenute da ruote",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 539
@@ -102,7 +102,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23935,
-    "testo": "Se il cari co sporge oltre la sagoma del veicolo, il conducente deve adottare tutte le cautele idonee ad evitare pericolo agli altri utenti della strada",
+    "testo": "Se il carico sporge oltre la sagoma del veicolo, il conducente deve adottare tutte le cautele idonee ad evitare pericolo agli altri utenti della strada",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 539
@@ -120,7 +120,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23936,
-    "testo": "Il c arico deve essere sistemato sul veicolo in modo da segnalarne la sporgenza posteriore con il pannello retroriflettente in figura",
+    "testo": "Il carico deve essere sistemato sul veicolo in modo da segnalarne la sporgenza posteriore con il pannello retroriflettente in figura",
     "risposta_corretta": "FALSO",
     "immagine": "87fd4191b69ff4e1eee00e1990b00418",
     "pagina_quiz": 539
@@ -138,7 +138,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23937,
-    "testo": "Il c arico può sporgere lateralmente, se costituito da cose indivisibili, fino ai 3/10 della larghezza del veicolo",
+    "testo": "Il carico può sporgere lateralmente, se costituito da cose indivisibili, fino ai 3/10 della larghezza del veicolo",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 539
@@ -156,7 +156,7 @@
       "traino dei rimorchi"
     ],
     "numero": 23938,
-    "testo": "E' co nsentito trasportare o trainare cose che strisciano sul terreno se in parte sostenute da ruote",
+    "testo": "E' consentito trasportare o trainare cose che strisciano sul terreno se in parte sostenute da ruote",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 539

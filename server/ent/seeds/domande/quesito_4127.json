@@ -16,7 +16,7 @@
       "Segnali di divieto"
     ],
     "numero": 19778,
-    "testo": "Il c arburante contenuto nel serbatoio del veicolo non si considera trasporto di mater ial e infiammabile vietato dal segnale in figura",
+    "testo": "Il carburante contenuto nel serbatoio del veicolo non si considera trasporto di materiale infiammabile vietato dal segnale in figura",
     "risposta_corretta": "VERO",
     "immagine": "c8854dae262609ddc652757e5fa50bf2",
     "pagina_quiz": 292
@@ -38,7 +38,7 @@
       "Segnali di divieto"
     ],
     "numero": 19780,
-    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano prodotti facilm ente infiammabili",
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli che trasportano prodotti facilmente infiammabili",
     "risposta_corretta": "VERO",
     "immagine": "c8854dae262609ddc652757e5fa50bf2",
     "pagina_quiz": 293
@@ -60,7 +60,7 @@
       "Segnali di divieto"
     ],
     "numero": 19782,
-    "testo": "Il segnale raffigurato prescrive di fare attenzione al transito di veicoli che tra sport ano esplosivo",
+    "testo": "Il segnale raffigurato prescrive di fare attenzione al transito di veicoli che trasportano esplosivo",
     "risposta_corretta": "FALSO",
     "immagine": "c8854dae262609ddc652757e5fa50bf2",
     "pagina_quiz": 293
@@ -71,7 +71,7 @@
       "Segnali di divieto"
     ],
     "numero": 19783,
-    "testo": "In presenza del segnale raffigurato è consentito il transito ai veicoli che tra sport ano prodotti facilmente infiammabili, purché non esplosivi",
+    "testo": "In presenza del segnale raffigurato è consentito il transito ai veicoli che trasportano prodotti facilmente infiammabili, purché non esplosivi",
     "risposta_corretta": "FALSO",
     "immagine": "c8854dae262609ddc652757e5fa50bf2",
     "pagina_quiz": 293
@@ -82,7 +82,7 @@
       "Segnali di divieto"
     ],
     "numero": 19784,
-    "testo": "In presenza del segnale raffigurato è consentito il traino di veicoli che tra sport ano prodotti facilmente infiammabili",
+    "testo": "In presenza del segnale raffigurato è consentito il traino di veicoli che trasportano prodotti facilmente infiammabili",
     "risposta_corretta": "FALSO",
     "immagine": "c8854dae262609ddc652757e5fa50bf2",
     "pagina_quiz": 293

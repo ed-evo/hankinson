@@ -22,7 +22,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25405,
-    "testo": "La marmitta deteriorata deve essere sostituita con altra di tipo approvato per quel ti po di veicolo",
+    "testo": "La marmitta deteriorata deve essere sostituita con altra di tipo approvato per quel tipo di veicolo",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 591
@@ -134,7 +134,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25413,
-    "testo": "Fuori dei cent ri abitati, i veicoli possono circolare anche senza silenziatore",
+    "testo": "Fuori dei centri abitati, i veicoli possono circolare anche senza silenziatore",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 591
@@ -176,7 +176,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25416,
-    "testo": "E' possibile modificare l'impianto di scarico, purché si autocertifichi che ciò non compor ta aumenti del consumo di carburante",
+    "testo": "E' possibile modificare l'impianto di scarico, purché si autocertifichi che ciò non comporta aumenti del consumo di carburante",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 591
@@ -190,7 +190,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25417,
-    "testo": "La manom issione dell'impianto di scarico non comporta alcuna sanzione, purché si circoli solo nei centri urbani",
+    "testo": "La manomissione dell'impianto di scarico non comporta alcuna sanzione, purché si circoli solo nei centri urbani",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 591

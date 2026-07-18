@@ -5,7 +5,7 @@
       "Segnali di divieto"
     ],
     "numero": 19840,
-    "testo": "Il segnale raffigurato vieta il transito ai veicoli aventi sull'asse più caricato una massa ef fettiva superiore a quella indicata",
+    "testo": "Il segnale raffigurato vieta il transito ai veicoli aventi sull'asse più caricato una massa effettiva superiore a quella indicata",
     "risposta_corretta": "VERO",
     "immagine": "1fa023cb06b46333946e7cff49f17f9e",
     "pagina_quiz": 300
@@ -104,7 +104,7 @@
       "Segnali di divieto"
     ],
     "numero": 19849,
-    "testo": "Il segnale raffigurato vieta il transito a tutti i veicoli con massa complessiva a pieno cari co superiore a 2,5 tonnellate",
+    "testo": "Il segnale raffigurato vieta il transito a tutti i veicoli con massa complessiva a pieno carico superiore a 2,5 tonnellate",
     "risposta_corretta": "FALSO",
     "immagine": "1fa023cb06b46333946e7cff49f17f9e",
     "pagina_quiz": 301

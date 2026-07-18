@@ -42,7 +42,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21179,
-    "testo": "La posizione del vigile con un braccio alzato come in figura è una indicazione riservata solo ai veicoli che devono svolta re",
+    "testo": "La posizione del vigile con un braccio alzato come in figura è una indicazione riservata solo ai veicoli che devono svoltare",
     "risposta_corretta": "FALSO",
     "immagine": "125f03bc48cba25667c0be2257dd80e3",
     "pagina_quiz": 431
@@ -90,7 +90,7 @@
       "segnalazioni degli agenti del traffico"
     ],
     "numero": 21183,
-    "testo": "La posizione del vigile con il braccio alzato come in figura equivale alla luce rossa de l semaforo",
+    "testo": "La posizione del vigile con il braccio alzato come in figura equivale alla luce rossa del semaforo",
     "risposta_corretta": "FALSO",
     "immagine": "125f03bc48cba25667c0be2257dd80e3",
     "pagina_quiz": 431

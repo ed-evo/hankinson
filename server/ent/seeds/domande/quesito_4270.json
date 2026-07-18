@@ -5,7 +5,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21256,
-    "testo": "Il segnale raffigurato s i può trovare all'inizio di una strada comunale",
+    "testo": "Il segnale raffigurato si può trovare all'inizio di una strada comunale",
     "risposta_corretta": "VERO",
     "immagine": "8898484eae51d3fddd775bd2ae9e2572",
     "pagina_quiz": 20
@@ -16,7 +16,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21257,
-    "testo": "Il segnale raffigurato s i può trovare a completamento dei segnali di dire zione",
+    "testo": "Il segnale raffigurato si può trovare a completamento dei segnali di direzione",
     "risposta_corretta": "VERO",
     "immagine": "8898484eae51d3fddd775bd2ae9e2572",
     "pagina_quiz": 21
@@ -38,7 +38,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21259,
-    "testo": "Il segnale raffigurato s i può trovare lungo la strada comunale n. 19",
+    "testo": "Il segnale raffigurato si può trovare lungo la strada comunale n. 19",
     "risposta_corretta": "VERO",
     "immagine": "8898484eae51d3fddd775bd2ae9e2572",
     "pagina_quiz": 21
@@ -49,7 +49,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21260,
-    "testo": "Il segnale raffigurato s i trova a diciannove chilometri dalla più vicina Stazione dei Carabinieri",
+    "testo": "Il segnale raffigurato si trova a diciannove chilometri dalla più vicina Stazione dei Carabinieri",
     "risposta_corretta": "FALSO",
     "immagine": "8898484eae51d3fddd775bd2ae9e2572",
     "pagina_quiz": 21
@@ -60,7 +60,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21261,
-    "testo": "Il segnale raffigurato s i trova all'inizio di una strada di campagna",
+    "testo": "Il segnale raffigurato si trova all'inizio di una strada di campagna",
     "risposta_corretta": "FALSO",
     "immagine": "8898484eae51d3fddd775bd2ae9e2572",
     "pagina_quiz": 21
@@ -71,7 +71,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21262,
-    "testo": "Il segnale raffigurato s i trova dove la strada è percorribile solo con catene da neve",
+    "testo": "Il segnale raffigurato si trova dove la strada è percorribile solo con catene da neve",
     "risposta_corretta": "FALSO",
     "immagine": "8898484eae51d3fddd775bd2ae9e2572",
     "pagina_quiz": 21
@@ -82,7 +82,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21263,
-    "testo": "Il segnale raffigurato s i trova su strade dove la sosta è consentita dopo le ore 19.00",
+    "testo": "Il segnale raffigurato si trova su strade dove la sosta è consentita dopo le ore 19.00",
     "risposta_corretta": "FALSO",
     "immagine": "8898484eae51d3fddd775bd2ae9e2572",
     "pagina_quiz": 21

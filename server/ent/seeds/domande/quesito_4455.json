@@ -27,7 +27,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23112,
-    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo B de ve passare dopo il veicolo P",
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo B deve passare dopo il veicolo P",
     "risposta_corretta": "VERO",
     "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
     "pagina_quiz": 96
@@ -49,7 +49,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23114,
-    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo B pa ssa prima del veicolo N",
+    "testo": "Secondo le norme di precedenza nell'incrocio rappresentato in figura il veicolo B passa prima del veicolo N",
     "risposta_corretta": "VERO",
     "immagine": "3a8cb230a1ce7c2d21cbba534618d150",
     "pagina_quiz": 96

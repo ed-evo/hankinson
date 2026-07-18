@@ -38,7 +38,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21627,
-    "testo": "Il segnale raffigurato s e barrato da una striscia rossa indica la fine della sua validità",
+    "testo": "Il segnale raffigurato se barrato da una striscia rossa indica la fine della sua validità",
     "risposta_corretta": "VERO",
     "immagine": "971e98d0321dab35827073bdfb4eb51a",
     "pagina_quiz": 65

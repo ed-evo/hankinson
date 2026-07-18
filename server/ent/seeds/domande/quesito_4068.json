@@ -27,7 +27,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19070,
-    "testo": "In presenza del segnale raffigurato è necessario rallentare per potere, eventualmente, arres tare il veicolo prima dell'attraversamento ferroviario",
+    "testo": "In presenza del segnale raffigurato è necessario rallentare per potere, eventualmente, arrestare il veicolo prima dell'attraversamento ferroviario",
     "risposta_corretta": "VERO",
     "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
     "pagina_quiz": 177
@@ -38,7 +38,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19071,
-    "testo": "In presenza del segnale raffigurato è necessario, prima di attraversare, assicurarsi c he non ci siano treni in arrivo sia da destra che da sinistra",
+    "testo": "In presenza del segnale raffigurato è necessario, prima di attraversare, assicurarsi che non ci siano treni in arrivo sia da destra che da sinistra",
     "risposta_corretta": "VERO",
     "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
     "pagina_quiz": 177
@@ -49,7 +49,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19072,
-    "testo": "In presenza del segnale raffigurato non è consenti to sostare o fermarsi in prossimità o in corrispondenza dei binari",
+    "testo": "In presenza del segnale raffigurato non è consentito sostare o fermarsi in prossimità o in corrispondenza dei binari",
     "risposta_corretta": "VERO",
     "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
     "pagina_quiz": 177
@@ -93,7 +93,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19076,
-    "testo": "In presenza del segnale raffigurato è obbligatorio usare il segnalatore acust ico (clacson) prima di attraversare i binari",
+    "testo": "In presenza del segnale raffigurato è obbligatorio usare il segnalatore acustico (clacson) prima di attraversare i binari",
     "risposta_corretta": "FALSO",
     "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
     "pagina_quiz": 178
@@ -104,7 +104,7 @@
       "Segnali di pericolo"
     ],
     "numero": 19077,
-    "testo": "In presenza del segnale raffigurato è consentito il sorpasso invadendo la corsia oppost a",
+    "testo": "In presenza del segnale raffigurato è consentito il sorpasso invadendo la corsia opposta",
     "risposta_corretta": "FALSO",
     "immagine": "9ed0e8363c88fd8588f80faaf25082b2",
     "pagina_quiz": 178

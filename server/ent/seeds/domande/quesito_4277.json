@@ -16,7 +16,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21324,
-    "testo": "Il segnale raffigurato indica che siamo in vicinanza di un apparecchio telefoni co pubblico",
+    "testo": "Il segnale raffigurato indica che siamo in vicinanza di un apparecchio telefonico pubblico",
     "risposta_corretta": "VERO",
     "immagine": "7c465c7946a16a29d37008033e2616f0",
     "pagina_quiz": 13
@@ -93,7 +93,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21331,
-    "testo": "Il segnale raffigurato indica una zona sufficientemente coperta dal segnale per t elefonia mobile",
+    "testo": "Il segnale raffigurato indica una zona sufficientemente coperta dal segnale per telefonia mobile",
     "risposta_corretta": "FALSO",
     "immagine": "7c465c7946a16a29d37008033e2616f0",
     "pagina_quiz": 14

@@ -36,7 +36,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25210,
-    "testo": "Il ribaltamento in curva del veicolo è favorito da una ridotta distanza fra ruote dell o stesso asse (carreggiata stretta)",
+    "testo": "Il ribaltamento in curva del veicolo è favorito da una ridotta distanza fra ruote dello stesso asse (carreggiata stretta)",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 584
@@ -64,7 +64,7 @@
       "comportamenti e cautele di guida"
     ],
     "numero": 25212,
-    "testo": "Il ribaltamento in curva del veicolo è favorito da una ampia distanza fra ruote dell o stesso asse (carreggiata larga)",
+    "testo": "Il ribaltamento in curva del veicolo è favorito da una ampia distanza fra ruote dello stesso asse (carreggiata larga)",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 584

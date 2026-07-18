@@ -5,7 +5,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23751,
-    "testo": "La sosta è vietata se si impedisce l'accesso ad altro veicolo già regol armente in sosta",
+    "testo": "La sosta è vietata se si impedisce l'accesso ad altro veicolo già regolarmente in sosta",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 531
@@ -49,7 +49,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23755,
-    "testo": "La sosta è vietata a meno di 15 metri dal segnale di fermata di autobus, filobus e veicoli circolanti su rotaia, qualora gli spazi di stazionamento non siano de limitati",
+    "testo": "La sosta è vietata a meno di 15 metri dal segnale di fermata di autobus, filobus e veicoli circolanti su rotaia, qualora gli spazi di stazionamento non siano delimitati",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 531
@@ -71,7 +71,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23757,
-    "testo": "La sosta degli autoveicoli in doppia fila è consentita purché rimanga spazio suffici ente per la circolazione di due file di veicoli",
+    "testo": "La sosta degli autoveicoli in doppia fila è consentita purché rimanga spazio sufficiente per la circolazione di due file di veicoli",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 531

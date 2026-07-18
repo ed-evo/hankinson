@@ -60,7 +60,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20088,
-    "testo": "Il segnale raffigurato s ignifica che bisogna aggirare l'ostacolo a sinistra",
+    "testo": "Il segnale raffigurato significa che bisogna aggirare l'ostacolo a sinistra",
     "risposta_corretta": "FALSO",
     "immagine": "fece8907377910340f0aecbc53ef2a9b",
     "pagina_quiz": 341
@@ -71,7 +71,7 @@
       "Segnali di obbligo"
     ],
     "numero": 20089,
-    "testo": "Il segnale raffigurato s ignifica preavviso di curva a sinistra",
+    "testo": "Il segnale raffigurato significa preavviso di curva a sinistra",
     "risposta_corretta": "FALSO",
     "immagine": "fece8907377910340f0aecbc53ef2a9b",
     "pagina_quiz": 341

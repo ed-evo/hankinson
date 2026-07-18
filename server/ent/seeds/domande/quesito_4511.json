@@ -5,7 +5,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23650,
-    "testo": "La fermat a non deve arrecare intralcio alla circolazione",
+    "testo": "La fermata non deve arrecare intralcio alla circolazione",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 528
@@ -49,7 +49,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23654,
-    "testo": "Durante la fermata il conducente deve sempre adottare le opportune cautele atte ad evitar e incidenti",
+    "testo": "Durante la fermata il conducente deve sempre adottare le opportune cautele atte ad evitare incidenti",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 528
@@ -60,7 +60,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23655,
-    "testo": "Non è consentito fermarsi per chiedere informazioni agli agenti del traffico, quando ciò possa caus are intralcio o rallentamento alla circolazione",
+    "testo": "Non è consentito fermarsi per chiedere informazioni agli agenti del traffico, quando ciò possa causare intralcio o rallentamento alla circolazione",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 528
@@ -71,7 +71,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23656,
-    "testo": "Durante la fermata il conducente può allontanarsi per brevissimo tempo prima di ripr endere la marcia",
+    "testo": "Durante la fermata il conducente può allontanarsi per brevissimo tempo prima di riprendere la marcia",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 528
@@ -82,7 +82,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23657,
-    "testo": "La fermat a di un veicolo è sempre consentita per chiedere informazioni agli agenti del traffico",
+    "testo": "La fermata di un veicolo è sempre consentita per chiedere informazioni agli agenti del traffico",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 528

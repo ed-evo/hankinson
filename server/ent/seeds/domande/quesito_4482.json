@@ -5,7 +5,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23360,
-    "testo": "Nell'inter sezione di figura il veicolo B deve dare la precedenza al veicolo S",
+    "testo": "Nell'intersezione di figura il veicolo B deve dare la precedenza al veicolo S",
     "risposta_corretta": "VERO",
     "immagine": "c40c420633640f7ca8c88bc651e67830",
     "pagina_quiz": 124
@@ -16,7 +16,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23361,
-    "testo": "Nell'inter sezione di figura l'ordine di transito dei veicoli è: S, B, L, D",
+    "testo": "Nell'intersezione di figura l'ordine di transito dei veicoli è: S, B, L, D",
     "risposta_corretta": "VERO",
     "immagine": "c40c420633640f7ca8c88bc651e67830",
     "pagina_quiz": 124
@@ -27,7 +27,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23362,
-    "testo": "Nell'inter sezione di figura l'ordine di transito dei veicoli è: S, B, D e L contemporaneamente",
+    "testo": "Nell'intersezione di figura l'ordine di transito dei veicoli è: S, B, D e L contemporaneamente",
     "risposta_corretta": "FALSO",
     "immagine": "c40c420633640f7ca8c88bc651e67830",
     "pagina_quiz": 124
@@ -38,7 +38,7 @@
       "Esempi di precedenza (ordine di precedenza agli incroci)"
     ],
     "numero": 23363,
-    "testo": "Nell'inter sezione di figura l'ordine di transito dei veicoli è: S e D contemporaneamente, B, L",
+    "testo": "Nell'intersezione di figura l'ordine di transito dei veicoli è: S e D contemporaneamente, B, L",
     "risposta_corretta": "FALSO",
     "immagine": "c40c420633640f7ca8c88bc651e67830",
     "pagina_quiz": 125

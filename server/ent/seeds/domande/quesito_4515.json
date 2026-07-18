@@ -27,7 +27,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23690,
-    "testo": "La sosta e la fermata sono vietate sui marciapiedi, salvo diversa segnal azione",
+    "testo": "La sosta e la fermata sono vietate sui marciapiedi, salvo diversa segnalazione",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 529
@@ -38,7 +38,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23691,
-    "testo": "La fermat a è consentita allo sbocco dei passi carrabili",
+    "testo": "La fermata è consentita allo sbocco dei passi carrabili",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 529
@@ -49,7 +49,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23692,
-    "testo": "La fermat a è consentita davanti ai cassonetti dei rifiuti urbani",
+    "testo": "La fermata è consentita davanti ai cassonetti dei rifiuti urbani",
     "risposta_corretta": "VERO",
     "immagine": null,
     "pagina_quiz": 529
@@ -60,7 +60,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23693,
-    "testo": "La fermat a è consentita sugli attraversamenti pedonali per far scendere un passeggero",
+    "testo": "La fermata è consentita sugli attraversamenti pedonali per far scendere un passeggero",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 529
@@ -71,7 +71,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23694,
-    "testo": "La fermat a per esigenze di brevissima durata è vietata sulle piste ciclabili ma non agli sbocchi di esse",
+    "testo": "La fermata per esigenze di brevissima durata è vietata sulle piste ciclabili ma non agli sbocchi di esse",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 529
@@ -82,7 +82,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23695,
-    "testo": "La fermat a è vietata allo sbocco dei passi carrabili",
+    "testo": "La fermata è vietata allo sbocco dei passi carrabili",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 529
@@ -93,7 +93,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23696,
-    "testo": "La fermat a è sempre vietata in seconda fila",
+    "testo": "La fermata è sempre vietata in seconda fila",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 529
@@ -104,7 +104,7 @@
       "Fermata, sosta, arresto e partenza"
     ],
     "numero": 23697,
-    "testo": "La fermat a è vietata in ogni caso nelle ore notturne",
+    "testo": "La fermata è vietata in ogni caso nelle ore notturne",
     "risposta_corretta": "FALSO",
     "immagine": null,
     "pagina_quiz": 529

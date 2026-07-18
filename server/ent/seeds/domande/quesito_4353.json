@@ -5,7 +5,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22047,
-    "testo": "Il pa nnell o integrativo raffigurato, posto sotto un segnale, ne limita la validità nei giorni lavorativi e alle fasce orarie indicate",
+    "testo": "Il pannello integrativo raffigurato, posto sotto un segnale, ne limita la validità nei giorni lavorativi e alle fasce orarie indicate",
     "risposta_corretta": "VERO",
     "immagine": "7f5b44078b4cf0428cc7a86d41145a29",
     "pagina_quiz": 477
@@ -16,7 +16,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22048,
-    "testo": "Il segnale raffigurato vieta il transito nella fascia oraria indicata, dei giorni lavorati vi",
+    "testo": "Il segnale raffigurato vieta il transito nella fascia oraria indicata, dei giorni lavorativi",
     "risposta_corretta": "VERO",
     "immagine": "31aa0305f3629a75a7d1e6cc5e62a683",
     "pagina_quiz": 477
@@ -27,7 +27,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22049,
-    "testo": "Il pa nnell o integrativo raffigurato indica la fascia oraria dei giorni lavorati vi durante la quale vale la prescrizione del segnale sotto cui è posto",
+    "testo": "Il pannello integrativo raffigurato indica la fascia oraria dei giorni lavorativi durante la quale vale la prescrizione del segnale sotto cui è posto",
     "risposta_corretta": "VERO",
     "immagine": "7f5b44078b4cf0428cc7a86d41145a29",
     "pagina_quiz": 477
@@ -38,7 +38,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22050,
-    "testo": "Il segnale raffigurato vieta la sosta nella fascia oraria indicata dei giorni lavorati vi",
+    "testo": "Il segnale raffigurato vieta la sosta nella fascia oraria indicata dei giorni lavorativi",
     "risposta_corretta": "VERO",
     "immagine": "a0704cd2aaf24253d6c503a483ead9cf",
     "pagina_quiz": 477
@@ -49,7 +49,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22051,
-    "testo": "Il pa nnell o integrativo raffigurato, posto sotto un segnale di obbligo, indica che esso vale dalle ore 8.00 alle ore 20.00 dei giorni lavorativi",
+    "testo": "Il pannello integrativo raffigurato, posto sotto un segnale di obbligo, indica che esso vale dalle ore 8.00 alle ore 20.00 dei giorni lavorativi",
     "risposta_corretta": "VERO",
     "immagine": "7f5b44078b4cf0428cc7a86d41145a29",
     "pagina_quiz": 477
@@ -71,7 +71,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22053,
-    "testo": "Il pa nnell o integrativo raffigurato indica che il segnale al quale è abbinato vale tutti i giorni, ma solo nelle ore indicate",
+    "testo": "Il pannello integrativo raffigurato indica che il segnale al quale è abbinato vale tutti i giorni, ma solo nelle ore indicate",
     "risposta_corretta": "FALSO",
     "immagine": "7f5b44078b4cf0428cc7a86d41145a29",
     "pagina_quiz": 477
@@ -82,7 +82,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22054,
-    "testo": "Il pa nnell o integrativo raffigurato indica gli orari di apertura di un museo di attrezzi da lavoro",
+    "testo": "Il pannello integrativo raffigurato indica gli orari di apertura di un museo di attrezzi da lavoro",
     "risposta_corretta": "FALSO",
     "immagine": "7f5b44078b4cf0428cc7a86d41145a29",
     "pagina_quiz": 478
@@ -93,7 +93,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22055,
-    "testo": "Il pa nnell o integrativo raffigurato indica la fascia oraria di apertura delle officine di soccorso stradale",
+    "testo": "Il pannello integrativo raffigurato indica la fascia oraria di apertura delle officine di soccorso stradale",
     "risposta_corretta": "FALSO",
     "immagine": "7f5b44078b4cf0428cc7a86d41145a29",
     "pagina_quiz": 478
@@ -115,7 +115,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22057,
-    "testo": "Il pa nnell o integrativo raffigurato indica che il segnale al quale è abbinato vale nei giorni festivi",
+    "testo": "Il pannello integrativo raffigurato indica che il segnale al quale è abbinato vale nei giorni festivi",
     "risposta_corretta": "FALSO",
     "immagine": "7f5b44078b4cf0428cc7a86d41145a29",
     "pagina_quiz": 478
@@ -126,7 +126,7 @@
       "Pannelli integrativi dei segnali"
     ],
     "numero": 22058,
-    "testo": "Il pa nnell o integrativo raffigurato, posto sotto il segnale PARCHEGGIO , indica che si può parcheggiare nei giorni festivi dalle ore 8.00 alle ore 20.00",
+    "testo": "Il pannello integrativo raffigurato, posto sotto il segnale PARCHEGGIO, indica che si può parcheggiare nei giorni festivi dalle ore 8.00 alle ore 20.00",
     "risposta_corretta": "FALSO",
     "immagine": "7f5b44078b4cf0428cc7a86d41145a29",
     "pagina_quiz": 478

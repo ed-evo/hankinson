@@ -16,7 +16,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21401,
-    "testo": "Il segnale raffigurato indica la presenza di un passaggio a livello svoltando a dest ra",
+    "testo": "Il segnale raffigurato indica la presenza di un passaggio a livello svoltando a destra",
     "risposta_corretta": "VERO",
     "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
     "pagina_quiz": 38
@@ -71,7 +71,7 @@
       "Segnali di indicazione"
     ],
     "numero": 21406,
-    "testo": "Il segnale raffigurato s i trova dopo un incrocio",
+    "testo": "Il segnale raffigurato si trova dopo un incrocio",
     "risposta_corretta": "FALSO",
     "immagine": "fa19a50da37f716b072eca8b6ecdf6e5",
     "pagina_quiz": 38
