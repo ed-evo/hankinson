@@ -90,9 +90,9 @@ function chooseRandomly<T>(list?: T[]): T {
 
 function next() {
   answare.value = null
-  const capitolo = chooseRandomly(quizStore.capitoliSelezionati)
-  console.log("capitolo selezionato: ", capitolo)
-  const domande = quizStore.domandeByCapitoli.get(capitolo.id)
+  const capitoloId = chooseRandomly(quizStore.capitoliSelezionati)
+  console.log("capitolo selezionato: ", capitoloId)
+  const domande = quizStore.domandeByCapitoli.get(capitoloId)
   currentDomanda.value = chooseRandomly(domande)
   // currentDomanda.value = quizStore.domandeByCapitoli.get(3)?.find(d => d.id == 19999)
   // currentDomanda.value = quizStore.domandeByCapitoli.get(3)?.find(d => d.id == 19925)

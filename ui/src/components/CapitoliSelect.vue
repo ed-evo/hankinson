@@ -1,45 +1,23 @@
 <template>
-  <v-combobox v-model="quizStore.capitoliSelezionati" :items="capitoli" item-value="id" chips closable-chips multiple
-    clearable>
-    <template v-slot:chip="{ props, item }">
-      <v-chip v-bind="props" :text="item.nome" label>
-        <template v-slot:prepend>
-          <div class="me-1">{{ item.id }}</div>
-        </template>
-        <template v-slot:close>
-          <v-icon icon="$close" size="14"></v-icon>
-        </template>
-      </v-chip>
-    </template>
-    <template v-slot:item="{ props, item }">
-      <v-list-item v-bind="props" :title="undefined">
-        <v-list-item-title>{{ item.id }}: {{ item.nome }}</v-list-item-title>
-      </v-list-item>
-    </template>
-  </v-combobox>
+  <v-list v-model:selected="quizStore.capitoliSelezionati" select-strategy="leaf" density="compact">
+    <v-list-item v-for="[id, capitolo] in quizStore.capitoli" :key="id" :title="`${id}: ${capitolo.nome}`"
+      :value="id">
+      <template v-slot:prepend="{ isSelected, select }">
+        <v-list-item-action start>
+          <v-switch :model-value="isSelected" @update:model-value="(value) => select(!!value)" color="primary"
+            inset="material" hide-details></v-switch>
+        </v-list-item-action>
+      </template>
+    </v-list-item>
+  </v-list>
 </template>
 
 <script lang="ts" setup>
 import { useQuizStore } from '@/stores/quiz';
-import { computed, onMounted } from 'vue';
+import { computed } from 'vue';
 
 const quizStore = useQuizStore()
 
 const capitoli = computed(() => Array.from(quizStore.capitoli.values()))
 
-onMounted(() => {
-  if (quizStore.capitoliSelezionati.length < 1) {
-    let count = 0;
-    for (const capitolo of quizStore.capitoli.values()) {
-      if (capitoli) {
-        quizStore.capitoliSelezionati.push(capitolo);
-      }
-      count += 1;
-      if (count >= 3) {
-        break;
-      }
-    }
-
-  }
-})
 </script>

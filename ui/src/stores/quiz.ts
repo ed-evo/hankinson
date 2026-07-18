@@ -33,7 +33,7 @@ async function fetchCapitoli(
 
 export const useQuizStore = defineStore('quiz', () => {
 
-    const capitoliSelezionati: Ref<Capitolo[]> = useLocalStorage('quiz.capitoliSelezionati', [] as Capitolo[])
+    const capitoliSelezionati: Ref<number[]> = useLocalStorage('quiz.capitoliSelezionati', [])
     const downloadProgress = ref(-1)
     const capitoli: Map<number, Capitolo> = new Map()
     const domandeByCapitoli: MultiMap<number, Domanda> = new MultiMap()
@@ -49,12 +49,7 @@ export const useQuizStore = defineStore('quiz', () => {
     ).then(() => fetchCapitoli(downloadProgress, capitoli, domandeByCapitoli))
     .then(() => {
         if (capitoliSelezionati.value.length === 0) {
-            const c0 = capitoli.get(0);
-            const c1 = capitoli.get(1);
-            const c2 = capitoli.get(2);
-            if (c0) capitoliSelezionati.value.push(c0);
-            if (c1) capitoliSelezionati.value.push(c1);
-            if (c2) capitoliSelezionati.value.push(c2);
+            capitoliSelezionati.value.push(1, 2, 3)
         }
         downloadProgress.value = 100
     })
