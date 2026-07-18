@@ -35,16 +35,21 @@ async function fetchCapitoli(
 
 export const useQuizStore = defineStore('quiz', () => {
     const downloadProgress = ref(0)
-    const capitoliSelezionati = ref<number[]>([1, 2, 3])
     const capitoli = ref<Map<number, Capitolo>>(new Map())
+    const capitoliSelezionati = ref<Capitolo[]>([])
     // capitoliSelezionati.value = Array.from(capitoli.value.keys())
     const domandeByCapitoli = ref<MultiMap<number, Domanda>>(new MultiMap())
     fetchCapitoli(downloadProgress, capitoli, domandeByCapitoli)
 
     return {
-        downloadProgress: downloadProgress,
+        downloadProgress,
         capitoli,
         domandeByCapitoli,
         capitoliSelezionati
+    }
+}, {
+    persist: {
+        key: 'quiz-store',
+        pick: ['capitoliSelezionati'] 
     }
 })

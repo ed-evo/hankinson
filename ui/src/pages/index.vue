@@ -1,25 +1,14 @@
 <template>
 
-  <v-container v-if="currentDomanda" :style="{ 'height': `${height - 24}px`}">
-    <v-row
-     density="compact"
-      class="h-100" :class="{ 'flex-column': !isLandscape }"
-    >
-      <v-col
-        class="d-flex align-center justify-center"
-        :class="{'h-50': !isLandscape}"
-      >
-        <img
-          v-if="currentDomanda.immagine"
-          :src="`/quiz_assets/${currentDomanda.immagine}.png`"
-          :style="{ 'max-height': `${height - 56}px` }"
-        ></img>
+  <v-container v-if="currentDomanda" :style="{ 'height': `${height - 24}px` }">
+    <v-row density="compact" class="h-100" :class="{ 'flex-column': !isLandscape }">
+      <v-col class="d-flex align-center justify-center" :class="{ 'h-50': !isLandscape }">
+        <img v-if="currentDomanda.immagine" :src="`/quiz_assets/${currentDomanda.immagine}.png`"
+          :style="{ 'max-height': `${height - 56}px` }"></img>
       </v-col>
 
-      <v-col
-        :class="{'h-50': !isLandscape}"
-      >
-        <v-row class="h-50"  density="compact">
+      <v-col :class="{ 'h-50': !isLandscape }">
+        <v-row class="h-50" density="compact">
           <v-col class="d-flex align-center justify-center text-body-large">
             {{ currentDomanda.testo }}
           </v-col>
@@ -27,14 +16,10 @@
         <v-row class="h-45">
           <template v-if="answare === null">
             <v-col cols="6" class="text-end">
-                <v-btn icon
-                  @click="giveAnsware(Choice.VERO)"
-                >V</v-btn>
-              </v-col>
+              <v-btn icon @click="giveAnsware(Choice.VERO)">V</v-btn>
+            </v-col>
             <v-col cols="6">
-              <v-btn icon
-                  @click="giveAnsware(Choice.FALSO)"
-              >F</v-btn>
+              <v-btn icon @click="giveAnsware(Choice.FALSO)">F</v-btn>
             </v-col>
           </template>
           <template v-else>
@@ -43,10 +28,10 @@
             </v-col>
           </template>
           <v-col cols="12" class="align-self-end">
-              <v-btn class="w-100" @click="next">
-                Prossimo
-              </v-btn>
-            </v-col>
+            <v-btn class="w-100" @click="next">
+              Prossimo
+            </v-btn>
+          </v-col>
         </v-row>
       </v-col>
 
@@ -105,9 +90,9 @@ function chooseRandomly<T>(list?: T[]): T {
 
 function next() {
   answare.value = null
-  const numeroCapitolo = chooseRandomly(quizStore.capitoliSelezionati)
-  console.log("capitolo selezionato: ", numeroCapitolo)
-  const domande = quizStore.domandeByCapitoli.get(numeroCapitolo)
+  const capitolo = chooseRandomly(quizStore.capitoliSelezionati)
+  console.log("capitolo selezionato: ", capitolo)
+  const domande = quizStore.domandeByCapitoli.get(capitolo.id)
   currentDomanda.value = chooseRandomly(domande)
   // currentDomanda.value = quizStore.domandeByCapitoli.get(3)?.find(d => d.id == 19999)
   // currentDomanda.value = quizStore.domandeByCapitoli.get(3)?.find(d => d.id == 19925)

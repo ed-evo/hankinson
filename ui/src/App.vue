@@ -20,14 +20,10 @@
     </v-overlay>
     <v-layout class="d-flex flex-column" v-if="!isLoading">
       <v-system-bar color="grey-darken-3">
-        <v-icon icon="mdi-wifi-strength-4"></v-icon>
+        <v-icon :icon="settingsDrawerIcon" @click="toggleSettingleDrawer"></v-icon>
       </v-system-bar>
-      <v-navigation-drawer color="grey-darken-2" width="250">
-        <v-list lines="one">
-          <v-list-item v-for="[id, capitolo ] in quizStore.capitoli.entries()" :key="id"
-            :title="`${capitolo.id}: ${capitolo.nome}`"></v-list-item>
-        </v-list>
-        {{ quizStore.domandeByCapitoli }}
+      <v-navigation-drawer v-model="appStore.opennedSettings" color="grey-darken-2" :width="mobile ? width : width / 4">
+        <capitoli-select></capitoli-select>
       </v-navigation-drawer>
       <!-- 
 
@@ -48,9 +44,21 @@
 
 <script lang="ts" setup>
 import { useQuizStore } from '@/stores/quiz';
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
+import CapitoliSelect from './components/CapitoliSelect.vue';
+import { useDisplay } from 'vuetify';
+import { useAppStore } from './stores/app.ts';
 
+const { mobile, width } = useDisplay()
+const appStore = useAppStore()
 const quizStore = useQuizStore()
 
 const isLoading = computed(() => quizStore.downloadProgress < 100)
+const settingsDrawerIcon = computed(() =>
+  appStore.opennedSettings ? "mdi-close-circle" : "mdi-cog"
+)
+
+function toggleSettingleDrawer() {
+  appStore.opennedSettings = !appStore.opennedSettings
+}
 </script>
