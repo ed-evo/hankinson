@@ -7,6 +7,7 @@ import (
 
 	"github.com/ed-evo/hankinson/server/ent"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
+	api_middlewares "github.com/ed-evo/hankinson/server/internal/api/middlewares"
 	api_utils "github.com/ed-evo/hankinson/server/internal/api/utils"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
@@ -14,6 +15,7 @@ import (
 
 func newCapitoliRouter(db *ent.Client) chi.Router {
 	capitoliRouter := chi.NewRouter()
+	api_middlewares.AddToGlobal(capitoliRouter)
 	capitoliRouter.Get("/", func(w http.ResponseWriter, r *http.Request) {
 		capitoli, _ := db.Capitolo.Query().
 			All(r.Context())
