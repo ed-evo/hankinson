@@ -15,6 +15,7 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/argomento"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
+	"github.com/ed-evo/hankinson/server/ent/seed"
 )
 
 // ent aliases to avoid import conflicts in user's code.
@@ -78,6 +79,7 @@ func checkColumn(t, c string) error {
 			argomento.Table: argomento.ValidColumn,
 			capitolo.Table:  capitolo.ValidColumn,
 			domanda.Table:   domanda.ValidColumn,
+			seed.Table:      seed.ValidColumn,
 		})
 	})
 	return columnCheck(t, c)

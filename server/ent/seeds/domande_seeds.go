@@ -2,10 +2,14 @@ package seeds
 
 import (
 	"context"
-	"database/sql"
+	"crypto/sha256"
 	_ "embed"
+	"encoding/hex"
 	"fmt"
 	"log"
+
+	"github.com/ed-evo/hankinson/server/ent"
+	"github.com/ed-evo/hankinson/server/ent/seed"
 )
 
 //go:generate go run generators/domande_generate.go
@@ -22,12 +26,35 @@ type CapitoloVerifica struct {
 	TotaleCorretto   bool   `json:"totale_corretto"`
 }
 
-func SeedDomande(ctx context.Context, db *sql.DB) error {
+func SeedDomande(ctx context.Context, db *ent.Client) error {
 
-	_, err := db.ExecContext(ctx, domandeSqlSeeds)
+	hasher := sha256.New()
+	hasher.Write([]byte(domandeSqlSeeds))
+	currentHash := hex.EncodeToString(hasher.Sum(nil))
+	log.Printf("Seed sql with hash %v", currentHash)
+
+	_, err := db.Seed.Query().Where(seed.Hash(currentHash)).Only(ctx)
+
+	if err == nil {
+		log.Printf("Seed already included")
+		return nil
+	}
+
+	if err != nil && !ent.IsNotFound(err) {
+		return err
+	}
+
+	_, err = db.ExecContext(ctx, domandeSqlSeeds)
 
 	if err != nil {
 		log.Printf("Errore esecuzione seeds %v", err)
+		return err
+	}
+
+	err = db.Seed.Create().SetHash(currentHash).Exec(ctx)
+
+	if err != nil {
+		log.Printf("Error creating adding hash")
 		return err
 	}
 
@@ -36,7 +63,7 @@ func SeedDomande(ctx context.Context, db *sql.DB) error {
 	return nil
 }
 
-func VerificaCapitoli(ctx context.Context, db *sql.DB) error {
+func VerificaCapitoli(ctx context.Context, db *ent.Client) error {
 	query := `
 		SELECT 
 			c.id,

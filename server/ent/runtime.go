@@ -3,9 +3,12 @@
 package ent
 
 import (
+	"time"
+
 	"github.com/ed-evo/hankinson/server/ent/argomento"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/schema"
+	"github.com/ed-evo/hankinson/server/ent/seed"
 )
 
 // The init function reads all schema descriptors with runtime code
@@ -24,4 +27,14 @@ func init() {
 	capitoloDescNome := capitoloFields[1].Descriptor()
 	// capitolo.NomeValidator is a validator for the "nome" field. It is called by the builders before save.
 	capitolo.NomeValidator = capitoloDescNome.Validators[0].(func(string) error)
+	seedFields := schema.Seed{}.Fields()
+	_ = seedFields
+	// seedDescHash is the schema descriptor for hash field.
+	seedDescHash := seedFields[0].Descriptor()
+	// seed.HashValidator is a validator for the "hash" field. It is called by the builders before save.
+	seed.HashValidator = seedDescHash.Validators[0].(func(string) error)
+	// seedDescCreatedAt is the schema descriptor for created_at field.
+	seedDescCreatedAt := seedFields[1].Descriptor()
+	// seed.DefaultCreatedAt holds the default value on creation for the created_at field.
+	seed.DefaultCreatedAt = seedDescCreatedAt.Default.(func() time.Time)
 }

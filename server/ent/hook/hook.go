@@ -45,6 +45,18 @@ func (f DomandaFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, err
 	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.DomandaMutation", m)
 }
 
+// The SeedFunc type is an adapter to allow the use of ordinary
+// function as Seed mutator.
+type SeedFunc func(context.Context, *ent.SeedMutation) (ent.Value, error)
+
+// Mutate calls f(ctx, m).
+func (f SeedFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, error) {
+	if mv, ok := m.(*ent.SeedMutation); ok {
+		return f(ctx, mv)
+	}
+	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.SeedMutation", m)
+}
+
 // Condition is a hook condition function.
 type Condition func(context.Context, ent.Mutation) bool
 

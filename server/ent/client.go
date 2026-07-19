@@ -18,6 +18,9 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/argomento"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
+	"github.com/ed-evo/hankinson/server/ent/seed"
+
+	stdsql "database/sql"
 )
 
 // Client is the client that holds all ent builders.
@@ -31,6 +34,8 @@ type Client struct {
 	Capitolo *CapitoloClient
 	// Domanda is the client for interacting with the Domanda builders.
 	Domanda *DomandaClient
+	// Seed is the client for interacting with the Seed builders.
+	Seed *SeedClient
 }
 
 // NewClient creates a new client configured with the given options.
@@ -45,6 +50,7 @@ func (c *Client) init() {
 	c.Argomento = NewArgomentoClient(c.config)
 	c.Capitolo = NewCapitoloClient(c.config)
 	c.Domanda = NewDomandaClient(c.config)
+	c.Seed = NewSeedClient(c.config)
 }
 
 type (
@@ -140,6 +146,7 @@ func (c *Client) Tx(ctx context.Context) (*Tx, error) {
 		Argomento: NewArgomentoClient(cfg),
 		Capitolo:  NewCapitoloClient(cfg),
 		Domanda:   NewDomandaClient(cfg),
+		Seed:      NewSeedClient(cfg),
 	}, nil
 }
 
@@ -162,6 +169,7 @@ func (c *Client) BeginTx(ctx context.Context, opts *sql.TxOptions) (*Tx, error) 
 		Argomento: NewArgomentoClient(cfg),
 		Capitolo:  NewCapitoloClient(cfg),
 		Domanda:   NewDomandaClient(cfg),
+		Seed:      NewSeedClient(cfg),
 	}, nil
 }
 
@@ -193,6 +201,7 @@ func (c *Client) Use(hooks ...Hook) {
 	c.Argomento.Use(hooks...)
 	c.Capitolo.Use(hooks...)
 	c.Domanda.Use(hooks...)
+	c.Seed.Use(hooks...)
 }
 
 // Intercept adds the query interceptors to all the entity clients.
@@ -201,6 +210,7 @@ func (c *Client) Intercept(interceptors ...Interceptor) {
 	c.Argomento.Intercept(interceptors...)
 	c.Capitolo.Intercept(interceptors...)
 	c.Domanda.Intercept(interceptors...)
+	c.Seed.Intercept(interceptors...)
 }
 
 // Mutate implements the ent.Mutator interface.
@@ -212,6 +222,8 @@ func (c *Client) Mutate(ctx context.Context, m Mutation) (Value, error) {
 		return c.Capitolo.mutate(ctx, m)
 	case *DomandaMutation:
 		return c.Domanda.mutate(ctx, m)
+	case *SeedMutation:
+		return c.Seed.mutate(ctx, m)
 	default:
 		return nil, fmt.Errorf("ent: unknown mutation type %T", m)
 	}
@@ -680,12 +692,169 @@ func (c *DomandaClient) mutate(ctx context.Context, m *DomandaMutation) (Value, 
 	}
 }
 
+// SeedClient is a client for the Seed schema.
+type SeedClient struct {
+	config
+}
+
+// NewSeedClient returns a client for the Seed from the given config.
+func NewSeedClient(c config) *SeedClient {
+	return &SeedClient{config: c}
+}
+
+// Use adds a list of mutation hooks to the hooks stack.
+// A call to `Use(f, g, h)` equals to `seed.Hooks(f(g(h())))`.
+func (c *SeedClient) Use(hooks ...Hook) {
+	c.hooks.Seed = append(c.hooks.Seed, hooks...)
+}
+
+// Intercept adds a list of query interceptors to the interceptors stack.
+// A call to `Intercept(f, g, h)` equals to `seed.Intercept(f(g(h())))`.
+func (c *SeedClient) Intercept(interceptors ...Interceptor) {
+	c.inters.Seed = append(c.inters.Seed, interceptors...)
+}
+
+// Create returns a builder for creating a Seed entity.
+func (c *SeedClient) Create() *SeedCreate {
+	mutation := newSeedMutation(c.config, OpCreate)
+	return &SeedCreate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// CreateBulk returns a builder for creating a bulk of Seed entities.
+func (c *SeedClient) CreateBulk(builders ...*SeedCreate) *SeedCreateBulk {
+	return &SeedCreateBulk{config: c.config, builders: builders}
+}
+
+// MapCreateBulk creates a bulk creation builder from the given slice. For each item in the slice, the function creates
+// a builder and applies setFunc on it.
+func (c *SeedClient) MapCreateBulk(slice any, setFunc func(*SeedCreate, int)) *SeedCreateBulk {
+	rv := reflect.ValueOf(slice)
+	if rv.Kind() != reflect.Slice {
+		return &SeedCreateBulk{err: fmt.Errorf("calling to SeedClient.MapCreateBulk with wrong type %T, need slice", slice)}
+	}
+	builders := make([]*SeedCreate, rv.Len())
+	for i := 0; i < rv.Len(); i++ {
+		builders[i] = c.Create()
+		setFunc(builders[i], i)
+	}
+	return &SeedCreateBulk{config: c.config, builders: builders}
+}
+
+// Update returns an update builder for Seed.
+func (c *SeedClient) Update() *SeedUpdate {
+	mutation := newSeedMutation(c.config, OpUpdate)
+	return &SeedUpdate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOne returns an update builder for the given entity.
+func (c *SeedClient) UpdateOne(_m *Seed) *SeedUpdateOne {
+	mutation := newSeedMutation(c.config, OpUpdateOne, withSeed(_m))
+	return &SeedUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOneID returns an update builder for the given id.
+func (c *SeedClient) UpdateOneID(id int) *SeedUpdateOne {
+	mutation := newSeedMutation(c.config, OpUpdateOne, withSeedID(id))
+	return &SeedUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// Delete returns a delete builder for Seed.
+func (c *SeedClient) Delete() *SeedDelete {
+	mutation := newSeedMutation(c.config, OpDelete)
+	return &SeedDelete{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// DeleteOne returns a builder for deleting the given entity.
+func (c *SeedClient) DeleteOne(_m *Seed) *SeedDeleteOne {
+	return c.DeleteOneID(_m.ID)
+}
+
+// DeleteOneID returns a builder for deleting the given entity by its id.
+func (c *SeedClient) DeleteOneID(id int) *SeedDeleteOne {
+	builder := c.Delete().Where(seed.ID(id))
+	builder.mutation.id = &id
+	builder.mutation.op = OpDeleteOne
+	return &SeedDeleteOne{builder}
+}
+
+// Query returns a query builder for Seed.
+func (c *SeedClient) Query() *SeedQuery {
+	return &SeedQuery{
+		config: c.config,
+		ctx:    &QueryContext{Type: TypeSeed},
+		inters: c.Interceptors(),
+	}
+}
+
+// Get returns a Seed entity by its id.
+func (c *SeedClient) Get(ctx context.Context, id int) (*Seed, error) {
+	return c.Query().Where(seed.ID(id)).Only(ctx)
+}
+
+// GetX is like Get, but panics if an error occurs.
+func (c *SeedClient) GetX(ctx context.Context, id int) *Seed {
+	obj, err := c.Get(ctx, id)
+	if err != nil {
+		panic(err)
+	}
+	return obj
+}
+
+// Hooks returns the client hooks.
+func (c *SeedClient) Hooks() []Hook {
+	return c.hooks.Seed
+}
+
+// Interceptors returns the client interceptors.
+func (c *SeedClient) Interceptors() []Interceptor {
+	return c.inters.Seed
+}
+
+func (c *SeedClient) mutate(ctx context.Context, m *SeedMutation) (Value, error) {
+	switch m.Op() {
+	case OpCreate:
+		return (&SeedCreate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdate:
+		return (&SeedUpdate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdateOne:
+		return (&SeedUpdateOne{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpDelete, OpDeleteOne:
+		return (&SeedDelete{config: c.config, hooks: c.Hooks(), mutation: m}).Exec(ctx)
+	default:
+		return nil, fmt.Errorf("ent: unknown Seed mutation op: %q", m.Op())
+	}
+}
+
 // hooks and interceptors per client, for fast access.
 type (
 	hooks struct {
-		Argomento, Capitolo, Domanda []ent.Hook
+		Argomento, Capitolo, Domanda, Seed []ent.Hook
 	}
 	inters struct {
-		Argomento, Capitolo, Domanda []ent.Interceptor
+		Argomento, Capitolo, Domanda, Seed []ent.Interceptor
 	}
 )
+
+// ExecContext allows calling the underlying ExecContext method of the driver if it is supported by it.
+// See, database/sql#DB.ExecContext for more information.
+func (c *config) ExecContext(ctx context.Context, query string, args ...any) (stdsql.Result, error) {
+	ex, ok := c.driver.(interface {
+		ExecContext(context.Context, string, ...any) (stdsql.Result, error)
+	})
+	if !ok {
+		return nil, fmt.Errorf("Driver.ExecContext is not supported")
+	}
+	return ex.ExecContext(ctx, query, args...)
+}
+
+// QueryContext allows calling the underlying QueryContext method of the driver if it is supported by it.
+// See, database/sql#DB.QueryContext for more information.
+func (c *config) QueryContext(ctx context.Context, query string, args ...any) (*stdsql.Rows, error) {
+	q, ok := c.driver.(interface {
+		QueryContext(context.Context, string, ...any) (*stdsql.Rows, error)
+	})
+	if !ok {
+		return nil, fmt.Errorf("Driver.QueryContext is not supported")
+	}
+	return q.QueryContext(ctx, query, args...)
+}

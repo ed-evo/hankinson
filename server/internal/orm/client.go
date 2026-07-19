@@ -39,13 +39,13 @@ func GetClient(ctx context.Context) *ent.Client {
 			log.Fatalf("failed creating schema resources: %v", err)
 		}
 
-		err = seeds.SeedDomande(ctx, db)
+		err = seeds.SeedDomande(ctx, client)
 
 		if err != nil {
 			log.Fatalf("Errore Seeding Domande: %v", err)
 		}
 
-		err = seeds.VerificaCapitoli(ctx, db)
+		err = seeds.VerificaCapitoli(ctx, client)
 
 		if err != nil {
 			log.Fatalf("Errore Capitoli: %v", err)

@@ -14,3 +14,6 @@ type Capitolo func(*sql.Selector)
 
 // Domanda is the predicate function for domanda builders.
 type Domanda func(*sql.Selector)
+
+// Seed is the predicate function for seed builders.
+type Seed func(*sql.Selector)

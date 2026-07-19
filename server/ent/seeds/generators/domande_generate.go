@@ -2,8 +2,10 @@ package main
 
 import (
 	"bytes"
+	"cmp"
 	"log"
 	"os"
+	"slices"
 	"strings"
 	"text/template"
 
@@ -18,6 +20,18 @@ func main() {
 	}
 
 	capitoli, domande, argomennti, err := seeds.GetSeeds()
+
+	slices.SortFunc(capitoli, func(a, b seeds.Capitolo) int {
+		return cmp.Compare(a.ID, b.ID)
+	})
+
+	slices.SortFunc(domande, func(a, b seeds.Domanda) int {
+		return cmp.Compare(a.Numero, b.Numero)
+	})
+
+	slices.SortFunc(argomennti, func(a, b seeds.Argomento) int {
+		return cmp.Compare(a.ID, b.ID)
+	})
 
 	if err != nil {
 		log.Fatalf("Errore lettura dati: %v", err)

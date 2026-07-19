@@ -87,6 +87,18 @@ var (
 			},
 		},
 	}
+	// SeedsColumns holds the columns for the "seeds" table.
+	SeedsColumns = []*schema.Column{
+		{Name: "id", Type: field.TypeInt, Increment: true},
+		{Name: "hash", Type: field.TypeString, Unique: true},
+		{Name: "created_at", Type: field.TypeTime},
+	}
+	// SeedsTable holds the schema information for the "seeds" table.
+	SeedsTable = &schema.Table{
+		Name:       "seeds",
+		Columns:    SeedsColumns,
+		PrimaryKey: []*schema.Column{SeedsColumns[0]},
+	}
 	// ArgomentiDomandeColumns holds the columns for the "argomenti_domande" table.
 	ArgomentiDomandeColumns = []*schema.Column{
 		{Name: "argomento_id", Type: field.TypeInt},
@@ -117,6 +129,7 @@ var (
 		ArgomentiTable,
 		CapitoliTable,
 		DomandeTable,
+		SeedsTable,
 		ArgomentiDomandeTable,
 	}
 )
