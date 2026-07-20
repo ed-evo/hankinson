@@ -6,9 +6,13 @@ import (
 	"time"
 
 	"github.com/ed-evo/hankinson/server/ent/argomento"
+	"github.com/ed-evo/hankinson/server/ent/attivitaquesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
+	"github.com/ed-evo/hankinson/server/ent/esame"
+	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/schema"
 	"github.com/ed-evo/hankinson/server/ent/seed"
+	"github.com/ed-evo/hankinson/server/ent/utente"
 )
 
 // The init function reads all schema descriptors with runtime code
@@ -21,12 +25,46 @@ func init() {
 	argomentoDescNome := argomentoFields[1].Descriptor()
 	// argomento.NomeValidator is a validator for the "nome" field. It is called by the builders before save.
 	argomento.NomeValidator = argomentoDescNome.Validators[0].(func(string) error)
+	attivitaquesitoesameFields := schema.AttivitaQuesitoEsame{}.Fields()
+	_ = attivitaquesitoesameFields
+	// attivitaquesitoesameDescTimestamp is the schema descriptor for timestamp field.
+	attivitaquesitoesameDescTimestamp := attivitaquesitoesameFields[4].Descriptor()
+	// attivitaquesitoesame.DefaultTimestamp holds the default value on creation for the timestamp field.
+	attivitaquesitoesame.DefaultTimestamp = attivitaquesitoesameDescTimestamp.Default.(func() time.Time)
 	capitoloFields := schema.Capitolo{}.Fields()
 	_ = capitoloFields
 	// capitoloDescNome is the schema descriptor for nome field.
 	capitoloDescNome := capitoloFields[1].Descriptor()
 	// capitolo.NomeValidator is a validator for the "nome" field. It is called by the builders before save.
 	capitolo.NomeValidator = capitoloDescNome.Validators[0].(func(string) error)
+	esameFields := schema.Esame{}.Fields()
+	_ = esameFields
+	// esameDescMaxErrori is the schema descriptor for max_errori field.
+	esameDescMaxErrori := esameFields[2].Descriptor()
+	// esame.DefaultMaxErrori holds the default value on creation for the max_errori field.
+	esame.DefaultMaxErrori = esameDescMaxErrori.Default.(int)
+	// esameDescMinutiDisponibili is the schema descriptor for minuti_disponibili field.
+	esameDescMinutiDisponibili := esameFields[3].Descriptor()
+	// esame.DefaultMinutiDisponibili holds the default value on creation for the minuti_disponibili field.
+	esame.DefaultMinutiDisponibili = esameDescMinutiDisponibili.Default.(int)
+	// esameDescCreatedAt is the schema descriptor for created_at field.
+	esameDescCreatedAt := esameFields[4].Descriptor()
+	// esame.DefaultCreatedAt holds the default value on creation for the created_at field.
+	esame.DefaultCreatedAt = esameDescCreatedAt.Default.(func() time.Time)
+	// esameDescUpdatedAt is the schema descriptor for updated_at field.
+	esameDescUpdatedAt := esameFields[5].Descriptor()
+	// esame.DefaultUpdatedAt holds the default value on creation for the updated_at field.
+	esame.DefaultUpdatedAt = esameDescUpdatedAt.Default.(func() time.Time)
+	quesitoesameFields := schema.QuesitoEsame{}.Fields()
+	_ = quesitoesameFields
+	// quesitoesameDescCreatedAt is the schema descriptor for created_at field.
+	quesitoesameDescCreatedAt := quesitoesameFields[1].Descriptor()
+	// quesitoesame.DefaultCreatedAt holds the default value on creation for the created_at field.
+	quesitoesame.DefaultCreatedAt = quesitoesameDescCreatedAt.Default.(func() time.Time)
+	// quesitoesameDescUpdatedAt is the schema descriptor for updated_at field.
+	quesitoesameDescUpdatedAt := quesitoesameFields[2].Descriptor()
+	// quesitoesame.DefaultUpdatedAt holds the default value on creation for the updated_at field.
+	quesitoesame.DefaultUpdatedAt = quesitoesameDescUpdatedAt.Default.(func() time.Time)
 	seedFields := schema.Seed{}.Fields()
 	_ = seedFields
 	// seedDescHash is the schema descriptor for hash field.
@@ -37,4 +75,14 @@ func init() {
 	seedDescCreatedAt := seedFields[1].Descriptor()
 	// seed.DefaultCreatedAt holds the default value on creation for the created_at field.
 	seed.DefaultCreatedAt = seedDescCreatedAt.Default.(func() time.Time)
+	utenteFields := schema.Utente{}.Fields()
+	_ = utenteFields
+	// utenteDescCreatedAt is the schema descriptor for created_at field.
+	utenteDescCreatedAt := utenteFields[1].Descriptor()
+	// utente.DefaultCreatedAt holds the default value on creation for the created_at field.
+	utente.DefaultCreatedAt = utenteDescCreatedAt.Default.(func() time.Time)
+	// utenteDescID is the schema descriptor for id field.
+	utenteDescID := utenteFields[0].Descriptor()
+	// utente.IDValidator is a validator for the "id" field. It is called by the builders before save.
+	utente.IDValidator = utenteDescID.Validators[0].(func(string) error)
 }

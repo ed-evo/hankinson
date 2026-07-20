@@ -1,3 +1,4 @@
+import CapitoliSelect from "@/components/CapitoliSelect.vue";
 import { useLocalStorage } from "@vueuse/core";
 import { ofetch } from "ofetch";
 import { type Ref } from "vue";
@@ -36,20 +37,24 @@ export const USER_REF: Ref<User | null> = useLocalStorage('hankinson.user-email'
 
 const baseURL = "/api/v1/quiz"
 
-function default_request() {
+function build_request_options(overrides: any = {}) {
     let headers: HeadersInit = {}
     if (USER_REF.value) {
         headers['X-Authenticated-User'] = USER_REF.value
     }
     return {
         baseURL,
-        headers
+        headers,
+        ...overrides
     }
 }
 
 export async function login(): Promise<User> {
     try {
-        const user = await ofetch<User>("/me", default_request())
+        const user = await ofetch<User>("/me", {
+            ...build_request_options(),
+            baseURL: '/api/v1'
+        })
         USER_REF.value = user
         return user
     } catch (err) {
@@ -59,14 +64,27 @@ export async function login(): Promise<User> {
 }
 
 export async function getCapitoli(): Promise<Capitolo[]> {
-    return ofetch<Capitolo[]>("/capitoli", default_request())
+    return ofetch<Capitolo[]>("/capitoli", build_request_options())
     
 }
 
 export async function getDomandeByCapitolo(capitoloId: number): Promise<Domanda[]> {
-    const capitolo = await ofetch<Capitolo>(`/capitoli/${capitoloId}`, default_request())
+    const capitolo = await ofetch<Capitolo>(`/capitoli/${capitoloId}`, build_request_options())
     if (!capitolo?.edges?.domande) {
         throw new Error(`Domande non trovate per capitolo ${capitoloId}`)
     }
     return capitolo.edges.domande
+}
+
+export async function nextQuesitoAperto(capitoliIds: number[]): Promise<Domanda> {
+    const quesito = await ofetch<Domanda>("/esami/aperto/next", build_request_options({
+        method: 'POST',
+        query: {
+            capitoli: capitoliIds
+        },
+        body: {
+            capitoli: capitoliIds
+        }
+    }))
+    return quesito
 }

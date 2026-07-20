@@ -27,6 +27,30 @@ var (
 			},
 		},
 	}
+	// RisposteLogsColumns holds the columns for the "risposte_logs" table.
+	RisposteLogsColumns = []*schema.Column{
+		{Name: "id", Type: field.TypeInt, Increment: true},
+		{Name: "tipo", Type: field.TypeEnum, Enums: []string{"salta", "risposta"}},
+		{Name: "risposta_data", Type: field.TypeBool, Nullable: true},
+		{Name: "inizio", Type: field.TypeTime},
+		{Name: "fine", Type: field.TypeTime},
+		{Name: "timestamp", Type: field.TypeTime},
+		{Name: "quesito_esame_logs", Type: field.TypeInt},
+	}
+	// RisposteLogsTable holds the schema information for the "risposte_logs" table.
+	RisposteLogsTable = &schema.Table{
+		Name:       "risposte_logs",
+		Columns:    RisposteLogsColumns,
+		PrimaryKey: []*schema.Column{RisposteLogsColumns[0]},
+		ForeignKeys: []*schema.ForeignKey{
+			{
+				Symbol:     "risposte_logs_quesiti_esame_logs",
+				Columns:    []*schema.Column{RisposteLogsColumns[6]},
+				RefColumns: []*schema.Column{QuesitiEsameColumns[0]},
+				OnDelete:   schema.NoAction,
+			},
+		},
+	}
 	// CapitoliColumns holds the columns for the "capitoli" table.
 	CapitoliColumns = []*schema.Column{
 		{Name: "id", Type: field.TypeInt},
@@ -87,6 +111,70 @@ var (
 			},
 		},
 	}
+	// EsamiColumns holds the columns for the "esami" table.
+	EsamiColumns = []*schema.Column{
+		{Name: "id", Type: field.TypeInt, Increment: true},
+		{Name: "tipo", Type: field.TypeEnum, Enums: []string{"ministeriale", "parziale", "aperto"}},
+		{Name: "numero_quesiti", Type: field.TypeInt},
+		{Name: "max_errori", Type: field.TypeInt, Default: 3},
+		{Name: "minuti_disponibili", Type: field.TypeInt, Default: 30},
+		{Name: "created_at", Type: field.TypeTime},
+		{Name: "updated_at", Type: field.TypeTime},
+		{Name: "esame_utente", Type: field.TypeString},
+	}
+	// EsamiTable holds the schema information for the "esami" table.
+	EsamiTable = &schema.Table{
+		Name:       "esami",
+		Columns:    EsamiColumns,
+		PrimaryKey: []*schema.Column{EsamiColumns[0]},
+		ForeignKeys: []*schema.ForeignKey{
+			{
+				Symbol:     "esami_utenti_utente",
+				Columns:    []*schema.Column{EsamiColumns[7]},
+				RefColumns: []*schema.Column{UtentiColumns[0]},
+				OnDelete:   schema.NoAction,
+			},
+		},
+		Indexes: []*schema.Index{
+			{
+				Name:    "esame_tipo_esame_utente",
+				Unique:  true,
+				Columns: []*schema.Column{EsamiColumns[1], EsamiColumns[7]},
+				Annotation: &entsql.IndexAnnotation{
+					Where: "tipo = 'aperto'",
+				},
+			},
+		},
+	}
+	// QuesitiEsameColumns holds the columns for the "quesiti_esame" table.
+	QuesitiEsameColumns = []*schema.Column{
+		{Name: "id", Type: field.TypeInt, Increment: true},
+		{Name: "risposta_finale", Type: field.TypeBool, Nullable: true},
+		{Name: "created_at", Type: field.TypeTime},
+		{Name: "updated_at", Type: field.TypeTime},
+		{Name: "esame_quesiti", Type: field.TypeInt},
+		{Name: "quesito_esame_domanda_originale", Type: field.TypeInt},
+	}
+	// QuesitiEsameTable holds the schema information for the "quesiti_esame" table.
+	QuesitiEsameTable = &schema.Table{
+		Name:       "quesiti_esame",
+		Columns:    QuesitiEsameColumns,
+		PrimaryKey: []*schema.Column{QuesitiEsameColumns[0]},
+		ForeignKeys: []*schema.ForeignKey{
+			{
+				Symbol:     "quesiti_esame_esami_quesiti",
+				Columns:    []*schema.Column{QuesitiEsameColumns[4]},
+				RefColumns: []*schema.Column{EsamiColumns[0]},
+				OnDelete:   schema.NoAction,
+			},
+			{
+				Symbol:     "quesiti_esame_domande_domanda_originale",
+				Columns:    []*schema.Column{QuesitiEsameColumns[5]},
+				RefColumns: []*schema.Column{DomandeColumns[0]},
+				OnDelete:   schema.NoAction,
+			},
+		},
+	}
 	// SeedsColumns holds the columns for the "seeds" table.
 	SeedsColumns = []*schema.Column{
 		{Name: "id", Type: field.TypeInt, Increment: true},
@@ -98,6 +186,17 @@ var (
 		Name:       "seeds",
 		Columns:    SeedsColumns,
 		PrimaryKey: []*schema.Column{SeedsColumns[0]},
+	}
+	// UtentiColumns holds the columns for the "utenti" table.
+	UtentiColumns = []*schema.Column{
+		{Name: "email", Type: field.TypeString, Unique: true},
+		{Name: "created_at", Type: field.TypeTime},
+	}
+	// UtentiTable holds the schema information for the "utenti" table.
+	UtentiTable = &schema.Table{
+		Name:       "utenti",
+		Columns:    UtentiColumns,
+		PrimaryKey: []*schema.Column{UtentiColumns[0]},
 	}
 	// ArgomentiDomandeColumns holds the columns for the "argomenti_domande" table.
 	ArgomentiDomandeColumns = []*schema.Column{
@@ -127,9 +226,13 @@ var (
 	// Tables holds all the tables in the schema.
 	Tables = []*schema.Table{
 		ArgomentiTable,
+		RisposteLogsTable,
 		CapitoliTable,
 		DomandeTable,
+		EsamiTable,
+		QuesitiEsameTable,
 		SeedsTable,
+		UtentiTable,
 		ArgomentiDomandeTable,
 	}
 )
@@ -138,12 +241,28 @@ func init() {
 	ArgomentiTable.Annotation = &entsql.Annotation{
 		Table: "argomenti",
 	}
+	RisposteLogsTable.ForeignKeys[0].RefTable = QuesitiEsameTable
+	RisposteLogsTable.Annotation = &entsql.Annotation{
+		Table: "risposte_logs",
+	}
 	CapitoliTable.Annotation = &entsql.Annotation{
 		Table: "capitoli",
 	}
 	DomandeTable.ForeignKeys[0].RefTable = CapitoliTable
 	DomandeTable.Annotation = &entsql.Annotation{
 		Table: "domande",
+	}
+	EsamiTable.ForeignKeys[0].RefTable = UtentiTable
+	EsamiTable.Annotation = &entsql.Annotation{
+		Table: "esami",
+	}
+	QuesitiEsameTable.ForeignKeys[0].RefTable = EsamiTable
+	QuesitiEsameTable.ForeignKeys[1].RefTable = DomandeTable
+	QuesitiEsameTable.Annotation = &entsql.Annotation{
+		Table: "quesiti_esame",
+	}
+	UtentiTable.Annotation = &entsql.Annotation{
+		Table: "utenti",
 	}
 	ArgomentiDomandeTable.ForeignKeys[0].RefTable = ArgomentiTable
 	ArgomentiDomandeTable.ForeignKeys[1].RefTable = DomandeTable

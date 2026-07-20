@@ -16,12 +16,20 @@ type Tx struct {
 	config
 	// Argomento is the client for interacting with the Argomento builders.
 	Argomento *ArgomentoClient
+	// AttivitaQuesitoEsame is the client for interacting with the AttivitaQuesitoEsame builders.
+	AttivitaQuesitoEsame *AttivitaQuesitoEsameClient
 	// Capitolo is the client for interacting with the Capitolo builders.
 	Capitolo *CapitoloClient
 	// Domanda is the client for interacting with the Domanda builders.
 	Domanda *DomandaClient
+	// Esame is the client for interacting with the Esame builders.
+	Esame *EsameClient
+	// QuesitoEsame is the client for interacting with the QuesitoEsame builders.
+	QuesitoEsame *QuesitoEsameClient
 	// Seed is the client for interacting with the Seed builders.
 	Seed *SeedClient
+	// Utente is the client for interacting with the Utente builders.
+	Utente *UtenteClient
 
 	// lazily loaded.
 	client     *Client
@@ -154,9 +162,13 @@ func (tx *Tx) Client() *Client {
 
 func (tx *Tx) init() {
 	tx.Argomento = NewArgomentoClient(tx.config)
+	tx.AttivitaQuesitoEsame = NewAttivitaQuesitoEsameClient(tx.config)
 	tx.Capitolo = NewCapitoloClient(tx.config)
 	tx.Domanda = NewDomandaClient(tx.config)
+	tx.Esame = NewEsameClient(tx.config)
+	tx.QuesitoEsame = NewQuesitoEsameClient(tx.config)
 	tx.Seed = NewSeedClient(tx.config)
+	tx.Utente = NewUtenteClient(tx.config)
 }
 
 // txDriver wraps the given dialect.Tx with a nop dialect.Driver implementation.

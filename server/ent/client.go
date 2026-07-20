@@ -16,9 +16,13 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"github.com/ed-evo/hankinson/server/ent/argomento"
+	"github.com/ed-evo/hankinson/server/ent/attivitaquesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
+	"github.com/ed-evo/hankinson/server/ent/esame"
+	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/seed"
+	"github.com/ed-evo/hankinson/server/ent/utente"
 
 	stdsql "database/sql"
 )
@@ -30,12 +34,20 @@ type Client struct {
 	Schema *migrate.Schema
 	// Argomento is the client for interacting with the Argomento builders.
 	Argomento *ArgomentoClient
+	// AttivitaQuesitoEsame is the client for interacting with the AttivitaQuesitoEsame builders.
+	AttivitaQuesitoEsame *AttivitaQuesitoEsameClient
 	// Capitolo is the client for interacting with the Capitolo builders.
 	Capitolo *CapitoloClient
 	// Domanda is the client for interacting with the Domanda builders.
 	Domanda *DomandaClient
+	// Esame is the client for interacting with the Esame builders.
+	Esame *EsameClient
+	// QuesitoEsame is the client for interacting with the QuesitoEsame builders.
+	QuesitoEsame *QuesitoEsameClient
 	// Seed is the client for interacting with the Seed builders.
 	Seed *SeedClient
+	// Utente is the client for interacting with the Utente builders.
+	Utente *UtenteClient
 }
 
 // NewClient creates a new client configured with the given options.
@@ -48,9 +60,13 @@ func NewClient(opts ...Option) *Client {
 func (c *Client) init() {
 	c.Schema = migrate.NewSchema(c.driver)
 	c.Argomento = NewArgomentoClient(c.config)
+	c.AttivitaQuesitoEsame = NewAttivitaQuesitoEsameClient(c.config)
 	c.Capitolo = NewCapitoloClient(c.config)
 	c.Domanda = NewDomandaClient(c.config)
+	c.Esame = NewEsameClient(c.config)
+	c.QuesitoEsame = NewQuesitoEsameClient(c.config)
 	c.Seed = NewSeedClient(c.config)
+	c.Utente = NewUtenteClient(c.config)
 }
 
 type (
@@ -141,12 +157,16 @@ func (c *Client) Tx(ctx context.Context) (*Tx, error) {
 	cfg := c.config
 	cfg.driver = tx
 	return &Tx{
-		ctx:       ctx,
-		config:    cfg,
-		Argomento: NewArgomentoClient(cfg),
-		Capitolo:  NewCapitoloClient(cfg),
-		Domanda:   NewDomandaClient(cfg),
-		Seed:      NewSeedClient(cfg),
+		ctx:                  ctx,
+		config:               cfg,
+		Argomento:            NewArgomentoClient(cfg),
+		AttivitaQuesitoEsame: NewAttivitaQuesitoEsameClient(cfg),
+		Capitolo:             NewCapitoloClient(cfg),
+		Domanda:              NewDomandaClient(cfg),
+		Esame:                NewEsameClient(cfg),
+		QuesitoEsame:         NewQuesitoEsameClient(cfg),
+		Seed:                 NewSeedClient(cfg),
+		Utente:               NewUtenteClient(cfg),
 	}, nil
 }
 
@@ -164,12 +184,16 @@ func (c *Client) BeginTx(ctx context.Context, opts *sql.TxOptions) (*Tx, error) 
 	cfg := c.config
 	cfg.driver = &txDriver{tx: tx, drv: c.driver}
 	return &Tx{
-		ctx:       ctx,
-		config:    cfg,
-		Argomento: NewArgomentoClient(cfg),
-		Capitolo:  NewCapitoloClient(cfg),
-		Domanda:   NewDomandaClient(cfg),
-		Seed:      NewSeedClient(cfg),
+		ctx:                  ctx,
+		config:               cfg,
+		Argomento:            NewArgomentoClient(cfg),
+		AttivitaQuesitoEsame: NewAttivitaQuesitoEsameClient(cfg),
+		Capitolo:             NewCapitoloClient(cfg),
+		Domanda:              NewDomandaClient(cfg),
+		Esame:                NewEsameClient(cfg),
+		QuesitoEsame:         NewQuesitoEsameClient(cfg),
+		Seed:                 NewSeedClient(cfg),
+		Utente:               NewUtenteClient(cfg),
 	}, nil
 }
 
@@ -198,19 +222,23 @@ func (c *Client) Close() error {
 // Use adds the mutation hooks to all the entity clients.
 // In order to add hooks to a specific client, call: `client.Node.Use(...)`.
 func (c *Client) Use(hooks ...Hook) {
-	c.Argomento.Use(hooks...)
-	c.Capitolo.Use(hooks...)
-	c.Domanda.Use(hooks...)
-	c.Seed.Use(hooks...)
+	for _, n := range []interface{ Use(...Hook) }{
+		c.Argomento, c.AttivitaQuesitoEsame, c.Capitolo, c.Domanda, c.Esame,
+		c.QuesitoEsame, c.Seed, c.Utente,
+	} {
+		n.Use(hooks...)
+	}
 }
 
 // Intercept adds the query interceptors to all the entity clients.
 // In order to add interceptors to a specific client, call: `client.Node.Intercept(...)`.
 func (c *Client) Intercept(interceptors ...Interceptor) {
-	c.Argomento.Intercept(interceptors...)
-	c.Capitolo.Intercept(interceptors...)
-	c.Domanda.Intercept(interceptors...)
-	c.Seed.Intercept(interceptors...)
+	for _, n := range []interface{ Intercept(...Interceptor) }{
+		c.Argomento, c.AttivitaQuesitoEsame, c.Capitolo, c.Domanda, c.Esame,
+		c.QuesitoEsame, c.Seed, c.Utente,
+	} {
+		n.Intercept(interceptors...)
+	}
 }
 
 // Mutate implements the ent.Mutator interface.
@@ -218,12 +246,20 @@ func (c *Client) Mutate(ctx context.Context, m Mutation) (Value, error) {
 	switch m := m.(type) {
 	case *ArgomentoMutation:
 		return c.Argomento.mutate(ctx, m)
+	case *AttivitaQuesitoEsameMutation:
+		return c.AttivitaQuesitoEsame.mutate(ctx, m)
 	case *CapitoloMutation:
 		return c.Capitolo.mutate(ctx, m)
 	case *DomandaMutation:
 		return c.Domanda.mutate(ctx, m)
+	case *EsameMutation:
+		return c.Esame.mutate(ctx, m)
+	case *QuesitoEsameMutation:
+		return c.QuesitoEsame.mutate(ctx, m)
 	case *SeedMutation:
 		return c.Seed.mutate(ctx, m)
+	case *UtenteMutation:
+		return c.Utente.mutate(ctx, m)
 	default:
 		return nil, fmt.Errorf("ent: unknown mutation type %T", m)
 	}
@@ -375,6 +411,155 @@ func (c *ArgomentoClient) mutate(ctx context.Context, m *ArgomentoMutation) (Val
 		return (&ArgomentoDelete{config: c.config, hooks: c.Hooks(), mutation: m}).Exec(ctx)
 	default:
 		return nil, fmt.Errorf("ent: unknown Argomento mutation op: %q", m.Op())
+	}
+}
+
+// AttivitaQuesitoEsameClient is a client for the AttivitaQuesitoEsame schema.
+type AttivitaQuesitoEsameClient struct {
+	config
+}
+
+// NewAttivitaQuesitoEsameClient returns a client for the AttivitaQuesitoEsame from the given config.
+func NewAttivitaQuesitoEsameClient(c config) *AttivitaQuesitoEsameClient {
+	return &AttivitaQuesitoEsameClient{config: c}
+}
+
+// Use adds a list of mutation hooks to the hooks stack.
+// A call to `Use(f, g, h)` equals to `attivitaquesitoesame.Hooks(f(g(h())))`.
+func (c *AttivitaQuesitoEsameClient) Use(hooks ...Hook) {
+	c.hooks.AttivitaQuesitoEsame = append(c.hooks.AttivitaQuesitoEsame, hooks...)
+}
+
+// Intercept adds a list of query interceptors to the interceptors stack.
+// A call to `Intercept(f, g, h)` equals to `attivitaquesitoesame.Intercept(f(g(h())))`.
+func (c *AttivitaQuesitoEsameClient) Intercept(interceptors ...Interceptor) {
+	c.inters.AttivitaQuesitoEsame = append(c.inters.AttivitaQuesitoEsame, interceptors...)
+}
+
+// Create returns a builder for creating a AttivitaQuesitoEsame entity.
+func (c *AttivitaQuesitoEsameClient) Create() *AttivitaQuesitoEsameCreate {
+	mutation := newAttivitaQuesitoEsameMutation(c.config, OpCreate)
+	return &AttivitaQuesitoEsameCreate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// CreateBulk returns a builder for creating a bulk of AttivitaQuesitoEsame entities.
+func (c *AttivitaQuesitoEsameClient) CreateBulk(builders ...*AttivitaQuesitoEsameCreate) *AttivitaQuesitoEsameCreateBulk {
+	return &AttivitaQuesitoEsameCreateBulk{config: c.config, builders: builders}
+}
+
+// MapCreateBulk creates a bulk creation builder from the given slice. For each item in the slice, the function creates
+// a builder and applies setFunc on it.
+func (c *AttivitaQuesitoEsameClient) MapCreateBulk(slice any, setFunc func(*AttivitaQuesitoEsameCreate, int)) *AttivitaQuesitoEsameCreateBulk {
+	rv := reflect.ValueOf(slice)
+	if rv.Kind() != reflect.Slice {
+		return &AttivitaQuesitoEsameCreateBulk{err: fmt.Errorf("calling to AttivitaQuesitoEsameClient.MapCreateBulk with wrong type %T, need slice", slice)}
+	}
+	builders := make([]*AttivitaQuesitoEsameCreate, rv.Len())
+	for i := 0; i < rv.Len(); i++ {
+		builders[i] = c.Create()
+		setFunc(builders[i], i)
+	}
+	return &AttivitaQuesitoEsameCreateBulk{config: c.config, builders: builders}
+}
+
+// Update returns an update builder for AttivitaQuesitoEsame.
+func (c *AttivitaQuesitoEsameClient) Update() *AttivitaQuesitoEsameUpdate {
+	mutation := newAttivitaQuesitoEsameMutation(c.config, OpUpdate)
+	return &AttivitaQuesitoEsameUpdate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOne returns an update builder for the given entity.
+func (c *AttivitaQuesitoEsameClient) UpdateOne(_m *AttivitaQuesitoEsame) *AttivitaQuesitoEsameUpdateOne {
+	mutation := newAttivitaQuesitoEsameMutation(c.config, OpUpdateOne, withAttivitaQuesitoEsame(_m))
+	return &AttivitaQuesitoEsameUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOneID returns an update builder for the given id.
+func (c *AttivitaQuesitoEsameClient) UpdateOneID(id int) *AttivitaQuesitoEsameUpdateOne {
+	mutation := newAttivitaQuesitoEsameMutation(c.config, OpUpdateOne, withAttivitaQuesitoEsameID(id))
+	return &AttivitaQuesitoEsameUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// Delete returns a delete builder for AttivitaQuesitoEsame.
+func (c *AttivitaQuesitoEsameClient) Delete() *AttivitaQuesitoEsameDelete {
+	mutation := newAttivitaQuesitoEsameMutation(c.config, OpDelete)
+	return &AttivitaQuesitoEsameDelete{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// DeleteOne returns a builder for deleting the given entity.
+func (c *AttivitaQuesitoEsameClient) DeleteOne(_m *AttivitaQuesitoEsame) *AttivitaQuesitoEsameDeleteOne {
+	return c.DeleteOneID(_m.ID)
+}
+
+// DeleteOneID returns a builder for deleting the given entity by its id.
+func (c *AttivitaQuesitoEsameClient) DeleteOneID(id int) *AttivitaQuesitoEsameDeleteOne {
+	builder := c.Delete().Where(attivitaquesitoesame.ID(id))
+	builder.mutation.id = &id
+	builder.mutation.op = OpDeleteOne
+	return &AttivitaQuesitoEsameDeleteOne{builder}
+}
+
+// Query returns a query builder for AttivitaQuesitoEsame.
+func (c *AttivitaQuesitoEsameClient) Query() *AttivitaQuesitoEsameQuery {
+	return &AttivitaQuesitoEsameQuery{
+		config: c.config,
+		ctx:    &QueryContext{Type: TypeAttivitaQuesitoEsame},
+		inters: c.Interceptors(),
+	}
+}
+
+// Get returns a AttivitaQuesitoEsame entity by its id.
+func (c *AttivitaQuesitoEsameClient) Get(ctx context.Context, id int) (*AttivitaQuesitoEsame, error) {
+	return c.Query().Where(attivitaquesitoesame.ID(id)).Only(ctx)
+}
+
+// GetX is like Get, but panics if an error occurs.
+func (c *AttivitaQuesitoEsameClient) GetX(ctx context.Context, id int) *AttivitaQuesitoEsame {
+	obj, err := c.Get(ctx, id)
+	if err != nil {
+		panic(err)
+	}
+	return obj
+}
+
+// QueryQuesitoEsame queries the quesito_esame edge of a AttivitaQuesitoEsame.
+func (c *AttivitaQuesitoEsameClient) QueryQuesitoEsame(_m *AttivitaQuesitoEsame) *QuesitoEsameQuery {
+	query := (&QuesitoEsameClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(attivitaquesitoesame.Table, attivitaquesitoesame.FieldID, id),
+			sqlgraph.To(quesitoesame.Table, quesitoesame.FieldID),
+			sqlgraph.Edge(sqlgraph.M2O, true, attivitaquesitoesame.QuesitoEsameTable, attivitaquesitoesame.QuesitoEsameColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
+// Hooks returns the client hooks.
+func (c *AttivitaQuesitoEsameClient) Hooks() []Hook {
+	return c.hooks.AttivitaQuesitoEsame
+}
+
+// Interceptors returns the client interceptors.
+func (c *AttivitaQuesitoEsameClient) Interceptors() []Interceptor {
+	return c.inters.AttivitaQuesitoEsame
+}
+
+func (c *AttivitaQuesitoEsameClient) mutate(ctx context.Context, m *AttivitaQuesitoEsameMutation) (Value, error) {
+	switch m.Op() {
+	case OpCreate:
+		return (&AttivitaQuesitoEsameCreate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdate:
+		return (&AttivitaQuesitoEsameUpdate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdateOne:
+		return (&AttivitaQuesitoEsameUpdateOne{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpDelete, OpDeleteOne:
+		return (&AttivitaQuesitoEsameDelete{config: c.config, hooks: c.Hooks(), mutation: m}).Exec(ctx)
+	default:
+		return nil, fmt.Errorf("ent: unknown AttivitaQuesitoEsame mutation op: %q", m.Op())
 	}
 }
 
@@ -692,6 +877,352 @@ func (c *DomandaClient) mutate(ctx context.Context, m *DomandaMutation) (Value, 
 	}
 }
 
+// EsameClient is a client for the Esame schema.
+type EsameClient struct {
+	config
+}
+
+// NewEsameClient returns a client for the Esame from the given config.
+func NewEsameClient(c config) *EsameClient {
+	return &EsameClient{config: c}
+}
+
+// Use adds a list of mutation hooks to the hooks stack.
+// A call to `Use(f, g, h)` equals to `esame.Hooks(f(g(h())))`.
+func (c *EsameClient) Use(hooks ...Hook) {
+	c.hooks.Esame = append(c.hooks.Esame, hooks...)
+}
+
+// Intercept adds a list of query interceptors to the interceptors stack.
+// A call to `Intercept(f, g, h)` equals to `esame.Intercept(f(g(h())))`.
+func (c *EsameClient) Intercept(interceptors ...Interceptor) {
+	c.inters.Esame = append(c.inters.Esame, interceptors...)
+}
+
+// Create returns a builder for creating a Esame entity.
+func (c *EsameClient) Create() *EsameCreate {
+	mutation := newEsameMutation(c.config, OpCreate)
+	return &EsameCreate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// CreateBulk returns a builder for creating a bulk of Esame entities.
+func (c *EsameClient) CreateBulk(builders ...*EsameCreate) *EsameCreateBulk {
+	return &EsameCreateBulk{config: c.config, builders: builders}
+}
+
+// MapCreateBulk creates a bulk creation builder from the given slice. For each item in the slice, the function creates
+// a builder and applies setFunc on it.
+func (c *EsameClient) MapCreateBulk(slice any, setFunc func(*EsameCreate, int)) *EsameCreateBulk {
+	rv := reflect.ValueOf(slice)
+	if rv.Kind() != reflect.Slice {
+		return &EsameCreateBulk{err: fmt.Errorf("calling to EsameClient.MapCreateBulk with wrong type %T, need slice", slice)}
+	}
+	builders := make([]*EsameCreate, rv.Len())
+	for i := 0; i < rv.Len(); i++ {
+		builders[i] = c.Create()
+		setFunc(builders[i], i)
+	}
+	return &EsameCreateBulk{config: c.config, builders: builders}
+}
+
+// Update returns an update builder for Esame.
+func (c *EsameClient) Update() *EsameUpdate {
+	mutation := newEsameMutation(c.config, OpUpdate)
+	return &EsameUpdate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOne returns an update builder for the given entity.
+func (c *EsameClient) UpdateOne(_m *Esame) *EsameUpdateOne {
+	mutation := newEsameMutation(c.config, OpUpdateOne, withEsame(_m))
+	return &EsameUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOneID returns an update builder for the given id.
+func (c *EsameClient) UpdateOneID(id int) *EsameUpdateOne {
+	mutation := newEsameMutation(c.config, OpUpdateOne, withEsameID(id))
+	return &EsameUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// Delete returns a delete builder for Esame.
+func (c *EsameClient) Delete() *EsameDelete {
+	mutation := newEsameMutation(c.config, OpDelete)
+	return &EsameDelete{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// DeleteOne returns a builder for deleting the given entity.
+func (c *EsameClient) DeleteOne(_m *Esame) *EsameDeleteOne {
+	return c.DeleteOneID(_m.ID)
+}
+
+// DeleteOneID returns a builder for deleting the given entity by its id.
+func (c *EsameClient) DeleteOneID(id int) *EsameDeleteOne {
+	builder := c.Delete().Where(esame.ID(id))
+	builder.mutation.id = &id
+	builder.mutation.op = OpDeleteOne
+	return &EsameDeleteOne{builder}
+}
+
+// Query returns a query builder for Esame.
+func (c *EsameClient) Query() *EsameQuery {
+	return &EsameQuery{
+		config: c.config,
+		ctx:    &QueryContext{Type: TypeEsame},
+		inters: c.Interceptors(),
+	}
+}
+
+// Get returns a Esame entity by its id.
+func (c *EsameClient) Get(ctx context.Context, id int) (*Esame, error) {
+	return c.Query().Where(esame.ID(id)).Only(ctx)
+}
+
+// GetX is like Get, but panics if an error occurs.
+func (c *EsameClient) GetX(ctx context.Context, id int) *Esame {
+	obj, err := c.Get(ctx, id)
+	if err != nil {
+		panic(err)
+	}
+	return obj
+}
+
+// QueryUtente queries the utente edge of a Esame.
+func (c *EsameClient) QueryUtente(_m *Esame) *UtenteQuery {
+	query := (&UtenteClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(esame.Table, esame.FieldID, id),
+			sqlgraph.To(utente.Table, utente.FieldID),
+			sqlgraph.Edge(sqlgraph.M2O, false, esame.UtenteTable, esame.UtenteColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
+// QueryQuesiti queries the quesiti edge of a Esame.
+func (c *EsameClient) QueryQuesiti(_m *Esame) *QuesitoEsameQuery {
+	query := (&QuesitoEsameClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(esame.Table, esame.FieldID, id),
+			sqlgraph.To(quesitoesame.Table, quesitoesame.FieldID),
+			sqlgraph.Edge(sqlgraph.O2M, false, esame.QuesitiTable, esame.QuesitiColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
+// Hooks returns the client hooks.
+func (c *EsameClient) Hooks() []Hook {
+	return c.hooks.Esame
+}
+
+// Interceptors returns the client interceptors.
+func (c *EsameClient) Interceptors() []Interceptor {
+	return c.inters.Esame
+}
+
+func (c *EsameClient) mutate(ctx context.Context, m *EsameMutation) (Value, error) {
+	switch m.Op() {
+	case OpCreate:
+		return (&EsameCreate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdate:
+		return (&EsameUpdate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdateOne:
+		return (&EsameUpdateOne{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpDelete, OpDeleteOne:
+		return (&EsameDelete{config: c.config, hooks: c.Hooks(), mutation: m}).Exec(ctx)
+	default:
+		return nil, fmt.Errorf("ent: unknown Esame mutation op: %q", m.Op())
+	}
+}
+
+// QuesitoEsameClient is a client for the QuesitoEsame schema.
+type QuesitoEsameClient struct {
+	config
+}
+
+// NewQuesitoEsameClient returns a client for the QuesitoEsame from the given config.
+func NewQuesitoEsameClient(c config) *QuesitoEsameClient {
+	return &QuesitoEsameClient{config: c}
+}
+
+// Use adds a list of mutation hooks to the hooks stack.
+// A call to `Use(f, g, h)` equals to `quesitoesame.Hooks(f(g(h())))`.
+func (c *QuesitoEsameClient) Use(hooks ...Hook) {
+	c.hooks.QuesitoEsame = append(c.hooks.QuesitoEsame, hooks...)
+}
+
+// Intercept adds a list of query interceptors to the interceptors stack.
+// A call to `Intercept(f, g, h)` equals to `quesitoesame.Intercept(f(g(h())))`.
+func (c *QuesitoEsameClient) Intercept(interceptors ...Interceptor) {
+	c.inters.QuesitoEsame = append(c.inters.QuesitoEsame, interceptors...)
+}
+
+// Create returns a builder for creating a QuesitoEsame entity.
+func (c *QuesitoEsameClient) Create() *QuesitoEsameCreate {
+	mutation := newQuesitoEsameMutation(c.config, OpCreate)
+	return &QuesitoEsameCreate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// CreateBulk returns a builder for creating a bulk of QuesitoEsame entities.
+func (c *QuesitoEsameClient) CreateBulk(builders ...*QuesitoEsameCreate) *QuesitoEsameCreateBulk {
+	return &QuesitoEsameCreateBulk{config: c.config, builders: builders}
+}
+
+// MapCreateBulk creates a bulk creation builder from the given slice. For each item in the slice, the function creates
+// a builder and applies setFunc on it.
+func (c *QuesitoEsameClient) MapCreateBulk(slice any, setFunc func(*QuesitoEsameCreate, int)) *QuesitoEsameCreateBulk {
+	rv := reflect.ValueOf(slice)
+	if rv.Kind() != reflect.Slice {
+		return &QuesitoEsameCreateBulk{err: fmt.Errorf("calling to QuesitoEsameClient.MapCreateBulk with wrong type %T, need slice", slice)}
+	}
+	builders := make([]*QuesitoEsameCreate, rv.Len())
+	for i := 0; i < rv.Len(); i++ {
+		builders[i] = c.Create()
+		setFunc(builders[i], i)
+	}
+	return &QuesitoEsameCreateBulk{config: c.config, builders: builders}
+}
+
+// Update returns an update builder for QuesitoEsame.
+func (c *QuesitoEsameClient) Update() *QuesitoEsameUpdate {
+	mutation := newQuesitoEsameMutation(c.config, OpUpdate)
+	return &QuesitoEsameUpdate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOne returns an update builder for the given entity.
+func (c *QuesitoEsameClient) UpdateOne(_m *QuesitoEsame) *QuesitoEsameUpdateOne {
+	mutation := newQuesitoEsameMutation(c.config, OpUpdateOne, withQuesitoEsame(_m))
+	return &QuesitoEsameUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOneID returns an update builder for the given id.
+func (c *QuesitoEsameClient) UpdateOneID(id int) *QuesitoEsameUpdateOne {
+	mutation := newQuesitoEsameMutation(c.config, OpUpdateOne, withQuesitoEsameID(id))
+	return &QuesitoEsameUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// Delete returns a delete builder for QuesitoEsame.
+func (c *QuesitoEsameClient) Delete() *QuesitoEsameDelete {
+	mutation := newQuesitoEsameMutation(c.config, OpDelete)
+	return &QuesitoEsameDelete{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// DeleteOne returns a builder for deleting the given entity.
+func (c *QuesitoEsameClient) DeleteOne(_m *QuesitoEsame) *QuesitoEsameDeleteOne {
+	return c.DeleteOneID(_m.ID)
+}
+
+// DeleteOneID returns a builder for deleting the given entity by its id.
+func (c *QuesitoEsameClient) DeleteOneID(id int) *QuesitoEsameDeleteOne {
+	builder := c.Delete().Where(quesitoesame.ID(id))
+	builder.mutation.id = &id
+	builder.mutation.op = OpDeleteOne
+	return &QuesitoEsameDeleteOne{builder}
+}
+
+// Query returns a query builder for QuesitoEsame.
+func (c *QuesitoEsameClient) Query() *QuesitoEsameQuery {
+	return &QuesitoEsameQuery{
+		config: c.config,
+		ctx:    &QueryContext{Type: TypeQuesitoEsame},
+		inters: c.Interceptors(),
+	}
+}
+
+// Get returns a QuesitoEsame entity by its id.
+func (c *QuesitoEsameClient) Get(ctx context.Context, id int) (*QuesitoEsame, error) {
+	return c.Query().Where(quesitoesame.ID(id)).Only(ctx)
+}
+
+// GetX is like Get, but panics if an error occurs.
+func (c *QuesitoEsameClient) GetX(ctx context.Context, id int) *QuesitoEsame {
+	obj, err := c.Get(ctx, id)
+	if err != nil {
+		panic(err)
+	}
+	return obj
+}
+
+// QueryEsame queries the esame edge of a QuesitoEsame.
+func (c *QuesitoEsameClient) QueryEsame(_m *QuesitoEsame) *EsameQuery {
+	query := (&EsameClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(quesitoesame.Table, quesitoesame.FieldID, id),
+			sqlgraph.To(esame.Table, esame.FieldID),
+			sqlgraph.Edge(sqlgraph.M2O, true, quesitoesame.EsameTable, quesitoesame.EsameColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
+// QueryDomandaOriginale queries the domanda_originale edge of a QuesitoEsame.
+func (c *QuesitoEsameClient) QueryDomandaOriginale(_m *QuesitoEsame) *DomandaQuery {
+	query := (&DomandaClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(quesitoesame.Table, quesitoesame.FieldID, id),
+			sqlgraph.To(domanda.Table, domanda.FieldID),
+			sqlgraph.Edge(sqlgraph.M2O, false, quesitoesame.DomandaOriginaleTable, quesitoesame.DomandaOriginaleColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
+// QueryLogs queries the logs edge of a QuesitoEsame.
+func (c *QuesitoEsameClient) QueryLogs(_m *QuesitoEsame) *AttivitaQuesitoEsameQuery {
+	query := (&AttivitaQuesitoEsameClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(quesitoesame.Table, quesitoesame.FieldID, id),
+			sqlgraph.To(attivitaquesitoesame.Table, attivitaquesitoesame.FieldID),
+			sqlgraph.Edge(sqlgraph.O2M, false, quesitoesame.LogsTable, quesitoesame.LogsColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
+// Hooks returns the client hooks.
+func (c *QuesitoEsameClient) Hooks() []Hook {
+	return c.hooks.QuesitoEsame
+}
+
+// Interceptors returns the client interceptors.
+func (c *QuesitoEsameClient) Interceptors() []Interceptor {
+	return c.inters.QuesitoEsame
+}
+
+func (c *QuesitoEsameClient) mutate(ctx context.Context, m *QuesitoEsameMutation) (Value, error) {
+	switch m.Op() {
+	case OpCreate:
+		return (&QuesitoEsameCreate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdate:
+		return (&QuesitoEsameUpdate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdateOne:
+		return (&QuesitoEsameUpdateOne{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpDelete, OpDeleteOne:
+		return (&QuesitoEsameDelete{config: c.config, hooks: c.Hooks(), mutation: m}).Exec(ctx)
+	default:
+		return nil, fmt.Errorf("ent: unknown QuesitoEsame mutation op: %q", m.Op())
+	}
+}
+
 // SeedClient is a client for the Seed schema.
 type SeedClient struct {
 	config
@@ -825,13 +1356,148 @@ func (c *SeedClient) mutate(ctx context.Context, m *SeedMutation) (Value, error)
 	}
 }
 
+// UtenteClient is a client for the Utente schema.
+type UtenteClient struct {
+	config
+}
+
+// NewUtenteClient returns a client for the Utente from the given config.
+func NewUtenteClient(c config) *UtenteClient {
+	return &UtenteClient{config: c}
+}
+
+// Use adds a list of mutation hooks to the hooks stack.
+// A call to `Use(f, g, h)` equals to `utente.Hooks(f(g(h())))`.
+func (c *UtenteClient) Use(hooks ...Hook) {
+	c.hooks.Utente = append(c.hooks.Utente, hooks...)
+}
+
+// Intercept adds a list of query interceptors to the interceptors stack.
+// A call to `Intercept(f, g, h)` equals to `utente.Intercept(f(g(h())))`.
+func (c *UtenteClient) Intercept(interceptors ...Interceptor) {
+	c.inters.Utente = append(c.inters.Utente, interceptors...)
+}
+
+// Create returns a builder for creating a Utente entity.
+func (c *UtenteClient) Create() *UtenteCreate {
+	mutation := newUtenteMutation(c.config, OpCreate)
+	return &UtenteCreate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// CreateBulk returns a builder for creating a bulk of Utente entities.
+func (c *UtenteClient) CreateBulk(builders ...*UtenteCreate) *UtenteCreateBulk {
+	return &UtenteCreateBulk{config: c.config, builders: builders}
+}
+
+// MapCreateBulk creates a bulk creation builder from the given slice. For each item in the slice, the function creates
+// a builder and applies setFunc on it.
+func (c *UtenteClient) MapCreateBulk(slice any, setFunc func(*UtenteCreate, int)) *UtenteCreateBulk {
+	rv := reflect.ValueOf(slice)
+	if rv.Kind() != reflect.Slice {
+		return &UtenteCreateBulk{err: fmt.Errorf("calling to UtenteClient.MapCreateBulk with wrong type %T, need slice", slice)}
+	}
+	builders := make([]*UtenteCreate, rv.Len())
+	for i := 0; i < rv.Len(); i++ {
+		builders[i] = c.Create()
+		setFunc(builders[i], i)
+	}
+	return &UtenteCreateBulk{config: c.config, builders: builders}
+}
+
+// Update returns an update builder for Utente.
+func (c *UtenteClient) Update() *UtenteUpdate {
+	mutation := newUtenteMutation(c.config, OpUpdate)
+	return &UtenteUpdate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOne returns an update builder for the given entity.
+func (c *UtenteClient) UpdateOne(_m *Utente) *UtenteUpdateOne {
+	mutation := newUtenteMutation(c.config, OpUpdateOne, withUtente(_m))
+	return &UtenteUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOneID returns an update builder for the given id.
+func (c *UtenteClient) UpdateOneID(id string) *UtenteUpdateOne {
+	mutation := newUtenteMutation(c.config, OpUpdateOne, withUtenteID(id))
+	return &UtenteUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// Delete returns a delete builder for Utente.
+func (c *UtenteClient) Delete() *UtenteDelete {
+	mutation := newUtenteMutation(c.config, OpDelete)
+	return &UtenteDelete{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// DeleteOne returns a builder for deleting the given entity.
+func (c *UtenteClient) DeleteOne(_m *Utente) *UtenteDeleteOne {
+	return c.DeleteOneID(_m.ID)
+}
+
+// DeleteOneID returns a builder for deleting the given entity by its id.
+func (c *UtenteClient) DeleteOneID(id string) *UtenteDeleteOne {
+	builder := c.Delete().Where(utente.ID(id))
+	builder.mutation.id = &id
+	builder.mutation.op = OpDeleteOne
+	return &UtenteDeleteOne{builder}
+}
+
+// Query returns a query builder for Utente.
+func (c *UtenteClient) Query() *UtenteQuery {
+	return &UtenteQuery{
+		config: c.config,
+		ctx:    &QueryContext{Type: TypeUtente},
+		inters: c.Interceptors(),
+	}
+}
+
+// Get returns a Utente entity by its id.
+func (c *UtenteClient) Get(ctx context.Context, id string) (*Utente, error) {
+	return c.Query().Where(utente.ID(id)).Only(ctx)
+}
+
+// GetX is like Get, but panics if an error occurs.
+func (c *UtenteClient) GetX(ctx context.Context, id string) *Utente {
+	obj, err := c.Get(ctx, id)
+	if err != nil {
+		panic(err)
+	}
+	return obj
+}
+
+// Hooks returns the client hooks.
+func (c *UtenteClient) Hooks() []Hook {
+	return c.hooks.Utente
+}
+
+// Interceptors returns the client interceptors.
+func (c *UtenteClient) Interceptors() []Interceptor {
+	return c.inters.Utente
+}
+
+func (c *UtenteClient) mutate(ctx context.Context, m *UtenteMutation) (Value, error) {
+	switch m.Op() {
+	case OpCreate:
+		return (&UtenteCreate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdate:
+		return (&UtenteUpdate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdateOne:
+		return (&UtenteUpdateOne{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpDelete, OpDeleteOne:
+		return (&UtenteDelete{config: c.config, hooks: c.Hooks(), mutation: m}).Exec(ctx)
+	default:
+		return nil, fmt.Errorf("ent: unknown Utente mutation op: %q", m.Op())
+	}
+}
+
 // hooks and interceptors per client, for fast access.
 type (
 	hooks struct {
-		Argomento, Capitolo, Domanda, Seed []ent.Hook
+		Argomento, AttivitaQuesitoEsame, Capitolo, Domanda, Esame, QuesitoEsame, Seed,
+		Utente []ent.Hook
 	}
 	inters struct {
-		Argomento, Capitolo, Domanda, Seed []ent.Interceptor
+		Argomento, AttivitaQuesitoEsame, Capitolo, Domanda, Esame, QuesitoEsame, Seed,
+		Utente []ent.Interceptor
 	}
 )
 

@@ -43,7 +43,7 @@
 
 <script lang="ts" setup>
 import { useQuizStore } from '@/stores/quiz';
-import type { Domanda } from '@/services/hankinson';
+import { nextQuesitoAperto, type Domanda } from '@/services/hankinson';
 import { ref, computed, onMounted } from 'vue';
 
 import { useDisplay } from 'vuetify';
@@ -89,6 +89,7 @@ function chooseRandomly<T>(list?: T[]): T {
 }
 
 function next() {
+  nextQuesitoAperto(quizStore.capitoliSelezionati)
   answare.value = null
   const capitoloId = chooseRandomly(quizStore.capitoliSelezionati)
   console.log("capitolo selezionato: ", capitoloId)

@@ -13,9 +13,13 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"github.com/ed-evo/hankinson/server/ent/argomento"
+	"github.com/ed-evo/hankinson/server/ent/attivitaquesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
+	"github.com/ed-evo/hankinson/server/ent/esame"
+	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/seed"
+	"github.com/ed-evo/hankinson/server/ent/utente"
 )
 
 // ent aliases to avoid import conflicts in user's code.
@@ -76,10 +80,14 @@ var (
 func checkColumn(t, c string) error {
 	initCheck.Do(func() {
 		columnCheck = sql.NewColumnCheck(map[string]func(string) bool{
-			argomento.Table: argomento.ValidColumn,
-			capitolo.Table:  capitolo.ValidColumn,
-			domanda.Table:   domanda.ValidColumn,
-			seed.Table:      seed.ValidColumn,
+			argomento.Table:            argomento.ValidColumn,
+			attivitaquesitoesame.Table: attivitaquesitoesame.ValidColumn,
+			capitolo.Table:             capitolo.ValidColumn,
+			domanda.Table:              domanda.ValidColumn,
+			esame.Table:                esame.ValidColumn,
+			quesitoesame.Table:         quesitoesame.ValidColumn,
+			seed.Table:                 seed.ValidColumn,
+			utente.Table:               utente.ValidColumn,
 		})
 	})
 	return columnCheck(t, c)

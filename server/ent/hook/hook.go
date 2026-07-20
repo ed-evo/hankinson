@@ -21,6 +21,18 @@ func (f ArgomentoFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, e
 	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.ArgomentoMutation", m)
 }
 
+// The AttivitaQuesitoEsameFunc type is an adapter to allow the use of ordinary
+// function as AttivitaQuesitoEsame mutator.
+type AttivitaQuesitoEsameFunc func(context.Context, *ent.AttivitaQuesitoEsameMutation) (ent.Value, error)
+
+// Mutate calls f(ctx, m).
+func (f AttivitaQuesitoEsameFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, error) {
+	if mv, ok := m.(*ent.AttivitaQuesitoEsameMutation); ok {
+		return f(ctx, mv)
+	}
+	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.AttivitaQuesitoEsameMutation", m)
+}
+
 // The CapitoloFunc type is an adapter to allow the use of ordinary
 // function as Capitolo mutator.
 type CapitoloFunc func(context.Context, *ent.CapitoloMutation) (ent.Value, error)
@@ -45,6 +57,30 @@ func (f DomandaFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, err
 	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.DomandaMutation", m)
 }
 
+// The EsameFunc type is an adapter to allow the use of ordinary
+// function as Esame mutator.
+type EsameFunc func(context.Context, *ent.EsameMutation) (ent.Value, error)
+
+// Mutate calls f(ctx, m).
+func (f EsameFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, error) {
+	if mv, ok := m.(*ent.EsameMutation); ok {
+		return f(ctx, mv)
+	}
+	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.EsameMutation", m)
+}
+
+// The QuesitoEsameFunc type is an adapter to allow the use of ordinary
+// function as QuesitoEsame mutator.
+type QuesitoEsameFunc func(context.Context, *ent.QuesitoEsameMutation) (ent.Value, error)
+
+// Mutate calls f(ctx, m).
+func (f QuesitoEsameFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, error) {
+	if mv, ok := m.(*ent.QuesitoEsameMutation); ok {
+		return f(ctx, mv)
+	}
+	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.QuesitoEsameMutation", m)
+}
+
 // The SeedFunc type is an adapter to allow the use of ordinary
 // function as Seed mutator.
 type SeedFunc func(context.Context, *ent.SeedMutation) (ent.Value, error)
@@ -55,6 +91,18 @@ func (f SeedFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, error)
 		return f(ctx, mv)
 	}
 	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.SeedMutation", m)
+}
+
+// The UtenteFunc type is an adapter to allow the use of ordinary
+// function as Utente mutator.
+type UtenteFunc func(context.Context, *ent.UtenteMutation) (ent.Value, error)
+
+// Mutate calls f(ctx, m).
+func (f UtenteFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, error) {
+	if mv, ok := m.(*ent.UtenteMutation); ok {
+		return f(ctx, mv)
+	}
+	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.UtenteMutation", m)
 }
 
 // Condition is a hook condition function.

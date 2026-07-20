@@ -4,6 +4,9 @@ import (
 	"context"
 	"log"
 	"net/http"
+
+	"github.com/ed-evo/hankinson/server/ent"
+	"github.com/ed-evo/hankinson/server/ent/utente"
 )
 
 type contextKey string
@@ -12,26 +15,51 @@ type User string
 
 const UserKey contextKey = "userEmail"
 
-func TrivialAuth(next http.Handler) http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+func ExtractUser(h http.Header) *User {
+	if h == nil {
+		return nil
+	}
+	userEmail := h.Get("Cf-Access-Authenticated-User-Email")
 
-		userEmail := r.Header.Get("Cf-Access-Authenticated-User-Email")
+	if userEmail == "" {
+		userEmail = h.Get("X-Authenticated-User")
+	}
 
-		if userEmail == "" {
-			userEmail = r.Header.Get("X-Authenticated-User")
-		}
+	if userEmail == "" {
+		return nil
+	}
+	user := User(userEmail)
+	return &user
+}
 
-		if userEmail == "" {
-			http.Error(w, "401 Unauthorized: Authentication Required", http.StatusUnauthorized)
-			return // Short-circuit: stop execution right here
-		}
+func TrivialAuth(db *ent.Client) func(http.Handler) http.Handler {
+	return func(next http.Handler) http.Handler {
+		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 
-		user := User(userEmail)
+			user := ExtractUser(r.Header)
 
-		ctx := context.WithValue(r.Context(), UserKey, &user)
+			if user == nil {
+				http.Error(w, "401 Unauthorized: Authentication Required", http.StatusUnauthorized)
+				return
+			}
 
-		next.ServeHTTP(w, r.WithContext(ctx))
-	})
+			_, err := db.Utente.Query().Where(utente.ID(string(*user))).Only(r.Context())
+
+			if ent.IsNotFound(err) {
+				http.Error(w, "401 Unauthorized: Authentication Required", http.StatusUnauthorized)
+				return
+			}
+
+			if err != nil {
+				http.Error(w, "Internal server error", http.StatusInternalServerError)
+				log.Printf("Errore gestione utente: %v", err)
+			}
+
+			ctx := context.WithValue(r.Context(), UserKey, user)
+
+			next.ServeHTTP(w, r.WithContext(ctx))
+		})
+	}
 }
 
 func GetUser(r *http.Request) *User {

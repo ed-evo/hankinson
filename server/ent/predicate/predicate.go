@@ -9,11 +9,23 @@ import (
 // Argomento is the predicate function for argomento builders.
 type Argomento func(*sql.Selector)
 
+// AttivitaQuesitoEsame is the predicate function for attivitaquesitoesame builders.
+type AttivitaQuesitoEsame func(*sql.Selector)
+
 // Capitolo is the predicate function for capitolo builders.
 type Capitolo func(*sql.Selector)
 
 // Domanda is the predicate function for domanda builders.
 type Domanda func(*sql.Selector)
 
+// Esame is the predicate function for esame builders.
+type Esame func(*sql.Selector)
+
+// QuesitoEsame is the predicate function for quesitoesame builders.
+type QuesitoEsame func(*sql.Selector)
+
 // Seed is the predicate function for seed builders.
 type Seed func(*sql.Selector)
+
+// Utente is the predicate function for utente builders.
+type Utente func(*sql.Selector)
