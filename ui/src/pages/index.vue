@@ -1,16 +1,16 @@
 <template>
 
-  <v-container v-if="currentDomanda" :style="{ 'height': `${height - 24}px` }">
+  <v-container v-if="domanda" :style="{ 'height': `${height - 24}px` }">
     <v-row density="compact" class="h-100" :class="{ 'flex-column': !isLandscape }">
       <v-col class="d-flex align-center justify-center" :class="{ 'h-50': !isLandscape }">
-        <img v-if="currentDomanda.immagine" :src="`/quiz_assets/${currentDomanda.immagine}.png`"
+        <img v-if="domanda.immagine" :src="`/quiz_assets/${domanda.immagine}.png`"
           :style="{ 'max-height': `${height - 56}px` }"></img>
       </v-col>
 
       <v-col :class="{ 'h-50': !isLandscape }">
         <v-row class="h-50" density="compact">
           <v-col class="d-flex align-center justify-center text-body-large">
-            {{ currentDomanda.testo }}
+            {{ domanda.testo }}
           </v-col>
         </v-row>
         <v-row class="h-45">
@@ -24,7 +24,7 @@
           </template>
           <template v-else>
             <v-col cols="12">
-              Risposta data {{ answare }} è: {{ validateAnsware(currentDomanda, answare) ? 'CORRETTA' : 'SBAGLIATA' }}
+              Risposta data {{ answare }} è: {{ validateAnsware(domanda, answare) ? 'CORRETTA' : 'SBAGLIATA' }}
             </v-col>
           </template>
           <v-col cols="12" class="align-self-end">
@@ -38,12 +38,14 @@
     </v-row>
 
   </v-container>
-
+  <v-overlay :model-value="isLoading" class="align-center justify-center" persistent>
+    <v-progress-circular indeterminate size="64" />
+  </v-overlay>
 </template>
 
 <script lang="ts" setup>
 import { useQuizStore } from '@/stores/quiz';
-import { nextQuesitoAperto, type Domanda } from '@/services/hankinson';
+import { getDomandaById, nextQuesitoAperto, type Domanda, type Quesito } from '@/services/hankinson';
 import { ref, computed, onMounted } from 'vue';
 
 import { useDisplay } from 'vuetify';
@@ -53,13 +55,15 @@ enum Choice {
   FALSO = 'FALSO'
 }
 
+const isLoading = ref(true)
 const quizStore = useQuizStore()
 
 const { height, width } = useDisplay()
 
 const isLandscape = computed(() => width.value > height.value)
 
-const currentDomanda = ref<Domanda | null>(null)
+const quesito = ref<Quesito | null>(null)
+const domanda = ref<Domanda | null>(null)
 
 const answare = ref<Choice | null>(null)
 
@@ -79,29 +83,15 @@ function validateAnsware(domanda: Domanda, choice: Choice): boolean {
   }
 }
 
-function chooseRandomly<T>(list?: T[]): T {
-  if (!list) {
-    console.error(list)
-    throw new Error("Impossibile selezionare da lista vuota.")
-  }
-  const randomIndex = Math.floor(Math.random() * list.length);
-  return list[randomIndex]
-}
+async function next() {
+  quesito.value = await nextQuesitoAperto(quizStore.capitoliSelezionati)
 
-function next() {
-  nextQuesitoAperto(quizStore.capitoliSelezionati)
-  answare.value = null
-  const capitoloId = chooseRandomly(quizStore.capitoliSelezionati)
-  console.log("capitolo selezionato: ", capitoloId)
-  const domande = quizStore.domandeByCapitoli.get(capitoloId)
-  currentDomanda.value = chooseRandomly(domande)
-  // currentDomanda.value = quizStore.domandeByCapitoli.get(3)?.find(d => d.id == 19999)
-  // currentDomanda.value = quizStore.domandeByCapitoli.get(3)?.find(d => d.id == 19925)
-  // currentDomanda.value = quizStore.domandeByCapitoli.get(3)?.find(d => d.id == 19714)
+  domanda.value = await getDomandaById(quesito.value.domandaId)
+  isLoading.value = false
 }
 
 onMounted(() => {
+  isLoading.value = true
   next()
-  // setInterval(next, 100)
 })
 </script>

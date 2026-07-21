@@ -1,16 +1,15 @@
 <template>
   <v-app>
-    <v-overlay :model-value="isLoading" class="align-center justify-center" persistent>
+    <v-overlay :model-value="quizStore.isLoading" class="align-center justify-center" persistent>
       <div class="text-center">
         <!-- Circular Loading Wheel -->
-        <v-progress-circular color="primary" indeterminate size="64" width="6">{{ quizStore.downloadProgress
-          }}</v-progress-circular>
+        <v-progress-circular color="primary" indeterminate size="64" width="6"></v-progress-circular>
         <div class="text-subtitle-1 mt-4 text-white font-weight-medium">
           Loading Quiz from Pi...
         </div>
       </div>
     </v-overlay>
-    <v-layout class="d-flex flex-column" v-if="!isLoading">
+    <v-layout class="d-flex flex-column" v-if="!quizStore.isLoading">
       <v-system-bar color="grey-darken-3">
         <span>
           <v-icon icon="mdi-account"></v-icon>
@@ -52,7 +51,6 @@ const { mobile, width } = useDisplay()
 const appStore = useAppStore()
 const quizStore = useQuizStore()
 
-const isLoading = computed(() => quizStore.downloadProgress < 100)
 const settingsDrawerIcon = computed(() =>
   appStore.opennedSettings ? "mdi-close-circle" : "mdi-cog"
 )

@@ -20,6 +20,12 @@ export interface Domanda {
         argomenti?: Argomento[]
     }
 }
+
+export interface Quesito {
+    id: number,
+    esameId: number,
+    domandaId: number 
+}
 export interface Capitolo {
     id: number;
     nome: string;
@@ -76,12 +82,13 @@ export async function getDomandeByCapitolo(capitoloId: number): Promise<Domanda[
     return capitolo.edges.domande
 }
 
-export async function nextQuesitoAperto(capitoliIds: number[]): Promise<Domanda> {
-    const quesito = await ofetch<Domanda>("/esami/aperto/next", build_request_options({
+export async function getDomandaById(domandaId: number): Promise<Domanda> {
+    return ofetch<Domanda>(`/domande/${domandaId}`, build_request_options())
+}
+
+export async function nextQuesitoAperto(capitoliIds: number[]): Promise<Quesito> {
+    const quesito = await ofetch<Quesito>("/esami/aperto/next", build_request_options({
         method: 'POST',
-        query: {
-            capitoli: capitoliIds
-        },
         body: {
             capitoli: capitoliIds
         }

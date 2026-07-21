@@ -97,11 +97,27 @@ func next(db *ent.Client) func(http.ResponseWriter, *http.Request) {
 			return
 		}
 
+		quesito, err := db.QuesitoEsame.Create().
+			SetEsameID(esameAperto.ID).
+			SetDomandaOriginaleID(domandaID).
+			Save(ctx)
+
+		if err != nil {
+			http.Error(w, "Errore Creazione Quesito", http.StatusInternalServerError)
+			return
+		}
+
 		log.Printf("Esame Aperto: %v Capitolo %v -> Domanda: %v", esameAperto.ID, capitolo, domandaID)
 
 		response := struct {
-			DomandaId int
-		}{DomandaId: domandaID}
+			ID        int `json:"id"`
+			EsameId   int `json:"esameId"`
+			DomandaId int `json:"domandaId"`
+		}{
+			ID:        quesito.ID,
+			EsameId:   esameAperto.ID,
+			DomandaId: domandaID,
+		}
 		render.JSON(w, r, response)
 
 	}
