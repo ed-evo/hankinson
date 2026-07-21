@@ -50,6 +50,7 @@ import { ref, computed, onMounted } from 'vue';
 
 import { useDisplay } from 'vuetify';
 import { useThrottleFn } from '@vueuse/core';
+import { useAppVisibility } from '@/composables/app';
 
 enum Choice {
   VERO = 'VERO',
@@ -60,6 +61,8 @@ const isLoading = ref(true)
 const quizStore = useQuizStore()
 
 const { height, width } = useDisplay()
+
+const { onVisibilityChange } = useAppVisibility()
 
 const isLandscape = computed(() => width.value > height.value)
 
@@ -102,5 +105,12 @@ onMounted(async () => {
   isLoading.value = true
   await loadQuesito()
   isLoading.value = false
+})
+
+onVisibilityChange(event => {
+  if (event.state != 'hidden') {
+    return
+  }
+  console.log("Sleeped for: ", event.finishedAt.getTime() - event.startedAt.getTime())
 })
 </script>
