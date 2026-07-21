@@ -45,7 +45,7 @@
 
 <script lang="ts" setup>
 import { useQuizStore } from '@/stores/quiz';
-import { getDomandaById, nextQuesitoAperto, type Domanda, type Quesito } from '@/services/hankinson';
+import { getDomandaById, nextQuesitoAperto, notifyQuesityAttivita, type Domanda, type Quesito } from '@/services/hankinson';
 import { ref, computed, onMounted } from 'vue';
 
 import { useDisplay } from 'vuetify';
@@ -111,6 +111,14 @@ onVisibilityChange(event => {
   if (event.state != 'hidden') {
     return
   }
+  if (!quesito.value) {
+    return
+  }
   console.log("Sleeped for: ", event.finishedAt.getTime() - event.startedAt.getTime())
+  notifyQuesityAttivita(quesito.value.id, {
+    tipo: "pausa",
+    inizio: event.startedAt,
+    fine: event.finishedAt
+  })
 })
 </script>

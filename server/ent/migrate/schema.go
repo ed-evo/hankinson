@@ -27,25 +27,25 @@ var (
 			},
 		},
 	}
-	// RisposteLogsColumns holds the columns for the "risposte_logs" table.
-	RisposteLogsColumns = []*schema.Column{
+	// AttivitaQuesitoEsameColumns holds the columns for the "attivita_quesito_esame" table.
+	AttivitaQuesitoEsameColumns = []*schema.Column{
 		{Name: "id", Type: field.TypeInt, Increment: true},
-		{Name: "tipo", Type: field.TypeEnum, Enums: []string{"salta", "risposta"}},
+		{Name: "tipo", Type: field.TypeEnum, Enums: []string{"salta", "risposta", "pausa", "noop"}},
 		{Name: "risposta_data", Type: field.TypeBool, Nullable: true},
 		{Name: "inizio", Type: field.TypeTime},
 		{Name: "fine", Type: field.TypeTime},
 		{Name: "timestamp", Type: field.TypeTime},
 		{Name: "quesito_esame_logs", Type: field.TypeInt},
 	}
-	// RisposteLogsTable holds the schema information for the "risposte_logs" table.
-	RisposteLogsTable = &schema.Table{
-		Name:       "risposte_logs",
-		Columns:    RisposteLogsColumns,
-		PrimaryKey: []*schema.Column{RisposteLogsColumns[0]},
+	// AttivitaQuesitoEsameTable holds the schema information for the "attivita_quesito_esame" table.
+	AttivitaQuesitoEsameTable = &schema.Table{
+		Name:       "attivita_quesito_esame",
+		Columns:    AttivitaQuesitoEsameColumns,
+		PrimaryKey: []*schema.Column{AttivitaQuesitoEsameColumns[0]},
 		ForeignKeys: []*schema.ForeignKey{
 			{
-				Symbol:     "risposte_logs_quesiti_esame_logs",
-				Columns:    []*schema.Column{RisposteLogsColumns[6]},
+				Symbol:     "attivita_quesito_esame_quesiti_esame_logs",
+				Columns:    []*schema.Column{AttivitaQuesitoEsameColumns[6]},
 				RefColumns: []*schema.Column{QuesitiEsameColumns[0]},
 				OnDelete:   schema.NoAction,
 			},
@@ -226,7 +226,7 @@ var (
 	// Tables holds all the tables in the schema.
 	Tables = []*schema.Table{
 		ArgomentiTable,
-		RisposteLogsTable,
+		AttivitaQuesitoEsameTable,
 		CapitoliTable,
 		DomandeTable,
 		EsamiTable,
@@ -241,9 +241,9 @@ func init() {
 	ArgomentiTable.Annotation = &entsql.Annotation{
 		Table: "argomenti",
 	}
-	RisposteLogsTable.ForeignKeys[0].RefTable = QuesitiEsameTable
-	RisposteLogsTable.Annotation = &entsql.Annotation{
-		Table: "risposte_logs",
+	AttivitaQuesitoEsameTable.ForeignKeys[0].RefTable = QuesitiEsameTable
+	AttivitaQuesitoEsameTable.Annotation = &entsql.Annotation{
+		Table: "attivita_quesito_esame",
 	}
 	CapitoliTable.Annotation = &entsql.Annotation{
 		Table: "capitoli",

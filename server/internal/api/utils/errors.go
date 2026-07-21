@@ -47,4 +47,13 @@ func ErrRender(err error) render.Renderer {
 	}
 }
 
+func ErrInternal(err error) render.Renderer {
+	return &ErrResponse{
+		Err:            err,
+		HTTPStatusCode: http.StatusInternalServerError,
+		StatusText:     "Internal Server Error",
+		ErrorText:      err.Error(),
+	}
+}
+
 var ErrNotFound = &ErrResponse{HTTPStatusCode: 404, StatusText: "Resource not found."}

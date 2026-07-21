@@ -45,10 +45,10 @@ const (
 	// DomandaOriginaleColumn is the table column denoting the domanda_originale relation/edge.
 	DomandaOriginaleColumn = "quesito_esame_domanda_originale"
 	// LogsTable is the table that holds the logs relation/edge.
-	LogsTable = "risposte_logs"
+	LogsTable = "attivita_quesito_esame"
 	// LogsInverseTable is the table name for the AttivitaQuesitoEsame entity.
 	// It exists in this package in order to avoid circular dependency with the "attivitaquesitoesame" package.
-	LogsInverseTable = "risposte_logs"
+	LogsInverseTable = "attivita_quesito_esame"
 	// LogsColumn is the table column denoting the logs relation/edge.
 	LogsColumn = "quesito_esame_logs"
 )

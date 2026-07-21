@@ -26,6 +26,12 @@ export interface Quesito {
     esameId: number,
     domandaId: number 
 }
+
+export interface AttivitaQuesito {
+    tipo: string,
+    inizio: Date,
+    fine: Date
+}
 export interface Capitolo {
     id: number;
     nome: string;
@@ -94,4 +100,11 @@ export async function nextQuesitoAperto(capitoliIds: number[]): Promise<Quesito>
         }
     }))
     return quesito
+}
+
+export async function notifyQuesityAttivita(quesitoId: number, attivita: AttivitaQuesito): Promise<void> {
+    await ofetch(`/esami/quesiti/${quesitoId}/attivita`, build_request_options({
+        method: 'PUT',
+        body: attivita
+    }))
 }

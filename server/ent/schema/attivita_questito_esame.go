@@ -18,7 +18,7 @@ type AttivitaQuesitoEsame struct {
 func (AttivitaQuesitoEsame) Annotations() []schema.Annotation {
 	return []schema.Annotation{
 		entsql.Annotation{
-			Table: "risposte_logs",
+			Table: "attivita_quesito_esame",
 		},
 	}
 }
@@ -26,7 +26,7 @@ func (AttivitaQuesitoEsame) Annotations() []schema.Annotation {
 func (AttivitaQuesitoEsame) Fields() []ent.Field {
 	return []ent.Field{
 		field.Enum("tipo").
-			Values("salta", "risposta"),
+			Values("salta", "risposta", "pausa", "noop"),
 		field.Bool("risposta_data").
 			Optional().
 			Nillable().

@@ -28,9 +28,9 @@ const (
 	// EdgeQuesitoEsame holds the string denoting the quesito_esame edge name in mutations.
 	EdgeQuesitoEsame = "quesito_esame"
 	// Table holds the table name of the attivitaquesitoesame in the database.
-	Table = "risposte_logs"
+	Table = "attivita_quesito_esame"
 	// QuesitoEsameTable is the table that holds the quesito_esame relation/edge.
-	QuesitoEsameTable = "risposte_logs"
+	QuesitoEsameTable = "attivita_quesito_esame"
 	// QuesitoEsameInverseTable is the table name for the QuesitoEsame entity.
 	// It exists in this package in order to avoid circular dependency with the "quesitoesame" package.
 	QuesitoEsameInverseTable = "quesiti_esame"
@@ -48,7 +48,7 @@ var Columns = []string{
 	FieldTimestamp,
 }
 
-// ForeignKeys holds the SQL foreign-keys that are owned by the "risposte_logs"
+// ForeignKeys holds the SQL foreign-keys that are owned by the "attivita_quesito_esame"
 // table and are not defined as standalone fields in the schema.
 var ForeignKeys = []string{
 	"quesito_esame_logs",
@@ -81,6 +81,8 @@ type Tipo string
 const (
 	TipoSalta    Tipo = "salta"
 	TipoRisposta Tipo = "risposta"
+	TipoPausa    Tipo = "pausa"
+	TipoNoop     Tipo = "noop"
 )
 
 func (t Tipo) String() string {
@@ -90,7 +92,7 @@ func (t Tipo) String() string {
 // TipoValidator is a validator for the "tipo" field enum values. It is called by the builders before save.
 func TipoValidator(t Tipo) error {
 	switch t {
-	case TipoSalta, TipoRisposta:
+	case TipoSalta, TipoRisposta, TipoPausa, TipoNoop:
 		return nil
 	default:
 		return fmt.Errorf("attivitaquesitoesame: invalid enum value for tipo field: %q", t)
