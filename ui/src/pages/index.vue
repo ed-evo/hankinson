@@ -28,7 +28,7 @@
             </v-col>
           </template>
           <v-col cols="12" class="align-self-end">
-            <v-btn class="w-100" @click="next">
+            <v-btn class="w-100" @click="done">
               Prossimo
             </v-btn>
           </v-col>
@@ -49,6 +49,7 @@ import { getDomandaById, nextQuesitoAperto, type Domanda, type Quesito } from '@
 import { ref, computed, onMounted } from 'vue';
 
 import { useDisplay } from 'vuetify';
+import { useThrottleFn } from '@vueuse/core';
 
 enum Choice {
   VERO = 'VERO',
@@ -67,11 +68,11 @@ const domanda = ref<Domanda | null>(null)
 
 const answare = ref<Choice | null>(null)
 
-function giveAnsware(choice: Choice) {
+const giveAnsware = useThrottleFn((choice: Choice) => {
   if (answare.value == null) {
     answare.value = choice
   }
-}
+}, 1000)
 
 function validateAnsware(domanda: Domanda, choice: Choice): boolean {
   console.log(answare, domanda)
@@ -83,15 +84,23 @@ function validateAnsware(domanda: Domanda, choice: Choice): boolean {
   }
 }
 
-async function next() {
+const done = useThrottleFn(async () => {
+  isLoading.value = true
+  await loadQuesito()
+  answare.value = null
+  isLoading.value = false
+}, 300)
+
+async function loadQuesito() {
   quesito.value = await nextQuesitoAperto(quizStore.capitoliSelezionati)
 
   domanda.value = await getDomandaById(quesito.value.domandaId)
-  isLoading.value = false
+  
 }
 
-onMounted(() => {
+onMounted(async () => {
   isLoading.value = true
-  next()
+  await loadQuesito()
+  isLoading.value = false
 })
 </script>
