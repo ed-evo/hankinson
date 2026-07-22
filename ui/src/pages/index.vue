@@ -45,17 +45,12 @@
 
 <script lang="ts" setup>
 import { useQuizStore } from '@/stores/quiz';
-import { getDomandaById, nextQuesitoAperto, notifyQuesityAttivita, type Domanda, type Quesito } from '@/services/hankinson';
+import { AttivitaEmitter, Choice, getDomandaById, nextQuesitoAperto, notifyQuesityAttivita, TipoAttivitaQuesito, type Domanda, type Quesito } from '@/services/hankinson';
 import { ref, computed, onMounted } from 'vue';
 
 import { useDisplay } from 'vuetify';
 import { useThrottleFn } from '@vueuse/core';
 import { useAppVisibility } from '@/composables/app';
-
-enum Choice {
-  VERO = 'VERO',
-  FALSO = 'FALSO'
-}
 
 const isLoading = ref(true)
 const quizStore = useQuizStore()
@@ -71,9 +66,12 @@ const domanda = ref<Domanda | null>(null)
 
 const answare = ref<Choice | null>(null)
 
+let attivitaEmitter: AttivitaEmitter | null = null
+
 const giveAnsware = useThrottleFn((choice: Choice) => {
   if (answare.value == null) {
     answare.value = choice
+    attivitaEmitter?.fire(TipoAttivitaQuesito.risposta, choice)
   }
 }, 1000)
 
@@ -89,6 +87,9 @@ function validateAnsware(domanda: Domanda, choice: Choice): boolean {
 
 const done = useThrottleFn(async () => {
   isLoading.value = true
+  attivitaEmitter?.fire(
+    answare.value ? TipoAttivitaQuesito.prossimo : TipoAttivitaQuesito.salta
+  )
   await loadQuesito()
   answare.value = null
   isLoading.value = false
@@ -98,7 +99,7 @@ async function loadQuesito() {
   quesito.value = await nextQuesitoAperto(quizStore.capitoliSelezionati)
 
   domanda.value = await getDomandaById(quesito.value.domandaId)
-  
+  attivitaEmitter = new AttivitaEmitter(quesito.value.id)
 }
 
 onMounted(async () => {
@@ -116,9 +117,9 @@ onVisibilityChange(event => {
   }
   console.log("Sleeped for: ", event.finishedAt.getTime() - event.startedAt.getTime())
   notifyQuesityAttivita(quesito.value.id, {
-    tipo: "pausa",
+    tipo: TipoAttivitaQuesito.pausa,
     inizio: event.startedAt,
-    fine: event.finishedAt
+    durata_ms: event.finishedAt.getTime() - event.startedAt.getTime()
   })
 })
 </script>

@@ -65,9 +65,9 @@ func Inizio(v time.Time) predicate.AttivitaQuesitoEsame {
 	return predicate.AttivitaQuesitoEsame(sql.FieldEQ(FieldInizio, v))
 }
 
-// Fine applies equality check predicate on the "fine" field. It's identical to FineEQ.
-func Fine(v time.Time) predicate.AttivitaQuesitoEsame {
-	return predicate.AttivitaQuesitoEsame(sql.FieldEQ(FieldFine, v))
+// DurataMs applies equality check predicate on the "durata_ms" field. It's identical to DurataMsEQ.
+func DurataMs(v int) predicate.AttivitaQuesitoEsame {
+	return predicate.AttivitaQuesitoEsame(sql.FieldEQ(FieldDurataMs, v))
 }
 
 // Timestamp applies equality check predicate on the "timestamp" field. It's identical to TimestampEQ.
@@ -155,44 +155,44 @@ func InizioLTE(v time.Time) predicate.AttivitaQuesitoEsame {
 	return predicate.AttivitaQuesitoEsame(sql.FieldLTE(FieldInizio, v))
 }
 
-// FineEQ applies the EQ predicate on the "fine" field.
-func FineEQ(v time.Time) predicate.AttivitaQuesitoEsame {
-	return predicate.AttivitaQuesitoEsame(sql.FieldEQ(FieldFine, v))
+// DurataMsEQ applies the EQ predicate on the "durata_ms" field.
+func DurataMsEQ(v int) predicate.AttivitaQuesitoEsame {
+	return predicate.AttivitaQuesitoEsame(sql.FieldEQ(FieldDurataMs, v))
 }
 
-// FineNEQ applies the NEQ predicate on the "fine" field.
-func FineNEQ(v time.Time) predicate.AttivitaQuesitoEsame {
-	return predicate.AttivitaQuesitoEsame(sql.FieldNEQ(FieldFine, v))
+// DurataMsNEQ applies the NEQ predicate on the "durata_ms" field.
+func DurataMsNEQ(v int) predicate.AttivitaQuesitoEsame {
+	return predicate.AttivitaQuesitoEsame(sql.FieldNEQ(FieldDurataMs, v))
 }
 
-// FineIn applies the In predicate on the "fine" field.
-func FineIn(vs ...time.Time) predicate.AttivitaQuesitoEsame {
-	return predicate.AttivitaQuesitoEsame(sql.FieldIn(FieldFine, vs...))
+// DurataMsIn applies the In predicate on the "durata_ms" field.
+func DurataMsIn(vs ...int) predicate.AttivitaQuesitoEsame {
+	return predicate.AttivitaQuesitoEsame(sql.FieldIn(FieldDurataMs, vs...))
 }
 
-// FineNotIn applies the NotIn predicate on the "fine" field.
-func FineNotIn(vs ...time.Time) predicate.AttivitaQuesitoEsame {
-	return predicate.AttivitaQuesitoEsame(sql.FieldNotIn(FieldFine, vs...))
+// DurataMsNotIn applies the NotIn predicate on the "durata_ms" field.
+func DurataMsNotIn(vs ...int) predicate.AttivitaQuesitoEsame {
+	return predicate.AttivitaQuesitoEsame(sql.FieldNotIn(FieldDurataMs, vs...))
 }
 
-// FineGT applies the GT predicate on the "fine" field.
-func FineGT(v time.Time) predicate.AttivitaQuesitoEsame {
-	return predicate.AttivitaQuesitoEsame(sql.FieldGT(FieldFine, v))
+// DurataMsGT applies the GT predicate on the "durata_ms" field.
+func DurataMsGT(v int) predicate.AttivitaQuesitoEsame {
+	return predicate.AttivitaQuesitoEsame(sql.FieldGT(FieldDurataMs, v))
 }
 
-// FineGTE applies the GTE predicate on the "fine" field.
-func FineGTE(v time.Time) predicate.AttivitaQuesitoEsame {
-	return predicate.AttivitaQuesitoEsame(sql.FieldGTE(FieldFine, v))
+// DurataMsGTE applies the GTE predicate on the "durata_ms" field.
+func DurataMsGTE(v int) predicate.AttivitaQuesitoEsame {
+	return predicate.AttivitaQuesitoEsame(sql.FieldGTE(FieldDurataMs, v))
 }
 
-// FineLT applies the LT predicate on the "fine" field.
-func FineLT(v time.Time) predicate.AttivitaQuesitoEsame {
-	return predicate.AttivitaQuesitoEsame(sql.FieldLT(FieldFine, v))
+// DurataMsLT applies the LT predicate on the "durata_ms" field.
+func DurataMsLT(v int) predicate.AttivitaQuesitoEsame {
+	return predicate.AttivitaQuesitoEsame(sql.FieldLT(FieldDurataMs, v))
 }
 
-// FineLTE applies the LTE predicate on the "fine" field.
-func FineLTE(v time.Time) predicate.AttivitaQuesitoEsame {
-	return predicate.AttivitaQuesitoEsame(sql.FieldLTE(FieldFine, v))
+// DurataMsLTE applies the LTE predicate on the "durata_ms" field.
+func DurataMsLTE(v int) predicate.AttivitaQuesitoEsame {
+	return predicate.AttivitaQuesitoEsame(sql.FieldLTE(FieldDurataMs, v))
 }
 
 // TimestampEQ applies the EQ predicate on the "timestamp" field.

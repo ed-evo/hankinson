@@ -49,9 +49,9 @@ func (_c *AttivitaQuesitoEsameCreate) SetInizio(v time.Time) *AttivitaQuesitoEsa
 	return _c
 }
 
-// SetFine sets the "fine" field.
-func (_c *AttivitaQuesitoEsameCreate) SetFine(v time.Time) *AttivitaQuesitoEsameCreate {
-	_c.mutation.SetFine(v)
+// SetDurataMs sets the "durata_ms" field.
+func (_c *AttivitaQuesitoEsameCreate) SetDurataMs(v int) *AttivitaQuesitoEsameCreate {
+	_c.mutation.SetDurataMs(v)
 	return _c
 }
 
@@ -134,8 +134,8 @@ func (_c *AttivitaQuesitoEsameCreate) check() error {
 	if _, ok := _c.mutation.Inizio(); !ok {
 		return &ValidationError{Name: "inizio", err: errors.New(`ent: missing required field "AttivitaQuesitoEsame.inizio"`)}
 	}
-	if _, ok := _c.mutation.Fine(); !ok {
-		return &ValidationError{Name: "fine", err: errors.New(`ent: missing required field "AttivitaQuesitoEsame.fine"`)}
+	if _, ok := _c.mutation.DurataMs(); !ok {
+		return &ValidationError{Name: "durata_ms", err: errors.New(`ent: missing required field "AttivitaQuesitoEsame.durata_ms"`)}
 	}
 	if _, ok := _c.mutation.Timestamp(); !ok {
 		return &ValidationError{Name: "timestamp", err: errors.New(`ent: missing required field "AttivitaQuesitoEsame.timestamp"`)}
@@ -182,9 +182,9 @@ func (_c *AttivitaQuesitoEsameCreate) createSpec() (*AttivitaQuesitoEsame, *sqlg
 		_spec.SetField(attivitaquesitoesame.FieldInizio, field.TypeTime, value)
 		_node.Inizio = value
 	}
-	if value, ok := _c.mutation.Fine(); ok {
-		_spec.SetField(attivitaquesitoesame.FieldFine, field.TypeTime, value)
-		_node.Fine = value
+	if value, ok := _c.mutation.DurataMs(); ok {
+		_spec.SetField(attivitaquesitoesame.FieldDurataMs, field.TypeInt, value)
+		_node.DurataMs = value
 	}
 	if value, ok := _c.mutation.Timestamp(); ok {
 		_spec.SetField(attivitaquesitoesame.FieldTimestamp, field.TypeTime, value)
@@ -204,7 +204,7 @@ func (_c *AttivitaQuesitoEsameCreate) createSpec() (*AttivitaQuesitoEsame, *sqlg
 		for _, k := range nodes {
 			edge.Target.Nodes = append(edge.Target.Nodes, k)
 		}
-		_node.quesito_esame_logs = &nodes[0]
+		_node.quesito_esame_attivita = &nodes[0]
 		_spec.Edges = append(_spec.Edges, edge)
 	}
 	return _node, _spec
@@ -271,6 +271,24 @@ func (u *AttivitaQuesitoEsameUpsert) UpdateTipo() *AttivitaQuesitoEsameUpsert {
 	return u
 }
 
+// SetDurataMs sets the "durata_ms" field.
+func (u *AttivitaQuesitoEsameUpsert) SetDurataMs(v int) *AttivitaQuesitoEsameUpsert {
+	u.Set(attivitaquesitoesame.FieldDurataMs, v)
+	return u
+}
+
+// UpdateDurataMs sets the "durata_ms" field to the value that was provided on create.
+func (u *AttivitaQuesitoEsameUpsert) UpdateDurataMs() *AttivitaQuesitoEsameUpsert {
+	u.SetExcluded(attivitaquesitoesame.FieldDurataMs)
+	return u
+}
+
+// AddDurataMs adds v to the "durata_ms" field.
+func (u *AttivitaQuesitoEsameUpsert) AddDurataMs(v int) *AttivitaQuesitoEsameUpsert {
+	u.Add(attivitaquesitoesame.FieldDurataMs, v)
+	return u
+}
+
 // UpdateNewValues updates the mutable fields using the new values that were set on create.
 // Using this option is equivalent to using:
 //
@@ -287,9 +305,6 @@ func (u *AttivitaQuesitoEsameUpsertOne) UpdateNewValues() *AttivitaQuesitoEsameU
 		}
 		if _, exists := u.create.mutation.Inizio(); exists {
 			s.SetIgnore(attivitaquesitoesame.FieldInizio)
-		}
-		if _, exists := u.create.mutation.Fine(); exists {
-			s.SetIgnore(attivitaquesitoesame.FieldFine)
 		}
 		if _, exists := u.create.mutation.Timestamp(); exists {
 			s.SetIgnore(attivitaquesitoesame.FieldTimestamp)
@@ -336,6 +351,27 @@ func (u *AttivitaQuesitoEsameUpsertOne) SetTipo(v attivitaquesitoesame.Tipo) *At
 func (u *AttivitaQuesitoEsameUpsertOne) UpdateTipo() *AttivitaQuesitoEsameUpsertOne {
 	return u.Update(func(s *AttivitaQuesitoEsameUpsert) {
 		s.UpdateTipo()
+	})
+}
+
+// SetDurataMs sets the "durata_ms" field.
+func (u *AttivitaQuesitoEsameUpsertOne) SetDurataMs(v int) *AttivitaQuesitoEsameUpsertOne {
+	return u.Update(func(s *AttivitaQuesitoEsameUpsert) {
+		s.SetDurataMs(v)
+	})
+}
+
+// AddDurataMs adds v to the "durata_ms" field.
+func (u *AttivitaQuesitoEsameUpsertOne) AddDurataMs(v int) *AttivitaQuesitoEsameUpsertOne {
+	return u.Update(func(s *AttivitaQuesitoEsameUpsert) {
+		s.AddDurataMs(v)
+	})
+}
+
+// UpdateDurataMs sets the "durata_ms" field to the value that was provided on create.
+func (u *AttivitaQuesitoEsameUpsertOne) UpdateDurataMs() *AttivitaQuesitoEsameUpsertOne {
+	return u.Update(func(s *AttivitaQuesitoEsameUpsert) {
+		s.UpdateDurataMs()
 	})
 }
 
@@ -521,9 +557,6 @@ func (u *AttivitaQuesitoEsameUpsertBulk) UpdateNewValues() *AttivitaQuesitoEsame
 			if _, exists := b.mutation.Inizio(); exists {
 				s.SetIgnore(attivitaquesitoesame.FieldInizio)
 			}
-			if _, exists := b.mutation.Fine(); exists {
-				s.SetIgnore(attivitaquesitoesame.FieldFine)
-			}
 			if _, exists := b.mutation.Timestamp(); exists {
 				s.SetIgnore(attivitaquesitoesame.FieldTimestamp)
 			}
@@ -570,6 +603,27 @@ func (u *AttivitaQuesitoEsameUpsertBulk) SetTipo(v attivitaquesitoesame.Tipo) *A
 func (u *AttivitaQuesitoEsameUpsertBulk) UpdateTipo() *AttivitaQuesitoEsameUpsertBulk {
 	return u.Update(func(s *AttivitaQuesitoEsameUpsert) {
 		s.UpdateTipo()
+	})
+}
+
+// SetDurataMs sets the "durata_ms" field.
+func (u *AttivitaQuesitoEsameUpsertBulk) SetDurataMs(v int) *AttivitaQuesitoEsameUpsertBulk {
+	return u.Update(func(s *AttivitaQuesitoEsameUpsert) {
+		s.SetDurataMs(v)
+	})
+}
+
+// AddDurataMs adds v to the "durata_ms" field.
+func (u *AttivitaQuesitoEsameUpsertBulk) AddDurataMs(v int) *AttivitaQuesitoEsameUpsertBulk {
+	return u.Update(func(s *AttivitaQuesitoEsameUpsert) {
+		s.AddDurataMs(v)
+	})
+}
+
+// UpdateDurataMs sets the "durata_ms" field to the value that was provided on create.
+func (u *AttivitaQuesitoEsameUpsertBulk) UpdateDurataMs() *AttivitaQuesitoEsameUpsertBulk {
+	return u.Update(func(s *AttivitaQuesitoEsameUpsert) {
+		s.UpdateDurataMs()
 	})
 }
 

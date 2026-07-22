@@ -30,12 +30,12 @@ var (
 	// AttivitaQuesitoEsameColumns holds the columns for the "attivita_quesito_esame" table.
 	AttivitaQuesitoEsameColumns = []*schema.Column{
 		{Name: "id", Type: field.TypeInt, Increment: true},
-		{Name: "tipo", Type: field.TypeEnum, Enums: []string{"salta", "risposta", "pausa", "noop"}},
+		{Name: "tipo", Type: field.TypeEnum, Enums: []string{"salta", "risposta", "pausa", "prossimo"}},
 		{Name: "risposta_data", Type: field.TypeBool, Nullable: true},
 		{Name: "inizio", Type: field.TypeTime},
-		{Name: "fine", Type: field.TypeTime},
+		{Name: "durata_ms", Type: field.TypeInt},
 		{Name: "timestamp", Type: field.TypeTime},
-		{Name: "quesito_esame_logs", Type: field.TypeInt},
+		{Name: "quesito_esame_attivita", Type: field.TypeInt},
 	}
 	// AttivitaQuesitoEsameTable holds the schema information for the "attivita_quesito_esame" table.
 	AttivitaQuesitoEsameTable = &schema.Table{
@@ -44,7 +44,7 @@ var (
 		PrimaryKey: []*schema.Column{AttivitaQuesitoEsameColumns[0]},
 		ForeignKeys: []*schema.ForeignKey{
 			{
-				Symbol:     "attivita_quesito_esame_quesiti_esame_logs",
+				Symbol:     "attivita_quesito_esame_quesiti_esame_attivita",
 				Columns:    []*schema.Column{AttivitaQuesitoEsameColumns[6]},
 				RefColumns: []*schema.Column{QuesitiEsameColumns[0]},
 				OnDelete:   schema.NoAction,

@@ -101,19 +101,19 @@ func (_u *QuesitoEsameUpdate) SetDomandaOriginale(v *Domanda) *QuesitoEsameUpdat
 	return _u.SetDomandaOriginaleID(v.ID)
 }
 
-// AddLogIDs adds the "logs" edge to the AttivitaQuesitoEsame entity by IDs.
-func (_u *QuesitoEsameUpdate) AddLogIDs(ids ...int) *QuesitoEsameUpdate {
-	_u.mutation.AddLogIDs(ids...)
+// AddAttivitumIDs adds the "attivita" edge to the AttivitaQuesitoEsame entity by IDs.
+func (_u *QuesitoEsameUpdate) AddAttivitumIDs(ids ...int) *QuesitoEsameUpdate {
+	_u.mutation.AddAttivitumIDs(ids...)
 	return _u
 }
 
-// AddLogs adds the "logs" edges to the AttivitaQuesitoEsame entity.
-func (_u *QuesitoEsameUpdate) AddLogs(v ...*AttivitaQuesitoEsame) *QuesitoEsameUpdate {
+// AddAttivita adds the "attivita" edges to the AttivitaQuesitoEsame entity.
+func (_u *QuesitoEsameUpdate) AddAttivita(v ...*AttivitaQuesitoEsame) *QuesitoEsameUpdate {
 	ids := make([]int, len(v))
 	for i := range v {
 		ids[i] = v[i].ID
 	}
-	return _u.AddLogIDs(ids...)
+	return _u.AddAttivitumIDs(ids...)
 }
 
 // Mutation returns the QuesitoEsameMutation object of the builder.
@@ -133,25 +133,25 @@ func (_u *QuesitoEsameUpdate) ClearDomandaOriginale() *QuesitoEsameUpdate {
 	return _u
 }
 
-// ClearLogs clears all "logs" edges to the AttivitaQuesitoEsame entity.
-func (_u *QuesitoEsameUpdate) ClearLogs() *QuesitoEsameUpdate {
-	_u.mutation.ClearLogs()
+// ClearAttivita clears all "attivita" edges to the AttivitaQuesitoEsame entity.
+func (_u *QuesitoEsameUpdate) ClearAttivita() *QuesitoEsameUpdate {
+	_u.mutation.ClearAttivita()
 	return _u
 }
 
-// RemoveLogIDs removes the "logs" edge to AttivitaQuesitoEsame entities by IDs.
-func (_u *QuesitoEsameUpdate) RemoveLogIDs(ids ...int) *QuesitoEsameUpdate {
-	_u.mutation.RemoveLogIDs(ids...)
+// RemoveAttivitumIDs removes the "attivita" edge to AttivitaQuesitoEsame entities by IDs.
+func (_u *QuesitoEsameUpdate) RemoveAttivitumIDs(ids ...int) *QuesitoEsameUpdate {
+	_u.mutation.RemoveAttivitumIDs(ids...)
 	return _u
 }
 
-// RemoveLogs removes "logs" edges to AttivitaQuesitoEsame entities.
-func (_u *QuesitoEsameUpdate) RemoveLogs(v ...*AttivitaQuesitoEsame) *QuesitoEsameUpdate {
+// RemoveAttivita removes "attivita" edges to AttivitaQuesitoEsame entities.
+func (_u *QuesitoEsameUpdate) RemoveAttivita(v ...*AttivitaQuesitoEsame) *QuesitoEsameUpdate {
 	ids := make([]int, len(v))
 	for i := range v {
 		ids[i] = v[i].ID
 	}
-	return _u.RemoveLogIDs(ids...)
+	return _u.RemoveAttivitumIDs(ids...)
 }
 
 // Save executes the query and returns the number of nodes affected by the update operation.
@@ -274,12 +274,12 @@ func (_u *QuesitoEsameUpdate) sqlSave(ctx context.Context) (_node int, err error
 		}
 		_spec.Edges.Add = append(_spec.Edges.Add, edge)
 	}
-	if _u.mutation.LogsCleared() {
+	if _u.mutation.AttivitaCleared() {
 		edge := &sqlgraph.EdgeSpec{
 			Rel:     sqlgraph.O2M,
 			Inverse: false,
-			Table:   quesitoesame.LogsTable,
-			Columns: []string{quesitoesame.LogsColumn},
+			Table:   quesitoesame.AttivitaTable,
+			Columns: []string{quesitoesame.AttivitaColumn},
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(attivitaquesitoesame.FieldID, field.TypeInt),
@@ -287,12 +287,12 @@ func (_u *QuesitoEsameUpdate) sqlSave(ctx context.Context) (_node int, err error
 		}
 		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
 	}
-	if nodes := _u.mutation.RemovedLogsIDs(); len(nodes) > 0 && !_u.mutation.LogsCleared() {
+	if nodes := _u.mutation.RemovedAttivitaIDs(); len(nodes) > 0 && !_u.mutation.AttivitaCleared() {
 		edge := &sqlgraph.EdgeSpec{
 			Rel:     sqlgraph.O2M,
 			Inverse: false,
-			Table:   quesitoesame.LogsTable,
-			Columns: []string{quesitoesame.LogsColumn},
+			Table:   quesitoesame.AttivitaTable,
+			Columns: []string{quesitoesame.AttivitaColumn},
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(attivitaquesitoesame.FieldID, field.TypeInt),
@@ -303,12 +303,12 @@ func (_u *QuesitoEsameUpdate) sqlSave(ctx context.Context) (_node int, err error
 		}
 		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
 	}
-	if nodes := _u.mutation.LogsIDs(); len(nodes) > 0 {
+	if nodes := _u.mutation.AttivitaIDs(); len(nodes) > 0 {
 		edge := &sqlgraph.EdgeSpec{
 			Rel:     sqlgraph.O2M,
 			Inverse: false,
-			Table:   quesitoesame.LogsTable,
-			Columns: []string{quesitoesame.LogsColumn},
+			Table:   quesitoesame.AttivitaTable,
+			Columns: []string{quesitoesame.AttivitaColumn},
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(attivitaquesitoesame.FieldID, field.TypeInt),
@@ -409,19 +409,19 @@ func (_u *QuesitoEsameUpdateOne) SetDomandaOriginale(v *Domanda) *QuesitoEsameUp
 	return _u.SetDomandaOriginaleID(v.ID)
 }
 
-// AddLogIDs adds the "logs" edge to the AttivitaQuesitoEsame entity by IDs.
-func (_u *QuesitoEsameUpdateOne) AddLogIDs(ids ...int) *QuesitoEsameUpdateOne {
-	_u.mutation.AddLogIDs(ids...)
+// AddAttivitumIDs adds the "attivita" edge to the AttivitaQuesitoEsame entity by IDs.
+func (_u *QuesitoEsameUpdateOne) AddAttivitumIDs(ids ...int) *QuesitoEsameUpdateOne {
+	_u.mutation.AddAttivitumIDs(ids...)
 	return _u
 }
 
-// AddLogs adds the "logs" edges to the AttivitaQuesitoEsame entity.
-func (_u *QuesitoEsameUpdateOne) AddLogs(v ...*AttivitaQuesitoEsame) *QuesitoEsameUpdateOne {
+// AddAttivita adds the "attivita" edges to the AttivitaQuesitoEsame entity.
+func (_u *QuesitoEsameUpdateOne) AddAttivita(v ...*AttivitaQuesitoEsame) *QuesitoEsameUpdateOne {
 	ids := make([]int, len(v))
 	for i := range v {
 		ids[i] = v[i].ID
 	}
-	return _u.AddLogIDs(ids...)
+	return _u.AddAttivitumIDs(ids...)
 }
 
 // Mutation returns the QuesitoEsameMutation object of the builder.
@@ -441,25 +441,25 @@ func (_u *QuesitoEsameUpdateOne) ClearDomandaOriginale() *QuesitoEsameUpdateOne 
 	return _u
 }
 
-// ClearLogs clears all "logs" edges to the AttivitaQuesitoEsame entity.
-func (_u *QuesitoEsameUpdateOne) ClearLogs() *QuesitoEsameUpdateOne {
-	_u.mutation.ClearLogs()
+// ClearAttivita clears all "attivita" edges to the AttivitaQuesitoEsame entity.
+func (_u *QuesitoEsameUpdateOne) ClearAttivita() *QuesitoEsameUpdateOne {
+	_u.mutation.ClearAttivita()
 	return _u
 }
 
-// RemoveLogIDs removes the "logs" edge to AttivitaQuesitoEsame entities by IDs.
-func (_u *QuesitoEsameUpdateOne) RemoveLogIDs(ids ...int) *QuesitoEsameUpdateOne {
-	_u.mutation.RemoveLogIDs(ids...)
+// RemoveAttivitumIDs removes the "attivita" edge to AttivitaQuesitoEsame entities by IDs.
+func (_u *QuesitoEsameUpdateOne) RemoveAttivitumIDs(ids ...int) *QuesitoEsameUpdateOne {
+	_u.mutation.RemoveAttivitumIDs(ids...)
 	return _u
 }
 
-// RemoveLogs removes "logs" edges to AttivitaQuesitoEsame entities.
-func (_u *QuesitoEsameUpdateOne) RemoveLogs(v ...*AttivitaQuesitoEsame) *QuesitoEsameUpdateOne {
+// RemoveAttivita removes "attivita" edges to AttivitaQuesitoEsame entities.
+func (_u *QuesitoEsameUpdateOne) RemoveAttivita(v ...*AttivitaQuesitoEsame) *QuesitoEsameUpdateOne {
 	ids := make([]int, len(v))
 	for i := range v {
 		ids[i] = v[i].ID
 	}
-	return _u.RemoveLogIDs(ids...)
+	return _u.RemoveAttivitumIDs(ids...)
 }
 
 // Where appends a list predicates to the QuesitoEsameUpdate builder.
@@ -612,12 +612,12 @@ func (_u *QuesitoEsameUpdateOne) sqlSave(ctx context.Context) (_node *QuesitoEsa
 		}
 		_spec.Edges.Add = append(_spec.Edges.Add, edge)
 	}
-	if _u.mutation.LogsCleared() {
+	if _u.mutation.AttivitaCleared() {
 		edge := &sqlgraph.EdgeSpec{
 			Rel:     sqlgraph.O2M,
 			Inverse: false,
-			Table:   quesitoesame.LogsTable,
-			Columns: []string{quesitoesame.LogsColumn},
+			Table:   quesitoesame.AttivitaTable,
+			Columns: []string{quesitoesame.AttivitaColumn},
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(attivitaquesitoesame.FieldID, field.TypeInt),
@@ -625,12 +625,12 @@ func (_u *QuesitoEsameUpdateOne) sqlSave(ctx context.Context) (_node *QuesitoEsa
 		}
 		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
 	}
-	if nodes := _u.mutation.RemovedLogsIDs(); len(nodes) > 0 && !_u.mutation.LogsCleared() {
+	if nodes := _u.mutation.RemovedAttivitaIDs(); len(nodes) > 0 && !_u.mutation.AttivitaCleared() {
 		edge := &sqlgraph.EdgeSpec{
 			Rel:     sqlgraph.O2M,
 			Inverse: false,
-			Table:   quesitoesame.LogsTable,
-			Columns: []string{quesitoesame.LogsColumn},
+			Table:   quesitoesame.AttivitaTable,
+			Columns: []string{quesitoesame.AttivitaColumn},
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(attivitaquesitoesame.FieldID, field.TypeInt),
@@ -641,12 +641,12 @@ func (_u *QuesitoEsameUpdateOne) sqlSave(ctx context.Context) (_node *QuesitoEsa
 		}
 		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
 	}
-	if nodes := _u.mutation.LogsIDs(); len(nodes) > 0 {
+	if nodes := _u.mutation.AttivitaIDs(); len(nodes) > 0 {
 		edge := &sqlgraph.EdgeSpec{
 			Rel:     sqlgraph.O2M,
 			Inverse: false,
-			Table:   quesitoesame.LogsTable,
-			Columns: []string{quesitoesame.LogsColumn},
+			Table:   quesitoesame.AttivitaTable,
+			Columns: []string{quesitoesame.AttivitaColumn},
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(attivitaquesitoesame.FieldID, field.TypeInt),

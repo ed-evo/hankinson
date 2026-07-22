@@ -475,7 +475,8 @@ type AttivitaQuesitoEsameMutation struct {
 	tipo                 *attivitaquesitoesame.Tipo
 	risposta_data        *bool
 	inizio               *time.Time
-	fine                 *time.Time
+	durata_ms            *int
+	adddurata_ms         *int
 	timestamp            *time.Time
 	clearedFields        map[string]struct{}
 	quesito_esame        *int
@@ -704,40 +705,60 @@ func (m *AttivitaQuesitoEsameMutation) ResetInizio() {
 	m.inizio = nil
 }
 
-// SetFine sets the "fine" field.
-func (m *AttivitaQuesitoEsameMutation) SetFine(t time.Time) {
-	m.fine = &t
+// SetDurataMs sets the "durata_ms" field.
+func (m *AttivitaQuesitoEsameMutation) SetDurataMs(i int) {
+	m.durata_ms = &i
+	m.adddurata_ms = nil
 }
 
-// Fine returns the value of the "fine" field in the mutation.
-func (m *AttivitaQuesitoEsameMutation) Fine() (r time.Time, exists bool) {
-	v := m.fine
+// DurataMs returns the value of the "durata_ms" field in the mutation.
+func (m *AttivitaQuesitoEsameMutation) DurataMs() (r int, exists bool) {
+	v := m.durata_ms
 	if v == nil {
 		return
 	}
 	return *v, true
 }
 
-// OldFine returns the old "fine" field's value of the AttivitaQuesitoEsame entity.
+// OldDurataMs returns the old "durata_ms" field's value of the AttivitaQuesitoEsame entity.
 // If the AttivitaQuesitoEsame object wasn't provided to the builder, the object is fetched from the database.
 // An error is returned if the mutation operation is not UpdateOne, or the database query fails.
-func (m *AttivitaQuesitoEsameMutation) OldFine(ctx context.Context) (v time.Time, err error) {
+func (m *AttivitaQuesitoEsameMutation) OldDurataMs(ctx context.Context) (v int, err error) {
 	if !m.op.Is(OpUpdateOne) {
-		return v, errors.New("OldFine is only allowed on UpdateOne operations")
+		return v, errors.New("OldDurataMs is only allowed on UpdateOne operations")
 	}
 	if m.id == nil || m.oldValue == nil {
-		return v, errors.New("OldFine requires an ID field in the mutation")
+		return v, errors.New("OldDurataMs requires an ID field in the mutation")
 	}
 	oldValue, err := m.oldValue(ctx)
 	if err != nil {
-		return v, fmt.Errorf("querying old value for OldFine: %w", err)
+		return v, fmt.Errorf("querying old value for OldDurataMs: %w", err)
 	}
-	return oldValue.Fine, nil
+	return oldValue.DurataMs, nil
 }
 
-// ResetFine resets all changes to the "fine" field.
-func (m *AttivitaQuesitoEsameMutation) ResetFine() {
-	m.fine = nil
+// AddDurataMs adds i to the "durata_ms" field.
+func (m *AttivitaQuesitoEsameMutation) AddDurataMs(i int) {
+	if m.adddurata_ms != nil {
+		*m.adddurata_ms += i
+	} else {
+		m.adddurata_ms = &i
+	}
+}
+
+// AddedDurataMs returns the value that was added to the "durata_ms" field in this mutation.
+func (m *AttivitaQuesitoEsameMutation) AddedDurataMs() (r int, exists bool) {
+	v := m.adddurata_ms
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// ResetDurataMs resets all changes to the "durata_ms" field.
+func (m *AttivitaQuesitoEsameMutation) ResetDurataMs() {
+	m.durata_ms = nil
+	m.adddurata_ms = nil
 }
 
 // SetTimestamp sets the "timestamp" field.
@@ -859,8 +880,8 @@ func (m *AttivitaQuesitoEsameMutation) Fields() []string {
 	if m.inizio != nil {
 		fields = append(fields, attivitaquesitoesame.FieldInizio)
 	}
-	if m.fine != nil {
-		fields = append(fields, attivitaquesitoesame.FieldFine)
+	if m.durata_ms != nil {
+		fields = append(fields, attivitaquesitoesame.FieldDurataMs)
 	}
 	if m.timestamp != nil {
 		fields = append(fields, attivitaquesitoesame.FieldTimestamp)
@@ -879,8 +900,8 @@ func (m *AttivitaQuesitoEsameMutation) Field(name string) (ent.Value, bool) {
 		return m.RispostaData()
 	case attivitaquesitoesame.FieldInizio:
 		return m.Inizio()
-	case attivitaquesitoesame.FieldFine:
-		return m.Fine()
+	case attivitaquesitoesame.FieldDurataMs:
+		return m.DurataMs()
 	case attivitaquesitoesame.FieldTimestamp:
 		return m.Timestamp()
 	}
@@ -898,8 +919,8 @@ func (m *AttivitaQuesitoEsameMutation) OldField(ctx context.Context, name string
 		return m.OldRispostaData(ctx)
 	case attivitaquesitoesame.FieldInizio:
 		return m.OldInizio(ctx)
-	case attivitaquesitoesame.FieldFine:
-		return m.OldFine(ctx)
+	case attivitaquesitoesame.FieldDurataMs:
+		return m.OldDurataMs(ctx)
 	case attivitaquesitoesame.FieldTimestamp:
 		return m.OldTimestamp(ctx)
 	}
@@ -932,12 +953,12 @@ func (m *AttivitaQuesitoEsameMutation) SetField(name string, value ent.Value) er
 		}
 		m.SetInizio(v)
 		return nil
-	case attivitaquesitoesame.FieldFine:
-		v, ok := value.(time.Time)
+	case attivitaquesitoesame.FieldDurataMs:
+		v, ok := value.(int)
 		if !ok {
 			return fmt.Errorf("unexpected type %T for field %s", value, name)
 		}
-		m.SetFine(v)
+		m.SetDurataMs(v)
 		return nil
 	case attivitaquesitoesame.FieldTimestamp:
 		v, ok := value.(time.Time)
@@ -953,13 +974,21 @@ func (m *AttivitaQuesitoEsameMutation) SetField(name string, value ent.Value) er
 // AddedFields returns all numeric fields that were incremented/decremented during
 // this mutation.
 func (m *AttivitaQuesitoEsameMutation) AddedFields() []string {
-	return nil
+	var fields []string
+	if m.adddurata_ms != nil {
+		fields = append(fields, attivitaquesitoesame.FieldDurataMs)
+	}
+	return fields
 }
 
 // AddedField returns the numeric value that was incremented/decremented on a field
 // with the given name. The second boolean return value indicates that this field
 // was not set, or was not defined in the schema.
 func (m *AttivitaQuesitoEsameMutation) AddedField(name string) (ent.Value, bool) {
+	switch name {
+	case attivitaquesitoesame.FieldDurataMs:
+		return m.AddedDurataMs()
+	}
 	return nil, false
 }
 
@@ -968,6 +997,13 @@ func (m *AttivitaQuesitoEsameMutation) AddedField(name string) (ent.Value, bool)
 // type.
 func (m *AttivitaQuesitoEsameMutation) AddField(name string, value ent.Value) error {
 	switch name {
+	case attivitaquesitoesame.FieldDurataMs:
+		v, ok := value.(int)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.AddDurataMs(v)
+		return nil
 	}
 	return fmt.Errorf("unknown AttivitaQuesitoEsame numeric field %s", name)
 }
@@ -1013,8 +1049,8 @@ func (m *AttivitaQuesitoEsameMutation) ResetField(name string) error {
 	case attivitaquesitoesame.FieldInizio:
 		m.ResetInizio()
 		return nil
-	case attivitaquesitoesame.FieldFine:
-		m.ResetFine()
+	case attivitaquesitoesame.FieldDurataMs:
+		m.ResetDurataMs()
 		return nil
 	case attivitaquesitoesame.FieldTimestamp:
 		m.ResetTimestamp()
@@ -3495,9 +3531,9 @@ type QuesitoEsameMutation struct {
 	clearedesame             bool
 	domanda_originale        *int
 	cleareddomanda_originale bool
-	logs                     map[int]struct{}
-	removedlogs              map[int]struct{}
-	clearedlogs              bool
+	attivita                 map[int]struct{}
+	removedattivita          map[int]struct{}
+	clearedattivita          bool
 	done                     bool
 	oldValue                 func(context.Context) (*QuesitoEsame, error)
 	predicates               []predicate.QuesitoEsame
@@ -3618,7 +3654,7 @@ func (m *QuesitoEsameMutation) RispostaFinale() (r bool, exists bool) {
 // OldRispostaFinale returns the old "risposta_finale" field's value of the QuesitoEsame entity.
 // If the QuesitoEsame object wasn't provided to the builder, the object is fetched from the database.
 // An error is returned if the mutation operation is not UpdateOne, or the database query fails.
-func (m *QuesitoEsameMutation) OldRispostaFinale(ctx context.Context) (v bool, err error) {
+func (m *QuesitoEsameMutation) OldRispostaFinale(ctx context.Context) (v *bool, err error) {
 	if !m.op.Is(OpUpdateOne) {
 		return v, errors.New("OldRispostaFinale is only allowed on UpdateOne operations")
 	}
@@ -3800,58 +3836,58 @@ func (m *QuesitoEsameMutation) ResetDomandaOriginale() {
 	m.cleareddomanda_originale = false
 }
 
-// AddLogIDs adds the "logs" edge to the AttivitaQuesitoEsame entity by ids.
-func (m *QuesitoEsameMutation) AddLogIDs(ids ...int) {
-	if m.logs == nil {
-		m.logs = make(map[int]struct{})
+// AddAttivitumIDs adds the "attivita" edge to the AttivitaQuesitoEsame entity by ids.
+func (m *QuesitoEsameMutation) AddAttivitumIDs(ids ...int) {
+	if m.attivita == nil {
+		m.attivita = make(map[int]struct{})
 	}
 	for i := range ids {
-		m.logs[ids[i]] = struct{}{}
+		m.attivita[ids[i]] = struct{}{}
 	}
 }
 
-// ClearLogs clears the "logs" edge to the AttivitaQuesitoEsame entity.
-func (m *QuesitoEsameMutation) ClearLogs() {
-	m.clearedlogs = true
+// ClearAttivita clears the "attivita" edge to the AttivitaQuesitoEsame entity.
+func (m *QuesitoEsameMutation) ClearAttivita() {
+	m.clearedattivita = true
 }
 
-// LogsCleared reports if the "logs" edge to the AttivitaQuesitoEsame entity was cleared.
-func (m *QuesitoEsameMutation) LogsCleared() bool {
-	return m.clearedlogs
+// AttivitaCleared reports if the "attivita" edge to the AttivitaQuesitoEsame entity was cleared.
+func (m *QuesitoEsameMutation) AttivitaCleared() bool {
+	return m.clearedattivita
 }
 
-// RemoveLogIDs removes the "logs" edge to the AttivitaQuesitoEsame entity by IDs.
-func (m *QuesitoEsameMutation) RemoveLogIDs(ids ...int) {
-	if m.removedlogs == nil {
-		m.removedlogs = make(map[int]struct{})
+// RemoveAttivitumIDs removes the "attivita" edge to the AttivitaQuesitoEsame entity by IDs.
+func (m *QuesitoEsameMutation) RemoveAttivitumIDs(ids ...int) {
+	if m.removedattivita == nil {
+		m.removedattivita = make(map[int]struct{})
 	}
 	for i := range ids {
-		delete(m.logs, ids[i])
-		m.removedlogs[ids[i]] = struct{}{}
+		delete(m.attivita, ids[i])
+		m.removedattivita[ids[i]] = struct{}{}
 	}
 }
 
-// RemovedLogs returns the removed IDs of the "logs" edge to the AttivitaQuesitoEsame entity.
-func (m *QuesitoEsameMutation) RemovedLogsIDs() (ids []int) {
-	for id := range m.removedlogs {
+// RemovedAttivita returns the removed IDs of the "attivita" edge to the AttivitaQuesitoEsame entity.
+func (m *QuesitoEsameMutation) RemovedAttivitaIDs() (ids []int) {
+	for id := range m.removedattivita {
 		ids = append(ids, id)
 	}
 	return
 }
 
-// LogsIDs returns the "logs" edge IDs in the mutation.
-func (m *QuesitoEsameMutation) LogsIDs() (ids []int) {
-	for id := range m.logs {
+// AttivitaIDs returns the "attivita" edge IDs in the mutation.
+func (m *QuesitoEsameMutation) AttivitaIDs() (ids []int) {
+	for id := range m.attivita {
 		ids = append(ids, id)
 	}
 	return
 }
 
-// ResetLogs resets all changes to the "logs" edge.
-func (m *QuesitoEsameMutation) ResetLogs() {
-	m.logs = nil
-	m.clearedlogs = false
-	m.removedlogs = nil
+// ResetAttivita resets all changes to the "attivita" edge.
+func (m *QuesitoEsameMutation) ResetAttivita() {
+	m.attivita = nil
+	m.clearedattivita = false
+	m.removedattivita = nil
 }
 
 // Where appends a list predicates to the QuesitoEsameMutation builder.
@@ -4037,8 +4073,8 @@ func (m *QuesitoEsameMutation) AddedEdges() []string {
 	if m.domanda_originale != nil {
 		edges = append(edges, quesitoesame.EdgeDomandaOriginale)
 	}
-	if m.logs != nil {
-		edges = append(edges, quesitoesame.EdgeLogs)
+	if m.attivita != nil {
+		edges = append(edges, quesitoesame.EdgeAttivita)
 	}
 	return edges
 }
@@ -4055,9 +4091,9 @@ func (m *QuesitoEsameMutation) AddedIDs(name string) []ent.Value {
 		if id := m.domanda_originale; id != nil {
 			return []ent.Value{*id}
 		}
-	case quesitoesame.EdgeLogs:
-		ids := make([]ent.Value, 0, len(m.logs))
-		for id := range m.logs {
+	case quesitoesame.EdgeAttivita:
+		ids := make([]ent.Value, 0, len(m.attivita))
+		for id := range m.attivita {
 			ids = append(ids, id)
 		}
 		return ids
@@ -4068,8 +4104,8 @@ func (m *QuesitoEsameMutation) AddedIDs(name string) []ent.Value {
 // RemovedEdges returns all edge names that were removed in this mutation.
 func (m *QuesitoEsameMutation) RemovedEdges() []string {
 	edges := make([]string, 0, 3)
-	if m.removedlogs != nil {
-		edges = append(edges, quesitoesame.EdgeLogs)
+	if m.removedattivita != nil {
+		edges = append(edges, quesitoesame.EdgeAttivita)
 	}
 	return edges
 }
@@ -4078,9 +4114,9 @@ func (m *QuesitoEsameMutation) RemovedEdges() []string {
 // the given name in this mutation.
 func (m *QuesitoEsameMutation) RemovedIDs(name string) []ent.Value {
 	switch name {
-	case quesitoesame.EdgeLogs:
-		ids := make([]ent.Value, 0, len(m.removedlogs))
-		for id := range m.removedlogs {
+	case quesitoesame.EdgeAttivita:
+		ids := make([]ent.Value, 0, len(m.removedattivita))
+		for id := range m.removedattivita {
 			ids = append(ids, id)
 		}
 		return ids
@@ -4097,8 +4133,8 @@ func (m *QuesitoEsameMutation) ClearedEdges() []string {
 	if m.cleareddomanda_originale {
 		edges = append(edges, quesitoesame.EdgeDomandaOriginale)
 	}
-	if m.clearedlogs {
-		edges = append(edges, quesitoesame.EdgeLogs)
+	if m.clearedattivita {
+		edges = append(edges, quesitoesame.EdgeAttivita)
 	}
 	return edges
 }
@@ -4111,8 +4147,8 @@ func (m *QuesitoEsameMutation) EdgeCleared(name string) bool {
 		return m.clearedesame
 	case quesitoesame.EdgeDomandaOriginale:
 		return m.cleareddomanda_originale
-	case quesitoesame.EdgeLogs:
-		return m.clearedlogs
+	case quesitoesame.EdgeAttivita:
+		return m.clearedattivita
 	}
 	return false
 }
@@ -4141,8 +4177,8 @@ func (m *QuesitoEsameMutation) ResetEdge(name string) error {
 	case quesitoesame.EdgeDomandaOriginale:
 		m.ResetDomandaOriginale()
 		return nil
-	case quesitoesame.EdgeLogs:
-		m.ResetLogs()
+	case quesitoesame.EdgeAttivita:
+		m.ResetAttivita()
 		return nil
 	}
 	return fmt.Errorf("unknown QuesitoEsame edge %s", name)

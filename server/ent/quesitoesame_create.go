@@ -89,19 +89,19 @@ func (_c *QuesitoEsameCreate) SetDomandaOriginale(v *Domanda) *QuesitoEsameCreat
 	return _c.SetDomandaOriginaleID(v.ID)
 }
 
-// AddLogIDs adds the "logs" edge to the AttivitaQuesitoEsame entity by IDs.
-func (_c *QuesitoEsameCreate) AddLogIDs(ids ...int) *QuesitoEsameCreate {
-	_c.mutation.AddLogIDs(ids...)
+// AddAttivitumIDs adds the "attivita" edge to the AttivitaQuesitoEsame entity by IDs.
+func (_c *QuesitoEsameCreate) AddAttivitumIDs(ids ...int) *QuesitoEsameCreate {
+	_c.mutation.AddAttivitumIDs(ids...)
 	return _c
 }
 
-// AddLogs adds the "logs" edges to the AttivitaQuesitoEsame entity.
-func (_c *QuesitoEsameCreate) AddLogs(v ...*AttivitaQuesitoEsame) *QuesitoEsameCreate {
+// AddAttivita adds the "attivita" edges to the AttivitaQuesitoEsame entity.
+func (_c *QuesitoEsameCreate) AddAttivita(v ...*AttivitaQuesitoEsame) *QuesitoEsameCreate {
 	ids := make([]int, len(v))
 	for i := range v {
 		ids[i] = v[i].ID
 	}
-	return _c.AddLogIDs(ids...)
+	return _c.AddAttivitumIDs(ids...)
 }
 
 // Mutation returns the QuesitoEsameMutation object of the builder.
@@ -192,7 +192,7 @@ func (_c *QuesitoEsameCreate) createSpec() (*QuesitoEsame, *sqlgraph.CreateSpec)
 	_spec.OnConflict = _c.conflict
 	if value, ok := _c.mutation.RispostaFinale(); ok {
 		_spec.SetField(quesitoesame.FieldRispostaFinale, field.TypeBool, value)
-		_node.RispostaFinale = value
+		_node.RispostaFinale = &value
 	}
 	if value, ok := _c.mutation.CreatedAt(); ok {
 		_spec.SetField(quesitoesame.FieldCreatedAt, field.TypeTime, value)
@@ -236,12 +236,12 @@ func (_c *QuesitoEsameCreate) createSpec() (*QuesitoEsame, *sqlgraph.CreateSpec)
 		_node.quesito_esame_domanda_originale = &nodes[0]
 		_spec.Edges = append(_spec.Edges, edge)
 	}
-	if nodes := _c.mutation.LogsIDs(); len(nodes) > 0 {
+	if nodes := _c.mutation.AttivitaIDs(); len(nodes) > 0 {
 		edge := &sqlgraph.EdgeSpec{
 			Rel:     sqlgraph.O2M,
 			Inverse: false,
-			Table:   quesitoesame.LogsTable,
-			Columns: []string{quesitoesame.LogsColumn},
+			Table:   quesitoesame.AttivitaTable,
+			Columns: []string{quesitoesame.AttivitaColumn},
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(attivitaquesitoesame.FieldID, field.TypeInt),

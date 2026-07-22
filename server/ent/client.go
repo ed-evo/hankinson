@@ -1182,15 +1182,15 @@ func (c *QuesitoEsameClient) QueryDomandaOriginale(_m *QuesitoEsame) *DomandaQue
 	return query
 }
 
-// QueryLogs queries the logs edge of a QuesitoEsame.
-func (c *QuesitoEsameClient) QueryLogs(_m *QuesitoEsame) *AttivitaQuesitoEsameQuery {
+// QueryAttivita queries the attivita edge of a QuesitoEsame.
+func (c *QuesitoEsameClient) QueryAttivita(_m *QuesitoEsame) *AttivitaQuesitoEsameQuery {
 	query := (&AttivitaQuesitoEsameClient{config: c.config}).Query()
 	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
 		id := _m.ID
 		step := sqlgraph.NewStep(
 			sqlgraph.From(quesitoesame.Table, quesitoesame.FieldID, id),
 			sqlgraph.To(attivitaquesitoesame.Table, attivitaquesitoesame.FieldID),
-			sqlgraph.Edge(sqlgraph.O2M, false, quesitoesame.LogsTable, quesitoesame.LogsColumn),
+			sqlgraph.Edge(sqlgraph.O2M, false, quesitoesame.AttivitaTable, quesitoesame.AttivitaColumn),
 		)
 		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
 		return fromV, nil

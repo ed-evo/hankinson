@@ -20,7 +20,7 @@ type QuesitoEsame struct {
 	// ID of the ent.
 	ID int `json:"id,omitempty"`
 	// RispostaFinale holds the value of the "risposta_finale" field.
-	RispostaFinale bool `json:"risposta_finale,omitempty"`
+	RispostaFinale *bool `json:"risposta_finale,omitempty"`
 	// CreatedAt holds the value of the "created_at" field.
 	CreatedAt time.Time `json:"created_at,omitempty"`
 	// UpdatedAt holds the value of the "updated_at" field.
@@ -39,8 +39,8 @@ type QuesitoEsameEdges struct {
 	Esame *Esame `json:"esame,omitempty"`
 	// DomandaOriginale holds the value of the domanda_originale edge.
 	DomandaOriginale *Domanda `json:"domanda_originale,omitempty"`
-	// Logs holds the value of the logs edge.
-	Logs []*AttivitaQuesitoEsame `json:"logs,omitempty"`
+	// Attivita holds the value of the attivita edge.
+	Attivita []*AttivitaQuesitoEsame `json:"attivita,omitempty"`
 	// loadedTypes holds the information for reporting if a
 	// type was loaded (or requested) in eager-loading or not.
 	loadedTypes [3]bool
@@ -68,13 +68,13 @@ func (e QuesitoEsameEdges) DomandaOriginaleOrErr() (*Domanda, error) {
 	return nil, &NotLoadedError{edge: "domanda_originale"}
 }
 
-// LogsOrErr returns the Logs value or an error if the edge
+// AttivitaOrErr returns the Attivita value or an error if the edge
 // was not loaded in eager-loading.
-func (e QuesitoEsameEdges) LogsOrErr() ([]*AttivitaQuesitoEsame, error) {
+func (e QuesitoEsameEdges) AttivitaOrErr() ([]*AttivitaQuesitoEsame, error) {
 	if e.loadedTypes[2] {
-		return e.Logs, nil
+		return e.Attivita, nil
 	}
-	return nil, &NotLoadedError{edge: "logs"}
+	return nil, &NotLoadedError{edge: "attivita"}
 }
 
 // scanValues returns the types for scanning values from sql.Rows.
@@ -117,7 +117,8 @@ func (_m *QuesitoEsame) assignValues(columns []string, values []any) error {
 			if value, ok := values[i].(*sql.NullBool); !ok {
 				return fmt.Errorf("unexpected type %T for field risposta_finale", values[i])
 			} else if value.Valid {
-				_m.RispostaFinale = value.Bool
+				_m.RispostaFinale = new(bool)
+				*_m.RispostaFinale = value.Bool
 			}
 		case quesitoesame.FieldCreatedAt:
 			if value, ok := values[i].(*sql.NullTime); !ok {
@@ -168,9 +169,9 @@ func (_m *QuesitoEsame) QueryDomandaOriginale() *DomandaQuery {
 	return NewQuesitoEsameClient(_m.config).QueryDomandaOriginale(_m)
 }
 
-// QueryLogs queries the "logs" edge of the QuesitoEsame entity.
-func (_m *QuesitoEsame) QueryLogs() *AttivitaQuesitoEsameQuery {
-	return NewQuesitoEsameClient(_m.config).QueryLogs(_m)
+// QueryAttivita queries the "attivita" edge of the QuesitoEsame entity.
+func (_m *QuesitoEsame) QueryAttivita() *AttivitaQuesitoEsameQuery {
+	return NewQuesitoEsameClient(_m.config).QueryAttivita(_m)
 }
 
 // Update returns a builder for updating this QuesitoEsame.
@@ -196,8 +197,10 @@ func (_m *QuesitoEsame) String() string {
 	var builder strings.Builder
 	builder.WriteString("QuesitoEsame(")
 	builder.WriteString(fmt.Sprintf("id=%v, ", _m.ID))
-	builder.WriteString("risposta_finale=")
-	builder.WriteString(fmt.Sprintf("%v", _m.RispostaFinale))
+	if v := _m.RispostaFinale; v != nil {
+		builder.WriteString("risposta_finale=")
+		builder.WriteString(fmt.Sprintf("%v", *v))
+	}
 	builder.WriteString(", ")
 	builder.WriteString("created_at=")
 	builder.WriteString(_m.CreatedAt.Format(time.ANSIC))

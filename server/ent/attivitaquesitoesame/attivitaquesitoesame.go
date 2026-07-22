@@ -21,8 +21,8 @@ const (
 	FieldRispostaData = "risposta_data"
 	// FieldInizio holds the string denoting the inizio field in the database.
 	FieldInizio = "inizio"
-	// FieldFine holds the string denoting the fine field in the database.
-	FieldFine = "fine"
+	// FieldDurataMs holds the string denoting the durata_ms field in the database.
+	FieldDurataMs = "durata_ms"
 	// FieldTimestamp holds the string denoting the timestamp field in the database.
 	FieldTimestamp = "timestamp"
 	// EdgeQuesitoEsame holds the string denoting the quesito_esame edge name in mutations.
@@ -35,7 +35,7 @@ const (
 	// It exists in this package in order to avoid circular dependency with the "quesitoesame" package.
 	QuesitoEsameInverseTable = "quesiti_esame"
 	// QuesitoEsameColumn is the table column denoting the quesito_esame relation/edge.
-	QuesitoEsameColumn = "quesito_esame_logs"
+	QuesitoEsameColumn = "quesito_esame_attivita"
 )
 
 // Columns holds all SQL columns for attivitaquesitoesame fields.
@@ -44,14 +44,14 @@ var Columns = []string{
 	FieldTipo,
 	FieldRispostaData,
 	FieldInizio,
-	FieldFine,
+	FieldDurataMs,
 	FieldTimestamp,
 }
 
 // ForeignKeys holds the SQL foreign-keys that are owned by the "attivita_quesito_esame"
 // table and are not defined as standalone fields in the schema.
 var ForeignKeys = []string{
-	"quesito_esame_logs",
+	"quesito_esame_attivita",
 }
 
 // ValidColumn reports if the column name is valid (part of the table columns).
@@ -82,7 +82,7 @@ const (
 	TipoSalta    Tipo = "salta"
 	TipoRisposta Tipo = "risposta"
 	TipoPausa    Tipo = "pausa"
-	TipoNoop     Tipo = "noop"
+	TipoProssimo Tipo = "prossimo"
 )
 
 func (t Tipo) String() string {
@@ -92,7 +92,7 @@ func (t Tipo) String() string {
 // TipoValidator is a validator for the "tipo" field enum values. It is called by the builders before save.
 func TipoValidator(t Tipo) error {
 	switch t {
-	case TipoSalta, TipoRisposta, TipoPausa, TipoNoop:
+	case TipoSalta, TipoRisposta, TipoPausa, TipoProssimo:
 		return nil
 	default:
 		return fmt.Errorf("attivitaquesitoesame: invalid enum value for tipo field: %q", t)
@@ -122,9 +122,9 @@ func ByInizio(opts ...sql.OrderTermOption) OrderOption {
 	return sql.OrderByField(FieldInizio, opts...).ToFunc()
 }
 
-// ByFine orders the results by the fine field.
-func ByFine(opts ...sql.OrderTermOption) OrderOption {
-	return sql.OrderByField(FieldFine, opts...).ToFunc()
+// ByDurataMs orders the results by the durata_ms field.
+func ByDurataMs(opts ...sql.OrderTermOption) OrderOption {
+	return sql.OrderByField(FieldDurataMs, opts...).ToFunc()
 }
 
 // ByTimestamp orders the results by the timestamp field.

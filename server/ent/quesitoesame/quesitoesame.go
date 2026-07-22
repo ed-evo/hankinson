@@ -24,8 +24,8 @@ const (
 	EdgeEsame = "esame"
 	// EdgeDomandaOriginale holds the string denoting the domanda_originale edge name in mutations.
 	EdgeDomandaOriginale = "domanda_originale"
-	// EdgeLogs holds the string denoting the logs edge name in mutations.
-	EdgeLogs = "logs"
+	// EdgeAttivita holds the string denoting the attivita edge name in mutations.
+	EdgeAttivita = "attivita"
 	// DomandaFieldID holds the string denoting the ID field of the Domanda.
 	DomandaFieldID = "numero"
 	// Table holds the table name of the quesitoesame in the database.
@@ -44,13 +44,13 @@ const (
 	DomandaOriginaleInverseTable = "domande"
 	// DomandaOriginaleColumn is the table column denoting the domanda_originale relation/edge.
 	DomandaOriginaleColumn = "quesito_esame_domanda_originale"
-	// LogsTable is the table that holds the logs relation/edge.
-	LogsTable = "attivita_quesito_esame"
-	// LogsInverseTable is the table name for the AttivitaQuesitoEsame entity.
+	// AttivitaTable is the table that holds the attivita relation/edge.
+	AttivitaTable = "attivita_quesito_esame"
+	// AttivitaInverseTable is the table name for the AttivitaQuesitoEsame entity.
 	// It exists in this package in order to avoid circular dependency with the "attivitaquesitoesame" package.
-	LogsInverseTable = "attivita_quesito_esame"
-	// LogsColumn is the table column denoting the logs relation/edge.
-	LogsColumn = "quesito_esame_logs"
+	AttivitaInverseTable = "attivita_quesito_esame"
+	// AttivitaColumn is the table column denoting the attivita relation/edge.
+	AttivitaColumn = "quesito_esame_attivita"
 )
 
 // Columns holds all SQL columns for quesitoesame fields.
@@ -127,17 +127,17 @@ func ByDomandaOriginaleField(field string, opts ...sql.OrderTermOption) OrderOpt
 	}
 }
 
-// ByLogsCount orders the results by logs count.
-func ByLogsCount(opts ...sql.OrderTermOption) OrderOption {
+// ByAttivitaCount orders the results by attivita count.
+func ByAttivitaCount(opts ...sql.OrderTermOption) OrderOption {
 	return func(s *sql.Selector) {
-		sqlgraph.OrderByNeighborsCount(s, newLogsStep(), opts...)
+		sqlgraph.OrderByNeighborsCount(s, newAttivitaStep(), opts...)
 	}
 }
 
-// ByLogs orders the results by logs terms.
-func ByLogs(term sql.OrderTerm, terms ...sql.OrderTerm) OrderOption {
+// ByAttivita orders the results by attivita terms.
+func ByAttivita(term sql.OrderTerm, terms ...sql.OrderTerm) OrderOption {
 	return func(s *sql.Selector) {
-		sqlgraph.OrderByNeighborTerms(s, newLogsStep(), append([]sql.OrderTerm{term}, terms...)...)
+		sqlgraph.OrderByNeighborTerms(s, newAttivitaStep(), append([]sql.OrderTerm{term}, terms...)...)
 	}
 }
 func newEsameStep() *sqlgraph.Step {
@@ -154,10 +154,10 @@ func newDomandaOriginaleStep() *sqlgraph.Step {
 		sqlgraph.Edge(sqlgraph.M2O, false, DomandaOriginaleTable, DomandaOriginaleColumn),
 	)
 }
-func newLogsStep() *sqlgraph.Step {
+func newAttivitaStep() *sqlgraph.Step {
 	return sqlgraph.NewStep(
 		sqlgraph.From(Table, FieldID),
-		sqlgraph.To(LogsInverseTable, FieldID),
-		sqlgraph.Edge(sqlgraph.O2M, false, LogsTable, LogsColumn),
+		sqlgraph.To(AttivitaInverseTable, FieldID),
+		sqlgraph.Edge(sqlgraph.O2M, false, AttivitaTable, AttivitaColumn),
 	)
 }

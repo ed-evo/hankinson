@@ -216,21 +216,21 @@ func HasDomandaOriginaleWith(preds ...predicate.Domanda) predicate.QuesitoEsame 
 	})
 }
 
-// HasLogs applies the HasEdge predicate on the "logs" edge.
-func HasLogs() predicate.QuesitoEsame {
+// HasAttivita applies the HasEdge predicate on the "attivita" edge.
+func HasAttivita() predicate.QuesitoEsame {
 	return predicate.QuesitoEsame(func(s *sql.Selector) {
 		step := sqlgraph.NewStep(
 			sqlgraph.From(Table, FieldID),
-			sqlgraph.Edge(sqlgraph.O2M, false, LogsTable, LogsColumn),
+			sqlgraph.Edge(sqlgraph.O2M, false, AttivitaTable, AttivitaColumn),
 		)
 		sqlgraph.HasNeighbors(s, step)
 	})
 }
 
-// HasLogsWith applies the HasEdge predicate on the "logs" edge with a given conditions (other predicates).
-func HasLogsWith(preds ...predicate.AttivitaQuesitoEsame) predicate.QuesitoEsame {
+// HasAttivitaWith applies the HasEdge predicate on the "attivita" edge with a given conditions (other predicates).
+func HasAttivitaWith(preds ...predicate.AttivitaQuesitoEsame) predicate.QuesitoEsame {
 	return predicate.QuesitoEsame(func(s *sql.Selector) {
-		step := newLogsStep()
+		step := newAttivitaStep()
 		sqlgraph.HasNeighborsWith(s, step, func(s *sql.Selector) {
 			for _, p := range preds {
 				p(s)

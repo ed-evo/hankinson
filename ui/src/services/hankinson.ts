@@ -1,8 +1,11 @@
-import CapitoliSelect from "@/components/CapitoliSelect.vue";
 import { useLocalStorage } from "@vueuse/core";
 import { ofetch } from "ofetch";
 import { type Ref } from "vue";
 
+export enum Choice {
+  VERO = 'VERO',
+  FALSO = 'FALSO'
+}
 export interface Argomento {
     id: number;
     nome: string;
@@ -27,10 +30,18 @@ export interface Quesito {
     domandaId: number 
 }
 
+export enum TipoAttivitaQuesito {
+    salta = "salta",
+    risposta = "risposta",
+    pausa = "pausa",
+    prossimo = "prossimo",
+}
+
 export interface AttivitaQuesito {
-    tipo: string,
+    tipo: TipoAttivitaQuesito,
+    risposta_data?: boolean,
     inizio: Date,
-    fine: Date
+    durata_ms: number
 }
 export interface Capitolo {
     id: number;
@@ -107,4 +118,25 @@ export async function notifyQuesityAttivita(quesitoId: number, attivita: Attivit
         method: 'PUT',
         body: attivita
     }))
+}
+
+export class AttivitaEmitter {
+    constructor(
+        private idQuesito: number,
+        private startedAt: Date = new Date(),
+    ) {}
+
+    async fire(tipo: TipoAttivitaQuesito, risposta: Choice | null = null, finishedAt: Date = new Date()) {
+        let risposta_data = undefined
+        if (risposta) {
+            risposta_data = Choice.VERO === risposta
+        }
+        await notifyQuesityAttivita(this.idQuesito, {
+            tipo,
+            inizio: this.startedAt,
+            durata_ms: finishedAt.getTime() - this.startedAt.getTime(),
+            risposta_data
+        })
+        this.startedAt = finishedAt
+    }
 }

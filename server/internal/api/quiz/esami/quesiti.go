@@ -15,13 +15,25 @@ import (
 )
 
 type QuesitoAttivitaBody struct {
-	Tipo   string    `json:"tipo"`
-	Inizio time.Time `json:"inizio"`
-	Fine   time.Time `json:"fine"`
+	Tipo         string    `json:"tipo"`
+	RispostaData *bool     `json:"risposta_data,omitempty"`
+	Inizio       time.Time `json:"inizio"`
+	DurataMS     int       `json:"durata_ms"`
 }
 
 func (q *QuesitoAttivitaBody) Bind(r *http.Request) error {
 	return nil
+}
+
+func equalBoolPtr(a, b *bool) bool {
+	if a == b {
+		return true
+	}
+	if a == nil || b == nil {
+		return false
+	}
+
+	return *a == *b
 }
 
 func newQuesitiRouter(db *ent.Client) chi.Router {
@@ -37,11 +49,25 @@ func newQuesitiRouter(db *ent.Client) chi.Router {
 				return
 			}
 
+			rispostaData := body.RispostaData
+
+			if !equalBoolPtr(rispostaData, q.RispostaFinale) {
+				var err error
+				q, err = db.QuesitoEsame.UpdateOneID(q.ID).
+					SetNillableRispostaFinale(rispostaData).
+					Save(r.Context())
+				if err != nil {
+					render.Render(w, r, api_utils.ErrInternal(err))
+					return
+				}
+			}
+
 			a, err := db.AttivitaQuesitoEsame.Create().
 				SetQuesitoEsameID(q.ID).
 				SetTipo(attivitaquesitoesame.Tipo(body.Tipo)).
 				SetInizio(body.Inizio).
-				SetFine(body.Fine).
+				SetDurataMs(body.DurataMS).
+				SetNillableRispostaData(rispostaData).
 				Save(r.Context())
 			if err != nil {
 				render.Render(w, r, api_utils.ErrInternal(err))

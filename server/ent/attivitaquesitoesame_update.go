@@ -42,6 +42,27 @@ func (_u *AttivitaQuesitoEsameUpdate) SetNillableTipo(v *attivitaquesitoesame.Ti
 	return _u
 }
 
+// SetDurataMs sets the "durata_ms" field.
+func (_u *AttivitaQuesitoEsameUpdate) SetDurataMs(v int) *AttivitaQuesitoEsameUpdate {
+	_u.mutation.ResetDurataMs()
+	_u.mutation.SetDurataMs(v)
+	return _u
+}
+
+// SetNillableDurataMs sets the "durata_ms" field if the given value is not nil.
+func (_u *AttivitaQuesitoEsameUpdate) SetNillableDurataMs(v *int) *AttivitaQuesitoEsameUpdate {
+	if v != nil {
+		_u.SetDurataMs(*v)
+	}
+	return _u
+}
+
+// AddDurataMs adds value to the "durata_ms" field.
+func (_u *AttivitaQuesitoEsameUpdate) AddDurataMs(v int) *AttivitaQuesitoEsameUpdate {
+	_u.mutation.AddDurataMs(v)
+	return _u
+}
+
 // SetQuesitoEsameID sets the "quesito_esame" edge to the QuesitoEsame entity by ID.
 func (_u *AttivitaQuesitoEsameUpdate) SetQuesitoEsameID(id int) *AttivitaQuesitoEsameUpdate {
 	_u.mutation.SetQuesitoEsameID(id)
@@ -122,6 +143,12 @@ func (_u *AttivitaQuesitoEsameUpdate) sqlSave(ctx context.Context) (_node int, e
 	if _u.mutation.RispostaDataCleared() {
 		_spec.ClearField(attivitaquesitoesame.FieldRispostaData, field.TypeBool)
 	}
+	if value, ok := _u.mutation.DurataMs(); ok {
+		_spec.SetField(attivitaquesitoesame.FieldDurataMs, field.TypeInt, value)
+	}
+	if value, ok := _u.mutation.AddedDurataMs(); ok {
+		_spec.AddField(attivitaquesitoesame.FieldDurataMs, field.TypeInt, value)
+	}
 	if _u.mutation.QuesitoEsameCleared() {
 		edge := &sqlgraph.EdgeSpec{
 			Rel:     sqlgraph.M2O,
@@ -182,6 +209,27 @@ func (_u *AttivitaQuesitoEsameUpdateOne) SetNillableTipo(v *attivitaquesitoesame
 	if v != nil {
 		_u.SetTipo(*v)
 	}
+	return _u
+}
+
+// SetDurataMs sets the "durata_ms" field.
+func (_u *AttivitaQuesitoEsameUpdateOne) SetDurataMs(v int) *AttivitaQuesitoEsameUpdateOne {
+	_u.mutation.ResetDurataMs()
+	_u.mutation.SetDurataMs(v)
+	return _u
+}
+
+// SetNillableDurataMs sets the "durata_ms" field if the given value is not nil.
+func (_u *AttivitaQuesitoEsameUpdateOne) SetNillableDurataMs(v *int) *AttivitaQuesitoEsameUpdateOne {
+	if v != nil {
+		_u.SetDurataMs(*v)
+	}
+	return _u
+}
+
+// AddDurataMs adds value to the "durata_ms" field.
+func (_u *AttivitaQuesitoEsameUpdateOne) AddDurataMs(v int) *AttivitaQuesitoEsameUpdateOne {
+	_u.mutation.AddDurataMs(v)
 	return _u
 }
 
@@ -294,6 +342,12 @@ func (_u *AttivitaQuesitoEsameUpdateOne) sqlSave(ctx context.Context) (_node *At
 	}
 	if _u.mutation.RispostaDataCleared() {
 		_spec.ClearField(attivitaquesitoesame.FieldRispostaData, field.TypeBool)
+	}
+	if value, ok := _u.mutation.DurataMs(); ok {
+		_spec.SetField(attivitaquesitoesame.FieldDurataMs, field.TypeInt, value)
+	}
+	if value, ok := _u.mutation.AddedDurataMs(); ok {
+		_spec.AddField(attivitaquesitoesame.FieldDurataMs, field.TypeInt, value)
 	}
 	if _u.mutation.QuesitoEsameCleared() {
 		edge := &sqlgraph.EdgeSpec{

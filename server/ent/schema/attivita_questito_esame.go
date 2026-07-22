@@ -26,13 +26,13 @@ func (AttivitaQuesitoEsame) Annotations() []schema.Annotation {
 func (AttivitaQuesitoEsame) Fields() []ent.Field {
 	return []ent.Field{
 		field.Enum("tipo").
-			Values("salta", "risposta", "pausa", "noop"),
+			Values("salta", "risposta", "pausa", "prossimo"),
 		field.Bool("risposta_data").
 			Optional().
 			Nillable().
 			Immutable(),
 		field.Time("inizio").Immutable(),
-		field.Time("fine").Immutable(),
+		field.Int("durata_ms"),
 		field.Time("timestamp").
 			Immutable().
 			Default(time.Now),
@@ -42,7 +42,7 @@ func (AttivitaQuesitoEsame) Fields() []ent.Field {
 func (AttivitaQuesitoEsame) Edges() []ent.Edge {
 	return []ent.Edge{
 		edge.From("quesito_esame", QuesitoEsame.Type).
-			Ref("logs").
+			Ref("attivita").
 			Unique().
 			Required(),
 	}

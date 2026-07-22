@@ -413,10 +413,10 @@ func (_q *AttivitaQuesitoEsameQuery) loadQuesitoEsame(ctx context.Context, query
 	ids := make([]int, 0, len(nodes))
 	nodeids := make(map[int][]*AttivitaQuesitoEsame)
 	for i := range nodes {
-		if nodes[i].quesito_esame_logs == nil {
+		if nodes[i].quesito_esame_attivita == nil {
 			continue
 		}
-		fk := *nodes[i].quesito_esame_logs
+		fk := *nodes[i].quesito_esame_attivita
 		if _, ok := nodeids[fk]; !ok {
 			ids = append(ids, fk)
 		}
@@ -433,7 +433,7 @@ func (_q *AttivitaQuesitoEsameQuery) loadQuesitoEsame(ctx context.Context, query
 	for _, n := range neighbors {
 		nodes, ok := nodeids[n.ID]
 		if !ok {
-			return fmt.Errorf(`unexpected foreign-key "quesito_esame_logs" returned %v`, n.ID)
+			return fmt.Errorf(`unexpected foreign-key "quesito_esame_attivita" returned %v`, n.ID)
 		}
 		for i := range nodes {
 			assign(nodes[i], n)

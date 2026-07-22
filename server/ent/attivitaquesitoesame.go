@@ -24,15 +24,15 @@ type AttivitaQuesitoEsame struct {
 	RispostaData *bool `json:"risposta_data,omitempty"`
 	// Inizio holds the value of the "inizio" field.
 	Inizio time.Time `json:"inizio,omitempty"`
-	// Fine holds the value of the "fine" field.
-	Fine time.Time `json:"fine,omitempty"`
+	// DurataMs holds the value of the "durata_ms" field.
+	DurataMs int `json:"durata_ms,omitempty"`
 	// Timestamp holds the value of the "timestamp" field.
 	Timestamp time.Time `json:"timestamp,omitempty"`
 	// Edges holds the relations/edges for other nodes in the graph.
 	// The values are being populated by the AttivitaQuesitoEsameQuery when eager-loading is set.
-	Edges              AttivitaQuesitoEsameEdges `json:"edges"`
-	quesito_esame_logs *int
-	selectValues       sql.SelectValues
+	Edges                  AttivitaQuesitoEsameEdges `json:"edges"`
+	quesito_esame_attivita *int
+	selectValues           sql.SelectValues
 }
 
 // AttivitaQuesitoEsameEdges holds the relations/edges for other nodes in the graph.
@@ -62,13 +62,13 @@ func (*AttivitaQuesitoEsame) scanValues(columns []string) ([]any, error) {
 		switch columns[i] {
 		case attivitaquesitoesame.FieldRispostaData:
 			values[i] = new(sql.NullBool)
-		case attivitaquesitoesame.FieldID:
+		case attivitaquesitoesame.FieldID, attivitaquesitoesame.FieldDurataMs:
 			values[i] = new(sql.NullInt64)
 		case attivitaquesitoesame.FieldTipo:
 			values[i] = new(sql.NullString)
-		case attivitaquesitoesame.FieldInizio, attivitaquesitoesame.FieldFine, attivitaquesitoesame.FieldTimestamp:
+		case attivitaquesitoesame.FieldInizio, attivitaquesitoesame.FieldTimestamp:
 			values[i] = new(sql.NullTime)
-		case attivitaquesitoesame.ForeignKeys[0]: // quesito_esame_logs
+		case attivitaquesitoesame.ForeignKeys[0]: // quesito_esame_attivita
 			values[i] = new(sql.NullInt64)
 		default:
 			values[i] = new(sql.UnknownType)
@@ -110,11 +110,11 @@ func (_m *AttivitaQuesitoEsame) assignValues(columns []string, values []any) err
 			} else if value.Valid {
 				_m.Inizio = value.Time
 			}
-		case attivitaquesitoesame.FieldFine:
-			if value, ok := values[i].(*sql.NullTime); !ok {
-				return fmt.Errorf("unexpected type %T for field fine", values[i])
+		case attivitaquesitoesame.FieldDurataMs:
+			if value, ok := values[i].(*sql.NullInt64); !ok {
+				return fmt.Errorf("unexpected type %T for field durata_ms", values[i])
 			} else if value.Valid {
-				_m.Fine = value.Time
+				_m.DurataMs = int(value.Int64)
 			}
 		case attivitaquesitoesame.FieldTimestamp:
 			if value, ok := values[i].(*sql.NullTime); !ok {
@@ -124,10 +124,10 @@ func (_m *AttivitaQuesitoEsame) assignValues(columns []string, values []any) err
 			}
 		case attivitaquesitoesame.ForeignKeys[0]:
 			if value, ok := values[i].(*sql.NullInt64); !ok {
-				return fmt.Errorf("unexpected type %T for edge-field quesito_esame_logs", value)
+				return fmt.Errorf("unexpected type %T for edge-field quesito_esame_attivita", value)
 			} else if value.Valid {
-				_m.quesito_esame_logs = new(int)
-				*_m.quesito_esame_logs = int(value.Int64)
+				_m.quesito_esame_attivita = new(int)
+				*_m.quesito_esame_attivita = int(value.Int64)
 			}
 		default:
 			_m.selectValues.Set(columns[i], values[i])
@@ -181,8 +181,8 @@ func (_m *AttivitaQuesitoEsame) String() string {
 	builder.WriteString("inizio=")
 	builder.WriteString(_m.Inizio.Format(time.ANSIC))
 	builder.WriteString(", ")
-	builder.WriteString("fine=")
-	builder.WriteString(_m.Fine.Format(time.ANSIC))
+	builder.WriteString("durata_ms=")
+	builder.WriteString(fmt.Sprintf("%v", _m.DurataMs))
 	builder.WriteString(", ")
 	builder.WriteString("timestamp=")
 	builder.WriteString(_m.Timestamp.Format(time.ANSIC))

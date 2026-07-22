@@ -26,6 +26,7 @@ func (QuesitoEsame) Annotations() []schema.Annotation {
 func (QuesitoEsame) Fields() []ent.Field {
 	return []ent.Field{
 		field.Bool("risposta_finale").
+			Nillable().
 			Optional(),
 		field.Time("created_at").
 			Default(time.Now),
@@ -43,6 +44,6 @@ func (QuesitoEsame) Edges() []ent.Edge {
 		edge.To("domanda_originale", Domanda.Type).
 			Unique().
 			Required(),
-		edge.To("logs", AttivitaQuesitoEsame.Type),
+		edge.To("attivita", AttivitaQuesitoEsame.Type),
 	}
 }

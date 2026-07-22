@@ -28,7 +28,7 @@ type QuesitoEsameQuery struct {
 	predicates           []predicate.QuesitoEsame
 	withEsame            *EsameQuery
 	withDomandaOriginale *DomandaQuery
-	withLogs             *AttivitaQuesitoEsameQuery
+	withAttivita         *AttivitaQuesitoEsameQuery
 	withFKs              bool
 	// intermediate query (i.e. traversal path).
 	sql  *sql.Selector
@@ -110,8 +110,8 @@ func (_q *QuesitoEsameQuery) QueryDomandaOriginale() *DomandaQuery {
 	return query
 }
 
-// QueryLogs chains the current query on the "logs" edge.
-func (_q *QuesitoEsameQuery) QueryLogs() *AttivitaQuesitoEsameQuery {
+// QueryAttivita chains the current query on the "attivita" edge.
+func (_q *QuesitoEsameQuery) QueryAttivita() *AttivitaQuesitoEsameQuery {
 	query := (&AttivitaQuesitoEsameClient{config: _q.config}).Query()
 	query.path = func(ctx context.Context) (fromU *sql.Selector, err error) {
 		if err := _q.prepareQuery(ctx); err != nil {
@@ -124,7 +124,7 @@ func (_q *QuesitoEsameQuery) QueryLogs() *AttivitaQuesitoEsameQuery {
 		step := sqlgraph.NewStep(
 			sqlgraph.From(quesitoesame.Table, quesitoesame.FieldID, selector),
 			sqlgraph.To(attivitaquesitoesame.Table, attivitaquesitoesame.FieldID),
-			sqlgraph.Edge(sqlgraph.O2M, false, quesitoesame.LogsTable, quesitoesame.LogsColumn),
+			sqlgraph.Edge(sqlgraph.O2M, false, quesitoesame.AttivitaTable, quesitoesame.AttivitaColumn),
 		)
 		fromU = sqlgraph.SetNeighbors(_q.driver.Dialect(), step)
 		return fromU, nil
@@ -326,7 +326,7 @@ func (_q *QuesitoEsameQuery) Clone() *QuesitoEsameQuery {
 		predicates:           append([]predicate.QuesitoEsame{}, _q.predicates...),
 		withEsame:            _q.withEsame.Clone(),
 		withDomandaOriginale: _q.withDomandaOriginale.Clone(),
-		withLogs:             _q.withLogs.Clone(),
+		withAttivita:         _q.withAttivita.Clone(),
 		// clone intermediate query.
 		sql:  _q.sql.Clone(),
 		path: _q.path,
@@ -355,14 +355,14 @@ func (_q *QuesitoEsameQuery) WithDomandaOriginale(opts ...func(*DomandaQuery)) *
 	return _q
 }
 
-// WithLogs tells the query-builder to eager-load the nodes that are connected to
-// the "logs" edge. The optional arguments are used to configure the query builder of the edge.
-func (_q *QuesitoEsameQuery) WithLogs(opts ...func(*AttivitaQuesitoEsameQuery)) *QuesitoEsameQuery {
+// WithAttivita tells the query-builder to eager-load the nodes that are connected to
+// the "attivita" edge. The optional arguments are used to configure the query builder of the edge.
+func (_q *QuesitoEsameQuery) WithAttivita(opts ...func(*AttivitaQuesitoEsameQuery)) *QuesitoEsameQuery {
 	query := (&AttivitaQuesitoEsameClient{config: _q.config}).Query()
 	for _, opt := range opts {
 		opt(query)
 	}
-	_q.withLogs = query
+	_q.withAttivita = query
 	return _q
 }
 
@@ -448,7 +448,7 @@ func (_q *QuesitoEsameQuery) sqlAll(ctx context.Context, hooks ...queryHook) ([]
 		loadedTypes = [3]bool{
 			_q.withEsame != nil,
 			_q.withDomandaOriginale != nil,
-			_q.withLogs != nil,
+			_q.withAttivita != nil,
 		}
 	)
 	if _q.withEsame != nil || _q.withDomandaOriginale != nil {
@@ -487,10 +487,10 @@ func (_q *QuesitoEsameQuery) sqlAll(ctx context.Context, hooks ...queryHook) ([]
 			return nil, err
 		}
 	}
-	if query := _q.withLogs; query != nil {
-		if err := _q.loadLogs(ctx, query, nodes,
-			func(n *QuesitoEsame) { n.Edges.Logs = []*AttivitaQuesitoEsame{} },
-			func(n *QuesitoEsame, e *AttivitaQuesitoEsame) { n.Edges.Logs = append(n.Edges.Logs, e) }); err != nil {
+	if query := _q.withAttivita; query != nil {
+		if err := _q.loadAttivita(ctx, query, nodes,
+			func(n *QuesitoEsame) { n.Edges.Attivita = []*AttivitaQuesitoEsame{} },
+			func(n *QuesitoEsame, e *AttivitaQuesitoEsame) { n.Edges.Attivita = append(n.Edges.Attivita, e) }); err != nil {
 			return nil, err
 		}
 	}
@@ -561,7 +561,7 @@ func (_q *QuesitoEsameQuery) loadDomandaOriginale(ctx context.Context, query *Do
 	}
 	return nil
 }
-func (_q *QuesitoEsameQuery) loadLogs(ctx context.Context, query *AttivitaQuesitoEsameQuery, nodes []*QuesitoEsame, init func(*QuesitoEsame), assign func(*QuesitoEsame, *AttivitaQuesitoEsame)) error {
+func (_q *QuesitoEsameQuery) loadAttivita(ctx context.Context, query *AttivitaQuesitoEsameQuery, nodes []*QuesitoEsame, init func(*QuesitoEsame), assign func(*QuesitoEsame, *AttivitaQuesitoEsame)) error {
 	fks := make([]driver.Value, 0, len(nodes))
 	nodeids := make(map[int]*QuesitoEsame)
 	for i := range nodes {
@@ -573,20 +573,20 @@ func (_q *QuesitoEsameQuery) loadLogs(ctx context.Context, query *AttivitaQuesit
 	}
 	query.withFKs = true
 	query.Where(predicate.AttivitaQuesitoEsame(func(s *sql.Selector) {
-		s.Where(sql.InValues(s.C(quesitoesame.LogsColumn), fks...))
+		s.Where(sql.InValues(s.C(quesitoesame.AttivitaColumn), fks...))
 	}))
 	neighbors, err := query.All(ctx)
 	if err != nil {
 		return err
 	}
 	for _, n := range neighbors {
-		fk := n.quesito_esame_logs
+		fk := n.quesito_esame_attivita
 		if fk == nil {
-			return fmt.Errorf(`foreign-key "quesito_esame_logs" is nil for node %v`, n.ID)
+			return fmt.Errorf(`foreign-key "quesito_esame_attivita" is nil for node %v`, n.ID)
 		}
 		node, ok := nodeids[*fk]
 		if !ok {
-			return fmt.Errorf(`unexpected referenced foreign-key "quesito_esame_logs" returned %v for node %v`, *fk, n.ID)
+			return fmt.Errorf(`unexpected referenced foreign-key "quesito_esame_attivita" returned %v for node %v`, *fk, n.ID)
 		}
 		assign(node, n)
 	}
