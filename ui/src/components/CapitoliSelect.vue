@@ -14,10 +14,7 @@
 
 <script lang="ts" setup>
 import { useQuizStore } from '@/stores/quiz';
-import { computed } from 'vue';
 
 const quizStore = useQuizStore()
-
-const capitoli = computed(() => Array.from(quizStore.capitoli.values()))
 
 </script>

@@ -18,7 +18,7 @@
 
         <v-spacer></v-spacer>
 
-        <v-icon :icon="settingsDrawerIcon" @click="toggleSettingleDrawer"></v-icon>
+        <v-icon :icon="settingsDrawerIcon" @click="toggleSettingleDrawer" :color="settingsColor"></v-icon>
       </v-system-bar>
       <v-navigation-drawer v-model="appStore.opennedSettings" color="grey-darken-2" :width="mobile ? width : width / 4">
         <capitoli-select></capitoli-select>
@@ -42,7 +42,7 @@
 
 <script lang="ts" setup>
 import { useQuizStore } from '@/stores/quiz';
-import { computed, ref } from 'vue';
+import { computed } from 'vue';
 import CapitoliSelect from './components/CapitoliSelect.vue';
 import { useDisplay } from 'vuetify';
 import { useAppStore } from './stores/app.ts';
@@ -53,6 +53,10 @@ const quizStore = useQuizStore()
 
 const settingsDrawerIcon = computed(() =>
   appStore.opennedSettings ? "mdi-close-circle" : "mdi-cog"
+)
+
+const settingsColor = computed(() =>
+  appStore.opennedSettings ? "red-darken-2" : ""
 )
 
 function toggleSettingleDrawer() {
