@@ -10,16 +10,28 @@
       </div>
     </v-overlay>
     <v-layout class="d-flex flex-column" v-if="!quizStore.isLoading">
-      <v-system-bar color="grey-darken-3">
-        <span>
-          <v-icon icon="mdi-account"></v-icon>
-          {{ quizStore.user }}
-        </span>
+      <v-app-bar>
+        <template v-slot:prepend>
 
+          <v-app-bar-nav-icon :icon="settingsDrawerIcon" @click="toggleSettingleDrawer" :color="settingsColor"></v-app-bar-nav-icon>
+        </template>
+        <v-app-bar-title>
+          <v-btn to="/"><v-icon>mdi-home</v-icon></v-btn>
+          <v-btn
+            v-for="quizRoute in quizRoutes" :key="quizRoute.path"
+            :to="quizRoute.path"
+          >
+          <v-icon v-if="quizRoute.meta.icon">{{quizRoute.meta.icon}}</v-icon> 
+          {{ quizRoute.meta.title || quizRoute.name }}
+        </v-btn>
+        </v-app-bar-title>
         <v-spacer></v-spacer>
-
-        <v-icon :icon="settingsDrawerIcon" @click="toggleSettingleDrawer" :color="settingsColor"></v-icon>
-      </v-system-bar>
+        <template v-slot:append=>
+          <span>
+            {{ quizStore.user }}
+          </span>
+        </template>
+      </v-app-bar>
       <v-navigation-drawer v-model="appStore.opennedSettings" color="grey-darken-2" :width="mobile ? width : width / 4">
         <capitoli-select></capitoli-select>
       </v-navigation-drawer>
@@ -46,13 +58,20 @@ import { computed } from 'vue';
 import CapitoliSelect from './components/CapitoliSelect.vue';
 import { useDisplay } from 'vuetify';
 import { useAppStore } from './stores/app.ts';
+import { useRoute } from 'vue-router';
+import { useRouter } from 'vuetify/lib/composables/router.mjs';
 
+const router = useRouter()
+const route = useRoute()
 const { mobile, width } = useDisplay()
 const appStore = useAppStore()
 const quizStore = useQuizStore()
 
+const quizRoutes = computed(() => 
+  router?.getRoutes().filter(r => r.meta.type === 'quiz')
+)
 const settingsDrawerIcon = computed(() =>
-  appStore.opennedSettings ? "mdi-close-circle" : "mdi-cog"
+  appStore.opennedSettings ? "mdi-close" : "mdi-menu"
 )
 
 const settingsColor = computed(() =>

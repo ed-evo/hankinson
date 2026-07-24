@@ -1,4 +1,10 @@
-<route>{"name":"quiz-training"}</route>
+<route lang="yaml">
+name: quiz-infinito
+meta:
+  type: quiz
+  title: Infinito
+  icon: mdi-infinity
+</route>
 
 <template>
   <QuesitoView

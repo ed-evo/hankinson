@@ -30,6 +30,13 @@ export interface Quesito {
     domandaId: number 
 }
 
+export interface QuesitiBasicStats {
+    totale: number;
+    corrette: number;
+    sbagliate: number;
+    non_date: number;
+}
+
 export enum TipoAttivitaQuesito {
     salta = "salta",
     risposta = "risposta",
@@ -117,6 +124,10 @@ export async function nextQuesitoAperto(capitoliIds: number[]): Promise<Quesito>
         }
     }))
     return quesito
+}
+
+export async function getQuesitiStats(): Promise<QuesitiBasicStats> {
+    return ofetch<QuesitiBasicStats>("/esami/quesiti/stats", build_request_options())
 }
 
 export async function notifyQuesityAttivita(quesitoId: number, attivita: AttivitaQuesito): Promise<void> {
