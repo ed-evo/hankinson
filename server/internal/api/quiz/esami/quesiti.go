@@ -121,14 +121,14 @@ func putAttivitaQuesito(db *ent.Client) http.HandlerFunc {
 	}
 }
 
-type QuesitoStatsResponse struct {
+type QuesitiStatsResponse struct {
 	Totale    int `json:"totale"`
 	Corrette  int `json:"corrette"`
 	Sbagliate int `json:"sbagliate"`
 	NonDate   int `json:"non_date"`
 }
 
-func (s *QuesitoStatsResponse) Render(w http.ResponseWriter, r *http.Request) error {
+func (s *QuesitiStatsResponse) Render(w http.ResponseWriter, r *http.Request) error {
 	return nil
 }
 func getStats(db *ent.Client) http.HandlerFunc {
@@ -163,7 +163,7 @@ func getStats(db *ent.Client) http.HandlerFunc {
 		defer rows.Close()
 
 		for rows.Next() {
-			var s QuesitoStatsResponse
+			var s QuesitiStatsResponse
 			rows.Scan(
 				&s.Totale,
 				&s.Corrette,
