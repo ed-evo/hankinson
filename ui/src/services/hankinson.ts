@@ -43,6 +43,12 @@ export interface AttivitaQuesito {
     inizio: Date,
     durata_ms: number
 }
+
+export interface PausaEvent {
+    inizio: Date,
+    fine: Date,
+}
+
 export interface Capitolo {
     id: number;
     nome: string;
@@ -138,5 +144,13 @@ export class AttivitaEmitter {
             risposta_data
         })
         this.startedAt = finishedAt
+    }
+
+    async firePausa(event: PausaEvent) {
+        await notifyQuesityAttivita(this.idQuesito, {
+            tipo: TipoAttivitaQuesito.pausa,
+            inizio: event.inizio,
+            durata_ms: event.fine.getTime() - event.inizio.getTime()
+        })
     }
 }

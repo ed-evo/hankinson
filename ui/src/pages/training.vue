@@ -1,7 +1,7 @@
 <route>{"name":"quiz-training"}</route>
 
 <template>
-  <quesito-component
+  <QuesitoView
     v-if="domanda" 
     :width="appStore.width"
     :height="appStore.height"
@@ -10,7 +10,8 @@
     :answer="answer"
     @answer="giveAnsware"
     @next="done"
-  ></quesito-component>
+    @pause="onPause"
+  ></QuesitoView>
   <v-overlay :model-value="isLoading" class="align-center justify-center" persistent>
     <v-progress-circular indeterminate size="64" />
   </v-overlay>
@@ -18,19 +19,16 @@
 
 <script lang="ts" setup>
 import { useQuizStore } from '@/stores/quiz';
-import { AttivitaEmitter, Choice, getDomandaById, nextQuesitoAperto, notifyQuesityAttivita, TipoAttivitaQuesito, type Domanda, type Quesito } from '@/services/hankinson';
+import { AttivitaEmitter, Choice, getDomandaById, nextQuesitoAperto, TipoAttivitaQuesito, type Domanda, type PausaEvent, type Quesito } from '@/services/hankinson';
 import { ref, onMounted } from 'vue';
 
 import { useThrottleFn } from '@vueuse/core';
-import { useAppVisibility } from '@/composables/app';
 import { useAppStore } from '@/stores/app';
-import QuesitoComponent from '@/components/Quesito.vue'
+import QuesitoView from '@/components/QuesitoView.vue'
 
 const isLoading = ref(true)
 const quizStore = useQuizStore()
 const appStore = useAppStore()
-
-const { onVisibilityChange } = useAppVisibility()
 
 const quesito = ref<Quesito | null>(null)
 const domanda = ref<Domanda | null>(null)
@@ -56,6 +54,11 @@ const done = useThrottleFn(async () => {
   isLoading.value = false
 }, 300)
 
+function onPause(event: PausaEvent) {
+  console.log("Paused", event)
+  attivitaEmitter?.firePausa(event)
+}
+
 async function loadQuesito() {
   quesito.value = await nextQuesitoAperto(quizStore.capitoliSelezionati)
 
@@ -67,20 +70,5 @@ onMounted(async () => {
   isLoading.value = true
   await loadQuesito()
   isLoading.value = false
-})
-
-onVisibilityChange(event => {
-  if (event.state != 'hidden') {
-    return
-  }
-  if (!quesito.value) {
-    return
-  }
-  console.log("Sleeped for: ", event.finishedAt.getTime() - event.startedAt.getTime())
-  notifyQuesityAttivita(quesito.value.id, {
-    tipo: TipoAttivitaQuesito.pausa,
-    inizio: event.startedAt,
-    durata_ms: event.finishedAt.getTime() - event.startedAt.getTime()
-  })
 })
 </script>

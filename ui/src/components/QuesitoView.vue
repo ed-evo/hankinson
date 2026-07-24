@@ -41,8 +41,10 @@
 </template>
 
 <script lang="ts" setup>
-import { Choice, type Domanda } from '@/services/hankinson';
+import { Choice, type Domanda, type PausaEvent } from '@/services/hankinson';
 import { validateAnsware } from '@/utils/quesiti';
+import { useDocumentVisibility } from '@vueuse/core';
+import { watch } from 'vue';
 
 defineProps<{
     width: number,
@@ -51,8 +53,22 @@ defineProps<{
     domanda: Domanda,
     answer: Choice | null,
 }>()
-defineEmits<{
+const emit = defineEmits<{
     (e: 'answer', choice: Choice | null): void,
     (e: 'next'): void,
+    (e: 'pause', event: PausaEvent): void,
 }>()
+
+const visibility = useDocumentVisibility()
+let pauseStartedAt = new Date()
+
+watch(visibility, (current, old) => {
+    if (current === 'hidden') {
+        pauseStartedAt = new Date()
+    }
+    
+    if (current === 'visible' && old === 'hidden') {
+        emit('pause', { inizio: pauseStartedAt, fine: new Date() })
+    }
+})
 </script>
