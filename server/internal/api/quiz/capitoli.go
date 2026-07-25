@@ -2,7 +2,6 @@ package quiz_api
 
 import (
 	"context"
-	"log"
 	"net/http"
 	"strconv"
 
@@ -21,19 +20,23 @@ import (
 
 func newCapitoliRouter(db *ent.Client) chi.Router {
 	capitoliRouter := chi.NewRouter()
-	api_middlewares.AddToGlobal(capitoliRouter)
-	capitoliRouter.Get("/", func(w http.ResponseWriter, r *http.Request) {
-		capitoli, _ := db.Capitolo.Query().
-			All(r.Context())
-		render.JSON(w, r, capitoli)
-	})
-	capitoliRouter.Get("/stats", getBasicStats(db))
-	capitoliRouter.Route("/{capitoloID:[0-9]+}", func(r chi.Router) {
-		r.Use(getCapitoloCtx(db))
-		r.Get("/", func(w http.ResponseWriter, r *http.Request) {
-			c := r.Context().Value("capitolo").(*ent.Capitolo)
 
-			render.JSON(w, r, c)
+	capitoliRouter.Get("/stats", getBasicStats(db))
+	// chaced responses
+	capitoliRouter.Group(func(r chi.Router) {
+		api_middlewares.AddToGlobal(r)
+		r.Get("/", func(w http.ResponseWriter, r *http.Request) {
+			capitoli, _ := db.Capitolo.Query().
+				All(r.Context())
+			render.JSON(w, r, capitoli)
+		})
+		r.Route("/{capitoloID:[0-9]+}", func(r chi.Router) {
+			r.Use(getCapitoloCtx(db))
+			r.Get("/", func(w http.ResponseWriter, r *http.Request) {
+				c := r.Context().Value("capitolo").(*ent.Capitolo)
+
+				render.JSON(w, r, c)
+			})
 		})
 	})
 	return capitoliRouter
@@ -71,7 +74,7 @@ func getCapitoloCtx(db *ent.Client) func(http.Handler) http.Handler {
 type CapitoliStats struct {
 	ID int `json:"id"`
 	esami_api.QuesitiStatsResponse
-	Durate int `json:"durata"`
+	DurateMs int `json:"durata_ms"`
 }
 
 func (s *CapitoliStats) Render(w http.ResponseWriter, r *http.Request) error {
@@ -108,11 +111,9 @@ func getBasicStats(db *ent.Client) http.HandlerFunc {
 			LeftJoin(a).On(q.C(quesitoesame.FieldID), a.C(attivitaquesitoesame.QuesitoEsameColumn)).
 			GroupBy(cID)
 
-		query, args := selector.Query()
+		query, _ := selector.Query()
 
-		log.Printf("%v", args)
-
-		rows, err := db.Debug().QueryContext(
+		rows, err := db.QueryContext(
 			r.Context(),
 			query,
 			attivitaquesitoesame.TipoSalta,
@@ -135,7 +136,7 @@ func getBasicStats(db *ent.Client) http.HandlerFunc {
 				&s.Corrette,
 				&s.Sbagliate,
 				&s.NonDate,
-				&s.Durate,
+				&s.DurateMs,
 			)
 			stats = append(stats, &s)
 		}

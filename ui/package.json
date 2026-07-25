@@ -13,9 +13,11 @@
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
+    "@date-io/date-fns": "^3.2.1",
     "@fontsource/roboto": "^5.2.10",
     "@mdi/font": "7.4.47",
     "@vueuse/core": "^14.3.0",
+    "date-fns": "^4.4.0",
     "ofetch": "^1.5.1",
     "pinia": "^3.0.4",
     "vue": "^3.5.30",

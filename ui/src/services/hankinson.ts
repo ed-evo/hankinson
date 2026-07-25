@@ -67,6 +67,15 @@ export interface Capitolo {
     }
 }
 
+export interface CapitoloBasicStats {
+    id: number,
+    totale: number;
+    corrette: number;
+    sbagliate: number;
+    non_date: number;
+    durata_ms: number,
+}
+
 export type User = string
 
 export const USER_REF: Ref<User | null> = useLocalStorage('hankinson.user-email', null)
@@ -102,6 +111,10 @@ export async function login(): Promise<User> {
 export async function getCapitoli(): Promise<Capitolo[]> {
     return ofetch<Capitolo[]>("/capitoli", build_request_options())
     
+}
+
+export async function getCapitoliStats(): Promise<CapitoloBasicStats[]> {
+    return ofetch<CapitoloBasicStats[]>('/capitoli/stats', build_request_options())
 }
 
 export async function getDomandeByCapitolo(capitoloId: number): Promise<Domanda[]> {

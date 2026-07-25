@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@date-io/date-fns':
+        specifier: ^3.2.1
+        version: 3.2.1(date-fns@4.4.0)
       '@fontsource/roboto':
         specifier: ^5.2.10
         version: 5.2.10
@@ -17,6 +20,9 @@ importers:
       '@vueuse/core':
         specifier: ^14.3.0
         version: 14.3.0(vue@3.5.39(typescript@5.9.3))
+      date-fns:
+        specifier: ^4.4.0
+        version: 4.4.0
       ofetch:
         specifier: ^1.5.1
         version: 1.5.1
@@ -129,6 +135,17 @@ packages:
   '@clack/prompts@1.7.0':
     resolution: {integrity: sha512-y7/yvZ2TPAnR9+jnc00klvNNLkJiXFFrQA/hlLCcxA9a2A4zQIOimyFQ9XfwYKiGD1fb5GY8vbKIIgO8d5Tb2A==}
     engines: {node: '>= 20.12.0'}
+
+  '@date-io/core@3.2.0':
+    resolution: {integrity: sha512-hqwXvY8/YBsT9RwQITG868ZNb1MVFFkF7W1Ecv4P472j/ZWa7EFcgSmxy8PUElNVZfvhdvfv+a8j6NWJqOX5mA==}
+
+  '@date-io/date-fns@3.2.1':
+    resolution: {integrity: sha512-CtXgTOAamkImI+CmbWRNdBi4ljj9xm/tdoPa+eeeiygduzubJTsXp18vYz+Vs/9yLho1zUOXlxpsfsF7PsXSWQ==}
+    peerDependencies:
+      date-fns: ^3.2.0 || ^4.1.0
+    peerDependenciesMeta:
+      date-fns:
+        optional: true
 
   '@emnapi/core@1.11.1':
     resolution: {integrity: sha512-RSvbQmHzdKzNsLYa/wHrbc3KN4sYLKAdPZxqiM2HATqv/SBk2/ENSHpvXGaLOMcsAyz0poEGqkmmKYG3OWiJEQ==}
@@ -797,6 +814,9 @@ packages:
 
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
+
+  date-fns@4.4.0:
+    resolution: {integrity: sha512-+1UMbeh68lH1SegH83CGWwpb6OHHbpSgr3+s5Eww5M4CAgswBpoWS0AjTOfEJ33HiYKz1hdj/KTFprzXHmq/6w==}
 
   debug@4.4.3:
     resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
@@ -1994,6 +2014,14 @@ snapshots:
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
 
+  '@date-io/core@3.2.0': {}
+
+  '@date-io/date-fns@3.2.1(date-fns@4.4.0)':
+    dependencies:
+      '@date-io/core': 3.2.0
+    optionalDependencies:
+      date-fns: 4.4.0
+
   '@emnapi/core@1.11.1':
     dependencies:
       '@emnapi/wasi-threads': 1.2.2
@@ -2643,6 +2671,8 @@ snapshots:
   cssesc@3.0.0: {}
 
   csstype@3.2.3: {}
+
+  date-fns@4.4.0: {}
 
   debug@4.4.3:
     dependencies:
