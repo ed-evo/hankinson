@@ -8,8 +8,8 @@ import (
 )
 
 type Config struct {
-	// Path to the frontend directory where FE build files are located
-	FrontendBasePath string `env:"FE_BASE_PATH" envDefault:"public"`
+	GeminiApiKey string `env:"GEMINI_API_KEY"`
+	GeminiModel  string `env:"GEMINI_MODEL"`
 }
 
 var (

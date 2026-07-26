@@ -5,22 +5,16 @@ import (
 	"io/fs"
 	"log"
 	"net/http"
+	"path"
 
-	"github.com/ed-evo/hankinson/server/ent"
-	"github.com/ed-evo/hankinson/server/internal/api"
 	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
 )
 
 //go:embed public/*
 var PublicFiles embed.FS
 
-func NewWebRouter(db *ent.Client) chi.Router {
+func NewWebRouter() chi.Router {
 	r := chi.NewRouter()
-
-	r.Use(middleware.Recoverer) // Prevents server crashes if code panics
-
-	r.Mount(api.BasePath, api.NewApiRouter(db))
 
 	publicFS, err := fs.Sub(PublicFiles, "public")
 	if err != nil {
@@ -30,4 +24,9 @@ func NewWebRouter(db *ent.Client) chi.Router {
 	r.Handle("/*", http.FileServer(http.FS(publicFS)))
 
 	return r
+}
+
+func GetQuizImage(h string) ([]byte, error) {
+	p := path.Join("public", "quiz_assets", h+".png")
+	return PublicFiles.ReadFile(p)
 }
