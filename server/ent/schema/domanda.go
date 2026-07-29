@@ -52,6 +52,7 @@ func (Domanda) Edges() []ent.Edge {
 			Unique(). // Garantisce che sia Many-to-One
 			Field("id_capitolo").
 			Required(),
+		edge.To("spiegazione", Spiegazione.Type),
 	}
 }
 

@@ -28,10 +28,14 @@ const (
 	EdgeArgomenti = "argomenti"
 	// EdgeCapitolo holds the string denoting the capitolo edge name in mutations.
 	EdgeCapitolo = "capitolo"
+	// EdgeSpiegazione holds the string denoting the spiegazione edge name in mutations.
+	EdgeSpiegazione = "spiegazione"
 	// ArgomentoFieldID holds the string denoting the ID field of the Argomento.
 	ArgomentoFieldID = "id"
 	// CapitoloFieldID holds the string denoting the ID field of the Capitolo.
 	CapitoloFieldID = "id"
+	// SpiegazioneFieldID holds the string denoting the ID field of the Spiegazione.
+	SpiegazioneFieldID = "id"
 	// Table holds the table name of the domanda in the database.
 	Table = "domande"
 	// ArgomentiTable is the table that holds the argomenti relation/edge. The primary key declared below.
@@ -46,6 +50,13 @@ const (
 	CapitoloInverseTable = "capitoli"
 	// CapitoloColumn is the table column denoting the capitolo relation/edge.
 	CapitoloColumn = "id_capitolo"
+	// SpiegazioneTable is the table that holds the spiegazione relation/edge.
+	SpiegazioneTable = "spiegazioni"
+	// SpiegazioneInverseTable is the table name for the Spiegazione entity.
+	// It exists in this package in order to avoid circular dependency with the "spiegazione" package.
+	SpiegazioneInverseTable = "spiegazioni"
+	// SpiegazioneColumn is the table column denoting the spiegazione relation/edge.
+	SpiegazioneColumn = "numero_domanda"
 )
 
 // Columns holds all SQL columns for domanda fields.
@@ -133,6 +144,20 @@ func ByCapitoloField(field string, opts ...sql.OrderTermOption) OrderOption {
 		sqlgraph.OrderByNeighborTerms(s, newCapitoloStep(), sql.OrderByField(field, opts...))
 	}
 }
+
+// BySpiegazioneCount orders the results by spiegazione count.
+func BySpiegazioneCount(opts ...sql.OrderTermOption) OrderOption {
+	return func(s *sql.Selector) {
+		sqlgraph.OrderByNeighborsCount(s, newSpiegazioneStep(), opts...)
+	}
+}
+
+// BySpiegazione orders the results by spiegazione terms.
+func BySpiegazione(term sql.OrderTerm, terms ...sql.OrderTerm) OrderOption {
+	return func(s *sql.Selector) {
+		sqlgraph.OrderByNeighborTerms(s, newSpiegazioneStep(), append([]sql.OrderTerm{term}, terms...)...)
+	}
+}
 func newArgomentiStep() *sqlgraph.Step {
 	return sqlgraph.NewStep(
 		sqlgraph.From(Table, FieldID),
@@ -145,5 +170,12 @@ func newCapitoloStep() *sqlgraph.Step {
 		sqlgraph.From(Table, FieldID),
 		sqlgraph.To(CapitoloInverseTable, CapitoloFieldID),
 		sqlgraph.Edge(sqlgraph.M2O, true, CapitoloTable, CapitoloColumn),
+	)
+}
+func newSpiegazioneStep() *sqlgraph.Step {
+	return sqlgraph.NewStep(
+		sqlgraph.From(Table, FieldID),
+		sqlgraph.To(SpiegazioneInverseTable, SpiegazioneFieldID),
+		sqlgraph.Edge(sqlgraph.O2M, false, SpiegazioneTable, SpiegazioneColumn),
 	)
 }

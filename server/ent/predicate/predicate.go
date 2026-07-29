@@ -27,5 +27,8 @@ type QuesitoEsame func(*sql.Selector)
 // Seed is the predicate function for seed builders.
 type Seed func(*sql.Selector)
 
+// Spiegazione is the predicate function for spiegazione builders.
+type Spiegazione func(*sql.Selector)
+
 // Utente is the predicate function for utente builders.
 type Utente func(*sql.Selector)

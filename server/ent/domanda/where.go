@@ -379,6 +379,29 @@ func HasCapitoloWith(preds ...predicate.Capitolo) predicate.Domanda {
 	})
 }
 
+// HasSpiegazione applies the HasEdge predicate on the "spiegazione" edge.
+func HasSpiegazione() predicate.Domanda {
+	return predicate.Domanda(func(s *sql.Selector) {
+		step := sqlgraph.NewStep(
+			sqlgraph.From(Table, FieldID),
+			sqlgraph.Edge(sqlgraph.O2M, false, SpiegazioneTable, SpiegazioneColumn),
+		)
+		sqlgraph.HasNeighbors(s, step)
+	})
+}
+
+// HasSpiegazioneWith applies the HasEdge predicate on the "spiegazione" edge with a given conditions (other predicates).
+func HasSpiegazioneWith(preds ...predicate.Spiegazione) predicate.Domanda {
+	return predicate.Domanda(func(s *sql.Selector) {
+		step := newSpiegazioneStep()
+		sqlgraph.HasNeighborsWith(s, step, func(s *sql.Selector) {
+			for _, p := range preds {
+				p(s)
+			}
+		})
+	})
+}
+
 // And groups predicates with the AND operator between them.
 func And(predicates ...predicate.Domanda) predicate.Domanda {
 	return predicate.Domanda(sql.AndPredicates(predicates...))

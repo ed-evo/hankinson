@@ -19,6 +19,7 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/predicate"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/seed"
+	"github.com/ed-evo/hankinson/server/ent/spiegazione"
 	"github.com/ed-evo/hankinson/server/ent/utente"
 )
 
@@ -38,6 +39,7 @@ const (
 	TypeEsame                = "Esame"
 	TypeQuesitoEsame         = "QuesitoEsame"
 	TypeSeed                 = "Seed"
+	TypeSpiegazione          = "Spiegazione"
 	TypeUtente               = "Utente"
 )
 
@@ -1825,25 +1827,28 @@ func (m *CapitoloMutation) ResetEdge(name string) error {
 // DomandaMutation represents an operation that mutates the Domanda nodes in the graph.
 type DomandaMutation struct {
 	config
-	op               Op
-	typ              string
-	id               *int
-	testo            *string
-	is_true          *bool
-	immagine         *string
-	pagina_quiz      *int
-	addpagina_quiz   *int
-	id_blocco        *int
-	addid_blocco     *int
-	clearedFields    map[string]struct{}
-	argomenti        map[int]struct{}
-	removedargomenti map[int]struct{}
-	clearedargomenti bool
-	capitolo         *int
-	clearedcapitolo  bool
-	done             bool
-	oldValue         func(context.Context) (*Domanda, error)
-	predicates       []predicate.Domanda
+	op                 Op
+	typ                string
+	id                 *int
+	testo              *string
+	is_true            *bool
+	immagine           *string
+	pagina_quiz        *int
+	addpagina_quiz     *int
+	id_blocco          *int
+	addid_blocco       *int
+	clearedFields      map[string]struct{}
+	argomenti          map[int]struct{}
+	removedargomenti   map[int]struct{}
+	clearedargomenti   bool
+	capitolo           *int
+	clearedcapitolo    bool
+	spiegazione        map[int]struct{}
+	removedspiegazione map[int]struct{}
+	clearedspiegazione bool
+	done               bool
+	oldValue           func(context.Context) (*Domanda, error)
+	predicates         []predicate.Domanda
 }
 
 var _ ent.Mutation = (*DomandaMutation)(nil)
@@ -2313,6 +2318,60 @@ func (m *DomandaMutation) ResetCapitolo() {
 	m.clearedcapitolo = false
 }
 
+// AddSpiegazioneIDs adds the "spiegazione" edge to the Spiegazione entity by ids.
+func (m *DomandaMutation) AddSpiegazioneIDs(ids ...int) {
+	if m.spiegazione == nil {
+		m.spiegazione = make(map[int]struct{})
+	}
+	for i := range ids {
+		m.spiegazione[ids[i]] = struct{}{}
+	}
+}
+
+// ClearSpiegazione clears the "spiegazione" edge to the Spiegazione entity.
+func (m *DomandaMutation) ClearSpiegazione() {
+	m.clearedspiegazione = true
+}
+
+// SpiegazioneCleared reports if the "spiegazione" edge to the Spiegazione entity was cleared.
+func (m *DomandaMutation) SpiegazioneCleared() bool {
+	return m.clearedspiegazione
+}
+
+// RemoveSpiegazioneIDs removes the "spiegazione" edge to the Spiegazione entity by IDs.
+func (m *DomandaMutation) RemoveSpiegazioneIDs(ids ...int) {
+	if m.removedspiegazione == nil {
+		m.removedspiegazione = make(map[int]struct{})
+	}
+	for i := range ids {
+		delete(m.spiegazione, ids[i])
+		m.removedspiegazione[ids[i]] = struct{}{}
+	}
+}
+
+// RemovedSpiegazione returns the removed IDs of the "spiegazione" edge to the Spiegazione entity.
+func (m *DomandaMutation) RemovedSpiegazioneIDs() (ids []int) {
+	for id := range m.removedspiegazione {
+		ids = append(ids, id)
+	}
+	return
+}
+
+// SpiegazioneIDs returns the "spiegazione" edge IDs in the mutation.
+func (m *DomandaMutation) SpiegazioneIDs() (ids []int) {
+	for id := range m.spiegazione {
+		ids = append(ids, id)
+	}
+	return
+}
+
+// ResetSpiegazione resets all changes to the "spiegazione" edge.
+func (m *DomandaMutation) ResetSpiegazione() {
+	m.spiegazione = nil
+	m.clearedspiegazione = false
+	m.removedspiegazione = nil
+}
+
 // Where appends a list predicates to the DomandaMutation builder.
 func (m *DomandaMutation) Where(ps ...predicate.Domanda) {
 	m.predicates = append(m.predicates, ps...)
@@ -2567,12 +2626,15 @@ func (m *DomandaMutation) ResetField(name string) error {
 
 // AddedEdges returns all edge names that were set/added in this mutation.
 func (m *DomandaMutation) AddedEdges() []string {
-	edges := make([]string, 0, 2)
+	edges := make([]string, 0, 3)
 	if m.argomenti != nil {
 		edges = append(edges, domanda.EdgeArgomenti)
 	}
 	if m.capitolo != nil {
 		edges = append(edges, domanda.EdgeCapitolo)
+	}
+	if m.spiegazione != nil {
+		edges = append(edges, domanda.EdgeSpiegazione)
 	}
 	return edges
 }
@@ -2591,15 +2653,24 @@ func (m *DomandaMutation) AddedIDs(name string) []ent.Value {
 		if id := m.capitolo; id != nil {
 			return []ent.Value{*id}
 		}
+	case domanda.EdgeSpiegazione:
+		ids := make([]ent.Value, 0, len(m.spiegazione))
+		for id := range m.spiegazione {
+			ids = append(ids, id)
+		}
+		return ids
 	}
 	return nil
 }
 
 // RemovedEdges returns all edge names that were removed in this mutation.
 func (m *DomandaMutation) RemovedEdges() []string {
-	edges := make([]string, 0, 2)
+	edges := make([]string, 0, 3)
 	if m.removedargomenti != nil {
 		edges = append(edges, domanda.EdgeArgomenti)
+	}
+	if m.removedspiegazione != nil {
+		edges = append(edges, domanda.EdgeSpiegazione)
 	}
 	return edges
 }
@@ -2614,18 +2685,27 @@ func (m *DomandaMutation) RemovedIDs(name string) []ent.Value {
 			ids = append(ids, id)
 		}
 		return ids
+	case domanda.EdgeSpiegazione:
+		ids := make([]ent.Value, 0, len(m.removedspiegazione))
+		for id := range m.removedspiegazione {
+			ids = append(ids, id)
+		}
+		return ids
 	}
 	return nil
 }
 
 // ClearedEdges returns all edge names that were cleared in this mutation.
 func (m *DomandaMutation) ClearedEdges() []string {
-	edges := make([]string, 0, 2)
+	edges := make([]string, 0, 3)
 	if m.clearedargomenti {
 		edges = append(edges, domanda.EdgeArgomenti)
 	}
 	if m.clearedcapitolo {
 		edges = append(edges, domanda.EdgeCapitolo)
+	}
+	if m.clearedspiegazione {
+		edges = append(edges, domanda.EdgeSpiegazione)
 	}
 	return edges
 }
@@ -2638,6 +2718,8 @@ func (m *DomandaMutation) EdgeCleared(name string) bool {
 		return m.clearedargomenti
 	case domanda.EdgeCapitolo:
 		return m.clearedcapitolo
+	case domanda.EdgeSpiegazione:
+		return m.clearedspiegazione
 	}
 	return false
 }
@@ -2662,6 +2744,9 @@ func (m *DomandaMutation) ResetEdge(name string) error {
 		return nil
 	case domanda.EdgeCapitolo:
 		m.ResetCapitolo()
+		return nil
+	case domanda.EdgeSpiegazione:
+		m.ResetSpiegazione()
 		return nil
 	}
 	return fmt.Errorf("unknown Domanda edge %s", name)
@@ -4562,6 +4647,564 @@ func (m *SeedMutation) ClearEdge(name string) error {
 // It returns an error if the edge is not defined in the schema.
 func (m *SeedMutation) ResetEdge(name string) error {
 	return fmt.Errorf("unknown Seed edge %s", name)
+}
+
+// SpiegazioneMutation represents an operation that mutates the Spiegazione nodes in the graph.
+type SpiegazioneMutation struct {
+	config
+	op                Op
+	typ               string
+	id                *int
+	spiegazione       *string
+	focus_linguistico *string
+	regola_chiave     *string
+	clearedFields     map[string]struct{}
+	domanda           *int
+	cleareddomanda    bool
+	done              bool
+	oldValue          func(context.Context) (*Spiegazione, error)
+	predicates        []predicate.Spiegazione
+}
+
+var _ ent.Mutation = (*SpiegazioneMutation)(nil)
+
+// spiegazioneOption allows management of the mutation configuration using functional options.
+type spiegazioneOption func(*SpiegazioneMutation)
+
+// newSpiegazioneMutation creates new mutation for the Spiegazione entity.
+func newSpiegazioneMutation(c config, op Op, opts ...spiegazioneOption) *SpiegazioneMutation {
+	m := &SpiegazioneMutation{
+		config:        c,
+		op:            op,
+		typ:           TypeSpiegazione,
+		clearedFields: make(map[string]struct{}),
+	}
+	for _, opt := range opts {
+		opt(m)
+	}
+	return m
+}
+
+// withSpiegazioneID sets the ID field of the mutation.
+func withSpiegazioneID(id int) spiegazioneOption {
+	return func(m *SpiegazioneMutation) {
+		var (
+			err   error
+			once  sync.Once
+			value *Spiegazione
+		)
+		m.oldValue = func(ctx context.Context) (*Spiegazione, error) {
+			once.Do(func() {
+				if m.done {
+					err = errors.New("querying old values post mutation is not allowed")
+				} else {
+					value, err = m.Client().Spiegazione.Get(ctx, id)
+				}
+			})
+			return value, err
+		}
+		m.id = &id
+	}
+}
+
+// withSpiegazione sets the old Spiegazione of the mutation.
+func withSpiegazione(node *Spiegazione) spiegazioneOption {
+	return func(m *SpiegazioneMutation) {
+		m.oldValue = func(context.Context) (*Spiegazione, error) {
+			return node, nil
+		}
+		m.id = &node.ID
+	}
+}
+
+// Client returns a new `ent.Client` from the mutation. If the mutation was
+// executed in a transaction (ent.Tx), a transactional client is returned.
+func (m SpiegazioneMutation) Client() *Client {
+	client := &Client{config: m.config}
+	client.init()
+	return client
+}
+
+// Tx returns an `ent.Tx` for mutations that were executed in transactions;
+// it returns an error otherwise.
+func (m SpiegazioneMutation) Tx() (*Tx, error) {
+	if _, ok := m.driver.(*txDriver); !ok {
+		return nil, errors.New("ent: mutation is not running in a transaction")
+	}
+	tx := &Tx{config: m.config}
+	tx.init()
+	return tx, nil
+}
+
+// ID returns the ID value in the mutation. Note that the ID is only available
+// if it was provided to the builder or after it was returned from the database.
+func (m *SpiegazioneMutation) ID() (id int, exists bool) {
+	if m.id == nil {
+		return
+	}
+	return *m.id, true
+}
+
+// IDs queries the database and returns the entity ids that match the mutation's predicate.
+// That means, if the mutation is applied within a transaction with an isolation level such
+// as sql.LevelSerializable, the returned ids match the ids of the rows that will be updated
+// or updated by the mutation.
+func (m *SpiegazioneMutation) IDs(ctx context.Context) ([]int, error) {
+	switch {
+	case m.op.Is(OpUpdateOne | OpDeleteOne):
+		id, exists := m.ID()
+		if exists {
+			return []int{id}, nil
+		}
+		fallthrough
+	case m.op.Is(OpUpdate | OpDelete):
+		return m.Client().Spiegazione.Query().Where(m.predicates...).IDs(ctx)
+	default:
+		return nil, fmt.Errorf("IDs is not allowed on %s operations", m.op)
+	}
+}
+
+// SetNumeroDomanda sets the "numero_domanda" field.
+func (m *SpiegazioneMutation) SetNumeroDomanda(i int) {
+	m.domanda = &i
+}
+
+// NumeroDomanda returns the value of the "numero_domanda" field in the mutation.
+func (m *SpiegazioneMutation) NumeroDomanda() (r int, exists bool) {
+	v := m.domanda
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldNumeroDomanda returns the old "numero_domanda" field's value of the Spiegazione entity.
+// If the Spiegazione object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *SpiegazioneMutation) OldNumeroDomanda(ctx context.Context) (v int, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldNumeroDomanda is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldNumeroDomanda requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldNumeroDomanda: %w", err)
+	}
+	return oldValue.NumeroDomanda, nil
+}
+
+// ResetNumeroDomanda resets all changes to the "numero_domanda" field.
+func (m *SpiegazioneMutation) ResetNumeroDomanda() {
+	m.domanda = nil
+}
+
+// SetSpiegazione sets the "spiegazione" field.
+func (m *SpiegazioneMutation) SetSpiegazione(s string) {
+	m.spiegazione = &s
+}
+
+// Spiegazione returns the value of the "spiegazione" field in the mutation.
+func (m *SpiegazioneMutation) Spiegazione() (r string, exists bool) {
+	v := m.spiegazione
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldSpiegazione returns the old "spiegazione" field's value of the Spiegazione entity.
+// If the Spiegazione object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *SpiegazioneMutation) OldSpiegazione(ctx context.Context) (v string, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldSpiegazione is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldSpiegazione requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldSpiegazione: %w", err)
+	}
+	return oldValue.Spiegazione, nil
+}
+
+// ResetSpiegazione resets all changes to the "spiegazione" field.
+func (m *SpiegazioneMutation) ResetSpiegazione() {
+	m.spiegazione = nil
+}
+
+// SetFocusLinguistico sets the "focus_linguistico" field.
+func (m *SpiegazioneMutation) SetFocusLinguistico(s string) {
+	m.focus_linguistico = &s
+}
+
+// FocusLinguistico returns the value of the "focus_linguistico" field in the mutation.
+func (m *SpiegazioneMutation) FocusLinguistico() (r string, exists bool) {
+	v := m.focus_linguistico
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldFocusLinguistico returns the old "focus_linguistico" field's value of the Spiegazione entity.
+// If the Spiegazione object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *SpiegazioneMutation) OldFocusLinguistico(ctx context.Context) (v string, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldFocusLinguistico is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldFocusLinguistico requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldFocusLinguistico: %w", err)
+	}
+	return oldValue.FocusLinguistico, nil
+}
+
+// ResetFocusLinguistico resets all changes to the "focus_linguistico" field.
+func (m *SpiegazioneMutation) ResetFocusLinguistico() {
+	m.focus_linguistico = nil
+}
+
+// SetRegolaChiave sets the "regola_chiave" field.
+func (m *SpiegazioneMutation) SetRegolaChiave(s string) {
+	m.regola_chiave = &s
+}
+
+// RegolaChiave returns the value of the "regola_chiave" field in the mutation.
+func (m *SpiegazioneMutation) RegolaChiave() (r string, exists bool) {
+	v := m.regola_chiave
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldRegolaChiave returns the old "regola_chiave" field's value of the Spiegazione entity.
+// If the Spiegazione object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *SpiegazioneMutation) OldRegolaChiave(ctx context.Context) (v string, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldRegolaChiave is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldRegolaChiave requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldRegolaChiave: %w", err)
+	}
+	return oldValue.RegolaChiave, nil
+}
+
+// ResetRegolaChiave resets all changes to the "regola_chiave" field.
+func (m *SpiegazioneMutation) ResetRegolaChiave() {
+	m.regola_chiave = nil
+}
+
+// SetDomandaID sets the "domanda" edge to the Domanda entity by id.
+func (m *SpiegazioneMutation) SetDomandaID(id int) {
+	m.domanda = &id
+}
+
+// ClearDomanda clears the "domanda" edge to the Domanda entity.
+func (m *SpiegazioneMutation) ClearDomanda() {
+	m.cleareddomanda = true
+	m.clearedFields[spiegazione.FieldNumeroDomanda] = struct{}{}
+}
+
+// DomandaCleared reports if the "domanda" edge to the Domanda entity was cleared.
+func (m *SpiegazioneMutation) DomandaCleared() bool {
+	return m.cleareddomanda
+}
+
+// DomandaID returns the "domanda" edge ID in the mutation.
+func (m *SpiegazioneMutation) DomandaID() (id int, exists bool) {
+	if m.domanda != nil {
+		return *m.domanda, true
+	}
+	return
+}
+
+// DomandaIDs returns the "domanda" edge IDs in the mutation.
+// Note that IDs always returns len(IDs) <= 1 for unique edges, and you should use
+// DomandaID instead. It exists only for internal usage by the builders.
+func (m *SpiegazioneMutation) DomandaIDs() (ids []int) {
+	if id := m.domanda; id != nil {
+		ids = append(ids, *id)
+	}
+	return
+}
+
+// ResetDomanda resets all changes to the "domanda" edge.
+func (m *SpiegazioneMutation) ResetDomanda() {
+	m.domanda = nil
+	m.cleareddomanda = false
+}
+
+// Where appends a list predicates to the SpiegazioneMutation builder.
+func (m *SpiegazioneMutation) Where(ps ...predicate.Spiegazione) {
+	m.predicates = append(m.predicates, ps...)
+}
+
+// WhereP appends storage-level predicates to the SpiegazioneMutation builder. Using this method,
+// users can use type-assertion to append predicates that do not depend on any generated package.
+func (m *SpiegazioneMutation) WhereP(ps ...func(*sql.Selector)) {
+	p := make([]predicate.Spiegazione, len(ps))
+	for i := range ps {
+		p[i] = ps[i]
+	}
+	m.Where(p...)
+}
+
+// Op returns the operation name.
+func (m *SpiegazioneMutation) Op() Op {
+	return m.op
+}
+
+// SetOp allows setting the mutation operation.
+func (m *SpiegazioneMutation) SetOp(op Op) {
+	m.op = op
+}
+
+// Type returns the node type of this mutation (Spiegazione).
+func (m *SpiegazioneMutation) Type() string {
+	return m.typ
+}
+
+// Fields returns all fields that were changed during this mutation. Note that in
+// order to get all numeric fields that were incremented/decremented, call
+// AddedFields().
+func (m *SpiegazioneMutation) Fields() []string {
+	fields := make([]string, 0, 4)
+	if m.domanda != nil {
+		fields = append(fields, spiegazione.FieldNumeroDomanda)
+	}
+	if m.spiegazione != nil {
+		fields = append(fields, spiegazione.FieldSpiegazione)
+	}
+	if m.focus_linguistico != nil {
+		fields = append(fields, spiegazione.FieldFocusLinguistico)
+	}
+	if m.regola_chiave != nil {
+		fields = append(fields, spiegazione.FieldRegolaChiave)
+	}
+	return fields
+}
+
+// Field returns the value of a field with the given name. The second boolean
+// return value indicates that this field was not set, or was not defined in the
+// schema.
+func (m *SpiegazioneMutation) Field(name string) (ent.Value, bool) {
+	switch name {
+	case spiegazione.FieldNumeroDomanda:
+		return m.NumeroDomanda()
+	case spiegazione.FieldSpiegazione:
+		return m.Spiegazione()
+	case spiegazione.FieldFocusLinguistico:
+		return m.FocusLinguistico()
+	case spiegazione.FieldRegolaChiave:
+		return m.RegolaChiave()
+	}
+	return nil, false
+}
+
+// OldField returns the old value of the field from the database. An error is
+// returned if the mutation operation is not UpdateOne, or the query to the
+// database failed.
+func (m *SpiegazioneMutation) OldField(ctx context.Context, name string) (ent.Value, error) {
+	switch name {
+	case spiegazione.FieldNumeroDomanda:
+		return m.OldNumeroDomanda(ctx)
+	case spiegazione.FieldSpiegazione:
+		return m.OldSpiegazione(ctx)
+	case spiegazione.FieldFocusLinguistico:
+		return m.OldFocusLinguistico(ctx)
+	case spiegazione.FieldRegolaChiave:
+		return m.OldRegolaChiave(ctx)
+	}
+	return nil, fmt.Errorf("unknown Spiegazione field %s", name)
+}
+
+// SetField sets the value of a field with the given name. It returns an error if
+// the field is not defined in the schema, or if the type mismatched the field
+// type.
+func (m *SpiegazioneMutation) SetField(name string, value ent.Value) error {
+	switch name {
+	case spiegazione.FieldNumeroDomanda:
+		v, ok := value.(int)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetNumeroDomanda(v)
+		return nil
+	case spiegazione.FieldSpiegazione:
+		v, ok := value.(string)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetSpiegazione(v)
+		return nil
+	case spiegazione.FieldFocusLinguistico:
+		v, ok := value.(string)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetFocusLinguistico(v)
+		return nil
+	case spiegazione.FieldRegolaChiave:
+		v, ok := value.(string)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetRegolaChiave(v)
+		return nil
+	}
+	return fmt.Errorf("unknown Spiegazione field %s", name)
+}
+
+// AddedFields returns all numeric fields that were incremented/decremented during
+// this mutation.
+func (m *SpiegazioneMutation) AddedFields() []string {
+	var fields []string
+	return fields
+}
+
+// AddedField returns the numeric value that was incremented/decremented on a field
+// with the given name. The second boolean return value indicates that this field
+// was not set, or was not defined in the schema.
+func (m *SpiegazioneMutation) AddedField(name string) (ent.Value, bool) {
+	switch name {
+	}
+	return nil, false
+}
+
+// AddField adds the value to the field with the given name. It returns an error if
+// the field is not defined in the schema, or if the type mismatched the field
+// type.
+func (m *SpiegazioneMutation) AddField(name string, value ent.Value) error {
+	switch name {
+	}
+	return fmt.Errorf("unknown Spiegazione numeric field %s", name)
+}
+
+// ClearedFields returns all nullable fields that were cleared during this
+// mutation.
+func (m *SpiegazioneMutation) ClearedFields() []string {
+	return nil
+}
+
+// FieldCleared returns a boolean indicating if a field with the given name was
+// cleared in this mutation.
+func (m *SpiegazioneMutation) FieldCleared(name string) bool {
+	_, ok := m.clearedFields[name]
+	return ok
+}
+
+// ClearField clears the value of the field with the given name. It returns an
+// error if the field is not defined in the schema.
+func (m *SpiegazioneMutation) ClearField(name string) error {
+	return fmt.Errorf("unknown Spiegazione nullable field %s", name)
+}
+
+// ResetField resets all changes in the mutation for the field with the given name.
+// It returns an error if the field is not defined in the schema.
+func (m *SpiegazioneMutation) ResetField(name string) error {
+	switch name {
+	case spiegazione.FieldNumeroDomanda:
+		m.ResetNumeroDomanda()
+		return nil
+	case spiegazione.FieldSpiegazione:
+		m.ResetSpiegazione()
+		return nil
+	case spiegazione.FieldFocusLinguistico:
+		m.ResetFocusLinguistico()
+		return nil
+	case spiegazione.FieldRegolaChiave:
+		m.ResetRegolaChiave()
+		return nil
+	}
+	return fmt.Errorf("unknown Spiegazione field %s", name)
+}
+
+// AddedEdges returns all edge names that were set/added in this mutation.
+func (m *SpiegazioneMutation) AddedEdges() []string {
+	edges := make([]string, 0, 1)
+	if m.domanda != nil {
+		edges = append(edges, spiegazione.EdgeDomanda)
+	}
+	return edges
+}
+
+// AddedIDs returns all IDs (to other nodes) that were added for the given edge
+// name in this mutation.
+func (m *SpiegazioneMutation) AddedIDs(name string) []ent.Value {
+	switch name {
+	case spiegazione.EdgeDomanda:
+		if id := m.domanda; id != nil {
+			return []ent.Value{*id}
+		}
+	}
+	return nil
+}
+
+// RemovedEdges returns all edge names that were removed in this mutation.
+func (m *SpiegazioneMutation) RemovedEdges() []string {
+	edges := make([]string, 0, 1)
+	return edges
+}
+
+// RemovedIDs returns all IDs (to other nodes) that were removed for the edge with
+// the given name in this mutation.
+func (m *SpiegazioneMutation) RemovedIDs(name string) []ent.Value {
+	return nil
+}
+
+// ClearedEdges returns all edge names that were cleared in this mutation.
+func (m *SpiegazioneMutation) ClearedEdges() []string {
+	edges := make([]string, 0, 1)
+	if m.cleareddomanda {
+		edges = append(edges, spiegazione.EdgeDomanda)
+	}
+	return edges
+}
+
+// EdgeCleared returns a boolean which indicates if the edge with the given name
+// was cleared in this mutation.
+func (m *SpiegazioneMutation) EdgeCleared(name string) bool {
+	switch name {
+	case spiegazione.EdgeDomanda:
+		return m.cleareddomanda
+	}
+	return false
+}
+
+// ClearEdge clears the value of the edge with the given name. It returns an error
+// if that edge is not defined in the schema.
+func (m *SpiegazioneMutation) ClearEdge(name string) error {
+	switch name {
+	case spiegazione.EdgeDomanda:
+		m.ClearDomanda()
+		return nil
+	}
+	return fmt.Errorf("unknown Spiegazione unique edge %s", name)
+}
+
+// ResetEdge resets all changes to the edge with the given name in this mutation.
+// It returns an error if the edge is not defined in the schema.
+func (m *SpiegazioneMutation) ResetEdge(name string) error {
+	switch name {
+	case spiegazione.EdgeDomanda:
+		m.ResetDomanda()
+		return nil
+	}
+	return fmt.Errorf("unknown Spiegazione edge %s", name)
 }
 
 // UtenteMutation represents an operation that mutates the Utente nodes in the graph.

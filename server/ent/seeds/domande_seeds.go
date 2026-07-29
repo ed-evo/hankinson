@@ -3,6 +3,7 @@ package seeds
 import (
 	"context"
 	"crypto/sha256"
+	"embed"
 	_ "embed"
 	"encoding/hex"
 	"fmt"
@@ -13,8 +14,8 @@ import (
 )
 
 //go:generate go run generators/domande_generate.go
-//go:embed seeds_domande.sql
-var domandeSqlSeeds string
+//go:embed seeds_*.sql
+var domandeSqlSeeds embed.FS
 
 type CapitoloVerifica struct {
 	ID               int    `json:"capitolo_id"`
@@ -28,34 +29,49 @@ type CapitoloVerifica struct {
 
 func SeedDomande(ctx context.Context, db *ent.Client) error {
 
-	hasher := sha256.New()
-	hasher.Write([]byte(domandeSqlSeeds))
-	currentHash := hex.EncodeToString(hasher.Sum(nil))
-	log.Printf("Seed sql with hash %v", currentHash)
-
-	_, err := db.Seed.Query().Where(seed.Hash(currentHash)).Only(ctx)
-
-	if err == nil {
-		log.Printf("Seed already included")
-		return nil
-	}
-
-	if err != nil && !ent.IsNotFound(err) {
-		return err
-	}
-
-	_, err = db.ExecContext(ctx, domandeSqlSeeds)
-
+	var dataList [][]byte
+	domande, err := domandeSqlSeeds.ReadFile("seeds_domande.sql")
 	if err != nil {
-		log.Printf("Errore esecuzione seeds %v", err)
-		return err
+		return fmt.Errorf("Seed sql file error %w", err)
+	}
+	dataList = append(dataList, domande)
+	spiegazioni, err := domandeSqlSeeds.ReadFile("seeds_spiegazioni.sql")
+	if err != nil {
+		log.Printf("Error reading spiegazioni SKIPPING it. No breaking issue %w", err)
+	} else {
+		dataList = append(dataList, spiegazioni)
 	}
 
-	err = db.Seed.Create().SetHash(currentHash).Exec(ctx)
+	for _, data := range dataList {
+		hasher := sha256.New()
+		hasher.Write(data)
+		currentHash := hex.EncodeToString(hasher.Sum(nil))
+		log.Printf("Seed sql with hash %v", currentHash)
 
-	if err != nil {
-		log.Printf("Error creating adding hash")
-		return err
+		_, err = db.Seed.Query().Where(seed.Hash(currentHash)).Only(ctx)
+
+		if err == nil {
+			log.Printf("Seed already included")
+			continue
+		}
+
+		if !ent.IsNotFound(err) {
+			return err
+		}
+
+		_, err = db.ExecContext(ctx, string(data))
+
+		if err != nil {
+			log.Printf("Errore esecuzione seeds %v", err)
+			return err
+		}
+
+		err = db.Seed.Create().SetHash(currentHash).Exec(ctx)
+
+		if err != nil {
+			log.Printf("Error creating adding hash")
+			return err
+		}
 	}
 
 	log.Print(">>>>> Seed Domande Completato <<<<<<<<")

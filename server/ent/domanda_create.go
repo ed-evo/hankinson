@@ -13,6 +13,7 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/argomento"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
+	"github.com/ed-evo/hankinson/server/ent/spiegazione"
 )
 
 // DomandaCreate is the builder for creating a Domanda entity.
@@ -97,6 +98,21 @@ func (_c *DomandaCreate) SetCapitoloID(id int) *DomandaCreate {
 // SetCapitolo sets the "capitolo" edge to the Capitolo entity.
 func (_c *DomandaCreate) SetCapitolo(v *Capitolo) *DomandaCreate {
 	return _c.SetCapitoloID(v.ID)
+}
+
+// AddSpiegazioneIDs adds the "spiegazione" edge to the Spiegazione entity by IDs.
+func (_c *DomandaCreate) AddSpiegazioneIDs(ids ...int) *DomandaCreate {
+	_c.mutation.AddSpiegazioneIDs(ids...)
+	return _c
+}
+
+// AddSpiegazione adds the "spiegazione" edges to the Spiegazione entity.
+func (_c *DomandaCreate) AddSpiegazione(v ...*Spiegazione) *DomandaCreate {
+	ids := make([]int, len(v))
+	for i := range v {
+		ids[i] = v[i].ID
+	}
+	return _c.AddSpiegazioneIDs(ids...)
 }
 
 // Mutation returns the DomandaMutation object of the builder.
@@ -235,6 +251,22 @@ func (_c *DomandaCreate) createSpec() (*Domanda, *sqlgraph.CreateSpec) {
 			edge.Target.Nodes = append(edge.Target.Nodes, k)
 		}
 		_node.IDCapitolo = nodes[0]
+		_spec.Edges = append(_spec.Edges, edge)
+	}
+	if nodes := _c.mutation.SpiegazioneIDs(); len(nodes) > 0 {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   domanda.SpiegazioneTable,
+			Columns: []string{domanda.SpiegazioneColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(spiegazione.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
 		_spec.Edges = append(_spec.Edges, edge)
 	}
 	return _node, _spec

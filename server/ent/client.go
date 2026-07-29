@@ -22,6 +22,7 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/seed"
+	"github.com/ed-evo/hankinson/server/ent/spiegazione"
 	"github.com/ed-evo/hankinson/server/ent/utente"
 
 	stdsql "database/sql"
@@ -46,6 +47,8 @@ type Client struct {
 	QuesitoEsame *QuesitoEsameClient
 	// Seed is the client for interacting with the Seed builders.
 	Seed *SeedClient
+	// Spiegazione is the client for interacting with the Spiegazione builders.
+	Spiegazione *SpiegazioneClient
 	// Utente is the client for interacting with the Utente builders.
 	Utente *UtenteClient
 }
@@ -66,6 +69,7 @@ func (c *Client) init() {
 	c.Esame = NewEsameClient(c.config)
 	c.QuesitoEsame = NewQuesitoEsameClient(c.config)
 	c.Seed = NewSeedClient(c.config)
+	c.Spiegazione = NewSpiegazioneClient(c.config)
 	c.Utente = NewUtenteClient(c.config)
 }
 
@@ -166,6 +170,7 @@ func (c *Client) Tx(ctx context.Context) (*Tx, error) {
 		Esame:                NewEsameClient(cfg),
 		QuesitoEsame:         NewQuesitoEsameClient(cfg),
 		Seed:                 NewSeedClient(cfg),
+		Spiegazione:          NewSpiegazioneClient(cfg),
 		Utente:               NewUtenteClient(cfg),
 	}, nil
 }
@@ -193,6 +198,7 @@ func (c *Client) BeginTx(ctx context.Context, opts *sql.TxOptions) (*Tx, error) 
 		Esame:                NewEsameClient(cfg),
 		QuesitoEsame:         NewQuesitoEsameClient(cfg),
 		Seed:                 NewSeedClient(cfg),
+		Spiegazione:          NewSpiegazioneClient(cfg),
 		Utente:               NewUtenteClient(cfg),
 	}, nil
 }
@@ -224,7 +230,7 @@ func (c *Client) Close() error {
 func (c *Client) Use(hooks ...Hook) {
 	for _, n := range []interface{ Use(...Hook) }{
 		c.Argomento, c.AttivitaQuesitoEsame, c.Capitolo, c.Domanda, c.Esame,
-		c.QuesitoEsame, c.Seed, c.Utente,
+		c.QuesitoEsame, c.Seed, c.Spiegazione, c.Utente,
 	} {
 		n.Use(hooks...)
 	}
@@ -235,7 +241,7 @@ func (c *Client) Use(hooks ...Hook) {
 func (c *Client) Intercept(interceptors ...Interceptor) {
 	for _, n := range []interface{ Intercept(...Interceptor) }{
 		c.Argomento, c.AttivitaQuesitoEsame, c.Capitolo, c.Domanda, c.Esame,
-		c.QuesitoEsame, c.Seed, c.Utente,
+		c.QuesitoEsame, c.Seed, c.Spiegazione, c.Utente,
 	} {
 		n.Intercept(interceptors...)
 	}
@@ -258,6 +264,8 @@ func (c *Client) Mutate(ctx context.Context, m Mutation) (Value, error) {
 		return c.QuesitoEsame.mutate(ctx, m)
 	case *SeedMutation:
 		return c.Seed.mutate(ctx, m)
+	case *SpiegazioneMutation:
+		return c.Spiegazione.mutate(ctx, m)
 	case *UtenteMutation:
 		return c.Utente.mutate(ctx, m)
 	default:
@@ -852,6 +860,22 @@ func (c *DomandaClient) QueryCapitolo(_m *Domanda) *CapitoloQuery {
 	return query
 }
 
+// QuerySpiegazione queries the spiegazione edge of a Domanda.
+func (c *DomandaClient) QuerySpiegazione(_m *Domanda) *SpiegazioneQuery {
+	query := (&SpiegazioneClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(domanda.Table, domanda.FieldID, id),
+			sqlgraph.To(spiegazione.Table, spiegazione.FieldID),
+			sqlgraph.Edge(sqlgraph.O2M, false, domanda.SpiegazioneTable, domanda.SpiegazioneColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
 // Hooks returns the client hooks.
 func (c *DomandaClient) Hooks() []Hook {
 	return c.hooks.Domanda
@@ -1356,6 +1380,155 @@ func (c *SeedClient) mutate(ctx context.Context, m *SeedMutation) (Value, error)
 	}
 }
 
+// SpiegazioneClient is a client for the Spiegazione schema.
+type SpiegazioneClient struct {
+	config
+}
+
+// NewSpiegazioneClient returns a client for the Spiegazione from the given config.
+func NewSpiegazioneClient(c config) *SpiegazioneClient {
+	return &SpiegazioneClient{config: c}
+}
+
+// Use adds a list of mutation hooks to the hooks stack.
+// A call to `Use(f, g, h)` equals to `spiegazione.Hooks(f(g(h())))`.
+func (c *SpiegazioneClient) Use(hooks ...Hook) {
+	c.hooks.Spiegazione = append(c.hooks.Spiegazione, hooks...)
+}
+
+// Intercept adds a list of query interceptors to the interceptors stack.
+// A call to `Intercept(f, g, h)` equals to `spiegazione.Intercept(f(g(h())))`.
+func (c *SpiegazioneClient) Intercept(interceptors ...Interceptor) {
+	c.inters.Spiegazione = append(c.inters.Spiegazione, interceptors...)
+}
+
+// Create returns a builder for creating a Spiegazione entity.
+func (c *SpiegazioneClient) Create() *SpiegazioneCreate {
+	mutation := newSpiegazioneMutation(c.config, OpCreate)
+	return &SpiegazioneCreate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// CreateBulk returns a builder for creating a bulk of Spiegazione entities.
+func (c *SpiegazioneClient) CreateBulk(builders ...*SpiegazioneCreate) *SpiegazioneCreateBulk {
+	return &SpiegazioneCreateBulk{config: c.config, builders: builders}
+}
+
+// MapCreateBulk creates a bulk creation builder from the given slice. For each item in the slice, the function creates
+// a builder and applies setFunc on it.
+func (c *SpiegazioneClient) MapCreateBulk(slice any, setFunc func(*SpiegazioneCreate, int)) *SpiegazioneCreateBulk {
+	rv := reflect.ValueOf(slice)
+	if rv.Kind() != reflect.Slice {
+		return &SpiegazioneCreateBulk{err: fmt.Errorf("calling to SpiegazioneClient.MapCreateBulk with wrong type %T, need slice", slice)}
+	}
+	builders := make([]*SpiegazioneCreate, rv.Len())
+	for i := 0; i < rv.Len(); i++ {
+		builders[i] = c.Create()
+		setFunc(builders[i], i)
+	}
+	return &SpiegazioneCreateBulk{config: c.config, builders: builders}
+}
+
+// Update returns an update builder for Spiegazione.
+func (c *SpiegazioneClient) Update() *SpiegazioneUpdate {
+	mutation := newSpiegazioneMutation(c.config, OpUpdate)
+	return &SpiegazioneUpdate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOne returns an update builder for the given entity.
+func (c *SpiegazioneClient) UpdateOne(_m *Spiegazione) *SpiegazioneUpdateOne {
+	mutation := newSpiegazioneMutation(c.config, OpUpdateOne, withSpiegazione(_m))
+	return &SpiegazioneUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOneID returns an update builder for the given id.
+func (c *SpiegazioneClient) UpdateOneID(id int) *SpiegazioneUpdateOne {
+	mutation := newSpiegazioneMutation(c.config, OpUpdateOne, withSpiegazioneID(id))
+	return &SpiegazioneUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// Delete returns a delete builder for Spiegazione.
+func (c *SpiegazioneClient) Delete() *SpiegazioneDelete {
+	mutation := newSpiegazioneMutation(c.config, OpDelete)
+	return &SpiegazioneDelete{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// DeleteOne returns a builder for deleting the given entity.
+func (c *SpiegazioneClient) DeleteOne(_m *Spiegazione) *SpiegazioneDeleteOne {
+	return c.DeleteOneID(_m.ID)
+}
+
+// DeleteOneID returns a builder for deleting the given entity by its id.
+func (c *SpiegazioneClient) DeleteOneID(id int) *SpiegazioneDeleteOne {
+	builder := c.Delete().Where(spiegazione.ID(id))
+	builder.mutation.id = &id
+	builder.mutation.op = OpDeleteOne
+	return &SpiegazioneDeleteOne{builder}
+}
+
+// Query returns a query builder for Spiegazione.
+func (c *SpiegazioneClient) Query() *SpiegazioneQuery {
+	return &SpiegazioneQuery{
+		config: c.config,
+		ctx:    &QueryContext{Type: TypeSpiegazione},
+		inters: c.Interceptors(),
+	}
+}
+
+// Get returns a Spiegazione entity by its id.
+func (c *SpiegazioneClient) Get(ctx context.Context, id int) (*Spiegazione, error) {
+	return c.Query().Where(spiegazione.ID(id)).Only(ctx)
+}
+
+// GetX is like Get, but panics if an error occurs.
+func (c *SpiegazioneClient) GetX(ctx context.Context, id int) *Spiegazione {
+	obj, err := c.Get(ctx, id)
+	if err != nil {
+		panic(err)
+	}
+	return obj
+}
+
+// QueryDomanda queries the domanda edge of a Spiegazione.
+func (c *SpiegazioneClient) QueryDomanda(_m *Spiegazione) *DomandaQuery {
+	query := (&DomandaClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(spiegazione.Table, spiegazione.FieldID, id),
+			sqlgraph.To(domanda.Table, domanda.FieldID),
+			sqlgraph.Edge(sqlgraph.M2O, true, spiegazione.DomandaTable, spiegazione.DomandaColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
+// Hooks returns the client hooks.
+func (c *SpiegazioneClient) Hooks() []Hook {
+	return c.hooks.Spiegazione
+}
+
+// Interceptors returns the client interceptors.
+func (c *SpiegazioneClient) Interceptors() []Interceptor {
+	return c.inters.Spiegazione
+}
+
+func (c *SpiegazioneClient) mutate(ctx context.Context, m *SpiegazioneMutation) (Value, error) {
+	switch m.Op() {
+	case OpCreate:
+		return (&SpiegazioneCreate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdate:
+		return (&SpiegazioneUpdate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdateOne:
+		return (&SpiegazioneUpdateOne{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpDelete, OpDeleteOne:
+		return (&SpiegazioneDelete{config: c.config, hooks: c.Hooks(), mutation: m}).Exec(ctx)
+	default:
+		return nil, fmt.Errorf("ent: unknown Spiegazione mutation op: %q", m.Op())
+	}
+}
+
 // UtenteClient is a client for the Utente schema.
 type UtenteClient struct {
 	config
@@ -1493,11 +1666,11 @@ func (c *UtenteClient) mutate(ctx context.Context, m *UtenteMutation) (Value, er
 type (
 	hooks struct {
 		Argomento, AttivitaQuesitoEsame, Capitolo, Domanda, Esame, QuesitoEsame, Seed,
-		Utente []ent.Hook
+		Spiegazione, Utente []ent.Hook
 	}
 	inters struct {
 		Argomento, AttivitaQuesitoEsame, Capitolo, Domanda, Esame, QuesitoEsame, Seed,
-		Utente []ent.Interceptor
+		Spiegazione, Utente []ent.Interceptor
 	}
 )
 

@@ -14,6 +14,7 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 	"github.com/ed-evo/hankinson/server/ent/predicate"
+	"github.com/ed-evo/hankinson/server/ent/spiegazione"
 )
 
 // DomandaUpdate is the builder for updating Domanda entities.
@@ -159,6 +160,21 @@ func (_u *DomandaUpdate) SetCapitolo(v *Capitolo) *DomandaUpdate {
 	return _u.SetCapitoloID(v.ID)
 }
 
+// AddSpiegazioneIDs adds the "spiegazione" edge to the Spiegazione entity by IDs.
+func (_u *DomandaUpdate) AddSpiegazioneIDs(ids ...int) *DomandaUpdate {
+	_u.mutation.AddSpiegazioneIDs(ids...)
+	return _u
+}
+
+// AddSpiegazione adds the "spiegazione" edges to the Spiegazione entity.
+func (_u *DomandaUpdate) AddSpiegazione(v ...*Spiegazione) *DomandaUpdate {
+	ids := make([]int, len(v))
+	for i := range v {
+		ids[i] = v[i].ID
+	}
+	return _u.AddSpiegazioneIDs(ids...)
+}
+
 // Mutation returns the DomandaMutation object of the builder.
 func (_u *DomandaUpdate) Mutation() *DomandaMutation {
 	return _u.mutation
@@ -189,6 +205,27 @@ func (_u *DomandaUpdate) RemoveArgomenti(v ...*Argomento) *DomandaUpdate {
 func (_u *DomandaUpdate) ClearCapitolo() *DomandaUpdate {
 	_u.mutation.ClearCapitolo()
 	return _u
+}
+
+// ClearSpiegazione clears all "spiegazione" edges to the Spiegazione entity.
+func (_u *DomandaUpdate) ClearSpiegazione() *DomandaUpdate {
+	_u.mutation.ClearSpiegazione()
+	return _u
+}
+
+// RemoveSpiegazioneIDs removes the "spiegazione" edge to Spiegazione entities by IDs.
+func (_u *DomandaUpdate) RemoveSpiegazioneIDs(ids ...int) *DomandaUpdate {
+	_u.mutation.RemoveSpiegazioneIDs(ids...)
+	return _u
+}
+
+// RemoveSpiegazione removes "spiegazione" edges to Spiegazione entities.
+func (_u *DomandaUpdate) RemoveSpiegazione(v ...*Spiegazione) *DomandaUpdate {
+	ids := make([]int, len(v))
+	for i := range v {
+		ids[i] = v[i].ID
+	}
+	return _u.RemoveSpiegazioneIDs(ids...)
 }
 
 // Save executes the query and returns the number of nodes affected by the update operation.
@@ -329,6 +366,51 @@ func (_u *DomandaUpdate) sqlSave(ctx context.Context) (_node int, err error) {
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(capitolo.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_spec.Edges.Add = append(_spec.Edges.Add, edge)
+	}
+	if _u.mutation.SpiegazioneCleared() {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   domanda.SpiegazioneTable,
+			Columns: []string{domanda.SpiegazioneColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(spiegazione.FieldID, field.TypeInt),
+			},
+		}
+		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
+	}
+	if nodes := _u.mutation.RemovedSpiegazioneIDs(); len(nodes) > 0 && !_u.mutation.SpiegazioneCleared() {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   domanda.SpiegazioneTable,
+			Columns: []string{domanda.SpiegazioneColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(spiegazione.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
+	}
+	if nodes := _u.mutation.SpiegazioneIDs(); len(nodes) > 0 {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   domanda.SpiegazioneTable,
+			Columns: []string{domanda.SpiegazioneColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(spiegazione.FieldID, field.TypeInt),
 			},
 		}
 		for _, k := range nodes {
@@ -486,6 +568,21 @@ func (_u *DomandaUpdateOne) SetCapitolo(v *Capitolo) *DomandaUpdateOne {
 	return _u.SetCapitoloID(v.ID)
 }
 
+// AddSpiegazioneIDs adds the "spiegazione" edge to the Spiegazione entity by IDs.
+func (_u *DomandaUpdateOne) AddSpiegazioneIDs(ids ...int) *DomandaUpdateOne {
+	_u.mutation.AddSpiegazioneIDs(ids...)
+	return _u
+}
+
+// AddSpiegazione adds the "spiegazione" edges to the Spiegazione entity.
+func (_u *DomandaUpdateOne) AddSpiegazione(v ...*Spiegazione) *DomandaUpdateOne {
+	ids := make([]int, len(v))
+	for i := range v {
+		ids[i] = v[i].ID
+	}
+	return _u.AddSpiegazioneIDs(ids...)
+}
+
 // Mutation returns the DomandaMutation object of the builder.
 func (_u *DomandaUpdateOne) Mutation() *DomandaMutation {
 	return _u.mutation
@@ -516,6 +613,27 @@ func (_u *DomandaUpdateOne) RemoveArgomenti(v ...*Argomento) *DomandaUpdateOne {
 func (_u *DomandaUpdateOne) ClearCapitolo() *DomandaUpdateOne {
 	_u.mutation.ClearCapitolo()
 	return _u
+}
+
+// ClearSpiegazione clears all "spiegazione" edges to the Spiegazione entity.
+func (_u *DomandaUpdateOne) ClearSpiegazione() *DomandaUpdateOne {
+	_u.mutation.ClearSpiegazione()
+	return _u
+}
+
+// RemoveSpiegazioneIDs removes the "spiegazione" edge to Spiegazione entities by IDs.
+func (_u *DomandaUpdateOne) RemoveSpiegazioneIDs(ids ...int) *DomandaUpdateOne {
+	_u.mutation.RemoveSpiegazioneIDs(ids...)
+	return _u
+}
+
+// RemoveSpiegazione removes "spiegazione" edges to Spiegazione entities.
+func (_u *DomandaUpdateOne) RemoveSpiegazione(v ...*Spiegazione) *DomandaUpdateOne {
+	ids := make([]int, len(v))
+	for i := range v {
+		ids[i] = v[i].ID
+	}
+	return _u.RemoveSpiegazioneIDs(ids...)
 }
 
 // Where appends a list predicates to the DomandaUpdate builder.
@@ -686,6 +804,51 @@ func (_u *DomandaUpdateOne) sqlSave(ctx context.Context) (_node *Domanda, err er
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(capitolo.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_spec.Edges.Add = append(_spec.Edges.Add, edge)
+	}
+	if _u.mutation.SpiegazioneCleared() {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   domanda.SpiegazioneTable,
+			Columns: []string{domanda.SpiegazioneColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(spiegazione.FieldID, field.TypeInt),
+			},
+		}
+		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
+	}
+	if nodes := _u.mutation.RemovedSpiegazioneIDs(); len(nodes) > 0 && !_u.mutation.SpiegazioneCleared() {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   domanda.SpiegazioneTable,
+			Columns: []string{domanda.SpiegazioneColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(spiegazione.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
+	}
+	if nodes := _u.mutation.SpiegazioneIDs(); len(nodes) > 0 {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   domanda.SpiegazioneTable,
+			Columns: []string{domanda.SpiegazioneColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(spiegazione.FieldID, field.TypeInt),
 			},
 		}
 		for _, k := range nodes {

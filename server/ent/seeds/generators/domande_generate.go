@@ -19,7 +19,16 @@ func main() {
 		log.Fatal("this generator must be run via 'go generate'")
 	}
 
-	capitoli, domande, argomennti, err := seeds.GetSeeds()
+	seedsContainer, err := seeds.GetSeeds()
+
+	if err != nil {
+		log.Fatalf("Errore lettura dati: %v", err)
+	}
+
+	capitoli := seedsContainer.Capitoli
+	domande := seedsContainer.Domande
+	argomennti := seedsContainer.Argomenti
+	spiegazioni := seedsContainer.Spiegazioni
 
 	slices.SortFunc(capitoli, func(a, b seeds.Capitolo) int {
 		return cmp.Compare(a.ID, b.ID)
@@ -33,11 +42,11 @@ func main() {
 		return cmp.Compare(a.ID, b.ID)
 	})
 
-	if err != nil {
-		log.Fatalf("Errore lettura dati: %v", err)
-	}
+	slices.SortFunc(spiegazioni, func(a, b seeds.Spiegazione) int {
+		return cmp.Compare(a.Numero, b.Numero)
+	})
 
-	log.Printf("Capitoli %v, Domande %v, Argomenti %v", len(capitoli), len(domande), len(argomennti))
+	log.Printf("Capitoli %v, Domande %v, Argomenti %v, Spiegazioni %v", len(capitoli), len(domande), len(argomennti), len(spiegazioni))
 
 	// 1. Definiamo le funzioni custom usate nel file SQL (.escape)
 	funcMap := template.FuncMap{
@@ -46,13 +55,7 @@ func main() {
 		},
 	}
 
-	tpl, err := template.New("sql").Funcs(funcMap).Parse(seeds.DomandeSqlTemplate)
-	if err != nil {
-		log.Fatalf("Errore creazione template: %v", err)
-	}
-
-	var queryBuffer bytes.Buffer
-	data := struct {
+	dataDomande := struct {
 		Capitoli  []seeds.Capitolo
 		Argomenti []seeds.Argomento
 		Domande   []seeds.Domanda
@@ -61,12 +64,37 @@ func main() {
 		Argomenti: argomennti,
 		Domande:   domande,
 	}
+
+	generateSql(seeds.DomandeSqlTemplate, dataDomande, "seeds_domande.sql", funcMap)
+
+	dataSpiegazioni := struct {
+		Spiegazioni []seeds.Spiegazione
+	}{
+		Spiegazioni: spiegazioni,
+	}
+	generateSql(seeds.SpiegazioniSqlTemplate, dataSpiegazioni, "seeds_spiegazioni.sql", funcMap)
+
+	log.Println("Done")
+}
+
+func generateSql(
+	srcTemplate string,
+	data any,
+	dstFile string,
+	funcMap template.FuncMap,
+) {
+	tpl, err := template.New("sql").Funcs(funcMap).Parse(srcTemplate)
+	if err != nil {
+		log.Fatalf("Errore creazione template: %v", err)
+	}
+
+	var queryBuffer bytes.Buffer
+
 	if err := tpl.Execute(&queryBuffer, data); err != nil {
 		log.Fatalf("errore %v", err)
 	}
 
-	if err := os.WriteFile("seeds_domande.sql", queryBuffer.Bytes(), 0644); err != nil {
+	if err := os.WriteFile(dstFile, queryBuffer.Bytes(), 0644); err != nil {
 		log.Fatalf("errore scrittura file %v", err)
 	}
-	log.Println("Done")
 }

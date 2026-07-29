@@ -28,6 +28,8 @@ type Tx struct {
 	QuesitoEsame *QuesitoEsameClient
 	// Seed is the client for interacting with the Seed builders.
 	Seed *SeedClient
+	// Spiegazione is the client for interacting with the Spiegazione builders.
+	Spiegazione *SpiegazioneClient
 	// Utente is the client for interacting with the Utente builders.
 	Utente *UtenteClient
 
@@ -168,6 +170,7 @@ func (tx *Tx) init() {
 	tx.Esame = NewEsameClient(tx.config)
 	tx.QuesitoEsame = NewQuesitoEsameClient(tx.config)
 	tx.Seed = NewSeedClient(tx.config)
+	tx.Spiegazione = NewSpiegazioneClient(tx.config)
 	tx.Utente = NewUtenteClient(tx.config)
 }
 

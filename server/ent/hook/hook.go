@@ -93,6 +93,18 @@ func (f SeedFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, error)
 	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.SeedMutation", m)
 }
 
+// The SpiegazioneFunc type is an adapter to allow the use of ordinary
+// function as Spiegazione mutator.
+type SpiegazioneFunc func(context.Context, *ent.SpiegazioneMutation) (ent.Value, error)
+
+// Mutate calls f(ctx, m).
+func (f SpiegazioneFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, error) {
+	if mv, ok := m.(*ent.SpiegazioneMutation); ok {
+		return f(ctx, mv)
+	}
+	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.SpiegazioneMutation", m)
+}
+
 // The UtenteFunc type is an adapter to allow the use of ordinary
 // function as Utente mutator.
 type UtenteFunc func(context.Context, *ent.UtenteMutation) (ent.Value, error)

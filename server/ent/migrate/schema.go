@@ -187,6 +187,35 @@ var (
 		Columns:    SeedsColumns,
 		PrimaryKey: []*schema.Column{SeedsColumns[0]},
 	}
+	// SpiegazioniColumns holds the columns for the "spiegazioni" table.
+	SpiegazioniColumns = []*schema.Column{
+		{Name: "id", Type: field.TypeInt, Increment: true},
+		{Name: "spiegazione", Type: field.TypeString},
+		{Name: "focus_linguistico", Type: field.TypeString},
+		{Name: "regola_chiave", Type: field.TypeString},
+		{Name: "numero_domanda", Type: field.TypeInt},
+	}
+	// SpiegazioniTable holds the schema information for the "spiegazioni" table.
+	SpiegazioniTable = &schema.Table{
+		Name:       "spiegazioni",
+		Columns:    SpiegazioniColumns,
+		PrimaryKey: []*schema.Column{SpiegazioniColumns[0]},
+		ForeignKeys: []*schema.ForeignKey{
+			{
+				Symbol:     "spiegazioni_domande_spiegazione",
+				Columns:    []*schema.Column{SpiegazioniColumns[4]},
+				RefColumns: []*schema.Column{DomandeColumns[0]},
+				OnDelete:   schema.NoAction,
+			},
+		},
+		Indexes: []*schema.Index{
+			{
+				Name:    "spiegazione_numero_domanda",
+				Unique:  true,
+				Columns: []*schema.Column{SpiegazioniColumns[4]},
+			},
+		},
+	}
 	// UtentiColumns holds the columns for the "utenti" table.
 	UtentiColumns = []*schema.Column{
 		{Name: "email", Type: field.TypeString, Unique: true},
@@ -232,6 +261,7 @@ var (
 		EsamiTable,
 		QuesitiEsameTable,
 		SeedsTable,
+		SpiegazioniTable,
 		UtentiTable,
 		ArgomentiDomandeTable,
 	}
@@ -260,6 +290,10 @@ func init() {
 	QuesitiEsameTable.ForeignKeys[1].RefTable = DomandeTable
 	QuesitiEsameTable.Annotation = &entsql.Annotation{
 		Table: "quesiti_esame",
+	}
+	SpiegazioniTable.ForeignKeys[0].RefTable = DomandeTable
+	SpiegazioniTable.Annotation = &entsql.Annotation{
+		Table: "spiegazioni",
 	}
 	UtentiTable.Annotation = &entsql.Annotation{
 		Table: "utenti",

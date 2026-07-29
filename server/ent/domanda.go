@@ -41,9 +41,11 @@ type DomandaEdges struct {
 	Argomenti []*Argomento `json:"argomenti,omitempty"`
 	// Capitolo holds the value of the capitolo edge.
 	Capitolo *Capitolo `json:"capitolo,omitempty"`
+	// Spiegazione holds the value of the spiegazione edge.
+	Spiegazione []*Spiegazione `json:"spiegazione,omitempty"`
 	// loadedTypes holds the information for reporting if a
 	// type was loaded (or requested) in eager-loading or not.
-	loadedTypes [2]bool
+	loadedTypes [3]bool
 }
 
 // ArgomentiOrErr returns the Argomenti value or an error if the edge
@@ -64,6 +66,15 @@ func (e DomandaEdges) CapitoloOrErr() (*Capitolo, error) {
 		return nil, &NotFoundError{label: capitolo.Label}
 	}
 	return nil, &NotLoadedError{edge: "capitolo"}
+}
+
+// SpiegazioneOrErr returns the Spiegazione value or an error if the edge
+// was not loaded in eager-loading.
+func (e DomandaEdges) SpiegazioneOrErr() ([]*Spiegazione, error) {
+	if e.loadedTypes[2] {
+		return e.Spiegazione, nil
+	}
+	return nil, &NotLoadedError{edge: "spiegazione"}
 }
 
 // scanValues returns the types for scanning values from sql.Rows.
@@ -156,6 +167,11 @@ func (_m *Domanda) QueryArgomenti() *ArgomentoQuery {
 // QueryCapitolo queries the "capitolo" edge of the Domanda entity.
 func (_m *Domanda) QueryCapitolo() *CapitoloQuery {
 	return NewDomandaClient(_m.config).QueryCapitolo(_m)
+}
+
+// QuerySpiegazione queries the "spiegazione" edge of the Domanda entity.
+func (_m *Domanda) QuerySpiegazione() *SpiegazioneQuery {
+	return NewDomandaClient(_m.config).QuerySpiegazione(_m)
 }
 
 // Update returns a builder for updating this Domanda.
