@@ -1,10 +1,8 @@
 package esami_api
 
 import (
-	"context"
 	"log"
 	"net/http"
-	"strconv"
 	"time"
 
 	"entgo.io/ent/dialect/sql"
@@ -12,7 +10,9 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/attivitaquesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
+	api_context "github.com/ed-evo/hankinson/server/internal/api/context"
 	api_utils "github.com/ed-evo/hankinson/server/internal/api/utils"
+	"github.com/ed-evo/hankinson/server/internal/orm"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 )
@@ -44,52 +44,23 @@ func newQuesitiRouter(db *ent.Client) chi.Router {
 
 	quesitiRouter.Get("/stats", getStats(db))
 	quesitiRouter.Route("/{quesitoID:[0-9]+}", func(r chi.Router) {
-		r.Use(getQuesitoCtx(db))
-		r.Put("/attivita", putAttivitaQuesito(db))
+		ctx := api_context.EntityContextHelper[ent.QuesitoEsame]{
+			ParamName:  "quesitoID",
+			ContextKey: "quesito",
+			Fetcher:    orm.QuesitoFetcher{DB: db},
+		}
+		r.Use(ctx.Middleware())
+		r.Put("/attivita", ctx.Process(putAttivitaQuesito(db)))
 	})
 
 	return quesitiRouter
 }
 
-func getQuesitoCtx(db *ent.Client) func(http.Handler) http.Handler {
-	return func(next http.Handler) http.Handler {
-		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-			var q *ent.QuesitoEsame
-			quesitoID := chi.URLParam(r, "quesitoID")
-			log.Print("hello")
-			if quesitoID == "" {
-				render.Render(w, r, api_utils.ErrNotFound)
-				return
-			}
-
-			id, err := strconv.Atoi(quesitoID)
-			if err != nil {
-				render.Render(w, r, api_utils.ErrInvalidRequest(err))
-				return
-			}
-			q, err = db.QuesitoEsame.Get(r.Context(), id)
-			if ent.IsNotFound(err) {
-				render.Render(w, r, api_utils.ErrNotFound)
-				return
-			}
-			if err != nil {
-				render.Render(w, r, api_utils.ErrInvalidRequest(err))
-				return
-			}
-
-			ctx := context.WithValue(r.Context(), "quesito", q)
-			next.ServeHTTP(w, r.WithContext(ctx))
-		})
-	}
-}
-
-func putAttivitaQuesito(db *ent.Client) http.HandlerFunc {
-	return func(w http.ResponseWriter, r *http.Request) {
-		q := r.Context().Value("quesito").(*ent.QuesitoEsame)
+func putAttivitaQuesito(db *ent.Client) func(r *http.Request, q *ent.QuesitoEsame) error {
+	return func(r *http.Request, q *ent.QuesitoEsame) error {
 		body := &QuesitoAttivitaBody{}
 		if err := render.Bind(r, body); err != nil {
-			render.Render(w, r, api_utils.ErrInvalidRequest(err))
-			return
+			return err
 		}
 
 		rispostaData := body.RispostaData
@@ -100,8 +71,7 @@ func putAttivitaQuesito(db *ent.Client) http.HandlerFunc {
 				SetNillableRispostaFinale(rispostaData).
 				Save(r.Context())
 			if err != nil {
-				render.Render(w, r, api_utils.ErrInternal(err))
-				return
+				return err
 			}
 		}
 
@@ -113,11 +83,10 @@ func putAttivitaQuesito(db *ent.Client) http.HandlerFunc {
 			SetNillableRispostaData(rispostaData).
 			Save(r.Context())
 		if err != nil {
-			render.Render(w, r, api_utils.ErrInternal(err))
-			return
+			return err
 		}
 		log.Printf("Attivita: %v -> Quesito %v: %v", a.ID, q.ID, body.Tipo)
-
+		return nil
 	}
 }
 

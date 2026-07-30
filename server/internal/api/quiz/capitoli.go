@@ -1,19 +1,18 @@
 package quiz_api
 
 import (
-	"context"
 	"net/http"
-	"strconv"
 
 	"entgo.io/ent/dialect/sql"
 	"github.com/ed-evo/hankinson/server/ent"
 	"github.com/ed-evo/hankinson/server/ent/attivitaquesitoesame"
-	"github.com/ed-evo/hankinson/server/ent/capitolo"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
+	api_context "github.com/ed-evo/hankinson/server/internal/api/context"
 	api_middlewares "github.com/ed-evo/hankinson/server/internal/api/middlewares"
 	esami_api "github.com/ed-evo/hankinson/server/internal/api/quiz/esami"
 	api_utils "github.com/ed-evo/hankinson/server/internal/api/utils"
+	"github.com/ed-evo/hankinson/server/internal/orm"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 )
@@ -31,44 +30,18 @@ func newCapitoliRouter(db *ent.Client) chi.Router {
 			render.JSON(w, r, capitoli)
 		})
 		r.Route("/{capitoloID:[0-9]+}", func(r chi.Router) {
-			r.Use(getCapitoloCtx(db))
-			r.Get("/", func(w http.ResponseWriter, r *http.Request) {
-				c := r.Context().Value("capitolo").(*ent.Capitolo)
-
-				render.JSON(w, r, c)
-			})
+			ctx := api_context.EntityContextHelper[ent.Capitolo]{
+				ParamName:  "capitoloID",
+				ContextKey: "capitolo",
+				Fetcher:    orm.CapitoloFetcher{DB: db},
+			}
+			r.Use(ctx.Middleware())
+			r.Get("/", ctx.JsonHandler(func(r *http.Request, entity *ent.Capitolo) (any, error) {
+				return entity, nil
+			}))
 		})
 	})
 	return capitoliRouter
-}
-
-func getCapitoloCtx(db *ent.Client) func(http.Handler) http.Handler {
-	return func(next http.Handler) http.Handler {
-		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-			var c *ent.Capitolo
-
-			if argomentoId := chi.URLParam(r, "capitoloID"); argomentoId != "" {
-				id, err := strconv.Atoi(argomentoId)
-				if err != nil {
-					render.Render(w, r, api_utils.ErrInvalidRequest(err))
-					return
-				}
-				c, err = db.Capitolo.Query().
-					Where(capitolo.IDEQ(id)).
-					WithDomande(func(q *ent.DomandaQuery) {
-						q.WithArgomenti() // Carica la relazione molti-a-molti con gli argomenti
-					}).
-					Only(r.Context())
-				if err != nil {
-					render.Render(w, r, api_utils.ErrNotFound)
-					return
-				}
-			}
-
-			ctx := context.WithValue(r.Context(), "capitolo", c)
-			next.ServeHTTP(w, r.WithContext(ctx))
-		})
-	}
 }
 
 type CapitoliStats struct {

@@ -1,13 +1,11 @@
 package quiz_api
 
 import (
-	"context"
 	"net/http"
-	"strconv"
 
 	"github.com/ed-evo/hankinson/server/ent"
-	"github.com/ed-evo/hankinson/server/ent/argomento"
-	api_utils "github.com/ed-evo/hankinson/server/internal/api/utils"
+	api_context "github.com/ed-evo/hankinson/server/internal/api/context"
+	"github.com/ed-evo/hankinson/server/internal/orm"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 )
@@ -21,40 +19,16 @@ func newArgomentiRouter(db *ent.Client) chi.Router {
 	})
 
 	argomentiRouter.Route("/{argomentoID:[0-9]+}", func(r chi.Router) {
-		r.Use(getArgomentoCtx(db))
-		r.Get("/", func(w http.ResponseWriter, r *http.Request) {
-			a := r.Context().Value("argomento").(*ent.Argomento)
-
-			render.JSON(w, r, a)
-		})
+		ctx := api_context.EntityContextHelper[ent.Argomento]{
+			ParamName:  "argomentoID",
+			ContextKey: "argomento",
+			Fetcher:    orm.ArgomentoFetcher{DB: db},
+		}
+		r.Use(ctx.Middleware())
+		r.Get("/", ctx.JsonHandler(func(r *http.Request, entity *ent.Argomento) (any, error) {
+			return entity, nil
+		}))
 	})
 
 	return argomentiRouter
-}
-
-func getArgomentoCtx(db *ent.Client) func(http.Handler) http.Handler {
-	return func(next http.Handler) http.Handler {
-		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-			var a *ent.Argomento
-
-			if argomentoId := chi.URLParam(r, "argomentoID"); argomentoId != "" {
-				id, err := strconv.Atoi(argomentoId)
-				if err != nil {
-					render.Render(w, r, api_utils.ErrInvalidRequest(err))
-					return
-				}
-				a, err = db.Argomento.Query().
-					Where(argomento.IDEQ(id)).
-					WithDomande().
-					Only(r.Context())
-				if err != nil {
-					render.Render(w, r, api_utils.ErrNotFound)
-					return
-				}
-			}
-
-			ctx := context.WithValue(r.Context(), "argomento", a)
-			next.ServeHTTP(w, r.WithContext(ctx))
-		})
-	}
 }
