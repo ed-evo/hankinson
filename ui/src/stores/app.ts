@@ -8,7 +8,7 @@ export const useAppStore = defineStore('app', () => {
 
   return {
     // states
-    opennedSettings: ref(true),
+    opennedSettings: ref(false),
 
     // getters
     height: computed(() => height.value),

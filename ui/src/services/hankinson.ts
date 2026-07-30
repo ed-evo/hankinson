@@ -24,6 +24,13 @@ export interface Domanda {
     }
 }
 
+export interface SpiegazioneDomanda {
+    id: number;
+    spiegazione: string,
+    focus_linguistico: string,
+    regola_chiave: string
+}
+
 export interface Quesito {
     id: number,
     esameId: number,
@@ -127,6 +134,10 @@ export async function getDomandeByCapitolo(capitoloId: number): Promise<Domanda[
 
 export async function getDomandaById(domandaId: number): Promise<Domanda> {
     return ofetch<Domanda>(`/domande/${domandaId}`, build_request_options())
+}
+
+export async function spiegaDomandaById(domandaId: number): Promise<SpiegazioneDomanda> {
+    return ofetch<SpiegazioneDomanda>(`/domande/${domandaId}/spiegazione`, build_request_options({ method: 'POST' }))
 }
 
 export async function nextQuesitoAperto(capitoliIds: number[]): Promise<Quesito> {

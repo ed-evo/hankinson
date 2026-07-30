@@ -7,23 +7,31 @@ meta:
 </route>
 
 <template>
-  <QuesitoView
-    v-if="domanda" 
-    :width="appStore.width"
-    :height="appStore.height"
-    :is-landscape="appStore.isLandscape"
-    :domanda="domanda"
-    :answer="answer"
-    @answer="giveAnsware"
-    @next="done"
-    @pause="onPause"
-  ></QuesitoView>
-  <v-overlay :model-value="isLoading" class="align-center justify-center" persistent>
-    <v-progress-circular indeterminate size="64" />
-  </v-overlay>
+  <v-card class="h-100 w-100 position-relative" flat>
+
+    <v-fab key="absolute" absolute color="primary" location="top left" size="large" icon
+      @click="showSpiegazione = !showSpiegazione"
+    >
+      <v-icon>{{ 'mdi-creation' }}</v-icon>
+    </v-fab>
+    <v-dialog v-model="showSpiegazione">
+      <template v-slot:default="{ isActive }">
+        <spiegazione-domanda
+          v-if="isActive && quesito?.domandaId"
+          :numero-domanda="quesito?.domandaId"
+        ></spiegazione-domanda>
+      </template>
+    </v-dialog>
+    <QuesitoView v-if="domanda" :width="appStore.width" :height="appStore.height" :is-landscape="appStore.isLandscape"
+      :domanda="domanda" :answer="answer" @answer="giveAnsware" @next="done" @pause="onPause"></QuesitoView>
+    <v-overlay :model-value="isLoading" class="align-center justify-center" persistent>
+      <v-progress-circular indeterminate size="64" />
+    </v-overlay>
+  </v-card>
 </template>
 
 <script lang="ts" setup>
+import SpiegazioneDomanda from '@/components/SpiegazioneDomanda.vue';
 import { useQuizStore } from '@/stores/quiz';
 import { AttivitaEmitter, Choice, getDomandaById, nextQuesitoAperto, TipoAttivitaQuesito, type Domanda, type PausaEvent, type Quesito } from '@/services/hankinson';
 import { ref, onMounted } from 'vue';
@@ -32,6 +40,7 @@ import { useThrottleFn } from '@vueuse/core';
 import { useAppStore } from '@/stores/app';
 import QuesitoView from '@/components/QuesitoView.vue'
 
+const showSpiegazione = ref(false)
 const isLoading = ref(true)
 const quizStore = useQuizStore()
 const appStore = useAppStore()
