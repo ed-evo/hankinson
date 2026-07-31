@@ -17,13 +17,15 @@
         </template>
         <v-app-bar-title>
           <v-btn to="/"><v-icon>mdi-home</v-icon></v-btn>
-          <v-btn
-            v-for="quizRoute in quizRoutes" :key="quizRoute.path"
-            :to="quizRoute.path"
-          >
-          <v-icon v-if="quizRoute.meta.icon">{{quizRoute.meta.icon}}</v-icon> 
-          {{ quizRoute.meta.title || quizRoute.name }}
-        </v-btn>
+          <template v-if="!appStore.mobile">
+            <v-btn
+              v-for="quizRoute in appStore.quizRoutes" :key="quizRoute.path"
+              :to="quizRoute.path"
+            >
+            <v-icon v-if="quizRoute.meta.icon">{{quizRoute.meta.icon}}</v-icon>
+            <span class="ml-1">{{ quizRoute.meta.title || quizRoute.name }}</span>
+          </v-btn>
+          </template>
         </v-app-bar-title>
         <v-spacer></v-spacer>
         <template v-slot:append=>
@@ -58,18 +60,11 @@ import { computed } from 'vue';
 import CapitoliSelect from './components/CapitoliSelect.vue';
 import { useDisplay } from 'vuetify';
 import { useAppStore } from './stores/app.ts';
-import { useRoute } from 'vue-router';
-import { useRouter } from 'vuetify/lib/composables/router.mjs';
 
-const router = useRouter()
-const route = useRoute()
 const { mobile, width } = useDisplay()
 const appStore = useAppStore()
 const quizStore = useQuizStore()
 
-const quizRoutes = computed(() => 
-  router?.getRoutes().filter(r => r.meta.type === 'quiz')
-)
 const settingsDrawerIcon = computed(() =>
   appStore.opennedSettings ? "mdi-close" : "mdi-menu"
 )

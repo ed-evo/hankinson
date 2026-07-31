@@ -5,7 +5,14 @@ meta:
 
 <template>
     <v-sheet color="light-grey" class="h-100 w-100">
-        <v-btn :to="{ name: 'quiz-infinito' }">Start quiz infinito</v-btn>
+        <v-btn
+            v-for="quizRoute in appStore.quizRoutes" :key="quizRoute.path"
+            :to="quizRoute.path"
+            block
+        >
+        <v-icon v-if="quizRoute.meta.icon">{{quizRoute.meta.icon}}</v-icon>
+        <span class="ml-1">{{ quizRoute.meta.title || quizRoute.name }}</span>
+        </v-btn>
         <hr />
         Capitoli selezionati:
         <v-btn icon flat size="sm" @click="appStore.opennedSettings = true">
@@ -25,6 +32,29 @@ meta:
         </v-pie>
 
         <hr />
+        <v-card>
+            <v-card-title>Errori per capitolo</v-card-title>
+            <v-sparkline
+                :labels="capitoliIds"
+                :model-value="erroriPercentuale"
+                smooth="4"
+                :gradient="['green', 'red']"
+                gradient-direction="bottom"
+                line-width="1"
+                fill
+            ></v-sparkline>
+
+            <v-card-title>Tempo medio per capitolo (Globale: {{ format(tempoMedioGlobale || 0) }}sec.)</v-card-title>
+            <v-sparkline
+                :labels="capitoliIds"
+                :model-value="tempiMedi"
+                smooth="4"
+                :gradient="['lime', 'blue']"
+                gradient-direction="bottom"
+                line-width="1"
+                fill
+            ></v-sparkline>
+        </v-card>
 
         <v-expansion-panels variant="accordion">
             <v-expansion-panel v-for="stat in capitoliStats" :key="stat.id">
@@ -67,6 +97,7 @@ function format(ms: number) {
     return formatDuration(duration)
 }
 
+
 const pieChartData = computed(() => {
     if (!quesitiStats.value) {
         return undefined
@@ -81,6 +112,34 @@ const pieChartData = computed(() => {
         { key: 'sbagliate', title: 'Sbagliate', value: sbagliate, color: 'red' },
         { key: 'non_date', title: 'Non date', value: non_date, color: 'grey'}
     ]
+})
+
+const capitoliIds = computed(() => {
+    return capitoliStats.value?.map(capitolo => capitolo.id)
+})
+
+const erroriPercentuale = computed(() => {
+    return capitoliStats.value?.map(capitolo => (1 - (capitolo.corrette / capitolo.totale) * 100))
+})
+
+const tempoMedioGlobale = computed(() => {
+    if (!capitoliStats.value) {
+        return
+    }
+    let countQuesiti = 0
+    let sumDurate = 0
+    for (const capitolo of capitoliStats.value) {
+        countQuesiti += capitolo.totale
+        sumDurate += capitolo.durata_ms
+    }
+
+    return (sumDurate / countQuesiti) / 1000
+})
+
+const tempiMedi = computed(() => {
+    return capitoliStats.value?.map(capitolo =>
+        (capitolo.durata_ms / capitolo.totale) / 1000
+    )
 })
 
 onMounted(async () => {

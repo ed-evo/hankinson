@@ -11,27 +11,31 @@ meta:
     <QuesitoView v-if="current" :width="appStore.width" :height="appStore.height" :is-landscape="appStore.isLandscape"
       :domanda="current.domanda" :answer="current.answer" @answer="giveAnsware" @next="done" @pause="onPause"></QuesitoView>
 
-    <v-snackbar
+    <v-bottom-sheet
       v-if="current?.isAnswered"
       timeout="-1"
       model-value
-      vertical
-      :color="current.isCorrect ? 'success' : 'warning'"
+      persistent
+      inset
+      :scrim="current.isCorrect ? 'success' : 'warning'"
     >
-      <template v-slot:header>
-        <h3 class="px-4">Risposta data {{ current.answer }} è: {{ current.isCorrect ? 'CORRETTA' : 'SBAGLIATA' }}</h3>
-      </template>
-      <spiegazione-domanda
-        :numero-domanda="current.domanda.id"
-        class="overflow-y-auto"
-        max-height="35vh"
-      ></spiegazione-domanda>
-      <template v-slot:actions>
-        <v-btn class="w-100" @click="done">
-          Prossimo
-        </v-btn>
-      </template>
-    </v-snackbar>
+      <v-card>
+        <v-card-text class="py-0">
+          <h3>Risposta data {{ current.answer }} è: {{ current.isCorrect ? 'CORRETTA' : 'SBAGLIATA' }}</h3>
+        </v-card-text>
+        <spiegazione-domanda
+          :numero-domanda="current.domanda.id"
+          class="overflow-y-auto"
+          max-height="35vh"
+          flat
+        ></spiegazione-domanda>
+        <v-card-actions>
+          <v-btn color="primary" variant="tonal" @click="done" block>
+            Prossimo
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-bottom-sheet>
     <v-overlay :model-value="isLoading" class="align-center justify-center" persistent>
       <v-progress-circular indeterminate size="64" />
     </v-overlay>
