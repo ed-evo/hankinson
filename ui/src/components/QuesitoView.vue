@@ -13,20 +13,12 @@
                     </v-col>
                 </v-row>
                 <v-row class="h-45">
-                    <template v-if="answer === null">
-                        <v-col cols="6" class="text-end">
-                            <v-btn icon @click="$emit('answer', Choice.VERO)">V</v-btn>
-                        </v-col>
-                        <v-col cols="6">
-                            <v-btn icon @click="$emit('answer', Choice.FALSO)">F</v-btn>
-                        </v-col>
-                    </template>
-                    <template v-else>
-                        <v-col cols="12">
-                            Risposta data {{ answer }} è: {{ validateAnsware(domanda, answer) ? 'CORRETTA' :
-                            'SBAGLIATA' }}
-                        </v-col>
-                    </template>
+                    <v-col cols="6" class="text-end">
+                        <v-btn icon @click="$emit('answer', Choice.VERO)">V</v-btn>
+                    </v-col>
+                    <v-col cols="6">
+                        <v-btn icon @click="$emit('answer', Choice.FALSO)">F</v-btn>
+                    </v-col>
                     <v-col cols="12" class="align-self-end">
                         <v-btn class="w-100" @click="$emit('next')">
                             Prossimo

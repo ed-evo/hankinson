@@ -1,5 +1,5 @@
 <template>
-<v-card>
+<v-card v-bind="$attrs">
     <v-card-title>{{ spiegazione?.regola_chiave }}</v-card-title>
     <v-card-text>
         <dl>
@@ -12,25 +12,26 @@
 
 <script setup lang="ts">
 import { spiegaDomandaById, type SpiegazioneDomanda } from '@/services/hankinson';
-import { onMounted, onUnmounted, ref } from 'vue';
-
+import { ref, watch } from 'vue';
 
 const spiegazione = ref<SpiegazioneDomanda>()
-
-async function loadSpiegazione(id: number) {
-    spiegazione.value = await spiegaDomandaById(id)
-}
 
 const { numeroDomanda } = defineProps<{
     numeroDomanda: number
 }>()
 
-onMounted(async () => {
-    console.log("onMounted")
-    await loadSpiegazione(numeroDomanda)
-    console.log("Spiegazione loaded")
-})
-onUnmounted(async () => {
-    console.log("unmounted")
-})
+watch(
+    () => numeroDomanda,
+    async (newId, oldId) => {
+        if (newId === oldId) {
+            return
+        }
+        if (!newId) {
+            spiegazione.value = undefined
+            return
+        }
+        spiegazione.value = await spiegaDomandaById(newId)
+    },
+    { immediate: true }
+)
 </script>

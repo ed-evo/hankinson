@@ -8,22 +8,26 @@ meta:
 
 <template>
   <v-card class="h-100 w-100 position-relative" flat>
-
-    <v-fab key="absolute" absolute color="primary" location="top left" size="large" icon
-      @click="showSpiegazione = !showSpiegazione"
-    >
-      <v-icon>{{ 'mdi-creation' }}</v-icon>
-    </v-fab>
-    <v-dialog v-model="showSpiegazione">
-      <template v-slot:default="{ isActive }">
-        <spiegazione-domanda
-          v-if="isActive && quesito?.domandaId"
-          :numero-domanda="quesito?.domandaId"
-        ></spiegazione-domanda>
-      </template>
-    </v-dialog>
     <QuesitoView v-if="domanda" :width="appStore.width" :height="appStore.height" :is-landscape="appStore.isLandscape"
       :domanda="domanda" :answer="answer" @answer="giveAnsware" @next="done" @pause="onPause"></QuesitoView>
+
+    <v-snackbar
+      v-if="domanda && answer"
+      timeout="-1"
+      model-value
+      vertical
+      color="primary"
+    >
+      <template v-slot:header>
+        <h3 class="px-4">Risposta data {{ answer }} è: {{ validateAnsware(domanda, answer) ? 'CORRETTA' : 'SBAGLIATA' }}</h3>
+      </template>
+      <spiegazione-domanda :numero-domanda="domanda.id"></spiegazione-domanda>
+      <template v-slot:actions>
+        <v-btn class="w-100" @click="done">
+          Prossimo
+        </v-btn>
+      </template>
+    </v-snackbar>
     <v-overlay :model-value="isLoading" class="align-center justify-center" persistent>
       <v-progress-circular indeterminate size="64" />
     </v-overlay>
@@ -39,6 +43,7 @@ import { ref, onMounted } from 'vue';
 import { useThrottleFn } from '@vueuse/core';
 import { useAppStore } from '@/stores/app';
 import QuesitoView from '@/components/QuesitoView.vue'
+import { validateAnsware } from '@/utils/quesiti';
 
 const showSpiegazione = ref(false)
 const isLoading = ref(true)

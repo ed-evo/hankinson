@@ -26,6 +26,10 @@ meta:
 
         <hr />
 
+        <spiegazione-domanda
+            :numero-domanda="18315"
+        ></spiegazione-domanda>
+
         <v-expansion-panels variant="accordion">
             <v-expansion-panel v-for="stat in capitoliStats" :key="stat.id">
                 <v-expansion-panel-title>CAP: {{ stat.id }}, TOT: {{ stat.totale }}, Media: {{ format(stat.durata_ms / stat.totale) }}</v-expansion-panel-title>
@@ -46,6 +50,7 @@ meta:
 </template>
 
 <script lang="ts" setup>
+import SpiegazioneDomanda from '@/components/SpiegazioneDomanda.vue';
 import { VPie } from 'vuetify/labs/VPie'
 import { getCapitoliStats, getQuesitiStats, type CapitoloBasicStats, type QuesitiBasicStats } from '@/services/hankinson';
 import { useAppStore } from '@/stores/app';
