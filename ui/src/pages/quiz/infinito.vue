@@ -8,20 +8,24 @@ meta:
 
 <template>
   <v-card class="h-100 w-100 position-relative" flat>
-    <QuesitoView v-if="domanda" :width="appStore.width" :height="appStore.height" :is-landscape="appStore.isLandscape"
-      :domanda="domanda" :answer="answer" @answer="giveAnsware" @next="done" @pause="onPause"></QuesitoView>
+    <QuesitoView v-if="current" :width="appStore.width" :height="appStore.height" :is-landscape="appStore.isLandscape"
+      :domanda="current.domanda" :answer="current.answer" @answer="giveAnsware" @next="done" @pause="onPause"></QuesitoView>
 
     <v-snackbar
-      v-if="domanda && answer"
+      v-if="current?.isAnswered"
       timeout="-1"
       model-value
       vertical
-      color="primary"
+      :color="current.isCorrect ? 'success' : 'warning'"
     >
       <template v-slot:header>
-        <h3 class="px-4">Risposta data {{ answer }} è: {{ validateAnsware(domanda, answer) ? 'CORRETTA' : 'SBAGLIATA' }}</h3>
+        <h3 class="px-4">Risposta data {{ current.answer }} è: {{ current.isCorrect ? 'CORRETTA' : 'SBAGLIATA' }}</h3>
       </template>
-      <spiegazione-domanda :numero-domanda="domanda.id"></spiegazione-domanda>
+      <spiegazione-domanda
+        :numero-domanda="current.domanda.id"
+        class="overflow-y-auto"
+        max-height="35vh"
+      ></spiegazione-domanda>
       <template v-slot:actions>
         <v-btn class="w-100" @click="done">
           Prossimo
@@ -43,34 +47,65 @@ import { ref, onMounted } from 'vue';
 import { useThrottleFn } from '@vueuse/core';
 import { useAppStore } from '@/stores/app';
 import QuesitoView from '@/components/QuesitoView.vue'
-import { validateAnsware } from '@/utils/quesiti';
+import { validateAnsware as validateAnswer } from '@/utils/quesiti';
 
-const showSpiegazione = ref(false)
+class QuizItem {
+  private _answer: Choice | null = null
+  private _isCorrect: boolean = false
+  constructor(
+    public readonly quesito: Quesito,
+    public readonly domanda: Domanda
+  ) {}
+
+  set answer(answer: Choice | null) {
+    this._answer = answer
+    if (!answer) {
+      this._isCorrect = false
+      return
+    }
+    this._isCorrect = validateAnswer(this.domanda, answer)
+  }
+
+  get answer(): Choice | null {
+    return this._answer
+  }
+
+  get isAnswered(): boolean {
+    return !!this._answer
+  }
+
+  get isCorrect(): boolean {
+    return this._isCorrect
+  }
+}
+
 const isLoading = ref(true)
 const quizStore = useQuizStore()
 const appStore = useAppStore()
 
-const quesito = ref<Quesito | null>(null)
-const domanda = ref<Domanda | null>(null)
-
-const answer = ref<Choice | null>(null)
+const quiz = ref<QuizItem[]>([])
+const current = ref<QuizItem>()
 
 let attivitaEmitter: AttivitaEmitter | null = null
 
 const giveAnsware = useThrottleFn((choice: Choice | null) => {
-  if (answer.value !== choice) {
-    answer.value = choice
+  const item = current.value
+  if (item === undefined) {
+    return
+  }
+  if (item.answer !== choice) {
+    item.answer = choice
     attivitaEmitter?.fire(TipoAttivitaQuesito.risposta, choice)
   }
 }, 1000)
 
 const done = useThrottleFn(async () => {
   isLoading.value = true
+  const item = current.value
   attivitaEmitter?.fire(
-    answer.value ? TipoAttivitaQuesito.prossimo : TipoAttivitaQuesito.salta
+    item?.answer ? TipoAttivitaQuesito.prossimo : TipoAttivitaQuesito.salta
   )
   await loadQuesito()
-  answer.value = null
   isLoading.value = false
 }, 300)
 
@@ -80,10 +115,13 @@ function onPause(event: PausaEvent) {
 }
 
 async function loadQuesito() {
-  quesito.value = await nextQuesitoAperto(quizStore.capitoliSelezionati)
+  const quesito = await nextQuesitoAperto(quizStore.capitoliSelezionati)
 
-  domanda.value = await getDomandaById(quesito.value.domandaId)
-  attivitaEmitter = new AttivitaEmitter(quesito.value.id)
+  const domanda = await getDomandaById(quesito.domandaId)
+  const item = new QuizItem(quesito, domanda)
+  current.value = item
+  quiz.value.push(item)
+  attivitaEmitter = new AttivitaEmitter(quesito.id)
 }
 
 onMounted(async () => {

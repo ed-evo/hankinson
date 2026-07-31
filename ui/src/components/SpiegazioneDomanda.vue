@@ -1,7 +1,7 @@
 <template>
 <v-card v-bind="$attrs">
-    <v-card-title>{{ spiegazione?.regola_chiave }}</v-card-title>
     <v-card-text>
+        <h3>{{ spiegazione?.regola_chiave }}</h3>
         <dl>
             <dt><strong>Spiegazione:</strong></dt><dd>{{ spiegazione?.spiegazione }}</dd>
             <dt><strong>Focus linguistico</strong></dt><dd>{{ spiegazione?.focus_linguistico }}</dd>
