@@ -10,6 +10,8 @@ func NewEsamiRouter(db *ent.Client) chi.Router {
 
 	esameRouter.Mount("/aperto", newApertoRouter(db))
 
+	esameRouter.Mount("/parziali", newParzialiRouter(db))
+
 	esameRouter.Mount("/quesiti", newQuesitiRouter(db))
 
 	return esameRouter
