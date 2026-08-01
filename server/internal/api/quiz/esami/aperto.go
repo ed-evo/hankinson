@@ -9,8 +9,8 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/utente"
 	api_middlewares "github.com/ed-evo/hankinson/server/internal/api/middlewares"
-	api_utils "github.com/ed-evo/hankinson/server/internal/api/utils"
 	"github.com/ed-evo/hankinson/server/internal/orm"
+	"github.com/ed-evo/hankinson/server/pkg/api/api_errors"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 )
@@ -54,7 +54,7 @@ func next(db *ent.Client) func(http.ResponseWriter, *http.Request) {
 
 		domandaIDs, err := orm.RandomDomandeIds(body.Capitoli, 1)
 		if err != nil {
-			render.Render(w, r, api_utils.ErrInternal(err))
+			render.Render(w, r, api_errors.ErrInternal(err))
 			return
 		}
 

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	api_utils "github.com/ed-evo/hankinson/server/internal/api/utils"
 	"github.com/ed-evo/hankinson/server/internal/orm"
+	"github.com/ed-evo/hankinson/server/pkg/api/api_errors"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 )
@@ -23,13 +23,13 @@ func (h *EntityContextHelper[T]) Middleware() func(http.Handler) http.Handler {
 			paramVal := chi.URLParam(r, h.ParamName)
 			id, err := strconv.Atoi(paramVal)
 			if err != nil {
-				render.Render(w, r, api_utils.ErrInvalidRequest(err))
+				render.Render(w, r, api_errors.ErrInvalidRequest(err))
 				return
 			}
 
 			entity, err := h.Fetcher.Fetch(r.Context(), id)
 			if err != nil {
-				render.Render(w, r, api_utils.ErrNotFound)
+				render.Render(w, r, api_errors.ErrNotFound)
 				return
 			}
 
@@ -48,13 +48,13 @@ func (h *EntityContextHelper[T]) JsonHandler(
 		val := r.Context().Value(h.ContextKey)
 		entity, ok := val.(*T)
 		if !ok {
-			render.Render(w, r, api_utils.ErrNotFound)
+			render.Render(w, r, api_errors.ErrNotFound)
 			return
 		}
 
 		response, err := logic(r, entity)
 		if err != nil {
-			render.Render(w, r, api_utils.ErrInvalidRequest(err))
+			render.Render(w, r, api_errors.ErrInvalidRequest(err))
 			return
 		}
 
@@ -70,13 +70,13 @@ func (h *EntityContextHelper[T]) Process(
 		val := r.Context().Value(h.ContextKey)
 		entity, ok := val.(*T)
 		if !ok {
-			render.Render(w, r, api_utils.ErrNotFound)
+			render.Render(w, r, api_errors.ErrNotFound)
 			return
 		}
 
 		err := logic(r, entity)
 		if err != nil {
-			render.Render(w, r, api_utils.ErrInvalidRequest(err))
+			render.Render(w, r, api_errors.ErrInvalidRequest(err))
 			return
 		}
 	}

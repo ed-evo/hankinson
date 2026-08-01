@@ -1,4 +1,4 @@
-package api_utils
+package api_errors
 
 import (
 	"net/http"

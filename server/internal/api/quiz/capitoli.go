@@ -11,8 +11,8 @@ import (
 	api_context "github.com/ed-evo/hankinson/server/internal/api/context"
 	api_middlewares "github.com/ed-evo/hankinson/server/internal/api/middlewares"
 	esami_api "github.com/ed-evo/hankinson/server/internal/api/quiz/esami"
-	api_utils "github.com/ed-evo/hankinson/server/internal/api/utils"
 	"github.com/ed-evo/hankinson/server/internal/orm"
+	"github.com/ed-evo/hankinson/server/pkg/api/api_errors"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 )
@@ -94,7 +94,7 @@ func getBasicStats(db *ent.Client) http.HandlerFunc {
 			attivitaquesitoesame.TipoPausa,
 		)
 		if err != nil {
-			render.Render(w, r, api_utils.ErrInternal(err))
+			render.Render(w, r, api_errors.ErrInternal(err))
 			return
 		}
 		defer rows.Close()
