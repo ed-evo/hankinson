@@ -1,4 +1,5 @@
-import { getCapitoli, getDomandeByCapitolo, login, USER_REF, type Capitolo, type Domanda, type User } from "@/services/hankinson";
+import { getCapitoli, login, USER_REF, type Capitolo, type User } from "@/services/hankinson";
+import { TrainingSettings } from "@/types/models";
 import { useLocalStorage } from "@vueuse/core";
 import { defineStore } from "pinia";
 import { computed, ref, type Ref } from "vue";
@@ -14,6 +15,7 @@ async function fetchCapitoli(
 
 export const useQuizStore = defineStore('quiz', () => {
 
+    const trainingSettings: Ref<TrainingSettings> = useLocalStorage('quiz.trainingSettings', new TrainingSettings())
     const capitoliSelezionati: Ref<number[]> = useLocalStorage('quiz.capitoliSelezionati', [])
     const downloadProgress = ref(-1)
     const capitoli: Map<number, Capitolo> = new Map()
@@ -37,6 +39,7 @@ export const useQuizStore = defineStore('quiz', () => {
     return {
         // state
         capitoliSelezionati,
+        trainingSettings,
         // getters
         user: computed(() => USER_REF),
         isLoading: computed(() => downloadProgress.value < 100),

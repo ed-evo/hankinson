@@ -35,6 +35,14 @@
         </template>
       </v-app-bar>
       <v-navigation-drawer v-model="appStore.opennedSettings" color="grey-darken-2" :width="mobile ? width : width / 4">
+        <v-btn
+          v-for="quizRoute in appStore.quizRoutes" :key="quizRoute.path"
+          :to="quizRoute.path"
+          block
+        >
+          <v-icon v-if="quizRoute.meta.icon">{{quizRoute.meta.icon}}</v-icon>
+          <span class="ml-1">{{ quizRoute.meta.title || quizRoute.name }}</span>
+        </v-btn>
         <capitoli-select></capitoli-select>
       </v-navigation-drawer>
       <!-- 
