@@ -2,7 +2,6 @@ package orm
 
 import (
 	"fmt"
-	"math/rand/v2"
 	"slices"
 
 	"github.com/ed-evo/hankinson/server/internal/utils"
@@ -17,9 +16,7 @@ func provideCapitoli(base []int) []int {
 			capitoli = append(capitoli, key)
 		}
 	}
-	rand.Shuffle(len(capitoli), func(i, j int) {
-		capitoli[i], capitoli[j] = capitoli[j], capitoli[i]
-	})
+	utils.ShuffleSlice(capitoli)
 	return capitoli
 }
 
@@ -47,5 +44,6 @@ func RandomDomandeIds(base []int, count int) ([]int, error) {
 			break
 		}
 	}
+	utils.ShuffleSlice(result)
 	return result, nil
 }
