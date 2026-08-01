@@ -41,3 +41,11 @@ type QuesitoFetcher struct {
 func (f QuesitoFetcher) Fetch(ctx context.Context, id int) (*ent.QuesitoEsame, error) {
 	return f.DB.QuesitoEsame.Get(ctx, id)
 }
+
+type EsameFetcher struct {
+	DB *ent.Client
+}
+
+func (f EsameFetcher) Fetch(ctx context.Context, id int) (*ent.Esame, error) {
+	return f.DB.Esame.Get(ctx, id)
+}

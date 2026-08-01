@@ -8,6 +8,8 @@ import (
 func NewEsamiRouter(db *ent.Client) chi.Router {
 	esameRouter := chi.NewRouter()
 
+	esameRouter.Mount("/", newEsamiRouter(db))
+
 	esameRouter.Mount("/aperto", newApertoRouter(db))
 
 	esameRouter.Mount("/parziali", newParzialiRouter(db))

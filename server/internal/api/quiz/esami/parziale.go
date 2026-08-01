@@ -67,33 +67,44 @@ func createParziale(db *ent.Client) http.HandlerFunc {
 
 		ctx := r.Context()
 
-		esame, err := db.Esame.Create().
-			SetTipo(esame.TipoParziale).
-			SetNumeroQuesiti(body.NumeroQuesiti).
-			SetUtenteID(string(*user)).
-			SetMaxErrori(body.MaxErrori).
-			SetMinutiDisponibili(body.MinutiDisponibili).
-			Save(ctx)
-		if err != nil {
-			render.Render(w, r, api_errors.ErrInternal(err))
-			return
+		var e *ent.Esame
+
+		type QuesitoItem struct {
+			ID        int `json:"id"`
+			EsameId   int `json:"esameId"`
+			DomandaId int `json:"domandaId"`
 		}
 
-		var quesiti []*ent.QuesitoEsame
-		for _, domandaID := range domandeIDs {
-			q, err := db.QuesitoEsame.Create().
-				SetEsameID(esame.ID).
-				SetDomandaOriginaleID(domandaID).
+		err = orm.WithTx(ctx, db, func(tx *ent.Tx) error {
+			e, err = tx.Esame.Create().
+				SetTipo(esame.TipoParziale).
+				SetNumeroQuesiti(body.NumeroQuesiti).
+				SetUtenteID(string(*user)).
+				SetMaxErrori(body.MaxErrori).
+				SetMinutiDisponibili(body.MinutiDisponibili).
 				Save(ctx)
 			if err != nil {
-				render.Render(w, r, api_errors.ErrInternal(err))
-				return
+				return err
 			}
-			quesiti = append(quesiti, q)
-		}
-		render.JSON(w, r, map[string]interface{}{
-			"esame":   esame,
-			"quesiti": quesiti,
+
+			builders := make([]*ent.QuesitoEsameCreate, len(domandeIDs))
+			for i, domandaID := range domandeIDs {
+				builders[i] = tx.QuesitoEsame.Create().
+					SetEsameID(e.ID).
+					SetDomandaOriginaleID(domandaID)
+			}
+
+			err := tx.QuesitoEsame.CreateBulk(builders...).Exec(ctx)
+			if err != nil {
+				return err
+			}
+
+			if err := tx.Commit(); err != nil {
+				return err
+			}
+			return nil
 		})
+
+		render.JSON(w, r, e)
 	}
 }
