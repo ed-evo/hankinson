@@ -1,4 +1,4 @@
-import { getCapitoli, login, USER_REF, type Capitolo, type User } from "@/services/hankinson";
+import { type Esame, getCapitoli, login, USER_REF, type Capitolo, type User } from "@/services/hankinson";
 import { TrainingSettings } from "@/types/models";
 import { useLocalStorage } from "@vueuse/core";
 import { defineStore } from "pinia";
@@ -19,6 +19,16 @@ export const useQuizStore = defineStore('quiz', () => {
     const capitoliSelezionati: Ref<number[]> = useLocalStorage('quiz.capitoliSelezionati', [])
     const downloadProgress = ref(-1)
     const capitoli: Map<number, Capitolo> = new Map()
+    const currentEsameParziale = ref<Esame | null>({
+    "id": 19,
+    "tipo": "parziale",
+    "max_errori": 3,
+    "numero_quesiti": 8,
+    "minuti_disponibili": 5,
+    "edge": { quesiti: [] }
+})
+
+
 
     login().then(
         user => console.log('user', user),
@@ -40,6 +50,8 @@ export const useQuizStore = defineStore('quiz', () => {
         // state
         capitoliSelezionati,
         trainingSettings,
+        currentEsameParziale,
+
         // getters
         user: computed(() => USER_REF),
         isLoading: computed(() => downloadProgress.value < 100),

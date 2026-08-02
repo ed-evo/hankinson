@@ -51,37 +51,8 @@ import { ref, onMounted } from 'vue';
 import { useThrottleFn } from '@vueuse/core';
 import { useAppStore } from '@/stores/app';
 import QuesitoView from '@/components/QuesitoView.vue'
-import { validateAnsware as validateAnswer } from '@/utils/quesiti';
+import type { QuizItem } from '@/types/models';
 
-class QuizItem {
-  private _answer: Choice | null = null
-  private _isCorrect: boolean = false
-  constructor(
-    public readonly quesito: Quesito,
-    public readonly domanda: Domanda
-  ) {}
-
-  set answer(answer: Choice | null) {
-    this._answer = answer
-    if (!answer) {
-      this._isCorrect = false
-      return
-    }
-    this._isCorrect = validateAnswer(this.domanda, answer)
-  }
-
-  get answer(): Choice | null {
-    return this._answer
-  }
-
-  get isAnswered(): boolean {
-    return !!this._answer
-  }
-
-  get isCorrect(): boolean {
-    return this._isCorrect
-  }
-}
 
 const isLoading = ref(true)
 const quizStore = useQuizStore()

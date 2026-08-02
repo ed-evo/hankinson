@@ -34,7 +34,6 @@
 
 <script lang="ts" setup>
 import { Choice, type Domanda, type PausaEvent } from '@/services/hankinson';
-import { validateAnsware } from '@/utils/quesiti';
 import { useDocumentVisibility } from '@vueuse/core';
 import { watch } from 'vue';
 

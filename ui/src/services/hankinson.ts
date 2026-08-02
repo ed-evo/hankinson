@@ -31,6 +31,32 @@ export interface SpiegazioneDomanda {
     regola_chiave: string
 }
 
+export interface QuesitoEsame {
+    id: number;
+    risposta_final?: boolean;
+    edges: {
+        domanda_originale: Domanda
+    }
+}
+
+export interface Esame {
+    id: number;
+    tipo: string;
+    max_errori: number;
+    numero_quesiti: number;
+    minuti_disponibili: number;
+    edge: {
+        quesiti: QuesitoEsame[];
+    }
+}
+
+export interface EsameParzialeParams {
+    capitoli: number[]
+    numero_quesiti: number
+    max_errori: number
+    minuti_disponibili: number
+}
+
 export interface Quesito {
     id: number,
     esameId: number,
@@ -158,6 +184,17 @@ export async function notifyQuesityAttivita(quesitoId: number, attivita: Attivit
     await ofetch(`/esami/quesiti/${quesitoId}/attivita`, build_request_options({
         method: 'PUT',
         body: attivita
+    }))
+}
+
+export async function getEsameQuesiti(esameId: number): Promise<QuesitoEsame[]> {
+    return await ofetch<QuesitoEsame[]>(`/esami/${esameId}/quesiti`, build_request_options())
+}
+
+export async function createEsameParziale(params: EsameParzialeParams): Promise<Esame> {
+    return ofetch<Esame>("/esami/parziali", build_request_options({
+        method: "PUT",
+        body: params
     }))
 }
 

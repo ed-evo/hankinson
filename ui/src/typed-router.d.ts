@@ -52,6 +52,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    'quiz_training_play': RouteRecordInfo<
+      'quiz_training_play',
+      '/quiz/training/play',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
   }
 
   /**
@@ -84,6 +91,14 @@ declare module 'vue-router/auto-routes' {
     'src/pages/quiz/training/index.vue': {
       routes:
         | 'quiz-training'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'src/pages/quiz/training/play.vue': {
+      routes:
+        | 'quiz_training_play'
       views:
         | never
       pathParamNames:
