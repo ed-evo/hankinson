@@ -7,27 +7,22 @@ import (
 	api_context "github.com/ed-evo/hankinson/server/internal/api/context"
 	"github.com/ed-evo/hankinson/server/internal/orm"
 	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/render"
 )
 
 func newArgomentiRouter(db *ent.Client) chi.Router {
 	argomentiRouter := chi.NewRouter()
+	ctx := api_context.EntityContextHelper[ent.Argomento, *ent.ArgomentoQuery]{
+		ParamName: "argomentoID",
+		Fetcher:   &orm.ArgomentoFetcher{DB: db},
+	}
 
-	argomentiRouter.Get("/", func(w http.ResponseWriter, r *http.Request) {
-		argomenti, _ := db.Argomento.Query().All(r.Context())
-		render.JSON(w, r, argomenti)
-	})
+	argomentiRouter.Get("/", ctx.JsonListHandler(func(r *http.Request, entities []*ent.Argomento) (any, error) {
+		return entities, nil
+	}))
 
 	argomentiRouter.Route("/{argomentoID:[0-9]+}", func(r chi.Router) {
-		ctx := api_context.EntityContextHelper[ent.Argomento, *ent.ArgomentoQuery]{
-			ParamName:  "argomentoID",
-			ContextKey: "argomento",
-			Fetcher:    orm.ArgomentoFetcher{DB: db},
-		}
 		r.Get("/", ctx.JsonHandler(func(r *http.Request, entity *ent.Argomento) (any, error) {
 			return entity, nil
-		}, func(q *ent.ArgomentoQuery) *ent.ArgomentoQuery {
-			return q.WithDomande()
 		}))
 	})
 

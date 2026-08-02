@@ -19,22 +19,19 @@ import (
 
 func newCapitoliRouter(db *ent.Client) chi.Router {
 	capitoliRouter := chi.NewRouter()
+	ctx := api_context.EntityContextHelper[ent.Capitolo, *ent.CapitoloQuery]{
+		ParamName: "capitoloID",
+		Fetcher:   &orm.CapitoloFetcher{DB: db},
+	}
 
 	capitoliRouter.Get("/stats", getBasicStats(db))
 	// chaced responses
 	capitoliRouter.Group(func(r chi.Router) {
 		api_middlewares.AddToGlobal(r)
-		r.Get("/", func(w http.ResponseWriter, r *http.Request) {
-			capitoli, _ := db.Capitolo.Query().
-				All(r.Context())
-			render.JSON(w, r, capitoli)
-		})
+		r.Get("/", ctx.JsonListHandler(func(r *http.Request, entities []*ent.Capitolo) (any, error) {
+			return entities, nil
+		}))
 		r.Route("/{capitoloID:[0-9]+}", func(r chi.Router) {
-			ctx := api_context.EntityContextHelper[ent.Capitolo, *ent.CapitoloQuery]{
-				ParamName:  "capitoloID",
-				ContextKey: "capitolo",
-				Fetcher:    orm.CapitoloFetcher{DB: db},
-			}
 			r.Get("/", ctx.JsonHandler(func(r *http.Request, entity *ent.Capitolo) (any, error) {
 				return entity, nil
 			}))

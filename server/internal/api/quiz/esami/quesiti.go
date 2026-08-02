@@ -41,14 +41,13 @@ func equalBoolPtr(a, b *bool) bool {
 
 func newQuesitiRouter(db *ent.Client) chi.Router {
 	quesitiRouter := chi.NewRouter()
+	ctx := api_context.EntityContextHelper[ent.QuesitoEsame, *ent.QuesitoEsameQuery]{
+		ParamName: "quesitoID",
+		Fetcher:   &orm.QuesitoFetcher{DB: db},
+	}
 
 	quesitiRouter.Get("/stats", getStats(db))
 	quesitiRouter.Route("/{quesitoID:[0-9]+}", func(r chi.Router) {
-		ctx := api_context.EntityContextHelper[ent.QuesitoEsame, *ent.QuesitoEsameQuery]{
-			ParamName:  "quesitoID",
-			ContextKey: "quesito",
-			Fetcher:    orm.QuesitoFetcher{DB: db},
-		}
 		r.Put("/attivita", ctx.Process(putAttivitaQuesito(db)))
 	})
 
