@@ -30,12 +30,11 @@ func newCapitoliRouter(db *ent.Client) chi.Router {
 			render.JSON(w, r, capitoli)
 		})
 		r.Route("/{capitoloID:[0-9]+}", func(r chi.Router) {
-			ctx := api_context.EntityContextHelper[ent.Capitolo]{
+			ctx := api_context.EntityContextHelper[ent.Capitolo, *ent.CapitoloQuery]{
 				ParamName:  "capitoloID",
 				ContextKey: "capitolo",
 				Fetcher:    orm.CapitoloFetcher{DB: db},
 			}
-			r.Use(ctx.Middleware())
 			r.Get("/", ctx.JsonHandler(func(r *http.Request, entity *ent.Capitolo) (any, error) {
 				return entity, nil
 			}))

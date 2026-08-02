@@ -20,12 +20,11 @@ func newDomandeRouter(db *ent.Client) chi.Router {
 	})
 
 	domandeRouter.Route("/{domandaId:[0-9]+}", func(r chi.Router) {
-		ctx := api_context.EntityContextHelper[ent.Domanda]{
+		ctx := api_context.EntityContextHelper[ent.Domanda, *ent.DomandaQuery]{
 			ParamName:  "domandaId",
 			ContextKey: "domanda",
 			Fetcher:    orm.DomandaFetcher{DB: db},
 		}
-		r.Use(ctx.Middleware())
 		r.Get("/", ctx.JsonHandler(func(r *http.Request, entity *ent.Domanda) (any, error) {
 			return entity, nil
 		}))

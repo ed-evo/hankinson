@@ -1,7 +1,6 @@
 package api_context
 
 import (
-	"context"
 	"net/http"
 	"strconv"
 
@@ -11,44 +10,31 @@ import (
 	"github.com/go-chi/render"
 )
 
-type EntityContextHelper[T any] struct {
+type EntityContextHelper[T any, Q orm.Querier[T]] struct {
 	ParamName  string
 	ContextKey any
-	Fetcher    orm.EntityFetcher[T]
+	Fetcher    orm.EntityFetcher[T, Q]
 }
 
-func (h *EntityContextHelper[T]) Middleware() func(http.Handler) http.Handler {
-	return func(next http.Handler) http.Handler {
-		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-			paramVal := chi.URLParam(r, h.ParamName)
-			id, err := strconv.Atoi(paramVal)
-			if err != nil {
-				render.Render(w, r, api_errors.ErrInvalidRequest(err))
-				return
-			}
-
-			entity, err := h.Fetcher.Fetch(r.Context(), id)
-			if err != nil {
-				render.Render(w, r, api_errors.ErrNotFound)
-				return
-			}
-
-			// Store entity in context
-			ctx := context.WithValue(r.Context(), h.ContextKey, entity)
-			next.ServeHTTP(w, r.WithContext(ctx))
-		})
+func (h *EntityContextHelper[T, Q]) fetch(r *http.Request, mods ...orm.FetcherMidifier[Q]) (*T, error) {
+	paramVal := chi.URLParam(r, h.ParamName)
+	id, err := strconv.Atoi(paramVal)
+	if err != nil {
+		return nil, err
 	}
+	return h.Fetcher.Fetch(r.Context(), id, mods...)
 }
 
-func (h *EntityContextHelper[T]) JsonHandler(
+func (h *EntityContextHelper[T, Q]) JsonHandler(
 	logic func(r *http.Request, entity *T) (any, error),
+	mods ...orm.FetcherMidifier[Q],
 ) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 
-		val := r.Context().Value(h.ContextKey)
-		entity, ok := val.(*T)
-		if !ok {
-			render.Render(w, r, api_errors.ErrNotFound)
+		entity, err := h.fetch(r, mods...)
+
+		if err != nil {
+			render.Render(w, r, api_errors.ErrInvalidRequest(err))
 			return
 		}
 
@@ -62,20 +48,20 @@ func (h *EntityContextHelper[T]) JsonHandler(
 	}
 }
 
-func (h *EntityContextHelper[T]) Process(
+func (h *EntityContextHelper[T, Q]) Process(
 	logic func(r *http.Request, entity *T) error,
+	mods ...orm.FetcherMidifier[Q],
 ) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 
-		val := r.Context().Value(h.ContextKey)
-		entity, ok := val.(*T)
-		if !ok {
-			render.Render(w, r, api_errors.ErrNotFound)
+		entity, err := h.fetch(r, mods...)
+
+		if err != nil {
+			render.Render(w, r, api_errors.ErrInvalidRequest(err))
 			return
 		}
 
-		err := logic(r, entity)
-		if err != nil {
+		if err := logic(r, entity); err != nil {
 			render.Render(w, r, api_errors.ErrInvalidRequest(err))
 			return
 		}

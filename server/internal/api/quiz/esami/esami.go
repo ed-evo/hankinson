@@ -14,12 +14,11 @@ func newEsamiRouter(db *ent.Client) chi.Router {
 	esamiRouter := chi.NewRouter()
 
 	esamiRouter.Route("/{esameID:[0-9]+}", func(r chi.Router) {
-		ctx := api_context.EntityContextHelper[ent.Esame]{
+		ctx := api_context.EntityContextHelper[ent.Esame, *ent.EsameQuery]{
 			ParamName:  "esameID",
 			ContextKey: "esame",
 			Fetcher:    orm.EsameFetcher{DB: db},
 		}
-		r.Use(ctx.Middleware())
 
 		r.Get("/", ctx.JsonHandler(func(r *http.Request, entity *ent.Esame) (any, error) {
 			return entity, nil

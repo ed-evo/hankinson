@@ -19,14 +19,15 @@ func newArgomentiRouter(db *ent.Client) chi.Router {
 	})
 
 	argomentiRouter.Route("/{argomentoID:[0-9]+}", func(r chi.Router) {
-		ctx := api_context.EntityContextHelper[ent.Argomento]{
+		ctx := api_context.EntityContextHelper[ent.Argomento, *ent.ArgomentoQuery]{
 			ParamName:  "argomentoID",
 			ContextKey: "argomento",
 			Fetcher:    orm.ArgomentoFetcher{DB: db},
 		}
-		r.Use(ctx.Middleware())
 		r.Get("/", ctx.JsonHandler(func(r *http.Request, entity *ent.Argomento) (any, error) {
 			return entity, nil
+		}, func(q *ent.ArgomentoQuery) *ent.ArgomentoQuery {
+			return q.WithDomande()
 		}))
 	})
 

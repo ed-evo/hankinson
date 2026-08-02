@@ -44,12 +44,11 @@ func newQuesitiRouter(db *ent.Client) chi.Router {
 
 	quesitiRouter.Get("/stats", getStats(db))
 	quesitiRouter.Route("/{quesitoID:[0-9]+}", func(r chi.Router) {
-		ctx := api_context.EntityContextHelper[ent.QuesitoEsame]{
+		ctx := api_context.EntityContextHelper[ent.QuesitoEsame, *ent.QuesitoEsameQuery]{
 			ParamName:  "quesitoID",
 			ContextKey: "quesito",
 			Fetcher:    orm.QuesitoFetcher{DB: db},
 		}
-		r.Use(ctx.Middleware())
 		r.Put("/attivita", ctx.Process(putAttivitaQuesito(db)))
 	})
 
