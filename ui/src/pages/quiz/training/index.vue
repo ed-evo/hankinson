@@ -6,32 +6,32 @@ meta:
   icon: mdi-handball
 </route>
 <template>
-
   <v-card>
-    <v-card-title>
-      Impostazioni quiz
-    </v-card-title>
+    <v-card-title> Impostazioni quiz </v-card-title>
     <v-card-text>
       <training-input></training-input>
     </v-card-text>
-    <v-card-text>
-    </v-card-text>
+    <v-card-text> </v-card-text>
     <v-card-actions>
       <v-btn
         variant="tonal"
         color="primary"
         block
         @click="startParziale"
-      >Inizia</v-btn>
+        >Inizia</v-btn
+      >
     </v-card-actions>
   </v-card>
 </template>
 
 <script lang="ts" setup>
-import TrainingInput from '@/components/TrainingInput.vue';
-import { createEsameParziale, type EsameParzialeParams } from '@/services/hankinson';
-import { useQuizStore } from '@/stores/quiz';
-import { useRouter } from 'vue-router';
+import TrainingInput from '@/components/TrainingInput.vue'
+import {
+  createEsameParziale,
+  type EsameParzialeParams,
+} from '@/services/hankinson'
+import { useQuizStore } from '@/stores/quiz'
+import { useRouter } from 'vue-router'
 
 const router = useRouter()
 const quizStore = useQuizStore()

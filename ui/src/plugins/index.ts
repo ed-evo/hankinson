@@ -1,5 +1,5 @@
-import router from '../router';
-import { createPinia } from 'pinia';
+import router from '../router'
+import { createPinia } from 'pinia'
 
 /**
  * plugins/index.ts
@@ -14,8 +14,8 @@ import type { App } from 'vue'
 import vuetify from './vuetify'
 
 export function registerPlugins(app: App) {
-    const pinia = createPinia()
-    app.use(vuetify)
-    app.use(pinia);
-    app.use(router);
+  const pinia = createPinia()
+  app.use(vuetify)
+  app.use(pinia)
+  app.use(router)
 }

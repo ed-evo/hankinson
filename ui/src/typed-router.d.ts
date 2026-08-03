@@ -14,9 +14,7 @@ import type {
   ParamValueZeroOrMore,
   ParamValueZeroOrOne,
 } from 'vue-router'
-import type {
-  _ExtractParamParserType,
-} from 'vue-router/experimental'
+import type { _ExtractParamParserType } from 'vue-router/experimental'
 
 declare module 'vue-router' {
   interface TypesConfig {
@@ -36,29 +34,29 @@ declare module 'vue-router/auto-routes' {
       '/',
       Record<never, never>,
       Record<never, never>,
-      | never
-    >,
+      never
+    >
     'quiz-infinito': RouteRecordInfo<
       'quiz-infinito',
       '/quiz/infinito',
       Record<never, never>,
       Record<never, never>,
-      | never
-    >,
+      never
+    >
     'quiz-training': RouteRecordInfo<
       'quiz-training',
       '/quiz/training',
       Record<never, never>,
       Record<never, never>,
-      | never
-    >,
-    'quiz_training_play': RouteRecordInfo<
+      never
+    >
+    quiz_training_play: RouteRecordInfo<
       'quiz_training_play',
       '/quiz/training/play',
       Record<never, never>,
       Record<never, never>,
-      | never
-    >,
+      never
+    >
   }
 
   /**
@@ -73,36 +71,24 @@ declare module 'vue-router/auto-routes' {
    */
   export interface _RouteFileInfoMap {
     'src/pages/index.vue': {
-      routes:
-        | '/'
-      views:
-        | never
-      pathParamNames:
-        | never
+      routes: '/'
+      views: never
+      pathParamNames: never
     }
     'src/pages/quiz/infinito.vue': {
-      routes:
-        | 'quiz-infinito'
-      views:
-        | never
-      pathParamNames:
-        | never
+      routes: 'quiz-infinito'
+      views: never
+      pathParamNames: never
     }
     'src/pages/quiz/training/index.vue': {
-      routes:
-        | 'quiz-training'
-      views:
-        | never
-      pathParamNames:
-        | never
+      routes: 'quiz-training'
+      views: never
+      pathParamNames: never
     }
     'src/pages/quiz/training/play.vue': {
-      routes:
-        | 'quiz_training_play'
-      views:
-        | never
-      pathParamNames:
-        | never
+      routes: 'quiz_training_play'
+      views: never
+      pathParamNames: never
     }
   }
 

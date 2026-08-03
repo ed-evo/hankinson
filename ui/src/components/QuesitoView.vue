@@ -35,7 +35,7 @@
 <script lang="ts" setup>
 import { Choice, type Domanda, type PausaEvent } from '@/services/hankinson';
 import { useDocumentVisibility } from '@vueuse/core';
-import { watch } from 'vue';
+import { onMounted, onUnmounted, watch } from 'vue';
 
 defineProps<{
     width: number,
@@ -52,6 +52,9 @@ const emit = defineEmits<{
 
 const visibility = useDocumentVisibility()
 let pauseStartedAt = new Date()
+
+onMounted(() => console.log("mounted"))
+onUnmounted(() => console.log("Unmounted"))
 
 watch(visibility, (current, old) => {
     if (current === 'hidden') {

@@ -17,8 +17,8 @@ export const useAppStore = defineStore('app', () => {
     width: computed(() => width.value),
     mobile: computed(() => mobile.value),
     isLandscape: computed(() => width.value > height.value),
-    quizRoutes: computed(() => 
-      router?.getRoutes().filter(r => r.meta.type === 'quiz')
+    quizRoutes: computed(() =>
+      router?.getRoutes().filter((r) => r.meta.type === 'quiz')
     ),
   }
 })

@@ -7,9 +7,21 @@ meta:
 </route>
 
 <template>
-  <v-card class="h-100 w-100 position-relative" flat>
-    <QuesitoView v-if="current" :width="appStore.width" :height="appStore.height" :is-landscape="appStore.isLandscape"
-      :domanda="current.domanda" :answer="current.answer" @answer="giveAnsware" @next="done" @pause="onPause"></QuesitoView>
+  <v-card
+    class="h-100 w-100 position-relative"
+    flat
+  >
+    <QuesitoView
+      v-if="current"
+      :width="appStore.width"
+      :height="appStore.height"
+      :is-landscape="appStore.isLandscape"
+      :domanda="current.domanda"
+      :answer="current.answer"
+      @answer="giveAnsware"
+      @next="done"
+      @pause="onPause"
+    ></QuesitoView>
 
     <v-bottom-sheet
       v-if="current?.isAnswered"
@@ -21,7 +33,10 @@ meta:
     >
       <v-card>
         <v-card-text class="py-0">
-          <h3>Risposta data {{ current.answer }} è: {{ current.isCorrect ? 'CORRETTA' : 'SBAGLIATA' }}</h3>
+          <h3>
+            Risposta data {{ current.answer }} è:
+            {{ current.isCorrect ? 'CORRETTA' : 'SBAGLIATA' }}
+          </h3>
         </v-card-text>
         <spiegazione-domanda
           :numero-domanda="current.domanda.id"
@@ -30,29 +45,49 @@ meta:
           flat
         ></spiegazione-domanda>
         <v-card-actions>
-          <v-btn color="primary" variant="tonal" @click="done" block>
+          <v-btn
+            color="primary"
+            variant="tonal"
+            @click="done"
+            block
+          >
             Prossimo
           </v-btn>
         </v-card-actions>
       </v-card>
     </v-bottom-sheet>
-    <v-overlay :model-value="isLoading" class="align-center justify-center" persistent>
-      <v-progress-circular indeterminate size="64" />
+    <v-overlay
+      :model-value="isLoading"
+      class="align-center justify-center"
+      persistent
+    >
+      <v-progress-circular
+        indeterminate
+        size="64"
+      />
     </v-overlay>
   </v-card>
 </template>
 
 <script lang="ts" setup>
-import SpiegazioneDomanda from '@/components/SpiegazioneDomanda.vue';
-import { useQuizStore } from '@/stores/quiz';
-import { AttivitaEmitter, Choice, getDomandaById, nextQuesitoAperto, TipoAttivitaQuesito, type Domanda, type PausaEvent, type Quesito } from '@/services/hankinson';
-import { ref, onMounted } from 'vue';
+import SpiegazioneDomanda from '@/components/SpiegazioneDomanda.vue'
+import { useQuizStore } from '@/stores/quiz'
+import {
+  AttivitaEmitter,
+  Choice,
+  getDomandaById,
+  nextQuesitoAperto,
+  TipoAttivitaQuesito,
+  type Domanda,
+  type PausaEvent,
+  type Quesito,
+} from '@/services/hankinson'
+import { ref, onMounted } from 'vue'
 
-import { useThrottleFn } from '@vueuse/core';
-import { useAppStore } from '@/stores/app';
+import { useThrottleFn } from '@vueuse/core'
+import { useAppStore } from '@/stores/app'
 import QuesitoView from '@/components/QuesitoView.vue'
-import type { QuizItem } from '@/types/models';
-
+import { QuizItem } from '@/types/models'
 
 const isLoading = ref(true)
 const quizStore = useQuizStore()
@@ -85,7 +120,7 @@ const done = useThrottleFn(async () => {
 }, 300)
 
 function onPause(event: PausaEvent) {
-  console.log("Paused", event)
+  console.log('Paused', event)
   attivitaEmitter?.firePausa(event)
 }
 

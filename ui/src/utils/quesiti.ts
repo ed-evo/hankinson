@@ -1,5 +1,4 @@
-import { Choice, type Domanda } from "@/services/hankinson"
-
+import { Choice, type Domanda } from '@/services/hankinson'
 
 export function validateAnswer(domanda: Domanda, choice: Choice): boolean {
   switch (choice) {
