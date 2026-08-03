@@ -17,9 +17,9 @@ meta:
       :height="appStore.height"
       :is-landscape="appStore.isLandscape"
       :domanda="current.domanda"
-      :answer="current.answer"
-      @answer="giveAnsware"
-      @next="done"
+      v-model="current.answer"
+      @update:model-value="giveAnsware"
+      @done="done"
       @pause="onPause"
     ></QuesitoView>
 
@@ -78,9 +78,7 @@ import {
   getDomandaById,
   nextQuesitoAperto,
   TipoAttivitaQuesito,
-  type Domanda,
   type PausaEvent,
-  type Quesito,
 } from '@/services/hankinson'
 import { ref, onMounted } from 'vue'
 

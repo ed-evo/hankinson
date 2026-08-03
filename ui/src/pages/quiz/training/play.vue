@@ -18,9 +18,9 @@ name: quiz_training_play
           :height="appStore.height"
           :is-landscape="appStore.isLandscape"
           :domanda="current.domanda"
-          :answer="current.answer"
-          @answer="giveAnsware"
-          @next="next"
+          v-model="current.answer"
+          @update:model-value="giveAnsware"
+          @done="next"
           @pause="onPause"
         ></QuesitoView>
       </v-window-item>
