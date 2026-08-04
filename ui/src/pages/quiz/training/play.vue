@@ -7,7 +7,7 @@ name: quiz_training_play
     class="h-100 w-100 position-relative"
     flat
   >
-    <v-window v-model="currentIndex">
+    <v-window v-model="currentIndex" :touch="false">
       <v-window-item
         v-for="(current, i) in quizItems"
         :key="i"
@@ -18,11 +18,23 @@ name: quiz_training_play
           :height="appStore.height"
           :is-landscape="appStore.isLandscape"
           :domanda="current.domanda"
-          v-model="current.answer"
-          @update:model-value="giveAnsware"
-          @done="next"
-          @pause="onPause"
-        ></QuesitoView>
+          :initial-value="current.answer"
+          @ready="onQuesitoReady"
+          @answer="(at, choice) => giveAnsware(current, at, choice)"
+          @done="(at) => onQuesitoDone(current, at)"
+          @pause="onPause(current, $event)"
+        >
+          <template #done="{ done }">
+            <v-row>
+              <v-col cols="6">
+                <v-btn block @click="changePage(ChangeQuesitoType.PREV, done)">precedente</v-btn>
+              </v-col>
+              <v-col cols="6">
+                <v-btn block @click="changePage(ChangeQuesitoType.NEXT, done)">prossimo</v-btn>
+              </v-col>
+            </v-row>
+          </template>
+        </QuesitoView>
       </v-window-item>
     </v-window>
   </v-card>
@@ -33,35 +45,90 @@ import QuesitoView from '@/components/QuesitoView.vue'
 import {
   type Esame,
   getEsameQuesiti,
-  type PausaEvent,
   Choice,
+  AttivitaEmitter,
+  type PausaEvent,
+  TipoAttivitaQuesito,
 } from '@/services/hankinson'
 import { useAppStore } from '@/stores/app'
 import { useQuizStore } from '@/stores/quiz'
 import { QuizItem } from '@/types/models'
 import { useThrottleFn } from '@vueuse/core'
-import { onUnmounted, ref, watch } from 'vue'
+import { onUnmounted, ref, shallowRef, watch } from 'vue'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
 const appStore = useAppStore()
 const quizStore = useQuizStore()
-const quizItems = ref<QuizItem[]>([])
+const quizItems = shallowRef<QuizItem[]>([])
 const currentIndex = ref(0)
 
-const next = useThrottleFn(async () => {
-  console.log(next)
-}, 300)
+const attivitaEmitter: AttivitaEmitter = new AttivitaEmitter()
 
-const giveAnsware = useThrottleFn((choice: Choice | null) => {
-  console.log('answered', choice)
+enum ChangeQuesitoType {
+  PREV = 'Prev',
+  NEXT = 'Next',
+  GOTO = 'GoTo'
+}
+
+const changePage = useThrottleFn((
+  event: ChangeQuesitoType,
+  doneFn?: () => void,
+  newIndex?: number
+) => {
+  let index: number = currentIndex.value
+  switch (event) {
+    case ChangeQuesitoType.NEXT:
+      index += 1
+      break
+    case ChangeQuesitoType.PREV:
+      index -= 1
+      break
+    case ChangeQuesitoType.GOTO:
+      index = newIndex ?? 0
+      break
+  }
+  const targetIndex = Math.min(Math.max(index, 0), quizItems.value.length -1)
+  if (currentIndex.value === targetIndex ) {
+    return
+  }
+  currentIndex.value = targetIndex
+  if (doneFn) {
+    doneFn()
+  }
 }, 1000)
 
-function onPause(event: PausaEvent) {
-  console.log('Paused', event)
+async function onQuesitoReady(at: Date) {
+  attivitaEmitter.reset(at)
+}
+
+const giveAnsware = useThrottleFn(
+  async (item: QuizItem, at: Date, choice: Choice | null) => {
+    if (item.answer !== choice) {
+      item.answer = choice
+      await attivitaEmitter.fire(item.quesito.id, TipoAttivitaQuesito.risposta, choice, at)
+    }
+  },
+  1000
+)
+
+const onQuesitoDone = useThrottleFn(async (item: QuizItem, at: Date) => {
+  await attivitaEmitter.fire(
+      item.quesito.id,
+      item.isAnswered
+        ? TipoAttivitaQuesito.prossimo
+        : TipoAttivitaQuesito.salta,
+      null,
+      at
+    )
+}, 300)
+
+async function onPause(item: QuizItem, event: PausaEvent) {
+  await attivitaEmitter.firePausa(item.quesito.id, event)
 }
 
 onUnmounted(() => {
+  console.log("unlaoding")
   // quizStore.currentEsameParziale = null
 })
 

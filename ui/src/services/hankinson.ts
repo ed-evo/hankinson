@@ -238,12 +238,14 @@ export async function createEsameParziale(
 }
 
 export class AttivitaEmitter {
-  constructor(
-    private idQuesito: number,
-    private startedAt: Date = new Date()
-  ) {}
+  constructor(private startedAt: Date = new Date()) {}
+
+  reset(at: Date = new Date()) {
+    this.startedAt = at
+  }
 
   async fire(
+    idQuesito: number,
     tipo: TipoAttivitaQuesito,
     risposta: Choice | null = null,
     finishedAt: Date = new Date()
@@ -252,7 +254,7 @@ export class AttivitaEmitter {
     if (risposta) {
       risposta_data = Choice.VERO === risposta
     }
-    await notifyQuesityAttivita(this.idQuesito, {
+    await notifyQuesityAttivita(idQuesito, {
       tipo,
       inizio: this.startedAt,
       durata_ms: finishedAt.getTime() - this.startedAt.getTime(),
@@ -261,8 +263,8 @@ export class AttivitaEmitter {
     this.startedAt = finishedAt
   }
 
-  async firePausa(event: PausaEvent) {
-    await notifyQuesityAttivita(this.idQuesito, {
+  async firePausa(idQuesito: number, event: PausaEvent) {
+    await notifyQuesityAttivita(idQuesito, {
       tipo: TipoAttivitaQuesito.pausa,
       inizio: event.inizio,
       durata_ms: event.fine.getTime() - event.inizio.getTime(),

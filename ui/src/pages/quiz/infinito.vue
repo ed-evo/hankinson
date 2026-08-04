@@ -17,8 +17,9 @@ meta:
       :height="appStore.height"
       :is-landscape="appStore.isLandscape"
       :domanda="current.domanda"
-      v-model="current.answer"
-      @update:model-value="giveAnsware"
+      :initial-value="current.answer"
+      @ready="onQuesitoReady"
+      @answer="giveAnsware"
       @done="done"
       @pause="onPause"
     ></QuesitoView>
@@ -48,7 +49,7 @@ meta:
           <v-btn
             color="primary"
             variant="tonal"
-            @click="done"
+            @click="done()"
             block
           >
             Prossimo
@@ -94,42 +95,59 @@ const appStore = useAppStore()
 const quiz = ref<QuizItem[]>([])
 const current = ref<QuizItem>()
 
-let attivitaEmitter: AttivitaEmitter | null = null
+const attivitaEmitter: AttivitaEmitter = new AttivitaEmitter()
 
-const giveAnsware = useThrottleFn((choice: Choice | null) => {
+async function onQuesitoReady(at: Date) {
+  attivitaEmitter.reset(at)
+}
+
+const giveAnsware = useThrottleFn(async (at: Date, choice: Choice | null) => {
   const item = current.value
   if (item === undefined) {
     return
   }
   if (item.answer !== choice) {
     item.answer = choice
-    attivitaEmitter?.fire(TipoAttivitaQuesito.risposta, choice)
+    await attivitaEmitter?.fire(
+      item.quesito.id,
+      TipoAttivitaQuesito.risposta,
+      choice,
+      at
+    )
   }
 }, 1000)
 
-const done = useThrottleFn(async () => {
+const done = useThrottleFn(async (at: Date = new Date()) => {
   isLoading.value = true
   const item = current.value
-  attivitaEmitter?.fire(
-    item?.answer ? TipoAttivitaQuesito.prossimo : TipoAttivitaQuesito.salta
-  )
+  if (item) {
+    await attivitaEmitter?.fire(
+      item.quesito.id,
+      item.isAnswered
+        ? TipoAttivitaQuesito.prossimo
+        : TipoAttivitaQuesito.salta,
+      null,
+      at
+    )
+  }
   await loadQuesito()
   isLoading.value = false
 }, 300)
 
-function onPause(event: PausaEvent) {
-  console.log('Paused', event)
-  attivitaEmitter?.firePausa(event)
+async function onPause(pauseEvent: PausaEvent) {
+  if (current.value) {
+    await attivitaEmitter.firePausa(current.value.quesito.id, pauseEvent)
+  }
 }
 
 async function loadQuesito() {
+  current.value = undefined
   const quesito = await nextQuesitoAperto(quizStore.capitoliSelezionati)
 
   const domanda = await getDomandaById(quesito.domandaId)
   const item = new QuizItem(quesito, domanda)
   current.value = item
   quiz.value.push(item)
-  attivitaEmitter = new AttivitaEmitter(quesito.id)
 }
 
 onMounted(async () => {

@@ -32,16 +32,18 @@
           >
             <v-btn
               icon
-              @click="answer = Choice.VERO"
-              :color="answer == Choice.VERO ? 'primary' : undefined"
+              @click="giveAnsware(Choice.VERO)"
+              :color="value == Choice.VERO ? 'primary' : undefined"
+              :disabled="value == Choice.VERO"
               >V</v-btn
             >
           </v-col>
           <v-col cols="6">
             <v-btn
               icon
-              @click="answer = Choice.FALSO"
-              :color="answer == Choice.FALSO ? 'primary' : undefined"
+              @click="giveAnsware(Choice.FALSO)"
+              :color="value == Choice.FALSO ? 'primary' : undefined"
+              :disabled="value == Choice.FALSO"
               >F</v-btn
             >
           </v-col>
@@ -49,12 +51,14 @@
             cols="12"
             class="align-self-end"
           >
-            <v-btn
-              class="w-100"
-              @click="$emit('done')"
-            >
-              Prossimo
-            </v-btn>
+          <slot name="done" :done="done">
+              <v-btn
+                block
+                @click="done"
+              >
+                Prossimo
+              </v-btn>
+            </slot>
           </v-col>
         </v-row>
       </v-col>
@@ -64,23 +68,45 @@
 
 <script lang="ts" setup>
 import { Choice, type Domanda, type PausaEvent } from '@/services/hankinson'
-import { useDocumentVisibility } from '@vueuse/core'
-import { watch } from 'vue'
+import { useDocumentVisibility, useThrottleFn } from '@vueuse/core'
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 
-const answer = defineModel()
-defineProps<{
+const props = defineProps<{
   width: number
   height: number
   isLandscape: boolean
   domanda: Domanda
+  initialValue?: Choice | null
 }>()
 const emit = defineEmits<{
-  (e: 'done'): void
+  (e: 'ready', at: Date): void
+  (e: 'answer', at: Date, value: Choice | null): void
+  (e: 'done', at: Date): void
   (e: 'pause', event: PausaEvent): void
 }>()
 
+const model = ref<Choice>()
+const value = computed(() => model.value ?? props.initialValue)
+
+const giveAnsware = useThrottleFn((choice: Choice) => {
+  model.value = choice
+  emit('answer', new Date(), choice)
+}, 1000)
+
+const done = useThrottleFn(() => {
+  emit('done', new Date())
+}, 300)
+
 const visibility = useDocumentVisibility()
 let pauseStartedAt = new Date()
+
+onMounted(() => {
+  emit('ready', new Date())
+})
+
+onUnmounted(() => {
+  model.value = undefined
+})
 
 watch(visibility, (current, old) => {
   if (current === 'hidden') {
