@@ -19,9 +19,17 @@ func newEsamiRouter(db *ent.Client) chi.Router {
 			Fetcher:   &orm.EsameFetcher{DB: db},
 		}
 
-		r.Get("/", ctx.JsonHandler(func(r *http.Request, entity *ent.Esame) (any, error) {
-			return entity, nil
-		}))
+		r.Get("/", ctx.JsonHandler(
+			func(r *http.Request, entity *ent.Esame) (any, error) {
+				return entity, nil
+			},
+			func(q *ent.EsameQuery) *ent.EsameQuery {
+				return q.WithQuesiti(func(qeq *ent.QuesitoEsameQuery) {
+					qeq.WithAttivita().
+						WithDomandaOriginale()
+				})
+			},
+		))
 
 		r.Get("/quesiti", ctx.JsonHandler(func(r *http.Request, entity *ent.Esame) (any, error) {
 			return db.Esame.Query().Where(esame.ID(entity.ID)).
