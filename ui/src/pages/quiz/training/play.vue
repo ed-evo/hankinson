@@ -7,7 +7,18 @@ name: quiz_training_play
     class="h-100 w-100 position-relative"
     flat
   >
-    <v-window v-model="currentIndex" :touch="false">
+  <v-toolbar ref="cardToolbar">
+    <v-btn :to="{ name: 'esame-dettaglio', params: { id: quizStore.currentEsameParziale?.id }}">Completa</v-btn>
+    <v-progress-linear active :model-value="timePassed" :max="tempoMassimo"
+    height="12"
+    color="blue"
+    variant="split"
+        location="bottom"
+        absolute>
+      
+    </v-progress-linear>
+  </v-toolbar>
+  <v-window v-model="currentIndex" :touch="false">    
       <v-window-item
         v-for="(current, i) in quizItems"
         :key="i"
@@ -15,7 +26,7 @@ name: quiz_training_play
         <QuesitoView
           v-if="i === currentIndex"
           :width="appStore.width"
-          :height="appStore.height"
+          :height="appStore.height - (64 + toolbarHeight)"
           :is-landscape="appStore.isLandscape"
           :domanda="current.domanda"
           :initial-value="current.answer"
@@ -53,15 +64,29 @@ import {
 import { useAppStore } from '@/stores/app'
 import { useQuizStore } from '@/stores/quiz'
 import { QuizItem } from '@/types/models'
-import { useThrottleFn } from '@vueuse/core'
-import { onUnmounted, ref, shallowRef, watch } from 'vue'
+import { useElementSize, useIntervalFn, useThrottleFn } from '@vueuse/core'
+import { type ComponentPublicInstance, computed, onUnmounted, ref, shallowRef, watch } from 'vue'
 import { useRouter } from 'vue-router'
-
 const router = useRouter()
 const appStore = useAppStore()
 const quizStore = useQuizStore()
+
+const cardToolbar = ref<ComponentPublicInstance | null>(null)
+const { height: toolbarHeight } = useElementSize(cardToolbar)
+
 const quizItems = shallowRef<QuizItem[]>([])
 const currentIndex = ref(0)
+
+const startTime = Date.now()
+const timePassed = ref(0)
+const tempoMassimo = computed(() => {
+  const minuti = quizStore.currentEsameParziale?.minuti_disponibili ?? 0
+  return minuti * 60 * 1000
+})
+
+useIntervalFn(() => {
+  timePassed.value = Date.now() - startTime
+}, 1000)
 
 const attivitaEmitter: AttivitaEmitter = new AttivitaEmitter()
 

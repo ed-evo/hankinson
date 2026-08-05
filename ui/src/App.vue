@@ -80,7 +80,7 @@
 
     <v-app-bar color="grey-lighten-2" height="48" location="bottom" flat>footer</v-app-bar> -->
 
-      <v-main class="d-flex flex-column">
+      <v-main>
         <router-view />
       </v-main>
     </v-layout>

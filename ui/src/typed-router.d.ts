@@ -38,6 +38,20 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/quiz/esami/': RouteRecordInfo<
+      '/quiz/esami/',
+      '/quiz/esami',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    'esame-dettaglio': RouteRecordInfo<
+      'esame-dettaglio',
+      '/quiz/esami/:id',
+      { id: ParamValue<true> },
+      { id: ParamValue<false> },
+      | never
+    >,
     'quiz-infinito': RouteRecordInfo<
       'quiz-infinito',
       '/quiz/infinito',
@@ -79,6 +93,22 @@ declare module 'vue-router/auto-routes' {
         | never
       pathParamNames:
         | never
+    }
+    'src/pages/quiz/esami/index.vue': {
+      routes:
+        | '/quiz/esami/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'src/pages/quiz/esami/[id].vue': {
+      routes:
+        | 'esame-dettaglio'
+      views:
+        | never
+      pathParamNames:
+        | 'id'
     }
     'src/pages/quiz/infinito.vue': {
       routes:

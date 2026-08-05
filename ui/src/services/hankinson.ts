@@ -225,6 +225,12 @@ export async function getEsameQuesiti(
   )
 }
 
+export async function getEsameById(esameId: number): Promise<Esame> {
+  return await ofetch<Esame>(
+    `/esami/${esameId}`, build_request_options()
+  )
+}
+
 export async function createEsameParziale(
   params: EsameParzialeParams
 ): Promise<Esame> {
