@@ -29,14 +29,6 @@ export const useQuizStore = defineStore('quiz', () => {
   )
   const downloadProgress = ref(-1)
   const capitoli: Map<number, Capitolo> = new Map()
-  const currentEsameParziale = ref<Esame | null>({
-    id: 19,
-    tipo: 'parziale',
-    max_errori: 3,
-    numero_quesiti: 8,
-    minuti_disponibili: 5,
-    edge: { quesiti: [] },
-  })
 
   login()
     .then(
@@ -60,7 +52,7 @@ export const useQuizStore = defineStore('quiz', () => {
     // state
     capitoliSelezionati,
     trainingSettings,
-    currentEsameParziale,
+    currentEsameParziale: ref<Esame | null>(null),
 
     // getters
     user: computed(() => USER_REF),

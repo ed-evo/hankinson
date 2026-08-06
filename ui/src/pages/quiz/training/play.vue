@@ -8,18 +8,22 @@ name: quiz_training_play
     flat
   >
     <v-toolbar ref="cardToolbar">
-      <v-btn
-        :to="{
-          name: 'esame-dettaglio',
-          params: { id: quizStore.currentEsameParziale?.id },
-        }"
-      >Completa</v-btn>
+      <template #append>
+        <v-btn
+          color="primary"
+          :to="{
+            name: 'esame-dettaglio',
+            params: { id: quizStore.currentEsameParziale?.id },
+          }"
+          variant="tonal"
+        >Completa ({{ numeroDomandeRisposte }}/{{ quizItems.length }})</v-btn>
+      </template>
 
       <v-progress-linear
         absolute
         active
         color="blue"
-        height="12"
+        height="8"
         location="top"
         :max="tempoMassimo"
         :model-value="timePassed"
@@ -79,6 +83,7 @@ name: quiz_training_play
     onUnmounted,
     ref,
     shallowRef,
+    triggerRef,
     watch,
   } from 'vue'
   import { useRouter } from 'vue-router'
@@ -100,6 +105,9 @@ name: quiz_training_play
 
   const quizItems = shallowRef<QuizItem[]>([])
   const currentIndex = ref(0)
+  const numeroDomandeRisposte = computed(() =>
+    quizItems.value.filter(q => q.isAnswered).length,
+  )
 
   const startTime = Date.now()
   const timePassed = ref(0)
@@ -164,6 +172,7 @@ name: quiz_training_play
           at,
         )
       }
+      triggerRef(quizItems)
     },
     1000,
   )
@@ -182,8 +191,7 @@ name: quiz_training_play
   }
 
   onUnmounted(() => {
-    console.log('unlaoding')
-  // quizStore.currentEsameParziale = null
+    quizStore.currentEsameParziale = null
   })
 
   async function loadQuesiti (esame: Esame) {
