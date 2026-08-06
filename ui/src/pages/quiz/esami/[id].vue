@@ -3,30 +3,28 @@ name: esame-dettaglio
 </route>
 
 <template>
-<v-card>
+  <v-card>
     <v-card-text>
-        <pre>{{ esame }}</pre>
+      <pre>{{ esame }}</pre>
     </v-card-text>
-</v-card>
+  </v-card>
 </template>
 
 <script setup lang="ts">
-import { getEsameById, type Esame } from '@/services/hankinson';
-import { ref, watch } from 'vue';
-import { useRoute } from 'vue-router';
+  import { ref, watch } from 'vue'
+  import { useRoute } from 'vue-router'
+  import { type Esame, getEsameById } from '@/services/hankinson'
 
+  const route = useRoute()
 
-const route = useRoute()
+  const esame = ref<Esame>()
 
-const esame = ref<Esame>()
-
-
-watch(
+  watch(
     () => (route.params as { id: string }).id,
-    async (newId) => {
-        esame.value = await getEsameById(Number.parseInt(newId, 10))
-        console.log(esame.value)
+    async newId => {
+      esame.value = await getEsameById(Number.parseInt(newId, 10))
+      console.log(esame.value)
     },
-    { immediate: true }
-)
+    { immediate: true },
+  )
 </script>

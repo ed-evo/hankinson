@@ -1,72 +1,77 @@
 <template>
   <div>
     <div class="text-body-small">Numero quesiti</div>
+
     <v-slider
       v-model="quizStore.trainingSettings.numeroQuesiti"
-      :min="TrainingSettings.minQuesiti"
       :max="TrainingSettings.maxQuesiti"
+      :min="TrainingSettings.minQuesiti"
       step="1"
     >
-      <template v-slot:append="props">
+      <template #append>
         <v-text-field
           v-model="quizStore.trainingSettings.numeroQuesiti"
           density="compact"
-          style="width: 70px"
-          type="number"
           hide-details
           single-line
-        ></v-text-field>
+          style="width: 70px"
+          type="number"
+        />
       </template>
     </v-slider>
   </div>
 
   <div>
     <div class="text-body-small">Errori ammessi</div>
+
     <v-slider
       v-model="quizStore.trainingSettings.erroriAmmessi"
-      :min="TrainingSettings.minErrori"
       :max="TrainingSettings.maxErrori"
+      :min="TrainingSettings.minErrori"
       step="1"
     >
-      <template v-slot:append>
+      <template #append>
         <v-text-field
           v-model="quizStore.trainingSettings.erroriAmmessi"
           density="compact"
-          style="width: 70px"
-          type="number"
           hide-details
           single-line
-        ></v-text-field>
+          style="width: 70px"
+          type="number"
+        />
       </template>
     </v-slider>
   </div>
 
   <div>
     <div class="text-body-small">Secondi per domanda</div>
+
     <v-slider
       v-model="quizStore.trainingSettings.secondiPerDomanda"
-      :min="TrainingSettings.minSecondi"
       :max="TrainingSettings.maxSecondi"
+      :min="TrainingSettings.minSecondi"
       step="5"
     >
-      <template v-slot:append>
+      <template #append>
         <v-text-field
           v-model="quizStore.trainingSettings.secondiPerDomanda"
           density="compact"
-          style="width: 70px"
-          type="number"
-          step="5"
           hide-details
           single-line
-        ></v-text-field>
+          step="5"
+          style="width: 70px"
+          type="number"
+        />
       </template>
     </v-slider>
   </div>
+
   <div>
     <div class="text-body-small">Capitoli selezionati:</div>
+
     <v-btn
-      icon
       flat
+      icon
       size="sm"
       @click="appStore.opennedSettings = true"
     >
@@ -77,10 +82,10 @@
 </template>
 
 <script setup lang="ts">
-import { useAppStore } from '@/stores/app'
-import { useQuizStore } from '@/stores/quiz'
-import { TrainingSettings } from '@/types/models'
+  import { useAppStore } from '@/stores/app'
+  import { useQuizStore } from '@/stores/quiz'
+  import { TrainingSettings } from '@/types/models'
 
-const appStore = useAppStore()
-const quizStore = useQuizStore()
+  const appStore = useAppStore()
+  const quizStore = useQuizStore()
 </script>

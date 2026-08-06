@@ -1,6 +1,6 @@
+import type { Ref } from 'vue'
 import { useLocalStorage } from '@vueuse/core'
 import { ofetch } from 'ofetch'
-import { type Ref } from 'vue'
 
 export enum Choice {
   VERO = 'VERO',
@@ -113,13 +113,13 @@ export type User = string
 
 export const USER_REF: Ref<User | null> = useLocalStorage(
   'hankinson.user-email',
-  null
+  null,
 )
 
 const baseURL = '/api/v1/quiz'
 
-function build_request_options(overrides: any = {}) {
-  let headers: HeadersInit = {}
+function build_request_options (overrides: any = {}) {
+  const headers: HeadersInit = {}
   if (USER_REF.value) {
     headers['X-Authenticated-User'] = USER_REF.value
   }
@@ -130,7 +130,7 @@ function build_request_options(overrides: any = {}) {
   }
 }
 
-export async function login(): Promise<User> {
+export async function login (): Promise<User> {
   try {
     const user = await ofetch<User>('/me', {
       ...build_request_options(),
@@ -138,29 +138,29 @@ export async function login(): Promise<User> {
     })
     USER_REF.value = user
     return user
-  } catch (err) {
-    console.error('Quiz login error', err)
-    throw err
+  } catch (error) {
+    console.error('Quiz login error', error)
+    throw error
   }
 }
 
-export async function getCapitoli(): Promise<Capitolo[]> {
+export async function getCapitoli (): Promise<Capitolo[]> {
   return ofetch<Capitolo[]>('/capitoli', build_request_options())
 }
 
-export async function getCapitoliStats(): Promise<CapitoloBasicStats[]> {
+export async function getCapitoliStats (): Promise<CapitoloBasicStats[]> {
   return ofetch<CapitoloBasicStats[]>(
     '/capitoli/stats',
-    build_request_options()
+    build_request_options(),
   )
 }
 
-export async function getDomandeByCapitolo(
-  capitoloId: number
+export async function getDomandeByCapitolo (
+  capitoloId: number,
 ): Promise<Domanda[]> {
   const capitolo = await ofetch<Capitolo>(
     `/capitoli/${capitoloId}`,
-    build_request_options()
+    build_request_options(),
   )
   if (!capitolo?.edges?.domande) {
     throw new Error(`Domande non trovate per capitolo ${capitoloId}`)
@@ -168,21 +168,21 @@ export async function getDomandeByCapitolo(
   return capitolo.edges.domande
 }
 
-export async function getDomandaById(domandaId: number): Promise<Domanda> {
+export async function getDomandaById (domandaId: number): Promise<Domanda> {
   return ofetch<Domanda>(`/domande/${domandaId}`, build_request_options())
 }
 
-export async function spiegaDomandaById(
-  domandaId: number
+export async function spiegaDomandaById (
+  domandaId: number,
 ): Promise<SpiegazioneDomanda> {
   return ofetch<SpiegazioneDomanda>(
     `/domande/${domandaId}/spiegazione`,
-    build_request_options({ method: 'POST' })
+    build_request_options({ method: 'POST' }),
   )
 }
 
-export async function nextQuesitoAperto(
-  capitoliIds: number[]
+export async function nextQuesitoAperto (
+  capitoliIds: number[],
 ): Promise<Quesito> {
   const quesito = await ofetch<Quesito>(
     '/esami/aperto/next',
@@ -191,70 +191,68 @@ export async function nextQuesitoAperto(
       body: {
         capitoli: capitoliIds,
       },
-    })
+    }),
   )
   return quesito
 }
 
-export async function getQuesitiStats(): Promise<QuesitiBasicStats> {
+export async function getQuesitiStats (): Promise<QuesitiBasicStats> {
   return ofetch<QuesitiBasicStats>(
     '/esami/quesiti/stats',
-    build_request_options()
+    build_request_options(),
   )
 }
 
-export async function notifyQuesityAttivita(
+export async function notifyQuesityAttivita (
   quesitoId: number,
-  attivita: AttivitaQuesito
+  attivita: AttivitaQuesito,
 ): Promise<void> {
   await ofetch(
     `/esami/quesiti/${quesitoId}/attivita`,
     build_request_options({
       method: 'PUT',
       body: attivita,
-    })
+    }),
   )
 }
 
-export async function getEsameQuesiti(
-  esameId: number
+export async function getEsameQuesiti (
+  esameId: number,
 ): Promise<QuesitoEsame[]> {
   return await ofetch<QuesitoEsame[]>(
     `/esami/${esameId}/quesiti`,
-    build_request_options()
+    build_request_options(),
   )
 }
 
-export async function getEsameById(esameId: number): Promise<Esame> {
-  return await ofetch<Esame>(
-    `/esami/${esameId}`, build_request_options()
-  )
+export async function getEsameById (esameId: number): Promise<Esame> {
+  return await ofetch<Esame>(`/esami/${esameId}`, build_request_options())
 }
 
-export async function createEsameParziale(
-  params: EsameParzialeParams
+export async function createEsameParziale (
+  params: EsameParzialeParams,
 ): Promise<Esame> {
   return ofetch<Esame>(
     '/esami/parziali',
     build_request_options({
       method: 'PUT',
       body: params,
-    })
+    }),
   )
 }
 
 export class AttivitaEmitter {
-  constructor(private startedAt: Date = new Date()) {}
+  constructor (private startedAt: Date = new Date()) {}
 
-  reset(at: Date = new Date()) {
+  reset (at: Date = new Date()) {
     this.startedAt = at
   }
 
-  async fire(
+  async fire (
     idQuesito: number,
     tipo: TipoAttivitaQuesito,
     risposta: Choice | null = null,
-    finishedAt: Date = new Date()
+    finishedAt: Date = new Date(),
   ) {
     let risposta_data = undefined
     if (risposta) {
@@ -269,7 +267,7 @@ export class AttivitaEmitter {
     this.startedAt = finishedAt
   }
 
-  async firePausa(idQuesito: number, event: PausaEvent) {
+  async firePausa (idQuesito: number, event: PausaEvent) {
     await notifyQuesityAttivita(idQuesito, {
       tipo: TipoAttivitaQuesito.pausa,
       inizio: event.inizio,

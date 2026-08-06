@@ -1,17 +1,17 @@
-import {
-  type Esame,
-  getCapitoli,
-  login,
-  USER_REF,
-  type Capitolo,
-  type User,
-} from '@/services/hankinson'
-import { TrainingSettings } from '@/types/models'
 import { useLocalStorage } from '@vueuse/core'
 import { defineStore } from 'pinia'
 import { computed, ref, type Ref } from 'vue'
+import {
+  type Capitolo,
+  type Esame,
+  getCapitoli,
+  login,
+  type User,
+  USER_REF,
+} from '@/services/hankinson'
+import { TrainingSettings } from '@/types/models'
 
-async function fetchCapitoli(capitoliContainer: Map<number, Capitolo>) {
+async function fetchCapitoli (capitoliContainer: Map<number, Capitolo>) {
   const body: Capitolo[] = await getCapitoli()
   for (const capitolo of body) {
     capitoliContainer.set(capitolo.id as number, capitolo)
@@ -21,11 +21,11 @@ async function fetchCapitoli(capitoliContainer: Map<number, Capitolo>) {
 export const useQuizStore = defineStore('quiz', () => {
   const trainingSettings: Ref<TrainingSettings> = useLocalStorage(
     'quiz.trainingSettings',
-    new TrainingSettings()
+    new TrainingSettings(),
   )
   const capitoliSelezionati: Ref<number[]> = useLocalStorage(
     'quiz.capitoliSelezionati',
-    []
+    [],
   )
   const downloadProgress = ref(-1)
   const capitoli: Map<number, Capitolo> = new Map()
@@ -40,13 +40,13 @@ export const useQuizStore = defineStore('quiz', () => {
 
   login()
     .then(
-      (user) => console.log('user', user),
-      (err) => {
-        console.error('errore login', err)
+      user => console.log('user', user),
+      error => {
+        console.error('errore login', error)
         const user = window.prompt('Inserisci la tua email.')
         console.info('user', user)
         USER_REF.value = user as User
-      }
+      },
     )
     .then(() => fetchCapitoli(capitoli))
     .then(() => {
