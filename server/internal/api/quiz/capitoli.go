@@ -70,8 +70,7 @@ func getBasicStats(db *ent.Client) http.HandlerFunc {
 			sql.As(sql.Count(sql.Distinct("CASE WHEN "+qRf+" IS NULL THEN "+dID+" END")), "non_date"),
 			sql.As(
 				sql.Sum("CASE WHEN "+aT+" = $1 THEN "+aD+" ELSE 0 END")+" + "+
-					sql.Sum("CASE WHEN "+aT+" = $2 THEN "+aD+" ELSE 0 END")+" - "+
-					sql.Sum("CASE WHEN "+aT+" = $3 THEN "+aD+" ELSE 0 END"),
+				sql.Sum("CASE WHEN "+aT+" = $2 THEN "+aD+" ELSE 0 END"),
 				"tempo",
 			),
 		).
@@ -87,7 +86,6 @@ func getBasicStats(db *ent.Client) http.HandlerFunc {
 			query,
 			attivitaquesitoesame.TipoSalta,
 			attivitaquesitoesame.TipoRisposta,
-			attivitaquesitoesame.TipoPausa,
 		)
 		if err != nil {
 			render.Render(w, r, api_errors.ErrInternal(err))
