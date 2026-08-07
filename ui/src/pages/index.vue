@@ -75,7 +75,7 @@ meta:
       />
 
       <v-card-title>Tempo medio per capitolo (Globale:
-        {{ format(tempoMedioGlobale || 0) }}sec.)</v-card-title>
+        {{ formatDurationMs(tempoMedioGlobale || 0) }}sec.)</v-card-title>
 
       <v-sparkline
         fill
@@ -94,18 +94,18 @@ meta:
         :key="stat.id"
       >
         <v-expansion-panel-title>CAP: {{ stat.id }}, TOT: {{ stat.totale }}, Media:
-          {{ format(stat.durata_ms / stat.totale) }}</v-expansion-panel-title>
+          {{ formatDurationMs(stat.durata_ms / stat.totale) }}</v-expansion-panel-title>
 
         <v-expansion-panel-text>
           <ul>
             <li>
               <strong>Tempo Totale:</strong>
-              <span>{{ format(stat.durata_ms) }}</span>
+              <span>{{ formatDurationMs(stat.durata_ms) }}</span>
             </li>
 
             <li>
               <strong>Media risposta:</strong>
-              <span>{{ format(stat.durata_ms / stat.totale) }}</span>
+              <span>{{ formatDurationMs(stat.durata_ms / stat.totale) }}</span>
             </li>
 
             <li>
@@ -132,12 +132,6 @@ meta:
 </template>
 
 <script lang="ts" setup>
-  import {
-    addMilliseconds,
-    formatDuration,
-    interval,
-    intervalToDuration,
-  } from 'date-fns'
   import { computed, onMounted, ref } from 'vue'
   import { VPie } from 'vuetify/labs/VPie'
   import {
@@ -148,20 +142,13 @@ meta:
   } from '@/services/hankinson'
   import { useAppStore } from '@/stores/app'
   import { useQuizStore } from '@/stores/quiz'
+  import { formatDurationMs } from '@/utils/temporal'
 
   const quizStore = useQuizStore()
   const appStore = useAppStore()
 
   const quesitiStats = ref<QuesitiBasicStats>()
   const capitoliStats = ref<CapitoloBasicStats[]>()
-
-  function format (ms: number) {
-    const strat = new Date()
-    const end = addMilliseconds(strat, ms)
-    const i = interval(strat, end)
-    const duration = intervalToDuration(i)
-    return formatDuration(duration)
-  }
 
   const pieChartData = computed(() => {
     if (!quesitiStats.value) {

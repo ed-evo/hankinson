@@ -36,6 +36,7 @@ export interface QuesitoEsame {
   risposta_final?: boolean
   edges: {
     domanda_originale: Domanda
+    attivita: AttivitaQuesito[]
   }
 }
 
@@ -45,7 +46,7 @@ export interface Esame {
   max_errori: number
   numero_quesiti: number
   minuti_disponibili: number
-  edge: {
+  edges: {
     quesiti: QuesitoEsame[]
   }
 }
