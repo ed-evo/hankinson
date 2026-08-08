@@ -4,9 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ed-evo/hankinson/server/ent"
+	"github.com/ed-evo/hankinson/server/internal/dto"
 	"github.com/ed-evo/hankinson/server/internal/orm"
-	"github.com/ed-evo/hankinson/server/pkg/api/api_errors"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 )
@@ -34,17 +33,13 @@ func (h *EntityContextHelper[T, Q]) JsonHandler(
 		entity, err := h.fetch(r, mods...)
 
 		if err != nil {
-			if ent.IsNotFound(err) {
-				render.Render(w, r, api_errors.ErrNotFound)
-			} else {
-				render.Render(w, r, api_errors.ErrInvalidRequest(err))
-			}
+			dto.RenderError(w, r, err)
 			return
 		}
 
 		response, err := logic(r, entity)
 		if err != nil {
-			render.Render(w, r, api_errors.ErrInvalidRequest(err))
+			dto.RenderError(w, r, err)
 			return
 		}
 
@@ -59,13 +54,13 @@ func (h *EntityContextHelper[T, Q]) JsonListHandler(
 	return func(w http.ResponseWriter, r *http.Request) {
 		l, err := h.Fetcher.List(r.Context(), mods...)
 		if err != nil {
-			render.Render(w, r, api_errors.ErrInternal(err))
+			dto.RenderError(w, r, err)
 			return
 		}
 
 		response, err := logic(r, l)
 		if err != nil {
-			render.Render(w, r, api_errors.ErrInvalidRequest(err))
+			dto.RenderError(w, r, err)
 			return
 		}
 		render.JSON(w, r, response)
@@ -81,12 +76,12 @@ func (h *EntityContextHelper[T, Q]) Process(
 		entity, err := h.fetch(r, mods...)
 
 		if err != nil {
-			render.Render(w, r, api_errors.ErrInvalidRequest(err))
+			dto.RenderError(w, r, err)
 			return
 		}
 
 		if err := logic(r, entity); err != nil {
-			render.Render(w, r, api_errors.ErrInvalidRequest(err))
+			dto.RenderError(w, r, err)
 			return
 		}
 		w.WriteHeader(http.StatusNoContent)

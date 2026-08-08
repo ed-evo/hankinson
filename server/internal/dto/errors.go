@@ -1,8 +1,10 @@
-package api_errors
+package dto
 
 import (
+	"fmt"
 	"net/http"
 
+	"github.com/ed-evo/hankinson/server/ent"
 	"github.com/go-chi/render"
 )
 
@@ -24,9 +26,33 @@ type ErrResponse struct {
 	ErrorText  string `json:"error,omitempty"` // application-level error message, for debugging
 }
 
+func (e *ErrResponse) Error() string {
+	return fmt.Sprintf("HTTP[%d]: %s", e.HTTPStatusCode, e.ErrorText)
+}
+
 func (e *ErrResponse) Render(w http.ResponseWriter, r *http.Request) error {
 	render.Status(r, e.HTTPStatusCode)
 	return nil
+}
+
+func RenderError(w http.ResponseWriter, r *http.Request, e error) {
+	if e == nil {
+		return
+	}
+	if err, ok := e.(*ErrResponse); ok {
+		render.Render(w, r, err)
+		return
+	}
+	var response render.Renderer
+	switch {
+	case ent.IsNotFound(e):
+		response = ErrNotFound
+	case ent.IsValidationError(e):
+		response = ErrInvalidRequest(e)
+	default:
+		response = ErrInternal(e)
+	}
+	render.Render(w, r, response)
 }
 
 func ErrInvalidRequest(err error) render.Renderer {

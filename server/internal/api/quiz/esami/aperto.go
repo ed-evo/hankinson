@@ -9,8 +9,8 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/utente"
 	api_middlewares "github.com/ed-evo/hankinson/server/internal/api/middlewares"
+	"github.com/ed-evo/hankinson/server/internal/dto"
 	"github.com/ed-evo/hankinson/server/internal/orm"
-	"github.com/ed-evo/hankinson/server/pkg/api/api_errors"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 )
@@ -34,6 +34,7 @@ func next(db *ent.Client) func(http.ResponseWriter, *http.Request) {
 		user := api_middlewares.GetUser(r)
 		if user == nil {
 			http.Error(w, "Utente Non trovato", http.StatusBadRequest)
+			return
 		}
 
 		ctx := r.Context()
@@ -48,13 +49,13 @@ func next(db *ent.Client) func(http.ResponseWriter, *http.Request) {
 		body := &EsameApertoBody{}
 
 		if err := render.Bind(r, body); err != nil {
-			http.Error(w, "Error parsing body", http.StatusBadRequest)
+			dto.RenderError(w, r, err)
 			return
 		}
 
 		domandaIDs, err := orm.RandomDomandeIds(body.Capitoli, 1)
 		if err != nil {
-			render.Render(w, r, api_errors.ErrInternal(err))
+			dto.RenderError(w, r, err)
 			return
 		}
 
@@ -66,7 +67,7 @@ func next(db *ent.Client) func(http.ResponseWriter, *http.Request) {
 			Save(ctx)
 
 		if err != nil {
-			http.Error(w, "Errore Creazione Quesito", http.StatusInternalServerError)
+			dto.RenderError(w, r, err)
 			return
 		}
 

@@ -11,8 +11,8 @@ import (
 	api_context "github.com/ed-evo/hankinson/server/internal/api/context"
 	api_middlewares "github.com/ed-evo/hankinson/server/internal/api/middlewares"
 	esami_api "github.com/ed-evo/hankinson/server/internal/api/quiz/esami"
+	"github.com/ed-evo/hankinson/server/internal/dto"
 	"github.com/ed-evo/hankinson/server/internal/orm"
-	"github.com/ed-evo/hankinson/server/pkg/api/api_errors"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 )
@@ -88,7 +88,7 @@ func getBasicStats(db *ent.Client) http.HandlerFunc {
 			attivitaquesitoesame.TipoRisposta,
 		)
 		if err != nil {
-			render.Render(w, r, api_errors.ErrInternal(err))
+			dto.RenderError(w, r, err)
 			return
 		}
 		defer rows.Close()

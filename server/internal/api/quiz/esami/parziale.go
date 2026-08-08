@@ -7,9 +7,9 @@ import (
 	"github.com/ed-evo/hankinson/server/ent"
 	"github.com/ed-evo/hankinson/server/ent/esame"
 	api_middlewares "github.com/ed-evo/hankinson/server/internal/api/middlewares"
+	"github.com/ed-evo/hankinson/server/internal/dto"
 	"github.com/ed-evo/hankinson/server/internal/orm"
 	"github.com/ed-evo/hankinson/server/internal/utils"
-	"github.com/ed-evo/hankinson/server/pkg/api/api_errors"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 )
@@ -22,7 +22,7 @@ func newParzialiRouter(db *ent.Client) chi.Router {
 			Where(esame.TipoEQ(esame.TipoParziale)).
 			All(r.Context())
 		if err != nil {
-			render.Render(w, r, api_errors.ErrInternal(err))
+			dto.RenderError(w, r, err)
 			return
 		}
 		render.JSON(w, r, all)
@@ -50,14 +50,14 @@ func createParziale(db *ent.Client) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		body := &EsameParzialeBody{}
 		if err := render.Bind(r, body); err != nil {
-			render.Render(w, r, api_errors.ErrInvalidRequest(err))
+			dto.RenderError(w, r, err)
 			return
 		}
 		log.Printf("Request %v", body)
 
 		domandeIDs, err := orm.RandomDomandeIds(body.Capitoli, body.NumeroQuesiti)
 		if err != nil {
-			render.Render(w, r, api_errors.ErrInternal(err))
+			dto.RenderError(w, r, err)
 			return
 		}
 

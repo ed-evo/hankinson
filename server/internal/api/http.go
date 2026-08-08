@@ -9,6 +9,7 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/utente"
 	api_middlewares "github.com/ed-evo/hankinson/server/internal/api/middlewares"
 	quiz_api "github.com/ed-evo/hankinson/server/internal/api/quiz"
+	"github.com/ed-evo/hankinson/server/internal/dto"
 	"github.com/ed-evo/hankinson/server/internal/orm"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
@@ -86,7 +87,7 @@ func meHandler(db *ent.Client) func(http.ResponseWriter, *http.Request) {
 		})
 
 		if err != nil {
-			http.Error(w, "Errore gestione utente o esame", http.StatusInternalServerError)
+			dto.RenderError(w, r, err)
 			return
 		}
 

@@ -11,8 +11,8 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
 	api_context "github.com/ed-evo/hankinson/server/internal/api/context"
+	"github.com/ed-evo/hankinson/server/internal/dto"
 	"github.com/ed-evo/hankinson/server/internal/orm"
-	"github.com/ed-evo/hankinson/server/pkg/api/api_errors"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 )
@@ -124,7 +124,7 @@ func getStats(db *ent.Client) http.HandlerFunc {
 		// quesitoesame.DomandaOriginaleColumn
 		rows, err := db.QueryContext(r.Context(), query)
 		if err != nil {
-			render.Render(w, r, api_errors.ErrInternal(err))
+			dto.RenderError(w, r, err)
 			return
 		}
 		defer rows.Close()
