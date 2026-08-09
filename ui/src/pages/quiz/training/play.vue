@@ -75,7 +75,6 @@ name: quiz_training_play
 </template>
 
 <script setup lang="ts">
-  import type { Choice, Esame, PausaEvent } from '@/services/hankinson'
   import { useElementSize, useIntervalFn, useThrottleFn } from '@vueuse/core'
   import {
     type ComponentPublicInstance,
@@ -91,10 +90,10 @@ name: quiz_training_play
   import {
     AttivitaEmitter,
     getEsameQuesiti,
-    TipoAttivitaQuesito,
   } from '@/services/hankinson'
   import { useAppStore } from '@/stores/app'
   import { useQuizStore } from '@/stores/quiz'
+  import { type Esame, type PausaEvent, type RispostaEnum, TipoAttivitaEnum } from '@/types/hankinson'
   import { QuizItem } from '@/types/models'
   const router = useRouter()
   const appStore = useAppStore()
@@ -112,7 +111,7 @@ name: quiz_training_play
   const startTime = Date.now()
   const timePassed = ref(0)
   const tempoMassimo = computed(() => {
-    const minuti = quizStore.currentEsameParziale?.minuti_disponibili ?? 0
+    const minuti = quizStore.currentEsameParziale?.minutiDisponibili ?? 0
     return minuti * 60 * 1000
   })
 
@@ -162,12 +161,12 @@ name: quiz_training_play
   }
 
   const giveAnsware = useThrottleFn(
-    async (item: QuizItem, at: Date, choice: Choice | null) => {
+    async (item: QuizItem, at: Date, choice: RispostaEnum | null) => {
       if (item.answer !== choice) {
         item.answer = choice
         await attivitaEmitter.fire(
-          item.quesito.id,
-          TipoAttivitaQuesito.risposta,
+          item.quesitoId,
+          TipoAttivitaEnum.RISPOSTA,
           choice,
           at,
         )
@@ -179,15 +178,15 @@ name: quiz_training_play
 
   const onQuesitoDone = useThrottleFn(async (item: QuizItem, at: Date) => {
     await attivitaEmitter.fire(
-      item.quesito.id,
-      item.isAnswered ? TipoAttivitaQuesito.prossimo : TipoAttivitaQuesito.salta,
+      item.quesitoId,
+      item.isAnswered ? TipoAttivitaEnum.PROSSIMO : TipoAttivitaEnum.SALTA,
       null,
       at,
     )
   }, 300)
 
   async function onPause (item: QuizItem, event: PausaEvent) {
-    await attivitaEmitter.firePausa(item.quesito.id, event)
+    await attivitaEmitter.firePausa(item.quesitoId, event)
   }
 
   onUnmounted(() => {
@@ -196,16 +195,21 @@ name: quiz_training_play
 
   async function loadQuesiti (esame: Esame) {
     console.log('Fetching quesiti', esame)
+    if (!esame.id) {
+      throw new Error('Esame id non present')
+    }
     const quesiti = await getEsameQuesiti(esame.id)
-    quizItems.value = quesiti.map(quesito => {
-      const domanda = quesito.edges.domanda_originale
-      return new QuizItem(
-        { id: quesito.id, esameId: esame.id, domandaId: domanda.id },
-        {
-          ...domanda,
-        },
-      )
-    })
+    quizItems.value = quesiti
+      .map(quesito => {
+        if (!quesito.id || !quesito.domandaOriginale) {
+          return null
+        }
+        return new QuizItem(
+          quesito.id ?? 0,
+          quesito.domandaOriginale,
+        )
+      })
+      .filter(item => !!item)
   }
 
   watch(

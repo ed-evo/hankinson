@@ -27,11 +27,11 @@ meta:
 </template>
 
 <script lang="ts" setup>
+  import type { EsameParzialeParamsInput } from '@/types/hankinson'
   import { useRouter } from 'vue-router'
   import TrainingInput from '@/components/TrainingInput.vue'
   import {
     createEsameParziale,
-    type EsameParzialeParams,
   } from '@/services/hankinson'
   import { useQuizStore } from '@/stores/quiz'
 
@@ -40,11 +40,11 @@ meta:
 
   async function startParziale () {
     const settings = quizStore.trainingSettings
-    const params: EsameParzialeParams = {
+    const params: EsameParzialeParamsInput = {
       capitoli: [...quizStore.capitoliSelezionati],
-      numero_quesiti: settings.numeroQuesiti,
-      max_errori: quizStore.trainingSettings.erroriAmmessi,
-      minuti_disponibili: settings.tempoTotaleAmmesso,
+      numeroQuesiti: settings.numeroQuesiti,
+      maxErrori: settings.erroriAmmessi,
+      minutiDisponibili: settings.numeroQuesiti * settings.secondiPerDomanda,
     }
 
     const esame = await createEsameParziale(params)

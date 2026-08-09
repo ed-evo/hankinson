@@ -10,8 +10,8 @@
         :class="{ 'h-50': !isLandscape }"
       >
         <img
-          v-if="domanda.immagine"
-          :src="getImmaginePath(domanda)"
+          v-if="domanda.immaginePath"
+          :src="domanda.immaginePath"
           :style="{ 'max-height': `${height - 56}px` }"
         >
       </v-col>
@@ -32,19 +32,19 @@
             cols="6"
           >
             <v-btn
-              :color="value == Choice.VERO ? 'primary' : undefined"
-              :disabled="value == Choice.VERO"
+              :color="value == RispostaEnum.VERO ? 'primary' : undefined"
+              :disabled="value == RispostaEnum.VERO"
               icon
-              @click="giveAnsware(Choice.VERO)"
+              @click="giveAnsware(RispostaEnum.VERO)"
             >V</v-btn>
           </v-col>
 
           <v-col cols="6">
             <v-btn
-              :color="value == Choice.FALSO ? 'primary' : undefined"
-              :disabled="value == Choice.FALSO"
+              :color="value == RispostaEnum.FALSO ? 'primary' : undefined"
+              :disabled="value == RispostaEnum.FALSO"
               icon
-              @click="giveAnsware(Choice.FALSO)"
+              @click="giveAnsware(RispostaEnum.FALSO)"
             >F</v-btn>
           </v-col>
 
@@ -71,27 +71,28 @@
 </template>
 
 <script lang="ts" setup>
+  import type { Domanda, PausaEvent } from '@/types/hankinson'
   import { useDocumentVisibility, useThrottleFn } from '@vueuse/core'
   import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
-  import { Choice, getImmaginePath, type Domanda, type PausaEvent } from '@/services/hankinson'
+  import { RispostaEnum } from '@/types/hankinson'
 
   const props = defineProps<{
     width: number
     height: number
     isLandscape: boolean
     domanda: Domanda
-    initialValue?: Choice | null
+    initialValue?: RispostaEnum | null
   }>()
   const emit = defineEmits<{
     (e: 'ready' | 'done', at: Date): void
-    (e: 'answer', at: Date, value: Choice | null): void
+    (e: 'answer', at: Date, value: RispostaEnum | null): void
     (e: 'pause', event: PausaEvent): void
   }>()
 
-  const model = ref<Choice>()
+  const model = ref<RispostaEnum>()
   const value = computed(() => model.value ?? props.initialValue)
 
-  const giveAnsware = useThrottleFn((choice: Choice) => {
+  const giveAnsware = useThrottleFn((choice: RispostaEnum) => {
     model.value = choice
     emit('answer', new Date(), choice)
   }, 1000)

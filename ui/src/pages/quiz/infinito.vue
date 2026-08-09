@@ -74,7 +74,6 @@ meta:
 </template>
 
 <script lang="ts" setup>
-  import type { Choice, PausaEvent } from '@/services/hankinson'
   import { useThrottleFn } from '@vueuse/core'
   import { onMounted, ref } from 'vue'
   import QuesitoView from '@/components/QuesitoView.vue'
@@ -83,10 +82,10 @@ meta:
     AttivitaEmitter,
     getDomandaById,
     nextQuesitoAperto,
-    TipoAttivitaQuesito,
   } from '@/services/hankinson'
   import { useAppStore } from '@/stores/app'
   import { useQuizStore } from '@/stores/quiz'
+  import { type PausaEvent, type RispostaEnum, TipoAttivitaEnum } from '@/types/hankinson'
   import { QuizItem } from '@/types/models'
 
   const isLoading = ref(true)
@@ -102,7 +101,7 @@ meta:
     attivitaEmitter.reset(at)
   }
 
-  const giveAnsware = useThrottleFn(async (at: Date, choice: Choice | null) => {
+  const giveAnsware = useThrottleFn(async (at: Date, choice: RispostaEnum | null) => {
     const item = current.value
     if (item === undefined) {
       return
@@ -110,8 +109,8 @@ meta:
     if (item.answer !== choice) {
       item.answer = choice
       await attivitaEmitter?.fire(
-        item.quesito.id,
-        TipoAttivitaQuesito.risposta,
+        item.quesitoId,
+        TipoAttivitaEnum.RISPOSTA,
         choice,
         at,
       )
@@ -123,10 +122,10 @@ meta:
     const item = current.value
     if (item) {
       await attivitaEmitter?.fire(
-        item.quesito.id,
+        item.quesitoId,
         item.isAnswered
-          ? TipoAttivitaQuesito.prossimo
-          : TipoAttivitaQuesito.salta,
+          ? TipoAttivitaEnum.PROSSIMO
+          : TipoAttivitaEnum.SALTA,
         null,
         at,
       )
@@ -137,16 +136,17 @@ meta:
 
   async function onPause (pauseEvent: PausaEvent) {
     if (current.value) {
-      await attivitaEmitter.firePausa(current.value.quesito.id, pauseEvent)
+      await attivitaEmitter.firePausa(current.value.quesitoId, pauseEvent)
     }
   }
 
   async function loadQuesito () {
     current.value = undefined
     const quesito = await nextQuesitoAperto(quizStore.capitoliSelezionati)
-
-    const domanda = await getDomandaById(quesito.domandaId)
-    const item = new QuizItem(quesito, domanda)
+    if (!quesito.id || !quesito.domandaOriginale) {
+      throw new Error('Domanda originame non presente in quesito')
+    }
+    const item = new QuizItem(quesito.id, quesito.domandaOriginale)
     current.value = item
     quiz.value.push(item)
   }

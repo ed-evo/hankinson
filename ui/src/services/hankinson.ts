@@ -1,124 +1,10 @@
 import type { Ref } from 'vue'
+import z from 'zod'
 import { useLocalStorage } from '@vueuse/core'
 import { ofetch } from 'ofetch'
+import * as schema from '@/types/hankinson'
 
-export enum Choice {
-  VERO = 'V',
-  FALSO = 'F',
-}
-export interface Argomento {
-  id: number
-  nome: string
-}
-export interface Domanda {
-  id: number
-  id_blocco: number
-  id_capitolo: number
-  immagine: string
-  is_true: boolean
-  pagina_quiz: number
-  testo: string
-  totale_domande: number
-  edges?: {
-    argomenti?: Argomento[]
-  }
-}
-
-export interface SpiegazioneDomanda {
-  id: number
-  spiegazione: string
-  focus_linguistico: string
-  regola_chiave: string
-}
-
-export interface QuesitoEsame {
-  id: number
-  risposta_finale?: boolean
-  edges: {
-    domanda_originale: Domanda
-    attivita: AttivitaQuesito[]
-  }
-}
-
-export interface Esame {
-  id: number
-  tipo: string
-  max_errori: number
-  numero_quesiti: number
-  minuti_disponibili: number
-  edges: {
-    quesiti: QuesitoEsame[]
-  }
-}
-
-export interface EsameParzialeParams {
-  capitoli: number[]
-  numero_quesiti: number
-  max_errori: number
-  minuti_disponibili: number
-}
-
-export interface Quesito {
-  id: number
-  esameId: number
-  domandaId: number
-}
-
-export interface QuesitiBasicStats {
-  totale: number
-  corrette: number
-  sbagliate: number
-  non_date: number
-}
-
-export enum TipoAttivitaQuesito {
-  salta = 'salta',
-  risposta = 'risposta',
-  pausa = 'pausa',
-  prossimo = 'prossimo',
-}
-
-export interface AttivitaQuesito {
-  tipo: TipoAttivitaQuesito
-  risposta_data?: boolean
-  inizio: Date
-  durata_ms: number
-}
-
-export interface PausaEvent {
-  inizio: Date
-  fine: Date
-}
-
-export interface Capitolo {
-  id: number
-  nome: string
-  max_numero_domanda: number
-  min_numero_domanda: number
-  totale_domande: number
-  edges?: {
-    domande?: Domanda[]
-  }
-}
-
-export interface CapitoloBasicStats {
-  id: number
-  totale: number
-  corrette: number
-  sbagliate: number
-  non_date: number
-  durata_ms: number
-}
-
-export type User = string
-
-export function getImmaginePath(domanda: Domanda): string | undefined {
-  if (domanda?.immagine) {
-    return `/quiz_assets/${domanda.immagine}.png`
-  }
-}
-
-export const USER_REF: Ref<User | null> = useLocalStorage(
+export const USER_REF: Ref<schema.User | null> = useLocalStorage(
   'hankinson.user-email',
   null,
 )
@@ -127,17 +13,20 @@ const baseURL = '/api/v1/quiz'
 
 const hksApi = ofetch.create({
   baseURL,
-  onRequest({ options }) {
-
+  onRequest ({ options }) {
     if (USER_REF.value) {
-      options.headers.set('X-Authenticated-User', USER_REF.value);
+      options.headers.set('X-Authenticated-User', USER_REF.value)
     }
-  }
+  },
 })
 
-export async function login (): Promise<User> {
+function createParserFor<TOutput> (zSchema: z.ZodType<TOutput>): (responseText: string) => TOutput {
+  return (responseText: string) => zSchema.parse(JSON.parse(responseText))
+}
+
+export async function login (): Promise<schema.User> {
   try {
-    const user = await hksApi<User>('/me', {
+    const user = await hksApi<schema.User>('/me', {
       baseURL: '/api/v1',
     })
     USER_REF.value = user
@@ -148,95 +37,128 @@ export async function login (): Promise<User> {
   }
 }
 
-export async function getCapitoli (): Promise<Capitolo[]> {
-  return hksApi<Capitolo[]>('/capitoli')
+const CapitoliSchema = z.array(schema.CapitoloSchema)
+
+export async function getCapitoli (): Promise<schema.Capitolo[]> {
+  return hksApi<schema.Capitolo[]>('/capitoli', {
+    parseResponse: createParserFor(CapitoliSchema),
+  })
 }
 
-export async function getCapitoliStats (): Promise<CapitoloBasicStats[]> {
-  return hksApi<CapitoloBasicStats[]>(
+const CapitoliBasicStatsSchema = z.array(schema.CapitoloBasicStatsSchema)
+export async function getCapitoliStats (): Promise<schema.CapitoloBasicStats[]> {
+  return hksApi<schema.CapitoloBasicStats[]>(
     '/capitoli/stats',
+    {
+      parseResponse: createParserFor(CapitoliBasicStatsSchema),
+    },
   )
 }
 
+const DomandeSchema = z.array(schema.CapitoloSchema)
 export async function getDomandeByCapitolo (
   capitoloId: number,
-): Promise<Domanda[]> {
-  const capitolo = await hksApi<Capitolo>(
+): Promise<schema.Domanda[]> {
+  const capitolo = await hksApi<schema.Capitolo>(
     `/capitoli/${capitoloId}`,
+    {
+      parseResponse: createParserFor(DomandeSchema),
+    },
   )
-  if (!capitolo?.edges?.domande) {
+  if (!capitolo?.domande) {
     throw new Error(`Domande non trovate per capitolo ${capitoloId}`)
   }
-  return capitolo.edges.domande
+  return capitolo.domande
 }
 
-export async function getDomandaById (domandaId: number): Promise<Domanda> {
-  return hksApi<Domanda>(`/domande/${domandaId}`)
+export async function getDomandaById (domandaId: number): Promise<schema.Domanda> {
+  return hksApi<schema.Domanda>(`/domande/${domandaId}`, {
+    parseResponse: createParserFor(schema.DomandaSchema),
+  })
 }
 
 export async function spiegaDomandaById (
   domandaId: number,
-): Promise<SpiegazioneDomanda> {
-  return hksApi<SpiegazioneDomanda>(
+): Promise<schema.Spiegazione> {
+  return hksApi<schema.Spiegazione>(
     `/domande/${domandaId}/spiegazione`,
-   { method: 'POST' },
+    { method: 'POST', parseResponse: createParserFor(schema.SpiegazioneSchema) },
   )
 }
 
 export async function nextQuesitoAperto (
   capitoliIds: number[],
-): Promise<Quesito> {
-  const quesito = await hksApi<Quesito>(
+): Promise<schema.QuesitoEsame> {
+  return await hksApi<schema.QuesitoEsame>(
     '/esami/aperto/next',
     {
       method: 'POST',
       body: {
         capitoli: capitoliIds,
       },
+      parseResponse: createParserFor(schema.QuesitoEsameSchema),
     },
   )
-  return quesito
 }
 
-export async function getQuesitiStats (): Promise<QuesitiBasicStats> {
-  return hksApi<QuesitiBasicStats>(
+export async function getQuesitiStats (): Promise<schema.QuesitiBasicStats> {
+  return hksApi<schema.QuesitiBasicStats>(
     '/esami/quesiti/stats',
+    {
+      parseResponse: createParserFor(schema.QuesitiBasicStatsSchema),
+    },
   )
 }
 
 export async function notifyQuesityAttivita (
   quesitoId: number,
-  attivita: AttivitaQuesito,
+  attivita: schema.AttivitaQuesitoEsame,
 ): Promise<void> {
+  let risposta = undefined
+  if (attivita.rispostaData) {
+    risposta = attivita.rispostaData == schema.RispostaEnum.VERO
+  }
   await hksApi(
     `/esami/quesiti/${quesitoId}/attivita`,
     {
       method: 'PUT',
-      body: attivita,
+      body: schema.AttivitaQuesitoEsameDtoSchema.parse({
+        tipo: attivita.tipo,
+        risposta_data: risposta,
+        inizio: attivita.inizio.toISOString(),
+        durata_ms: attivita.durataMs,
+      } as schema.AttivitaQuesitoEsameDto),
     },
   )
 }
 
+const QuesitiSchema = z.array(schema.QuesitoEsameSchema)
 export async function getEsameQuesiti (
   esameId: number,
-): Promise<QuesitoEsame[]> {
-  return await hksApi<QuesitoEsame[]>(
+): Promise<schema.QuesitoEsame[]> {
+  return await hksApi<schema.QuesitoEsame[]>(
     `/esami/${esameId}/quesiti`,
+    {
+      parseResponse: createParserFor(QuesitiSchema),
+    },
   )
 }
 
-export async function getEsameById (esameId: number): Promise<Esame> {
-  return await hksApi<Esame>(`/esami/${esameId}`)
+export async function getEsameById (esameId: number): Promise<schema.Esame> {
+  return await hksApi<schema.Esame>(`/esami/${esameId}`, {
+    parseResponse: createParserFor(schema.EsameSchema),
+  })
 }
 
 export async function createEsameParziale (
-  params: EsameParzialeParams,
-): Promise<Esame> {
-  return hksApi<Esame>(
+  params: schema.EsameParzialeParamsInput,
+): Promise<schema.Esame> {
+  return hksApi<schema.Esame>(
     '/esami/parziali',
     {
       method: 'PUT',
-      body: params,
+      body: schema.EsameParzialeParamsDtoSchema.parse(params),
+      parseResponse: createParserFor(schema.EsameSchema),
     },
   )
 }
@@ -250,28 +172,24 @@ export class AttivitaEmitter {
 
   async fire (
     idQuesito: number,
-    tipo: TipoAttivitaQuesito,
-    risposta: Choice | null = null,
+    tipo: schema.TipoAttivitaEnum,
+    risposta: schema.RispostaEnum | null = null,
     finishedAt: Date = new Date(),
   ) {
-    let risposta_data = undefined
-    if (risposta) {
-      risposta_data = Choice.VERO === risposta
-    }
     await notifyQuesityAttivita(idQuesito, {
       tipo,
       inizio: this.startedAt,
-      durata_ms: finishedAt.getTime() - this.startedAt.getTime(),
-      risposta_data,
+      durataMs: finishedAt.getTime() - this.startedAt.getTime(),
+      rispostaData: risposta,
     })
     this.startedAt = finishedAt
   }
 
-  async firePausa (idQuesito: number, event: PausaEvent) {
+  async firePausa (idQuesito: number, event: schema.PausaEvent) {
     await notifyQuesityAttivita(idQuesito, {
-      tipo: TipoAttivitaQuesito.pausa,
+      tipo: schema.TipoAttivitaEnum.PAUSA,
       inizio: event.inizio,
-      durata_ms: event.fine.getTime() - event.inizio.getTime(),
+      durataMs: event.fine.getTime() - event.inizio.getTime(),
     })
   }
 }

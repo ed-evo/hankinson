@@ -1,5 +1,5 @@
-import type { Choice, Domanda, Quesito } from '@/services/hankinson'
-import { validateAnswer } from '@/utils/quesiti'
+import type { Domanda, RispostaEnum } from '@/types/hankinson'
+
 export class TrainingSettings {
   public static readonly minQuesiti = 10
   public static readonly maxQuesiti = 50
@@ -12,21 +12,17 @@ export class TrainingSettings {
     public erroriAmmessi = 3,
     public secondiPerDomanda = 30,
   ) {}
-
-  get tempoTotaleAmmesso () {
-    return this.numeroQuesiti * this.secondiPerDomanda
-  }
 }
 
 export class QuizItem {
-  private _answer: Choice | null = null
+  private _answer: RispostaEnum | null = null
   private _isCorrect = false
   constructor (
-    public readonly quesito: Quesito,
+    public readonly quesitoId: number,
     public readonly domanda: Domanda,
   ) {}
 
-  get answer (): Choice | null {
+  get answer (): RispostaEnum | null {
     return this._answer
   }
 
@@ -38,12 +34,12 @@ export class QuizItem {
     return this._isCorrect
   }
 
-  set answer (answer: Choice | null) {
+  set answer (answer: RispostaEnum | null) {
     this._answer = answer
     if (!answer) {
       this._isCorrect = false
       return
     }
-    this._isCorrect = validateAnswer(this.domanda, answer)
+    this._isCorrect = this.domanda.rispostaCorretta === answer
   }
 }

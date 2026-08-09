@@ -54,7 +54,7 @@ meta:
           <v-chip
             color="grey"
             prepend-icon="mdi-help"
-          >{{ quesitiStats?.non_date }}</v-chip>
+          >{{ quesitiStats?.nonDate }}</v-chip>
         </div>
       </template>
     </v-pie>
@@ -94,18 +94,18 @@ meta:
         :key="stat.id"
       >
         <v-expansion-panel-title>CAP: {{ stat.id }}, TOT: {{ stat.totale }}, Media:
-          {{ formatDurationMs(stat.durata_ms / stat.totale) }}</v-expansion-panel-title>
+          {{ formatDurationMs(stat.durataMs / stat.totale) }}</v-expansion-panel-title>
 
         <v-expansion-panel-text>
           <ul>
             <li>
               <strong>Tempo Totale:</strong>
-              <span>{{ formatDurationMs(stat.durata_ms) }}</span>
+              <span>{{ formatDurationMs(stat.durataMs) }}</span>
             </li>
 
             <li>
               <strong>Media risposta:</strong>
-              <span>{{ formatDurationMs(stat.durata_ms / stat.totale) }}</span>
+              <span>{{ formatDurationMs(stat.durataMs / stat.totale) }}</span>
             </li>
 
             <li>
@@ -121,7 +121,7 @@ meta:
             </li>
 
             <li>
-              <strong>Non date:</strong> <span>{{ stat.non_date }}</span>
+              <strong>Non date:</strong> <span>{{ stat.nonDate }}</span>
             </li>
           </ul>
           Tempo medio per
@@ -132,13 +132,12 @@ meta:
 </template>
 
 <script lang="ts" setup>
+  import type { CapitoloBasicStats, QuesitiBasicStats } from '@/types/hankinson'
   import { computed, onMounted, ref } from 'vue'
   import { VPie } from 'vuetify/labs/VPie'
   import {
-    type CapitoloBasicStats,
     getCapitoliStats,
     getQuesitiStats,
-    type QuesitiBasicStats,
   } from '@/services/hankinson'
   import { useAppStore } from '@/stores/app'
   import { useQuizStore } from '@/stores/quiz'
@@ -154,11 +153,11 @@ meta:
     if (!quesitiStats.value) {
       return undefined
     }
-    const { corrette, sbagliate, non_date } = quesitiStats.value
+    const { corrette, sbagliate, nonDate } = quesitiStats.value
     return [
       { key: 'corrette', title: 'Corrette', value: corrette, color: 'green' },
       { key: 'sbagliate', title: 'Sbagliate', value: sbagliate, color: 'red' },
-      { key: 'non_date', title: 'Non date', value: non_date, color: 'grey' },
+      { key: 'non_date', title: 'Non date', value: nonDate, color: 'grey' },
     ]
   })
 
@@ -180,7 +179,7 @@ meta:
     let sumDurate = 0
     for (const capitolo of capitoliStats.value) {
       countQuesiti += capitolo.totale
-      sumDurate += capitolo.durata_ms
+      sumDurate += capitolo.durataMs
     }
 
     return sumDurate / countQuesiti / 1000
@@ -188,7 +187,7 @@ meta:
 
   const tempiMedi = computed(() => {
     return capitoliStats.value?.map(
-      capitolo => capitolo.durata_ms / capitolo.totale / 1000,
+      capitolo => capitolo.durataMs / capitolo.totale / 1000,
     )
   })
 

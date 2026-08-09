@@ -1,12 +1,14 @@
+import type {
+  Capitolo,
+  Esame,
+  User,
+} from '@/types/hankinson'
 import { useLocalStorage } from '@vueuse/core'
 import { defineStore } from 'pinia'
 import { computed, ref, type Ref } from 'vue'
 import {
-  type Capitolo,
-  type Esame,
   getCapitoli,
   login,
-  type User,
   USER_REF,
 } from '@/services/hankinson'
 import { TrainingSettings } from '@/types/models'

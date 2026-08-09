@@ -7,6 +7,7 @@ import (
 
 	"github.com/ed-evo/hankinson/server/ent"
 	"github.com/ed-evo/hankinson/server/ent/esame"
+	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/utente"
 	api_middlewares "github.com/ed-evo/hankinson/server/internal/api/middlewares"
 	"github.com/ed-evo/hankinson/server/internal/dto"
@@ -73,14 +74,13 @@ func next(db *ent.Client) func(http.ResponseWriter, *http.Request) {
 
 		log.Printf("Esame Aperto: %v -> Domanda: %v", esameAperto.ID, domandaID)
 
-		response := struct {
-			ID        int `json:"id"`
-			EsameId   int `json:"esameId"`
-			DomandaId int `json:"domandaId"`
-		}{
-			ID:        quesito.ID,
-			EsameId:   esameAperto.ID,
-			DomandaId: domandaID,
+		response, err := db.QuesitoEsame.Query().
+			Where(quesitoesame.ID(quesito.ID)).
+			WithDomandaOriginale().
+			Only(ctx)
+		if err != nil {
+			dto.RenderError(w, r, err)
+			return 
 		}
 		render.JSON(w, r, response)
 
