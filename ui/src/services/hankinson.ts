@@ -125,22 +125,19 @@ export const USER_REF: Ref<User | null> = useLocalStorage(
 
 const baseURL = '/api/v1/quiz'
 
-function build_request_options (overrides: any = {}) {
-  const headers: HeadersInit = {}
-  if (USER_REF.value) {
-    headers['X-Authenticated-User'] = USER_REF.value
+const hksApi = ofetch.create({
+  baseURL,
+  onRequest({ options }) {
+
+    if (USER_REF.value) {
+      options.headers.set('X-Authenticated-User', USER_REF.value);
+    }
   }
-  return {
-    baseURL,
-    headers,
-    ...overrides,
-  }
-}
+})
 
 export async function login (): Promise<User> {
   try {
-    const user = await ofetch<User>('/me', {
-      ...build_request_options(),
+    const user = await hksApi<User>('/me', {
       baseURL: '/api/v1',
     })
     USER_REF.value = user
@@ -152,22 +149,20 @@ export async function login (): Promise<User> {
 }
 
 export async function getCapitoli (): Promise<Capitolo[]> {
-  return ofetch<Capitolo[]>('/capitoli', build_request_options())
+  return hksApi<Capitolo[]>('/capitoli')
 }
 
 export async function getCapitoliStats (): Promise<CapitoloBasicStats[]> {
-  return ofetch<CapitoloBasicStats[]>(
+  return hksApi<CapitoloBasicStats[]>(
     '/capitoli/stats',
-    build_request_options(),
   )
 }
 
 export async function getDomandeByCapitolo (
   capitoloId: number,
 ): Promise<Domanda[]> {
-  const capitolo = await ofetch<Capitolo>(
+  const capitolo = await hksApi<Capitolo>(
     `/capitoli/${capitoloId}`,
-    build_request_options(),
   )
   if (!capitolo?.edges?.domande) {
     throw new Error(`Domande non trovate per capitolo ${capitoloId}`)
@@ -176,37 +171,36 @@ export async function getDomandeByCapitolo (
 }
 
 export async function getDomandaById (domandaId: number): Promise<Domanda> {
-  return ofetch<Domanda>(`/domande/${domandaId}`, build_request_options())
+  return hksApi<Domanda>(`/domande/${domandaId}`)
 }
 
 export async function spiegaDomandaById (
   domandaId: number,
 ): Promise<SpiegazioneDomanda> {
-  return ofetch<SpiegazioneDomanda>(
+  return hksApi<SpiegazioneDomanda>(
     `/domande/${domandaId}/spiegazione`,
-    build_request_options({ method: 'POST' }),
+   { method: 'POST' },
   )
 }
 
 export async function nextQuesitoAperto (
   capitoliIds: number[],
 ): Promise<Quesito> {
-  const quesito = await ofetch<Quesito>(
+  const quesito = await hksApi<Quesito>(
     '/esami/aperto/next',
-    build_request_options({
+    {
       method: 'POST',
       body: {
         capitoli: capitoliIds,
       },
-    }),
+    },
   )
   return quesito
 }
 
 export async function getQuesitiStats (): Promise<QuesitiBasicStats> {
-  return ofetch<QuesitiBasicStats>(
+  return hksApi<QuesitiBasicStats>(
     '/esami/quesiti/stats',
-    build_request_options(),
   )
 }
 
@@ -214,37 +208,36 @@ export async function notifyQuesityAttivita (
   quesitoId: number,
   attivita: AttivitaQuesito,
 ): Promise<void> {
-  await ofetch(
+  await hksApi(
     `/esami/quesiti/${quesitoId}/attivita`,
-    build_request_options({
+    {
       method: 'PUT',
       body: attivita,
-    }),
+    },
   )
 }
 
 export async function getEsameQuesiti (
   esameId: number,
 ): Promise<QuesitoEsame[]> {
-  return await ofetch<QuesitoEsame[]>(
+  return await hksApi<QuesitoEsame[]>(
     `/esami/${esameId}/quesiti`,
-    build_request_options(),
   )
 }
 
 export async function getEsameById (esameId: number): Promise<Esame> {
-  return await ofetch<Esame>(`/esami/${esameId}`, build_request_options())
+  return await hksApi<Esame>(`/esami/${esameId}`)
 }
 
 export async function createEsameParziale (
   params: EsameParzialeParams,
 ): Promise<Esame> {
-  return ofetch<Esame>(
+  return hksApi<Esame>(
     '/esami/parziali',
-    build_request_options({
+    {
       method: 'PUT',
       body: params,
-    }),
+    },
   )
 }
 
