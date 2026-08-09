@@ -13,9 +13,22 @@ name: esame-dettaglio
       Errori ammessi: {{ esame.max_errori }}, Tempo massimo: {{ formatDurationMin(esame.minuti_disponibili) }}
     </v-card-subtitle>
 
-    <v-card-text>
-      <pre>{{ esame }}</pre>
-    </v-card-text>
+    <v-expansion-panels v-if="quesiti" variant="accordion">
+      <v-expansion-panel
+        v-for="quesito in quesiti"
+        :key="quesito.id"
+      >
+        <v-expansion-panel-title>
+          <esito-icon :is-passed="isCorrect(quesito)" />
+          {{ quesito.edges?.domanda_originale?.testo }}
+        </v-expansion-panel-title>
+
+        <v-expansion-panel-text v-if="quesito.edges?.domanda_originale">
+          <v-img v-if="quesito.edges.domanda_originale.immagine" :src="getImmaginePath(quesito.edges.domanda_originale)" width="300" />
+          <spiegazione-domanda :numero-domanda="quesito.edges.domanda_originale.id" />
+        </v-expansion-panel-text>
+      </v-expansion-panel>
+    </v-expansion-panels>
   </v-card>
 </template>
 
@@ -23,7 +36,8 @@ name: esame-dettaglio
   import { computed, ref, watch } from 'vue'
   import { useRoute } from 'vue-router'
   import EsitoIcon from '@/components/EsitoIcon.vue'
-  import { type Esame, getEsameById } from '@/services/hankinson'
+  import SpiegazioneDomanda from '@/components/SpiegazioneDomanda.vue'
+  import { type Esame, getImmaginePath, getEsameById, type QuesitoEsame } from '@/services/hankinson'
   import { booleanToChoice } from '@/utils/quesiti'
   import { formatDurationMin, formatDurationMs } from '@/utils/temporal'
 
@@ -35,9 +49,13 @@ name: esame-dettaglio
     return esame.value?.edges?.quesiti
   })
 
+  function isCorrect (quesito: QuesitoEsame) {
+    return booleanToChoice(quesito.risposta_finale) === booleanToChoice(quesito.edges?.domanda_originale?.is_true ?? false)
+  }
+
   const numeroPassati = computed(() => {
     return quesiti.value
-      ?.filter(quesito => booleanToChoice(quesito.risposta_final) === booleanToChoice(quesito.edges.domanda_originale.is_true))
+      ?.filter(quesito => isCorrect(quesito))
       ?.length
   })
 

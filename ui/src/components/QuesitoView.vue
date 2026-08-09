@@ -11,7 +11,7 @@
       >
         <img
           v-if="domanda.immagine"
-          :src="`/quiz_assets/${domanda.immagine}.png`"
+          :src="getImmaginePath(domanda)"
           :style="{ 'max-height': `${height - 56}px` }"
         >
       </v-col>
@@ -73,7 +73,7 @@
 <script lang="ts" setup>
   import { useDocumentVisibility, useThrottleFn } from '@vueuse/core'
   import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
-  import { Choice, type Domanda, type PausaEvent } from '@/services/hankinson'
+  import { Choice, getImmaginePath, type Domanda, type PausaEvent } from '@/services/hankinson'
 
   const props = defineProps<{
     width: number

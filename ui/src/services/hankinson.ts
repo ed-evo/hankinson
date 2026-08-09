@@ -3,8 +3,8 @@ import { useLocalStorage } from '@vueuse/core'
 import { ofetch } from 'ofetch'
 
 export enum Choice {
-  VERO = 'VERO',
-  FALSO = 'FALSO',
+  VERO = 'V',
+  FALSO = 'F',
 }
 export interface Argomento {
   id: number
@@ -33,7 +33,7 @@ export interface SpiegazioneDomanda {
 
 export interface QuesitoEsame {
   id: number
-  risposta_final?: boolean
+  risposta_finale?: boolean
   edges: {
     domanda_originale: Domanda
     attivita: AttivitaQuesito[]
@@ -111,6 +111,12 @@ export interface CapitoloBasicStats {
 }
 
 export type User = string
+
+export function getImmaginePath(domanda: Domanda): string | undefined {
+  if (domanda?.immagine) {
+    return `/quiz_assets/${domanda.immagine}.png`
+  }
+}
 
 export const USER_REF: Ref<User | null> = useLocalStorage(
   'hankinson.user-email',
