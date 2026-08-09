@@ -20,7 +20,7 @@ type Domanda struct {
 	// Testo holds the value of the "testo" field.
 	Testo string `json:"testo,omitempty"`
 	// IsTrue holds the value of the "is_true" field.
-	IsTrue bool `json:"is_true,omitempty"`
+	IsTrue bool `json:"is_true"`
 	// Immagine holds the value of the "immagine" field.
 	Immagine *string `json:"immagine,omitempty"`
 	// IDCapitolo holds the value of the "id_capitolo" field.

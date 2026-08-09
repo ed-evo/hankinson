@@ -33,7 +33,8 @@ func (Domanda) Fields() []ent.Field {
 				Incremental: &autoincrement,
 			}),
 		field.Text("testo"),
-		field.Bool("is_true"),
+		field.Bool("is_true").
+            StructTag(`json:"is_true"`),
 		field.String("immagine").
 			Optional().
 			Nillable(),
