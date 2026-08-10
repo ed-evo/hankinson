@@ -13,10 +13,11 @@ name: esame-dettaglio
       Errori ammessi: {{ esame.maxErrori }}, Tempo massimo: {{ formatDurationMin(esame.minutiDisponibili) }}
     </v-card-subtitle>
 
-    <v-expansion-panels v-if="quesiti" variant="accordion">
+    <v-expansion-panels v-model="openedQuesiti" v-if="quesiti" variant="accordion" multiple>
       <v-expansion-panel
         v-for="quesito in quesiti"
         :key="quesito.id"
+        :value="quesito.id"
       >
         <v-expansion-panel-title>
           <esito-icon :is-passed="isCorrect(quesito)" />
@@ -44,9 +45,10 @@ name: esame-dettaglio
   const route = useRoute()
 
   const esame = ref<Esame>()
-
+  const openedQuesiti = ref<number[]>([])
   const quesiti = computed(() => {
-    return esame.value?.quesiti
+    return esame.value?.quesiti?.
+    toSorted((a, b) => Number(b.haSbagliato) - Number(a.haSbagliato))
   })
 
   function isCorrect (quesito: QuesitoEsame) {
@@ -77,11 +79,17 @@ name: esame-dettaglio
       ?.reduce((acc, t) => acc + t, 0)
   })
 
+  async function loadEsame(id: number) {
+    const e = await getEsameById(id)
+    esame.value = e
+    openedQuesiti.value = e.quesiti?.filter(quesiti => quesiti.haSbagliato)
+    ?.map(q => q.id ?? 0).filter(id => !!id) ?? []
+  }
+
   watch(
     () => (route.params as { id: string }).id,
     async newId => {
-      esame.value = await getEsameById(Number.parseInt(newId, 10))
-      console.log(esame.value)
+      await loadEsame(Number(newId))
     },
     { immediate: true },
   )

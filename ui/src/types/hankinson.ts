@@ -8,7 +8,7 @@ function booleanToRisposta (value?: boolean | null): RispostaEnum | null {
 }
 
 // ==========================================
-// 1. Tipi definiti esplicitamente (Non esportati)
+// 1. Dto
 // ==========================================
 
 // -- Enums
@@ -91,9 +91,9 @@ export type AttivitaQuesitoEsameDto = {
   id?: number
   tipo: TipoAttivitaEnum
   risposta_data?: boolean | null
-  inizio: string
+  inizio: Date
   durata_ms: number
-  timestamp?: string
+  timestamp?: Date
   edges?: {
     quesito_esame?: QuesitoEsameDto
   }
@@ -102,8 +102,8 @@ export type AttivitaQuesitoEsameDto = {
 type QuesitoEsameDto = {
   id?: number
   risposta_finale?: boolean | null
-  created_at: string
-  updated_at: string
+  created_at: Date
+  updated_at: Date
   edges?: {
     esame?: EsameDto
     domanda_originale?: DomandaDto
@@ -124,8 +124,8 @@ type EsameDto = {
   numero_quesiti: number
   max_errori: number
   minuti_disponibili: number
-  created_at: string
-  updated_at: string
+  created_at: Date
+  updated_at: Date
   edges?: {
     utente?: any
     quesiti?: QuesitoEsameDto[]
@@ -213,9 +213,9 @@ export const AttivitaQuesitoEsameDtoSchema: z.ZodType<AttivitaQuesitoEsameDto> =
   id: z.number().int().optional(),
   tipo: z.enum(TipoAttivitaEnum),
   risposta_data: z.boolean().nullable().optional(),
-  inizio: z.string(),
+  inizio: z.coerce.date(),
   durata_ms: z.number().int(),
-  timestamp: z.string().optional(),
+  timestamp: z.coerce.date().optional(),
   edges: z.object({
     get quesito_esame (): z.ZodOptional<z.ZodType<QuesitoEsameDto>> {
       return QuesitoEsameDtoSchema.optional()
@@ -226,8 +226,8 @@ export const AttivitaQuesitoEsameDtoSchema: z.ZodType<AttivitaQuesitoEsameDto> =
 export const QuesitoEsameDtoSchema: z.ZodType<QuesitoEsameDto> = z.object({
   id: z.number().int().optional(),
   risposta_finale: z.boolean().nullable().optional(),
-  created_at: z.string(),
-  updated_at: z.string(),
+  created_at: z.coerce.date(),
+  updated_at: z.coerce.date(),
   edges: z.object({
     get esame (): z.ZodOptional<z.ZodType<EsameDto>> {
       return EsameDtoSchema.optional()
@@ -254,8 +254,8 @@ export const EsameDtoSchema: z.ZodType<EsameDto> = z.object({
   numero_quesiti: z.number().int(),
   max_errori: z.number().int(),
   minuti_disponibili: z.number().int(),
-  created_at: z.string(),
-  updated_at: z.string(),
+  created_at: z.coerce.date(),
+  updated_at: z.coerce.date(),
   edges: z.object({
     utente: z.any().optional(),
     get quesiti (): z.ZodOptional<z.ZodArray<z.ZodType<QuesitoEsameDto>>> {
@@ -433,22 +433,29 @@ export const AttivitaQuesitoEsameSchema = AttivitaQuesitoEsameDtoSchema.transfor
   id: dto.id,
   tipo: dto.tipo,
   rispostaData: booleanToRisposta(dto.risposta_data),
-  inizio: new Date(dto.inizio),
+  inizio: dto.inizio,
   durataMs: dto.durata_ms,
-  timestamp: new Date(dto.timestamp),
+  timestamp: dto.timestamp,
   quesitoEsame: dto.edges?.quesito_esame ? QuesitoEsameSchema.parse(dto.edges.quesito_esame) : undefined,
 }))
 
 export const QuesitoEsameSchema = QuesitoEsameDtoSchema.transform((dto): QuesitoEsame => {
   const domanda = dto.edges?.domanda_originale ? DomandaSchema.parse(dto.edges.domanda_originale) : undefined
   const rispostaFinale = booleanToRisposta(dto.risposta_finale)
-  const haSbagliato = domanda && rispostaFinale !== null ? rispostaFinale !== domanda.rispostaCorretta : false
+  let haSbagliato: boolean
+  if (!domanda) {
+    haSbagliato = false
+  } else if (!rispostaFinale) {
+    haSbagliato = true
+  } else {
+    haSbagliato = rispostaFinale !== domanda.rispostaCorretta
+  }
 
   return {
     id: dto.id,
     rispostaFinale,
-    createdAt: new Date(dto.created_at),
-    updatedAt: new Date(dto.updated_at),
+    createdAt: dto.created_at,
+    updatedAt: dto.updated_at,
     esame: dto.edges?.esame ? EsameSchema.parse(dto.edges.esame) : undefined,
     domandaOriginale: domanda,
     attivita: dto.edges?.attivita ? dto.edges.attivita.map(a => AttivitaQuesitoEsameSchema.parse(a)) : undefined,
@@ -475,8 +482,8 @@ export const EsameSchema = EsameDtoSchema.transform((dto): Esame => {
     numeroQuesiti: dto.numero_quesiti,
     maxErrori: dto.max_errori,
     minutiDisponibili: dto.minuti_disponibili,
-    createdAt: new Date(dto.created_at),
-    updatedAt: new Date(dto.updated_at),
+    createdAt: dto.created_at,
+    updatedAt: dto.updated_at,
     utente: dto.edges?.utente,
     quesiti,
     erroriTotali,
