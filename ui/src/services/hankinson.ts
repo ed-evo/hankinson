@@ -90,30 +90,6 @@ type DomandaDto = {
   }
 }
 
-export type AttivitaQuesitoEsameDto = {
-  id?: number
-  tipo: TipoAttivitaEnum
-  risposta_data?: boolean | null
-  inizio: Date
-  durata_ms: number
-  timestamp?: Date
-  edges?: {
-    quesito_esame?: QuesitoEsameDto
-  }
-}
-
-type QuesitoEsameDto = {
-  id?: number
-  risposta_finale?: boolean | null
-  created_at: Date
-  updated_at: Date
-  edges?: {
-    esame?: EsameDto
-    domanda_originale?: DomandaDto
-    attivita?: AttivitaQuesitoEsameDto[]
-  }
-}
-
 type QuesitiBasicStatsDto = {
   totale: number
   corrette: number
@@ -131,7 +107,6 @@ type EsameDto = {
   updated_at: Date
   edges?: {
     utente?: any
-    quesiti?: QuesitoEsameDto[]
   }
 }
 
@@ -212,36 +187,18 @@ export const DomandaDtoSchema: z.ZodType<DomandaDto> = z.object({
   }).optional(),
 })
 
-export const AttivitaQuesitoEsameDtoSchema: z.ZodType<AttivitaQuesitoEsameDto> = z.object({
-  id: z.number().int().optional(),
+export const AttivitaQuesitoEsameDtoSchema = z.object({
   tipo: z.enum(TipoAttivitaEnum),
   risposta_data: z.boolean().nullable().optional(),
   inizio: z.coerce.date(),
   durata_ms: z.number().int(),
-  timestamp: z.coerce.date().optional(),
-  edges: z.object({
-    get quesito_esame (): z.ZodOptional<z.ZodType<QuesitoEsameDto>> {
-      return QuesitoEsameDtoSchema.optional()
-    },
-  }).optional(),
 })
 
-export const QuesitoEsameDtoSchema: z.ZodType<QuesitoEsameDto> = z.object({
-  id: z.number().int().optional(),
+export const QuesitoEsameDtoSchema = z.object({
+  id: z.number().int(),
   risposta_finale: z.boolean().nullable().optional(),
   created_at: z.coerce.date(),
   updated_at: z.coerce.date(),
-  edges: z.object({
-    get esame (): z.ZodOptional<z.ZodType<EsameDto>> {
-      return EsameDtoSchema.optional()
-    },
-    get domanda_originale (): z.ZodOptional<z.ZodType<DomandaDto>> {
-      return DomandaDtoSchema.optional()
-    },
-    get attivita (): z.ZodOptional<z.ZodArray<z.ZodType<AttivitaQuesitoEsameDto>>> {
-      return z.array(AttivitaQuesitoEsameDtoSchema).optional()
-    },
-  }).optional(),
 })
 
 export const QuesitiBasicStatsDtoSchema: z.ZodType<QuesitiBasicStatsDto> = z.object({
@@ -261,9 +218,6 @@ export const EsameDtoSchema: z.ZodType<EsameDto> = z.object({
   updated_at: z.coerce.date(),
   edges: z.object({
     utente: z.any().optional(),
-    get quesiti (): z.ZodOptional<z.ZodArray<z.ZodType<QuesitoEsameDto>>> {
-      return z.array(QuesitoEsameDtoSchema).optional()
-    },
   }).optional(),
 })
 
@@ -334,30 +288,9 @@ export type Domanda = {
   spiegazione?: Spiegazione[]
 }
 
-export type AttivitaQuesitoEsame = {
-  id?: number
-  tipo: TipoAttivitaEnum
-  rispostaData?: RispostaEnum | null
-  inizio: Date
-  durataMs: number
-  timestamp?: Date
-  quesitoEsame?: QuesitoEsame
-}
-
 export interface PausaEvent {
   inizio: Date
   fine: Date
-}
-
-export type QuesitoEsame = {
-  id?: number
-  rispostaFinale?: RispostaEnum | null
-  createdAt: Date
-  updatedAt: Date
-  esame?: Esame
-  domandaOriginale?: Domanda
-  attivita?: AttivitaQuesitoEsame[]
-  haSbagliato: boolean
 }
 
 export type QuesitiBasicStats = {
@@ -432,39 +365,48 @@ export const DomandaSchema = DomandaDtoSchema.transform((dto): Domanda => ({
   spiegazione: dto.edges?.spiegazione ? dto.edges.spiegazione.map(s => SpiegazioneSchema.parse(s)) : undefined,
 }))
 
-export const AttivitaQuesitoEsameSchema = AttivitaQuesitoEsameDtoSchema.transform((dto): AttivitaQuesitoEsame => ({
-  id: dto.id,
-  tipo: dto.tipo,
-  rispostaData: booleanToRisposta(dto.risposta_data),
-  inizio: dto.inizio,
-  durataMs: dto.durata_ms,
-  timestamp: dto.timestamp,
-  quesitoEsame: dto.edges?.quesito_esame ? QuesitoEsameSchema.parse(dto.edges.quesito_esame) : undefined,
-}))
+const AttivitaQuesitoEsameSchema = z.object({
+  tipo: z.enum(TipoAttivitaEnum),
+  rispostaData: z.enum(RispostaEnum).nullable().optional(),
+  inizio: z.date(),
+  durataMs: z.number().int(),
+})
 
-export const QuesitoEsameSchema = QuesitoEsameDtoSchema.transform((dto): QuesitoEsame => {
-  const domanda = dto.edges?.domanda_originale ? DomandaSchema.parse(dto.edges.domanda_originale) : undefined
-  const rispostaFinale = booleanToRisposta(dto.risposta_finale)
-  let haSbagliato: boolean
-  if (!domanda) {
-    haSbagliato = false
-  } else if (!rispostaFinale) {
-    haSbagliato = true
-  } else {
-    haSbagliato = rispostaFinale !== domanda.rispostaCorretta
+export type AttivitaQuesitoEsame = z.infer<typeof AttivitaQuesitoEsameSchema>
+
+const AttivitaQuesitoCodec = z.codec(
+  AttivitaQuesitoEsameDtoSchema,
+  AttivitaQuesitoEsameSchema,
+  {
+    decode: (dto) => {
+      return {
+        tipo: dto.tipo,
+        rispostaData: booleanToRisposta(dto.risposta_data),
+        inizio: dto.inizio,
+        durataMs: dto.durata_ms
+      }
+    },
+    encode: (model) => {
+      return {
+        tipo: model.tipo,
+        risposta_data: model.rispostaData ? model.rispostaData === RispostaEnum.VERO : undefined,
+        inizio: model.inizio,
+        durata_ms: model.durataMs
+      }
+    }
   }
+)
 
+const QuesitoEsameSchema = QuesitoEsameDtoSchema.transform((dto) => {
   return {
     id: dto.id,
-    rispostaFinale,
+    rispostaFinale: booleanToRisposta(dto.risposta_finale),
     createdAt: dto.created_at,
     updatedAt: dto.updated_at,
-    esame: dto.edges?.esame ? EsameSchema.parse(dto.edges.esame) : undefined,
-    domandaOriginale: domanda,
-    attivita: dto.edges?.attivita ? dto.edges.attivita.map(a => AttivitaQuesitoEsameSchema.parse(a)) : undefined,
-    haSbagliato,
   }
 })
+
+export type QuesitoEsame = z.infer<typeof QuesitoEsameSchema>
 
 export const QuesitiBasicStatsSchema = QuesitiBasicStatsDtoSchema.transform(
   (dto): QuesitiBasicStats => ({
@@ -476,8 +418,7 @@ export const QuesitiBasicStatsSchema = QuesitiBasicStatsDtoSchema.transform(
 )
 
 export const EsameSchema = EsameDtoSchema.transform((dto): Esame => {
-  const quesiti = dto.edges?.quesiti ? dto.edges.quesiti.map(q => QuesitoEsameSchema.parse(q)) : undefined
-  const erroriTotali = quesiti ? quesiti.filter(q => q.haSbagliato).length : 0
+  const erroriTotali = 0
 
   return {
     id: dto.id,
@@ -488,7 +429,6 @@ export const EsameSchema = EsameDtoSchema.transform((dto): Esame => {
     createdAt: dto.created_at,
     updatedAt: dto.updated_at,
     utente: dto.edges?.utente,
-    quesiti,
     erroriTotali,
     esitoSuperato: erroriTotali <= dto.max_errori,
   }
@@ -580,6 +520,26 @@ export async function getQuesitiStats (): Promise<QuesitiBasicStats> {
   )
 }
 
+export async function getQuestitoDomanda (quesitoId: number): Promise<Domanda> {
+  return hksApi<Domanda>(
+    `/esami/quesiti/${quesitoId}/domanda`,
+    {
+      parseResponse: createParserFor(DomandaSchema)
+    }
+  )
+}
+
+export async function listQuesitoAttivita (quesitoId: number): Promise<AttivitaQuesitoEsame[]> {
+  return await hksApi<AttivitaQuesitoEsame[]>(
+    `/esami/quesiti/${quesitoId}/attivita`,
+    {
+      parseResponse (responseText: string) {
+        return JSON.parse(responseText).map((a: any) => AttivitaQuesitoCodec.decode(a))
+      }
+    }
+  )
+}
+
 export async function notifyQuesityAttivita (
   quesitoId: number,
   attivita: AttivitaQuesitoEsame,
@@ -592,12 +552,7 @@ export async function notifyQuesityAttivita (
     `/esami/quesiti/${quesitoId}/attivita`,
     {
       method: 'PUT',
-      body: AttivitaQuesitoEsameDtoSchema.parse({
-        tipo: attivita.tipo,
-        risposta_data: risposta,
-        inizio: attivita.inizio.toISOString(),
-        durata_ms: attivita.durataMs,
-      } as AttivitaQuesitoEsameDto),
+      body: AttivitaQuesitoCodec.encode(attivita),
     },
   )
 }

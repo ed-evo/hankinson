@@ -34,24 +34,27 @@ name: esame-dettaglio
 </template>
 
 <script setup lang="ts">
-  import type { Esame, QuesitoEsame } from '@/services/hankinson'
+  import type { AttivitaQuesitoEsame, Domanda, Esame, QuesitoEsame } from '@/services/hankinson'
   import { computed, ref, watch } from 'vue'
   import { useRoute } from 'vue-router'
   import EsitoIcon from '@/components/EsitoIcon.vue'
   import SpiegazioneDomanda from '@/components/SpiegazioneDomanda.vue'
-  import { getEsameById } from '@/services/hankinson'
+  import { getEsameById, getEsameQuesiti, getQuestitoDomanda, listQuesitoAttivita } from '@/services/hankinson'
   import { formatDurationMin, formatDurationMs } from '@/utils/temporal'
 
   const route = useRoute()
 
+  type Quesito = QuesitoEsame & {
+    haSbagliato: boolean,
+    domandaOriginale: Domanda,
+    attivita: AttivitaQuesitoEsame[]
+  }
+
   const esame = ref<Esame>()
   const openedQuesiti = ref<number[]>([])
-  const quesiti = computed(() => {
-    return esame.value?.quesiti?.
-    toSorted((a, b) => Number(b.haSbagliato) - Number(a.haSbagliato))
-  })
+  const quesiti = ref<Quesito[]>()
 
-  function isCorrect (quesito: QuesitoEsame) {
+  function isCorrect (quesito: Quesito) {
     return !quesito.haSbagliato
   }
 
@@ -82,8 +85,27 @@ name: esame-dettaglio
   async function loadEsame(id: number) {
     const e = await getEsameById(id)
     esame.value = e
-    openedQuesiti.value = e.quesiti?.filter(quesiti => quesiti.haSbagliato)
-    ?.map(q => q.id ?? 0).filter(id => !!id) ?? []
+    let quesitiSbagliatiId: number[] = []
+
+    quesiti.value = []
+
+    for (const q of await getEsameQuesiti(id)) {
+      const domanda = await getQuestitoDomanda(q.id)
+      const listaAttivita = await listQuesitoAttivita(q.id)
+      const quesito: Quesito = {
+        ...q,
+        haSbagliato: domanda.rispostaCorretta !== q.rispostaFinale,
+        domandaOriginale: domanda,
+        attivita: listaAttivita,
+      }
+      quesiti.value.push(quesito)
+      if (quesito.haSbagliato) {
+        quesitiSbagliatiId.push(quesito.id)
+      }
+    }
+
+    quesiti.value.sort((a, b) => Number(b.haSbagliato) - Number(a.haSbagliato))
+
   }
 
   watch(

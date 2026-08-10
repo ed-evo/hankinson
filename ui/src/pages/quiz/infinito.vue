@@ -80,6 +80,7 @@ meta:
   import SpiegazioneDomanda from '@/components/SpiegazioneDomanda.vue'
   import {
     AttivitaEmitter,
+    getQuestitoDomanda,
     nextQuesitoAperto,
   } from '@/services/hankinson'
   import { useAppStore } from '@/stores/app'
@@ -142,10 +143,11 @@ meta:
   async function loadQuesito () {
     current.value = undefined
     const quesito = await nextQuesitoAperto(quizStore.capitoliSelezionati)
-    if (!quesito.id || !quesito.domandaOriginale) {
+    const domanda = await getQuestitoDomanda(quesito.id)
+    if (!quesito.id || !domanda) {
       throw new Error('Domanda originame non presente in quesito')
     }
-    const item = new QuizItem(quesito.id, quesito.domandaOriginale)
+    const item = new QuizItem(quesito.id, domanda)
     current.value = item
     quiz.value.push(item)
   }

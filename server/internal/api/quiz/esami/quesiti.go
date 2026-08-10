@@ -48,6 +48,18 @@ func newQuesitiRouter(db *ent.Client) chi.Router {
 
 	quesitiRouter.Get("/stats", getStats(db))
 	quesitiRouter.Route("/{quesitoID:[0-9]+}", func(r chi.Router) {
+		r.Get("/domanda", ctx.JsonHandler(func(r *http.Request, entity *ent.QuesitoEsame) (any, error) {
+			return db.QuesitoEsame.Query().
+			Where(quesitoesame.ID(entity.ID)).
+			QueryDomandaOriginale().
+			Only(r.Context())
+		}))
+		r.Get("/attivita", ctx.JsonHandler(func(r *http.Request, entity *ent.QuesitoEsame) (any, error) {
+			return db.QuesitoEsame.Query().
+			Where(quesitoesame.ID(entity.ID)).
+			QueryAttivita().
+			All(r.Context())
+		}))
 		r.Put("/attivita", ctx.Process(putAttivitaQuesito(db)))
 	})
 
