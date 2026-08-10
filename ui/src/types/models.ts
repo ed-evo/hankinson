@@ -1,4 +1,4 @@
-import type { Domanda, RispostaEnum } from '@/types/hankinson'
+import type { Domanda, RispostaEnum } from '@/services/hankinson'
 
 export class TrainingSettings {
   public static readonly minQuesiti = 10

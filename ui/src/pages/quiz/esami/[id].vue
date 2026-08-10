@@ -34,7 +34,7 @@ name: esame-dettaglio
 </template>
 
 <script setup lang="ts">
-  import type { Esame, QuesitoEsame } from '@/types/hankinson'
+  import type { Esame, QuesitoEsame } from '@/services/hankinson'
   import { computed, ref, watch } from 'vue'
   import { useRoute } from 'vue-router'
   import EsitoIcon from '@/components/EsitoIcon.vue'

@@ -132,7 +132,7 @@ meta:
 </template>
 
 <script lang="ts" setup>
-  import type { CapitoloBasicStats, QuesitiBasicStats } from '@/types/hankinson'
+  import type { CapitoloBasicStats, QuesitiBasicStats } from '@/services/hankinson'
   import { computed, onMounted, ref } from 'vue'
   import { VPie } from 'vuetify/labs/VPie'
   import {

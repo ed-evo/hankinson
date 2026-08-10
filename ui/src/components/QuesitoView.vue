@@ -71,10 +71,10 @@
 </template>
 
 <script lang="ts" setup>
-  import type { Domanda, PausaEvent } from '@/types/hankinson'
+  import type { Domanda, PausaEvent } from '@/services/hankinson'
   import { useDocumentVisibility, useThrottleFn } from '@vueuse/core'
   import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
-  import { RispostaEnum } from '@/types/hankinson'
+  import { RispostaEnum } from '@/services/hankinson'
 
   const props = defineProps<{
     width: number

@@ -80,12 +80,11 @@ meta:
   import SpiegazioneDomanda from '@/components/SpiegazioneDomanda.vue'
   import {
     AttivitaEmitter,
-    getDomandaById,
     nextQuesitoAperto,
   } from '@/services/hankinson'
   import { useAppStore } from '@/stores/app'
   import { useQuizStore } from '@/stores/quiz'
-  import { type PausaEvent, type RispostaEnum, TipoAttivitaEnum } from '@/types/hankinson'
+  import { type PausaEvent, type RispostaEnum, TipoAttivitaEnum } from '@/services/hankinson'
   import { QuizItem } from '@/types/models'
 
   const isLoading = ref(true)

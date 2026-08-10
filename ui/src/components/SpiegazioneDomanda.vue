@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-  import type { Spiegazione } from '@/types/hankinson'
+  import type { Spiegazione } from '@/services/hankinson'
   import { ref, watch } from 'vue'
   import {
     spiegaDomandaById,

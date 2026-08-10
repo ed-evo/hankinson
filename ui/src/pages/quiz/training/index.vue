@@ -27,7 +27,7 @@ meta:
 </template>
 
 <script lang="ts" setup>
-  import type { EsameParzialeParamsInput } from '@/types/hankinson'
+  import type { EsameParzialeParamsInput } from '@/services/hankinson'
   import { useRouter } from 'vue-router'
   import TrainingInput from '@/components/TrainingInput.vue'
   import {

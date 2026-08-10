@@ -93,7 +93,7 @@ name: quiz_training_play
   } from '@/services/hankinson'
   import { useAppStore } from '@/stores/app'
   import { useQuizStore } from '@/stores/quiz'
-  import { type Esame, type PausaEvent, type RispostaEnum, TipoAttivitaEnum } from '@/types/hankinson'
+  import { type Esame, type PausaEvent, type RispostaEnum, TipoAttivitaEnum } from '@/services/hankinson'
   import { QuizItem } from '@/types/models'
   const router = useRouter()
   const appStore = useAppStore()

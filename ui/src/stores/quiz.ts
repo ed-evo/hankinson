@@ -2,7 +2,7 @@ import type {
   Capitolo,
   Esame,
   User,
-} from '@/types/hankinson'
+} from '@/services/hankinson'
 import { useLocalStorage } from '@vueuse/core'
 import { defineStore } from 'pinia'
 import { computed, ref, type Ref } from 'vue'
