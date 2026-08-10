@@ -13,7 +13,7 @@ name: esame-dettaglio
       Errori ammessi: {{ esame.maxErrori }}, Tempo massimo: {{ formatDurationMin(esame.minutiDisponibili) }}
     </v-card-subtitle>
 
-    <v-expansion-panels v-model="openedQuesiti" v-if="quesiti" variant="accordion" multiple>
+    <v-expansion-panels v-if="quesiti" v-model="openedQuesiti" multiple variant="accordion">
       <v-expansion-panel
         v-for="quesito in quesiti"
         :key="quesito.id"
@@ -21,12 +21,12 @@ name: esame-dettaglio
       >
         <v-expansion-panel-title>
           <esito-icon :is-passed="isCorrect(quesito)" />
-          {{ quesito.domandaOriginale?.testo }}
+          {{ quesito.domanda?.testo }}
         </v-expansion-panel-title>
 
-        <v-expansion-panel-text v-if="quesito.domandaOriginale">
-          <v-img v-if="quesito.domandaOriginale.immaginePath" :src="quesito.domandaOriginale.immaginePath" width="300" />
-          <spiegazione-domanda :numero-domanda="quesito.domandaOriginale.id" />
+        <v-expansion-panel-text v-if="quesito.domanda">
+          <v-img v-if="quesito.domanda.immaginePath" :src="quesito.domanda.immaginePath" width="300" />
+          <spiegazione-domanda :numero-domanda="quesito.domanda.id" />
         </v-expansion-panel-text>
       </v-expansion-panel>
     </v-expansion-panels>
@@ -45,8 +45,8 @@ name: esame-dettaglio
   const route = useRoute()
 
   type Quesito = QuesitoEsame & {
-    haSbagliato: boolean,
-    domandaOriginale: Domanda,
+    haSbagliato: boolean
+    domanda: Domanda
     attivita: AttivitaQuesitoEsame[]
   }
 
@@ -82,10 +82,10 @@ name: esame-dettaglio
       ?.reduce((acc, t) => acc + t, 0)
   })
 
-  async function loadEsame(id: number) {
+  async function loadEsame (id: number) {
     const e = await getEsameById(id)
     esame.value = e
-    let quesitiSbagliatiId: number[] = []
+    const quesitiSbagliatiId: number[] = []
 
     quesiti.value = []
 
@@ -95,7 +95,7 @@ name: esame-dettaglio
       const quesito: Quesito = {
         ...q,
         haSbagliato: domanda.rispostaCorretta !== q.rispostaFinale,
-        domandaOriginale: domanda,
+        domanda: domanda,
         attivita: listaAttivita,
       }
       quesiti.value.push(quesito)
@@ -104,8 +104,9 @@ name: esame-dettaglio
       }
     }
 
-    quesiti.value.sort((a, b) => Number(b.haSbagliato) - Number(a.haSbagliato))
+    console.info('Quesiti', quesiti.value)
 
+    quesiti.value.sort((a, b) => Number(b.haSbagliato) - Number(a.haSbagliato))
   }
 
   watch(

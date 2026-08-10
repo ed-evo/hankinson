@@ -3,16 +3,16 @@
     <v-responsive class="align-center text-center fill-height">
       <v-empty-state
         headline="404"
-        title="Page not found"
-        text="The page you are looking for does not exist."
         icon="mdi-alert-circle-outline"
+        text="The page you are looking for does not exist."
+        title="Page not found"
       >
         <template #actions>
           <v-btn
             color="primary"
-            variant="flat"
-            to="/"
             prepend-icon="mdi-home"
+            to="/"
+            variant="flat"
           >
             Back to Home
           </v-btn>

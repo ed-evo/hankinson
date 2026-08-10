@@ -92,9 +92,9 @@ name: quiz_training_play
     getEsameQuesiti,
     getQuestitoDomanda,
   } from '@/services/hankinson'
+  import { type Esame, type PausaEvent, type RispostaEnum, TipoAttivitaEnum } from '@/services/hankinson'
   import { useAppStore } from '@/stores/app'
   import { useQuizStore } from '@/stores/quiz'
-  import { type Esame, type PausaEvent, type RispostaEnum, TipoAttivitaEnum } from '@/services/hankinson'
   import { QuizItem } from '@/types/models'
   const router = useRouter()
   const appStore = useAppStore()
@@ -199,7 +199,7 @@ name: quiz_training_play
     if (!esame.id) {
       throw new Error('Esame id non present')
     }
-    let items: QuizItem[] = []
+    const items: QuizItem[] = []
     for (const quesito of await getEsameQuesiti(esame.id)) {
       const domanda = await getQuestitoDomanda(quesito.id)
       items.push(new QuizItem(quesito.id, domanda))

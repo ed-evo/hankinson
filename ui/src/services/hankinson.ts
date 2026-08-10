@@ -1,7 +1,7 @@
 import type { Ref } from 'vue'
-import z from 'zod'
 import { useLocalStorage } from '@vueuse/core'
 import { ofetch } from 'ofetch'
+import z from 'zod'
 
 function booleanToRisposta (value?: boolean | null): RispostaEnum | null {
   if (value === undefined || value === null) {
@@ -11,10 +11,8 @@ function booleanToRisposta (value?: boolean | null): RispostaEnum | null {
 }
 
 // ==========================================
-// 1. Dto
+// Enums
 // ==========================================
-
-// -- Enums
 
 export enum TipoEsameEnum {
   MINISTERIALE = 'ministeriale',
@@ -34,407 +32,7 @@ export enum RispostaEnum {
   FALSO = 'F',
 }
 
-// --- DTO Types (API Backend Go) ---
-
-type SpiegazioneDto = {
-  id?: number
-  numero_domanda: number
-  spiegazione: string
-  focus_linguistico: string
-  regola_chiave: string
-  edges?: {
-    domanda?: DomandaDto
-  }
-}
-
-type ArgomentoDto = {
-  id: number
-  nome: string
-  edges?: {
-    domande?: DomandaDto[]
-  }
-}
-
-type CapitoloDto = {
-  id: number
-  nome: string
-  min_numero_domanda: number
-  max_numero_domanda: number
-  totale_domande: number
-  edges?: {
-    domande?: DomandaDto[]
-  }
-}
-
-type CapitoloBasicStatsDto = {
-  id: number
-  totale: number
-  corrette: number
-  sbagliate: number
-  non_date: number
-  durata_ms: number
-}
-
-type DomandaDto = {
-  id: number
-  testo: string
-  is_true: boolean
-  immagine?: string | null
-  id_capitolo: number
-  pagina_quiz: number
-  id_blocco: number
-  edges?: {
-    argomenti?: ArgomentoDto[]
-    capitolo?: CapitoloDto
-    spiegazione?: SpiegazioneDto[]
-  }
-}
-
-type QuesitiBasicStatsDto = {
-  totale: number
-  corrette: number
-  sbagliate: number
-  non_date: number
-}
-
-type EsameDto = {
-  id?: number
-  tipo: TipoEsameEnum
-  numero_quesiti: number
-  max_errori: number
-  minuti_disponibili: number
-  created_at: Date
-  updated_at: Date
-  edges?: {
-    utente?: any
-  }
-}
-
-export type EsameParzialeParamsDto = {
-  capitoli: number[]
-  numero_quesiti: number
-  max_errori: number
-  minuti_disponibili: number
-}
-
-// ==========================================
-// 2. Schemi DTO (con Getters per i campi ciclici)
-// ==========================================
-
-export const SpiegazioneDtoSchema: z.ZodType<SpiegazioneDto> = z.object({
-  id: z.number().int().optional(),
-  numero_domanda: z.number().int(),
-  spiegazione: z.string(),
-  focus_linguistico: z.string(),
-  regola_chiave: z.string(),
-  edges: z.object({
-    get domanda (): z.ZodOptional<z.ZodType<DomandaDto>> {
-      return DomandaDtoSchema.optional()
-    },
-  }).optional(),
-})
-
-export const ArgomentoDtoSchema: z.ZodType<ArgomentoDto> = z.object({
-  id: z.number().int(),
-  nome: z.string(),
-  edges: z.object({
-    get domande (): z.ZodOptional<z.ZodArray<z.ZodType<DomandaDto>>> {
-      return z.array(DomandaDtoSchema).optional()
-    },
-  }).optional(),
-})
-
-export const CapitoloDtoSchema: z.ZodType<CapitoloDto> = z.object({
-  id: z.number().int(),
-  nome: z.string(),
-  min_numero_domanda: z.number().int(),
-  max_numero_domanda: z.number().int(),
-  totale_domande: z.number().int(),
-  edges: z.object({
-    get domande (): z.ZodOptional<z.ZodArray<z.ZodType<DomandaDto>>> {
-      return z.array(DomandaDtoSchema).optional()
-    },
-  }).optional(),
-})
-
-export const CapitoloBasicStatsDtoSchema: z.ZodType<CapitoloBasicStatsDto> = z.object({
-  id: z.number().int(),
-  totale: z.number().int(),
-  corrette: z.number().int(),
-  sbagliate: z.number().int(),
-  non_date: z.number().int(),
-  durata_ms: z.number().int(),
-})
-
-export const DomandaDtoSchema: z.ZodType<DomandaDto> = z.object({
-  id: z.number().int(),
-  testo: z.string(),
-  is_true: z.boolean(),
-  immagine: z.string().nullable().optional(),
-  id_capitolo: z.number().int(),
-  pagina_quiz: z.number().int(),
-  id_blocco: z.number().int(),
-  edges: z.object({
-    get argomenti (): z.ZodOptional<z.ZodArray<z.ZodType<ArgomentoDto>>> {
-      return z.array(ArgomentoDtoSchema).optional()
-    },
-    get capitolo (): z.ZodOptional<z.ZodType<CapitoloDto>> {
-      return CapitoloDtoSchema.optional()
-    },
-    get spiegazione (): z.ZodOptional<z.ZodArray<z.ZodType<SpiegazioneDto>>> {
-      return z.array(SpiegazioneDtoSchema).optional()
-    },
-  }).optional(),
-})
-
-export const AttivitaQuesitoEsameDtoSchema = z.object({
-  tipo: z.enum(TipoAttivitaEnum),
-  risposta_data: z.boolean().nullable().optional(),
-  inizio: z.coerce.date(),
-  durata_ms: z.number().int(),
-})
-
-export const QuesitoEsameDtoSchema = z.object({
-  id: z.number().int(),
-  risposta_finale: z.boolean().nullable().optional(),
-  created_at: z.coerce.date(),
-  updated_at: z.coerce.date(),
-})
-
-export const QuesitiBasicStatsDtoSchema: z.ZodType<QuesitiBasicStatsDto> = z.object({
-  totale: z.number().int(),
-  corrette: z.number().int(),
-  sbagliate: z.number().int(),
-  non_date: z.number().int(),
-})
-
-export const EsameDtoSchema: z.ZodType<EsameDto> = z.object({
-  id: z.number().int().optional(),
-  tipo: z.enum(TipoEsameEnum),
-  numero_quesiti: z.number().int(),
-  max_errori: z.number().int(),
-  minuti_disponibili: z.number().int(),
-  created_at: z.coerce.date(),
-  updated_at: z.coerce.date(),
-  edges: z.object({
-    utente: z.any().optional(),
-  }).optional(),
-})
-
-export const EsameParzialeParamsDtoSchema = z.object({
-  capitoli: z.array(z.number().int()).min(1, 'Seleziona almeno un capitolo'),
-  numeroQuesiti: z.number().int().positive(),
-  maxErrori: z.number().int().nonnegative(),
-  minutiDisponibili: z.number().int().positive(),
-}).transform((ui): EsameParzialeParamsDto => ({
-  capitoli: ui.capitoli,
-  numero_quesiti: ui.numeroQuesiti,
-  max_errori: ui.maxErrori,
-  minuti_disponibili: ui.minutiDisponibili,
-}))
-
-// ==========================================
-// 3. Schemi con Trasformazione UI (Remap + CamelCase)
-// ==========================================
-
-// --- UI Types (Frontend trasformato) ---
-
 export type User = string
-
-export type Spiegazione = {
-  id?: number
-  numeroDomanda: number
-  spiegazione: string
-  focusLinguistico: string
-  regolaChiave: string
-  domanda?: Domanda
-}
-
-export type Argomento = {
-  id: number
-  nome: string
-  domande?: Domanda[]
-}
-
-export type Capitolo = {
-  id: number
-  nome: string
-  minNumeroDomanda: number
-  maxNumeroDomanda: number
-  totaleDomande: number
-  domande?: Domanda[]
-}
-
-export type CapitoloBasicStats = {
-  id: number
-  totale: number
-  corrette: number
-  sbagliate: number
-  nonDate: number
-  durataMs: number
-}
-
-export type Domanda = {
-  id: number
-  testo: string
-  rispostaCorretta: RispostaEnum
-  immagine: string | null
-  immaginePath: string | null
-  idCapitolo: number
-  paginaQuiz: number
-  idBlocco: number
-  argomenti?: Argomento[]
-  capitolo?: Capitolo
-  spiegazione?: Spiegazione[]
-}
-
-export interface PausaEvent {
-  inizio: Date
-  fine: Date
-}
-
-export type QuesitiBasicStats = {
-  totale: number
-  corrette: number
-  sbagliate: number
-  nonDate: number
-}
-
-export type Esame = {
-  id?: number
-  tipo: TipoEsameEnum
-  numeroQuesiti: number
-  maxErrori: number
-  minutiDisponibili: number
-  createdAt: Date
-  updatedAt: Date
-  utente?: any
-  quesiti?: QuesitoEsame[]
-  erroriTotali: number
-  esitoSuperato: boolean
-}
-
-export type EsameParzialeParamsInput = z.input<typeof EsameParzialeParamsDtoSchema>
-
-export const SpiegazioneSchema = SpiegazioneDtoSchema.transform((dto): Spiegazione => ({
-  id: dto.id,
-  numeroDomanda: dto.numero_domanda,
-  spiegazione: dto.spiegazione,
-  focusLinguistico: dto.focus_linguistico,
-  regolaChiave: dto.regola_chiave,
-  domanda: dto.edges?.domanda ? DomandaSchema.parse(dto.edges.domanda) : undefined,
-}))
-
-export const ArgomentoSchema = ArgomentoDtoSchema.transform((dto): Argomento => ({
-  id: dto.id,
-  nome: dto.nome,
-  domande: dto.edges?.domande ? dto.edges.domande.map(d => DomandaSchema.parse(d)) : undefined,
-}))
-
-export const CapitoloSchema = CapitoloDtoSchema.transform((dto): Capitolo => ({
-  id: dto.id,
-  nome: dto.nome,
-  minNumeroDomanda: dto.min_numero_domanda,
-  maxNumeroDomanda: dto.max_numero_domanda,
-  totaleDomande: dto.totale_domande,
-  domande: dto.edges?.domande ? dto.edges.domande.map(d => DomandaSchema.parse(d)) : undefined,
-}))
-
-export const CapitoloBasicStatsSchema = CapitoloBasicStatsDtoSchema.transform(
-  (dto): CapitoloBasicStats => ({
-    id: dto.id,
-    totale: dto.totale,
-    corrette: dto.corrette,
-    sbagliate: dto.sbagliate,
-    nonDate: dto.non_date,
-    durataMs: dto.durata_ms,
-  }),
-)
-
-export const DomandaSchema = DomandaDtoSchema.transform((dto): Domanda => ({
-  id: dto.id,
-  testo: dto.testo,
-  rispostaCorretta: dto.is_true ? RispostaEnum.VERO : RispostaEnum.FALSO,
-  immagine: dto.immagine ?? null,
-  immaginePath: dto.immagine ? `/quiz_assets/${dto.immagine}.png` : null,
-  idCapitolo: dto.id_capitolo,
-  paginaQuiz: dto.pagina_quiz,
-  idBlocco: dto.id_blocco,
-  argomenti: dto.edges?.argomenti ? dto.edges.argomenti.map(a => ArgomentoSchema.parse(a)) : undefined,
-  capitolo: dto.edges?.capitolo ? CapitoloSchema.parse(dto.edges.capitolo) : undefined,
-  spiegazione: dto.edges?.spiegazione ? dto.edges.spiegazione.map(s => SpiegazioneSchema.parse(s)) : undefined,
-}))
-
-const AttivitaQuesitoEsameSchema = z.object({
-  tipo: z.enum(TipoAttivitaEnum),
-  rispostaData: z.enum(RispostaEnum).nullable().optional(),
-  inizio: z.date(),
-  durataMs: z.number().int(),
-})
-
-export type AttivitaQuesitoEsame = z.infer<typeof AttivitaQuesitoEsameSchema>
-
-const AttivitaQuesitoCodec = z.codec(
-  AttivitaQuesitoEsameDtoSchema,
-  AttivitaQuesitoEsameSchema,
-  {
-    decode: (dto) => {
-      return {
-        tipo: dto.tipo,
-        rispostaData: booleanToRisposta(dto.risposta_data),
-        inizio: dto.inizio,
-        durataMs: dto.durata_ms
-      }
-    },
-    encode: (model) => {
-      return {
-        tipo: model.tipo,
-        risposta_data: model.rispostaData ? model.rispostaData === RispostaEnum.VERO : undefined,
-        inizio: model.inizio,
-        durata_ms: model.durataMs
-      }
-    }
-  }
-)
-
-const QuesitoEsameSchema = QuesitoEsameDtoSchema.transform((dto) => {
-  return {
-    id: dto.id,
-    rispostaFinale: booleanToRisposta(dto.risposta_finale),
-    createdAt: dto.created_at,
-    updatedAt: dto.updated_at,
-  }
-})
-
-export type QuesitoEsame = z.infer<typeof QuesitoEsameSchema>
-
-export const QuesitiBasicStatsSchema = QuesitiBasicStatsDtoSchema.transform(
-  (dto): QuesitiBasicStats => ({
-    totale: dto.totale,
-    corrette: dto.corrette,
-    sbagliate: dto.sbagliate,
-    nonDate: dto.non_date,
-  }),
-)
-
-export const EsameSchema = EsameDtoSchema.transform((dto): Esame => {
-  const erroriTotali = 0
-
-  return {
-    id: dto.id,
-    tipo: dto.tipo,
-    numeroQuesiti: dto.numero_quesiti,
-    maxErrori: dto.max_errori,
-    minutiDisponibili: dto.minuti_disponibili,
-    createdAt: dto.created_at,
-    updatedAt: dto.updated_at,
-    utente: dto.edges?.utente,
-    erroriTotali,
-    esitoSuperato: erroriTotali <= dto.max_errori,
-  }
-})
-
-
 
 export const USER_REF: Ref<User | null> = useLocalStorage(
   'hankinson.user-email',
@@ -469,6 +67,24 @@ export async function login (): Promise<User> {
   }
 }
 
+export const CapitoloDtoSchema = z.object({
+  id: z.number().int(),
+  nome: z.string(),
+  min_numero_domanda: z.number().int(),
+  max_numero_domanda: z.number().int(),
+  totale_domande: z.number().int(),
+})
+
+export const CapitoloSchema = CapitoloDtoSchema.transform(dto => ({
+  id: dto.id,
+  nome: dto.nome,
+  minNumeroDomanda: dto.min_numero_domanda,
+  maxNumeroDomanda: dto.max_numero_domanda,
+  totaleDomande: dto.totale_domande,
+}))
+
+export type Capitolo = z.infer<typeof CapitoloSchema>
+
 const CapitoliSchema = z.array(CapitoloSchema)
 
 export async function getCapitoli (): Promise<Capitolo[]> {
@@ -476,6 +92,28 @@ export async function getCapitoli (): Promise<Capitolo[]> {
     parseResponse: createParserFor(CapitoliSchema),
   })
 }
+
+export const CapitoloBasicStatsDtoSchema = z.object({
+  id: z.number().int(),
+  totale: z.number().int(),
+  corrette: z.number().int(),
+  sbagliate: z.number().int(),
+  non_date: z.number().int(),
+  durata_ms: z.number().int(),
+})
+
+export const CapitoloBasicStatsSchema = CapitoloBasicStatsDtoSchema.transform(
+  dto => ({
+    id: dto.id,
+    totale: dto.totale,
+    corrette: dto.corrette,
+    sbagliate: dto.sbagliate,
+    nonDate: dto.non_date,
+    durataMs: dto.durata_ms,
+  }),
+)
+
+export type CapitoloBasicStats = z.infer<typeof CapitoloBasicStatsSchema>
 
 const CapitoliBasicStatsSchema = z.array(CapitoloBasicStatsSchema)
 export async function getCapitoliStats (): Promise<CapitoloBasicStats[]> {
@@ -487,6 +125,24 @@ export async function getCapitoliStats (): Promise<CapitoloBasicStats[]> {
   )
 }
 
+export const SpiegazioneDtoSchema = z.object({
+  id: z.number().int().optional(),
+  numero_domanda: z.number().int(),
+  spiegazione: z.string(),
+  focus_linguistico: z.string(),
+  regola_chiave: z.string(),
+})
+
+export const SpiegazioneSchema = SpiegazioneDtoSchema.transform(dto => ({
+  id: dto.id,
+  numeroDomanda: dto.numero_domanda,
+  spiegazione: dto.spiegazione,
+  focusLinguistico: dto.focus_linguistico,
+  regolaChiave: dto.regola_chiave,
+}))
+
+export type Spiegazione = z.infer<typeof SpiegazioneSchema>
+
 export async function spiegaDomandaById (
   domandaId: number,
 ): Promise<Spiegazione> {
@@ -495,6 +151,24 @@ export async function spiegaDomandaById (
     { method: 'POST', parseResponse: createParserFor(SpiegazioneSchema) },
   )
 }
+
+export const QuesitoEsameDtoSchema = z.object({
+  id: z.number().int(),
+  risposta_finale: z.boolean().nullable().optional(),
+  created_at: z.coerce.date(),
+  updated_at: z.coerce.date(),
+})
+
+const QuesitoEsameSchema = QuesitoEsameDtoSchema.transform(dto => {
+  return {
+    id: dto.id,
+    rispostaFinale: booleanToRisposta(dto.risposta_finale),
+    createdAt: dto.created_at,
+    updatedAt: dto.updated_at,
+  }
+})
+
+export type QuesitoEsame = z.infer<typeof QuesitoEsameSchema>
 
 export async function nextQuesitoAperto (
   capitoliIds: number[],
@@ -511,52 +185,6 @@ export async function nextQuesitoAperto (
   )
 }
 
-export async function getQuesitiStats (): Promise<QuesitiBasicStats> {
-  return hksApi<QuesitiBasicStats>(
-    '/esami/quesiti/stats',
-    {
-      parseResponse: createParserFor(QuesitiBasicStatsSchema),
-    },
-  )
-}
-
-export async function getQuestitoDomanda (quesitoId: number): Promise<Domanda> {
-  return hksApi<Domanda>(
-    `/esami/quesiti/${quesitoId}/domanda`,
-    {
-      parseResponse: createParserFor(DomandaSchema)
-    }
-  )
-}
-
-export async function listQuesitoAttivita (quesitoId: number): Promise<AttivitaQuesitoEsame[]> {
-  return await hksApi<AttivitaQuesitoEsame[]>(
-    `/esami/quesiti/${quesitoId}/attivita`,
-    {
-      parseResponse (responseText: string) {
-        return JSON.parse(responseText).map((a: any) => AttivitaQuesitoCodec.decode(a))
-      }
-    }
-  )
-}
-
-export async function notifyQuesityAttivita (
-  quesitoId: number,
-  attivita: AttivitaQuesitoEsame,
-): Promise<void> {
-  let risposta = undefined
-  if (attivita.rispostaData) {
-    risposta = attivita.rispostaData == RispostaEnum.VERO
-  }
-  await hksApi(
-    `/esami/quesiti/${quesitoId}/attivita`,
-    {
-      method: 'PUT',
-      body: AttivitaQuesitoCodec.encode(attivita),
-    },
-  )
-}
-
 const QuesitiSchema = z.array(QuesitoEsameSchema)
 export async function getEsameQuesiti (
   esameId: number,
@@ -569,11 +197,177 @@ export async function getEsameQuesiti (
   )
 }
 
+export const QuesitiBasicStatsDtoSchema = z.object({
+  totale: z.number().int(),
+  corrette: z.number().int(),
+  sbagliate: z.number().int(),
+  non_date: z.number().int(),
+})
+
+export const QuesitiBasicStatsSchema = QuesitiBasicStatsDtoSchema.transform(
+  dto => ({
+    totale: dto.totale,
+    corrette: dto.corrette,
+    sbagliate: dto.sbagliate,
+    nonDate: dto.non_date,
+  }),
+)
+
+export type QuesitiBasicStats = z.infer<typeof QuesitiBasicStatsSchema>
+
+export async function getQuesitiStats (): Promise<QuesitiBasicStats> {
+  return hksApi<QuesitiBasicStats>(
+    '/esami/quesiti/stats',
+    {
+      parseResponse: createParserFor(QuesitiBasicStatsSchema),
+    },
+  )
+}
+
+export const DomandaDtoSchema = z.object({
+  id: z.number().int(),
+  testo: z.string(),
+  is_true: z.boolean(),
+  immagine: z.string().nullable().optional(),
+  id_capitolo: z.number().int(),
+  pagina_quiz: z.number().int(),
+  id_blocco: z.number().int(),
+})
+
+export const DomandaSchema = DomandaDtoSchema.transform(dto => ({
+  id: dto.id,
+  testo: dto.testo,
+  rispostaCorretta: dto.is_true ? RispostaEnum.VERO : RispostaEnum.FALSO,
+  immagine: dto.immagine ?? null,
+  immaginePath: dto.immagine ? `/quiz_assets/${dto.immagine}.png` : null,
+  idCapitolo: dto.id_capitolo,
+  paginaQuiz: dto.pagina_quiz,
+  idBlocco: dto.id_blocco,
+}))
+
+export type Domanda = z.infer<typeof DomandaSchema>
+
+export async function getQuestitoDomanda (quesitoId: number): Promise<Domanda> {
+  return hksApi<Domanda>(
+    `/esami/quesiti/${quesitoId}/domanda`,
+    {
+      parseResponse: createParserFor(DomandaSchema),
+    },
+  )
+}
+
+export const AttivitaQuesitoEsameDtoSchema = z.object({
+  tipo: z.enum(TipoAttivitaEnum),
+  risposta_data: z.boolean().nullable().optional(),
+  inizio: z.coerce.date(),
+  durata_ms: z.number().int(),
+})
+
+const AttivitaQuesitoEsameSchema = z.object({
+  tipo: z.enum(TipoAttivitaEnum),
+  rispostaData: z.enum(RispostaEnum).nullable().optional(),
+  inizio: z.date(),
+  durataMs: z.number().int(),
+})
+
+export type AttivitaQuesitoEsame = z.infer<typeof AttivitaQuesitoEsameSchema>
+
+const AttivitaQuesitoCodec = z.codec(
+  AttivitaQuesitoEsameDtoSchema,
+  AttivitaQuesitoEsameSchema,
+  {
+    decode: dto => {
+      return {
+        tipo: dto.tipo,
+        rispostaData: booleanToRisposta(dto.risposta_data),
+        inizio: dto.inizio,
+        durataMs: dto.durata_ms,
+      }
+    },
+    encode: model => {
+      return {
+        tipo: model.tipo,
+        risposta_data: model.rispostaData ? model.rispostaData === RispostaEnum.VERO : undefined,
+        inizio: model.inizio,
+        durata_ms: model.durataMs,
+      }
+    },
+  },
+)
+
+export async function listQuesitoAttivita (quesitoId: number): Promise<AttivitaQuesitoEsame[]> {
+  return await hksApi<AttivitaQuesitoEsame[]>(
+    `/esami/quesiti/${quesitoId}/attivita`,
+    {
+      parseResponse (responseText: string) {
+        return JSON.parse(responseText).map((a: any) => AttivitaQuesitoCodec.decode(a))
+      },
+    },
+  )
+}
+
+export async function notifyQuesityAttivita (
+  quesitoId: number,
+  attivita: AttivitaQuesitoEsame,
+): Promise<void> {
+  await hksApi(
+    `/esami/quesiti/${quesitoId}/attivita`,
+    {
+      method: 'PUT',
+      body: AttivitaQuesitoCodec.encode(attivita),
+    },
+  )
+}
+
+export const EsameDtoSchema = z.object({
+  id: z.number().int().optional(),
+  tipo: z.enum(TipoEsameEnum),
+  numero_quesiti: z.number().int(),
+  max_errori: z.number().int(),
+  minuti_disponibili: z.number().int(),
+  created_at: z.coerce.date(),
+  updated_at: z.coerce.date(),
+})
+
+export const EsameSchema = EsameDtoSchema.transform(dto => {
+  const erroriTotali = 0
+
+  return {
+    id: dto.id,
+    tipo: dto.tipo,
+    numeroQuesiti: dto.numero_quesiti,
+    maxErrori: dto.max_errori,
+    minutiDisponibili: dto.minuti_disponibili,
+    createdAt: dto.created_at,
+    updatedAt: dto.updated_at,
+    erroriTotali,
+    esitoSuperato: erroriTotali <= dto.max_errori,
+  }
+})
+
+export type Esame = z.infer<typeof EsameSchema>
+
 export async function getEsameById (esameId: number): Promise<Esame> {
   return await hksApi<Esame>(`/esami/${esameId}`, {
     parseResponse: createParserFor(EsameSchema),
   })
 }
+
+const EsameParzialeParamsInputSchema = z.object({
+  capitoli: z.array(z.number().int()).min(1, 'Seleziona almeno un capitolo'),
+  numeroQuesiti: z.number().int().positive(),
+  maxErrori: z.number().int().nonnegative(),
+  minutiDisponibili: z.number().int().positive(),
+})
+
+export type EsameParzialeParamsInput = z.infer<typeof EsameParzialeParamsInputSchema>
+
+export const EsameParzialeParamsDtoSchema = EsameParzialeParamsInputSchema.transform(ui => ({
+  capitoli: ui.capitoli,
+  numero_quesiti: ui.numeroQuesiti,
+  max_errori: ui.maxErrori,
+  minuti_disponibili: ui.minutiDisponibili,
+}))
 
 export async function createEsameParziale (
   params: EsameParzialeParamsInput,
@@ -588,6 +382,10 @@ export async function createEsameParziale (
   )
 }
 
+export interface PausaEvent {
+  inizio: Date
+  fine: Date
+}
 export class AttivitaEmitter {
   constructor (private startedAt: Date = new Date()) {}
 
@@ -618,3 +416,17 @@ export class AttivitaEmitter {
     })
   }
 }
+
+// unused scheme
+
+export const ArgomentoDtoSchema = z.object({
+  id: z.number().int(),
+  nome: z.string(),
+})
+
+export const ArgomentoSchema = ArgomentoDtoSchema.transform(dto => ({
+  id: dto.id,
+  nome: dto.nome,
+}))
+
+export type Argomento = z.infer<typeof ArgomentoSchema>

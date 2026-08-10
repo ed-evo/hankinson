@@ -83,9 +83,9 @@ meta:
     getQuestitoDomanda,
     nextQuesitoAperto,
   } from '@/services/hankinson'
+  import { type PausaEvent, type RispostaEnum, TipoAttivitaEnum } from '@/services/hankinson'
   import { useAppStore } from '@/stores/app'
   import { useQuizStore } from '@/stores/quiz'
-  import { type PausaEvent, type RispostaEnum, TipoAttivitaEnum } from '@/services/hankinson'
   import { QuizItem } from '@/types/models'
 
   const isLoading = ref(true)

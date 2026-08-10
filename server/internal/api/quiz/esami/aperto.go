@@ -76,7 +76,6 @@ func next(db *ent.Client) func(http.ResponseWriter, *http.Request) {
 
 		response, err := db.QuesitoEsame.Query().
 			Where(quesitoesame.ID(quesito.ID)).
-			WithDomandaOriginale().
 			Only(ctx)
 		if err != nil {
 			dto.RenderError(w, r, err)
