@@ -6,6 +6,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"time"
 
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
@@ -103,6 +104,20 @@ func (_u *CorrezioneUpdate) ClearMeta() *CorrezioneUpdate {
 	return _u
 }
 
+// SetCreatedAt sets the "created_at" field.
+func (_u *CorrezioneUpdate) SetCreatedAt(v time.Time) *CorrezioneUpdate {
+	_u.mutation.SetCreatedAt(v)
+	return _u
+}
+
+// SetNillableCreatedAt sets the "created_at" field if the given value is not nil.
+func (_u *CorrezioneUpdate) SetNillableCreatedAt(v *time.Time) *CorrezioneUpdate {
+	if v != nil {
+		_u.SetCreatedAt(*v)
+	}
+	return _u
+}
+
 // Mutation returns the CorrezioneMutation object of the builder.
 func (_u *CorrezioneUpdate) Mutation() *CorrezioneMutation {
 	return _u.mutation
@@ -177,6 +192,9 @@ func (_u *CorrezioneUpdate) sqlSave(ctx context.Context) (_node int, err error) 
 	}
 	if _u.mutation.MetaCleared() {
 		_spec.ClearField(correzione.FieldMeta, field.TypeString)
+	}
+	if value, ok := _u.mutation.CreatedAt(); ok {
+		_spec.SetField(correzione.FieldCreatedAt, field.TypeTime, value)
 	}
 	if _node, err = sqlgraph.UpdateNodes(ctx, _u.driver, _spec); err != nil {
 		if _, ok := err.(*sqlgraph.NotFoundError); ok {
@@ -271,6 +289,20 @@ func (_u *CorrezioneUpdateOne) SetNillableMeta(v *string) *CorrezioneUpdateOne {
 // ClearMeta clears the value of the "meta" field.
 func (_u *CorrezioneUpdateOne) ClearMeta() *CorrezioneUpdateOne {
 	_u.mutation.ClearMeta()
+	return _u
+}
+
+// SetCreatedAt sets the "created_at" field.
+func (_u *CorrezioneUpdateOne) SetCreatedAt(v time.Time) *CorrezioneUpdateOne {
+	_u.mutation.SetCreatedAt(v)
+	return _u
+}
+
+// SetNillableCreatedAt sets the "created_at" field if the given value is not nil.
+func (_u *CorrezioneUpdateOne) SetNillableCreatedAt(v *time.Time) *CorrezioneUpdateOne {
+	if v != nil {
+		_u.SetCreatedAt(*v)
+	}
 	return _u
 }
 
@@ -378,6 +410,9 @@ func (_u *CorrezioneUpdateOne) sqlSave(ctx context.Context) (_node *Correzione, 
 	}
 	if _u.mutation.MetaCleared() {
 		_spec.ClearField(correzione.FieldMeta, field.TypeString)
+	}
+	if value, ok := _u.mutation.CreatedAt(); ok {
+		_spec.SetField(correzione.FieldCreatedAt, field.TypeTime, value)
 	}
 	_node = &Correzione{config: _u.config}
 	_spec.Assign = _node.assignValues

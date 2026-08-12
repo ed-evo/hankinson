@@ -30,7 +30,7 @@ func (Correzione) Fields() []ent.Field {
 			Values("human", "ai"),
 		field.Text("esaminatore"),
 		field.Bool("is_promosso").
-            StructTag(`json:"is_true"`),
+            StructTag(`json:"is_promosso"`),
 		field.Text("testo"),
 		field.Text("meta").Optional(),
 		field.Time("created_at").

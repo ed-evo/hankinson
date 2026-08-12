@@ -73,6 +73,7 @@ var (
 		{Name: "is_promosso", Type: field.TypeBool},
 		{Name: "testo", Type: field.TypeString, Size: 2147483647},
 		{Name: "meta", Type: field.TypeString, Nullable: true, Size: 2147483647},
+		{Name: "created_at", Type: field.TypeTime},
 		{Name: "esame_id", Type: field.TypeInt},
 	}
 	// CorrezioniTable holds the schema information for the "correzioni" table.
@@ -83,7 +84,7 @@ var (
 		ForeignKeys: []*schema.ForeignKey{
 			{
 				Symbol:     "correzioni_esami_correzioni",
-				Columns:    []*schema.Column{CorrezioniColumns[6]},
+				Columns:    []*schema.Column{CorrezioniColumns[7]},
 				RefColumns: []*schema.Column{EsamiColumns[0]},
 				OnDelete:   schema.NoAction,
 			},
@@ -92,7 +93,7 @@ var (
 			{
 				Name:    "correzione_esaminatore_esame_id",
 				Unique:  true,
-				Columns: []*schema.Column{CorrezioniColumns[2], CorrezioniColumns[6]},
+				Columns: []*schema.Column{CorrezioniColumns[2], CorrezioniColumns[7]},
 			},
 		},
 	}

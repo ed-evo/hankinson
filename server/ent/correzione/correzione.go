@@ -4,6 +4,7 @@ package correzione
 
 import (
 	"fmt"
+	"time"
 
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
@@ -26,6 +27,8 @@ const (
 	FieldTesto = "testo"
 	// FieldMeta holds the string denoting the meta field in the database.
 	FieldMeta = "meta"
+	// FieldCreatedAt holds the string denoting the created_at field in the database.
+	FieldCreatedAt = "created_at"
 	// EdgeEsame holds the string denoting the esame edge name in mutations.
 	EdgeEsame = "esame"
 	// Table holds the table name of the correzione in the database.
@@ -48,6 +51,7 @@ var Columns = []string{
 	FieldIsPromosso,
 	FieldTesto,
 	FieldMeta,
+	FieldCreatedAt,
 }
 
 // ValidColumn reports if the column name is valid (part of the table columns).
@@ -59,6 +63,11 @@ func ValidColumn(column string) bool {
 	}
 	return false
 }
+
+var (
+	// DefaultCreatedAt holds the default value on creation for the "created_at" field.
+	DefaultCreatedAt func() time.Time
+)
 
 // Type defines the type for the "type" enum field.
 type Type string
@@ -119,6 +128,11 @@ func ByTesto(opts ...sql.OrderTermOption) OrderOption {
 // ByMeta orders the results by the meta field.
 func ByMeta(opts ...sql.OrderTermOption) OrderOption {
 	return sql.OrderByField(FieldMeta, opts...).ToFunc()
+}
+
+// ByCreatedAt orders the results by the created_at field.
+func ByCreatedAt(opts ...sql.OrderTermOption) OrderOption {
+	return sql.OrderByField(FieldCreatedAt, opts...).ToFunc()
 }
 
 // ByEsameField orders the results by esame field.

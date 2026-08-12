@@ -1837,6 +1837,7 @@ type CorrezioneMutation struct {
 	is_promosso   *bool
 	testo         *string
 	meta          *string
+	created_at    *time.Time
 	clearedFields map[string]struct{}
 	esame         *int
 	clearedesame  bool
@@ -2172,6 +2173,42 @@ func (m *CorrezioneMutation) ResetMeta() {
 	delete(m.clearedFields, correzione.FieldMeta)
 }
 
+// SetCreatedAt sets the "created_at" field.
+func (m *CorrezioneMutation) SetCreatedAt(t time.Time) {
+	m.created_at = &t
+}
+
+// CreatedAt returns the value of the "created_at" field in the mutation.
+func (m *CorrezioneMutation) CreatedAt() (r time.Time, exists bool) {
+	v := m.created_at
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldCreatedAt returns the old "created_at" field's value of the Correzione entity.
+// If the Correzione object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *CorrezioneMutation) OldCreatedAt(ctx context.Context) (v time.Time, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldCreatedAt is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldCreatedAt requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldCreatedAt: %w", err)
+	}
+	return oldValue.CreatedAt, nil
+}
+
+// ResetCreatedAt resets all changes to the "created_at" field.
+func (m *CorrezioneMutation) ResetCreatedAt() {
+	m.created_at = nil
+}
+
 // ClearEsame clears the "esame" edge to the Esame entity.
 func (m *CorrezioneMutation) ClearEsame() {
 	m.clearedesame = true
@@ -2233,7 +2270,7 @@ func (m *CorrezioneMutation) Type() string {
 // order to get all numeric fields that were incremented/decremented, call
 // AddedFields().
 func (m *CorrezioneMutation) Fields() []string {
-	fields := make([]string, 0, 6)
+	fields := make([]string, 0, 7)
 	if m.esame != nil {
 		fields = append(fields, correzione.FieldEsameID)
 	}
@@ -2251,6 +2288,9 @@ func (m *CorrezioneMutation) Fields() []string {
 	}
 	if m.meta != nil {
 		fields = append(fields, correzione.FieldMeta)
+	}
+	if m.created_at != nil {
+		fields = append(fields, correzione.FieldCreatedAt)
 	}
 	return fields
 }
@@ -2272,6 +2312,8 @@ func (m *CorrezioneMutation) Field(name string) (ent.Value, bool) {
 		return m.Testo()
 	case correzione.FieldMeta:
 		return m.Meta()
+	case correzione.FieldCreatedAt:
+		return m.CreatedAt()
 	}
 	return nil, false
 }
@@ -2293,6 +2335,8 @@ func (m *CorrezioneMutation) OldField(ctx context.Context, name string) (ent.Val
 		return m.OldTesto(ctx)
 	case correzione.FieldMeta:
 		return m.OldMeta(ctx)
+	case correzione.FieldCreatedAt:
+		return m.OldCreatedAt(ctx)
 	}
 	return nil, fmt.Errorf("unknown Correzione field %s", name)
 }
@@ -2343,6 +2387,13 @@ func (m *CorrezioneMutation) SetField(name string, value ent.Value) error {
 			return fmt.Errorf("unexpected type %T for field %s", value, name)
 		}
 		m.SetMeta(v)
+		return nil
+	case correzione.FieldCreatedAt:
+		v, ok := value.(time.Time)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetCreatedAt(v)
 		return nil
 	}
 	return fmt.Errorf("unknown Correzione field %s", name)
@@ -2422,6 +2473,9 @@ func (m *CorrezioneMutation) ResetField(name string) error {
 		return nil
 	case correzione.FieldMeta:
 		m.ResetMeta()
+		return nil
+	case correzione.FieldCreatedAt:
+		m.ResetCreatedAt()
 		return nil
 	}
 	return fmt.Errorf("unknown Correzione field %s", name)

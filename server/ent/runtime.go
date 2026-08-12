@@ -8,6 +8,7 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/argomento"
 	"github.com/ed-evo/hankinson/server/ent/attivitaquesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
+	"github.com/ed-evo/hankinson/server/ent/correzione"
 	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/schema"
@@ -37,6 +38,12 @@ func init() {
 	capitoloDescNome := capitoloFields[1].Descriptor()
 	// capitolo.NomeValidator is a validator for the "nome" field. It is called by the builders before save.
 	capitolo.NomeValidator = capitoloDescNome.Validators[0].(func(string) error)
+	correzioneFields := schema.Correzione{}.Fields()
+	_ = correzioneFields
+	// correzioneDescCreatedAt is the schema descriptor for created_at field.
+	correzioneDescCreatedAt := correzioneFields[6].Descriptor()
+	// correzione.DefaultCreatedAt holds the default value on creation for the created_at field.
+	correzione.DefaultCreatedAt = correzioneDescCreatedAt.Default.(func() time.Time)
 	esameFields := schema.Esame{}.Fields()
 	_ = esameFields
 	// esameDescMaxErrori is the schema descriptor for max_errori field.

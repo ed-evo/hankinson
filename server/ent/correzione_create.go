@@ -6,6 +6,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"time"
 
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
@@ -66,6 +67,20 @@ func (_c *CorrezioneCreate) SetNillableMeta(v *string) *CorrezioneCreate {
 	return _c
 }
 
+// SetCreatedAt sets the "created_at" field.
+func (_c *CorrezioneCreate) SetCreatedAt(v time.Time) *CorrezioneCreate {
+	_c.mutation.SetCreatedAt(v)
+	return _c
+}
+
+// SetNillableCreatedAt sets the "created_at" field if the given value is not nil.
+func (_c *CorrezioneCreate) SetNillableCreatedAt(v *time.Time) *CorrezioneCreate {
+	if v != nil {
+		_c.SetCreatedAt(*v)
+	}
+	return _c
+}
+
 // SetEsame sets the "esame" edge to the Esame entity.
 func (_c *CorrezioneCreate) SetEsame(v *Esame) *CorrezioneCreate {
 	return _c.SetEsameID(v.ID)
@@ -78,6 +93,7 @@ func (_c *CorrezioneCreate) Mutation() *CorrezioneMutation {
 
 // Save creates the Correzione in the database.
 func (_c *CorrezioneCreate) Save(ctx context.Context) (*Correzione, error) {
+	_c.defaults()
 	return withHooks(ctx, _c.sqlSave, _c.mutation, _c.hooks)
 }
 
@@ -103,6 +119,14 @@ func (_c *CorrezioneCreate) ExecX(ctx context.Context) {
 	}
 }
 
+// defaults sets the default values of the builder before save.
+func (_c *CorrezioneCreate) defaults() {
+	if _, ok := _c.mutation.CreatedAt(); !ok {
+		v := correzione.DefaultCreatedAt()
+		_c.mutation.SetCreatedAt(v)
+	}
+}
+
 // check runs all checks and user-defined validators on the builder.
 func (_c *CorrezioneCreate) check() error {
 	if _, ok := _c.mutation.EsameID(); !ok {
@@ -124,6 +148,9 @@ func (_c *CorrezioneCreate) check() error {
 	}
 	if _, ok := _c.mutation.Testo(); !ok {
 		return &ValidationError{Name: "testo", err: errors.New(`ent: missing required field "Correzione.testo"`)}
+	}
+	if _, ok := _c.mutation.CreatedAt(); !ok {
+		return &ValidationError{Name: "created_at", err: errors.New(`ent: missing required field "Correzione.created_at"`)}
 	}
 	if len(_c.mutation.EsameIDs()) == 0 {
 		return &ValidationError{Name: "esame", err: errors.New(`ent: missing required edge "Correzione.esame"`)}
@@ -174,6 +201,10 @@ func (_c *CorrezioneCreate) createSpec() (*Correzione, *sqlgraph.CreateSpec) {
 	if value, ok := _c.mutation.Meta(); ok {
 		_spec.SetField(correzione.FieldMeta, field.TypeString, value)
 		_node.Meta = value
+	}
+	if value, ok := _c.mutation.CreatedAt(); ok {
+		_spec.SetField(correzione.FieldCreatedAt, field.TypeTime, value)
+		_node.CreatedAt = value
 	}
 	if nodes := _c.mutation.EsameIDs(); len(nodes) > 0 {
 		edge := &sqlgraph.EdgeSpec{
@@ -310,6 +341,18 @@ func (u *CorrezioneUpsert) ClearMeta() *CorrezioneUpsert {
 	return u
 }
 
+// SetCreatedAt sets the "created_at" field.
+func (u *CorrezioneUpsert) SetCreatedAt(v time.Time) *CorrezioneUpsert {
+	u.Set(correzione.FieldCreatedAt, v)
+	return u
+}
+
+// UpdateCreatedAt sets the "created_at" field to the value that was provided on create.
+func (u *CorrezioneUpsert) UpdateCreatedAt() *CorrezioneUpsert {
+	u.SetExcluded(correzione.FieldCreatedAt)
+	return u
+}
+
 // UpdateNewValues updates the mutable fields using the new values that were set on create.
 // Using this option is equivalent to using:
 //
@@ -432,6 +475,20 @@ func (u *CorrezioneUpsertOne) ClearMeta() *CorrezioneUpsertOne {
 	})
 }
 
+// SetCreatedAt sets the "created_at" field.
+func (u *CorrezioneUpsertOne) SetCreatedAt(v time.Time) *CorrezioneUpsertOne {
+	return u.Update(func(s *CorrezioneUpsert) {
+		s.SetCreatedAt(v)
+	})
+}
+
+// UpdateCreatedAt sets the "created_at" field to the value that was provided on create.
+func (u *CorrezioneUpsertOne) UpdateCreatedAt() *CorrezioneUpsertOne {
+	return u.Update(func(s *CorrezioneUpsert) {
+		s.UpdateCreatedAt()
+	})
+}
+
 // Exec executes the query.
 func (u *CorrezioneUpsertOne) Exec(ctx context.Context) error {
 	if len(u.create.conflict) == 0 {
@@ -484,6 +541,7 @@ func (_c *CorrezioneCreateBulk) Save(ctx context.Context) ([]*Correzione, error)
 	for i := range _c.builders {
 		func(i int, root context.Context) {
 			builder := _c.builders[i]
+			builder.defaults()
 			var mut Mutator = MutateFunc(func(ctx context.Context, m Mutation) (Value, error) {
 				mutation, ok := m.(*CorrezioneMutation)
 				if !ok {
@@ -716,6 +774,20 @@ func (u *CorrezioneUpsertBulk) UpdateMeta() *CorrezioneUpsertBulk {
 func (u *CorrezioneUpsertBulk) ClearMeta() *CorrezioneUpsertBulk {
 	return u.Update(func(s *CorrezioneUpsert) {
 		s.ClearMeta()
+	})
+}
+
+// SetCreatedAt sets the "created_at" field.
+func (u *CorrezioneUpsertBulk) SetCreatedAt(v time.Time) *CorrezioneUpsertBulk {
+	return u.Update(func(s *CorrezioneUpsert) {
+		s.SetCreatedAt(v)
+	})
+}
+
+// UpdateCreatedAt sets the "created_at" field to the value that was provided on create.
+func (u *CorrezioneUpsertBulk) UpdateCreatedAt() *CorrezioneUpsertBulk {
+	return u.Update(func(s *CorrezioneUpsert) {
+		s.UpdateCreatedAt()
 	})
 }
 
