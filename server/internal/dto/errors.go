@@ -55,7 +55,7 @@ func RenderError(w http.ResponseWriter, r *http.Request, e error) {
 	render.Render(w, r, response)
 }
 
-func ErrInvalidRequest(err error) render.Renderer {
+func ErrInvalidRequest(err error) *ErrResponse {
 	return &ErrResponse{
 		Err:            err,
 		HTTPStatusCode: 400,
@@ -64,7 +64,7 @@ func ErrInvalidRequest(err error) render.Renderer {
 	}
 }
 
-func ErrRender(err error) render.Renderer {
+func ErrRender(err error) *ErrResponse {
 	return &ErrResponse{
 		Err:            err,
 		HTTPStatusCode: 422,
@@ -73,7 +73,7 @@ func ErrRender(err error) render.Renderer {
 	}
 }
 
-func ErrInternal(err error) render.Renderer {
+func ErrInternal(err error) *ErrResponse {
 	return &ErrResponse{
 		Err:            err,
 		HTTPStatusCode: http.StatusInternalServerError,
