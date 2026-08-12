@@ -32,6 +32,11 @@ export enum RispostaEnum {
   FALSO = 'F',
 }
 
+export enum TipoCorrezioneEnum {
+  HUMAN = 'human',
+  AI = 'ai',
+}
+
 export type User = string
 
 export const USER_REF: Ref<User | null> = useLocalStorage(
@@ -149,6 +154,114 @@ export async function spiegaDomandaById (
   return hksApi<Spiegazione>(
     `/domande/${domandaId}/spiegazione`,
     { method: 'POST', parseResponse: createParserFor(SpiegazioneSchema) },
+  )
+}
+
+export const EsameDtoSchema = z.object({
+  id: z.number().int(),
+  tipo: z.enum(TipoEsameEnum),
+  numero_quesiti: z.number().int(),
+  max_errori: z.number().int(),
+  minuti_disponibili: z.number().int(),
+  created_at: z.coerce.date(),
+  updated_at: z.coerce.date(),
+})
+
+export const EsameSchema = EsameDtoSchema.transform(dto => {
+  const erroriTotali = 0
+
+  return {
+    id: dto.id,
+    tipo: dto.tipo,
+    numeroQuesiti: dto.numero_quesiti,
+    maxErrori: dto.max_errori,
+    minutiDisponibili: dto.minuti_disponibili,
+    createdAt: dto.created_at,
+    updatedAt: dto.updated_at,
+    erroriTotali,
+    esitoSuperato: erroriTotali <= dto.max_errori,
+  }
+})
+
+export type Esame = z.infer<typeof EsameSchema>
+
+export async function getEsameById (esameId: number): Promise<Esame> {
+  return await hksApi<Esame>(`/esami/${esameId}`, {
+    parseResponse: createParserFor(EsameSchema),
+  })
+}
+
+const EsameParzialeParamsInputSchema = z.object({
+  capitoli: z.array(z.number().int()).min(1, 'Seleziona almeno un capitolo'),
+  numeroQuesiti: z.number().int().positive(),
+  maxErrori: z.number().int().nonnegative(),
+  minutiDisponibili: z.number().int().positive(),
+})
+
+export type EsameParzialeParamsInput = z.infer<typeof EsameParzialeParamsInputSchema>
+
+export const EsameParzialeParamsDtoSchema = EsameParzialeParamsInputSchema.transform(ui => ({
+  capitoli: ui.capitoli,
+  numero_quesiti: ui.numeroQuesiti,
+  max_errori: ui.maxErrori,
+  minuti_disponibili: ui.minutiDisponibili,
+}))
+
+export async function createEsameParziale (
+  params: EsameParzialeParamsInput,
+): Promise<Esame> {
+  return hksApi<Esame>(
+    '/esami/parziali',
+    {
+      method: 'PUT',
+      body: EsameParzialeParamsDtoSchema.parse(params),
+      parseResponse: createParserFor(EsameSchema),
+    },
+  )
+}
+
+export const CorrezioneDtoSchema = z.object({
+  id: z.number().int(),
+  esame_id: z.number().int(),
+  type: z.enum(TipoCorrezioneEnum),
+  esaminatore: z.string(),
+  is_promosso: z.boolean(),
+  testo: z.string(),
+  meta: z.string(),
+  created_at: z.coerce.date(),
+})
+
+export const CorrezioneSchema = CorrezioneDtoSchema.transform(dto => ({
+  id: dto.id,
+  esameId: dto.esame_id,
+  type: dto.type,
+  esaminatore: dto.esaminatore,
+  isPromosso: dto.is_promosso,
+  testo: dto.testo,
+  meta: dto.meta,
+  createdAt: dto.created_at,
+}))
+
+const CorrezioniSchema = z.array(CorrezioneSchema)
+
+export type Correzione = z.infer<typeof CorrezioneSchema>
+
+export async function getCorrezioniEsame(esameId: number): Promise<Correzione[]> {
+  return hksApi<Correzione[]>(
+    `/esami/${ esameId }/correzioni`,
+    {
+      parseResponse: createParserFor(CorrezioniSchema)
+    }
+  )
+}
+
+export async function aiCorrege(esameId: number): Promise<Correzione[]> {
+  return hksApi<Correzione[]>(
+    `/esami/${ esameId }/ai-corregge`,
+    {
+      method: 'POST',
+      parseResponse: createParserFor(CorrezioniSchema)
+    }
   )
 }
 
@@ -315,69 +428,6 @@ export async function notifyQuesityAttivita (
     {
       method: 'PUT',
       body: AttivitaQuesitoCodec.encode(attivita),
-    },
-  )
-}
-
-export const EsameDtoSchema = z.object({
-  id: z.number().int().optional(),
-  tipo: z.enum(TipoEsameEnum),
-  numero_quesiti: z.number().int(),
-  max_errori: z.number().int(),
-  minuti_disponibili: z.number().int(),
-  created_at: z.coerce.date(),
-  updated_at: z.coerce.date(),
-})
-
-export const EsameSchema = EsameDtoSchema.transform(dto => {
-  const erroriTotali = 0
-
-  return {
-    id: dto.id,
-    tipo: dto.tipo,
-    numeroQuesiti: dto.numero_quesiti,
-    maxErrori: dto.max_errori,
-    minutiDisponibili: dto.minuti_disponibili,
-    createdAt: dto.created_at,
-    updatedAt: dto.updated_at,
-    erroriTotali,
-    esitoSuperato: erroriTotali <= dto.max_errori,
-  }
-})
-
-export type Esame = z.infer<typeof EsameSchema>
-
-export async function getEsameById (esameId: number): Promise<Esame> {
-  return await hksApi<Esame>(`/esami/${esameId}`, {
-    parseResponse: createParserFor(EsameSchema),
-  })
-}
-
-const EsameParzialeParamsInputSchema = z.object({
-  capitoli: z.array(z.number().int()).min(1, 'Seleziona almeno un capitolo'),
-  numeroQuesiti: z.number().int().positive(),
-  maxErrori: z.number().int().nonnegative(),
-  minutiDisponibili: z.number().int().positive(),
-})
-
-export type EsameParzialeParamsInput = z.infer<typeof EsameParzialeParamsInputSchema>
-
-export const EsameParzialeParamsDtoSchema = EsameParzialeParamsInputSchema.transform(ui => ({
-  capitoli: ui.capitoli,
-  numero_quesiti: ui.numeroQuesiti,
-  max_errori: ui.maxErrori,
-  minuti_disponibili: ui.minutiDisponibili,
-}))
-
-export async function createEsameParziale (
-  params: EsameParzialeParamsInput,
-): Promise<Esame> {
-  return hksApi<Esame>(
-    '/esami/parziali',
-    {
-      method: 'PUT',
-      body: EsameParzialeParamsDtoSchema.parse(params),
-      parseResponse: createParserFor(EsameSchema),
     },
   )
 }

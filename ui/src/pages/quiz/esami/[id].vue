@@ -13,6 +13,8 @@ name: esame-dettaglio
       Errori ammessi: {{ esame.maxErrori }}, Tempo massimo: {{ formatDurationMin(esame.minutiDisponibili) }}
     </v-card-subtitle>
 
+    <correzioni :esame-id="esame.id"></correzioni>
+
     <v-expansion-panels v-if="quesiti" v-model="openedQuesiti" multiple variant="accordion">
       <v-expansion-panel
         v-for="quesito in quesiti"
@@ -21,7 +23,7 @@ name: esame-dettaglio
       >
         <v-expansion-panel-title>
           <esito-icon :is-passed="isCorrect(quesito)" />
-          {{ quesito.domanda?.testo }}
+          N. {{ quesito.id }} - {{ quesito.domanda?.testo }}
         </v-expansion-panel-title>
 
         <v-expansion-panel-text v-if="quesito.domanda">
@@ -34,6 +36,7 @@ name: esame-dettaglio
 </template>
 
 <script setup lang="ts">
+  import correzioni from '@/components/Correzioni.vue'
   import type { AttivitaQuesitoEsame, Domanda, Esame, QuesitoEsame } from '@/services/hankinson'
   import { computed, ref, watch } from 'vue'
   import { useRoute } from 'vue-router'
