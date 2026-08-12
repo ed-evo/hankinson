@@ -18,6 +18,7 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/argomento"
 	"github.com/ed-evo/hankinson/server/ent/attivitaquesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
+	"github.com/ed-evo/hankinson/server/ent/correzione"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
@@ -39,6 +40,8 @@ type Client struct {
 	AttivitaQuesitoEsame *AttivitaQuesitoEsameClient
 	// Capitolo is the client for interacting with the Capitolo builders.
 	Capitolo *CapitoloClient
+	// Correzione is the client for interacting with the Correzione builders.
+	Correzione *CorrezioneClient
 	// Domanda is the client for interacting with the Domanda builders.
 	Domanda *DomandaClient
 	// Esame is the client for interacting with the Esame builders.
@@ -65,6 +68,7 @@ func (c *Client) init() {
 	c.Argomento = NewArgomentoClient(c.config)
 	c.AttivitaQuesitoEsame = NewAttivitaQuesitoEsameClient(c.config)
 	c.Capitolo = NewCapitoloClient(c.config)
+	c.Correzione = NewCorrezioneClient(c.config)
 	c.Domanda = NewDomandaClient(c.config)
 	c.Esame = NewEsameClient(c.config)
 	c.QuesitoEsame = NewQuesitoEsameClient(c.config)
@@ -166,6 +170,7 @@ func (c *Client) Tx(ctx context.Context) (*Tx, error) {
 		Argomento:            NewArgomentoClient(cfg),
 		AttivitaQuesitoEsame: NewAttivitaQuesitoEsameClient(cfg),
 		Capitolo:             NewCapitoloClient(cfg),
+		Correzione:           NewCorrezioneClient(cfg),
 		Domanda:              NewDomandaClient(cfg),
 		Esame:                NewEsameClient(cfg),
 		QuesitoEsame:         NewQuesitoEsameClient(cfg),
@@ -194,6 +199,7 @@ func (c *Client) BeginTx(ctx context.Context, opts *sql.TxOptions) (*Tx, error) 
 		Argomento:            NewArgomentoClient(cfg),
 		AttivitaQuesitoEsame: NewAttivitaQuesitoEsameClient(cfg),
 		Capitolo:             NewCapitoloClient(cfg),
+		Correzione:           NewCorrezioneClient(cfg),
 		Domanda:              NewDomandaClient(cfg),
 		Esame:                NewEsameClient(cfg),
 		QuesitoEsame:         NewQuesitoEsameClient(cfg),
@@ -229,8 +235,8 @@ func (c *Client) Close() error {
 // In order to add hooks to a specific client, call: `client.Node.Use(...)`.
 func (c *Client) Use(hooks ...Hook) {
 	for _, n := range []interface{ Use(...Hook) }{
-		c.Argomento, c.AttivitaQuesitoEsame, c.Capitolo, c.Domanda, c.Esame,
-		c.QuesitoEsame, c.Seed, c.Spiegazione, c.Utente,
+		c.Argomento, c.AttivitaQuesitoEsame, c.Capitolo, c.Correzione, c.Domanda,
+		c.Esame, c.QuesitoEsame, c.Seed, c.Spiegazione, c.Utente,
 	} {
 		n.Use(hooks...)
 	}
@@ -240,8 +246,8 @@ func (c *Client) Use(hooks ...Hook) {
 // In order to add interceptors to a specific client, call: `client.Node.Intercept(...)`.
 func (c *Client) Intercept(interceptors ...Interceptor) {
 	for _, n := range []interface{ Intercept(...Interceptor) }{
-		c.Argomento, c.AttivitaQuesitoEsame, c.Capitolo, c.Domanda, c.Esame,
-		c.QuesitoEsame, c.Seed, c.Spiegazione, c.Utente,
+		c.Argomento, c.AttivitaQuesitoEsame, c.Capitolo, c.Correzione, c.Domanda,
+		c.Esame, c.QuesitoEsame, c.Seed, c.Spiegazione, c.Utente,
 	} {
 		n.Intercept(interceptors...)
 	}
@@ -256,6 +262,8 @@ func (c *Client) Mutate(ctx context.Context, m Mutation) (Value, error) {
 		return c.AttivitaQuesitoEsame.mutate(ctx, m)
 	case *CapitoloMutation:
 		return c.Capitolo.mutate(ctx, m)
+	case *CorrezioneMutation:
+		return c.Correzione.mutate(ctx, m)
 	case *DomandaMutation:
 		return c.Domanda.mutate(ctx, m)
 	case *EsameMutation:
@@ -720,6 +728,155 @@ func (c *CapitoloClient) mutate(ctx context.Context, m *CapitoloMutation) (Value
 	}
 }
 
+// CorrezioneClient is a client for the Correzione schema.
+type CorrezioneClient struct {
+	config
+}
+
+// NewCorrezioneClient returns a client for the Correzione from the given config.
+func NewCorrezioneClient(c config) *CorrezioneClient {
+	return &CorrezioneClient{config: c}
+}
+
+// Use adds a list of mutation hooks to the hooks stack.
+// A call to `Use(f, g, h)` equals to `correzione.Hooks(f(g(h())))`.
+func (c *CorrezioneClient) Use(hooks ...Hook) {
+	c.hooks.Correzione = append(c.hooks.Correzione, hooks...)
+}
+
+// Intercept adds a list of query interceptors to the interceptors stack.
+// A call to `Intercept(f, g, h)` equals to `correzione.Intercept(f(g(h())))`.
+func (c *CorrezioneClient) Intercept(interceptors ...Interceptor) {
+	c.inters.Correzione = append(c.inters.Correzione, interceptors...)
+}
+
+// Create returns a builder for creating a Correzione entity.
+func (c *CorrezioneClient) Create() *CorrezioneCreate {
+	mutation := newCorrezioneMutation(c.config, OpCreate)
+	return &CorrezioneCreate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// CreateBulk returns a builder for creating a bulk of Correzione entities.
+func (c *CorrezioneClient) CreateBulk(builders ...*CorrezioneCreate) *CorrezioneCreateBulk {
+	return &CorrezioneCreateBulk{config: c.config, builders: builders}
+}
+
+// MapCreateBulk creates a bulk creation builder from the given slice. For each item in the slice, the function creates
+// a builder and applies setFunc on it.
+func (c *CorrezioneClient) MapCreateBulk(slice any, setFunc func(*CorrezioneCreate, int)) *CorrezioneCreateBulk {
+	rv := reflect.ValueOf(slice)
+	if rv.Kind() != reflect.Slice {
+		return &CorrezioneCreateBulk{err: fmt.Errorf("calling to CorrezioneClient.MapCreateBulk with wrong type %T, need slice", slice)}
+	}
+	builders := make([]*CorrezioneCreate, rv.Len())
+	for i := 0; i < rv.Len(); i++ {
+		builders[i] = c.Create()
+		setFunc(builders[i], i)
+	}
+	return &CorrezioneCreateBulk{config: c.config, builders: builders}
+}
+
+// Update returns an update builder for Correzione.
+func (c *CorrezioneClient) Update() *CorrezioneUpdate {
+	mutation := newCorrezioneMutation(c.config, OpUpdate)
+	return &CorrezioneUpdate{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOne returns an update builder for the given entity.
+func (c *CorrezioneClient) UpdateOne(_m *Correzione) *CorrezioneUpdateOne {
+	mutation := newCorrezioneMutation(c.config, OpUpdateOne, withCorrezione(_m))
+	return &CorrezioneUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// UpdateOneID returns an update builder for the given id.
+func (c *CorrezioneClient) UpdateOneID(id int) *CorrezioneUpdateOne {
+	mutation := newCorrezioneMutation(c.config, OpUpdateOne, withCorrezioneID(id))
+	return &CorrezioneUpdateOne{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// Delete returns a delete builder for Correzione.
+func (c *CorrezioneClient) Delete() *CorrezioneDelete {
+	mutation := newCorrezioneMutation(c.config, OpDelete)
+	return &CorrezioneDelete{config: c.config, hooks: c.Hooks(), mutation: mutation}
+}
+
+// DeleteOne returns a builder for deleting the given entity.
+func (c *CorrezioneClient) DeleteOne(_m *Correzione) *CorrezioneDeleteOne {
+	return c.DeleteOneID(_m.ID)
+}
+
+// DeleteOneID returns a builder for deleting the given entity by its id.
+func (c *CorrezioneClient) DeleteOneID(id int) *CorrezioneDeleteOne {
+	builder := c.Delete().Where(correzione.ID(id))
+	builder.mutation.id = &id
+	builder.mutation.op = OpDeleteOne
+	return &CorrezioneDeleteOne{builder}
+}
+
+// Query returns a query builder for Correzione.
+func (c *CorrezioneClient) Query() *CorrezioneQuery {
+	return &CorrezioneQuery{
+		config: c.config,
+		ctx:    &QueryContext{Type: TypeCorrezione},
+		inters: c.Interceptors(),
+	}
+}
+
+// Get returns a Correzione entity by its id.
+func (c *CorrezioneClient) Get(ctx context.Context, id int) (*Correzione, error) {
+	return c.Query().Where(correzione.ID(id)).Only(ctx)
+}
+
+// GetX is like Get, but panics if an error occurs.
+func (c *CorrezioneClient) GetX(ctx context.Context, id int) *Correzione {
+	obj, err := c.Get(ctx, id)
+	if err != nil {
+		panic(err)
+	}
+	return obj
+}
+
+// QueryEsame queries the esame edge of a Correzione.
+func (c *CorrezioneClient) QueryEsame(_m *Correzione) *EsameQuery {
+	query := (&EsameClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(correzione.Table, correzione.FieldID, id),
+			sqlgraph.To(esame.Table, esame.FieldID),
+			sqlgraph.Edge(sqlgraph.M2O, true, correzione.EsameTable, correzione.EsameColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
+// Hooks returns the client hooks.
+func (c *CorrezioneClient) Hooks() []Hook {
+	return c.hooks.Correzione
+}
+
+// Interceptors returns the client interceptors.
+func (c *CorrezioneClient) Interceptors() []Interceptor {
+	return c.inters.Correzione
+}
+
+func (c *CorrezioneClient) mutate(ctx context.Context, m *CorrezioneMutation) (Value, error) {
+	switch m.Op() {
+	case OpCreate:
+		return (&CorrezioneCreate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdate:
+		return (&CorrezioneUpdate{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpUpdateOne:
+		return (&CorrezioneUpdateOne{config: c.config, hooks: c.Hooks(), mutation: m}).Save(ctx)
+	case OpDelete, OpDeleteOne:
+		return (&CorrezioneDelete{config: c.config, hooks: c.Hooks(), mutation: m}).Exec(ctx)
+	default:
+		return nil, fmt.Errorf("ent: unknown Correzione mutation op: %q", m.Op())
+	}
+}
+
 // DomandaClient is a client for the Domanda schema.
 type DomandaClient struct {
 	config
@@ -1034,6 +1191,22 @@ func (c *EsameClient) QueryQuesiti(_m *Esame) *QuesitoEsameQuery {
 			sqlgraph.From(esame.Table, esame.FieldID, id),
 			sqlgraph.To(quesitoesame.Table, quesitoesame.FieldID),
 			sqlgraph.Edge(sqlgraph.O2M, false, esame.QuesitiTable, esame.QuesitiColumn),
+		)
+		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
+		return fromV, nil
+	}
+	return query
+}
+
+// QueryCorrezioni queries the correzioni edge of a Esame.
+func (c *EsameClient) QueryCorrezioni(_m *Esame) *CorrezioneQuery {
+	query := (&CorrezioneClient{config: c.config}).Query()
+	query.path = func(context.Context) (fromV *sql.Selector, _ error) {
+		id := _m.ID
+		step := sqlgraph.NewStep(
+			sqlgraph.From(esame.Table, esame.FieldID, id),
+			sqlgraph.To(correzione.Table, correzione.FieldID),
+			sqlgraph.Edge(sqlgraph.O2M, false, esame.CorrezioniTable, esame.CorrezioniColumn),
 		)
 		fromV = sqlgraph.Neighbors(_m.driver.Dialect(), step)
 		return fromV, nil
@@ -1665,12 +1838,12 @@ func (c *UtenteClient) mutate(ctx context.Context, m *UtenteMutation) (Value, er
 // hooks and interceptors per client, for fast access.
 type (
 	hooks struct {
-		Argomento, AttivitaQuesitoEsame, Capitolo, Domanda, Esame, QuesitoEsame, Seed,
-		Spiegazione, Utente []ent.Hook
+		Argomento, AttivitaQuesitoEsame, Capitolo, Correzione, Domanda, Esame,
+		QuesitoEsame, Seed, Spiegazione, Utente []ent.Hook
 	}
 	inters struct {
-		Argomento, AttivitaQuesitoEsame, Capitolo, Domanda, Esame, QuesitoEsame, Seed,
-		Spiegazione, Utente []ent.Interceptor
+		Argomento, AttivitaQuesitoEsame, Capitolo, Correzione, Domanda, Esame,
+		QuesitoEsame, Seed, Spiegazione, Utente []ent.Interceptor
 	}
 )
 

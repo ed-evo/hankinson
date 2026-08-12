@@ -14,6 +14,7 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/argomento"
 	"github.com/ed-evo/hankinson/server/ent/attivitaquesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
+	"github.com/ed-evo/hankinson/server/ent/correzione"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/predicate"
@@ -35,6 +36,7 @@ const (
 	TypeArgomento            = "Argomento"
 	TypeAttivitaQuesitoEsame = "AttivitaQuesitoEsame"
 	TypeCapitolo             = "Capitolo"
+	TypeCorrezione           = "Correzione"
 	TypeDomanda              = "Domanda"
 	TypeEsame                = "Esame"
 	TypeQuesitoEsame         = "QuesitoEsame"
@@ -1824,6 +1826,681 @@ func (m *CapitoloMutation) ResetEdge(name string) error {
 	return fmt.Errorf("unknown Capitolo edge %s", name)
 }
 
+// CorrezioneMutation represents an operation that mutates the Correzione nodes in the graph.
+type CorrezioneMutation struct {
+	config
+	op            Op
+	typ           string
+	id            *int
+	_type         *correzione.Type
+	esaminatore   *string
+	is_promosso   *bool
+	testo         *string
+	meta          *string
+	clearedFields map[string]struct{}
+	esame         *int
+	clearedesame  bool
+	done          bool
+	oldValue      func(context.Context) (*Correzione, error)
+	predicates    []predicate.Correzione
+}
+
+var _ ent.Mutation = (*CorrezioneMutation)(nil)
+
+// correzioneOption allows management of the mutation configuration using functional options.
+type correzioneOption func(*CorrezioneMutation)
+
+// newCorrezioneMutation creates new mutation for the Correzione entity.
+func newCorrezioneMutation(c config, op Op, opts ...correzioneOption) *CorrezioneMutation {
+	m := &CorrezioneMutation{
+		config:        c,
+		op:            op,
+		typ:           TypeCorrezione,
+		clearedFields: make(map[string]struct{}),
+	}
+	for _, opt := range opts {
+		opt(m)
+	}
+	return m
+}
+
+// withCorrezioneID sets the ID field of the mutation.
+func withCorrezioneID(id int) correzioneOption {
+	return func(m *CorrezioneMutation) {
+		var (
+			err   error
+			once  sync.Once
+			value *Correzione
+		)
+		m.oldValue = func(ctx context.Context) (*Correzione, error) {
+			once.Do(func() {
+				if m.done {
+					err = errors.New("querying old values post mutation is not allowed")
+				} else {
+					value, err = m.Client().Correzione.Get(ctx, id)
+				}
+			})
+			return value, err
+		}
+		m.id = &id
+	}
+}
+
+// withCorrezione sets the old Correzione of the mutation.
+func withCorrezione(node *Correzione) correzioneOption {
+	return func(m *CorrezioneMutation) {
+		m.oldValue = func(context.Context) (*Correzione, error) {
+			return node, nil
+		}
+		m.id = &node.ID
+	}
+}
+
+// Client returns a new `ent.Client` from the mutation. If the mutation was
+// executed in a transaction (ent.Tx), a transactional client is returned.
+func (m CorrezioneMutation) Client() *Client {
+	client := &Client{config: m.config}
+	client.init()
+	return client
+}
+
+// Tx returns an `ent.Tx` for mutations that were executed in transactions;
+// it returns an error otherwise.
+func (m CorrezioneMutation) Tx() (*Tx, error) {
+	if _, ok := m.driver.(*txDriver); !ok {
+		return nil, errors.New("ent: mutation is not running in a transaction")
+	}
+	tx := &Tx{config: m.config}
+	tx.init()
+	return tx, nil
+}
+
+// ID returns the ID value in the mutation. Note that the ID is only available
+// if it was provided to the builder or after it was returned from the database.
+func (m *CorrezioneMutation) ID() (id int, exists bool) {
+	if m.id == nil {
+		return
+	}
+	return *m.id, true
+}
+
+// IDs queries the database and returns the entity ids that match the mutation's predicate.
+// That means, if the mutation is applied within a transaction with an isolation level such
+// as sql.LevelSerializable, the returned ids match the ids of the rows that will be updated
+// or updated by the mutation.
+func (m *CorrezioneMutation) IDs(ctx context.Context) ([]int, error) {
+	switch {
+	case m.op.Is(OpUpdateOne | OpDeleteOne):
+		id, exists := m.ID()
+		if exists {
+			return []int{id}, nil
+		}
+		fallthrough
+	case m.op.Is(OpUpdate | OpDelete):
+		return m.Client().Correzione.Query().Where(m.predicates...).IDs(ctx)
+	default:
+		return nil, fmt.Errorf("IDs is not allowed on %s operations", m.op)
+	}
+}
+
+// SetEsameID sets the "esame_id" field.
+func (m *CorrezioneMutation) SetEsameID(i int) {
+	m.esame = &i
+}
+
+// EsameID returns the value of the "esame_id" field in the mutation.
+func (m *CorrezioneMutation) EsameID() (r int, exists bool) {
+	v := m.esame
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldEsameID returns the old "esame_id" field's value of the Correzione entity.
+// If the Correzione object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *CorrezioneMutation) OldEsameID(ctx context.Context) (v int, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldEsameID is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldEsameID requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldEsameID: %w", err)
+	}
+	return oldValue.EsameID, nil
+}
+
+// ResetEsameID resets all changes to the "esame_id" field.
+func (m *CorrezioneMutation) ResetEsameID() {
+	m.esame = nil
+}
+
+// SetType sets the "type" field.
+func (m *CorrezioneMutation) SetType(c correzione.Type) {
+	m._type = &c
+}
+
+// GetType returns the value of the "type" field in the mutation.
+func (m *CorrezioneMutation) GetType() (r correzione.Type, exists bool) {
+	v := m._type
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldType returns the old "type" field's value of the Correzione entity.
+// If the Correzione object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *CorrezioneMutation) OldType(ctx context.Context) (v correzione.Type, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldType is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldType requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldType: %w", err)
+	}
+	return oldValue.Type, nil
+}
+
+// ResetType resets all changes to the "type" field.
+func (m *CorrezioneMutation) ResetType() {
+	m._type = nil
+}
+
+// SetEsaminatore sets the "esaminatore" field.
+func (m *CorrezioneMutation) SetEsaminatore(s string) {
+	m.esaminatore = &s
+}
+
+// Esaminatore returns the value of the "esaminatore" field in the mutation.
+func (m *CorrezioneMutation) Esaminatore() (r string, exists bool) {
+	v := m.esaminatore
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldEsaminatore returns the old "esaminatore" field's value of the Correzione entity.
+// If the Correzione object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *CorrezioneMutation) OldEsaminatore(ctx context.Context) (v string, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldEsaminatore is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldEsaminatore requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldEsaminatore: %w", err)
+	}
+	return oldValue.Esaminatore, nil
+}
+
+// ResetEsaminatore resets all changes to the "esaminatore" field.
+func (m *CorrezioneMutation) ResetEsaminatore() {
+	m.esaminatore = nil
+}
+
+// SetIsPromosso sets the "is_promosso" field.
+func (m *CorrezioneMutation) SetIsPromosso(b bool) {
+	m.is_promosso = &b
+}
+
+// IsPromosso returns the value of the "is_promosso" field in the mutation.
+func (m *CorrezioneMutation) IsPromosso() (r bool, exists bool) {
+	v := m.is_promosso
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldIsPromosso returns the old "is_promosso" field's value of the Correzione entity.
+// If the Correzione object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *CorrezioneMutation) OldIsPromosso(ctx context.Context) (v bool, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldIsPromosso is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldIsPromosso requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldIsPromosso: %w", err)
+	}
+	return oldValue.IsPromosso, nil
+}
+
+// ResetIsPromosso resets all changes to the "is_promosso" field.
+func (m *CorrezioneMutation) ResetIsPromosso() {
+	m.is_promosso = nil
+}
+
+// SetTesto sets the "testo" field.
+func (m *CorrezioneMutation) SetTesto(s string) {
+	m.testo = &s
+}
+
+// Testo returns the value of the "testo" field in the mutation.
+func (m *CorrezioneMutation) Testo() (r string, exists bool) {
+	v := m.testo
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldTesto returns the old "testo" field's value of the Correzione entity.
+// If the Correzione object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *CorrezioneMutation) OldTesto(ctx context.Context) (v string, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldTesto is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldTesto requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldTesto: %w", err)
+	}
+	return oldValue.Testo, nil
+}
+
+// ResetTesto resets all changes to the "testo" field.
+func (m *CorrezioneMutation) ResetTesto() {
+	m.testo = nil
+}
+
+// SetMeta sets the "meta" field.
+func (m *CorrezioneMutation) SetMeta(s string) {
+	m.meta = &s
+}
+
+// Meta returns the value of the "meta" field in the mutation.
+func (m *CorrezioneMutation) Meta() (r string, exists bool) {
+	v := m.meta
+	if v == nil {
+		return
+	}
+	return *v, true
+}
+
+// OldMeta returns the old "meta" field's value of the Correzione entity.
+// If the Correzione object wasn't provided to the builder, the object is fetched from the database.
+// An error is returned if the mutation operation is not UpdateOne, or the database query fails.
+func (m *CorrezioneMutation) OldMeta(ctx context.Context) (v string, err error) {
+	if !m.op.Is(OpUpdateOne) {
+		return v, errors.New("OldMeta is only allowed on UpdateOne operations")
+	}
+	if m.id == nil || m.oldValue == nil {
+		return v, errors.New("OldMeta requires an ID field in the mutation")
+	}
+	oldValue, err := m.oldValue(ctx)
+	if err != nil {
+		return v, fmt.Errorf("querying old value for OldMeta: %w", err)
+	}
+	return oldValue.Meta, nil
+}
+
+// ClearMeta clears the value of the "meta" field.
+func (m *CorrezioneMutation) ClearMeta() {
+	m.meta = nil
+	m.clearedFields[correzione.FieldMeta] = struct{}{}
+}
+
+// MetaCleared returns if the "meta" field was cleared in this mutation.
+func (m *CorrezioneMutation) MetaCleared() bool {
+	_, ok := m.clearedFields[correzione.FieldMeta]
+	return ok
+}
+
+// ResetMeta resets all changes to the "meta" field.
+func (m *CorrezioneMutation) ResetMeta() {
+	m.meta = nil
+	delete(m.clearedFields, correzione.FieldMeta)
+}
+
+// ClearEsame clears the "esame" edge to the Esame entity.
+func (m *CorrezioneMutation) ClearEsame() {
+	m.clearedesame = true
+	m.clearedFields[correzione.FieldEsameID] = struct{}{}
+}
+
+// EsameCleared reports if the "esame" edge to the Esame entity was cleared.
+func (m *CorrezioneMutation) EsameCleared() bool {
+	return m.clearedesame
+}
+
+// EsameIDs returns the "esame" edge IDs in the mutation.
+// Note that IDs always returns len(IDs) <= 1 for unique edges, and you should use
+// EsameID instead. It exists only for internal usage by the builders.
+func (m *CorrezioneMutation) EsameIDs() (ids []int) {
+	if id := m.esame; id != nil {
+		ids = append(ids, *id)
+	}
+	return
+}
+
+// ResetEsame resets all changes to the "esame" edge.
+func (m *CorrezioneMutation) ResetEsame() {
+	m.esame = nil
+	m.clearedesame = false
+}
+
+// Where appends a list predicates to the CorrezioneMutation builder.
+func (m *CorrezioneMutation) Where(ps ...predicate.Correzione) {
+	m.predicates = append(m.predicates, ps...)
+}
+
+// WhereP appends storage-level predicates to the CorrezioneMutation builder. Using this method,
+// users can use type-assertion to append predicates that do not depend on any generated package.
+func (m *CorrezioneMutation) WhereP(ps ...func(*sql.Selector)) {
+	p := make([]predicate.Correzione, len(ps))
+	for i := range ps {
+		p[i] = ps[i]
+	}
+	m.Where(p...)
+}
+
+// Op returns the operation name.
+func (m *CorrezioneMutation) Op() Op {
+	return m.op
+}
+
+// SetOp allows setting the mutation operation.
+func (m *CorrezioneMutation) SetOp(op Op) {
+	m.op = op
+}
+
+// Type returns the node type of this mutation (Correzione).
+func (m *CorrezioneMutation) Type() string {
+	return m.typ
+}
+
+// Fields returns all fields that were changed during this mutation. Note that in
+// order to get all numeric fields that were incremented/decremented, call
+// AddedFields().
+func (m *CorrezioneMutation) Fields() []string {
+	fields := make([]string, 0, 6)
+	if m.esame != nil {
+		fields = append(fields, correzione.FieldEsameID)
+	}
+	if m._type != nil {
+		fields = append(fields, correzione.FieldType)
+	}
+	if m.esaminatore != nil {
+		fields = append(fields, correzione.FieldEsaminatore)
+	}
+	if m.is_promosso != nil {
+		fields = append(fields, correzione.FieldIsPromosso)
+	}
+	if m.testo != nil {
+		fields = append(fields, correzione.FieldTesto)
+	}
+	if m.meta != nil {
+		fields = append(fields, correzione.FieldMeta)
+	}
+	return fields
+}
+
+// Field returns the value of a field with the given name. The second boolean
+// return value indicates that this field was not set, or was not defined in the
+// schema.
+func (m *CorrezioneMutation) Field(name string) (ent.Value, bool) {
+	switch name {
+	case correzione.FieldEsameID:
+		return m.EsameID()
+	case correzione.FieldType:
+		return m.GetType()
+	case correzione.FieldEsaminatore:
+		return m.Esaminatore()
+	case correzione.FieldIsPromosso:
+		return m.IsPromosso()
+	case correzione.FieldTesto:
+		return m.Testo()
+	case correzione.FieldMeta:
+		return m.Meta()
+	}
+	return nil, false
+}
+
+// OldField returns the old value of the field from the database. An error is
+// returned if the mutation operation is not UpdateOne, or the query to the
+// database failed.
+func (m *CorrezioneMutation) OldField(ctx context.Context, name string) (ent.Value, error) {
+	switch name {
+	case correzione.FieldEsameID:
+		return m.OldEsameID(ctx)
+	case correzione.FieldType:
+		return m.OldType(ctx)
+	case correzione.FieldEsaminatore:
+		return m.OldEsaminatore(ctx)
+	case correzione.FieldIsPromosso:
+		return m.OldIsPromosso(ctx)
+	case correzione.FieldTesto:
+		return m.OldTesto(ctx)
+	case correzione.FieldMeta:
+		return m.OldMeta(ctx)
+	}
+	return nil, fmt.Errorf("unknown Correzione field %s", name)
+}
+
+// SetField sets the value of a field with the given name. It returns an error if
+// the field is not defined in the schema, or if the type mismatched the field
+// type.
+func (m *CorrezioneMutation) SetField(name string, value ent.Value) error {
+	switch name {
+	case correzione.FieldEsameID:
+		v, ok := value.(int)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetEsameID(v)
+		return nil
+	case correzione.FieldType:
+		v, ok := value.(correzione.Type)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetType(v)
+		return nil
+	case correzione.FieldEsaminatore:
+		v, ok := value.(string)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetEsaminatore(v)
+		return nil
+	case correzione.FieldIsPromosso:
+		v, ok := value.(bool)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetIsPromosso(v)
+		return nil
+	case correzione.FieldTesto:
+		v, ok := value.(string)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetTesto(v)
+		return nil
+	case correzione.FieldMeta:
+		v, ok := value.(string)
+		if !ok {
+			return fmt.Errorf("unexpected type %T for field %s", value, name)
+		}
+		m.SetMeta(v)
+		return nil
+	}
+	return fmt.Errorf("unknown Correzione field %s", name)
+}
+
+// AddedFields returns all numeric fields that were incremented/decremented during
+// this mutation.
+func (m *CorrezioneMutation) AddedFields() []string {
+	var fields []string
+	return fields
+}
+
+// AddedField returns the numeric value that was incremented/decremented on a field
+// with the given name. The second boolean return value indicates that this field
+// was not set, or was not defined in the schema.
+func (m *CorrezioneMutation) AddedField(name string) (ent.Value, bool) {
+	switch name {
+	}
+	return nil, false
+}
+
+// AddField adds the value to the field with the given name. It returns an error if
+// the field is not defined in the schema, or if the type mismatched the field
+// type.
+func (m *CorrezioneMutation) AddField(name string, value ent.Value) error {
+	switch name {
+	}
+	return fmt.Errorf("unknown Correzione numeric field %s", name)
+}
+
+// ClearedFields returns all nullable fields that were cleared during this
+// mutation.
+func (m *CorrezioneMutation) ClearedFields() []string {
+	var fields []string
+	if m.FieldCleared(correzione.FieldMeta) {
+		fields = append(fields, correzione.FieldMeta)
+	}
+	return fields
+}
+
+// FieldCleared returns a boolean indicating if a field with the given name was
+// cleared in this mutation.
+func (m *CorrezioneMutation) FieldCleared(name string) bool {
+	_, ok := m.clearedFields[name]
+	return ok
+}
+
+// ClearField clears the value of the field with the given name. It returns an
+// error if the field is not defined in the schema.
+func (m *CorrezioneMutation) ClearField(name string) error {
+	switch name {
+	case correzione.FieldMeta:
+		m.ClearMeta()
+		return nil
+	}
+	return fmt.Errorf("unknown Correzione nullable field %s", name)
+}
+
+// ResetField resets all changes in the mutation for the field with the given name.
+// It returns an error if the field is not defined in the schema.
+func (m *CorrezioneMutation) ResetField(name string) error {
+	switch name {
+	case correzione.FieldEsameID:
+		m.ResetEsameID()
+		return nil
+	case correzione.FieldType:
+		m.ResetType()
+		return nil
+	case correzione.FieldEsaminatore:
+		m.ResetEsaminatore()
+		return nil
+	case correzione.FieldIsPromosso:
+		m.ResetIsPromosso()
+		return nil
+	case correzione.FieldTesto:
+		m.ResetTesto()
+		return nil
+	case correzione.FieldMeta:
+		m.ResetMeta()
+		return nil
+	}
+	return fmt.Errorf("unknown Correzione field %s", name)
+}
+
+// AddedEdges returns all edge names that were set/added in this mutation.
+func (m *CorrezioneMutation) AddedEdges() []string {
+	edges := make([]string, 0, 1)
+	if m.esame != nil {
+		edges = append(edges, correzione.EdgeEsame)
+	}
+	return edges
+}
+
+// AddedIDs returns all IDs (to other nodes) that were added for the given edge
+// name in this mutation.
+func (m *CorrezioneMutation) AddedIDs(name string) []ent.Value {
+	switch name {
+	case correzione.EdgeEsame:
+		if id := m.esame; id != nil {
+			return []ent.Value{*id}
+		}
+	}
+	return nil
+}
+
+// RemovedEdges returns all edge names that were removed in this mutation.
+func (m *CorrezioneMutation) RemovedEdges() []string {
+	edges := make([]string, 0, 1)
+	return edges
+}
+
+// RemovedIDs returns all IDs (to other nodes) that were removed for the edge with
+// the given name in this mutation.
+func (m *CorrezioneMutation) RemovedIDs(name string) []ent.Value {
+	return nil
+}
+
+// ClearedEdges returns all edge names that were cleared in this mutation.
+func (m *CorrezioneMutation) ClearedEdges() []string {
+	edges := make([]string, 0, 1)
+	if m.clearedesame {
+		edges = append(edges, correzione.EdgeEsame)
+	}
+	return edges
+}
+
+// EdgeCleared returns a boolean which indicates if the edge with the given name
+// was cleared in this mutation.
+func (m *CorrezioneMutation) EdgeCleared(name string) bool {
+	switch name {
+	case correzione.EdgeEsame:
+		return m.clearedesame
+	}
+	return false
+}
+
+// ClearEdge clears the value of the edge with the given name. It returns an error
+// if that edge is not defined in the schema.
+func (m *CorrezioneMutation) ClearEdge(name string) error {
+	switch name {
+	case correzione.EdgeEsame:
+		m.ClearEsame()
+		return nil
+	}
+	return fmt.Errorf("unknown Correzione unique edge %s", name)
+}
+
+// ResetEdge resets all changes to the edge with the given name in this mutation.
+// It returns an error if the edge is not defined in the schema.
+func (m *CorrezioneMutation) ResetEdge(name string) error {
+	switch name {
+	case correzione.EdgeEsame:
+		m.ResetEsame()
+		return nil
+	}
+	return fmt.Errorf("unknown Correzione edge %s", name)
+}
+
 // DomandaMutation represents an operation that mutates the Domanda nodes in the graph.
 type DomandaMutation struct {
 	config
@@ -2773,6 +3450,9 @@ type EsameMutation struct {
 	quesiti               map[int]struct{}
 	removedquesiti        map[int]struct{}
 	clearedquesiti        bool
+	correzioni            map[int]struct{}
+	removedcorrezioni     map[int]struct{}
+	clearedcorrezioni     bool
 	done                  bool
 	oldValue              func(context.Context) (*Esame, error)
 	predicates            []predicate.Esame
@@ -3245,6 +3925,60 @@ func (m *EsameMutation) ResetQuesiti() {
 	m.removedquesiti = nil
 }
 
+// AddCorrezioniIDs adds the "correzioni" edge to the Correzione entity by ids.
+func (m *EsameMutation) AddCorrezioniIDs(ids ...int) {
+	if m.correzioni == nil {
+		m.correzioni = make(map[int]struct{})
+	}
+	for i := range ids {
+		m.correzioni[ids[i]] = struct{}{}
+	}
+}
+
+// ClearCorrezioni clears the "correzioni" edge to the Correzione entity.
+func (m *EsameMutation) ClearCorrezioni() {
+	m.clearedcorrezioni = true
+}
+
+// CorrezioniCleared reports if the "correzioni" edge to the Correzione entity was cleared.
+func (m *EsameMutation) CorrezioniCleared() bool {
+	return m.clearedcorrezioni
+}
+
+// RemoveCorrezioniIDs removes the "correzioni" edge to the Correzione entity by IDs.
+func (m *EsameMutation) RemoveCorrezioniIDs(ids ...int) {
+	if m.removedcorrezioni == nil {
+		m.removedcorrezioni = make(map[int]struct{})
+	}
+	for i := range ids {
+		delete(m.correzioni, ids[i])
+		m.removedcorrezioni[ids[i]] = struct{}{}
+	}
+}
+
+// RemovedCorrezioni returns the removed IDs of the "correzioni" edge to the Correzione entity.
+func (m *EsameMutation) RemovedCorrezioniIDs() (ids []int) {
+	for id := range m.removedcorrezioni {
+		ids = append(ids, id)
+	}
+	return
+}
+
+// CorrezioniIDs returns the "correzioni" edge IDs in the mutation.
+func (m *EsameMutation) CorrezioniIDs() (ids []int) {
+	for id := range m.correzioni {
+		ids = append(ids, id)
+	}
+	return
+}
+
+// ResetCorrezioni resets all changes to the "correzioni" edge.
+func (m *EsameMutation) ResetCorrezioni() {
+	m.correzioni = nil
+	m.clearedcorrezioni = false
+	m.removedcorrezioni = nil
+}
+
 // Where appends a list predicates to the EsameMutation builder.
 func (m *EsameMutation) Where(ps ...predicate.Esame) {
 	m.predicates = append(m.predicates, ps...)
@@ -3502,12 +4236,15 @@ func (m *EsameMutation) ResetField(name string) error {
 
 // AddedEdges returns all edge names that were set/added in this mutation.
 func (m *EsameMutation) AddedEdges() []string {
-	edges := make([]string, 0, 2)
+	edges := make([]string, 0, 3)
 	if m.utente != nil {
 		edges = append(edges, esame.EdgeUtente)
 	}
 	if m.quesiti != nil {
 		edges = append(edges, esame.EdgeQuesiti)
+	}
+	if m.correzioni != nil {
+		edges = append(edges, esame.EdgeCorrezioni)
 	}
 	return edges
 }
@@ -3526,15 +4263,24 @@ func (m *EsameMutation) AddedIDs(name string) []ent.Value {
 			ids = append(ids, id)
 		}
 		return ids
+	case esame.EdgeCorrezioni:
+		ids := make([]ent.Value, 0, len(m.correzioni))
+		for id := range m.correzioni {
+			ids = append(ids, id)
+		}
+		return ids
 	}
 	return nil
 }
 
 // RemovedEdges returns all edge names that were removed in this mutation.
 func (m *EsameMutation) RemovedEdges() []string {
-	edges := make([]string, 0, 2)
+	edges := make([]string, 0, 3)
 	if m.removedquesiti != nil {
 		edges = append(edges, esame.EdgeQuesiti)
+	}
+	if m.removedcorrezioni != nil {
+		edges = append(edges, esame.EdgeCorrezioni)
 	}
 	return edges
 }
@@ -3549,18 +4295,27 @@ func (m *EsameMutation) RemovedIDs(name string) []ent.Value {
 			ids = append(ids, id)
 		}
 		return ids
+	case esame.EdgeCorrezioni:
+		ids := make([]ent.Value, 0, len(m.removedcorrezioni))
+		for id := range m.removedcorrezioni {
+			ids = append(ids, id)
+		}
+		return ids
 	}
 	return nil
 }
 
 // ClearedEdges returns all edge names that were cleared in this mutation.
 func (m *EsameMutation) ClearedEdges() []string {
-	edges := make([]string, 0, 2)
+	edges := make([]string, 0, 3)
 	if m.clearedutente {
 		edges = append(edges, esame.EdgeUtente)
 	}
 	if m.clearedquesiti {
 		edges = append(edges, esame.EdgeQuesiti)
+	}
+	if m.clearedcorrezioni {
+		edges = append(edges, esame.EdgeCorrezioni)
 	}
 	return edges
 }
@@ -3573,6 +4328,8 @@ func (m *EsameMutation) EdgeCleared(name string) bool {
 		return m.clearedutente
 	case esame.EdgeQuesiti:
 		return m.clearedquesiti
+	case esame.EdgeCorrezioni:
+		return m.clearedcorrezioni
 	}
 	return false
 }
@@ -3597,6 +4354,9 @@ func (m *EsameMutation) ResetEdge(name string) error {
 		return nil
 	case esame.EdgeQuesiti:
 		m.ResetQuesiti()
+		return nil
+	case esame.EdgeCorrezioni:
+		m.ResetCorrezioni()
 		return nil
 	}
 	return fmt.Errorf("unknown Esame edge %s", name)

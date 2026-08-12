@@ -43,9 +43,11 @@ type EsameEdges struct {
 	Utente *Utente `json:"utente,omitempty"`
 	// Quesiti holds the value of the quesiti edge.
 	Quesiti []*QuesitoEsame `json:"quesiti,omitempty"`
+	// Correzioni holds the value of the correzioni edge.
+	Correzioni []*Correzione `json:"correzioni,omitempty"`
 	// loadedTypes holds the information for reporting if a
 	// type was loaded (or requested) in eager-loading or not.
-	loadedTypes [2]bool
+	loadedTypes [3]bool
 }
 
 // UtenteOrErr returns the Utente value or an error if the edge
@@ -66,6 +68,15 @@ func (e EsameEdges) QuesitiOrErr() ([]*QuesitoEsame, error) {
 		return e.Quesiti, nil
 	}
 	return nil, &NotLoadedError{edge: "quesiti"}
+}
+
+// CorrezioniOrErr returns the Correzioni value or an error if the edge
+// was not loaded in eager-loading.
+func (e EsameEdges) CorrezioniOrErr() ([]*Correzione, error) {
+	if e.loadedTypes[2] {
+		return e.Correzioni, nil
+	}
+	return nil, &NotLoadedError{edge: "correzioni"}
 }
 
 // scanValues returns the types for scanning values from sql.Rows.
@@ -166,6 +177,11 @@ func (_m *Esame) QueryUtente() *UtenteQuery {
 // QueryQuesiti queries the "quesiti" edge of the Esame entity.
 func (_m *Esame) QueryQuesiti() *QuesitoEsameQuery {
 	return NewEsameClient(_m.config).QueryQuesiti(_m)
+}
+
+// QueryCorrezioni queries the "correzioni" edge of the Esame entity.
+func (_m *Esame) QueryCorrezioni() *CorrezioneQuery {
+	return NewEsameClient(_m.config).QueryCorrezioni(_m)
 }
 
 // Update returns a builder for updating this Esame.

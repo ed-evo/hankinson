@@ -20,6 +20,8 @@ type Tx struct {
 	AttivitaQuesitoEsame *AttivitaQuesitoEsameClient
 	// Capitolo is the client for interacting with the Capitolo builders.
 	Capitolo *CapitoloClient
+	// Correzione is the client for interacting with the Correzione builders.
+	Correzione *CorrezioneClient
 	// Domanda is the client for interacting with the Domanda builders.
 	Domanda *DomandaClient
 	// Esame is the client for interacting with the Esame builders.
@@ -166,6 +168,7 @@ func (tx *Tx) init() {
 	tx.Argomento = NewArgomentoClient(tx.config)
 	tx.AttivitaQuesitoEsame = NewAttivitaQuesitoEsameClient(tx.config)
 	tx.Capitolo = NewCapitoloClient(tx.config)
+	tx.Correzione = NewCorrezioneClient(tx.config)
 	tx.Domanda = NewDomandaClient(tx.config)
 	tx.Esame = NewEsameClient(tx.config)
 	tx.QuesitoEsame = NewQuesitoEsameClient(tx.config)

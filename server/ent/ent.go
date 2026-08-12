@@ -15,6 +15,7 @@ import (
 	"github.com/ed-evo/hankinson/server/ent/argomento"
 	"github.com/ed-evo/hankinson/server/ent/attivitaquesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/capitolo"
+	"github.com/ed-evo/hankinson/server/ent/correzione"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
 	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
@@ -84,6 +85,7 @@ func checkColumn(t, c string) error {
 			argomento.Table:            argomento.ValidColumn,
 			attivitaquesitoesame.Table: attivitaquesitoesame.ValidColumn,
 			capitolo.Table:             capitolo.ValidColumn,
+			correzione.Table:           correzione.ValidColumn,
 			domanda.Table:              domanda.ValidColumn,
 			esame.Table:                esame.ValidColumn,
 			quesitoesame.Table:         quesitoesame.ValidColumn,

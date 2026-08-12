@@ -65,6 +65,37 @@ var (
 		Columns:    CapitoliColumns,
 		PrimaryKey: []*schema.Column{CapitoliColumns[0]},
 	}
+	// CorrezioniColumns holds the columns for the "correzioni" table.
+	CorrezioniColumns = []*schema.Column{
+		{Name: "id", Type: field.TypeInt, Increment: true},
+		{Name: "type", Type: field.TypeEnum, Enums: []string{"human", "ai"}},
+		{Name: "esaminatore", Type: field.TypeString, Size: 2147483647},
+		{Name: "is_promosso", Type: field.TypeBool},
+		{Name: "testo", Type: field.TypeString, Size: 2147483647},
+		{Name: "meta", Type: field.TypeString, Nullable: true, Size: 2147483647},
+		{Name: "esame_id", Type: field.TypeInt},
+	}
+	// CorrezioniTable holds the schema information for the "correzioni" table.
+	CorrezioniTable = &schema.Table{
+		Name:       "correzioni",
+		Columns:    CorrezioniColumns,
+		PrimaryKey: []*schema.Column{CorrezioniColumns[0]},
+		ForeignKeys: []*schema.ForeignKey{
+			{
+				Symbol:     "correzioni_esami_correzioni",
+				Columns:    []*schema.Column{CorrezioniColumns[6]},
+				RefColumns: []*schema.Column{EsamiColumns[0]},
+				OnDelete:   schema.NoAction,
+			},
+		},
+		Indexes: []*schema.Index{
+			{
+				Name:    "correzione_esaminatore_esame_id",
+				Unique:  true,
+				Columns: []*schema.Column{CorrezioniColumns[2], CorrezioniColumns[6]},
+			},
+		},
+	}
 	// DomandeColumns holds the columns for the "domande" table.
 	DomandeColumns = []*schema.Column{
 		{Name: "numero", Type: field.TypeInt},
@@ -257,6 +288,7 @@ var (
 		ArgomentiTable,
 		AttivitaQuesitoEsameTable,
 		CapitoliTable,
+		CorrezioniTable,
 		DomandeTable,
 		EsamiTable,
 		QuesitiEsameTable,
@@ -277,6 +309,10 @@ func init() {
 	}
 	CapitoliTable.Annotation = &entsql.Annotation{
 		Table: "capitoli",
+	}
+	CorrezioniTable.ForeignKeys[0].RefTable = EsamiTable
+	CorrezioniTable.Annotation = &entsql.Annotation{
+		Table: "correzioni",
 	}
 	DomandeTable.ForeignKeys[0].RefTable = CapitoliTable
 	DomandeTable.Annotation = &entsql.Annotation{

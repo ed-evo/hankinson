@@ -45,6 +45,18 @@ func (f CapitoloFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, er
 	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.CapitoloMutation", m)
 }
 
+// The CorrezioneFunc type is an adapter to allow the use of ordinary
+// function as Correzione mutator.
+type CorrezioneFunc func(context.Context, *ent.CorrezioneMutation) (ent.Value, error)
+
+// Mutate calls f(ctx, m).
+func (f CorrezioneFunc) Mutate(ctx context.Context, m ent.Mutation) (ent.Value, error) {
+	if mv, ok := m.(*ent.CorrezioneMutation); ok {
+		return f(ctx, mv)
+	}
+	return nil, fmt.Errorf("unexpected mutation type %T. expect *ent.CorrezioneMutation", m)
+}
+
 // The DomandaFunc type is an adapter to allow the use of ordinary
 // function as Domanda mutator.
 type DomandaFunc func(context.Context, *ent.DomandaMutation) (ent.Value, error)

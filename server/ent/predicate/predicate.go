@@ -15,6 +15,9 @@ type AttivitaQuesitoEsame func(*sql.Selector)
 // Capitolo is the predicate function for capitolo builders.
 type Capitolo func(*sql.Selector)
 
+// Correzione is the predicate function for correzione builders.
+type Correzione func(*sql.Selector)
+
 // Domanda is the predicate function for domanda builders.
 type Domanda func(*sql.Selector)
 

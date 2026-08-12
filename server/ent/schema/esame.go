@@ -46,6 +46,7 @@ func (Esame) Edges() []ent.Edge {
 			Unique().
 			Required(),
 		edge.To("quesiti", QuesitoEsame.Type),
+		edge.To("correzioni", Correzione.Type),
 	}
 }
 

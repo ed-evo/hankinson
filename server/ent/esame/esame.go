@@ -31,6 +31,8 @@ const (
 	EdgeUtente = "utente"
 	// EdgeQuesiti holds the string denoting the quesiti edge name in mutations.
 	EdgeQuesiti = "quesiti"
+	// EdgeCorrezioni holds the string denoting the correzioni edge name in mutations.
+	EdgeCorrezioni = "correzioni"
 	// UtenteFieldID holds the string denoting the ID field of the Utente.
 	UtenteFieldID = "email"
 	// Table holds the table name of the esame in the database.
@@ -49,6 +51,13 @@ const (
 	QuesitiInverseTable = "quesiti_esame"
 	// QuesitiColumn is the table column denoting the quesiti relation/edge.
 	QuesitiColumn = "esame_quesiti"
+	// CorrezioniTable is the table that holds the correzioni relation/edge.
+	CorrezioniTable = "correzioni"
+	// CorrezioniInverseTable is the table name for the Correzione entity.
+	// It exists in this package in order to avoid circular dependency with the "correzione" package.
+	CorrezioniInverseTable = "correzioni"
+	// CorrezioniColumn is the table column denoting the correzioni relation/edge.
+	CorrezioniColumn = "esame_id"
 )
 
 // Columns holds all SQL columns for esame fields.
@@ -176,6 +185,20 @@ func ByQuesiti(term sql.OrderTerm, terms ...sql.OrderTerm) OrderOption {
 		sqlgraph.OrderByNeighborTerms(s, newQuesitiStep(), append([]sql.OrderTerm{term}, terms...)...)
 	}
 }
+
+// ByCorrezioniCount orders the results by correzioni count.
+func ByCorrezioniCount(opts ...sql.OrderTermOption) OrderOption {
+	return func(s *sql.Selector) {
+		sqlgraph.OrderByNeighborsCount(s, newCorrezioniStep(), opts...)
+	}
+}
+
+// ByCorrezioni orders the results by correzioni terms.
+func ByCorrezioni(term sql.OrderTerm, terms ...sql.OrderTerm) OrderOption {
+	return func(s *sql.Selector) {
+		sqlgraph.OrderByNeighborTerms(s, newCorrezioniStep(), append([]sql.OrderTerm{term}, terms...)...)
+	}
+}
 func newUtenteStep() *sqlgraph.Step {
 	return sqlgraph.NewStep(
 		sqlgraph.From(Table, FieldID),
@@ -188,5 +211,12 @@ func newQuesitiStep() *sqlgraph.Step {
 		sqlgraph.From(Table, FieldID),
 		sqlgraph.To(QuesitiInverseTable, FieldID),
 		sqlgraph.Edge(sqlgraph.O2M, false, QuesitiTable, QuesitiColumn),
+	)
+}
+func newCorrezioniStep() *sqlgraph.Step {
+	return sqlgraph.NewStep(
+		sqlgraph.From(Table, FieldID),
+		sqlgraph.To(CorrezioniInverseTable, FieldID),
+		sqlgraph.Edge(sqlgraph.O2M, false, CorrezioniTable, CorrezioniColumn),
 	)
 }

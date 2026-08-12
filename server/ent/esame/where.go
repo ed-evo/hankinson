@@ -346,6 +346,29 @@ func HasQuesitiWith(preds ...predicate.QuesitoEsame) predicate.Esame {
 	})
 }
 
+// HasCorrezioni applies the HasEdge predicate on the "correzioni" edge.
+func HasCorrezioni() predicate.Esame {
+	return predicate.Esame(func(s *sql.Selector) {
+		step := sqlgraph.NewStep(
+			sqlgraph.From(Table, FieldID),
+			sqlgraph.Edge(sqlgraph.O2M, false, CorrezioniTable, CorrezioniColumn),
+		)
+		sqlgraph.HasNeighbors(s, step)
+	})
+}
+
+// HasCorrezioniWith applies the HasEdge predicate on the "correzioni" edge with a given conditions (other predicates).
+func HasCorrezioniWith(preds ...predicate.Correzione) predicate.Esame {
+	return predicate.Esame(func(s *sql.Selector) {
+		step := newCorrezioniStep()
+		sqlgraph.HasNeighborsWith(s, step, func(s *sql.Selector) {
+			for _, p := range preds {
+				p(s)
+			}
+		})
+	})
+}
+
 // And groups predicates with the AND operator between them.
 func And(predicates ...predicate.Esame) predicate.Esame {
 	return predicate.Esame(sql.AndPredicates(predicates...))

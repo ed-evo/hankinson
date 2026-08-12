@@ -11,6 +11,7 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/ed-evo/hankinson/server/ent/correzione"
 	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/predicate"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
@@ -161,6 +162,21 @@ func (_u *EsameUpdate) AddQuesiti(v ...*QuesitoEsame) *EsameUpdate {
 	return _u.AddQuesitiIDs(ids...)
 }
 
+// AddCorrezioniIDs adds the "correzioni" edge to the Correzione entity by IDs.
+func (_u *EsameUpdate) AddCorrezioniIDs(ids ...int) *EsameUpdate {
+	_u.mutation.AddCorrezioniIDs(ids...)
+	return _u
+}
+
+// AddCorrezioni adds the "correzioni" edges to the Correzione entity.
+func (_u *EsameUpdate) AddCorrezioni(v ...*Correzione) *EsameUpdate {
+	ids := make([]int, len(v))
+	for i := range v {
+		ids[i] = v[i].ID
+	}
+	return _u.AddCorrezioniIDs(ids...)
+}
+
 // Mutation returns the EsameMutation object of the builder.
 func (_u *EsameUpdate) Mutation() *EsameMutation {
 	return _u.mutation
@@ -191,6 +207,27 @@ func (_u *EsameUpdate) RemoveQuesiti(v ...*QuesitoEsame) *EsameUpdate {
 		ids[i] = v[i].ID
 	}
 	return _u.RemoveQuesitiIDs(ids...)
+}
+
+// ClearCorrezioni clears all "correzioni" edges to the Correzione entity.
+func (_u *EsameUpdate) ClearCorrezioni() *EsameUpdate {
+	_u.mutation.ClearCorrezioni()
+	return _u
+}
+
+// RemoveCorrezioniIDs removes the "correzioni" edge to Correzione entities by IDs.
+func (_u *EsameUpdate) RemoveCorrezioniIDs(ids ...int) *EsameUpdate {
+	_u.mutation.RemoveCorrezioniIDs(ids...)
+	return _u
+}
+
+// RemoveCorrezioni removes "correzioni" edges to Correzione entities.
+func (_u *EsameUpdate) RemoveCorrezioni(v ...*Correzione) *EsameUpdate {
+	ids := make([]int, len(v))
+	for i := range v {
+		ids[i] = v[i].ID
+	}
+	return _u.RemoveCorrezioniIDs(ids...)
 }
 
 // Save executes the query and returns the number of nodes affected by the update operation.
@@ -339,6 +376,51 @@ func (_u *EsameUpdate) sqlSave(ctx context.Context) (_node int, err error) {
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(quesitoesame.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_spec.Edges.Add = append(_spec.Edges.Add, edge)
+	}
+	if _u.mutation.CorrezioniCleared() {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   esame.CorrezioniTable,
+			Columns: []string{esame.CorrezioniColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(correzione.FieldID, field.TypeInt),
+			},
+		}
+		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
+	}
+	if nodes := _u.mutation.RemovedCorrezioniIDs(); len(nodes) > 0 && !_u.mutation.CorrezioniCleared() {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   esame.CorrezioniTable,
+			Columns: []string{esame.CorrezioniColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(correzione.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
+	}
+	if nodes := _u.mutation.CorrezioniIDs(); len(nodes) > 0 {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   esame.CorrezioniTable,
+			Columns: []string{esame.CorrezioniColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(correzione.FieldID, field.TypeInt),
 			},
 		}
 		for _, k := range nodes {
@@ -497,6 +579,21 @@ func (_u *EsameUpdateOne) AddQuesiti(v ...*QuesitoEsame) *EsameUpdateOne {
 	return _u.AddQuesitiIDs(ids...)
 }
 
+// AddCorrezioniIDs adds the "correzioni" edge to the Correzione entity by IDs.
+func (_u *EsameUpdateOne) AddCorrezioniIDs(ids ...int) *EsameUpdateOne {
+	_u.mutation.AddCorrezioniIDs(ids...)
+	return _u
+}
+
+// AddCorrezioni adds the "correzioni" edges to the Correzione entity.
+func (_u *EsameUpdateOne) AddCorrezioni(v ...*Correzione) *EsameUpdateOne {
+	ids := make([]int, len(v))
+	for i := range v {
+		ids[i] = v[i].ID
+	}
+	return _u.AddCorrezioniIDs(ids...)
+}
+
 // Mutation returns the EsameMutation object of the builder.
 func (_u *EsameUpdateOne) Mutation() *EsameMutation {
 	return _u.mutation
@@ -527,6 +624,27 @@ func (_u *EsameUpdateOne) RemoveQuesiti(v ...*QuesitoEsame) *EsameUpdateOne {
 		ids[i] = v[i].ID
 	}
 	return _u.RemoveQuesitiIDs(ids...)
+}
+
+// ClearCorrezioni clears all "correzioni" edges to the Correzione entity.
+func (_u *EsameUpdateOne) ClearCorrezioni() *EsameUpdateOne {
+	_u.mutation.ClearCorrezioni()
+	return _u
+}
+
+// RemoveCorrezioniIDs removes the "correzioni" edge to Correzione entities by IDs.
+func (_u *EsameUpdateOne) RemoveCorrezioniIDs(ids ...int) *EsameUpdateOne {
+	_u.mutation.RemoveCorrezioniIDs(ids...)
+	return _u
+}
+
+// RemoveCorrezioni removes "correzioni" edges to Correzione entities.
+func (_u *EsameUpdateOne) RemoveCorrezioni(v ...*Correzione) *EsameUpdateOne {
+	ids := make([]int, len(v))
+	for i := range v {
+		ids[i] = v[i].ID
+	}
+	return _u.RemoveCorrezioniIDs(ids...)
 }
 
 // Where appends a list predicates to the EsameUpdate builder.
@@ -705,6 +823,51 @@ func (_u *EsameUpdateOne) sqlSave(ctx context.Context) (_node *Esame, err error)
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(quesitoesame.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_spec.Edges.Add = append(_spec.Edges.Add, edge)
+	}
+	if _u.mutation.CorrezioniCleared() {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   esame.CorrezioniTable,
+			Columns: []string{esame.CorrezioniColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(correzione.FieldID, field.TypeInt),
+			},
+		}
+		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
+	}
+	if nodes := _u.mutation.RemovedCorrezioniIDs(); len(nodes) > 0 && !_u.mutation.CorrezioniCleared() {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   esame.CorrezioniTable,
+			Columns: []string{esame.CorrezioniColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(correzione.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_spec.Edges.Clear = append(_spec.Edges.Clear, edge)
+	}
+	if nodes := _u.mutation.CorrezioniIDs(); len(nodes) > 0 {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   esame.CorrezioniTable,
+			Columns: []string{esame.CorrezioniColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(correzione.FieldID, field.TypeInt),
 			},
 		}
 		for _, k := range nodes {

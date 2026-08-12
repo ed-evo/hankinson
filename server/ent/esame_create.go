@@ -11,6 +11,7 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/ed-evo/hankinson/server/ent/correzione"
 	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/utente"
@@ -116,6 +117,21 @@ func (_c *EsameCreate) AddQuesiti(v ...*QuesitoEsame) *EsameCreate {
 		ids[i] = v[i].ID
 	}
 	return _c.AddQuesitiIDs(ids...)
+}
+
+// AddCorrezioniIDs adds the "correzioni" edge to the Correzione entity by IDs.
+func (_c *EsameCreate) AddCorrezioniIDs(ids ...int) *EsameCreate {
+	_c.mutation.AddCorrezioniIDs(ids...)
+	return _c
+}
+
+// AddCorrezioni adds the "correzioni" edges to the Correzione entity.
+func (_c *EsameCreate) AddCorrezioni(v ...*Correzione) *EsameCreate {
+	ids := make([]int, len(v))
+	for i := range v {
+		ids[i] = v[i].ID
+	}
+	return _c.AddCorrezioniIDs(ids...)
 }
 
 // Mutation returns the EsameMutation object of the builder.
@@ -276,6 +292,22 @@ func (_c *EsameCreate) createSpec() (*Esame, *sqlgraph.CreateSpec) {
 			Bidi:    false,
 			Target: &sqlgraph.EdgeTarget{
 				IDSpec: sqlgraph.NewFieldSpec(quesitoesame.FieldID, field.TypeInt),
+			},
+		}
+		for _, k := range nodes {
+			edge.Target.Nodes = append(edge.Target.Nodes, k)
+		}
+		_spec.Edges = append(_spec.Edges, edge)
+	}
+	if nodes := _c.mutation.CorrezioniIDs(); len(nodes) > 0 {
+		edge := &sqlgraph.EdgeSpec{
+			Rel:     sqlgraph.O2M,
+			Inverse: false,
+			Table:   esame.CorrezioniTable,
+			Columns: []string{esame.CorrezioniColumn},
+			Bidi:    false,
+			Target: &sqlgraph.EdgeTarget{
+				IDSpec: sqlgraph.NewFieldSpec(correzione.FieldID, field.TypeInt),
 			},
 		}
 		for _, k := range nodes {

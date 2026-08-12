@@ -12,6 +12,7 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
+	"github.com/ed-evo/hankinson/server/ent/correzione"
 	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/predicate"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
@@ -21,13 +22,14 @@ import (
 // EsameQuery is the builder for querying Esame entities.
 type EsameQuery struct {
 	config
-	ctx         *QueryContext
-	order       []esame.OrderOption
-	inters      []Interceptor
-	predicates  []predicate.Esame
-	withUtente  *UtenteQuery
-	withQuesiti *QuesitoEsameQuery
-	withFKs     bool
+	ctx            *QueryContext
+	order          []esame.OrderOption
+	inters         []Interceptor
+	predicates     []predicate.Esame
+	withUtente     *UtenteQuery
+	withQuesiti    *QuesitoEsameQuery
+	withCorrezioni *CorrezioneQuery
+	withFKs        bool
 	// intermediate query (i.e. traversal path).
 	sql  *sql.Selector
 	path func(context.Context) (*sql.Selector, error)
@@ -101,6 +103,28 @@ func (_q *EsameQuery) QueryQuesiti() *QuesitoEsameQuery {
 			sqlgraph.From(esame.Table, esame.FieldID, selector),
 			sqlgraph.To(quesitoesame.Table, quesitoesame.FieldID),
 			sqlgraph.Edge(sqlgraph.O2M, false, esame.QuesitiTable, esame.QuesitiColumn),
+		)
+		fromU = sqlgraph.SetNeighbors(_q.driver.Dialect(), step)
+		return fromU, nil
+	}
+	return query
+}
+
+// QueryCorrezioni chains the current query on the "correzioni" edge.
+func (_q *EsameQuery) QueryCorrezioni() *CorrezioneQuery {
+	query := (&CorrezioneClient{config: _q.config}).Query()
+	query.path = func(ctx context.Context) (fromU *sql.Selector, err error) {
+		if err := _q.prepareQuery(ctx); err != nil {
+			return nil, err
+		}
+		selector := _q.sqlQuery(ctx)
+		if err := selector.Err(); err != nil {
+			return nil, err
+		}
+		step := sqlgraph.NewStep(
+			sqlgraph.From(esame.Table, esame.FieldID, selector),
+			sqlgraph.To(correzione.Table, correzione.FieldID),
+			sqlgraph.Edge(sqlgraph.O2M, false, esame.CorrezioniTable, esame.CorrezioniColumn),
 		)
 		fromU = sqlgraph.SetNeighbors(_q.driver.Dialect(), step)
 		return fromU, nil
@@ -295,13 +319,14 @@ func (_q *EsameQuery) Clone() *EsameQuery {
 		return nil
 	}
 	return &EsameQuery{
-		config:      _q.config,
-		ctx:         _q.ctx.Clone(),
-		order:       append([]esame.OrderOption{}, _q.order...),
-		inters:      append([]Interceptor{}, _q.inters...),
-		predicates:  append([]predicate.Esame{}, _q.predicates...),
-		withUtente:  _q.withUtente.Clone(),
-		withQuesiti: _q.withQuesiti.Clone(),
+		config:         _q.config,
+		ctx:            _q.ctx.Clone(),
+		order:          append([]esame.OrderOption{}, _q.order...),
+		inters:         append([]Interceptor{}, _q.inters...),
+		predicates:     append([]predicate.Esame{}, _q.predicates...),
+		withUtente:     _q.withUtente.Clone(),
+		withQuesiti:    _q.withQuesiti.Clone(),
+		withCorrezioni: _q.withCorrezioni.Clone(),
 		// clone intermediate query.
 		sql:  _q.sql.Clone(),
 		path: _q.path,
@@ -327,6 +352,17 @@ func (_q *EsameQuery) WithQuesiti(opts ...func(*QuesitoEsameQuery)) *EsameQuery 
 		opt(query)
 	}
 	_q.withQuesiti = query
+	return _q
+}
+
+// WithCorrezioni tells the query-builder to eager-load the nodes that are connected to
+// the "correzioni" edge. The optional arguments are used to configure the query builder of the edge.
+func (_q *EsameQuery) WithCorrezioni(opts ...func(*CorrezioneQuery)) *EsameQuery {
+	query := (&CorrezioneClient{config: _q.config}).Query()
+	for _, opt := range opts {
+		opt(query)
+	}
+	_q.withCorrezioni = query
 	return _q
 }
 
@@ -409,9 +445,10 @@ func (_q *EsameQuery) sqlAll(ctx context.Context, hooks ...queryHook) ([]*Esame,
 		nodes       = []*Esame{}
 		withFKs     = _q.withFKs
 		_spec       = _q.querySpec()
-		loadedTypes = [2]bool{
+		loadedTypes = [3]bool{
 			_q.withUtente != nil,
 			_q.withQuesiti != nil,
+			_q.withCorrezioni != nil,
 		}
 	)
 	if _q.withUtente != nil {
@@ -448,6 +485,13 @@ func (_q *EsameQuery) sqlAll(ctx context.Context, hooks ...queryHook) ([]*Esame,
 		if err := _q.loadQuesiti(ctx, query, nodes,
 			func(n *Esame) { n.Edges.Quesiti = []*QuesitoEsame{} },
 			func(n *Esame, e *QuesitoEsame) { n.Edges.Quesiti = append(n.Edges.Quesiti, e) }); err != nil {
+			return nil, err
+		}
+	}
+	if query := _q.withCorrezioni; query != nil {
+		if err := _q.loadCorrezioni(ctx, query, nodes,
+			func(n *Esame) { n.Edges.Correzioni = []*Correzione{} },
+			func(n *Esame, e *Correzione) { n.Edges.Correzioni = append(n.Edges.Correzioni, e) }); err != nil {
 			return nil, err
 		}
 	}
@@ -512,6 +556,36 @@ func (_q *EsameQuery) loadQuesiti(ctx context.Context, query *QuesitoEsameQuery,
 		node, ok := nodeids[*fk]
 		if !ok {
 			return fmt.Errorf(`unexpected referenced foreign-key "esame_quesiti" returned %v for node %v`, *fk, n.ID)
+		}
+		assign(node, n)
+	}
+	return nil
+}
+func (_q *EsameQuery) loadCorrezioni(ctx context.Context, query *CorrezioneQuery, nodes []*Esame, init func(*Esame), assign func(*Esame, *Correzione)) error {
+	fks := make([]driver.Value, 0, len(nodes))
+	nodeids := make(map[int]*Esame)
+	for i := range nodes {
+		fks = append(fks, nodes[i].ID)
+		nodeids[nodes[i].ID] = nodes[i]
+		if init != nil {
+			init(nodes[i])
+		}
+	}
+	if len(query.ctx.Fields) > 0 {
+		query.ctx.AppendFieldOnce(correzione.FieldEsameID)
+	}
+	query.Where(predicate.Correzione(func(s *sql.Selector) {
+		s.Where(sql.InValues(s.C(esame.CorrezioniColumn), fks...))
+	}))
+	neighbors, err := query.All(ctx)
+	if err != nil {
+		return err
+	}
+	for _, n := range neighbors {
+		fk := n.EsameID
+		node, ok := nodeids[fk]
+		if !ok {
+			return fmt.Errorf(`unexpected referenced foreign-key "esame_id" returned %v for node %v`, fk, n.ID)
 		}
 		assign(node, n)
 	}
