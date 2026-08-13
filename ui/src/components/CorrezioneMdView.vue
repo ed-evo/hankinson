@@ -1,3 +1,28 @@
+<template>
+  <div class="markdown-body" v-html="htmlContent" />
+</template>
+
+<script setup lang="ts">
+  import DOMPurify from 'dompurify'
+  import { parse } from 'marked'
+  import { computed } from 'vue'
+
+  const headerListPtn = /(#+)\s+\d+\.\s+/g
+
+  const { md } = defineProps<{
+    md: string
+  }>()
+
+  const htmlContent = computed(() => {
+    if (!md) {
+      return ''
+    }
+    console.log(md)
+    const cleanedMd = md.replaceAll(headerListPtn, '$1 ')
+    const rawHtml = parse(cleanedMd) as string
+    return DOMPurify.sanitize(rawHtml)
+  })
+</script>
 <style lang="scss" scoped>
 /* Optional minimal Vuetify typography tuning */
 .markdown-body {
@@ -31,7 +56,7 @@
     padding-left: 1rem;
     list-style-type: none;
     > li > ul {
-      list-style-type: '🠶 ';   
+      list-style-type: '🠶 ';
       li > ul {
         list-style-type: none;
         padding-left: 0;
@@ -40,28 +65,3 @@
   }
 }
 </style>
-
-<template>
-<div class="markdown-body" v-html="htmlContent"></div>
-</template>
-<script setup lang="ts">
-import { computed } from 'vue';
-import { parse } from 'marked'
-import DOMPurify from 'dompurify'
-
-const headerListPtn = /(#+)\s+\d+\.\s+/g
-
-const { md } = defineProps<{
-    md: string
-}>()
-
-const htmlContent = computed(() => {
-    if (!md) {
-        return ''
-    }
-    console.log(md)
-    const cleanedMd = md.replaceAll(headerListPtn, '$1 ')
-    const rawHtml = parse(cleanedMd) as string
-    return DOMPurify.sanitize(rawHtml)
-})
-</script>

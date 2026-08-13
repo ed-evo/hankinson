@@ -246,22 +246,22 @@ const CorrezioniSchema = z.array(CorrezioneSchema)
 
 export type Correzione = z.infer<typeof CorrezioneSchema>
 
-export async function getCorrezioniEsame(esameId: number): Promise<Correzione[]> {
+export async function getCorrezioniEsame (esameId: number): Promise<Correzione[]> {
   return hksApi<Correzione[]>(
-    `/esami/${ esameId }/correzioni`,
+    `/esami/${esameId}/correzioni`,
     {
-      parseResponse: createParserFor(CorrezioniSchema)
-    }
+      parseResponse: createParserFor(CorrezioniSchema),
+    },
   )
 }
 
-export async function aiCorrege(esameId: number): Promise<Correzione[]> {
+export async function aiCorrege (esameId: number): Promise<Correzione[]> {
   return hksApi<Correzione[]>(
-    `/esami/${ esameId }/ai-corregge`,
+    `/esami/${esameId}/ai-corregge`,
     {
       method: 'POST',
-      parseResponse: createParserFor(CorrezioniSchema)
-    }
+      parseResponse: createParserFor(CorrezioniSchema),
+    },
   )
 }
 
