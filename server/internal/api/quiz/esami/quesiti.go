@@ -1,6 +1,7 @@
 package esami_api
 
 import (
+	"fmt"
 	"log"
 	"net/http"
 	"time"
@@ -9,8 +10,10 @@ import (
 	"github.com/ed-evo/hankinson/server/ent"
 	"github.com/ed-evo/hankinson/server/ent/attivitaquesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
+	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
 	api_context "github.com/ed-evo/hankinson/server/internal/api/context"
+	api_middlewares "github.com/ed-evo/hankinson/server/internal/api/middlewares"
 	"github.com/ed-evo/hankinson/server/internal/dto"
 	"github.com/ed-evo/hankinson/server/internal/orm"
 	"github.com/go-chi/chi/v5"
@@ -113,6 +116,13 @@ func (s *QuesitiStatsResponse) Render(w http.ResponseWriter, r *http.Request) er
 func getStats(db *ent.Client) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 
+		u := api_middlewares.GetUser(r)
+		if u == nil {
+			dto.RenderError(w, r, dto.ErrInvalidRequest(fmt.Errorf("User required")))
+			return
+		}
+
+		e := sql.Table(esame.Table).As("e")
 		q := sql.Table(quesitoesame.Table).As("q")
 		d := sql.Table(domanda.Table).As("d")
 		it := d.C(domanda.FieldIsTrue)
@@ -125,16 +135,20 @@ func getStats(db *ent.Client) http.HandlerFunc {
 			sql.As(sql.Count("CASE WHEN "+rf+" IS NULL THEN 1 END"), "non_date"),
 		).
 			From(q).
+			Join(e).
+				On(q.C(quesitoesame.EsameColumn), e.C(esame.FieldID)).
 			Join(d).
-			On(
-				q.C(quesitoesame.DomandaOriginaleColumn),
-				d.C(domanda.FieldID),
+				On(
+					q.C(quesitoesame.DomandaOriginaleColumn),
+					d.C(domanda.FieldID),
+				).
+			Where(
+				sql.EQ(e.C(esame.UtenteColumn), *u),
 			)
 
-		query, _ := selector.Query()
+		query, args := selector.Query()
 
-		// quesitoesame.DomandaOriginaleColumn
-		rows, err := db.QueryContext(r.Context(), query)
+		rows, err := db.QueryContext(r.Context(), query, args...)
 		if err != nil {
 			dto.RenderError(w, r, err)
 			return

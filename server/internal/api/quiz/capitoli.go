@@ -1,12 +1,14 @@
 package quiz_api
 
 import (
+	"fmt"
 	"net/http"
 
 	"entgo.io/ent/dialect/sql"
 	"github.com/ed-evo/hankinson/server/ent"
 	"github.com/ed-evo/hankinson/server/ent/attivitaquesitoesame"
 	"github.com/ed-evo/hankinson/server/ent/domanda"
+	"github.com/ed-evo/hankinson/server/ent/esame"
 	"github.com/ed-evo/hankinson/server/ent/quesitoesame"
 	api_context "github.com/ed-evo/hankinson/server/internal/api/context"
 	api_middlewares "github.com/ed-evo/hankinson/server/internal/api/middlewares"
@@ -52,6 +54,13 @@ func (s *CapitoliStats) Render(w http.ResponseWriter, r *http.Request) error {
 
 func getBasicStats(db *ent.Client) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
+
+		u := api_middlewares.GetUser(r)
+		if u == nil {
+			dto.RenderError(w, r, dto.ErrInvalidRequest(fmt.Errorf("User required")))
+			return
+		}
+		e := sql.Table(esame.Table).As("e")
 		q := sql.Table(quesitoesame.Table).As("q")
 		qRf := q.C(quesitoesame.FieldRispostaFinale)
 		d := sql.Table(domanda.Table).As("d")
@@ -68,24 +77,29 @@ func getBasicStats(db *ent.Client) http.HandlerFunc {
 			sql.As(sql.Count(sql.Distinct("CASE WHEN "+qRf+" = "+dIt+" THEN "+dID+" END")), "corrette"),
 			sql.As(sql.Count(sql.Distinct("CASE WHEN "+qRf+" <> "+dIt+" THEN "+dID+" END")), "sbagliate"),
 			sql.As(sql.Count(sql.Distinct("CASE WHEN "+qRf+" IS NULL THEN "+dID+" END")), "non_date"),
-			sql.As(
-				sql.Sum("CASE WHEN "+aT+" = $1 THEN "+aD+" ELSE 0 END")+" + "+
-				sql.Sum("CASE WHEN "+aT+" = $2 THEN "+aD+" ELSE 0 END"),
-				"tempo",
-			),
-		).
+			).
+			AppendSelectExpr(sql.ExprP(
+				sql.As(
+					sql.Sum("CASE WHEN "+aT+" = ? THEN "+aD+" ELSE 0 END")+" + "+
+					sql.Sum("CASE WHEN "+aT+" = ? THEN "+aD+" ELSE 0 END"),
+					"tempo",
+				),
+				attivitaquesitoesame.TipoSalta,
+				attivitaquesitoesame.TipoRisposta,
+			)).
 			From(d).
 			Join(q).On(q.C(quesitoesame.DomandaOriginaleColumn), dID).
+			Join(e).On(q.C(quesitoesame.EsameColumn), e.C(esame.FieldID)).
 			LeftJoin(a).On(q.C(quesitoesame.FieldID), a.C(attivitaquesitoesame.QuesitoEsameColumn)).
+			Where(sql.EQ(e.C(esame.UtenteColumn), *u),).
 			GroupBy(cID)
 
-		query, _ := selector.Query()
+		query, args := selector.Query()
 
 		rows, err := db.QueryContext(
 			r.Context(),
 			query,
-			attivitaquesitoesame.TipoSalta,
-			attivitaquesitoesame.TipoRisposta,
+			args...,
 		)
 		if err != nil {
 			dto.RenderError(w, r, err)

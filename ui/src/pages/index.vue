@@ -32,6 +32,7 @@ meta:
     <hr>
 
     <v-pie
+      v-if="quesitiStats !== undefined && quesitiStats.totale"
       hide-slice
       inner-cut="75"
       :items="pieChartData"
@@ -43,91 +44,93 @@ meta:
             color="green"
             prepend-icon="mdi-check"
           >
-            <strong>{{ quesitiStats?.corrette }}</strong>
+            <strong>{{ quesitiStats.corrette }}</strong>
           </v-chip>
 
           <v-chip
             color="red"
             prepend-icon="mdi-close"
-          >{{ quesitiStats?.sbagliate }}</v-chip>
+          >{{ quesitiStats.sbagliate }}</v-chip>
 
           <v-chip
             color="grey"
             prepend-icon="mdi-help"
-          >{{ quesitiStats?.nonDate }}</v-chip>
+          >{{ quesitiStats.nonDate }}</v-chip>
         </div>
       </template>
     </v-pie>
 
     <hr>
 
-    <v-card>
-      <v-card-title>Errori per capitolo</v-card-title>
+    <template v-if="capitoliStats?.length">
+      <v-card>
+        <v-card-title>Errori per capitolo</v-card-title>
 
-      <v-sparkline
-        fill
-        :gradient="['green', 'red']"
-        gradient-direction="bottom"
-        :labels="capitoliIds"
-        line-width="1"
-        :model-value="erroriPercentuale"
-        smooth="4"
-      />
+        <v-sparkline
+          fill
+          :gradient="['green', 'red']"
+          gradient-direction="bottom"
+          :labels="capitoliIds"
+          line-width="1"
+          :model-value="erroriPercentuale"
+          smooth="4"
+        />
 
-      <v-card-title>Tempo medio per capitolo (Globale:
-        {{ formatDurationMs(tempoMedioGlobale || 0) }}sec.)</v-card-title>
+        <v-card-title>Tempo medio per capitolo (Globale:
+          {{ formatDurationMs(tempoMedioGlobale || 0) }}sec.)</v-card-title>
 
-      <v-sparkline
-        fill
-        :gradient="['lime', 'blue']"
-        gradient-direction="bottom"
-        :labels="capitoliIds"
-        line-width="1"
-        :model-value="tempiMedi"
-        smooth="4"
-      />
-    </v-card>
+        <v-sparkline
+          fill
+          :gradient="['lime', 'blue']"
+          gradient-direction="bottom"
+          :labels="capitoliIds"
+          line-width="1"
+          :model-value="tempiMedi"
+          smooth="4"
+        />
+      </v-card>
 
-    <v-expansion-panels variant="accordion">
-      <v-expansion-panel
-        v-for="stat in capitoliStats"
-        :key="stat.id"
-      >
-        <v-expansion-panel-title>CAP: {{ stat.id }}, TOT: {{ stat.totale }}, Media:
-          {{ formatDurationMs(stat.durataMs / stat.totale) }}</v-expansion-panel-title>
+      <v-expansion-panels variant="accordion">
+        <v-expansion-panel
+          v-for="stat in capitoliStats"
+          :key="stat.id"
+        >
+          <v-expansion-panel-title>CAP: {{ stat.id }}, TOT: {{ stat.totale }}, Media:
+            {{ formatDurationMs(stat.durataMs / stat.totale) }}</v-expansion-panel-title>
 
-        <v-expansion-panel-text>
-          <ul>
-            <li>
-              <strong>Tempo Totale:</strong>
-              <span>{{ formatDurationMs(stat.durataMs) }}</span>
-            </li>
+          <v-expansion-panel-text>
+            <ul>
+              <li>
+                <strong>Tempo Totale:</strong>
+                <span>{{ formatDurationMs(stat.durataMs) }}</span>
+              </li>
 
-            <li>
-              <strong>Media risposta:</strong>
-              <span>{{ formatDurationMs(stat.durataMs / stat.totale) }}</span>
-            </li>
+              <li>
+                <strong>Media risposta:</strong>
+                <span>{{ formatDurationMs(stat.durataMs / stat.totale) }}</span>
+              </li>
 
-            <li>
-              <strong>Totale:</strong> <span>{{ stat.totale }}</span>
-            </li>
+              <li>
+                <strong>Totale:</strong> <span>{{ stat.totale }}</span>
+              </li>
 
-            <li>
-              <strong>Corrette:</strong> <span>{{ stat.corrette }}</span>
-            </li>
+              <li>
+                <strong>Corrette:</strong> <span>{{ stat.corrette }}</span>
+              </li>
 
-            <li>
-              <strong>Sbagliate:</strong> <span>{{ stat.sbagliate }}</span>
-            </li>
+              <li>
+                <strong>Sbagliate:</strong> <span>{{ stat.sbagliate }}</span>
+              </li>
 
-            <li>
-              <strong>Non date:</strong> <span>{{ stat.nonDate }}</span>
-            </li>
-          </ul>
-          Tempo medio per
-        </v-expansion-panel-text>
-      </v-expansion-panel>
-    </v-expansion-panels>
+              <li>
+                <strong>Non date:</strong> <span>{{ stat.nonDate }}</span>
+              </li>
+            </ul>
+            Tempo medio per
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+      </v-expansion-panels>
+    </template>
   </v-sheet>
 </template>
 
