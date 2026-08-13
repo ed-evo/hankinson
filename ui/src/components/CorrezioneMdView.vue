@@ -1,4 +1,4 @@
-<style lang="css" scoped>
+<style lang="scss" scoped>
 /* Optional minimal Vuetify typography tuning */
 .markdown-body {
   :deep(h1),
@@ -18,6 +18,26 @@
     padding: 0.2rem 0.4rem;
     border-radius: 4px;
   }
+
+  :deep(ul) {
+    padding-left: 1rem;
+  }
+
+  :deep(ol) {
+    padding-left: 1.5rem;
+  }
+
+  :deep(> ul) {
+    padding-left: 1rem;
+    list-style-type: none;
+    > li > ul {
+      list-style-type: '🠶 ';   
+      li > ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+    }
+  }
 }
 </style>
 
@@ -29,6 +49,8 @@ import { computed } from 'vue';
 import { parse } from 'marked'
 import DOMPurify from 'dompurify'
 
+const headerListPtn = /(#+)\s+\d+\.\s+/g
+
 const { md } = defineProps<{
     md: string
 }>()
@@ -37,7 +59,9 @@ const htmlContent = computed(() => {
     if (!md) {
         return ''
     }
-    const rawHtml = parse(md) as string
+    console.log(md)
+    const cleanedMd = md.replaceAll(headerListPtn, '$1 ')
+    const rawHtml = parse(cleanedMd) as string
     return DOMPurify.sanitize(rawHtml)
 })
 </script>
