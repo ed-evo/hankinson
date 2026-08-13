@@ -3,6 +3,7 @@ package esami_api
 import (
 	"fmt"
 	"net/http"
+	"time"
 
 	"github.com/ed-evo/hankinson/server/ent"
 	"github.com/ed-evo/hankinson/server/ent/correzione"
@@ -12,6 +13,7 @@ import (
 	"github.com/ed-evo/hankinson/server/internal/dto"
 	"github.com/ed-evo/hankinson/server/internal/orm"
 	"github.com/go-chi/chi/v5"
+	"github.com/go-chi/chi/v5/middleware"
 )
 
 func newEsamiRouter(db *ent.Client) chi.Router {
@@ -47,7 +49,7 @@ func newEsamiRouter(db *ent.Client) chi.Router {
 			),
 		)
 
-		r.Post(
+		r.With(middleware.Timeout(10 * time.Minute)).Post(
 			"/ai-corregge",
 			ctx.JsonHandler(
 				func(r *http.Request, entity *ent.Esame) (any, error) {
